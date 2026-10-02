@@ -4,6 +4,15 @@ import { z } from "zod";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 
+/** Niveles que el jugador elige en la pantalla, agrupando los niveles CEFR. */
+export const LEVEL_GROUPS = {
+  basico: ["A1", "A2"],
+  intermedio: ["B1"],
+  avanzado: ["B2", "C1", "C2"],
+} as const satisfies Record<string, readonly (typeof LEVELS)[number][]>;
+
+export type LevelGroup = keyof typeof LEVEL_GROUPS;
+
 export const questionSchema = z
   .object({
     id: z.string().regex(/^[a-z0-9-]+$/),

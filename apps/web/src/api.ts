@@ -15,8 +15,16 @@ export interface AnswerResult {
   examples: string[];
 }
 
-export async function fetchQuestions(count = 5): Promise<PublicQuestion[]> {
-  const res = await fetch(`/api/questions/sample?count=${count}`);
+export type LevelGroup = "basico" | "intermedio" | "avanzado";
+
+export const LEVEL_GROUPS: { id: LevelGroup; name: string; levels: string }[] = [
+  { id: "basico", name: "Básico", levels: "A1 – A2" },
+  { id: "intermedio", name: "Intermedio", levels: "B1" },
+  { id: "avanzado", name: "Avanzado", levels: "B2+" },
+];
+
+export async function fetchQuestions(group: LevelGroup, count = 5): Promise<PublicQuestion[]> {
+  const res = await fetch(`/api/questions/sample?count=${count}&group=${group}`);
   if (!res.ok) throw new Error("No se pudieron cargar las preguntas");
   return res.json();
 }
