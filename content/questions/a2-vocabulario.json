@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "vocab-a2-travel-transport-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "travel-transport",
+    "tags": [
+      "vocabulary",
+      "travel"
+    ],
+    "prompt": "What does 'luggage' mean?",
+    "options": [
+      "lugar",
+      "billete",
+      "equipaje",
+      "pasaje"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Luggage\" es el equipaje: las maletas y bolsas que llevas en un viaje. Es incontable.",
+      "wrong": {
+        "lugar": "Se parece por el sonido, pero \"lugar\" en inglés es \"place\".",
+        "billete": "El billete de un viaje es \"ticket\", no \"luggage\".",
+        "pasaje": "\"Pasaje\" (el billete o el precio del viaje) se dice \"ticket\" o \"fare\"."
+      },
+      "examples": [
+        "How much luggage can I take on the plane?",
+        "My luggage is still at the hotel."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-travel-transport-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "travel-transport",
+    "tags": [
+      "vocabulary",
+      "travel"
+    ],
+    "prompt": "Our flight to London was ___ for three hours because of the snow.",
+    "options": [
+      "delayed",
+      "slow",
+      "retired",
+      "missed"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Delayed\" significa retrasado: un vuelo o tren que sale más tarde de lo previsto.",
+      "wrong": {
+        "slow": "\"Slow\" es lento (velocidad), no que salga más tarde de la hora prevista.",
+        "retired": "Falso amigo: \"retired\" significa jubilado, no \"retirado\" o cancelado. Un vuelo cancelado es \"cancelled\".",
+        "missed": "\"Missed\" es perder un vuelo porque llegas tarde tú; no describe un vuelo que sale tarde."
+      },
+      "examples": [
+        "The train was delayed by twenty minutes.",
+        "Sorry, my bus was delayed."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-travel-transport-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "travel-transport",
+    "tags": [
+      "vocabulary",
+      "travel",
+      "phrasal-verb"
+    ],
+    "prompt": "You need to ___ the train at the next station and take the number 5 bus.",
+    "options": [
+      "get down",
+      "get off",
+      "go out",
+      "descend"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Para bajarse de un tren, autobús o avión se dice \"get off\"; para subirse, \"get on\".",
+      "wrong": {
+        "get down": "En español decimos \"bajar del tren\", pero \"get down\" es agacharse o bajar de un sitio alto, no de un transporte.",
+        "go out": "\"Go out\" es salir (de casa, de fiesta), no bajarse de un tren.",
+        "descend": "\"Descend\" es descender (bajar una montaña, un avión que baja de altura); no se usa para bajarse de un tren."
+      },
+      "examples": [
+        "Get off the bus at the museum.",
+        "We got on the train in Madrid."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-shopping-money-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "shopping-money",
+    "tags": [
+      "vocabulary",
+      "shopping"
+    ],
+    "prompt": "The shop assistant gives you a piece of paper that shows what you paid. What is it called?",
+    "options": [
+      "recipe",
+      "receipt",
+      "ticket",
+      "note"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Receipt\" es el recibo o tique de compra que demuestra lo que pagaste.",
+      "wrong": {
+        "recipe": "Falso amigo: \"recipe\" es una receta de cocina, no un recibo.",
+        "ticket": "En español decimos \"tique\" de compra, pero en inglés \"ticket\" es una entrada o un billete de transporte.",
+        "note": "\"Note\" es una nota escrita o, en inglés británico, un billete de dinero (a £10 note)."
+      },
+      "examples": [
+        "Can I have the receipt, please?",
+        "Keep the receipt if you want to return it."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-shopping-money-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "shopping-money",
+    "tags": [
+      "vocabulary",
+      "shopping"
+    ],
+    "prompt": "This jacket is too expensive. I can't ___ it.",
+    "options": [
+      "afford",
+      "pay",
+      "spend",
+      "cost"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Afford\" significa poder permitirse algo, tener dinero suficiente para comprarlo.",
+      "wrong": {
+        "pay": "Para hablar de lo que compras se dice \"pay for\" (I can't pay for it); \"pay it\" sería pagar una factura.",
+        "spend": "\"Spend\" es gastar una cantidad de dinero o tiempo (spend 50 euros), no se usa con el objeto que compras.",
+        "cost": "\"Cost\" es lo que cuesta algo: el sujeto sería la chaqueta (it costs a lot), no \"I\"."
+      },
+      "examples": [
+        "We can't afford a new car this year.",
+        "Can you afford to go on holiday?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-shopping-money-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "shopping-money",
+    "tags": [
+      "vocabulary",
+      "shopping"
+    ],
+    "prompt": "The coffee was £2.50 and I gave her £5. She gave me £2.50 in ___.",
+    "options": [
+      "return",
+      "rest",
+      "exchange",
+      "change"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Change\" es el cambio o la vuelta: el dinero que te devuelven cuando pagas de más.",
+      "wrong": {
+        "return": "En español decimos \"me devolvió\", pero \"return\" es devolución de un producto, no el dinero de la vuelta.",
+        "rest": "Calco de \"el resto\"; en inglés \"rest\" no significa el dinero que te devuelven.",
+        "exchange": "\"Exchange\" es cambiar una cosa por otra o cambiar divisas, no la vuelta de una compra."
+      },
+      "examples": [
+        "Here's your change.",
+        "Sorry, I don't have any change."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-health-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "health",
+    "tags": [
+      "vocabulary",
+      "health"
+    ],
+    "prompt": "I have a terrible ___. I think I ate something bad.",
+    "options": [
+      "constipated",
+      "toothache",
+      "stomachache",
+      "cold"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Stomachache\" es dolor de estómago; es lo lógico si has comido algo en mal estado.",
+      "wrong": {
+        "constipated": "Falso amigo: \"constipated\" es estreñido (resfriado es \"have a cold\"), y además es un adjetivo: no va después de \"a terrible\".",
+        "toothache": "\"Toothache\" es dolor de muelas; no tiene relación con comer algo en mal estado.",
+        "cold": "\"A cold\" es un resfriado; no se produce por comer algo en mal estado."
+      },
+      "examples": [
+        "I've got a stomachache after that pizza.",
+        "She stayed at home with a stomachache."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-health-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "health",
+    "tags": [
+      "vocabulary",
+      "health"
+    ],
+    "prompt": "You should see a ___ about that cough. It's been two weeks.",
+    "options": [
+      "medical",
+      "doctor",
+      "medicine",
+      "cure"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Para ir al médico se dice \"see a doctor\".",
+      "wrong": {
+        "medicine": "\"Medicine\" es la medicina (el medicamento o la ciencia), no la persona que te atiende.",
+        "cure": "\"Cure\" es la cura o el remedio, no una persona; y en inglés no significa \"cura\" (sacerdote).",
+        "medical": "\"medical\" es un adjetivo (medical care, atención médica); no puede ser la persona a la que vas a ver."
+      },
+      "examples": [
+        "I'm going to see the doctor tomorrow.",
+        "The doctor gave me some medicine."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-health-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "health",
+    "tags": [
+      "vocabulary",
+      "health"
+    ],
+    "prompt": "I've got a ___ throat, so I can't sing tonight.",
+    "options": [
+      "sore",
+      "pain",
+      "hurt",
+      "ill"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Sore\" (dolorido) se usa para dolor de garganta: a sore throat.",
+      "wrong": {
+        "pain": "\"Pain\" es un sustantivo (dolor); no funciona como adjetivo delante de \"throat\".",
+        "hurt": "\"Hurt\" es un verbo (my throat hurts), no un adjetivo delante de \"throat\".",
+        "ill": "\"Ill\" (enfermo) describe a una persona, no a una parte del cuerpo."
+      },
+      "examples": [
+        "She's got a sore throat and a cold.",
+        "My throat hurts. I've got a sore throat."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-say-vs-tell-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "say-vs-tell",
+    "tags": [
+      "vocabulary",
+      "say-tell"
+    ],
+    "prompt": "Excuse me, can you ___ me the time, please?",
+    "options": [
+      "say",
+      "speak",
+      "talk",
+      "tell"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Tell\" va seguido de la persona (tell me) y se usa en expresiones como \"tell the time\".",
+      "wrong": {
+        "say": "\"Say\" no lleva la persona justo después: no se dice \"say me\".",
+        "speak": "\"Speak\" es hablar (un idioma, en general); no se usa para dar información a alguien.",
+        "talk": "\"Talk\" es conversar; no lleva un objeto como \"me the time\"."
+      },
+      "examples": [
+        "Can you tell me the way to the station?",
+        "He told us a funny story."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-say-vs-tell-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "say-vs-tell",
+    "tags": [
+      "vocabulary",
+      "say-tell"
+    ],
+    "prompt": "She ___ that she was tired and went to bed early.",
+    "options": [
+      "told",
+      "spoke",
+      "talked",
+      "said"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Say\" se usa para repetir lo que alguien dijo sin mencionar a quién: She said that…",
+      "wrong": {
+        "told": "\"Told\" necesita a la persona después: She told me that she was tired.",
+        "spoke": "\"Speak\" no introduce lo que alguien dijo con \"that\".",
+        "talked": "\"Talk\" no introduce lo que alguien dijo con \"that\"; se usa con \"about\" o \"to\"."
+      },
+      "examples": [
+        "He said that he was hungry.",
+        "They said they would come."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-say-vs-tell-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "say-vs-tell",
+    "tags": [
+      "vocabulary",
+      "say-tell"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "He said me the truth.",
+      "He told to me the truth.",
+      "He told me the truth.",
+      "He said to me the truth."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Se dice \"tell the truth\" (decir la verdad), y \"tell\" lleva la persona directamente, sin \"to\".",
+      "wrong": {
+        "He said me the truth.": "\"Say\" no lleva la persona justo después, y la expresión es \"tell the truth\".",
+        "He told to me the truth.": "Con \"tell\" la persona va sin \"to\": told me.",
+        "He said to me the truth.": "Orden incorrecto, y con \"truth\" se usa \"tell\", no \"say\"."
+      },
+      "examples": [
+        "Always tell the truth.",
+        "She told me a secret."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-speak-vs-talk-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "speak-vs-talk",
+    "tags": [
+      "vocabulary",
+      "speak-talk"
+    ],
+    "prompt": "How many languages do you ___?",
+    "options": [
+      "speak",
+      "talk",
+      "say",
+      "tell"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Con idiomas se usa siempre \"speak\": speak English, speak two languages.",
+      "wrong": {
+        "talk": "\"Talk\" es conversar; no lleva un idioma como objeto (no \"talk English\").",
+        "say": "\"Say\" es decir palabras concretas, no hablar un idioma.",
+        "tell": "\"Tell\" es contar o decir algo a alguien, no hablar un idioma."
+      },
+      "examples": [
+        "She speaks French and German.",
+        "Do you speak Spanish?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-speak-vs-talk-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "speak-vs-talk",
+    "tags": [
+      "vocabulary",
+      "speak-talk",
+      "phone"
+    ],
+    "prompt": "On the phone: \"Hello, Anna ___. How can I help you?\"",
+    "options": [
+      "talking",
+      "speaking",
+      "saying",
+      "telling"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Al contestar al teléfono se dice tu nombre + \"speaking\": \"Anna speaking\" (Habla Anna).",
+      "wrong": {
+        "talking": "Es una fórmula fija: al teléfono se usa \"speaking\", no \"talking\".",
+        "saying": "\"Say\" necesita lo que se dice; no se usa para presentarse al teléfono.",
+        "telling": "\"Tell\" necesita a quién y qué se cuenta; no funciona aquí."
+      },
+      "examples": [
+        "Good morning, David speaking.",
+        "Hello? Who's speaking, please?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-speak-vs-talk-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "speak-vs-talk",
+    "tags": [
+      "vocabulary",
+      "speak-talk"
+    ],
+    "prompt": "Tomorrow a scientist will give a ___ about climate change at our school.",
+    "options": [
+      "speak",
+      "tell",
+      "talk",
+      "conversation"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Give a talk\" es dar una charla. Aquí \"talk\" es un sustantivo.",
+      "wrong": {
+        "speak": "\"Speak\" es solo verbo; no se puede decir \"a speak\".",
+        "tell": "\"Tell\" es solo verbo; no se puede decir \"a tell\".",
+        "conversation": "Una conversación se tiene (have a conversation) entre varias personas; no se \"da\" a un público."
+      },
+      "examples": [
+        "She gave a great talk about her travels.",
+        "The talk starts at 6 pm."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-make-vs-do-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "make-vs-do",
+    "tags": [
+      "vocabulary",
+      "make-do"
+    ],
+    "prompt": "I need to ___ a phone call before the meeting starts.",
+    "options": [
+      "do",
+      "make",
+      "put",
+      "play"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Se dice \"make a phone call\" (hacer una llamada).",
+      "wrong": {
+        "do": "En español decimos \"hacer una llamada\", pero en inglés no es \"do a call\": es \"make a call\".",
+        "put": "\"Put\" es poner; no se usa con \"a phone call\".",
+        "play": "\"Play\" es jugar o tocar; no tiene sentido con una llamada."
+      },
+      "examples": [
+        "Can I make a quick call?",
+        "She made three phone calls this morning."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-make-vs-do-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "make-vs-do",
+    "tags": [
+      "vocabulary",
+      "make-do",
+      "home"
+    ],
+    "prompt": "Can you help me ___ the washing-up after dinner?",
+    "options": [
+      "make",
+      "clean",
+      "wash",
+      "do"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Las tareas de la casa suelen ir con \"do\": do the washing-up, do the cleaning.",
+      "wrong": {
+        "make": "\"Make\" se usa para crear algo (make dinner), no para tareas como fregar.",
+        "clean": "\"Clean\" es limpiar, pero \"the washing-up\" ya es la tarea; se dice \"do the washing-up\".",
+        "wash": "\"Wash the washing-up\" repite la idea; se dice \"wash the dishes\" o \"do the washing-up\"."
+      },
+      "examples": [
+        "I'll do the washing-up tonight.",
+        "Who does the shopping in your house?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-make-vs-do-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "make-vs-do",
+    "tags": [
+      "vocabulary",
+      "make-do"
+    ],
+    "prompt": "Sorry, I ___ a mistake in your email address.",
+    "options": [
+      "made",
+      "did",
+      "had",
+      "put"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Se dice \"make a mistake\" (cometer un error).",
+      "wrong": {
+        "did": "En español decimos \"hacer\" un error, pero en inglés es \"make\", nunca \"do a mistake\".",
+        "had": "\"Have a mistake\" no es correcto; un error se \"make\".",
+        "put": "\"Put\" es poner; no se usa con \"mistake\"."
+      },
+      "examples": [
+        "Everyone makes mistakes.",
+        "I made a mistake in the exam."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-emotions-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "emotions",
+    "tags": [
+      "vocabulary",
+      "feelings",
+      "adjectives"
+    ],
+    "prompt": "The film was so ___ that I fell asleep.",
+    "options": [
+      "boring",
+      "bored",
+      "funny",
+      "tired"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Los adjetivos en -ing describen la cosa que causa el sentimiento (boring = aburrido, que aburre).",
+      "wrong": {
+        "bored": "\"Bored\" describe a la persona que se aburre (I was bored), no a la película.",
+        "funny": "Si la película fuera divertida no te habrías dormido; no tiene sentido aquí.",
+        "tired": "\"Tired\" describe a una persona cansada, no a una película."
+      },
+      "examples": [
+        "The class was boring, so I was bored.",
+        "What a boring book!"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-emotions-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "emotions",
+    "tags": [
+      "vocabulary",
+      "feelings"
+    ],
+    "prompt": "What does 'I miss you' mean?",
+    "options": [
+      "Te pierdo",
+      "Me equivoco contigo",
+      "Te echo de menos",
+      "Te falto"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Miss someone\" significa echar de menos a alguien.",
+      "wrong": {
+        "Te pierdo": "\"Miss\" puede ser perder (un tren), pero con personas significa echar de menos. \"Perder a alguien\" es \"lose someone\".",
+        "Me equivoco contigo": "Equivocarse es \"make a mistake\" o \"be wrong\", no \"miss\".",
+        "Te falto": "No es el significado; \"I miss you\" expresa que sientes la falta de esa persona."
+      },
+      "examples": [
+        "I miss my family when I travel.",
+        "We miss you! Come back soon."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-emotions-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "emotions",
+    "tags": [
+      "vocabulary",
+      "feelings"
+    ],
+    "prompt": "Her parents were very ___ of her when she finished university.",
+    "options": [
+      "pride",
+      "happy",
+      "glad",
+      "proud"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Be proud of someone\" es estar orgulloso de alguien.",
+      "wrong": {
+        "pride": "\"Pride\" es el sustantivo (orgullo); después de \"were very\" hace falta el adjetivo \"proud\".",
+        "happy": "\"Happy\" va con \"for\" o \"with\" (happy for her), no con \"of\".",
+        "glad": "\"Glad\" no se usa con \"of her\" para este sentido; se dice \"glad that…\"."
+      },
+      "examples": [
+        "I'm proud of you!",
+        "He's proud of his new house."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-hobbies-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "hobbies",
+    "tags": [
+      "vocabulary",
+      "free-time"
+    ],
+    "prompt": "In my free time I like ___ photos of birds.",
+    "options": [
+      "making",
+      "doing",
+      "getting",
+      "taking"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Se dice \"take photos\" (sacar fotos).",
+      "wrong": {
+        "making": "En español decimos \"hacer fotos\", pero en inglés no es \"make photos\": es \"take photos\".",
+        "doing": "\"Do\" no se usa con \"photos\"; la expresión es \"take photos\".",
+        "getting": "\"Get photos\" sería conseguir fotos, no sacarlas tú con la cámara."
+      },
+      "examples": [
+        "Can you take a photo of us?",
+        "She took lots of photos in Rome."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-hobbies-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "hobbies",
+    "tags": [
+      "vocabulary",
+      "free-time",
+      "sports"
+    ],
+    "prompt": "On Saturdays my brother ___ football with his friends.",
+    "options": [
+      "does",
+      "makes",
+      "goes",
+      "plays"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con deportes de pelota y juegos se usa \"play\": play football, play tennis.",
+      "wrong": {
+        "does": "\"Do\" se usa con actividades sin pelota (do yoga, do karate), no con fútbol.",
+        "makes": "\"Make\" es fabricar o crear; no se usa con deportes.",
+        "goes": "\"Go\" se usa con actividades en -ing (go swimming); \"goes football\" no es correcto."
+      },
+      "examples": [
+        "We play basketball after school.",
+        "Do you play tennis?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-hobbies-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "hobbies",
+    "tags": [
+      "vocabulary",
+      "free-time",
+      "sports"
+    ],
+    "prompt": "My grandmother ___ yoga every morning before breakfast.",
+    "options": [
+      "plays",
+      "does",
+      "goes",
+      "makes"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Con actividades sin pelota ni competición, como yoga o karate, se usa \"do\".",
+      "wrong": {
+        "plays": "\"Play\" se usa con juegos y deportes de pelota; no se dice \"play yoga\".",
+        "goes": "\"Go\" va con verbos en -ing (go running); \"goes yoga\" no es correcto (sería \"goes to yoga\").",
+        "makes": "\"Make\" es crear algo; no se usa con yoga."
+      },
+      "examples": [
+        "I do karate on Tuesdays.",
+        "She does exercise every day."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-work-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "work",
+    "tags": [
+      "vocabulary",
+      "jobs"
+    ],
+    "prompt": "My sister works as a ___ in a hospital. She helps the doctors and looks after patients.",
+    "options": [
+      "waiter",
+      "nursery",
+      "nurse",
+      "infirmary"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Nurse\" es enfermero o enfermera.",
+      "wrong": {
+        "waiter": "\"Waiter\" es camarero; no trabaja con pacientes en un hospital.",
+        "nursery": "\"Nursery\" es una guardería o un vivero, no una persona.",
+        "infirmary": "Se parece a \"enfermería\", pero \"infirmary\" es un lugar (un hospital o enfermería), no una persona."
+      },
+      "examples": [
+        "The nurse gave me an injection.",
+        "He wants to be a nurse."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-work-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "work",
+    "tags": [
+      "vocabulary",
+      "jobs",
+      "money"
+    ],
+    "prompt": "He works long hours, but he ___ a good salary.",
+    "options": [
+      "wins",
+      "earns",
+      "gains",
+      "charges"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Earn\" es ganar dinero trabajando: earn a salary, earn money.",
+      "wrong": {
+        "wins": "En español decimos \"ganar\" dinero, pero \"win\" es ganar un premio o un partido, no un sueldo.",
+        "gains": "\"Gain\" es ganar algo como experiencia o peso, no el sueldo de tu trabajo.",
+        "charges": "\"Charge\" es cobrar a un cliente un precio, no recibir un sueldo."
+      },
+      "examples": [
+        "She earns 2,000 euros a month.",
+        "How much do you earn?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-work-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "work",
+    "tags": [
+      "vocabulary",
+      "jobs"
+    ],
+    "prompt": "The company ___ him because he was late every day.",
+    "options": [
+      "fired",
+      "quit",
+      "threw",
+      "resigned"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Fire someone\" es despedir a alguien de su trabajo.",
+      "wrong": {
+        "quit": "\"Quit\" es dejar tú tu trabajo; la empresa no lo \"quits\".",
+        "threw": "En español decimos \"lo echaron\", pero \"throw\" es lanzar un objeto, no despedir.",
+        "resigned": "\"Resign\" es dimitir: lo hace el trabajador, no la empresa."
+      },
+      "examples": [
+        "If you're late again, they'll fire you.",
+        "She was fired last year."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-false-friends-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "What does 'actually' mean?",
+    "options": [
+      "actualmente",
+      "en realidad",
+      "ahora mismo",
+      "a veces"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Actually\" significa \"en realidad\" o \"de hecho\". \"Actualmente\" se dice \"currently\" o \"nowadays\".",
+      "wrong": {
+        "actualmente": "Falso amigo: \"actualmente\" es \"currently\" o \"at the moment\".",
+        "ahora mismo": "\"Ahora mismo\" es \"right now\".",
+        "a veces": "\"A veces\" es \"sometimes\"."
+      },
+      "examples": [
+        "Actually, I don't like coffee.",
+        "He looks young, but actually he's 50."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-false-friends-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "All students must ___ the meeting on Friday at 10 am.",
+    "options": [
+      "assist",
+      "attend",
+      "assist to",
+      "go"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Attend\" significa asistir a un evento o clase, y va sin preposición.",
+      "wrong": {
+        "assist": "Falso amigo: \"assist\" significa ayudar, no asistir a un evento.",
+        "assist to": "Calco de \"asistir a\"; \"assist\" es ayudar y no se usa así.",
+        "go": "\"Go\" necesita \"to\" (go to the meeting); sin preposición no es correcto."
+      },
+      "examples": [
+        "She attends English classes twice a week.",
+        "Over 200 people attended the concert."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-false-friends-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "What does the verb 'assist' mean in English?",
+    "options": [
+      "estar presente",
+      "asistir a una clase",
+      "ayudar",
+      "sentarse"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Assist\" significa ayudar. Para asistir a una clase o evento se usa \"attend\".",
+      "wrong": {
+        "estar presente": "Estar presente es \"be present\" o \"attend\", no \"assist\".",
+        "asistir a una clase": "Falso amigo: asistir a una clase es \"attend a class\".",
+        "sentarse": "Sentarse es \"sit down\"."
+      },
+      "examples": [
+        "Can I assist you with your bags?",
+        "A nurse assisted the doctor."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-false-friends-004",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend",
+      "feelings"
+    ],
+    "prompt": "I was so ___ when I called my teacher 'Mum' in front of the whole class!",
+    "options": [
+      "embarrassing",
+      "pregnant",
+      "shame",
+      "embarrassed"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Embarrassed\" significa avergonzado o con vergüenza; no significa embarazada.",
+      "wrong": {
+        "embarrassing": "\"Embarrassing\" describe la situación que da vergüenza (It was embarrassing), no a la persona.",
+        "pregnant": "\"Pregnant\" es embarazada; no tiene nada que ver con la vergüenza.",
+        "shame": "\"Shame\" es un sustantivo (vergüenza); después de \"I was so\" hace falta un adjetivo."
+      },
+      "examples": [
+        "She was embarrassed when she fell.",
+        "Don't be embarrassed, everyone makes mistakes."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-false-friends-005",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend",
+      "places"
+    ],
+    "prompt": "I borrowed three books from the ___. I have to return them next week.",
+    "options": [
+      "library",
+      "bookshop",
+      "stationer's",
+      "newsagent's"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Library\" es la biblioteca, donde tomas libros prestados. La librería es \"bookshop\".",
+      "wrong": {
+        "bookshop": "Falso amigo: \"bookshop\" es la librería, donde compras libros; allí no se toman prestados.",
+        "stationer's": "\"Stationer's\" es la papelería (bolígrafos, cuadernos); no presta libros.",
+        "newsagent's": "\"Newsagent's\" es el quiosco o tienda de periódicos; no presta libros."
+      },
+      "examples": [
+        "The library opens at nine.",
+        "I bought a new novel at the bookshop."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-false-friends-006",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend",
+      "personality"
+    ],
+    "prompt": "Your friend says: 'Tom is very sensible.' What does it mean?",
+    "options": [
+      "Tom es muy sensible",
+      "Tom es muy sensato",
+      "Tom es muy simpático",
+      "Tom es muy sentimental"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Sensible\" significa sensato, con sentido común. \"Sensible\" en español se dice \"sensitive\".",
+      "wrong": {
+        "Tom es muy sensible": "Falso amigo: \"sensible\" en español es \"sensitive\" en inglés.",
+        "Tom es muy simpático": "\"Simpático\" es \"nice\" o \"friendly\".",
+        "Tom es muy sentimental": "\"Sentimental\" en inglés es \"sentimental\", no \"sensible\"."
+      },
+      "examples": [
+        "It was a sensible decision to save money.",
+        "She's very sensitive, so be kind."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-false-friends-007",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "I didn't ___ that the shop was closed on Sundays, so I went there for nothing.",
+    "options": [
+      "realize",
+      "perform",
+      "make",
+      "carry out"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Realize\" significa darse cuenta. \"Realizar\" (hacer algo) se dice \"do\", \"carry out\" o \"make\".",
+      "wrong": {
+        "perform": "\"Perform\" es actuar o realizar una tarea, no darse cuenta.",
+        "make": "\"Make\" es hacer o fabricar, no darse cuenta.",
+        "carry out": "\"Carry out\" es llevar a cabo (realizar) algo, que es el falso amigo; no significa darse cuenta."
+      },
+      "examples": [
+        "I realized I had lost my keys.",
+        "She didn't realize it was so late."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-lend-vs-borrow-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "lend-vs-borrow",
+    "tags": [
+      "vocabulary",
+      "lend-borrow"
+    ],
+    "prompt": "Can you ___ me your pen? I forgot mine.",
+    "options": [
+      "borrow",
+      "rent",
+      "lend",
+      "pay"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Lend\" es prestar (dar algo a alguien por un tiempo): lend something to someone / lend someone something.",
+      "wrong": {
+        "borrow": "\"Borrow\" es pedir prestado (tomar). Se diría \"Can I borrow your pen?\", no \"Can you borrow me…\".",
+        "rent": "\"Rent\" es alquilar pagando dinero; no se alquila un bolígrafo a un amigo.",
+        "pay": "\"Pay\" es pagar; no tiene sentido con un bolígrafo que quieres usar."
+      },
+      "examples": [
+        "Could you lend me ten euros?",
+        "I lent my bike to my cousin."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-lend-vs-borrow-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "lend-vs-borrow",
+    "tags": [
+      "vocabulary",
+      "lend-borrow"
+    ],
+    "prompt": "Can I ___ your umbrella? It's raining, and I'll give it back tomorrow.",
+    "options": [
+      "borrow",
+      "lend",
+      "rent",
+      "let"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Borrow\" es tomar algo prestado: el sujeto es quien lo recibe (Can I borrow…?).",
+      "wrong": {
+        "lend": "\"Lend\" es prestar (dar). Con \"Can I…?\" quien recibe eres tú, así que es \"borrow\".",
+        "rent": "\"Rent\" es alquilar pagando; a un amigo no se le alquila un paraguas.",
+        "let": "\"Let\" es dejar o permitir hacer algo (let me go), no tomar prestado."
+      },
+      "examples": [
+        "Can I borrow your phone for a minute?",
+        "She borrowed a book from me."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-lend-vs-borrow-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "lend-vs-borrow",
+    "tags": [
+      "vocabulary",
+      "lend-borrow"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "My brother borrowed me 20 euros.",
+      "My brother lended me 20 euros.",
+      "My brother borrowed 20 euros to me.",
+      "My brother lent me 20 euros."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Quien da el dinero \"lends\" (pasado: lent). Quien lo recibe \"borrows\".",
+      "wrong": {
+        "My brother borrowed me 20 euros.": "\"Borrow\" es pedir prestado; quien da el dinero \"lends\".",
+        "My brother lended me 20 euros.": "\"Lend\" es irregular: el pasado es \"lent\", no \"lended\".",
+        "My brother borrowed 20 euros to me.": "\"Borrow\" es tomar prestado (borrow from someone); no se usa con \"to me\"."
+      },
+      "examples": [
+        "I borrowed 20 euros from my brother.",
+        "He lent me his car for the weekend."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-bring-vs-take-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "bring-vs-take",
+    "tags": [
+      "vocabulary",
+      "bring-take"
+    ],
+    "prompt": "When you come to my party, please ___ some music.",
+    "options": [
+      "take",
+      "bring",
+      "carry",
+      "wear"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Bring\" es traer algo hacia donde está quien habla; \"take\" es llevar algo a otro sitio.",
+      "wrong": {
+        "take": "La fiesta es en casa de quien habla, así que la música viene hacia aquí: \"bring\".",
+        "carry": "\"Carry\" es cargar o transportar en las manos; no es la forma natural de pedir que alguien traiga algo.",
+        "wear": "\"Wear\" es llevar puesto (ropa); en español \"llevar\" sirve para las dos cosas, en inglés no."
+      },
+      "examples": [
+        "Can you bring your guitar tomorrow?",
+        "Bring a friend to dinner!"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-bring-vs-take-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "bring-vs-take",
+    "tags": [
+      "vocabulary",
+      "bring-take"
+    ],
+    "prompt": "I'm busy in the kitchen. Can you ___ the rubbish out to the bin in the street?",
+    "options": [
+      "wear",
+      "bring",
+      "lend",
+      "take"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Take\" es llevar algo lejos de donde está quien habla: take the rubbish out (sacar la basura).",
+      "wrong": {
+        "wear": "\"Wear\" es llevar puesto (ropa, gafas), no llevar algo a otro lugar.",
+        "bring": "\"Bring\" es traer hacia quien habla; la basura se aleja de la cocina, así que es \"take\".",
+        "lend": "\"Lend\" es prestar; no tiene sentido con la basura."
+      },
+      "examples": [
+        "Take your umbrella with you.",
+        "I took the kids to school this morning."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a2-bring-vs-take-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "bring-vs-take",
+    "tags": [
+      "vocabulary",
+      "bring-take",
+      "travel"
+    ],
+    "prompt": "It ___ two hours to get to the beach by car.",
+    "options": [
+      "brings",
+      "lasts",
+      "takes",
+      "carries"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Para decir cuánto tiempo se tarda en algo se usa \"It takes + tiempo + to…\".",
+      "wrong": {
+        "brings": "\"Bring\" es traer algo hacia quien habla, no expresa duración.",
+        "lasts": "\"Last\" es durar (the film lasts two hours), pero no se usa con \"to get to\"; para un trayecto es \"It takes\".",
+        "carries": "\"Carry\" es cargar o transportar algo; no expresa tiempo."
+      },
+      "examples": [
+        "It takes ten minutes to walk to school.",
+        "How long does it take to get there?"
+      ]
+    }
+  }
+]

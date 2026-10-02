@@ -1,0 +1,1507 @@
+[
+  {
+    "id": "gram-b1-present-perfect-vs-past-simple-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "present-perfect-vs-past-simple",
+    "tags": [
+      "grammar",
+      "tenses"
+    ],
+    "prompt": "I ___ my keys yesterday, so I couldn't open the door.",
+    "options": [
+      "have lost",
+      "was losing",
+      "have been losing",
+      "lost"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con expresiones de tiempo terminado (yesterday, last week, in 2010) se usa el past simple.",
+      "wrong": {
+        "have lost": "Con un momento terminado como \"yesterday\" no se usa el present perfect, aunque en español digamos \"he perdido\".",
+        "was losing": "El pasado continuo describe una acción en progreso; perder las llaves es algo puntual.",
+        "have been losing": "El present perfect continuous no combina con \"yesterday\" ni con una acción puntual."
+      },
+      "examples": [
+        "We visited Rome last summer.",
+        "She called me two hours ago."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-present-perfect-vs-past-simple-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "present-perfect-vs-past-simple",
+    "tags": [
+      "grammar",
+      "tenses"
+    ],
+    "prompt": "She ___ to Paris three times so far, and she's going again next month.",
+    "options": [
+      "went",
+      "goes",
+      "was",
+      "has been"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Para contar experiencias en un periodo que llega hasta hoy (so far, ever, never) se usa el present perfect.",
+      "wrong": {
+        "went": "\"so far\" (hasta ahora) indica un periodo que llega al presente, así que pide present perfect, no past simple.",
+        "was": "\"was to Paris\" no es correcto; además \"so far\" exige present perfect.",
+        "goes": "El presente simple no sirve para contar experiencias hasta ahora (three times so far)."
+      },
+      "examples": [
+        "I have read this book twice so far.",
+        "Have you ever been to Mexico?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-present-perfect-vs-past-simple-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "present-perfect-vs-past-simple",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "When ___ you ___ your new job?",
+    "options": [
+      "have / started",
+      "has / started",
+      "do / started",
+      "did / start"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Las preguntas con \"when\" sobre el pasado van en past simple: When did you…?",
+      "wrong": {
+        "have / started": "Con \"when\" preguntamos por un momento concreto del pasado, por eso no se usa el present perfect.",
+        "has / started": "Además de no combinar con \"when\", \"has\" no concuerda con \"you\".",
+        "do / started": "\"do\" es presente y \"started\" es pasado; las preguntas en past simple usan did + verbo base."
+      },
+      "examples": [
+        "When did you arrive?",
+        "When did they get married?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-for-vs-since-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "for-vs-since",
+    "tags": [
+      "grammar",
+      "prepositions"
+    ],
+    "prompt": "We have known each other ___ we were children.",
+    "options": [
+      "for",
+      "during",
+      "from",
+      "since"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"since\" + punto de inicio (since 2010, since Monday, since I was a child); \"for\" + duración.",
+      "wrong": {
+        "for": "\"for\" va con una duración (for ten years), no con un punto de inicio como \"we were children\".",
+        "from": "En español decimos \"desde\", pero con present perfect el inglés usa \"since\", no \"from\".",
+        "during": "\"during\" significa \"durante\" y va con un sustantivo (during the summer), no con una frase."
+      },
+      "examples": [
+        "I've lived here since 2018.",
+        "She has been happy since she moved."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-for-vs-since-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "for-vs-since",
+    "tags": [
+      "grammar",
+      "prepositions"
+    ],
+    "prompt": "My brother has worked at the hospital ___ ten years.",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "during"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"for\" + periodo de tiempo (for two hours, for ten years) equivale a \"desde hace\".",
+      "wrong": {
+        "since": "\"ten years\" es una duración, no un punto de inicio; \"since\" iría con \"since 2015\".",
+        "from": "\"from\" no se usa así con present perfect; en español \"desde hace\" se traduce como \"for\".",
+        "during": "\"during\" indica en qué momento ocurre algo, no cuánto tiempo dura hasta ahora."
+      },
+      "examples": [
+        "They've been married for twenty years.",
+        "I haven't eaten for six hours."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-for-vs-since-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "for-vs-since",
+    "tags": [
+      "grammar",
+      "prepositions"
+    ],
+    "prompt": "I haven't seen Laura ___ last Christmas.",
+    "options": [
+      "for",
+      "ago",
+      "from",
+      "since"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con present perfect, \"since\" marca el momento en que empezó la situación.",
+      "wrong": {
+        "for": "\"last Christmas\" es un momento concreto, no una duración; \"for\" iría con \"for a year\".",
+        "ago": "\"ago\" va después de una duración y con past simple (I saw her a year ago).",
+        "from": "Traducción literal de \"desde\"; con present perfect se usa \"since\"."
+      },
+      "examples": [
+        "He hasn't called since Monday.",
+        "It hasn't rained since June."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-present-perfect-continuous-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "present-perfect-continuous",
+    "tags": [
+      "grammar",
+      "tenses"
+    ],
+    "prompt": "I ___ for the bus for forty minutes and it still hasn't arrived.",
+    "options": [
+      "am waiting",
+      "had waited",
+      "waited",
+      "have been waiting"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Present perfect continuous (have/has been + -ing): acción que empezó en el pasado y continúa ahora, destacando la duración.",
+      "wrong": {
+        "waited": "El past simple indica algo terminado, pero sigues esperando (it still hasn't arrived).",
+        "am waiting": "En español decimos \"estoy esperando desde hace…\", pero con \"for forty minutes\" el inglés pide present perfect continuous.",
+        "had waited": "El past perfect se refiere a algo anterior a otro momento pasado, no a algo que sigue ahora."
+      },
+      "examples": [
+        "She has been studying since 9 a.m.",
+        "We've been living here for two years."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-present-perfect-continuous-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "present-perfect-continuous",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "How long ___ you ___ English? — Since I was twelve.",
+    "options": [
+      "do / learn",
+      "have / been learning",
+      "did / learn",
+      "are / learning"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"How long have you been + -ing?\" pregunta la duración de una actividad que continúa.",
+      "wrong": {
+        "are / learning": "\"How long are you learning\" es un calco del español \"¿cuánto llevas aprendiendo?\"; en inglés se necesita present perfect.",
+        "do / learn": "El presente simple no sirve para preguntar cuánto tiempo dura algo hasta ahora.",
+        "did / learn": "\"did\" indica algo terminado, pero la respuesta \"since I was twelve\" muestra que sigue hasta hoy."
+      },
+      "examples": [
+        "How long have you been working here?",
+        "How long has it been raining?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-present-perfect-continuous-003",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "present-perfect-continuous",
+    "tags": [
+      "grammar",
+      "tenses"
+    ],
+    "prompt": "She's out of breath because she ___.",
+    "options": [
+      "has been running",
+      "run",
+      "runs",
+      "had been running"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Usamos el present perfect continuous para explicar un resultado visible ahora de una actividad reciente.",
+      "wrong": {
+        "runs": "El presente simple indica un hábito; no explica por qué está cansada ahora.",
+        "had been running": "El past perfect continuous se refiere a un momento pasado, pero \"She's\" está en presente.",
+        "run": "\"run\" no concuerda con \"she\" y no expresa una actividad reciente."
+      },
+      "examples": [
+        "Your eyes are red. Have you been crying?",
+        "The ground is wet. It has been raining."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-past-perfect-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "past-perfect",
+    "tags": [
+      "grammar",
+      "tenses"
+    ],
+    "prompt": "When we arrived at the cinema, the film ___ already ___.",
+    "options": [
+      "has / started",
+      "did / start",
+      "had / started",
+      "was / starting"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "El past perfect (had + participio) indica una acción anterior a otro momento del pasado.",
+      "wrong": {
+        "has / started": "La historia está en pasado (arrived); el present perfect no encaja.",
+        "was / starting": "\"already\" indica que la acción ya había ocurrido antes, no que estaba en progreso.",
+        "did / start": "\"did\" + verbo se usa en preguntas y negativas, no en una afirmación así."
+      },
+      "examples": [
+        "When I got home, everyone had gone to bed.",
+        "The train had left when we reached the station."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-past-perfect-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "past-perfect",
+    "tags": [
+      "grammar",
+      "tenses"
+    ],
+    "prompt": "She was nervous on the plane because she ___ never ___ before.",
+    "options": [
+      "has / flown",
+      "was / flying",
+      "had / flown",
+      "did / fly"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Past perfect para experiencias anteriores a un momento del pasado: She had never… before.",
+      "wrong": {
+        "has / flown": "El relato está en pasado (was nervous); para la experiencia anterior se usa had, no has.",
+        "did / fly": "\"did never fly\" no es correcto; la negación con never no lleva did.",
+        "was / flying": "\"was never flying before\" no es natural; hablamos de experiencia previa, no de acción en progreso."
+      },
+      "examples": [
+        "I had never seen snow before that trip.",
+        "He was tired because he hadn't slept."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-past-perfect-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "past-perfect",
+    "tags": [
+      "grammar",
+      "tenses"
+    ],
+    "prompt": "I wasn't hungry at lunch because I ___ a big breakfast.",
+    "options": [
+      "have eaten",
+      "was eating",
+      "eat",
+      "had eaten"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "El past perfect explica la causa anterior de una situación pasada.",
+      "wrong": {
+        "have eaten": "La frase está en pasado (wasn't); el present perfect no conecta con ese momento.",
+        "eat": "El presente no tiene sentido para un desayuno anterior a la comida de un día pasado.",
+        "was eating": "El pasado continuo indica que comías en ese momento, pero el desayuno ya había terminado."
+      },
+      "examples": [
+        "She was happy because she had passed the exam.",
+        "We were late because we had missed the bus."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-used-to-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "used-to",
+    "tags": [
+      "grammar",
+      "habits"
+    ],
+    "prompt": "When I was a child, I ___ play football in the street every afternoon.",
+    "options": [
+      "use to",
+      "used to",
+      "am used to",
+      "was used to"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"used to\" + verbo base: hábitos o estados del pasado que ya no ocurren (\"solía\").",
+      "wrong": {
+        "was used to": "\"be used to\" significa \"estar acostumbrado a\" y va con -ing o sustantivo, no con el verbo base.",
+        "use to": "En afirmativa se escribe \"used to\"; \"use to\" solo aparece tras did/didn't.",
+        "am used to": "Está en presente y significa \"estar acostumbrado\"; la frase habla de un hábito pasado."
+      },
+      "examples": [
+        "We used to live in a small town.",
+        "She used to have long hair."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-used-to-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "used-to",
+    "tags": [
+      "grammar",
+      "habits"
+    ],
+    "prompt": "I've lived in London for a year, so I ___ driving on the left now.",
+    "options": [
+      "am used to",
+      "used to",
+      "used",
+      "use to"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"be used to\" + -ing/sustantivo = estar acostumbrado a algo.",
+      "wrong": {
+        "used to": "\"used to\" + verbo base es un hábito pasado; aquí hablamos de estar acostumbrado ahora (now).",
+        "use to": "\"use to\" no existe en afirmativa y no significa \"estar acostumbrado\".",
+        "used": "Falta el verbo be: para \"estar acostumbrado\" se dice \"I'm used to\"."
+      },
+      "examples": [
+        "She is used to working at night.",
+        "I'm not used to spicy food."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-used-to-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "used-to",
+    "tags": [
+      "grammar",
+      "habits"
+    ],
+    "prompt": "The new job is hard, but I'm sure you'll ___ to the early mornings soon.",
+    "options": [
+      "used",
+      "be using",
+      "get used",
+      "use"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"get used to\" + -ing/sustantivo = acostumbrarse (el proceso de cambio).",
+      "wrong": {
+        "used": "Después de will va el verbo base; además falta \"get\" para expresar el proceso de acostumbrarse.",
+        "be using": "\"be using\" significa \"estar usando\", no \"acostumbrarse\".",
+        "use": "\"use to\" no significa acostumbrarse; se necesita \"get used to\"."
+      },
+      "examples": [
+        "It took me months to get used to the cold.",
+        "You'll get used to wearing glasses."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-used-to-004",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "used-to",
+    "tags": [
+      "grammar",
+      "habits",
+      "questions"
+    ],
+    "prompt": "Did you ___ live in Madrid?",
+    "options": [
+      "use to",
+      "used to",
+      "get used to",
+      "be used to"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "En preguntas y negativas con did, \"used to\" pierde la -d: Did you use to…? / I didn't use to…",
+      "wrong": {
+        "used to": "Después de did el verbo va en forma base, por eso se escribe \"use to\", sin -d.",
+        "get used to": "\"get used to\" significa acostumbrarse, y después iría -ing (living), no \"live\".",
+        "be used to": "\"be used to\" significa estar acostumbrado y no encaja con \"live\" en forma base."
+      },
+      "examples": [
+        "Did she use to play the piano?",
+        "I didn't use to like coffee."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-conditionals-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "conditionals",
+    "tags": [
+      "grammar",
+      "zero-conditional"
+    ],
+    "prompt": "If you ___ red and yellow, you get orange.",
+    "options": [
+      "would mix",
+      "mixed",
+      "will mix",
+      "mix"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Zero conditional: If + presente, presente. Para hechos que siempre son verdad.",
+      "wrong": {
+        "will mix": "En la parte con \"if\" no se usa will.",
+        "would mix": "\"would\" es del segundo condicional; aquí es un hecho general (zero conditional).",
+        "mixed": "El pasado no concuerda con \"you get\" en presente; es una verdad general."
+      },
+      "examples": [
+        "If you press this button, the machine stops.",
+        "If plants don't get water, they die."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-conditionals-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "conditionals",
+    "tags": [
+      "grammar",
+      "first-conditional"
+    ],
+    "prompt": "If you don't hurry, you ___ the train.",
+    "options": [
+      "would miss",
+      "are missing",
+      "will miss",
+      "missed"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "First conditional: If + presente, will + verbo. Situaciones reales o probables en el futuro.",
+      "wrong": {
+        "are missing": "El presente continuo describe algo que pasa ahora; la consecuencia futura de una condición real va con will.",
+        "would miss": "\"would\" es para situaciones imaginarias (segundo condicional), pero esta es real y posible.",
+        "missed": "El pasado no expresa una consecuencia futura."
+      },
+      "examples": [
+        "If it's sunny, we'll go to the beach.",
+        "She'll be angry if you're late."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-conditionals-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "conditionals",
+    "tags": [
+      "grammar",
+      "second-conditional"
+    ],
+    "prompt": "If I ___ a lot of money, I would travel around the world.",
+    "options": [
+      "will have",
+      "would have",
+      "have",
+      "had"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Second conditional: If + pasado, would + verbo. Situaciones imaginarias o poco probables.",
+      "wrong": {
+        "have": "Con \"would\" en la otra parte, la condición va en pasado (situación imaginaria).",
+        "would have": "En la parte con \"if\" no se usa would.",
+        "will have": "En la parte con \"if\" no se usa will, y la situación es imaginaria."
+      },
+      "examples": [
+        "If I lived near the sea, I would swim every day.",
+        "If she knew the answer, she would tell us."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-conditionals-004",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "conditionals",
+    "tags": [
+      "grammar",
+      "second-conditional",
+      "questions"
+    ],
+    "prompt": "What ___ you do if you found a wallet in the street?",
+    "options": [
+      "do",
+      "will",
+      "did",
+      "would"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En el segundo condicional la parte principal lleva would + verbo base.",
+      "wrong": {
+        "will": "\"found\" en pasado indica una situación imaginaria; con will no concuerda.",
+        "do": "\"What do you do if you found\" mezcla presente y pasado; el segundo condicional pide would.",
+        "did": "\"did\" no se usa en la parte principal de un condicional imaginario."
+      },
+      "examples": [
+        "What would you do if you won the lottery?",
+        "Where would you live if you could choose?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-unless-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "unless",
+    "tags": [
+      "grammar",
+      "conditionals"
+    ],
+    "prompt": "You won't pass the exam ___ you study harder.",
+    "options": [
+      "without",
+      "if",
+      "except",
+      "unless"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"unless\" = \"a menos que / si no\": unless you study = if you don't study.",
+      "wrong": {
+        "if": "\"You won't pass if you study harder\" diría lo contrario: que estudiar más te hace suspender.",
+        "except": "\"except\" significa \"excepto\" y va con un sustantivo, no introduce una condición.",
+        "without": "\"without\" va con un sustantivo o -ing (without studying), no con una frase completa."
+      },
+      "examples": [
+        "I won't go unless you come with me.",
+        "Unless we leave now, we'll be late."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-unless-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "unless",
+    "tags": [
+      "grammar",
+      "conditionals",
+      "meaning"
+    ],
+    "prompt": "'Unless it rains, we'll have the party in the garden.' What does it mean?",
+    "options": [
+      "Cuando llueva, haremos la fiesta en el jardín.",
+      "A menos que llueva, haremos la fiesta en el jardín.",
+      "Si llueve, haremos la fiesta en el jardín.",
+      "Aunque llueva, haremos la fiesta en el jardín."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"unless\" significa \"a menos que\" o \"si no\".",
+      "wrong": {
+        "Si llueve, haremos la fiesta en el jardín.": "Es lo contrario: \"unless\" significa \"si no\", no \"si\".",
+        "Aunque llueva, haremos la fiesta en el jardín.": "\"Aunque\" se dice \"even if\", no \"unless\".",
+        "Cuando llueva, haremos la fiesta en el jardín.": "\"Cuando\" se dice \"when\"; \"unless\" expresa una excepción."
+      },
+      "examples": [
+        "Unless you hurry, you'll miss the bus.",
+        "I'll call you unless I'm busy."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-unless-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "unless",
+    "tags": [
+      "grammar",
+      "conditionals"
+    ],
+    "prompt": "I can't help you ___ you tell me what the problem is.",
+    "options": [
+      "unless",
+      "if",
+      "except",
+      "when"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"unless\" introduce la única condición que cambiaría la situación (= if… not).",
+      "wrong": {
+        "if": "\"I can't help you if you tell me\" no tiene sentido: contarte el problema no impide ayudar.",
+        "when": "\"when\" no expresa la condición necesaria; la idea es \"si no me lo dices\".",
+        "except": "\"except\" no puede introducir una frase con sujeto y verbo como conjunción de condición."
+      },
+      "examples": [
+        "She won't come unless you invite her.",
+        "Don't call me unless it's important."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-passive-voice-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "passive-voice",
+    "tags": [
+      "grammar",
+      "passive"
+    ],
+    "prompt": "English ___ in many countries around the world.",
+    "options": [
+      "is speaking",
+      "spoken",
+      "speaks",
+      "is spoken"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Voz pasiva en presente: am/is/are + participio. Se usa cuando importa la acción, no quién la hace.",
+      "wrong": {
+        "speaks": "\"English speaks\" diría que el idioma habla; el idioma recibe la acción, así que va en pasiva.",
+        "is speaking": "\"is speaking\" es activa y progresiva; el inglés no habla.",
+        "spoken": "Falta el verbo be: la pasiva es be + participio (is spoken)."
+      },
+      "examples": [
+        "Coffee is grown in Colombia.",
+        "These rooms are cleaned every day."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-passive-voice-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "passive-voice",
+    "tags": [
+      "grammar",
+      "passive"
+    ],
+    "prompt": "The Mona Lisa ___ by Leonardo da Vinci.",
+    "options": [
+      "painted",
+      "was painting",
+      "was painted",
+      "is painted"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Voz pasiva en pasado: was/were + participio (+ by + quien lo hizo).",
+      "wrong": {
+        "painted": "\"The Mona Lisa painted\" diría que el cuadro pintó algo; con \"by\" se necesita pasiva.",
+        "was painting": "Es activa: diría que el cuadro estaba pintando.",
+        "is painted": "La acción ocurrió en el pasado (hace siglos), así que la pasiva va en pasado: was painted."
+      },
+      "examples": [
+        "The bridge was built in 1890.",
+        "These songs were written by the Beatles."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-passive-voice-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "passive-voice",
+    "tags": [
+      "grammar",
+      "passive"
+    ],
+    "prompt": "My bike ___ last night, so I walked to work today.",
+    "options": [
+      "was stolen",
+      "is stolen",
+      "stole",
+      "has stolen"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Pasiva en pasado (was/were + participio) para acciones terminadas cuando no importa quién las hizo.",
+      "wrong": {
+        "is stolen": "\"last night\" es pasado; la pasiva debe ir en pasado: was stolen.",
+        "stole": "\"My bike stole\" diría que la bici robó algo; la bici recibe la acción.",
+        "has stolen": "Es activa y además no combina con \"last night\"."
+      },
+      "examples": [
+        "My phone was found in the taxi.",
+        "The letters were sent yesterday."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-relative-clauses-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "relative-clauses",
+    "tags": [
+      "grammar",
+      "relatives"
+    ],
+    "prompt": "That's the woman ___ husband works with my dad.",
+    "options": [
+      "whose",
+      "who",
+      "that",
+      "which"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"whose\" indica posesión (cuyo/cuya): the man whose car…",
+      "wrong": {
+        "who": "\"who husband\" no es correcto; para posesión (su marido) se usa \"whose\".",
+        "which": "\"which\" se usa para cosas y no expresa posesión.",
+        "that": "\"that\" no expresa posesión; \"cuyo/su\" se traduce con \"whose\"."
+      },
+      "examples": [
+        "I have a friend whose sister is a doctor.",
+        "That's the boy whose dog bit me."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-relative-clauses-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "relative-clauses",
+    "tags": [
+      "grammar",
+      "relatives"
+    ],
+    "prompt": "This is the hotel ___ we stayed on our honeymoon.",
+    "options": [
+      "whose",
+      "which",
+      "who",
+      "where"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"where\" introduce una oración de relativo sobre un lugar (donde).",
+      "wrong": {
+        "which": "\"which\" necesitaría preposición (the hotel which we stayed at); sin ella se usa \"where\".",
+        "who": "\"who\" se usa para personas, no para lugares.",
+        "whose": "\"whose\" indica posesión y necesita un sustantivo detrás."
+      },
+      "examples": [
+        "That's the café where we met.",
+        "I visited the town where my father was born."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-relative-clauses-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "relative-clauses",
+    "tags": [
+      "grammar",
+      "relatives",
+      "non-defining"
+    ],
+    "prompt": "My sister, ___ lives in Canada, is coming to visit next week.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "that"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En oraciones de relativo entre comas se usa who (personas) o which (cosas), nunca that.",
+      "wrong": {
+        "that": "Entre comas (información extra) no se puede usar \"that\".",
+        "which": "\"which\" es para cosas o animales, no para personas.",
+        "whose": "\"whose\" indica posesión y necesita un sustantivo detrás (whose husband…)."
+      },
+      "examples": [
+        "My boss, who is from Peru, speaks four languages.",
+        "Our teacher, who is very patient, explained it again."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-relative-clauses-004",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "relative-clauses",
+    "tags": [
+      "grammar",
+      "relatives",
+      "non-defining"
+    ],
+    "prompt": "Madrid, ___ is the capital of Spain, has a lot of museums.",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "where"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"which\" se refiere a cosas o lugares cuando funciona como sujeto u objeto; entre comas nunca va \"that\".",
+      "wrong": {
+        "that": "Entre comas (información extra) no se puede usar \"that\".",
+        "who": "\"who\" es para personas; Madrid es una ciudad.",
+        "where": "Aquí falta el sujeto de \"is\"; \"where\" no puede ser sujeto (sí: the city where I live)."
+      },
+      "examples": [
+        "My car, which is very old, broke down again.",
+        "The Amazon, which is in South America, is huge."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-reported-speech-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "reported-speech",
+    "tags": [
+      "grammar",
+      "say-tell"
+    ],
+    "prompt": "She ___ me that she was tired.",
+    "options": [
+      "said",
+      "talked",
+      "spoke",
+      "told"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"tell\" + persona + that…; \"say\" + that… (sin persona, o say to someone).",
+      "wrong": {
+        "said": "\"say\" no lleva directamente la persona: se dice \"she said (to me) that…\", no \"said me\".",
+        "talked": "\"talk\" no introduce lo que alguien dijo con \"that\".",
+        "spoke": "\"speak\" no se usa para reproducir un mensaje con \"that\"."
+      },
+      "examples": [
+        "He told us that the shop was closed.",
+        "She said that she was busy."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-reported-speech-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "reported-speech",
+    "tags": [
+      "grammar",
+      "backshift"
+    ],
+    "prompt": "Ana said, 'I saw the film last week.' → Ana said that she ___ the film the week before.",
+    "options": [
+      "had seen",
+      "has seen",
+      "sees",
+      "have seen"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "En estilo indirecto el past simple suele pasar a past perfect: 'I saw' → she had seen.",
+      "wrong": {
+        "has seen": "El verbo que introduce está en pasado (said); el present perfect no encaja con \"the week before\".",
+        "sees": "El presente no corresponde a una acción pasada.",
+        "have seen": "No concuerda con \"she\" y además no combina con \"the week before\"."
+      },
+      "examples": [
+        "He said he had lost his wallet.",
+        "They told me they had finished the project."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-reported-speech-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "reported-speech",
+    "tags": [
+      "grammar",
+      "backshift"
+    ],
+    "prompt": "Last Monday my boss said, 'I will send you the report tomorrow.' → Last Monday my boss said he ___ send me the report the next day.",
+    "options": [
+      "shall",
+      "would",
+      "will",
+      "is going"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En estilo indirecto \"will\" pasa a \"would\", y \"tomorrow\" a \"the next day\".",
+      "wrong": {
+        "will": "La promesa se hizo el lunes pasado y \"the next day\" ya pasó; will debe cambiar a would.",
+        "shall": "\"shall\" casi no se usa así y tampoco hace el cambio a pasado.",
+        "is going": "Falta \"to\" (is going to) y además no hace el cambio a pasado."
+      },
+      "examples": [
+        "She said she would help me.",
+        "He promised he would call the next day."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-reported-speech-004",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "reported-speech",
+    "tags": [
+      "grammar",
+      "commands"
+    ],
+    "prompt": "The teacher told us ___ quiet during the exam.",
+    "options": [
+      "to be",
+      "being",
+      "be",
+      "that be"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Órdenes en estilo indirecto: tell + persona + to + verbo (not to + verbo en negativa).",
+      "wrong": {
+        "be": "Después de \"tell + persona\" para órdenes se necesita \"to\" + verbo.",
+        "that be": "\"that be\" no es gramatical; las órdenes indirectas usan \"to\" + verbo.",
+        "being": "Tras \"tell someone\" no va -ing, sino el infinitivo con to."
+      },
+      "examples": [
+        "My mum told me to tidy my room.",
+        "The doctor told him not to smoke."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-gerund-vs-infinitive-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "gerund-vs-infinitive",
+    "tags": [
+      "grammar",
+      "stop"
+    ],
+    "prompt": "I stopped ___ coffee because it kept me awake at night.",
+    "options": [
+      "drinking",
+      "drink",
+      "to drink",
+      "drank"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "stop + -ing = dejar de hacer algo; stop + to = parar para hacer otra cosa.",
+      "wrong": {
+        "to drink": "\"stop to drink\" significa parar (otra actividad) para tomar café; aquí dejaste de tomarlo.",
+        "drink": "Después de \"stop\" no va el verbo base.",
+        "drank": "Después de \"stop\" no va un verbo en pasado."
+      },
+      "examples": [
+        "She stopped smoking last year.",
+        "Stop talking, please."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-gerund-vs-infinitive-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "gerund-vs-infinitive",
+    "tags": [
+      "grammar",
+      "remember"
+    ],
+    "prompt": "Please remember ___ the lights before you go to bed.",
+    "options": [
+      "turn off",
+      "turned off",
+      "to turn off",
+      "turning off"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "remember + to = acordarse de hacer algo (futuro); remember + -ing = recordar algo pasado.",
+      "wrong": {
+        "turning off": "\"remember + -ing\" es recordar algo que ya pasó; aquí es algo que todavía tienes que hacer.",
+        "turn off": "Después de \"remember\" no va el verbo base solo.",
+        "turned off": "Después de \"remember\" no va un verbo en pasado."
+      },
+      "examples": [
+        "Remember to buy milk.",
+        "I remember meeting her at a party."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-gerund-vs-infinitive-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "gerund-vs-infinitive",
+    "tags": [
+      "grammar",
+      "stop"
+    ],
+    "prompt": "We were tired after driving for hours, so we stopped ___ a coffee.",
+    "options": [
+      "to have",
+      "have",
+      "had",
+      "having"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "stop + to + verbo = interrumpir una actividad para hacer otra.",
+      "wrong": {
+        "having": "\"stop having\" significaría dejar de tomar café; aquí paraste el coche para tomarlo.",
+        "have": "Después de \"stop\" no va el verbo base solo.",
+        "had": "Después de \"stop\" no va un verbo en pasado."
+      },
+      "examples": [
+        "He stopped to tie his shoes.",
+        "We stopped to take some photos."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-modals-of-deduction-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "modals-of-deduction",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "She's been working for twelve hours. She ___ be exhausted.",
+    "options": [
+      "can't",
+      "must",
+      "mustn't",
+      "may not"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"must\" + verbo = deducción casi segura en presente (\"debe de\").",
+      "wrong": {
+        "can't": "\"can't\" indica que es imposible, pero doce horas de trabajo hacen lógico que esté agotada.",
+        "mustn't": "\"mustn't\" expresa prohibición, no deducción.",
+        "may not": "\"may not\" expresa duda negativa, pero el contexto da casi certeza de que sí está agotada."
+      },
+      "examples": [
+        "You must be hungry after the trip.",
+        "He must be at home; his car is outside."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-modals-of-deduction-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "modals-of-deduction",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "That ___ be Peter at the door. He's on holiday in Japan.",
+    "options": [
+      "must",
+      "mustn't",
+      "might",
+      "can't"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"can't\" + verbo = deducción de que algo es imposible.",
+      "wrong": {
+        "must": "\"must\" indicaría que seguro que es Peter, pero está en Japón.",
+        "mustn't": "En español decimos \"no debe de ser\", pero en inglés \"mustn't\" es prohibición; para deducir imposibilidad se usa \"can't\".",
+        "might": "\"might\" indica que es posible, pero el contexto lo hace imposible."
+      },
+      "examples": [
+        "It can't be true!",
+        "He can't be tired; he's just woken up."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-modals-of-deduction-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "modals-of-deduction",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "I'm not sure where Jess is. She ___ be in the library, or maybe at the gym.",
+    "options": [
+      "might",
+      "can't",
+      "must",
+      "has to"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"might/may/could\" + verbo = posibilidad (quizás).",
+      "wrong": {
+        "must": "\"must\" indica certeza, pero el hablante no está seguro (or maybe…).",
+        "can't": "\"can't\" descartaría la biblioteca, pero la frase la propone como posibilidad.",
+        "has to": "\"has to\" expresa obligación o certeza, no posibilidad."
+      },
+      "examples": [
+        "Take a jacket; it might be cold later.",
+        "He might be in a meeting."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-so-vs-such-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "so-vs-such",
+    "tags": [
+      "grammar",
+      "intensifiers"
+    ],
+    "prompt": "It was ___ a beautiful day that we went to the beach.",
+    "options": [
+      "so",
+      "too",
+      "very",
+      "such"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "such (a/an) + adjetivo + sustantivo; so + adjetivo/adverbio. Ambos pueden ir con that + consecuencia.",
+      "wrong": {
+        "so": "\"so\" va con un adjetivo solo (so beautiful); delante de a + adjetivo + sustantivo se usa \"such\".",
+        "very": "\"very a beautiful day\" no es correcto, y \"very\" no combina con \"that\" de consecuencia.",
+        "too": "\"too\" significa \"demasiado\" (con sentido negativo) y no va delante de \"a\"."
+      },
+      "examples": [
+        "They are such nice people.",
+        "It was such a long trip that we slept all day."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-so-vs-such-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "so-vs-such",
+    "tags": [
+      "grammar",
+      "intensifiers"
+    ],
+    "prompt": "The film was ___ boring that I fell asleep.",
+    "options": [
+      "so",
+      "such",
+      "such a",
+      "very"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "so + adjetivo + that = tan… que.",
+      "wrong": {
+        "such": "\"such\" necesita un sustantivo (such a boring film); con un adjetivo solo se usa \"so\".",
+        "such a": "\"such a\" necesita un sustantivo detrás: such a boring film.",
+        "very": "\"very\" no se combina con \"that\" para expresar consecuencia."
+      },
+      "examples": [
+        "I was so tired that I went to bed early.",
+        "The test was so easy that everyone passed."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-question-tags-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "question-tags",
+    "tags": [
+      "grammar",
+      "tags"
+    ],
+    "prompt": "You're coming to the party tonight, ___?",
+    "options": [
+      "isn't it",
+      "won't you",
+      "don't you",
+      "aren't you"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Question tag: frase afirmativa + auxiliar negativo + pronombre (You're…, aren't you?).",
+      "wrong": {
+        "don't you": "El verbo auxiliar de la frase es \"are\" (You're), no \"do\".",
+        "isn't it": "En español decimos \"¿verdad?\" siempre igual, pero en inglés la coletilla repite el sujeto (you).",
+        "won't you": "La frase no usa will; la coletilla repite el auxiliar \"are\"."
+      },
+      "examples": [
+        "It's cold today, isn't it?",
+        "They live here, don't they?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-question-tags-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "question-tags",
+    "tags": [
+      "grammar",
+      "tags"
+    ],
+    "prompt": "She didn't call you yesterday, ___?",
+    "options": [
+      "wasn't she",
+      "does she",
+      "did she",
+      "didn't she"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Frase negativa + coletilla afirmativa con el mismo auxiliar: She didn't…, did she?",
+      "wrong": {
+        "didn't she": "Si la frase es negativa (didn't call), la coletilla va en afirmativo.",
+        "does she": "La frase está en pasado (didn't), así que la coletilla usa did.",
+        "wasn't she": "El auxiliar de la frase es did, no was, y además debe ser afirmativo."
+      },
+      "examples": [
+        "You aren't busy, are you?",
+        "He can't swim, can he?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-future-predictions-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "future-predictions",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "Take an umbrella. The forecast says it ___ rain later — there's a 50% chance.",
+    "options": [
+      "will definitely",
+      "might",
+      "can't",
+      "must"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "will = predicción segura; might/may = predicción posible pero no segura.",
+      "wrong": {
+        "will definitely": "\"will definitely\" indica certeza, pero un 50% de probabilidad no es seguro.",
+        "must": "\"must\" expresa obligación o deducción, no predicción con duda.",
+        "can't": "\"can't\" diría que es imposible que llueva, lo cual contradice el 50%."
+      },
+      "examples": [
+        "I might go out tonight, I'm not sure.",
+        "She may be late because of the traffic."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-future-predictions-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "future-predictions",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "I'm sure you ___ love this book. It's exactly your style.",
+    "options": [
+      "are",
+      "may",
+      "might",
+      "will"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con certeza (I'm sure, definitely) se usa will para predecir.",
+      "wrong": {
+        "might": "\"might\" expresa duda, pero el hablante dice \"I'm sure\".",
+        "may": "\"may\" indica solo posibilidad; no encaja con \"I'm sure\".",
+        "are": "\"you are love\" no es gramatical; se necesita will + verbo."
+      },
+      "examples": [
+        "I'm sure they'll win the match.",
+        "It will be sunny tomorrow, according to the news."
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-indirect-questions-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "indirect-questions",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "Could you tell me where ___?",
+    "options": [
+      "the station is",
+      "the station it is",
+      "does the station be",
+      "is the station"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Pregunta indirecta (Could you tell me…? Do you know…?) + palabra interrogativa + sujeto + verbo.",
+      "wrong": {
+        "is the station": "En preguntas indirectas no se invierte el orden: sujeto + verbo (the station is).",
+        "the station it is": "Sobra \"it\": el sujeto ya es \"the station\".",
+        "does the station be": "\"does\" no se usa con el verbo be, y en preguntas indirectas no va auxiliar."
+      },
+      "examples": [
+        "Do you know where the bank is?",
+        "Can you tell me what her name is?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-indirect-questions-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "indirect-questions",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "Do you know what time ___?",
+    "options": [
+      "does the museum open",
+      "the museum open",
+      "opens the museum",
+      "the museum opens"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En preguntas indirectas desaparece el auxiliar do/does/did y el verbo se conjuga normalmente.",
+      "wrong": {
+        "does the museum open": "En una pregunta indirecta no se usa do/does; el orden es sujeto + verbo.",
+        "opens the museum": "Orden invertido, como en español (\"a qué hora abre el museo\"); en inglés va sujeto + verbo.",
+        "the museum open": "Falta la -s de tercera persona: the museum opens."
+      },
+      "examples": [
+        "I wonder what time the shop closes.",
+        "Do you know where she works?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-stative-verbs-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "stative-verbs",
+    "tags": [
+      "grammar",
+      "state-verbs"
+    ],
+    "prompt": "Oh, now I ___ what you mean!",
+    "options": [
+      "understanding",
+      "understand",
+      "am understanding",
+      "am understand"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Los verbos de estado (know, understand, believe, want, like) normalmente no van en forma continua.",
+      "wrong": {
+        "am understanding": "\"understand\" es un verbo de estado y no se usa en forma continua.",
+        "understanding": "Falta el verbo conjugado; \"understanding\" solo no funciona como verbo principal.",
+        "am understand": "No se puede usar \"am\" con el verbo base."
+      },
+      "examples": [
+        "I know the answer.",
+        "Do you believe me?"
+      ]
+    }
+  },
+  {
+    "id": "gram-b1-stative-verbs-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "stative-verbs",
+    "tags": [
+      "grammar",
+      "state-verbs"
+    ],
+    "prompt": "This soup ___ delicious! Can I have some more?",
+    "options": [
+      "tastes",
+      "is tasting",
+      "taste",
+      "is tasted"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "taste, smell, look, sound + adjetivo describen un estado y van en presente simple.",
+      "wrong": {
+        "is tasting": "Cuando \"taste\" significa \"saber (a)\" es verbo de estado y no va en continuo.",
+        "taste": "Falta la -s de tercera persona (this soup = it).",
+        "is tasted": "La pasiva no tiene sentido aquí; la sopa no \"es probada\", sabe deliciosa."
+      },
+      "examples": [
+        "This cake smells amazing.",
+        "Your idea sounds great."
+      ]
+    }
+  }
+]

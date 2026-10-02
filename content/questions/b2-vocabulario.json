@@ -1,0 +1,1059 @@
+[
+  {
+    "id": "vocab-b2-collocations-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "The football match was cancelled because of ___ rain.",
+    "options": [
+      "heavy",
+      "big",
+      "much",
+      "strong"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "La lluvia intensa en inglés es 'heavy rain' (también 'heavy snow', 'heavy traffic').",
+      "wrong": {
+        "strong": "En español decimos 'lluvia fuerte', pero en inglés 'strong rain' no es natural: la lluvia intensa es 'heavy rain'.",
+        "much": "\"much\" no funciona como adjetivo delante de 'rain' en esta frase; además, 'because of much rain' no es natural.",
+        "big": "\"big\" se refiere al tamaño; no se combina con 'rain' para hablar de intensidad."
+      },
+      "examples": [
+        "There was heavy rain all night.",
+        "Heavy snow closed the roads."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-collocations-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I need a really ___ coffee to wake up this morning: make it with three shots of espresso.",
+    "options": [
+      "heavy",
+      "powerful",
+      "hard",
+      "strong"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Un café o un té cargado es 'strong'; uno flojo es 'weak'.",
+      "wrong": {
+        "hard": "\"hard\" significa duro o difícil; 'hard coffee' no existe como combinación.",
+        "heavy": "\"heavy\" va con 'rain', 'traffic' o 'smoker', no con bebidas cargadas.",
+        "powerful": "\"powerful\" se usa para motores, personas o argumentos; con el café lo natural es 'strong'."
+      },
+      "examples": [
+        "I prefer my tea strong with a little milk.",
+        "This coffee is too weak for me."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-collocations-003",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "Shoppers are complaining about the ___ prices of fruit and vegetables this winter.",
+    "options": [
+      "high",
+      "tall",
+      "upper",
+      "expensive"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Los precios son 'high' o 'low'; las cosas son 'expensive' o 'cheap'.",
+      "wrong": {
+        "expensive": "Lo que es caro es el producto ('expensive fruit'); los precios no son 'expensive', son 'high'. En español decimos 'precios caros', en inglés no.",
+        "tall": "\"tall\" describe altura física (personas, edificios), nunca precios.",
+        "upper": "\"upper\" significa 'superior' en posición ('upper floor'); no describe precios."
+      },
+      "examples": [
+        "Rents are very high in the city centre.",
+        "Petrol prices are lower this month."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-collocations-004",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "b2-plus"
+    ],
+    "prompt": "She was ___ disappointed when she didn't get the job she had worked so hard for.",
+    "options": [
+      "heavily",
+      "strongly",
+      "bitterly",
+      "hardly"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Bitterly disappointed' es la colocación habitual para una decepción muy profunda.",
+      "wrong": {
+        "strongly": "\"strongly\" se combina con verbos de opinión ('strongly disagree', 'strongly believe'), no con 'disappointed'.",
+        "heavily": "\"heavily\" va con 'rain heavily', 'drink heavily' o 'heavily influenced', no con sentimientos de decepción.",
+        "hardly": "\"hardly\" significa 'apenas'; cambiaría el sentido a 'casi no se decepcionó'."
+      },
+      "examples": [
+        "The fans were bitterly disappointed by the result.",
+        "He was bitterly disappointed with the decision."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-collocations-005",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "b2-plus"
+    ],
+    "prompt": "After the accident, the police ___ a full investigation into the causes.",
+    "options": [
+      "made",
+      "launched",
+      "realised",
+      "put"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Para iniciar una investigación oficial se dice 'launch an investigation'.",
+      "wrong": {
+        "made": "En inglés no se dice 'make an investigation' en este contexto; la colocación es 'launch/open/carry out an investigation'.",
+        "realised": "\"realise\" significa darse cuenta. En español decimos 'realizar una investigación', pero en inglés 'realise' no tiene ese sentido.",
+        "put": "\"put\" no se combina con 'investigation'."
+      },
+      "examples": [
+        "The company launched an inquiry into the complaints.",
+        "The government has launched a campaign against smoking."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-collocations-006",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "b2-plus"
+    ],
+    "prompt": "By nine o'clock the children were ___ asleep after a long day at the beach.",
+    "options": [
+      "fast",
+      "hard",
+      "strong",
+      "deep"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Fast asleep' significa 'profundamente dormido'; aquí 'fast' no significa 'rápido'.",
+      "wrong": {
+        "deep": "\"deep\" es adjetivo ('a deep sleep'); con 'asleep' no se dice 'deep asleep' (sería 'deeply asleep').",
+        "hard": "\"hard asleep\" no existe; 'hard' no intensifica 'asleep'.",
+        "strong": "\"strong asleep\" no existe; es una traducción de 'profundamente' que no funciona."
+      },
+      "examples": [
+        "The baby is fast asleep.",
+        "I was fast asleep when the phone rang."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-word-formation-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "prefixes"
+    ],
+    "prompt": "I strongly ___ with your proposal: it's far too expensive for a small company like ours.",
+    "options": [
+      "disagree",
+      "misagree",
+      "inagree",
+      "unagree"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El contrario de 'agree' es 'disagree' (dis- = negación con muchos verbos: dislike, disappear).",
+      "wrong": {
+        "unagree": "El prefijo un- no se usa con 'agree'; el contrario de 'agree' se forma con dis-.",
+        "misagree": "mis- significa 'mal' o 'equivocadamente' (misunderstand); 'misagree' no existe.",
+        "inagree": "in- no se usa con 'agree'; 'inagree' no existe."
+      },
+      "examples": [
+        "I disagree with you on this point.",
+        "Many people dislike flying."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-word-formation-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "prefixes"
+    ],
+    "prompt": "I think you ___ what I said: I wasn't criticising you, I was trying to help.",
+    "options": [
+      "ununderstood",
+      "disunderstood",
+      "misunderstood",
+      "overunderstood"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "El prefijo mis- significa 'mal, equivocadamente': misunderstand, mispronounce, misspell.",
+      "wrong": {
+        "disunderstood": "dis- no se combina con 'understand'; para 'entender mal' se usa mis-.",
+        "ununderstood": "'ununderstood' no existe; un- no se pone delante de este verbo.",
+        "overunderstood": "over- significa 'en exceso' y no tiene sentido con 'understand'."
+      },
+      "examples": [
+        "Sorry, I misread the address.",
+        "Many students misspell this word."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-word-formation-003",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "prefixes"
+    ],
+    "prompt": "The meat is dry and tough because you ___ it: it was in the oven for three hours.",
+    "options": [
+      "discooked",
+      "overcooked",
+      "miscooked",
+      "uncooked"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "El prefijo over- indica exceso: overcook, oversleep, overeat, overwork.",
+      "wrong": {
+        "miscooked": "'miscooked' no es una palabra estándar; el problema aquí es el exceso de tiempo, que se expresa con over-.",
+        "discooked": "dis- no se combina con 'cook'; 'discooked' no existe.",
+        "uncooked": "\"uncooked\" significa crudo, sin cocinar; contradice las tres horas en el horno."
+      },
+      "examples": [
+        "I overslept and missed the bus.",
+        "Don't overwork yourself before the exam."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-word-formation-004",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "suffixes"
+    ],
+    "prompt": "The city council announced the ___ of a new hospital next to the university.",
+    "options": [
+      "constructment",
+      "constructity",
+      "constructness",
+      "construction"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Muchos verbos forman el sustantivo con -tion/-ion: construct → construction, reduce → reduction.",
+      "wrong": {
+        "constructment": "'constructment' no existe; el sustantivo de 'construct' se forma con -ion.",
+        "constructity": "-ity forma sustantivos a partir de adjetivos (real → reality), no de este verbo.",
+        "constructness": "-ness se añade a adjetivos (happy → happiness); 'constructness' no existe."
+      },
+      "examples": [
+        "The construction of the bridge took two years.",
+        "There has been a reduction in costs."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-word-formation-005",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "suffixes",
+      "b2-plus"
+    ],
+    "prompt": "Her ___ to the project was obvious: she worked every weekend for six months.",
+    "options": [
+      "commition",
+      "commitment",
+      "committal",
+      "commitity"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Commit' (comprometerse) forma el sustantivo 'commitment' (compromiso, dedicación) con el sufijo -ment.",
+      "wrong": {
+        "commition": "'commition' no existe; 'commit' forma el sustantivo con -ment.",
+        "commitity": "'commitity' no existe; -ity se añade a adjetivos, no a 'commit'.",
+        "committal": "\"committal\" existe, pero es un término formal (el ingreso en prisión o un hospital, o el entierro); no significa dedicación."
+      },
+      "examples": [
+        "The job requires a lot of commitment.",
+        "Thank you for your commitment to the team."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-word-formation-006",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "suffixes"
+    ],
+    "prompt": "The ___ of this neighbourhood is amazing: you can find restaurants from more than forty countries.",
+    "options": [
+      "diversement",
+      "diversion",
+      "diversity",
+      "diverseness"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Muchos adjetivos forman el sustantivo con -ity: diverse → diversity, popular → popularity, able → ability.",
+      "wrong": {
+        "diverseness": "'diverseness' casi no se usa; el sustantivo normal de 'diverse' es 'diversity'.",
+        "diversement": "'diversement' no existe en inglés.",
+        "diversion": "\"diversion\" significa desvío (de tráfico) o distracción; en español 'diversión' se parece, pero no es lo mismo."
+      },
+      "examples": [
+        "Cultural diversity makes the city interesting.",
+        "The band's popularity grew quickly."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-word-formation-007",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "suffixes"
+    ],
+    "prompt": "Which is the correct noun of the adjective 'responsible'?",
+    "options": [
+      "responsability",
+      "responsibility",
+      "responsibleness",
+      "responsibilition"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Los adjetivos en -ible/-able forman el sustantivo en -ibility/-ability: responsible → responsibility.",
+      "wrong": {
+        "responsability": "Es la ortografía influida por el español 'responsabilidad'; en inglés se escribe con i: responsibility.",
+        "responsibleness": "'responsibleness' no es la forma usada; el sustantivo normal termina en -ity.",
+        "responsibilition": "'responsibilition' no existe; -tion no se añade a adjetivos."
+      },
+      "examples": [
+        "Looking after the children is your responsibility.",
+        "She has the ability to stay calm."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "affect-effect"
+    ],
+    "prompt": "The new tax law will ___ thousands of small businesses across the country.",
+    "options": [
+      "effect",
+      "effort",
+      "infect",
+      "affect"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Affect' es el verbo (afectar); 'effect' es el sustantivo (efecto).",
+      "wrong": {
+        "effect": "\"effect\" es normalmente un sustantivo (efecto); como verbo significa 'llevar a cabo' (effect a change), no 'afectar'.",
+        "infect": "\"infect\" significa infectar o contagiar; no se usa para el impacto de una ley.",
+        "effort": "\"effort\" es un sustantivo (esfuerzo); aquí hace falta un verbo."
+      },
+      "examples": [
+        "The strike affected all trains.",
+        "Stress can affect your sleep."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "affect-effect"
+    ],
+    "prompt": "I took two pills, but the medicine had no ___ on my headache.",
+    "options": [
+      "effect",
+      "affection",
+      "efficiency",
+      "affect"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Have an effect on' = tener efecto en; 'effect' es el sustantivo.",
+      "wrong": {
+        "affect": "\"affect\" es un verbo; después de 'had no' necesitamos un sustantivo: 'effect'.",
+        "affection": "\"affection\" significa cariño, afecto; no tiene sentido con una medicina.",
+        "efficiency": "\"efficiency\" significa eficiencia; además, la colocación fija es 'have an effect on'."
+      },
+      "examples": [
+        "The music had a calming effect on the baby.",
+        "Climate change has serious effects on farming."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-003",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "lie-lay",
+      "b2-plus"
+    ],
+    "prompt": "Yesterday I felt dizzy at work, so I ___ down on the sofa in the staff room for an hour.",
+    "options": [
+      "lied",
+      "lain",
+      "lay",
+      "laid"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Lie' (tumbarse) es irregular: lie – lay – lain. 'Lay' (poner algo) es: lay – laid – laid.",
+      "wrong": {
+        "laid": "\"laid\" es el pasado de 'lay' (poner algo), que necesita objeto: 'I laid the book on the table'. Aquí no hay objeto.",
+        "lied": "\"lied\" es el pasado de 'lie' con el significado de mentir; no de tumbarse.",
+        "lain": "\"lain\" es el participio de 'lie'; necesitaría 'have': 'I have lain'. En pasado simple es 'lay'."
+      },
+      "examples": [
+        "She lay in bed all morning.",
+        "He laid his keys on the table."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-004",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "principal-principle",
+      "b2-plus"
+    ],
+    "prompt": "She refused to sign the contract as a matter of ___: she thought it was unfair to the workers.",
+    "options": [
+      "beginning",
+      "principle",
+      "principal",
+      "principles"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Principle' = principio (moral o teórico); 'principal' = principal / director de colegio.",
+      "wrong": {
+        "principal": "\"principal\" es adjetivo (principal) o el director de un colegio; no es un valor moral.",
+        "principles": "La expresión fija es 'a matter of principle', en singular.",
+        "beginning": "\"beginning\" significa comienzo; 'as a matter of beginning' no existe. En español 'principio' tiene los dos sentidos, en inglés no."
+      },
+      "examples": [
+        "It's not about the money, it's the principle.",
+        "The principal called my parents."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-005",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "economic-economical"
+    ],
+    "prompt": "This small car is very ___: it uses only four litres of petrol per 100 kilometres.",
+    "options": [
+      "economic",
+      "economics",
+      "economist",
+      "economical"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Economical' = que ahorra, que gasta poco; 'economic' = relacionado con la economía.",
+      "wrong": {
+        "economic": "\"economic\" significa 'relacionado con la economía' (economic crisis, economic growth); no 'que ahorra'.",
+        "economist": "\"economist\" es un sustantivo: la persona que estudia economía.",
+        "economics": "\"economics\" es la ciencia económica; no describe un coche."
+      },
+      "examples": [
+        "Buying in bulk is more economical.",
+        "The country is in an economic crisis."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-006",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "sensible-sensitive"
+    ],
+    "prompt": "Be careful what you say to Tom: he's very ___ about his weight.",
+    "options": [
+      "sensitive",
+      "sensible",
+      "sensitivity",
+      "sentimental"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Sensitive' = sensible, susceptible; 'sensible' = sensato.",
+      "wrong": {
+        "sensible": "Falso amigo: \"sensible\" significa sensato, prudente. 'Sensible' en español se traduce como 'sensitive'.",
+        "sensitivity": "\"sensitivity\" es el sustantivo; después de 'very' necesitamos un adjetivo.",
+        "sentimental": "\"sentimental\" se refiere a emociones nostálgicas o románticas; no se usa 'sentimental about his weight'."
+      },
+      "examples": [
+        "My skin is very sensitive to the sun.",
+        "She's sensitive about her age."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-007",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "sensible-sensitive",
+      "false-friend"
+    ],
+    "prompt": "What does 'sensible' mean in: 'Saving part of your salary every month is a sensible decision'?",
+    "options": [
+      "perceptible, que se nota",
+      "sentimental",
+      "sensata, prudente",
+      "sensible, que se emociona fácilmente"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Sensible' significa sensato, razonable o prudente.",
+      "wrong": {
+        "sensible, que se emociona fácilmente": "Es el falso amigo típico: esa idea en inglés es 'sensitive'.",
+        "sentimental": "'Sentimental' en inglés es 'sentimental'; 'sensible' no tiene ese significado.",
+        "perceptible, que se nota": "Ese significado corresponde a 'noticeable' o 'perceptible', no a 'sensible'."
+      },
+      "examples": [
+        "Wear sensible shoes for the hike.",
+        "That sounds like a sensible plan."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-confusing-words-008",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "confusing-words",
+    "tags": [
+      "vocabulary",
+      "historic-historical",
+      "b2-plus"
+    ],
+    "prompt": "My aunt writes ___ novels set in ancient Rome, and they are full of real events.",
+    "options": [
+      "historical",
+      "historian",
+      "historic",
+      "history"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Historical' = relacionado con el pasado o la historia; 'historic' = importante, memorable.",
+      "wrong": {
+        "historic": "\"historic\" significa 'trascendental, que hace historia' (a historic victory); para novelas sobre el pasado se dice 'historical novels'.",
+        "history": "\"history\" es un sustantivo; aquí hace falta el adjetivo.",
+        "historian": "\"historian\" es la persona que estudia historia, no un adjetivo."
+      },
+      "examples": [
+        "He loves historical films.",
+        "It was a historic day for the country."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend",
+      "b2-plus"
+    ],
+    "prompt": "What does 'assume' mean in: 'I assume you've already had dinner, so I didn't cook anything'?",
+    "options": [
+      "asumir una responsabilidad",
+      "admitir un error",
+      "afirmar con seguridad",
+      "suponer, dar por hecho"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Assume + oración' significa suponer o dar por hecho; 'asumir' en español muchas veces se traduce como 'accept' o 'take on'.",
+      "wrong": {
+        "asumir una responsabilidad": "'Assume responsibility' existe, pero en esta frase 'assume' va seguido de una oración y significa suponer.",
+        "admitir un error": "Admitir es 'admit'; no es el sentido de 'assume'.",
+        "afirmar con seguridad": "Afirmar es 'claim' o 'state'; 'assume' expresa una suposición, no una afirmación."
+      },
+      "examples": [
+        "Don't assume everyone agrees with you.",
+        "I assumed the shop would be open."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "The prisoner made an ___ to escape, but the guards caught him at the gate.",
+    "options": [
+      "attempt",
+      "intent",
+      "attack",
+      "attention"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Attempt' = intento; no significa 'atentado' (eso es 'attack').",
+      "wrong": {
+        "intent": "\"intent\" significa intención (formal, sobre todo en lenguaje legal); no es 'intento'. 'Intento' en inglés es 'attempt'.",
+        "attack": "\"attack\" significa ataque; 'make an attack to escape' no tiene sentido. Ojo: 'atentado' en inglés es 'attack', no 'attempt'.",
+        "attention": "\"attention\" significa atención; no encaja con 'to escape'."
+      },
+      "examples": [
+        "It was her third attempt at the driving test.",
+        "They attempted to climb the mountain in winter."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend",
+      "b2-plus"
+    ],
+    "prompt": "What does 'deception' mean in: 'The company used deception to sell its products'?",
+    "options": [
+      "excepción",
+      "decepción, desilusión",
+      "engaño",
+      "recepción"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Deception' significa engaño; el verbo es 'deceive' (engañar).",
+      "wrong": {
+        "decepción, desilusión": "Falso amigo: 'decepción' en inglés es 'disappointment'.",
+        "excepción": "'Excepción' en inglés es 'exception'.",
+        "recepción": "'Recepción' en inglés es 'reception'."
+      },
+      "examples": [
+        "The scam was based on deception.",
+        "He deceived his customers for years."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-004",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "He couldn't play in the final because of a knee ___ he got in training.",
+    "options": [
+      "injure",
+      "injury",
+      "insult",
+      "offence"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Injury' = lesión, herida; no es 'injuria' (que en inglés sería 'insult' o 'slander').",
+      "wrong": {
+        "insult": "\"insult\" significa insulto; quizá lo eliges por el español 'injuria', pero 'injury' es una lesión física.",
+        "injure": "\"injure\" es el verbo (lesionar); después de 'a knee' hace falta un sustantivo.",
+        "offence": "\"offence\" significa delito u ofensa; no describe una lesión."
+      },
+      "examples": [
+        "She suffered a back injury.",
+        "Nobody was injured in the accident."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-005",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "What does 'lecture' mean in: 'The professor gave a lecture on climate change to 300 students'?",
+    "options": [
+      "una conferencia o clase magistral",
+      "un libro de texto",
+      "una lectura en voz alta",
+      "un examen escrito"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Lecture' = conferencia o clase magistral; 'lecturer' = profesor universitario.",
+      "wrong": {
+        "una lectura en voz alta": "Falso amigo: 'lectura' en inglés es 'reading'.",
+        "un libro de texto": "Un libro de texto es 'a textbook'.",
+        "un examen escrito": "Un examen escrito es 'a written exam'."
+      },
+      "examples": [
+        "I have a lecture at nine tomorrow.",
+        "She is a lecturer in history."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-006",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend",
+      "b2-plus"
+    ],
+    "prompt": "My manager was very ___ when I told him my father was in hospital; he gave me the week off.",
+    "options": [
+      "sympathetic",
+      "amusing",
+      "likeable",
+      "sympathy"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Sympathetic' = comprensivo, compasivo; 'simpático' en inglés es 'nice', 'friendly' o 'likeable'.",
+      "wrong": {
+        "likeable": "\"likeable\" significa simpático, agradable como persona; no describe una reacción comprensiva ante un problema.",
+        "sympathy": "\"sympathy\" es el sustantivo (compasión, comprensión); después de 'very' hace falta un adjetivo.",
+        "amusing": "\"amusing\" significa divertido; no encaja con una mala noticia."
+      },
+      "examples": [
+        "The teacher was sympathetic to my problem.",
+        "Her new boss is really nice and friendly."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-007",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend"
+    ],
+    "prompt": "A jar of jam says 'No preservatives' on the label. What does it mean?",
+    "options": [
+      "sin azúcar añadido",
+      "sin envase de plástico",
+      "sin conservantes",
+      "sin colorantes"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Preservative' = conservante (en alimentos); no significa lo mismo que 'preservativo' en español, que en inglés es 'condom'.",
+      "wrong": {
+        "sin colorantes": "'Colorantes' en inglés es 'colourings' o 'artificial colours'.",
+        "sin azúcar añadido": "Eso sería 'no added sugar'.",
+        "sin envase de plástico": "Eso sería 'plastic-free packaging'."
+      },
+      "examples": [
+        "This bread contains no preservatives.",
+        "Salt is a natural preservative."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-false-friends-008",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friend",
+      "b2-plus"
+    ],
+    "prompt": "What does 'misery' mean in: 'The war brought misery to millions of people'?",
+    "options": [
+      "una cantidad ridícula de dinero",
+      "sufrimiento, desdicha",
+      "suciedad",
+      "tacañería"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Misery' significa sufrimiento o gran tristeza; 'miserable' = muy triste o deprimente.",
+      "wrong": {
+        "una cantidad ridícula de dinero": "En español decimos 'cobra una miseria', pero en inglés eso es 'a pittance', no 'misery'.",
+        "tacañería": "La tacañería es 'meanness' o 'stinginess'; un tacaño es 'a miser', no 'misery'.",
+        "suciedad": "La suciedad es 'dirt'; 'misery' no tiene ese sentido."
+      },
+      "examples": [
+        "Losing his job caused him great misery.",
+        "She looked miserable in the rain."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-dependent-prepositions-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions"
+    ],
+    "prompt": "Whether we go to the beach tomorrow or not depends ___ the weather.",
+    "options": [
+      "of",
+      "in",
+      "from",
+      "on"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Depend on' = depender de.",
+      "wrong": {
+        "of": "En español decimos 'depende de', pero en inglés 'depend of' es incorrecto.",
+        "from": "'Depend from' es una traducción literal; 'depend' siempre va con 'on'.",
+        "in": "'Depend in' no existe."
+      },
+      "examples": [
+        "It depends on the price.",
+        "You can depend on me."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-dependent-prepositions-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions"
+    ],
+    "prompt": "The new accountant was accused ___ stealing money from the company.",
+    "options": [
+      "for",
+      "of",
+      "with",
+      "about"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Accuse someone of + -ing/sustantivo' = acusar a alguien de.",
+      "wrong": {
+        "for": "Es un error frecuente: se dice 'blame someone for', pero 'accuse someone of'.",
+        "about": "'Accuse about' no existe.",
+        "with": "'Accuse with' no existe; en inglés británico existe 'charged with', pero no con 'accused'."
+      },
+      "examples": [
+        "They accused him of lying.",
+        "She was accused of fraud."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-dependent-prepositions-003",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions"
+    ],
+    "prompt": "My parents always insist ___ paying for dinner when we visit them.",
+    "options": [
+      "to",
+      "for",
+      "on",
+      "in"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Insist on + -ing' = insistir en hacer algo.",
+      "wrong": {
+        "in": "En español decimos 'insistir en', pero en inglés 'insist in' es incorrecto.",
+        "for": "'Insist for' no existe.",
+        "to": "'Insist to pay' no es correcto; 'insist' va con 'on + -ing' o 'that + oración'."
+      },
+      "examples": [
+        "He insisted on driving me home.",
+        "She insisted that I stay for lunch."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-dependent-prepositions-004",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions"
+    ],
+    "prompt": "He apologised ___ arriving late and promised it wouldn't happen again.",
+    "options": [
+      "by",
+      "for",
+      "of",
+      "to"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Apologise to someone for something' = pedir perdón a alguien por algo.",
+      "wrong": {
+        "of": "'Apologise of' no existe; quizá viene de 'disculparse de', pero en inglés es 'for'.",
+        "by": "'Apologise by' no expresa el motivo de la disculpa.",
+        "to": "'Apologise to' se usa con la persona (apologise to your sister), no con el motivo."
+      },
+      "examples": [
+        "I apologised to her for the mistake.",
+        "We apologise for the delay."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-formal-register-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "formal-register",
+    "tags": [
+      "vocabulary",
+      "register"
+    ],
+    "prompt": "Formal letter: 'Dear Ms Clarke, we are pleased to ___ you that your application has been successful.'",
+    "options": [
+      "let",
+      "tell",
+      "say",
+      "inform"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En registro formal, 'inform someone that' sustituye a 'tell someone that'.",
+      "wrong": {
+        "tell": "'Tell you that' es correcto gramaticalmente, pero resulta demasiado informal para una carta oficial.",
+        "let": "'Let you that' es incorrecto; la expresión informal es 'let you know that'.",
+        "say": "'Say' no lleva la persona como objeto directo: no se dice 'say you that'."
+      },
+      "examples": [
+        "We regret to inform you that the flight has been cancelled.",
+        "Please inform us of any changes."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b2-formal-register-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "formal-register",
+    "tags": [
+      "vocabulary",
+      "register",
+      "b2-plus"
+    ],
+    "prompt": "In a formal notice, which verb replaces 'get' in: 'Visitors can ___ further information at reception'?",
+    "options": [
+      "obtain",
+      "grab",
+      "catch",
+      "take"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Obtain' es la alternativa formal de 'get' cuando significa conseguir.",
+      "wrong": {
+        "catch": "\"catch\" significa atrapar o coger (un autobús); no se usa para información.",
+        "grab": "\"grab\" es muy informal (agarrar, pillar); no encaja en un aviso oficial.",
+        "take": "'Take information' no es una combinación natural en este contexto."
+      },
+      "examples": [
+        "Tickets can be obtained online.",
+        "You must obtain permission before entering."
+      ]
+    }
+  }
+]

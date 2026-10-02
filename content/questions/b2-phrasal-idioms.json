@@ -1,0 +1,2049 @@
+[
+  {
+    "id": "pv-b2-put-up-with-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "put-up-with",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "I honestly don't know how you ___ all that noise from the building site next door every morning.",
+    "options": [
+      "stand up to",
+      "put up",
+      "put up with",
+      "get on with"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"put up with\" = soportar, aguantar algo o a alguien molesto.",
+      "wrong": {
+        "put up": "Sin \"with\", \"put up\" significa montar o alojar a alguien (put up a tent, put someone up). Para 'soportar' algo hace falta \"put up with\".",
+        "stand up to": "\"stand up to\" es plantar cara a una persona que te trata mal; no se usa para aguantar un ruido.",
+        "get on with": "\"get on with\" es llevarse bien con alguien o seguir con una tarea; no significa tolerar una molestia."
+      },
+      "examples": [
+        "I can't put up with his rudeness any longer.",
+        "We had to put up with a lot of rain on holiday."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-catch-up-on-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "catch-up-on",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "After two weeks off sick, Laura has a lot of work to ___ before the end of the month.",
+    "options": [
+      "catch up on",
+      "come up with",
+      "keep up",
+      "catch on"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"catch up on something\" = ponerse al día con algo que se ha quedado atrasado (trabajo, sueño, noticias).",
+      "wrong": {
+        "catch on": "\"catch on\" significa ponerse de moda o entender algo por fin; no lleva objeto como 'work'.",
+        "keep up": "\"keep up\" es mantener el ritmo; para la idea de 'ponerse al día con' trabajo atrasado se dice \"catch up on\".",
+        "come up with": "\"come up with\" es idear o proponer (come up with an idea); no tiene sentido con trabajo atrasado."
+      },
+      "examples": [
+        "I spent Sunday catching up on sleep.",
+        "She's catching up on emails after her holiday."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-come-down-with-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "come-down-with",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Sorry, I can't come to the party tonight — I think I'm ___ the flu.",
+    "options": [
+      "coming across",
+      "coming down with",
+      "going down",
+      "falling out with"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"come down with\" + enfermedad = empezar a ponerse enfermo de algo (normalmente leve: un resfriado, la gripe).",
+      "wrong": {
+        "coming across": "\"come across\" es encontrarse algo por casualidad; no se usa para empezar a sufrir una enfermedad.",
+        "falling out with": "\"fall out with\" es enfadarse o pelearse con una persona, no con una enfermedad.",
+        "going down": "\"go down\" significa bajar o disminuir; además no puede llevar 'the flu' como objeto directo."
+      },
+      "examples": [
+        "He came down with a cold the day before his exam.",
+        "Half the class has come down with a stomach bug."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-get-away-with-004",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "get-away-with",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "He copied his essay from the internet and thought he could ___ it, but the teacher noticed straight away.",
+    "options": [
+      "get away with",
+      "get by",
+      "get over",
+      "get rid of"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"get away with something\" = salirse con la suya, hacer algo malo sin recibir castigo.",
+      "wrong": {
+        "get over": "\"get over\" es superar o recuperarse de algo (get over an illness); no significa quedar sin castigo.",
+        "get by": "\"get by\" es arreglárselas con pocos recursos y no lleva objeto como 'it'.",
+        "get rid of": "\"get rid of\" es deshacerse de algo; no tiene sentido 'deshacerse del ensayo' en este contexto."
+      },
+      "examples": [
+        "Nobody gets away with cheating in Mr Lee's class.",
+        "She broke the rules and got away with it."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-look-down-on-005",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "look-down-on",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "What does 'look down on someone' mean in 'She looks down on people who didn't go to university'?",
+    "options": [
+      "despreciar a alguien, sentirse superior a esa persona",
+      "admirar a alguien",
+      "buscar a alguien",
+      "cuidar a alguien"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"look down on someone\" = menospreciar, mirar por encima del hombro a alguien.",
+      "wrong": {
+        "cuidar a alguien": "Eso es \"look after\" (cuidar). \"look down on\" tiene un sentido negativo de superioridad.",
+        "admirar a alguien": "Es justo lo contrario: admirar es \"look up to\". 'Mirar hacia abajo' a alguien es despreciarlo.",
+        "buscar a alguien": "Buscar es \"look for\". \"look down on\" no tiene nada que ver con buscar."
+      },
+      "examples": [
+        "Don't look down on people because of the job they do.",
+        "He felt that his neighbours looked down on him."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-cut-down-on-006",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "cut-down-on",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "My doctor told me to ___ sugar, so now I only have dessert at weekends.",
+    "options": [
+      "cut off",
+      "cut in",
+      "cut out of",
+      "cut down on"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"cut down on something\" = reducir la cantidad que consumes o haces de algo (sin eliminarlo del todo).",
+      "wrong": {
+        "cut off": "\"cut off\" es cortar un suministro o aislar (they cut off the electricity); no significa reducir el consumo.",
+        "cut out of": "\"cut out of\" se usa para excluir a alguien de algo (cut someone out of a will); aquí no tiene sentido.",
+        "cut in": "\"cut in\" es interrumpir a alguien o colarse con el coche; no lleva objeto como 'sugar'."
+      },
+      "examples": [
+        "I'm trying to cut down on coffee.",
+        "We need to cut down on plastic packaging."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-come-across-007",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "come-across",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "While I was tidying the attic, I ___ some old photos of my grandparents as teenagers.",
+    "options": [
+      "came up",
+      "came across",
+      "came over",
+      "came into"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"come across something\" = encontrar algo por casualidad, toparse con algo.",
+      "wrong": {
+        "came up": "\"come up\" significa surgir (a problem came up) y no lleva objeto directo como 'some old photos'.",
+        "came over": "\"come over\" es venir a casa de alguien; no significa encontrar algo.",
+        "came into": "\"come into\" se usa para heredar dinero (came into a fortune) o entrar en un lugar, no para encontrar fotos."
+      },
+      "examples": [
+        "I came across an interesting article this morning.",
+        "If you come across my keys, let me know."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-live-up-to-008",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "live-up-to",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "The hotel looked amazing online, but sadly it didn't ___ our expectations.",
+    "options": [
+      "reach to",
+      "live up to",
+      "keep up with",
+      "live with"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"live up to something\" = estar a la altura de algo (expectativas, una reputación, un nombre).",
+      "wrong": {
+        "live with": "\"live with\" es vivir con alguien o aceptar algo desagradable; no significa estar a la altura.",
+        "reach to": "Es una traducción literal de 'llegar a nuestras expectativas'. En inglés no se dice \"reach to\" con expectativas.",
+        "keep up with": "\"keep up with\" es seguir el ritmo de algo o alguien, no cumplir unas expectativas."
+      },
+      "examples": [
+        "The film really lived up to the hype.",
+        "He's trying hard to live up to his father's reputation."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-stand-out-009",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "stand-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "In a room full of people in grey suits, her bright red dress really ___.",
+    "options": [
+      "stood out",
+      "stood up",
+      "stood for",
+      "stood by"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"stand out\" = destacar, llamar la atención por ser diferente.",
+      "wrong": {
+        "stood up": "\"stand up\" es ponerse de pie; no transmite la idea de destacar o llamar la atención.",
+        "stood by": "\"stand by\" es apoyar a alguien o estar preparado; no significa destacar.",
+        "stood for": "\"stand for\" significa representar o 'ser la abreviatura de' (UN stands for United Nations) y necesita objeto."
+      },
+      "examples": [
+        "Her application stood out from all the others.",
+        "Use a bright colour so the title stands out."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-take-on-010",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "take-on",
+    "tags": [
+      "phrasal-verb",
+      "multiple-meanings"
+    ],
+    "prompt": "Which phrasal verb fits both sentences? (1) 'The company is going to ___ twenty new staff.' (2) 'I'm too busy to ___ any more projects this month.'",
+    "options": [
+      "take off",
+      "pick up",
+      "take on",
+      "make up"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"take on\" tiene varios significados: contratar a alguien y aceptar una responsabilidad o trabajo.",
+      "wrong": {
+        "take off": "\"take off\" significa despegar, quitarse ropa o tener éxito repentino; no funciona con 'twenty new staff'.",
+        "pick up": "\"pick up\" significa recoger, aprender algo sin esfuerzo o mejorar; no se usa para contratar personal.",
+        "make up": "\"make up\" significa inventar, reconciliarse o formar parte de; no encaja con contratar ni con aceptar proyectos."
+      },
+      "examples": [
+        "The restaurant is taking on extra waiters for the summer.",
+        "She took on too much and got stressed."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-rule-out-011",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "rule-out",
+    "tags": [
+      "phrasal-verb",
+      "pronoun-position"
+    ],
+    "prompt": "Will the workers go on strike? The union hasn't ___ yet.",
+    "options": [
+      "ruled it out",
+      "ruled it",
+      "ruled out it",
+      "ruled out"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"rule out\" = descartar una posibilidad. Es separable: con pronombre, este va entre el verbo y la partícula (rule it out).",
+      "wrong": {
+        "ruled out it": "Con un phrasal verb separable, si el objeto es un pronombre (it, them, him) va obligatoriamente en medio: rule it out, nunca rule out it.",
+        "ruled out": "Falta el objeto: \"rule out\" es transitivo, hay que decir qué se descarta (it = la huelga).",
+        "ruled it": "Falta la partícula \"out\". \"rule\" solo significa gobernar o trazar líneas, no descartar."
+      },
+      "examples": [
+        "The doctor ruled out a broken bone.",
+        "We can't rule it out completely."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-bring-about-012",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "bring-about",
+    "tags": [
+      "phrasal-verb",
+      "b2-plus"
+    ],
+    "prompt": "The new government has promised to ___ real change in the education system.",
+    "options": [
+      "bring back",
+      "bring up",
+      "bring about",
+      "bring out"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"bring about\" = provocar, ocasionar algo (normalmente un cambio). Es un registro más formal.",
+      "wrong": {
+        "bring up": "\"bring up\" es criar a un niño o sacar un tema en una conversación; no significa provocar un cambio.",
+        "bring out": "\"bring out\" es lanzar un producto o sacar a relucir una cualidad (bring out the best in someone), no causar un cambio.",
+        "bring back": "\"bring back\" es recuperar algo del pasado o devolver algo; no encaja con 'real change'."
+      },
+      "examples": [
+        "The internet brought about huge changes in how we work.",
+        "What brought about this decision?"
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-put-forward-013",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "put-forward",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "At the staff meeting, Sara ___ a proposal to let everyone work from home on Fridays.",
+    "options": [
+      "put forward",
+      "put away",
+      "put off",
+      "put down"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"put forward\" = proponer o presentar una idea, plan o candidato para que se considere.",
+      "wrong": {
+        "put off": "\"put off\" es aplazar algo o quitar las ganas; no se usa para presentar una propuesta.",
+        "put away": "\"put away\" es guardar algo en su sitio; no tiene sentido con 'a proposal' en una reunión.",
+        "put down": "\"put down\" es dejar algo, apuntar algo o humillar a alguien; no significa proponer."
+      },
+      "examples": [
+        "Several ideas were put forward at the meeting.",
+        "She put forward a plan to save energy."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-carry-out-014",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "carry-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "The scientists will ___ a series of tests on the new vaccine next month.",
+    "options": [
+      "take out",
+      "carry out",
+      "make out",
+      "carry on"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"carry out\" = llevar a cabo, realizar (pruebas, una investigación, un plan, órdenes).",
+      "wrong": {
+        "carry on": "\"carry on\" es continuar; además pediría 'with' (carry on with the tests). Aquí se habla de realizar unas pruebas nuevas.",
+        "take out": "\"take out\" es sacar algo o contratar un seguro/préstamo; no se usa para realizar pruebas.",
+        "make out": "\"make out\" es distinguir o entender algo con dificultad. 'Hacer pruebas' no se traduce con make."
+      },
+      "examples": [
+        "The police carried out an investigation.",
+        "The survey was carried out last year."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-draw-up-015",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "draw-up",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Before we start the project, we need to ___ a detailed plan and a budget.",
+    "options": [
+      "pull up",
+      "draw out",
+      "draw up",
+      "draw on"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"draw up\" = redactar o elaborar un documento formal (un plan, un contrato, una lista).",
+      "wrong": {
+        "draw on": "\"draw on\" es recurrir a algo (draw on your experience); no significa redactar un plan.",
+        "draw out": "\"draw out\" es alargar algo más de lo necesario o sacar dinero; no encaja con 'a detailed plan'.",
+        "pull up": "\"pull up\" es detener un vehículo o acercar una silla; no se usa para documentos."
+      },
+      "examples": [
+        "The lawyer drew up the contract.",
+        "Let's draw up a list of guests."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-fall-through-016",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "fall-through",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "We were going to buy a flat in the city centre, but the deal ___ at the last minute.",
+    "options": [
+      "fell out",
+      "fell behind",
+      "fell down",
+      "fell through"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"fall through\" = fracasar, no llegar a realizarse (un plan, un acuerdo, una venta).",
+      "wrong": {
+        "fell down": "\"fall down\" es caerse al suelo (una persona o un edificio); no se usa para un acuerdo que no se concreta.",
+        "fell behind": "\"fall behind\" es quedarse atrás o retrasarse con pagos o trabajo; no significa que un plan fracase.",
+        "fell out": "\"fall out\" es pelearse con alguien o caerse de dentro de algo; no tiene sentido con 'the deal'."
+      },
+      "examples": [
+        "Our holiday plans fell through because of the strike.",
+        "The sale fell through when the buyer lost his job."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-get-round-to-017",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "get-round-to",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "I've been meaning to fix that shelf for months, but I never ___ it.",
+    "options": [
+      "get over",
+      "get round to",
+      "get by",
+      "get across"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"get round to (doing) something\" = encontrar por fin el momento de hacer algo que llevas tiempo posponiendo. En EE. UU. también \"get around to\".",
+      "wrong": {
+        "get over": "\"get over\" es superar algo (una enfermedad, una ruptura); no significa encontrar tiempo para hacerlo.",
+        "get by": "\"get by\" es arreglárselas con poco y no lleva objeto como 'it'.",
+        "get across": "\"get across\" es lograr que se entienda una idea (get your message across); no tiene sentido con una estantería."
+      },
+      "examples": [
+        "I finally got round to answering your email.",
+        "She never gets round to cleaning the car."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-hold-back-018",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "hold-back",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "She wanted to cry, but she ___ her tears because she didn't want the children to see.",
+    "options": [
+      "held on",
+      "held back",
+      "held out",
+      "held up"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"hold back\" = contener (emociones, lágrimas) o impedir que alguien avance.",
+      "wrong": {
+        "held on": "\"hold on\" es esperar un momento o agarrarse fuerte; con 'tears' no tiene sentido.",
+        "held up": "\"hold up\" es retrasar o atracar; 'held up her tears' no significa contener las lágrimas.",
+        "held out": "\"hold out\" es extender la mano o resistir/durar; no se usa para contener las lágrimas."
+      },
+      "examples": [
+        "He couldn't hold back his anger.",
+        "Fear of failure is holding her back."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-make-out-019",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "make-out",
+    "tags": [
+      "phrasal-verb",
+      "multiple-meanings"
+    ],
+    "prompt": "Which phrasal verb fits both sentences? (1) 'It was so dark that I couldn't ___ the road signs.' (2) 'I can't ___ what she means in this email.'",
+    "options": [
+      "make out",
+      "pick up",
+      "take off",
+      "make up"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"make out\" tiene varios significados; dos muy comunes son distinguir algo con dificultad (ver u oír) y entender o descifrar algo.",
+      "wrong": {
+        "make up": "\"make up\" significa inventar (make up an excuse), reconciliarse o maquillarse; no significa distinguir ni entender.",
+        "pick up": "\"pick up\" significa recoger, aprender de oídas o captar una señal; 'pick up the road signs' sería recogerlas del suelo.",
+        "take off": "\"take off\" significa despegar, quitarse una prenda o triunfar; no encaja con ver ni con entender."
+      },
+      "examples": [
+        "Can you make out the number on that bus?",
+        "I couldn't make out his handwriting."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-own-up-to-020",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "own-up-to",
+    "tags": [
+      "phrasal-verb",
+      "b2-plus"
+    ],
+    "prompt": "What does 'own up to something' mean in 'Nobody owned up to breaking the printer'?",
+    "options": [
+      "estar a la altura de algo",
+      "arreglar algo",
+      "confesar algo, admitir que uno tiene la culpa",
+      "ser dueño de algo"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"own up (to something)\" = confesar, reconocer que has hecho algo malo.",
+      "wrong": {
+        "ser dueño de algo": "Es un falso amigo con \"own\" (poseer). \"own up to\" no tiene que ver con la propiedad.",
+        "estar a la altura de algo": "Eso es \"live up to\". \"own up to\" es admitir una culpa.",
+        "arreglar algo": "Arreglar sería \"fix\" o \"repair\". La frase dice que nadie admitió haberla roto."
+      },
+      "examples": [
+        "Come on, own up — who ate my sandwich?",
+        "He owned up to the mistake and apologised."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-phase-out-021",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "phase-out",
+    "tags": [
+      "phrasal-verb",
+      "b2-plus"
+    ],
+    "prompt": "The city plans to ___ petrol buses over the next ten years and replace them with electric ones.",
+    "options": [
+      "phase in",
+      "phase out",
+      "take off",
+      "cut down"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"phase out\" = eliminar o retirar algo de forma gradual, por fases.",
+      "wrong": {
+        "phase in": "\"phase in\" es lo contrario: introducir algo de forma gradual. Aquí los autobuses de gasolina se retiran.",
+        "take off": "\"take off\" es despegar o tener éxito; no significa retirar algo poco a poco.",
+        "cut down": "\"cut down\" es talar árboles; para reducir algo se usa \"cut down on\", y aun así no indica retirada total y gradual."
+      },
+      "examples": [
+        "The old system will be phased out by 2030.",
+        "Many countries are phasing out coal."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-play-down-022",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "play-down",
+    "tags": [
+      "phrasal-verb",
+      "b2-plus"
+    ],
+    "prompt": "The minister tried to ___ the problem, saying it was 'nothing to worry about'.",
+    "options": [
+      "play down",
+      "put down",
+      "play up",
+      "play out"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"play down\" = quitar importancia a algo, minimizarlo.",
+      "wrong": {
+        "play up": "\"play up\" es lo contrario: exagerar o destacar algo. Además, el ministro dice que no hay que preocuparse.",
+        "play out": "\"play out\" es desarrollarse o ocurrir (let's see how things play out); no significa quitar importancia.",
+        "put down": "\"put down\" es reprimir una rebelión o humillar a alguien; no significa restar importancia."
+      },
+      "examples": [
+        "The company played down the risks.",
+        "She always plays down her achievements."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-sum-up-023",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "sum-up",
+    "tags": [
+      "phrasal-verb",
+      "pronoun-position"
+    ],
+    "prompt": "That was a long discussion. Could you ___ in two sentences for those who arrived late?",
+    "options": [
+      "sum it up",
+      "sum up it",
+      "sum on it",
+      "sum it"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"sum up\" = resumir. Con pronombre: sum it up / sum them up.",
+      "wrong": {
+        "sum up it": "\"sum up\" es separable: cuando el objeto es un pronombre (it), va entre el verbo y la partícula: sum it up.",
+        "sum it": "Falta la partícula \"up\". \"sum\" solo no se usa así para resumir.",
+        "sum on it": "La partícula correcta es \"up\", no \"on\"; \"sum on\" no existe en inglés."
+      },
+      "examples": [
+        "To sum up, the project was a success.",
+        "It's hard to sum it up in a few words."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-wear-off-024",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "wear-off",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "The painkiller is starting to ___, so my back hurts again.",
+    "options": [
+      "wear down",
+      "wear off",
+      "go off",
+      "wear out"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"wear off\" = desaparecer poco a poco (el efecto de algo, una sensación, la novedad).",
+      "wrong": {
+        "wear out": "\"wear out\" es desgastar algo por el uso (wear out your shoes) o agotar a alguien; no se usa para el efecto de un medicamento.",
+        "go off": "\"go off\" es sonar (una alarma), estropearse (la comida) o explotar; no significa que un efecto desaparezca.",
+        "wear down": "\"wear down\" es desgastar poco a poco o agotar la resistencia de alguien; no encaja con un analgésico."
+      },
+      "examples": [
+        "The excitement soon wore off.",
+        "Wait until the anaesthetic wears off before you eat."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-call-for-025",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "call-for",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "This is a difficult situation that ___ a calm and careful response from everyone.",
+    "options": [
+      "calls off",
+      "calls up",
+      "calls for",
+      "calls on"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"call for something\" = requerir, exigir algo (una situación) o pedirlo públicamente.",
+      "wrong": {
+        "calls off": "\"call off\" es cancelar (call off a meeting); no significa que algo exija una respuesta.",
+        "calls on": "\"call on\" es pedir formalmente a alguien que haga algo (call on someone to act) o visitar; el objeto sería una persona.",
+        "calls up": "\"call up\" es llamar por teléfono o convocar a alguien; no tiene sentido con 'a response'."
+      },
+      "examples": [
+        "This news calls for a celebration!",
+        "Protesters are calling for lower prices."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-back-down-026",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "back-down",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Despite weeks of protests, the company refused to ___ and kept the new rules.",
+    "options": [
+      "back up",
+      "step down",
+      "fall back",
+      "back down"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"back down\" = echarse atrás, ceder en una postura o exigencia ante la presión.",
+      "wrong": {
+        "back up": "\"back up\" es apoyar a alguien, hacer una copia de seguridad o dar marcha atrás con el coche; no significa ceder.",
+        "step down": "\"step down\" es dimitir de un cargo; una empresa no dimite.",
+        "fall back": "\"fall back\" es retroceder (un ejército) o recurrir a algo (fall back on); no es ceder en una discusión."
+      },
+      "examples": [
+        "Neither side is willing to back down.",
+        "He backed down when he saw the evidence."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-come-up-against-027",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "come-up-against",
+    "tags": [
+      "phrasal-verb",
+      "b2-plus"
+    ],
+    "prompt": "When we tried to open a café in the city centre, we ___ a lot of problems with permits.",
+    "options": [
+      "came over",
+      "came up against",
+      "came round",
+      "came up with"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"come up against something\" = enfrentarse a un obstáculo o dificultad inesperada.",
+      "wrong": {
+        "came up with": "\"come up with\" es idear o proponer algo (come up with a plan); nadie 'idea' problemas de permisos.",
+        "came over": "\"come over\" es venir a casa de alguien o invadir una sensación; no significa toparse con obstáculos.",
+        "came round": "\"come round\" es visitar a alguien, recuperar el conocimiento o cambiar de opinión; no lleva 'problems' como objeto."
+      },
+      "examples": [
+        "The plan came up against strong opposition.",
+        "Every new business comes up against difficulties."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-do-without-028",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "do-without",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "There's no milk left, so we'll have to ___ it in our coffee this morning.",
+    "options": [
+      "do away with",
+      "get without",
+      "do without",
+      "do up"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"do without (something)\" = arreglárselas sin algo, prescindir de algo.",
+      "wrong": {
+        "do away with": "\"do away with\" es abolir o eliminar algo de forma definitiva (do away with a law); no es arreglárselas sin algo un día.",
+        "do up": "\"do up\" es abrochar o reformar (do up a house); no tiene sentido con la leche.",
+        "get without": "No existe en inglés. Se dice \"do without\" o \"go without\"."
+      },
+      "examples": [
+        "I can't do without my phone.",
+        "If there's no sugar, we'll just have to do without."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-fall-out-with-029",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "fall-out-with",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Tom ___ his best friend over some money he owed, and they haven't spoken since.",
+    "options": [
+      "fell behind",
+      "fell out with",
+      "fell off",
+      "fell for"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"fall out with someone\" = pelearse o enfadarse con alguien y dejar de tener buena relación.",
+      "wrong": {
+        "fell for": "\"fall for\" es enamorarse de alguien o creerse un engaño; no explica por qué ya no se hablan.",
+        "fell behind": "\"fall behind\" es quedarse atrás o retrasarse; no se usa con una persona en el sentido de pelearse.",
+        "fell off": "\"fall off\" es caerse de algo (fall off a bike); no tiene sentido con 'his best friend'."
+      },
+      "examples": [
+        "She's fallen out with her flatmate again.",
+        "They fell out over who should pay."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-iron-out-030",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "iron-out",
+    "tags": [
+      "phrasal-verb",
+      "b2-plus"
+    ],
+    "prompt": "'We still need to iron out a few problems before the launch.' What does 'iron out' mean here?",
+    "options": [
+      "resolver pequeños problemas o detalles",
+      "planchar la ropa",
+      "ignorar los problemas",
+      "empeorar la situación"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"iron out\" = solucionar pequeños problemas o diferencias (como quien plancha las arrugas).",
+      "wrong": {
+        "planchar la ropa": "Es el sentido literal de \"iron\" (planchar), pero aquí el objeto es 'problems', así que es figurado.",
+        "ignorar los problemas": "Es casi lo contrario: \"iron out\" implica trabajar para solucionarlos, no dejarlos de lado.",
+        "empeorar la situación": "No: la imagen es 'alisar las arrugas', es decir, dejar todo en orden antes del lanzamiento."
+      },
+      "examples": [
+        "We ironed out the last details of the contract.",
+        "There are a few bugs to iron out in the app."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-kick-off-031",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "kick-off",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "The football match ___ at 8 p.m., so let's get to the stadium early.",
+    "options": [
+      "kicks off",
+      "kicks out",
+      "takes off",
+      "sets off"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"kick off\" = empezar (un partido, una reunión, un evento). Viene del saque inicial en el fútbol.",
+      "wrong": {
+        "kicks out": "\"kick out\" es echar a alguien de un lugar (kick someone out of a bar); no significa empezar.",
+        "takes off": "\"take off\" es despegar (un avión) o tener éxito; un partido no 'despega'.",
+        "sets off": "\"set off\" es salir de viaje o hacer que algo suene (set off an alarm); un partido no sale de viaje."
+      },
+      "examples": [
+        "Let's kick off the meeting with some good news.",
+        "The festival kicks off on Friday."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-opt-out-032",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "opt-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Employees can ___ the company pension scheme if they prefer to save on their own.",
+    "options": [
+      "opt for",
+      "opt out",
+      "opt out of",
+      "choose out of"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"opt out (of something)\" = decidir no participar en algo o darse de baja de un sistema.",
+      "wrong": {
+        "opt for": "\"opt for\" es elegir algo; aquí la idea es salir del plan, no escogerlo.",
+        "opt out": "Le falta \"of\": cuando dices de qué te sales, la estructura es \"opt out of + algo\".",
+        "choose out of": "No existe en inglés con este sentido. Para 'darse de baja de algo' se dice \"opt out of\"."
+      },
+      "examples": [
+        "You can opt out of the newsletter at any time.",
+        "Most parents opted out of the school trip."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-step-down-033",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "step-down",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "After 20 years as director, Mr Patel has decided to ___ and let someone younger lead the company.",
+    "options": [
+      "step down",
+      "step on",
+      "step up",
+      "step in"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"step down\" = dimitir, dejar un cargo importante voluntariamente.",
+      "wrong": {
+        "step up": "\"step up\" es aumentar o dar un paso al frente para asumir más responsabilidad; es lo contrario de dejar el cargo.",
+        "step in": "\"step in\" es intervenir en una situación o sustituir a alguien; no significa dejar un puesto.",
+        "step on": "\"step on\" es pisar algo; no tiene sentido aquí."
+      },
+      "examples": [
+        "The president stepped down after the scandal.",
+        "She will step down as captain at the end of the season."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-talk-someone-into-034",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "talk-someone-into",
+    "tags": [
+      "phrasal-verb",
+      "pronoun-position"
+    ],
+    "prompt": "I didn't want to go skydiving, but my sister ___, and now I love it.",
+    "options": [
+      "talked me into it",
+      "talked it into me",
+      "talked into me it",
+      "talked me out of it"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"talk someone into (doing) something\" = convencer a alguien para que haga algo. La persona va en medio: talk me into it.",
+      "wrong": {
+        "talked me out of it": "\"talk someone out of something\" es convencer a alguien de NO hacer algo; aquí al final sí lo hizo.",
+        "talked into me it": "El orden es incorrecto: la persona va entre el verbo y la partícula (talk me into it).",
+        "talked it into me": "El orden está al revés: se convence a la persona (me), y la actividad va después de into (into it)."
+      },
+      "examples": [
+        "He talked me into buying a new laptop.",
+        "Don't let them talk you into it."
+      ]
+    }
+  },
+  {
+    "id": "pv-b2-turn-into-035",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "turn-into",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "In just a few years, the small fishing village ___ a busy tourist town.",
+    "options": [
+      "turned to",
+      "turned in",
+      "turned out",
+      "turned into"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"turn into\" = convertirse en, transformarse en algo distinto.",
+      "wrong": {
+        "turned out": "\"turn out\" es resultar (it turned out to be easy); no va seguido directamente de un sustantivo con el sentido de convertirse.",
+        "turned to": "\"turn to\" es recurrir a alguien o pasar a un tema; no significa convertirse.",
+        "turned in": "\"turn in\" es entregar algo o irse a dormir; en español decimos 'convertirse en', pero en inglés la preposición es \"into\", no \"in\"."
+      },
+      "examples": [
+        "The caterpillar turned into a butterfly.",
+        "Our small argument turned into a big fight."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-elephant-in-the-room-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "elephant-in-the-room",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "'Everyone at dinner avoided talking about Dad losing his job. It was the elephant in the room.' What does 'the elephant in the room' mean?",
+    "options": [
+      "algo que ocupa demasiado espacio",
+      "un problema evidente del que nadie quiere hablar",
+      "un tema divertido para romper el hielo",
+      "una persona muy grande o torpe"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"the elephant in the room\" = un asunto obvio e incómodo que todos ignoran a propósito.",
+      "wrong": {
+        "una persona muy grande o torpe": "Es una lectura literal. El elefante es un problema tan grande que todos ven, pero que se evita mencionar.",
+        "algo que ocupa demasiado espacio": "No se refiere a espacio físico: el contexto habla de un tema que todos evitan en la cena.",
+        "un tema divertido para romper el hielo": "Es casi lo contrario: es un tema incómodo que crea tensión, no que la elimina."
+      },
+      "examples": [
+        "Let's talk about the elephant in the room: the budget.",
+        "Her ex at the party was the elephant in the room."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-burn-the-midnight-oil-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "burn-the-midnight-oil",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "With three exams next week, Marta has been ___ every night to finish her revision.",
+    "options": [
+      "burning the midnight oil",
+      "burning bridges",
+      "hitting the hay",
+      "burning the candle"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"burn the midnight oil\" = trabajar o estudiar hasta muy tarde por la noche.",
+      "wrong": {
+        "burning the candle": "La expresión completa es \"burn the candle at both ends\" (hacer demasiado, sin descansar); cortada así no tiene sentido.",
+        "burning bridges": "\"burn your bridges\" es romper relaciones o cerrarte puertas para siempre; no tiene que ver con estudiar de noche.",
+        "hitting the hay": "\"hit the hay\" es irse a dormir; es justo lo contrario de quedarse estudiando hasta tarde."
+      },
+      "examples": [
+        "I burned the midnight oil to finish the report.",
+        "Students often burn the midnight oil before exams."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-storm-in-a-teacup-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "storm-in-a-teacup",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "The argument about who ate the last biscuit was just ___ — they were laughing about it ten minutes later.",
+    "options": [
+      "a long shot",
+      "the tip of the iceberg",
+      "a red herring",
+      "a storm in a teacup"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"a storm in a teacup\" (en EE. UU. \"a tempest in a teapot\") = mucho alboroto por algo sin importancia.",
+      "wrong": {
+        "the tip of the iceberg": "\"the tip of the iceberg\" indica que lo visible es solo una pequeña parte de un problema mayor; aquí el problema era mínimo y pasó rápido.",
+        "a red herring": "\"a red herring\" es una pista falsa que distrae; no describe una discusión exagerada.",
+        "a long shot": "\"a long shot\" es algo con pocas probabilidades de éxito; no tiene sentido con una discusión."
+      },
+      "examples": [
+        "Don't worry, it's a storm in a teacup.",
+        "The media turned a storm in a teacup into a scandal."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-cut-to-the-chase-004",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "cut-to-the-chase",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "We don't have much time, so let me ___: we need more money or the project stops.",
+    "options": [
+      "beat around the bush",
+      "cut corners",
+      "break the ice",
+      "cut to the chase"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"cut to the chase\" = ir al grano, decir lo importante sin rodeos.",
+      "wrong": {
+        "beat around the bush": "\"beat around the bush\" es andarse con rodeos, justo lo contrario de lo que hace esta persona.",
+        "cut corners": "\"cut corners\" es hacer algo mal o deprisa para ahorrar tiempo o dinero; no es ir al grano al hablar.",
+        "break the ice": "\"break the ice\" es romper el hielo, aliviar la tensión inicial; aquí la persona va directa al problema."
+      },
+      "examples": [
+        "I'll cut to the chase: you didn't get the job.",
+        "Can we cut to the chase? What do you want?"
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-jump-on-the-bandwagon-005",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "jump-on-the-bandwagon",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "'When oat milk became popular, every café in town jumped on the bandwagon.' What does this mean?",
+    "options": [
+      "subieron los precios",
+      "organizaron un desfile",
+      "se negaron a cambiar",
+      "se sumaron a una moda porque estaba teniendo éxito"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"jump on the bandwagon\" = apuntarse a algo que está de moda, a menudo solo porque tiene éxito.",
+      "wrong": {
+        "subieron los precios": "No habla de precios: el 'bandwagon' es el carro de la banda en un desfile, al que todos quieren subirse.",
+        "se negaron a cambiar": "Es lo contrario: todos los cafés se unieron a la tendencia.",
+        "organizaron un desfile": "Es una lectura demasiado literal del carro de la banda. El sentido es figurado: seguir una moda."
+      },
+      "examples": [
+        "Lots of brands jumped on the bandwagon after the trend went viral.",
+        "He's not a real fan; he just jumped on the bandwagon."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-miss-the-boat-006",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "miss-the-boat",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Tickets for the concert sold out in two hours. If you didn't buy one that morning, you ___.",
+    "options": [
+      "rocked the boat",
+      "missed the boat",
+      "lost the bus",
+      "missed the point"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"miss the boat\" = perder una oportunidad por no actuar a tiempo.",
+      "wrong": {
+        "missed the point": "\"miss the point\" es no entender lo importante de algo; aquí el problema es haber llegado tarde a una oportunidad.",
+        "lost the bus": "Es una traducción literal de 'perder el autobús/el tren'. En inglés se pierde 'el barco': miss the boat (y perder un transporte es \"miss\", no \"lose\").",
+        "rocked the boat": "\"rock the boat\" es causar problemas en una situación estable; no tiene que ver con llegar tarde."
+      },
+      "examples": [
+        "Buy now or you'll miss the boat.",
+        "I wanted to invest, but I missed the boat."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-tip-of-the-iceberg-007",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "tip-of-the-iceberg",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "The ten complaints we received are only ___; many unhappy customers never write to us at all.",
+    "options": [
+      "the last straw",
+      "the elephant in the room",
+      "the tip of the iceberg",
+      "a piece of cake"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"the tip of the iceberg\" = la punta del iceberg: solo una pequeña parte visible de un problema mucho mayor.",
+      "wrong": {
+        "a piece of cake": "\"a piece of cake\" significa que algo es muy fácil; no tiene sentido con las quejas.",
+        "the last straw": "\"the last straw\" es la gota que colma el vaso; no indica que haya un problema oculto mucho mayor.",
+        "the elephant in the room": "\"the elephant in the room\" es un tema evidente que nadie menciona; aquí se dice que lo visible es solo una pequeña parte."
+      },
+      "examples": [
+        "These cases are just the tip of the iceberg.",
+        "The broken window was the tip of the iceberg; the whole house needed repairs."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-get-the-ball-rolling-008",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "get-the-ball-rolling",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Shall I ___ by introducing myself? Then everyone else can go next.",
+    "options": [
+      "keep the ball",
+      "have a ball",
+      "get the ball rolling",
+      "drop the ball"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"get the ball rolling\" = poner algo en marcha, dar el primer paso.",
+      "wrong": {
+        "drop the ball": "\"drop the ball\" es cometer un error o descuidar una responsabilidad; no es empezar algo.",
+        "have a ball": "\"have a ball\" es pasarlo en grande; no tiene sentido como forma de empezar una ronda de presentaciones.",
+        "keep the ball": "No es una expresión idiomática. Para empezar una actividad se dice \"get the ball rolling\"."
+      },
+      "examples": [
+        "Let's get the ball rolling with a quick survey.",
+        "She got the ball rolling by donating the first 100 euros."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-read-between-the-lines-009",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "read-between-the-lines",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Her email said she was 'fine', but if you ___, you can tell she's upset.",
+    "options": [
+      "turn the page",
+      "read between the lines",
+      "read the lines",
+      "read my lips"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"read between the lines\" = leer entre líneas, entender lo que alguien quiere decir sin decirlo directamente. Igual que en español.",
+      "wrong": {
+        "read my lips": "\"read my lips\" se usa para enfatizar lo que uno dice ('escúchame bien'); no encaja con interpretar un email.",
+        "read the lines": "Falta \"between\": leer las líneas sería leer lo que está escrito, no el mensaje oculto.",
+        "turn the page": "\"turn the page\" es pasar página, dejar algo atrás; no significa entender lo que no se dice."
+      },
+      "examples": [
+        "Reading between the lines, I think he wants to quit.",
+        "You have to read between the lines with his messages."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-throw-in-the-towel-010",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "throw-in-the-towel",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "'After failing his driving test five times, Leo nearly threw in the towel.' What does 'threw in the towel' mean?",
+    "options": [
+      "se duchó",
+      "lo celebró",
+      "se enfadó muchísimo",
+      "se rindió, abandonó"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"throw in the towel\" = tirar la toalla, rendirse. Es igual que en español (fíjate en el \"in\").",
+      "wrong": {
+        "se duchó": "Es una lectura literal de la toalla. El idiom viene del boxeo y significa rendirse.",
+        "se enfadó muchísimo": "Puede que se enfadara, pero el idiom no significa eso: significa dejar de intentarlo.",
+        "lo celebró": "No tiene sentido después de suspender cinco veces; el idiom expresa rendición."
+      },
+      "examples": [
+        "Don't throw in the towel now — you're so close!",
+        "The company threw in the towel and closed the shop."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-through-thick-and-thin-011",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "through-thick-and-thin",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "My grandparents stayed together ___ — in good times and in bad times.",
+    "options": [
+      "through thick and thin",
+      "by hook or by crook",
+      "once in a blue moon",
+      "through and through"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"through thick and thin\" = en las buenas y en las malas, pase lo que pase.",
+      "wrong": {
+        "through and through": "\"through and through\" significa 'completamente, de pies a cabeza' (he's a Londoner through and through); no habla de momentos buenos y malos.",
+        "once in a blue moon": "\"once in a blue moon\" es 'muy de vez en cuando'; contradice la idea de estar siempre juntos.",
+        "by hook or by crook": "\"by hook or by crook\" es 'como sea, por las buenas o por las malas'; no expresa fidelidad en lo bueno y lo malo."
+      },
+      "examples": [
+        "She stood by me through thick and thin.",
+        "True friends stay with you through thick and thin."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-dark-horse-012",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "dark-horse",
+    "tags": [
+      "idiom",
+      "b2-plus"
+    ],
+    "prompt": "Nobody expected quiet Emma to win the talent show — she's a real ___.",
+    "options": [
+      "white elephant",
+      "black sheep",
+      "cold fish",
+      "dark horse"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"a dark horse\" = alguien con talentos o planes ocultos que sorprende a todos (a menudo ganando).",
+      "wrong": {
+        "black sheep": "\"the black sheep\" es la oveja negra, el miembro de un grupo que avergüenza a los demás; Emma no ha hecho nada malo.",
+        "white elephant": "\"a white elephant\" es algo caro e inútil (un edificio que nadie usa); no describe a una persona con talento oculto.",
+        "cold fish": "\"a cold fish\" es una persona fría y distante; no explica la sorpresa de que gane."
+      },
+      "examples": [
+        "He's a dark horse — I had no idea he could sing.",
+        "The new candidate could be the dark horse in this election."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-chip-on-your-shoulder-013",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "chip-on-your-shoulder",
+    "tags": [
+      "idiom",
+      "b2-plus"
+    ],
+    "prompt": "'He has a chip on his shoulder about not going to university.' What does this mean?",
+    "options": [
+      "está muy orgulloso de ello",
+      "tiene una lesión en el hombro",
+      "no le importa en absoluto",
+      "está resentido y se siente inferior o tratado injustamente por ello"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"have a chip on your shoulder (about something)\" = estar resentido o acomplejado por algo y mostrarse a la defensiva.",
+      "wrong": {
+        "está muy orgulloso de ello": "Es casi lo contrario: el idiom expresa resentimiento, no orgullo.",
+        "tiene una lesión en el hombro": "Es una lectura literal ('chip' = astilla). El sentido es figurado.",
+        "no le importa en absoluto": "Si tiene 'a chip on his shoulder', sí le importa: es un tema que le molesta mucho."
+      },
+      "examples": [
+        "She's got a chip on her shoulder about her accent.",
+        "Stop acting like you've got a chip on your shoulder."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-keep-someone-at-arms-length-014",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "keep-someone-at-arms-length",
+    "tags": [
+      "idiom",
+      "b2-plus"
+    ],
+    "prompt": "She's friendly at work, but she keeps her colleagues ___ and never talks about her private life.",
+    "options": [
+      "in the loop",
+      "on their toes",
+      "at hand",
+      "at arm's length"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"keep someone at arm's length\" = mantener las distancias con alguien, no dejar que se acerque demasiado.",
+      "wrong": {
+        "in the loop": "\"keep someone in the loop\" es mantener a alguien informado; no expresa distancia personal.",
+        "at hand": "\"at hand\" significa 'a mano, cerca'; es lo contrario de mantener la distancia.",
+        "on their toes": "\"keep someone on their toes\" es mantenerlos alerta; no explica que no hable de su vida privada."
+      },
+      "examples": [
+        "He keeps journalists at arm's length.",
+        "I tried to be friendly, but she kept me at arm's length."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-let-sleeping-dogs-lie-015",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "let-sleeping-dogs-lie",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "I know you're still angry about what he said last year, but it's better to ___ and not bring it up at the wedding.",
+    "options": [
+      "bite the bullet",
+      "let sleeping dogs lie",
+      "spill the beans",
+      "let the cat out of the bag"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"let sleeping dogs lie\" = no remover un asunto o conflicto pasado que podría causar problemas otra vez.",
+      "wrong": {
+        "let the cat out of the bag": "\"let the cat out of the bag\" es revelar un secreto sin querer; aquí el consejo es no remover un tema.",
+        "spill the beans": "\"spill the beans\" es contar un secreto; contradice 'not bring it up'.",
+        "bite the bullet": "\"bite the bullet\" es afrontar algo desagradable con valor; aquí se aconseja justo evitarlo."
+      },
+      "examples": [
+        "They stopped arguing years ago — let sleeping dogs lie.",
+        "I decided to let sleeping dogs lie and say nothing."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-on-thin-ice-016",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "on-thin-ice",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "You've been late three times this week. You're ___ with the boss, so be careful.",
+    "options": [
+      "on the ball",
+      "on cloud nine",
+      "on thin ice",
+      "on the fence"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"be on thin ice\" = estar en una situación arriesgada en la que un error más puede traer problemas serios.",
+      "wrong": {
+        "on cloud nine": "\"on cloud nine\" es estar en las nubes de felicidad; no encaja con llegar tarde y tener que tener cuidado.",
+        "on the ball": "\"on the ball\" es estar atento y ser eficiente; contradice llegar tarde tres veces.",
+        "on the fence": "\"on the fence\" es estar indeciso; no expresa estar en una situación de riesgo."
+      },
+      "examples": [
+        "After that comment, he's on thin ice.",
+        "You're skating on thin ice with your teacher."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-steal-someones-thunder-017",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "steal-someones-thunder",
+    "tags": [
+      "idiom",
+      "b2-plus"
+    ],
+    "prompt": "I was about to announce my engagement at dinner, but my brother ___ by announcing his first.",
+    "options": [
+      "stole my thunder",
+      "pulled my leg",
+      "stole my lightning",
+      "stole my heart"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"steal someone's thunder\" = robarle el protagonismo a alguien, hacer antes lo que iba a hacer o decir.",
+      "wrong": {
+        "stole my lightning": "La expresión fija es \"steal someone's thunder\" (el trueno), no el rayo.",
+        "stole my heart": "\"steal someone's heart\" es enamorar a alguien; no tiene sentido con un anuncio que se adelanta.",
+        "pulled my leg": "\"pull someone's leg\" es tomar el pelo; aquí el hermano no bromeaba, se llevó la atención."
+      },
+      "examples": [
+        "She stole my thunder by presenting my idea first.",
+        "I don't want to steal your thunder, but I've got news too."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-take-with-a-pinch-of-salt-018",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "take-with-a-pinch-of-salt",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "'You should take online reviews with a pinch of salt.' What does this advice mean?",
+    "options": [
+      "leerlas con mucha atención",
+      "no creerlas del todo, ser algo escéptico",
+      "ignorarlas por completo",
+      "leerlas con sentido del humor"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"take something with a pinch of salt\" (EE. UU.: \"with a grain of salt\") = no creerse algo del todo, tomarlo con escepticismo.",
+      "wrong": {
+        "leerlas con mucha atención": "El consejo no es leerlas despacio, sino no fiarse por completo de ellas.",
+        "ignorarlas por completo": "Es demasiado fuerte: la idea es tenerlas en cuenta, pero con cierta desconfianza.",
+        "leerlas con sentido del humor": "La sal aquí no se refiere a la gracia (como 'salero' en español), sino al escepticismo."
+      },
+      "examples": [
+        "Take his stories with a pinch of salt.",
+        "I take weather forecasts with a pinch of salt."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-up-in-the-air-019",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "up-in-the-air",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Our holiday plans are still ___ because we don't know if I'll get time off work.",
+    "options": [
+      "up in the air",
+      "over the moon",
+      "under the weather",
+      "on air"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"up in the air\" = en el aire, sin decidir todavía.",
+      "wrong": {
+        "over the moon": "\"over the moon\" es estar contentísimo; no describe planes inciertos.",
+        "under the weather": "\"under the weather\" es encontrarse mal de salud; los planes no pueden estar enfermos.",
+        "on air": "\"on air\" significa 'en antena' (radio o televisión); no expresa incertidumbre."
+      },
+      "examples": [
+        "The date of the wedding is still up in the air.",
+        "Everything is up in the air until we hear from the bank."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-back-to-square-one-020",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "back-to-square-one",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "The client rejected all our designs, so we're ___.",
+    "options": [
+      "back on track",
+      "back to square one",
+      "back in the day",
+      "back to square zero"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"back to square one\" = volver a empezar desde cero, porque lo hecho no ha servido.",
+      "wrong": {
+        "back on track": "\"back on track\" es volver a ir bien; aquí todo el trabajo se ha perdido.",
+        "back in the day": "\"back in the day\" significa 'antiguamente, en aquellos tiempos'; no tiene sentido aquí.",
+        "back to square zero": "El número fijo de la expresión es \"one\", no \"zero\". En español decimos 'volver a la casilla de salida', pero en inglés es square one."
+      },
+      "examples": [
+        "The test failed, so it's back to square one.",
+        "After the argument, we were back to square one."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-bark-up-the-wrong-tree-021",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "bark-up-the-wrong-tree",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "If you think I took your charger, you're ___ — my phone uses a different one.",
+    "options": [
+      "crying wolf",
+      "flogging a dead horse",
+      "barking up the wrong tree",
+      "barking mad"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"bark up the wrong tree\" = equivocarse de persona o de idea al buscar una causa o un culpable.",
+      "wrong": {
+        "barking mad": "\"barking mad\" es estar completamente loco; la frase explica que se equivoca de sospechoso, no que esté loco.",
+        "crying wolf": "\"cry wolf\" es dar falsas alarmas repetidas; aquí solo acusa a la persona equivocada.",
+        "flogging a dead horse": "\"flog a dead horse\" es insistir en algo inútil; no es equivocarse de persona."
+      },
+      "examples": [
+        "The police were barking up the wrong tree.",
+        "If you want money, you're barking up the wrong tree."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-cut-someone-some-slack-022",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "cut-someone-some-slack",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "She's only been working here for a week. ___ — she'll learn soon enough.",
+    "options": [
+      "Cut her short",
+      "Give her the cold shoulder",
+      "Cut her some slack",
+      "Cut corners"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"cut someone some slack\" = ser menos exigente o más comprensivo con alguien.",
+      "wrong": {
+        "Cut her short": "\"cut someone short\" es interrumpir a alguien; no encaja con ser comprensivo con una persona nueva.",
+        "Give her the cold shoulder": "\"give someone the cold shoulder\" es ignorarla o tratarla con frialdad; es lo contrario de lo que se sugiere.",
+        "Cut corners": "\"cut corners\" es hacer las cosas mal para ahorrar tiempo; no se dirige a una persona."
+      },
+      "examples": [
+        "Cut me some slack — I've had a terrible day.",
+        "The teacher cut him some slack because he was ill."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-hit-the-ground-running-023",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "hit-the-ground-running",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "'We need someone who can hit the ground running.' What kind of person is the company looking for?",
+    "options": [
+      "alguien que corra muy rápido",
+      "alguien que empiece con energía y eficacia desde el primer día",
+      "alguien que se caiga a menudo",
+      "alguien que trabaje solo unos días"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"hit the ground running\" = empezar algo con mucha energía y eficacia, sin necesitar tiempo de adaptación.",
+      "wrong": {
+        "alguien que se caiga a menudo": "Es una lectura literal del suelo. El idiom habla de rendir desde el principio.",
+        "alguien que trabaje solo unos días": "No habla de duración del contrato, sino de la rapidez con la que la persona se adapta.",
+        "alguien que corra muy rápido": "Correr es la imagen, pero el sentido es empezar a trabajar bien inmediatamente."
+      },
+      "examples": [
+        "The new manager hit the ground running.",
+        "We want the team to hit the ground running in January."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-learn-the-ropes-024",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "learn-the-ropes",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "It took me a few weeks to ___ at my new job, but now I feel confident.",
+    "options": [
+      "learn the lines",
+      "show me the ropes",
+      "learn by heart",
+      "learn the ropes"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"learn the ropes\" = aprender cómo funciona algo (un trabajo, un lugar). Quien enseña \"shows you the ropes\".",
+      "wrong": {
+        "learn by heart": "\"learn by heart\" es aprender de memoria y necesita un objeto (learn a poem by heart); no es aprender cómo funciona un trabajo.",
+        "learn the lines": "\"learn your lines\" es aprenderse el texto de una obra de teatro; no encaja con un trabajo nuevo.",
+        "show me the ropes": "\"show someone the ropes\" lo hace la persona que enseña; 'it took me a few weeks to show me' no tiene sentido."
+      },
+      "examples": [
+        "Ana will show you the ropes on your first day.",
+        "New staff need time to learn the ropes."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-make-ends-meet-025",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "make-ends-meet",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "After losing his job, he had to take two part-time jobs just to ___.",
+    "options": [
+      "make ends meet",
+      "make it up",
+      "arrive at the end of the month",
+      "make the ends meet"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"make ends meet\" = llegar a fin de mes, tener el dinero justo para vivir.",
+      "wrong": {
+        "make the ends meet": "La expresión fija no lleva artículo: \"make ends meet\".",
+        "arrive at the end of the month": "Es una traducción literal de 'llegar a fin de mes'. En inglés no se usa así.",
+        "make it up": "\"make it up\" es inventárselo o compensar algo; no significa tener dinero suficiente."
+      },
+      "examples": [
+        "Many families struggle to make ends meet.",
+        "She works at weekends to make ends meet."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-a-long-shot-026",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "a-long-shot",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Applying for that job is ___, but you never know — you might get it.",
+    "options": [
+      "a long story",
+      "a big shot",
+      "a close call",
+      "a long shot"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"a long shot\" = algo con pocas probabilidades de éxito, pero que vale la pena intentar.",
+      "wrong": {
+        "a big shot": "\"a big shot\" es una persona importante o influyente; no describe una solicitud de empleo.",
+        "a long story": "\"it's a long story\" se dice cuando algo es complicado de explicar; no habla de probabilidades.",
+        "a close call": "\"a close call\" es algo que casi sale mal (te salvaste por poco); no encaja aquí."
+      },
+      "examples": [
+        "It's a long shot, but maybe she still has the receipt.",
+        "Winning the league is a long shot this year."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-pull-strings-027",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "pull-strings",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Her uncle works at the theatre, so he ___ to get us front-row seats.",
+    "options": [
+      "pulled our leg",
+      "pulled some strings",
+      "pulled his weight",
+      "pulled out"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"pull strings\" = mover hilos, usar tus contactos o influencia para conseguir algo.",
+      "wrong": {
+        "pulled our leg": "\"pull someone's leg\" es tomar el pelo; no explica cómo consiguieron las entradas.",
+        "pulled his weight": "\"pull your weight\" es hacer tu parte del trabajo en un equipo; no implica usar contactos.",
+        "pulled out": "\"pull out\" es retirarse de algo; no significa conseguir algo gracias a influencias."
+      },
+      "examples": [
+        "She pulled a few strings to get her son an interview.",
+        "I can't pull strings for you this time."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-rock-the-boat-028",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "rock-the-boat",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "'Everyone's happy with the plan, so please don't rock the boat.' What is the speaker asking?",
+    "options": [
+      "que no haga ruido con la música",
+      "que no cause problemas ni altere una situación que funciona",
+      "que no se maree",
+      "que no cambie de trabajo"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"rock the boat\" = causar problemas o alterar una situación estable (sobre todo criticando o cambiando cosas).",
+      "wrong": {
+        "que no se maree": "Es una lectura literal del barco. El idiom habla de no causar conflictos.",
+        "que no haga ruido con la música": "No tiene que ver con 'rock' como música; 'rock' aquí es balancear.",
+        "que no cambie de trabajo": "El hablante no habla de trabajos, sino de no alterar un acuerdo que contenta a todos."
+      },
+      "examples": [
+        "He didn't want to rock the boat, so he kept quiet.",
+        "Don't rock the boat before the contract is signed."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-in-the-nick-of-time-029",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "in-the-nick-of-time",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "We got to the gate ___ — two minutes later and we would have missed the flight.",
+    "options": [
+      "in the nick of time",
+      "for the time being",
+      "behind the times",
+      "at the last time"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"in the nick of time\" = justo a tiempo, en el último momento.",
+      "wrong": {
+        "for the time being": "\"for the time being\" es 'de momento, por ahora'; no expresa llegar justo a tiempo.",
+        "at the last time": "Es un calco de 'en el último momento'. En inglés se diría \"at the last minute\" o, con este sentido, \"in the nick of time\".",
+        "behind the times": "\"behind the times\" es estar anticuado; no tiene que ver con la puntualidad."
+      },
+      "examples": [
+        "The ambulance arrived in the nick of time.",
+        "She finished the essay in the nick of time."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-best-of-both-worlds-030",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "best-of-both-worlds",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Working from home two days a week gives me ___: I see my colleagues but also get quiet time to focus.",
+    "options": [
+      "out of this world",
+      "the end of the world",
+      "the best of both worlds",
+      "the worst of both worlds"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"the best of both worlds\" = las ventajas de dos situaciones distintas a la vez.",
+      "wrong": {
+        "the worst of both worlds": "Es lo contrario: la frase describe dos ventajas, no dos inconvenientes.",
+        "the end of the world": "\"it's not the end of the world\" se usa para quitar dramatismo; no describe ventajas.",
+        "out of this world": "\"out of this world\" significa 'buenísimo, increíble' y no va después de 'gives me'."
+      },
+      "examples": [
+        "Living near the city but in the countryside is the best of both worlds.",
+        "A hybrid car gives you the best of both worlds."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-by-the-book-031",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "by-the-book",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Our new manager does everything ___; she never breaks a single rule.",
+    "options": [
+      "by heart",
+      "by the way",
+      "by the book",
+      "by chance"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"by the book\" = siguiendo estrictamente las normas, al pie de la letra.",
+      "wrong": {
+        "by heart": "\"by heart\" es de memoria (learn by heart); no describe seguir las normas.",
+        "by the way": "\"by the way\" significa 'por cierto'; no tiene sentido aquí.",
+        "by chance": "\"by chance\" es por casualidad; contradice la idea de seguir siempre las reglas."
+      },
+      "examples": [
+        "The police did everything by the book.",
+        "He plays it by the book at work."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-call-the-shots-032",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "call-the-shots",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "'In this family, it's Grandma who calls the shots.' What does this mean?",
+    "options": [
+      "la abuela hace todas las llamadas",
+      "la abuela cuenta los mejores chistes",
+      "es la abuela quien toma las decisiones importantes",
+      "la abuela dispara"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"call the shots\" = ser quien manda y toma las decisiones.",
+      "wrong": {
+        "la abuela dispara": "Es una lectura literal de 'shots'. El idiom habla de mandar y decidir.",
+        "la abuela hace todas las llamadas": "Aunque 'call' es llamar, aquí el idiom significa ser quien manda.",
+        "la abuela cuenta los mejores chistes": "No tiene relación con el humor; habla de autoridad en la familia."
+      },
+      "examples": [
+        "Who calls the shots in this office?",
+        "When you start your own business, you call the shots."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-foot-the-bill-033",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "foot-the-bill",
+    "tags": [
+      "idiom",
+      "b2-plus"
+    ],
+    "prompt": "The company will ___ for your hotel and flights, so you won't need to pay anything yourself.",
+    "options": [
+      "foot the bill",
+      "fill the bill",
+      "hit the bill",
+      "foot the account"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"foot the bill (for something)\" = pagar la cuenta o los gastos, a menudo de otra persona.",
+      "wrong": {
+        "hit the bill": "No es una expresión inglesa. El verbo correcto es \"foot\" (pagar, cargar con el gasto).",
+        "foot the account": "La expresión fija es con \"bill\", no con \"account\".",
+        "fill the bill": "\"fill/fit the bill\" significa ser adecuado para algo; no significa pagar."
+      },
+      "examples": [
+        "Taxpayers will foot the bill for the new stadium.",
+        "My parents footed the bill for the wedding."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-a-red-herring-034",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "a-red-herring",
+    "tags": [
+      "idiom",
+      "b2-plus"
+    ],
+    "prompt": "In the detective novel, the missing knife turns out to be ___ — it has nothing to do with the murder.",
+    "options": [
+      "a red herring",
+      "a white lie",
+      "a smoking gun",
+      "a dark horse"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"a red herring\" = una pista falsa, algo que distrae de lo realmente importante.",
+      "wrong": {
+        "a dark horse": "\"a dark horse\" es una persona que sorprende con talentos ocultos; un cuchillo no puede serlo.",
+        "a white lie": "\"a white lie\" es una mentira piadosa; un objeto no es una mentira.",
+        "a smoking gun": "\"a smoking gun\" es una prueba clara de culpabilidad; es lo contrario de una pista que no tiene nada que ver."
+      },
+      "examples": [
+        "The question about cost was a red herring.",
+        "The writer uses red herrings to confuse the reader."
+      ]
+    }
+  },
+  {
+    "id": "idiom-b2-word-of-mouth-035",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "word-of-mouth",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "The restaurant doesn't advertise at all; all its customers come by ___.",
+    "options": [
+      "word of mouth",
+      "word for word",
+      "mouth to mouth",
+      "the word of the mouth"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"word of mouth\" = el boca a boca, cuando la gente se recomienda algo hablando.",
+      "wrong": {
+        "mouth to mouth": "\"mouth-to-mouth\" es la respiración boca a boca (primeros auxilios). En español decimos 'el boca a boca', pero en inglés es word of mouth.",
+        "word for word": "\"word for word\" es palabra por palabra, literalmente; no es una forma de recomendación.",
+        "the word of the mouth": "La expresión fija no lleva artículos: \"word of mouth\"."
+      },
+      "examples": [
+        "The shop grew thanks to word of mouth.",
+        "Most of our customers find us through word of mouth."
+      ]
+    }
+  }
+]

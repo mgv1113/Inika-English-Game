@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "vocab-b1-make-do-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "make-do-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "I always ___ the same mistake with this word. I write it with two 'c's.",
+    "options": [
+      "do",
+      "make",
+      "have",
+      "take"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En inglés se dice 'make a mistake' (cometer un error); 'make' se usa con errores, decisiones, ruido, amigos…",
+      "wrong": {
+        "do": "En español decimos 'hacer' para casi todo, pero en inglés 'do a mistake' es incorrecto: con 'mistake' siempre va 'make'.",
+        "have": "'have a mistake' no se usa para decir que cometes un error; como mucho 'there is a mistake' (hay un error).",
+        "take": "'take a mistake' no existe; 'take' va con photo, bus, exam, break…"
+      },
+      "examples": [
+        "Everybody makes mistakes when they learn a language.",
+        "Sorry, I made a mistake with your order."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-take-collocations-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "take-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "Excuse me, could you ___ a photo of us, please?",
+    "options": [
+      "take",
+      "make",
+      "do",
+      "have"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Sacar una foto en inglés es 'take a photo'.",
+      "wrong": {
+        "make": "En español decimos 'hacer una foto', pero en inglés no se dice 'make a photo'.",
+        "do": "'do a photo' es una traducción literal de 'hacer una foto' y no es natural en inglés.",
+        "have": "'have a photo' significa tener una foto, no sacarla."
+      },
+      "examples": [
+        "We took lots of photos in Rome.",
+        "Can I take a picture of your garden?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-have-collocations-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "have-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "I usually ___ a shower before breakfast, not at night.",
+    "options": [
+      "do",
+      "make",
+      "have",
+      "put"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Ducharse se dice 'have a shower' (en inglés americano también 'take a shower'). 'Have' va con comidas, duchas, fiestas, descansos…",
+      "wrong": {
+        "do": "'do a shower' no existe; aunque en español digamos 'darse una ducha', en inglés no se usa 'do'.",
+        "make": "'make a shower' es incorrecto; 'make' significa fabricar o crear, no ducharse.",
+        "put": "'put a shower' significaría instalar o colocar una ducha, no ducharse."
+      },
+      "examples": [
+        "She has a shower every morning.",
+        "Let's have lunch together on Friday."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-get-collocations-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "get-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "It's ___ dark. Let's go home before the park closes.",
+    "options": [
+      "making",
+      "doing",
+      "taking",
+      "getting"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'get' + adjetivo indica un cambio de estado: get dark (oscurecer), get tired, get cold.",
+      "wrong": {
+        "making": "En español a veces decimos 'se está haciendo de noche', pero 'it's making dark' no existe en inglés.",
+        "doing": "'it's doing dark' es incorrecto; 'do' no expresa cambio de estado.",
+        "taking": "'take' no se combina con adjetivos para indicar un cambio; 'it's taking dark' no tiene sentido."
+      },
+      "examples": [
+        "It gets dark early in winter.",
+        "I'm getting hungry. Shall we eat?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-work-job-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "work-vs-job",
+    "tags": [
+      "vocabulary",
+      "work"
+    ],
+    "prompt": "I'm looking for a new ___ because my current one is very badly paid.",
+    "options": [
+      "work",
+      "labour",
+      "works",
+      "job"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'job' es contable (a job = un empleo concreto); 'work' es incontable (el trabajo en general) y no lleva 'a'.",
+      "wrong": {
+        "work": "'work' es incontable, así que no se dice 'a new work' para hablar de un empleo.",
+        "labour": "'labour' significa mano de obra o trabajo físico en general; no se usa para 'un empleo nuevo'.",
+        "works": "'works' significa obras (de construcción o de arte), no un empleo; además no encaja con 'a'."
+      },
+      "examples": [
+        "She got a job in a hotel.",
+        "He lost his job last year."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-work-job-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "work-vs-job",
+    "tags": [
+      "vocabulary",
+      "work"
+    ],
+    "prompt": "I'm exhausted. I've had a lot of ___ at the office this week.",
+    "options": [
+      "job",
+      "work",
+      "a job",
+      "works"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'work' es incontable y se usa con 'a lot of', 'much', 'some' para hablar de la cantidad de trabajo.",
+      "wrong": {
+        "job": "'job' es contable; 'a lot of job' es incorrecto. En singular necesita 'a' y no expresa cantidad de tareas.",
+        "a job": "'a lot of a job' es imposible: no se puede poner 'a' después de 'a lot of'.",
+        "works": "'works' son obras; 'a lot of works at the office' sonaría a obras de construcción."
+      },
+      "examples": [
+        "I have too much work today.",
+        "What time do you finish work?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-education-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "education",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "I studied really hard and ___ all my exams! I'm so happy.",
+    "options": [
+      "approved",
+      "won",
+      "passed",
+      "succeeded"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Aprobar un examen se dice 'pass an exam'.",
+      "wrong": {
+        "approved": "Falso amigo: 'aprobar un examen' no es 'approve'. 'approve' significa dar el visto bueno a algo (approve a plan).",
+        "won": "'win' se usa con premios o competiciones, no con exámenes.",
+        "succeeded": "'succeed' necesita 'in' (succeeded in the exams) y es menos natural; lo normal es 'pass'."
+      },
+      "examples": [
+        "Did you pass your driving test?",
+        "She passed her English exam with a high mark."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-education-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "education",
+    "tags": [
+      "vocabulary",
+      "school"
+    ],
+    "prompt": "Our English teacher ___ us a lot of homework every weekend.",
+    "options": [
+      "puts",
+      "gives",
+      "makes",
+      "does"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Un profesor 'gives' (o 'sets', en inglés británico) deberes: give homework.",
+      "wrong": {
+        "puts": "En español decimos 'nos pone deberes', pero en inglés 'put homework' no se usa.",
+        "makes": "'make us homework' es incorrecto; 'make' sería fabricar o crear los deberes, no mandarlos.",
+        "does": "El profesor no 'does' los deberes; los hacen los alumnos (students do homework)."
+      },
+      "examples": [
+        "The teacher gave us an essay to write.",
+        "Our maths teacher never gives homework on Fridays."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-career-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'career' mean in English?",
+    "options": [
+      "carrera universitaria (los estudios)",
+      "carretera",
+      "trayectoria profesional",
+      "carrera (competición deportiva)"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'career' es la trayectoria profesional de una persona a lo largo de su vida laboral.",
+      "wrong": {
+        "carrera universitaria (los estudios)": "Falso amigo: los estudios universitarios son 'a degree' (I'm doing a degree in Law), no 'a career'.",
+        "carretera": "Carretera es 'road'; 'career' no tiene nada que ver.",
+        "carrera (competición deportiva)": "Una carrera para competir es 'a race' (a running race)."
+      },
+      "examples": [
+        "She had a long career as a nurse.",
+        "He wants a career in marketing."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-environment-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "environment",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "We all need to protect the ___ by using less plastic.",
+    "options": [
+      "ambient",
+      "environment",
+      "medium",
+      "ambience"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "El medio ambiente se dice 'the environment'.",
+      "wrong": {
+        "ambient": "'ambient' es un adjetivo (ambient temperature = temperatura ambiente), no significa medio ambiente.",
+        "medium": "Traducción literal de 'medio'; 'medium' significa tamaño mediano o medio de comunicación.",
+        "ambience": "'ambience' es el ambiente o atmósfera de un lugar (a restaurant with a nice ambience)."
+      },
+      "examples": [
+        "Cars are bad for the environment.",
+        "This company cares about the environment."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-environment-002",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "environment",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "Turn off the lights when you leave a room to ___ energy.",
+    "options": [
+      "save",
+      "keep",
+      "spare",
+      "safe"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Ahorrar energía, agua o dinero se dice 'save energy / water / money'.",
+      "wrong": {
+        "keep": "'keep energy' significaría guardarla o conservarla, no ahorrarla al consumir menos.",
+        "spare": "'spare' significa sobrante o de repuesto (spare time); no se usa como 'ahorrar energía'.",
+        "safe": "'safe' es un adjetivo (seguro); se confunde con 'save' porque suenan parecido."
+      },
+      "examples": [
+        "We can save water by taking shorter showers.",
+        "LED bulbs help you save energy."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-environment-003",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "environment",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "Pandas are ___ animals: there are very few of them left in the wild.",
+    "options": [
+      "dangerous",
+      "danger",
+      "dangered",
+      "endangered"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'endangered' significa en peligro de extinción (endangered species/animals).",
+      "wrong": {
+        "dangerous": "'dangerous' significa peligroso (que causa peligro), no que está en peligro.",
+        "danger": "'danger' es un sustantivo (peligro); no puede ir delante de 'animals' como adjetivo.",
+        "dangered": "'dangered' no existe en inglés; la palabra correcta lleva el prefijo en-: endangered."
+      },
+      "examples": [
+        "The tiger is an endangered species.",
+        "Many endangered birds live in this forest."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-technology-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "technology",
+    "tags": [
+      "vocabulary",
+      "internet"
+    ],
+    "prompt": "I can't ___ to the Wi-Fi. What's the password?",
+    "options": [
+      "connect",
+      "access",
+      "enter",
+      "attach"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Conectarse a una red es 'connect to the Wi-Fi / internet'.",
+      "wrong": {
+        "access": "En español decimos 'acceder a', pero en inglés 'access' no lleva 'to' como verbo: 'access the Wi-Fi', nunca 'access to'.",
+        "enter": "'enter' no lleva 'to' (enter a room) y no se usa para conectarse a una red.",
+        "attach": "'attach' significa adjuntar o sujetar algo, no conectarse a internet."
+      },
+      "examples": [
+        "My phone won't connect to the internet.",
+        "You can connect to the hotel Wi-Fi for free."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-technology-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "technology",
+    "tags": [
+      "vocabulary",
+      "internet"
+    ],
+    "prompt": "I ___ a new app on my phone yesterday. It's great for learning words.",
+    "options": [
+      "discharged",
+      "downloaded",
+      "unloaded",
+      "lowered"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Descargar un archivo o una app de internet es 'download'.",
+      "wrong": {
+        "discharged": "Traducción literal de 'descargar'; 'discharge' significa dar el alta (en un hospital) o liberar, no descargar de internet.",
+        "unloaded": "'unload' es descargar un camión o una lavadora (sacar la carga), no bajar una app.",
+        "lowered": "'lower' significa bajar o reducir algo (lower the price), no descargar archivos."
+      },
+      "examples": [
+        "You can download the song for free.",
+        "I downloaded the photos to my laptop."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-technology-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "technology",
+    "tags": [
+      "vocabulary",
+      "internet"
+    ],
+    "prompt": "I've sent you the report as an ___ to my email. Please open it.",
+    "options": [
+      "annex",
+      "adjunct",
+      "attachment",
+      "attached"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Un archivo adjunto en un email es 'an attachment'.",
+      "wrong": {
+        "annex": "En español decimos 'anexo', pero en un email el archivo adjunto no se llama 'annex'.",
+        "adjunct": "Traducción literal de 'adjunto'; 'adjunct' es una palabra formal que no se usa para emails.",
+        "attached": "'attached' es un adjetivo/participio (the attached file); después de 'an' necesitamos un sustantivo."
+      },
+      "examples": [
+        "I can't open the attachment.",
+        "Please find the attached document."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-ed-ing-adjectives-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "ed-ing-adjectives",
+    "tags": [
+      "vocabulary",
+      "adjectives"
+    ],
+    "prompt": "The film was so ___ that I fell asleep after twenty minutes.",
+    "options": [
+      "bored",
+      "boredom",
+      "bore",
+      "boring"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Los adjetivos en -ing describen lo que causa el sentimiento (a boring film); los de -ed, cómo se siente la persona (I was bored).",
+      "wrong": {
+        "bored": "'bored' describe a una persona que se aburre; una película no se siente aburrida, es aburrida: boring.",
+        "boredom": "'boredom' es un sustantivo (el aburrimiento); después de 'so' necesitamos un adjetivo.",
+        "bore": "'bore' es un verbo o un sustantivo (una persona pesada); no funciona como adjetivo aquí."
+      },
+      "examples": [
+        "The lesson was really boring.",
+        "I was bored, so I went for a walk."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-ed-ing-adjectives-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "ed-ing-adjectives",
+    "tags": [
+      "vocabulary",
+      "adjectives"
+    ],
+    "prompt": "I was really ___ when I heard the news. Nobody expected it.",
+    "options": [
+      "surprising",
+      "surprise",
+      "surprised",
+      "surprisingly"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Para decir cómo se siente una persona usamos el adjetivo en -ed: I was surprised (me sorprendí).",
+      "wrong": {
+        "surprising": "'I was surprising' significaría que yo causaba sorpresa a otros; la noticia es 'surprising', yo estoy 'surprised'.",
+        "surprise": "'surprise' es un sustantivo o un verbo; después de 'was really' necesitamos un adjetivo.",
+        "surprisingly": "'surprisingly' es un adverbio (sorprendentemente); no puede ir después de 'was' para describir a una persona."
+      },
+      "examples": [
+        "She was surprised to see me.",
+        "The results were surprising."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-eventually-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'eventually' mean? 'We waited for two hours, but eventually the bus arrived.'",
+    "options": [
+      "posiblemente, si se da el caso",
+      "al final, finalmente",
+      "de vez en cuando",
+      "inmediatamente"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'eventually' significa al final, finalmente (después de mucho tiempo o esfuerzo).",
+      "wrong": {
+        "posiblemente, si se da el caso": "Falso amigo: 'eventualmente' en español se dice 'possibly' o 'if necessary', no 'eventually'.",
+        "de vez en cuando": "De vez en cuando es 'from time to time' u 'occasionally'.",
+        "inmediatamente": "Es casi lo contrario: 'eventually' indica que algo pasa tras una espera; inmediatamente es 'immediately'."
+      },
+      "examples": [
+        "He eventually found a job after six months.",
+        "Eventually, we decided to stay at home."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-carpet-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'carpet' mean? 'Please take off your shoes: we have a new white carpet.'",
+    "options": [
+      "carpeta",
+      "cortina",
+      "alfombra o moqueta",
+      "sábana"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'carpet' es una alfombra grande o moqueta que cubre el suelo.",
+      "wrong": {
+        "carpeta": "Falso amigo: una carpeta para papeles es 'a folder' (o 'a file').",
+        "cortina": "Cortina es 'curtain'.",
+        "sábana": "Sábana es 'sheet'."
+      },
+      "examples": [
+        "The cat is sleeping on the carpet.",
+        "I spilled coffee on the carpet."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-constipated-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "health"
+    ],
+    "prompt": "Your friend says: 'I'm constipated.' What's the problem?",
+    "options": [
+      "Tiene la nariz tapada por un resfriado",
+      "Tiene fiebre",
+      "Está muy cansado",
+      "Está estreñido"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'constipated' significa estreñido. Estar constipado (resfriado) es 'to have a cold'.",
+      "wrong": {
+        "Tiene la nariz tapada por un resfriado": "Falso amigo: estar constipado es 'I've got a cold' o 'my nose is blocked', nunca 'I'm constipated'.",
+        "Tiene fiebre": "Tener fiebre es 'to have a temperature' o 'a fever'.",
+        "Está muy cansado": "Estar muy cansado es 'to be exhausted' o 'very tired'."
+      },
+      "examples": [
+        "I've got a cold and a sore throat.",
+        "Eating more fruit helps if you're constipated."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-compromise-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "We wanted to stay in different hotels, so we reached a ___ and chose one in the middle.",
+    "options": [
+      "compromise",
+      "commitment",
+      "appointment",
+      "promise"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'compromise' es un acuerdo en el que cada parte cede algo (reach a compromise = llegar a un acuerdo intermedio).",
+      "wrong": {
+        "commitment": "'commitment' es compromiso en el sentido de obligación o dedicación; no se 'reach a commitment' para ponerse de acuerdo.",
+        "appointment": "'appointment' es una cita (con el médico, por ejemplo); en español 'compromiso' a veces es una cita, pero aquí no encaja.",
+        "promise": "'promise' es una promesa; no se dice 'reach a promise'."
+      },
+      "examples": [
+        "After a long discussion, they found a compromise.",
+        "Marriage is all about compromise."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-discussion-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "My parents had a big ___ last night, and they're still angry with each other.",
+    "options": [
+      "argument",
+      "discussion",
+      "debate",
+      "conversation"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Una discusión con enfado (una pelea verbal) es 'an argument'.",
+      "wrong": {
+        "discussion": "Falso amigo: 'discussion' es una conversación tranquila para tratar un tema; no implica enfado.",
+        "debate": "'debate' es un debate formal con argumentos a favor y en contra, no una pelea de pareja.",
+        "conversation": "'conversation' es una charla normal; no explica que sigan enfadados."
+      },
+      "examples": [
+        "They had an argument about money.",
+        "We had a discussion about our holiday plans."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-pretend-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "He ___ to be ill so he didn't have to go to school.",
+    "options": [
+      "intended",
+      "attended",
+      "pretended",
+      "expected"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'pretend' significa fingir o hacer como que. Pretender (tener la intención) es 'intend' o 'aim'.",
+      "wrong": {
+        "intended": "'intend to' significa tener la intención; 'he intended to be ill' no tiene sentido: nadie planea ponerse enfermo.",
+        "attended": "'attend' significa asistir (attend a class); no lleva 'to be' detrás.",
+        "expected": "'expected to be ill' significa que esperaba ponerse enfermo, no que lo fingía para no ir a clase."
+      },
+      "examples": [
+        "She pretended to be asleep.",
+        "Let's pretend we're pirates!"
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-fabric-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "clothes"
+    ],
+    "prompt": "This shirt is made of a soft cotton ___.",
+    "options": [
+      "factory",
+      "manufacture",
+      "fabrication",
+      "fabric"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'fabric' significa tela o tejido. Una fábrica es 'a factory'.",
+      "wrong": {
+        "factory": "'factory' es una fábrica (el edificio); la camisa no está hecha de una fábrica.",
+        "manufacture": "'manufacture' es el proceso de fabricar; no es el material de la camisa.",
+        "fabrication": "'fabrication' significa invención o mentira (o fabricación técnica); no es una tela."
+      },
+      "examples": [
+        "I need some blue fabric for the curtains.",
+        "My father works in a car factory."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-notice-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "Did you ___ that Tom wasn't at the meeting today?",
+    "options": [
+      "news",
+      "notify",
+      "notice",
+      "advise"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'notice' (verbo) significa darse cuenta, notar. Una noticia es 'a piece of news'.",
+      "wrong": {
+        "news": "Falso amigo: 'news' es un sustantivo (las noticias); no puede funcionar como verbo después de 'Did you'.",
+        "notify": "'notify' significa notificar o avisar oficialmente a alguien y necesita un objeto (notify someone); no significa darse cuenta.",
+        "advise": "'advise' significa aconsejar, no notar algo."
+      },
+      "examples": [
+        "I didn't notice the mistake.",
+        "Did you notice her new haircut?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-false-friends-success-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "A strange ___ happened in the city centre last night. The police are investigating it.",
+    "options": [
+      "success",
+      "event",
+      "successful",
+      "succeed"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Un suceso o acontecimiento es 'an event' (o 'an incident'). 'success' significa éxito.",
+      "wrong": {
+        "success": "Falso amigo: 'success' es éxito (the party was a success), no un suceso.",
+        "successful": "'successful' es un adjetivo (exitoso); después de 'a strange' falta un sustantivo.",
+        "succeed": "'succeed' es un verbo (tener éxito); no puede ir después de 'a strange'."
+      },
+      "examples": [
+        "The concert was a big success.",
+        "The wedding was the most important event of the year."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-word-formation-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "Money can't buy ___.",
+    "options": [
+      "happiness",
+      "happy",
+      "happyness",
+      "happily"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El sufijo -ness convierte un adjetivo en sustantivo: happy → happiness (la 'y' cambia a 'i').",
+      "wrong": {
+        "happy": "'happy' es un adjetivo; después de 'buy' necesitamos un sustantivo (lo que se compra).",
+        "happyness": "Error de ortografía: con -ness la 'y' final se convierte en 'i': happiness.",
+        "happily": "'happily' es un adverbio (felizmente); no puede ser el objeto de 'buy'."
+      },
+      "examples": [
+        "I wish you lots of happiness.",
+        "Kindness is very important to me."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-word-formation-002",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "Thank you for explaining the homework to me. You've been really ___.",
+    "options": [
+      "helpless",
+      "helpful",
+      "helpness",
+      "helped"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "-ful significa 'con' o 'lleno de' (helpful = que ayuda); -less significa 'sin' (helpless = indefenso, sin ayuda).",
+      "wrong": {
+        "helpless": "'helpless' significa indefenso o incapaz de ayudarse; es lo contrario de lo que se quiere decir.",
+        "helpness": "'helpness' no existe; -ness se añade a adjetivos, y 'help' no es un adjetivo.",
+        "helped": "'You've been really helped' no es natural y cambiaría el sentido: tú habrías recibido la ayuda."
+      },
+      "examples": [
+        "The staff at the hotel were very helpful.",
+        "Thanks, that's a really helpful idea."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-word-formation-003",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "He's very ___ with his phone: he's broken the screen three times this year.",
+    "options": [
+      "careful",
+      "caring",
+      "careless",
+      "carelessness"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "-less significa 'sin': careless = descuidado (sin cuidado). Careful = cuidadoso.",
+      "wrong": {
+        "careful": "'careful' significa cuidadoso; alguien que rompe la pantalla tres veces no es cuidadoso.",
+        "caring": "'caring' significa cariñoso o atento con las personas; no describe cómo trata el móvil.",
+        "carelessness": "'carelessness' es un sustantivo (el descuido); después de 'very' necesitamos un adjetivo."
+      },
+      "examples": [
+        "It was careless of me to leave the door open.",
+        "Be careful, the floor is wet."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-raise-rise-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "raise-vs-rise",
+    "tags": [
+      "vocabulary",
+      "confusing-words"
+    ],
+    "prompt": "Please ___ your hand if you have a question.",
+    "options": [
+      "raise",
+      "rise",
+      "arise",
+      "grow"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'raise' necesita objeto (levantar algo: raise your hand, raise prices); 'rise' no lleva objeto (subir solo: the sun rises).",
+      "wrong": {
+        "rise": "'rise' no lleva objeto directo; no se puede 'rise your hand'.",
+        "arise": "'arise' significa surgir (a problem arose); no lleva objeto.",
+        "grow": "'grow your hand' significaría hacer crecer la mano; levantarla es 'raise'."
+      },
+      "examples": [
+        "The company raised salaries last year.",
+        "Raise your glass for a toast!"
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-raise-rise-002",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "raise-vs-rise",
+    "tags": [
+      "vocabulary",
+      "confusing-words"
+    ],
+    "prompt": "The price of petrol has ___ a lot this year.",
+    "options": [
+      "raised",
+      "risen",
+      "rose",
+      "rised"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'rise' (subir, sin objeto) es irregular: rise – rose – risen. Después de 'has' va el participio: risen.",
+      "wrong": {
+        "raised": "'raise' necesita objeto (they have raised the price); aquí el precio sube solo, así que va 'rise'.",
+        "rose": "'rose' es el pasado simple; después de 'has' necesitamos el participio 'risen'.",
+        "rised": "'rised' no existe; 'rise' es irregular (rose, risen)."
+      },
+      "examples": [
+        "House prices have risen again.",
+        "The temperature rose to 40 degrees yesterday."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-lose-miss-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "lose-vs-miss",
+    "tags": [
+      "vocabulary",
+      "confusing-words"
+    ],
+    "prompt": "Hurry up or we'll ___ the train! It leaves in two minutes.",
+    "options": [
+      "lose",
+      "loose",
+      "lost",
+      "miss"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'miss' es no llegar a tiempo (miss the bus/train), no ver algo o echar de menos; 'lose' es perder algo que tenías o perder un partido.",
+      "wrong": {
+        "lose": "En español decimos 'perder el tren', pero en inglés es 'miss the train'; 'lose' es para objetos o partidos.",
+        "loose": "'loose' es un adjetivo (suelto, holgado), no un verbo.",
+        "lost": "'lost' es pasado/participio; después de 'will' necesitamos la forma base, y además el verbo correcto es 'miss'."
+      },
+      "examples": [
+        "I missed the bus this morning.",
+        "Don't miss the beginning of the film!"
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-lose-miss-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "lose-vs-miss",
+    "tags": [
+      "vocabulary",
+      "confusing-words"
+    ],
+    "prompt": "I ___ my keys yesterday, so I couldn't get into my flat.",
+    "options": [
+      "lost",
+      "missed",
+      "loosed",
+      "lose"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Perder un objeto (no saber dónde está) es 'lose': lose – lost – lost.",
+      "wrong": {
+        "missed": "'miss' se usa para transportes, oportunidades o personas que echas de menos, no para objetos perdidos.",
+        "loosed": "'loose' es un adjetivo (suelto); 'loosed' no significa perder.",
+        "lose": "'lose' es presente; con 'yesterday' necesitamos el pasado 'lost'."
+      },
+      "examples": [
+        "She lost her phone on the train.",
+        "Our team lost the match 2–0."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-remember-remind-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "remember-vs-remind",
+    "tags": [
+      "vocabulary",
+      "confusing-words"
+    ],
+    "prompt": "Can you ___ me to call the dentist tomorrow? I always forget.",
+    "options": [
+      "remember",
+      "record",
+      "memorise",
+      "remind"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'remind someone to do something' = recordarle a alguien que haga algo. 'remember' = acordarse uno mismo.",
+      "wrong": {
+        "remember": "En español 'recordar' sirve para ambos casos, pero en inglés 'remember me to…' es incorrecto: para hacer que otro se acuerde se usa 'remind'.",
+        "record": "'record' significa grabar o registrar, no recordar.",
+        "memorise": "'memorise' es aprender de memoria (memorise a poem), no avisar a alguien."
+      },
+      "examples": [
+        "Remind me to buy milk.",
+        "I remembered to lock the door."
+      ]
+    }
+  },
+  {
+    "id": "vocab-b1-remember-remind-002",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "remember-vs-remind",
+    "tags": [
+      "vocabulary",
+      "confusing-words"
+    ],
+    "prompt": "This song always ___ me of my holidays in Mexico.",
+    "options": [
+      "reminds",
+      "remembers",
+      "recalls",
+      "records"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'remind someone of something' = hacer que alguien se acuerde de algo (traer recuerdos).",
+      "wrong": {
+        "remembers": "'remember' significa acordarse uno mismo; una canción no 'remembers me'. En español 'me recuerda', pero en inglés es 'reminds me'.",
+        "recalls": "'recall' significa recordar uno mismo (formal); no se usa 'recall me of'.",
+        "records": "'records' significa graba; no tiene que ver con traer recuerdos."
+      },
+      "examples": [
+        "You remind me of your father.",
+        "This place reminds me of my childhood."
+      ]
+    }
+  }
+]

@@ -1,0 +1,1319 @@
+[
+  {
+    "id": "gram-b2-third-conditional-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "third-conditional",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "If we ___ the earlier train, we would have arrived on time for the wedding.",
+    "options": [
+      "would have caught",
+      "had caught",
+      "caught",
+      "have caught"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Tercer condicional (pasado irreal): If + had + participio, would have + participio.",
+      "wrong": {
+        "would have caught": "En la parte con if no se usa would. El tercer condicional lleva if + had + participio.",
+        "caught": "\"caught\" (pasado simple) es del segundo condicional. Como la otra parte es \"would have arrived\", hace falta had caught.",
+        "have caught": "\"if + have caught\" no existe para hablar de un pasado irreal; necesitas el pasado perfecto: had caught."
+      },
+      "examples": [
+        "If I had known, I would have called you.",
+        "They would have won if they had trained harder."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-third-conditional-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "third-conditional",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "She ___ her driving test last week if she hadn't been so nervous.",
+    "options": [
+      "would have passed",
+      "would pass",
+      "had passed",
+      "will have passed"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "En el tercer condicional, la consecuencia imaginaria en el pasado se expresa con would have + participio.",
+      "wrong": {
+        "would pass": "\"would pass\" habla del presente o futuro. El examen ya fue la semana pasada, así que necesitas would have passed.",
+        "had passed": "El pasado perfecto va en la parte con if, no en la consecuencia. La consecuencia lleva would have + participio.",
+        "will have passed": "\"will have passed\" es futuro perfecto; no sirve para imaginar algo que no ocurrió en el pasado."
+      },
+      "examples": [
+        "We would have stayed longer if the hotel had been nicer."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-third-conditional-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "third-conditional",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "If I would have known about the party, I would have gone.",
+      "If I have known about the party, I would have gone.",
+      "If I had knew about the party, I would have gone.",
+      "If I had known about the party, I would have gone."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Tercer condicional: If + had + participio, would have + participio. Nunca would en la parte con if.",
+      "wrong": {
+        "If I would have known about the party, I would have gone.": "Se oye en inglés coloquial, pero en inglés estándar no se pone would en la parte con if: If I had known.",
+        "If I have known about the party, I would have gone.": "\"have known\" es presente perfecto. Para un pasado irreal necesitas el pasado perfecto: had known.",
+        "If I had knew about the party, I would have gone.": "Después de had va el participio (known), no el pasado simple (knew)."
+      },
+      "examples": [
+        "If she had asked me, I would have helped her."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-mixed-conditionals-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "mixed-conditionals",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "If I had studied medicine, I ___ a doctor now.",
+    "options": [
+      "would have been",
+      "will be",
+      "would be",
+      "had been"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Condicional mixto: una condición irreal en el pasado (had + participio) con un resultado en el presente (would + infinitivo).",
+      "wrong": {
+        "would have been": "\"would have been\" situaría el resultado en el pasado, y \"now\" indica que el resultado es en el presente.",
+        "will be": "\"will be\" es para situaciones reales o posibles. Aquí la condición es irreal porque no estudiaste medicina.",
+        "had been": "El pasado perfecto no va en la consecuencia; para un resultado presente irreal se usa would + infinitivo."
+      },
+      "examples": [
+        "If I had taken that job, I would live in Paris now.",
+        "If she had saved money, she wouldn't be broke today."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-mixed-conditionals-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "mixed-conditionals",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "If she ___ so shy, she would have spoken to him at the party last night.",
+    "options": [
+      "wouldn't be",
+      "weren't",
+      "isn't",
+      "hasn't been"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Condicional mixto: if + pasado (un rasgo irreal del presente) con would have + participio (un resultado en el pasado).",
+      "wrong": {
+        "wouldn't be": "En la parte con if no se usa would. Para una característica irreal del presente se usa el pasado: weren't.",
+        "isn't": "\"isn't\" plantearía una condición real. Ella sí es tímida, así que la condición es irreal y va en pasado: weren't.",
+        "hasn't been": "El presente perfecto no sirve en una condición irreal. Para un rasgo permanente de su carácter se usa weren't."
+      },
+      "examples": [
+        "If he weren't so stubborn, he would have apologised yesterday.",
+        "If I spoke French, I would have understood the guide."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-mixed-conditionals-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "mixed-conditionals",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "What does this mean? 'If he weren't so lazy, he would have finished the report yesterday.'",
+    "options": [
+      "Él es perezoso en general, y por eso no terminó el informe ayer.",
+      "Ayer fue perezoso, pero hoy terminará el informe.",
+      "No es perezoso, así que terminó el informe ayer.",
+      "Será perezoso mañana y no terminará el informe."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "En un condicional mixto, if + pasado describe una situación irreal del presente que explica un resultado del pasado.",
+      "wrong": {
+        "Ayer fue perezoso, pero hoy terminará el informe.": "\"weren't so lazy\" describe cómo es él en general, no solo ayer, y la frase no dice nada del futuro.",
+        "No es perezoso, así que terminó el informe ayer.": "Es al revés: la condición es irreal, así que sí es perezoso y no terminó el informe.",
+        "Será perezoso mañana y no terminará el informe.": "La frase no habla del futuro. \"would have finished\" se refiere a ayer."
+      },
+      "examples": [
+        "If I were more organised, I wouldn't have missed the deadline."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-wish-present-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "wish-present",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "I wish I ___ how to fix this laptop, but I have no idea.",
+    "options": [
+      "know",
+      "would know",
+      "had known",
+      "knew"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "wish/if only + pasado simple expresa un deseo sobre una situación presente que no es real.",
+      "wrong": {
+        "know": "Después de wish, para hablar del presente el verbo va en pasado: I wish I knew. En español decimos \"ojalá supiera\" (subjuntivo), y en inglés se usa el pasado simple.",
+        "would know": "wish + would se usa para quejarse de lo que hace otra persona, no con verbos de estado como know.",
+        "had known": "\"had known\" expresa un lamento sobre el pasado, y la frase habla de ahora (\"I have no idea\")."
+      },
+      "examples": [
+        "I wish I had more free time.",
+        "I wish we lived closer to the sea."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-wish-past-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "wish-past",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "I wish I ___ to your advice last year; now I'm in debt.",
+    "options": [
+      "listened",
+      "would listen",
+      "had listened",
+      "have listened"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "wish/if only + pasado perfecto (had + participio) expresa arrepentimiento por algo del pasado.",
+      "wrong": {
+        "listened": "\"I wish I listened\" se refiere al presente. Para lamentar algo de \"last year\" necesitas el pasado perfecto.",
+        "would listen": "wish + would expresa queja o deseo de cambio en el presente o futuro, no un lamento sobre el pasado.",
+        "have listened": "Después de wish no se usa el presente perfecto. Para el pasado se usa had + participio."
+      },
+      "examples": [
+        "I wish I hadn't said that.",
+        "If only we had left earlier!"
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-if-only-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "if-only",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "If only it ___ raining! We've been stuck inside all week.",
+    "options": [
+      "stops",
+      "would stop",
+      "will stop",
+      "is stopping"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "if only/wish + would expresa impaciencia o el deseo de que algo cambie, sobre todo cuando no depende de nosotros.",
+      "wrong": {
+        "stops": "Después de if only no se usa el presente simple; el deseo es irreal o impaciente.",
+        "will stop": "\"will\" no va después de if only. Para expresar impaciencia por un cambio se usa would.",
+        "is stopping": "El presente continuo no encaja: if only expresa un deseo, no una acción que ya está ocurriendo."
+      },
+      "examples": [
+        "I wish the neighbours would turn the music down.",
+        "If only the bus would come!"
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-passive-reporting-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "passive-reporting",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "The suspect ___ to have left the country last week.",
+    "options": [
+      "is believed",
+      "believes",
+      "is believing",
+      "it is believed"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Pasiva de opinión: sujeto + is said/believed/thought + to + infinitivo (to have + participio si es pasado).",
+      "wrong": {
+        "believes": "Con la voz activa, sería el sospechoso quien cree algo. Aquí es la gente la que lo cree: is believed.",
+        "is believing": "believe es un verbo de estado y casi nunca va en forma continua.",
+        "it is believed": "La estructura con it va seguida de that: It is believed that the suspect left... No puede ir después del sujeto."
+      },
+      "examples": [
+        "She is said to be the best chef in town.",
+        "The thieves are thought to have escaped by car."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-passive-reporting-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "passive-reporting",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "Is said that the castle is haunted.",
+      "The castle is said that it is haunted.",
+      "It is said the castle to be haunted.",
+      "It is said that the castle is haunted."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Hay dos estructuras: It is said that + oración, o sujeto + is said + to + infinitivo.",
+      "wrong": {
+        "Is said that the castle is haunted.": "En español omitimos el sujeto (\"se dice que...\"), pero en inglés hace falta el sujeto vacío It.",
+        "The castle is said that it is haunted.": "Mezcla dos estructuras. Se dice \"It is said that the castle is...\" o \"The castle is said to be...\".",
+        "It is said the castle to be haunted.": "Con It is said va una oración con that, no un infinitivo. El infinitivo va con el castillo como sujeto: The castle is said to be haunted."
+      },
+      "examples": [
+        "It is said that he speaks six languages.",
+        "He is said to speak six languages."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-passive-reporting-003",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "passive-reporting",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "The painting is thought ___ stolen during the war, but nobody knows for sure.",
+    "options": [
+      "to be",
+      "that it was",
+      "to have been",
+      "being"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Para una opinión sobre un hecho pasado: sujeto + is thought/believed + to have (been) + participio.",
+      "wrong": {
+        "to be": "\"to be stolen\" se refiere al presente. El robo ocurrió en el pasado (\"during the war\"), así que necesitas el infinitivo perfecto.",
+        "that it was": "Después de \"is thought\" con un sujeto personal va un infinitivo. La estructura con that empieza con It: It is thought that...",
+        "being": "Después de is thought no va -ing, sino to + infinitivo."
+      },
+      "examples": [
+        "The ship is believed to have sunk in 1820.",
+        "He is thought to have been injured."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-passive-reporting-004",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "passive-reporting",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Rewrite: 'People expect that prices will rise next year.'",
+    "options": [
+      "Prices are expected rising next year.",
+      "Prices are expected to rise next year.",
+      "Prices expect to rise next year.",
+      "It is expected prices to rise next year."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Las frases de opinión de la gente (people say/expect/believe) pueden pasar a pasiva: sujeto + be + participio + to + infinitivo.",
+      "wrong": {
+        "Prices are expected rising next year.": "Después de be expected va to + infinitivo, no -ing.",
+        "Prices expect to rise next year.": "En voz activa parece que los precios esperan algo. Hace falta la pasiva: are expected.",
+        "It is expected prices to rise next year.": "Con It is expected va that + oración: It is expected that prices will rise."
+      },
+      "examples": [
+        "Interest rates are expected to fall.",
+        "The minister is expected to resign."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-causative-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "causative",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "I'm going to ___ my hair cut before the wedding.",
+    "options": [
+      "have",
+      "make",
+      "do",
+      "let"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Causativo: have/get + objeto + participio, para cuando otra persona hace algo por ti (normalmente un servicio).",
+      "wrong": {
+        "make": "make + objeto + infinitivo significa obligar (make him cut). Para un servicio que te hacen se usa have o get.",
+        "do": "En español decimos \"hacerse un corte de pelo\", pero en inglés la estructura causativa no usa do.",
+        "let": "let significa permitir y va con infinitivo sin to (let him cut), no con participio."
+      },
+      "examples": [
+        "We had the kitchen painted last month.",
+        "She's having her nails done."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-causative-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "causative",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Which sentence means that a mechanic repaired your car?",
+    "options": [
+      "I repaired my car yesterday.",
+      "I had repaired my car yesterday.",
+      "I had my car to repair yesterday.",
+      "I had my car repaired yesterday."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "have + objeto + participio indica que otra persona hizo el trabajo; had + participio + objeto es el pasado perfecto.",
+      "wrong": {
+        "I repaired my car yesterday.": "Esta frase dice que lo reparaste tú mismo.",
+        "I had repaired my car yesterday.": "Es pasado perfecto (tú lo habías reparado), no causativo. El orden importa: had + objeto + participio.",
+        "I had my car to repair yesterday.": "\"to repair\" no sirve aquí. La estructura causativa usa el participio: had my car repaired."
+      },
+      "examples": [
+        "I had my eyes tested.",
+        "They had their roof fixed after the storm."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-causative-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "causative",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "'She had her phone stolen on the bus.' What does it mean?",
+    "options": [
+      "Ella hizo que alguien robara su teléfono.",
+      "Ella robó un teléfono en el autobús.",
+      "Le robaron el teléfono en el autobús.",
+      "Ella tenía un teléfono robado en el autobús."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "have + objeto + participio también expresa algo negativo que te pasa por culpa de otra persona.",
+      "wrong": {
+        "Ella hizo que alguien robara su teléfono.": "El causativo también se usa para cosas malas que le pasan a alguien, sin que esa persona las provoque.",
+        "Ella robó un teléfono en el autobús.": "En la frase ella no es la ladrona; el teléfono es suyo (her phone) y se lo robaron.",
+        "Ella tenía un teléfono robado en el autobús.": "Es una traducción literal de \"had\". Aquí la estructura es causativa: have + objeto + participio."
+      },
+      "examples": [
+        "He had his wallet stolen in Rome.",
+        "We had our flight cancelled."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-reporting-verbs-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "reporting-verbs",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "My boss suggested ___ the meeting until Friday.",
+    "options": [
+      "to postpone",
+      "postponing",
+      "us to postpone",
+      "postpone"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "suggest + -ing, o suggest + that + sujeto + verbo. Nunca suggest someone to do.",
+      "wrong": {
+        "to postpone": "suggest no va seguido de to + infinitivo. Se usa suggest + -ing o suggest that...",
+        "us to postpone": "En español decimos \"nos sugirió posponer\", pero en inglés no se usa suggest + persona + to. Se dice suggested (that) we postpone.",
+        "postpone": "Directamente después de suggest no va el infinitivo sin to. Se usa -ing: suggested postponing."
+      },
+      "examples": [
+        "She suggested going to the beach.",
+        "He suggested that we take a taxi."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-reporting-verbs-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "reporting-verbs",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "The politician denied ___ any money from the company.",
+    "options": [
+      "having taken",
+      "to have taken",
+      "to take",
+      "that took"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "deny + -ing (o having + participio) significa negar haber hecho algo.",
+      "wrong": {
+        "to have taken": "deny no va con infinitivo. Se usa deny + -ing (taking o having taken).",
+        "to take": "deny no va con to + infinitivo. Además, \"to take\" no indica que la acción fuera anterior.",
+        "that took": "Si usas that, necesitas un sujeto: denied that he had taken."
+      },
+      "examples": [
+        "He denied breaking the window.",
+        "She denied having lied to the police."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-reporting-verbs-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "reporting-verbs",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "'Yes, I broke the vase,' said Tom. Choose the best reported version.",
+    "options": [
+      "Tom admitted to break the vase.",
+      "Tom denied breaking the vase.",
+      "Tom admitted me that he broke the vase.",
+      "Tom admitted breaking the vase."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "admit + -ing / admit to + -ing / admit that... significa reconocer haber hecho algo.",
+      "wrong": {
+        "Tom admitted to break the vase.": "admit va con -ing (admitted breaking) o con to + -ing (admitted to breaking), nunca con to + infinitivo.",
+        "Tom denied breaking the vase.": "deny significa negar, y Tom reconoce que lo rompió.",
+        "Tom admitted me that he broke the vase.": "admit no lleva objeto de persona. Se dice admitted (to me) that..."
+      },
+      "examples": [
+        "She admitted making a mistake.",
+        "He admitted that he was wrong."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-reporting-verbs-004",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "reporting-verbs",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "The guide warned us ___ swim in that part of the river.",
+    "options": [
+      "don't",
+      "that not",
+      "not to",
+      "against to"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "warn + persona + (not) to + infinitivo, o warn + persona + against + -ing.",
+      "wrong": {
+        "don't": "En estilo indirecto, la orden negativa se convierte en not to + infinitivo, no en don't.",
+        "that not": "warn that va seguido de una oración completa (warned us that we shouldn't swim), no de \"that not\".",
+        "against to": "warn against va con -ing (warned us against swimming), no con to."
+      },
+      "examples": [
+        "The doctor warned him not to eat so much salt.",
+        "They warned us against travelling at night."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-reporting-verbs-005",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "reporting-verbs",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "'I won't sign the contract,' she said. Choose the reported version.",
+    "options": [
+      "She refused signing the contract.",
+      "She refused to sign the contract.",
+      "She denied to sign the contract.",
+      "She refused that she would sign the contract."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "refuse + to + infinitivo significa negarse a hacer algo.",
+      "wrong": {
+        "She refused signing the contract.": "refuse va con to + infinitivo, no con -ing.",
+        "She denied to sign the contract.": "Es un falso amigo. \"Negarse a\" es refuse; deny significa negar que algo sea cierto o que lo hayas hecho.",
+        "She refused that she would sign the contract.": "refuse no va con una oración con that. Se usa refuse + to + infinitivo."
+      },
+      "examples": [
+        "He refused to answer the question.",
+        "They refused to pay the bill."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-past-deduction-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "past-deduction",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "The streets are wet. It ___ rained during the night.",
+    "options": [
+      "must have",
+      "can't have",
+      "must",
+      "should have"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "must have + participio: estamos casi seguros de que algo ocurrió en el pasado.",
+      "wrong": {
+        "can't have": "\"can't have\" diría que es imposible que lloviera, pero las calles mojadas indican lo contrario.",
+        "must": "Para deducir algo del pasado se usa must have + participio. \"must rained\" no es correcto.",
+        "should have": "\"should have\" expresa lo que era de esperar o lo que habría convenido, no una deducción a partir de pruebas."
+      },
+      "examples": [
+        "You must have been tired after the trip.",
+        "He must have forgotten the keys."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-past-deduction-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "past-deduction",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Lucy ___ taken the money; she was in Japan all week.",
+    "options": [
+      "must have",
+      "can't",
+      "needn't have",
+      "can't have"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "can't/couldn't have + participio: estamos seguros de que algo no ocurrió en el pasado.",
+      "wrong": {
+        "must have": "Esta opción contradice la prueba: si estaba en Japón, no pudo cogerlo.",
+        "can't": "Para el pasado hace falta have + participio: can't have taken.",
+        "needn't have": "\"needn't have\" significa que algo no era necesario, no que fuera imposible."
+      },
+      "examples": [
+        "He can't have seen us; it was too dark.",
+        "She couldn't have known about it."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-past-deduction-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "past-deduction",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Your friend didn't answer your calls yesterday. You're not sure why. Which sentence fits?",
+    "options": [
+      "She must be busy.",
+      "She can't have been busy.",
+      "She might have been busy.",
+      "She might be busy yesterday."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "might/may/could have + participio expresa una posibilidad sobre el pasado de la que no estamos seguros.",
+      "wrong": {
+        "She must be busy.": "Habla del presente y expresa certeza, pero tú no estás seguro y la situación es de ayer.",
+        "She can't have been busy.": "Expresa certeza negativa, pero tú no sabes por qué no contestó.",
+        "She might be busy yesterday.": "Con yesterday necesitas la forma de pasado: might have been."
+      },
+      "examples": [
+        "They might have missed the bus.",
+        "He may have left already."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-should-have-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "should-have",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "You ___ told me it was your birthday! I would have bought you a present.",
+    "options": [
+      "must have",
+      "should have",
+      "had to",
+      "should"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "should have + participio expresa un reproche o arrepentimiento: algo era lo correcto, pero no se hizo.",
+      "wrong": {
+        "must have": "\"must have\" es para deducir (seguro que lo dijiste), no para reprochar algo que no se hizo.",
+        "had to": "\"had to told\" no es correcto, y had to expresa una obligación real, no un reproche.",
+        "should": "Para el pasado hace falta have + participio: should have told."
+      },
+      "examples": [
+        "I should have studied more.",
+        "We shouldn't have eaten so late."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-neednt-have-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "neednt-have",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "We ___ taken so much food to the picnic; half of it came back home.",
+    "options": [
+      "needn't have",
+      "didn't need to",
+      "mustn't have",
+      "shouldn't"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "needn't have + participio: hiciste algo que, como luego se vio, no era necesario.",
+      "wrong": {
+        "didn't need to": "Después de didn't need to va el infinitivo (take), no el participio (taken).",
+        "mustn't have": "mustn't expresa prohibición; \"mustn't have taken\" no indica que algo fuera innecesario.",
+        "shouldn't": "Para el pasado falta have: shouldn't have taken. Y shouldn't (sin have) no puede ir con taken."
+      },
+      "examples": [
+        "You needn't have waited for me.",
+        "I needn't have worried; the exam was easy."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-neednt-have-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "neednt-have",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Compare: 'I didn't need to buy milk.' / 'I needn't have bought milk.' Which statement is true?",
+    "options": [
+      "Las dos significan siempre que no compraste leche.",
+      "La primera indica que compraste leche y la segunda que no.",
+      "La segunda indica que estaba prohibido comprar leche.",
+      "La segunda indica que compraste leche aunque no hacía falta."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "didn't need to + infinitivo: no era necesario (normalmente no se hizo). needn't have + participio: se hizo, pero no era necesario.",
+      "wrong": {
+        "Las dos significan siempre que no compraste leche.": "\"needn't have bought\" indica que sí la compraste, aunque no era necesario.",
+        "La primera indica que compraste leche y la segunda que no.": "Es al revés. La segunda deja claro que la compraste. La primera solo dice que no era necesario (normalmente no la compraste).",
+        "La segunda indica que estaba prohibido comprar leche.": "needn't expresa falta de necesidad, no prohibición (para eso se usa mustn't)."
+      },
+      "examples": [
+        "I didn't need to go to work, so I stayed in bed.",
+        "I needn't have gone to work; the office was closed."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-inversion-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "inversion",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "Never ___ such a beautiful sunset.",
+    "options": [
+      "I have seen",
+      "I saw",
+      "have I seen",
+      "saw I"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Never/Rarely/Seldom al principio de la frase: auxiliar + sujeto + verbo (estilo enfático o formal).",
+      "wrong": {
+        "I have seen": "Cuando una frase empieza con un adverbio negativo como Never, se invierte el orden: auxiliar + sujeto.",
+        "I saw": "Falta la inversión. Además, Never + pasado simple no encaja con una experiencia de toda la vida.",
+        "saw I": "Los verbos normales no se invierten. Se invierte el auxiliar: have I seen."
+      },
+      "examples": [
+        "Never have I felt so tired.",
+        "Rarely do we eat out these days."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-inversion-002",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "inversion",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "Not only ___ late, but he also forgot the tickets.",
+    "options": [
+      "he was",
+      "was he",
+      "he did be",
+      "did he was"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Not only + auxiliar/be + sujeto..., but (also)... se usa para dar énfasis.",
+      "wrong": {
+        "he was": "Con Not only al principio de la frase se invierte el orden: was he.",
+        "he did be": "be no usa el auxiliar do. Se invierte el propio verbo: was he.",
+        "did he was": "Con be no se usa did. Lo correcto es was he."
+      },
+      "examples": [
+        "Not only did she win, but she also broke the record.",
+        "Not only is it cheap, but it's also healthy."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-inversion-003",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "inversion",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "Hardly had we sat down ___ the fire alarm went off.",
+    "options": [
+      "when",
+      "than",
+      "that",
+      "then"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Hardly/Scarcely + had + sujeto + participio... when + pasado simple: apenas había pasado algo cuando ocurrió otra cosa.",
+      "wrong": {
+        "than": "than va con No sooner (No sooner had we... than). Con Hardly se usa when.",
+        "that": "Hardly... that no es la estructura correcta. Se dice Hardly... when.",
+        "then": "\"then\" significa luego y no puede unir las dos partes de esta estructura."
+      },
+      "examples": [
+        "Hardly had I closed my eyes when the phone rang.",
+        "Scarcely had the film started when the lights came on."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-inversion-004",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "inversion",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "No sooner ___ the house than it started to rain.",
+    "options": [
+      "I had left",
+      "had I leave",
+      "have I left",
+      "had I left"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "No sooner + had + sujeto + participio... than + pasado simple: en cuanto pasó algo, ocurrió otra cosa.",
+      "wrong": {
+        "I had left": "Con No sooner al principio de la frase hace falta inversión: had I left.",
+        "had I leave": "Después de had va el participio (left), no el infinitivo.",
+        "have I left": "El presente perfecto no encaja con una secuencia de hechos pasados (\"it started\"). Se usa had."
+      },
+      "examples": [
+        "No sooner had she arrived than the meeting began.",
+        "No sooner had we paid than we saw a cheaper offer."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-participle-clauses-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "participle-clauses",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "___ the report, she sent it to her manager.",
+    "options": [
+      "Finished",
+      "Being finished",
+      "Having finished",
+      "After finish"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Having + participio indica una acción activa terminada antes de la acción principal; el sujeto es el mismo.",
+      "wrong": {
+        "Finished": "El participio pasado solo tiene sentido pasivo (\"terminado\"), y aquí ella es quien termina el informe.",
+        "Being finished": "Es pasivo: diría que ella fue terminada. Se necesita una forma activa y anterior: Having finished.",
+        "After finish": "Después de una preposición como after va -ing: After finishing."
+      },
+      "examples": [
+        "Having lost his keys, he had to call a locksmith.",
+        "Having seen the film, I didn't want to see it again."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-participle-clauses-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "participle-clauses",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "Building in 1890, the bridge is still in use today.",
+      "Built in 1890, the bridge is still in use today.",
+      "Having built in 1890, the bridge is still in use today.",
+      "Been built in 1890, the bridge is still in use today."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Una oración con participio pasado (built, written...) tiene sentido pasivo y se refiere al sujeto de la oración principal.",
+      "wrong": {
+        "Building in 1890, the bridge is still in use today.": "-ing tiene sentido activo, como si el puente construyera algo. El puente fue construido: Built.",
+        "Having built in 1890, the bridge is still in use today.": "Having built es activo: diría que el puente construyó algo. Se necesita el sentido pasivo.",
+        "Been built in 1890, the bridge is still in use today.": "\"Been\" no puede empezar una oración de participio sin having. Basta con Built."
+      },
+      "examples": [
+        "Written in 1949, the novel is still popular.",
+        "Made by hand, these shoes last for years."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-participle-clauses-003",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "participle-clauses",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "While walking home, I saw an accident.",
+      "While walking home, an accident happened in front of me.",
+      "While walk home, I saw an accident.",
+      "While walked home, I saw an accident."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "En una oración con participio, el sujeto implícito tiene que ser el mismo que el de la oración principal.",
+      "wrong": {
+        "While walking home, an accident happened in front of me.": "El sujeto implícito de \"walking\" debe ser el de la oración principal. Así parece que el accidente iba caminando.",
+        "While walk home, I saw an accident.": "Después de while, en una oración reducida, va -ing: while walking.",
+        "While walked home, I saw an accident.": "\"walked\" sin sujeto no es correcto aquí. Se dice while walking o while I was walking."
+      },
+      "examples": [
+        "While waiting for the bus, she read a book.",
+        "Feeling tired, he went to bed early."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-future-continuous-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "future-continuous",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Don't call me at 9 tonight; I ___ dinner with my in-laws.",
+    "options": [
+      "will have had",
+      "have",
+      "would have",
+      "will be having"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "El futuro continuo (will be + -ing) expresa una acción que estará en progreso en un momento del futuro.",
+      "wrong": {
+        "will have had": "El futuro perfecto indica que a las 9 la cena ya habrá terminado, pero quieres decir que estarás en medio de ella.",
+        "have": "El presente simple no expresa una acción en progreso en un momento concreto del futuro.",
+        "would have": "would es condicional; aquí se habla de un plan real para esta noche."
+      },
+      "examples": [
+        "This time tomorrow, I'll be flying to Lima.",
+        "At 8 tonight, they'll be watching the match."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-future-perfect-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "future-perfect",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "By the end of this year, I ___ in this company for a decade.",
+    "options": [
+      "will work",
+      "will be working",
+      "will have worked",
+      "have worked"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "El futuro perfecto (will have + participio) expresa algo que estará completado o acumulado antes de un momento del futuro.",
+      "wrong": {
+        "will work": "\"by the end of\" + una duración exige mirar hacia atrás desde ese momento futuro: futuro perfecto.",
+        "will be working": "El futuro continuo describe una acción en progreso, pero no expresa la duración acumulada hasta una fecha.",
+        "have worked": "El presente perfecto mide hasta ahora, no hasta un momento del futuro (\"by the end of this year\")."
+      },
+      "examples": [
+        "By June, she will have finished her degree.",
+        "By 2030, they will have been married for 20 years."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-would-rather-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "would-rather",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "I'd rather you ___ smoke in the car, if you don't mind.",
+    "options": [
+      "don't",
+      "didn't",
+      "won't",
+      "haven't"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "would rather + sujeto distinto + pasado simple expresa una preferencia sobre lo que hace otra persona.",
+      "wrong": {
+        "don't": "Con would rather + otra persona, el verbo va en pasado aunque se hable del presente: I'd rather you didn't.",
+        "won't": "will no va después de would rather + sujeto. Se usa el pasado: didn't.",
+        "haven't": "El presente perfecto no encaja. Con would rather + otra persona se usa el pasado simple."
+      },
+      "examples": [
+        "I'd rather you came tomorrow.",
+        "She'd rather we didn't tell anyone."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-had-better-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "had-better",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "You'd better ___ an umbrella; it looks like rain.",
+    "options": [
+      "take",
+      "to take",
+      "taking",
+      "took"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "had better ('d better) + infinitivo sin to: es un consejo fuerte o una advertencia.",
+      "wrong": {
+        "to take": "had better va seguido del infinitivo sin to.",
+        "taking": "Después de had better no va -ing.",
+        "took": "Aunque had parece pasado, had better va con infinitivo sin to y se refiere al presente o futuro."
+      },
+      "examples": [
+        "You'd better hurry or you'll miss the train.",
+        "We'd better not be late."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-its-time-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "its-time",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "It's high time we ___ a new car; this one breaks down every week.",
+    "options": [
+      "buy",
+      "will buy",
+      "have bought",
+      "bought"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "It's (high/about) time + sujeto + pasado simple: algo debería estar ocurriendo ya.",
+      "wrong": {
+        "buy": "Con It's (high) time + sujeto, el verbo va en pasado aunque se hable del presente.",
+        "will buy": "will no va después de It's time + sujeto. Se usa el pasado simple.",
+        "have bought": "El presente perfecto no encaja; la estructura pide el pasado simple: bought."
+      },
+      "examples": [
+        "It's time you went to bed.",
+        "It's about time they fixed this road."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-connectors-001",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "connectors",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "___ the heavy traffic, we arrived on time.",
+    "options": [
+      "Although",
+      "In spite",
+      "Despite",
+      "However"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "despite / in spite of + sustantivo o -ing; although / even though + oración.",
+      "wrong": {
+        "Although": "although va seguido de una oración con sujeto y verbo (Although the traffic was heavy), no de un sustantivo.",
+        "In spite": "Falta of: In spite of the heavy traffic.",
+        "However": "however une dos oraciones y no puede ir directamente delante de un sustantivo."
+      },
+      "examples": [
+        "Despite feeling ill, she went to work.",
+        "In spite of the rain, we had a great time."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-connectors-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "connectors",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "My sister loves spicy food, ___ I can't stand it.",
+    "options": [
+      "despite",
+      "whereas",
+      "however",
+      "in spite of"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "whereas une dos oraciones que contrastan dos personas o cosas.",
+      "wrong": {
+        "despite": "despite va seguido de un sustantivo o de -ing, no de una oración completa.",
+        "however": "however no une oraciones con una simple coma; haría falta punto o punto y coma: food; however, I...",
+        "in spite of": "in spite of va seguido de un sustantivo o de -ing, no de una oración."
+      },
+      "examples": [
+        "He's very tall, whereas his brother is quite short.",
+        "Some people prefer tea, whereas others love coffee."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-non-defining-relatives-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "non-defining-relatives",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "My brother, ___ lives in Canada, is coming to visit next month.",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "whom"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Las relativas explicativas van entre comas y usan who (personas) o which (cosas), nunca that.",
+      "wrong": {
+        "that": "En las oraciones de relativo explicativas (entre comas) no se usa that.",
+        "which": "which se usa para cosas, y aquí se habla de una persona.",
+        "whom": "whom es de objeto (o va tras preposición). Aquí el relativo es el sujeto de \"lives\"."
+      },
+      "examples": [
+        "Madrid, which is the capital of Spain, is very lively.",
+        "My teacher, who is from Ireland, speaks four languages."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-non-defining-relatives-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "non-defining-relatives",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "He failed the exam, that surprised everyone.",
+      "He failed the exam, what surprised everyone.",
+      "He failed the exam, it surprised everyone.",
+      "He failed the exam, which surprised everyone."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "which (tras coma) puede referirse a toda la oración anterior, como el español \"lo que / lo cual\".",
+      "wrong": {
+        "He failed the exam, that surprised everyone.": "that no puede introducir una relativa explicativa ni referirse a una oración entera.",
+        "He failed the exam, what surprised everyone.": "Es un calco de \"lo que\". Para referirse a toda la oración anterior se usa which.",
+        "He failed the exam, it surprised everyone.": "Son dos oraciones unidas solo con una coma, y en inglés eso es incorrecto."
+      },
+      "examples": [
+        "She didn't call, which was strange.",
+        "The train was late, which meant I missed my flight."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-cleft-sentences-001",
+    "mode": "fill",
+    "level": "B2",
+    "topic": "cleft-sentences",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "___ I need right now is a long holiday.",
+    "options": [
+      "That",
+      "Which",
+      "What",
+      "The thing what"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Oración escindida: What + sujeto + verbo + is/was + elemento destacado (\"Lo que necesito es...\").",
+      "wrong": {
+        "That": "That no puede abrir esta estructura. Para decir \"lo que\" se usa What.",
+        "Which": "Which necesita un antecedente; no puede significar \"lo que\" al principio de la frase.",
+        "The thing what": "Se dice The thing (that) I need; what no va detrás de un sustantivo."
+      },
+      "examples": [
+        "What I love about this city is the food.",
+        "What we need is more time."
+      ]
+    }
+  },
+  {
+    "id": "gram-b2-cleft-sentences-002",
+    "mode": "quiz",
+    "level": "B2",
+    "topic": "cleft-sentences",
+    "tags": [
+      "grammar",
+      "b2-plus"
+    ],
+    "prompt": "Which sentence emphasises that it was Maria, not someone else, who called the police?",
+    "options": [
+      "It was Maria which called the police.",
+      "It was Maria who called the police.",
+      "Was Maria who called the police.",
+      "It were Maria who called the police."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "It is/was + elemento destacado + who/that... sirve para dar énfasis a una parte de la frase.",
+      "wrong": {
+        "It was Maria which called the police.": "which es para cosas. Con una persona se usa who o that.",
+        "Was Maria who called the police.": "En español decimos \"Fue María quien...\" sin sujeto, pero en inglés hace falta It.",
+        "It were Maria who called the police.": "Con It el verbo es singular: It was."
+      },
+      "examples": [
+        "It was in Rome that they met.",
+        "It's my brother who needs help, not me."
+      ]
+    }
+  }
+]

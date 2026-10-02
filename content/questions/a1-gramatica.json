@@ -1,0 +1,2109 @@
+[
+  {
+    "id": "gram-a1-verb-to-be-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "verb-to-be",
+    "tags": [
+      "grammar",
+      "affirmative"
+    ],
+    "prompt": "I ___ from Mexico, and my sister lives in Peru.",
+    "options": [
+      "be",
+      "is",
+      "am",
+      "are"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con el pronombre I, el verbo to be es siempre am (I am / I'm).",
+      "wrong": {
+        "is": "\"is\" es para he/she/it; con I se usa am.",
+        "are": "\"are\" es para you/we/they; con I se usa am.",
+        "be": "\"be\" es el infinitivo; en presente hay que conjugarlo: I am."
+      },
+      "examples": [
+        "I am a student.",
+        "I'm from Colombia."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-verb-to-be-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "verb-to-be",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "They ___ at home now. They are at the office.",
+    "options": [
+      "isn't",
+      "don't",
+      "not",
+      "aren't"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "La negativa de to be se forma con be + not: they aren't (are not).",
+      "wrong": {
+        "isn't": "\"isn't\" es para he/she/it; con they se usa aren't.",
+        "don't": "\"don't\" es el auxiliar de otros verbos; con to be no se usa do: they aren't, no 'they don't at home'.",
+        "not": "Falta el verbo: en español decimos 'no están', pero en inglés necesitas are + not."
+      },
+      "examples": [
+        "We aren't hungry.",
+        "They're not at school today."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-verb-to-be-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "verb-to-be",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "___ your brother a doctor?",
+    "options": [
+      "Does",
+      "Is",
+      "Do",
+      "Are"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Las preguntas con to be se forman invirtiendo: Is + sujeto + ...?",
+      "wrong": {
+        "Does": "Con el verbo to be no se usa does; se pone is delante del sujeto.",
+        "Are": "\"Are\" es para you/we/they; 'your brother' es singular (he), así que va Is.",
+        "Do": "Con to be no se usa do, y además 'your brother' es tercera persona singular."
+      },
+      "examples": [
+        "Is she your teacher?",
+        "Is it cold today?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-verb-to-be-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "verb-to-be",
+    "tags": [
+      "grammar",
+      "spanish-interference"
+    ],
+    "prompt": "We ___ hungry. Let's have lunch!",
+    "options": [
+      "is",
+      "has",
+      "are",
+      "have"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "En inglés el hambre, la sed, el frío o el calor se expresan con to be: I'm hungry, I'm cold.",
+      "wrong": {
+        "have": "En español decimos 'tenemos hambre', pero en inglés se dice 'we are hungry', no 'we have hungry'.",
+        "has": "\"has\" es la forma de have para he/she/it, y además aquí se necesita to be.",
+        "is": "\"is\" es para he/she/it; con we se usa are."
+      },
+      "examples": [
+        "I'm thirsty.",
+        "Are you cold?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-verb-to-be-005",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "verb-to-be",
+    "tags": [
+      "grammar",
+      "age"
+    ],
+    "prompt": "How old ___ you? — I'm twenty-five.",
+    "options": [
+      "do",
+      "are",
+      "have",
+      "is"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "La edad se dice con to be: How old are you? / I'm 25.",
+      "wrong": {
+        "have": "En español decimos '¿cuántos años tienes?', pero en inglés la edad va con be: How old are you?",
+        "do": "\"do\" no se usa con adjetivos como old; la pregunta lleva el verbo be.",
+        "is": "\"is\" es para he/she/it; con you se usa are."
+      },
+      "examples": [
+        "She is ten years old.",
+        "How old is your dad?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-simple-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "present-simple",
+    "tags": [
+      "grammar",
+      "negative",
+      "third-person"
+    ],
+    "prompt": "My father ___ coffee. He only drinks tea.",
+    "options": [
+      "not drinks",
+      "doesn't drinks",
+      "doesn't drink",
+      "don't drink"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Negativa en presente simple con he/she/it: doesn't + verbo en forma base.",
+      "wrong": {
+        "don't drink": "\"don't\" es para I/you/we/they; con he/she/it (my father) se usa doesn't.",
+        "not drinks": "Falta el auxiliar: en español basta con 'no', pero en inglés se necesita doesn't.",
+        "doesn't drinks": "Después de doesn't el verbo va sin -s: doesn't drink, no 'doesn't drinks'."
+      },
+      "examples": [
+        "She doesn't like fish.",
+        "He doesn't work on Sundays."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-simple-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "present-simple",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "___ you work on Saturdays? — No, I don't.",
+    "options": [
+      "Are",
+      "Is",
+      "Does",
+      "Do"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Preguntas en presente simple con I/you/we/they: Do + sujeto + verbo base.",
+      "wrong": {
+        "Are": "\"Are\" es del verbo be; con un verbo como work la pregunta se hace con do.",
+        "Does": "\"Does\" es para he/she/it; con you se usa do.",
+        "Is": "\"Is\" es del verbo be y para he/she/it; aquí hace falta do."
+      },
+      "examples": [
+        "Do you like pizza?",
+        "Do they live near here?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-simple-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "present-simple",
+    "tags": [
+      "grammar",
+      "questions",
+      "third-person"
+    ],
+    "prompt": "Where ___ your sister live?",
+    "options": [
+      "lives",
+      "does",
+      "is",
+      "do"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Preguntas en presente simple con he/she/it: Wh- + does + sujeto + verbo base.",
+      "wrong": {
+        "do": "\"do\" es para I/you/we/they; 'your sister' es she, así que va does.",
+        "is": "\"is\" es del verbo be; con live (y verbo en forma base) se necesita does.",
+        "lives": "La -s pasa al auxiliar: does your sister live, no 'lives your sister live'."
+      },
+      "examples": [
+        "What does he do?",
+        "Where does your friend work?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-simple-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "present-simple",
+    "tags": [
+      "grammar",
+      "third-person",
+      "spelling"
+    ],
+    "prompt": "Tom ___ his teeth every morning.",
+    "options": [
+      "brush",
+      "brushs",
+      "brushes",
+      "brushing"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con he/she/it los verbos que terminan en -sh, -ch, -s, -x, -o añaden -es: brushes, watches, goes.",
+      "wrong": {
+        "brush": "\"brush\" es para I/you/we/they; con Tom (he) necesita -es.",
+        "brushs": "Los verbos acabados en -sh añaden -es, no solo -s: brushes.",
+        "brushing": "\"brushing\" necesita is antes (is brushing) y describe algo en progreso, no una rutina."
+      },
+      "examples": [
+        "She watches TV at night.",
+        "He fixes computers."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-simple-005",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "present-simple",
+    "tags": [
+      "grammar",
+      "third-person",
+      "spelling"
+    ],
+    "prompt": "My baby brother ___ a lot at night.",
+    "options": [
+      "crys",
+      "crying",
+      "cry",
+      "cries"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Si el verbo termina en consonante + y, con he/she/it la y cambia a -ies: cry → cries, study → studies.",
+      "wrong": {
+        "crys": "Después de consonante + y, la y cambia a i y se añade -es: cries.",
+        "cry": "\"cry\" es para I/you/we/they; con 'my baby brother' (he) necesita -ies.",
+        "crying": "\"crying\" necesita is antes y no expresa una costumbre."
+      },
+      "examples": [
+        "She studies English.",
+        "He flies to London every month."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-there-is-there-are-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "there-is-there-are",
+    "tags": [
+      "grammar",
+      "plural"
+    ],
+    "prompt": "There ___ two banks on my street.",
+    "options": [
+      "has",
+      "are",
+      "is",
+      "have"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Para decir 'hay' en inglés: there is + singular, there are + plural.",
+      "wrong": {
+        "is": "\"is\" va con un sustantivo singular; 'two banks' es plural.",
+        "have": "En español decimos 'hay' (del verbo haber), pero en inglés no se usa have: there are.",
+        "has": "\"has\" significa 'tiene'; para 'hay' se usa there is/there are."
+      },
+      "examples": [
+        "There are three bedrooms in the flat.",
+        "There is a park near my house."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-there-is-there-are-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "there-is-there-are",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "___ a supermarket near here? — Yes, there is.",
+    "options": [
+      "Are there",
+      "There is",
+      "Has it",
+      "Is there"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Pregunta con 'hay': Is there + singular? / Are there + plural?",
+      "wrong": {
+        "There is": "\"There is\" es afirmativa; para preguntar se invierte: Is there...?",
+        "Has it": "Es una traducción de '¿tiene un supermercado?'; para 'hay' se usa Is there.",
+        "Are there": "\"Are there\" va con plural; 'a supermarket' es singular."
+      },
+      "examples": [
+        "Is there a bus to the airport?",
+        "Are there any good restaurants here?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-there-is-there-are-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "there-is-there-are",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "There ___ any milk in the fridge. Can you buy some?",
+    "options": [
+      "haven't",
+      "not is",
+      "isn't",
+      "aren't"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Los sustantivos incontables (milk, water, bread) van con there isn't / there is.",
+      "wrong": {
+        "aren't": "\"aren't\" va con plurales; milk es incontable y va en singular.",
+        "not is": "El orden es is + not: there isn't (there is not).",
+        "haven't": "En español 'no hay' viene de haber, pero en inglés se dice there isn't, no 'there haven't'."
+      },
+      "examples": [
+        "There isn't any sugar.",
+        "There isn't a cinema in my town."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-articles-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "articles",
+    "tags": [
+      "grammar",
+      "a-an"
+    ],
+    "prompt": "My mother is ___ engineer. She works for a car company.",
+    "options": [
+      "a",
+      "some",
+      "an",
+      "one"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con profesiones se usa a/an; an delante de sonido vocálico: an engineer, an architect.",
+      "wrong": {
+        "a": "\"engineer\" empieza por sonido vocálico, así que va an, no a.",
+        "one": "\"one\" se usa para contar; para profesiones se usa a/an.",
+        "some": "\"some\" va con plurales o incontables, no con un sustantivo singular contable."
+      },
+      "examples": [
+        "He's an actor.",
+        "She's a nurse."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-articles-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "articles",
+    "tags": [
+      "grammar",
+      "the"
+    ],
+    "prompt": "I have a dog and a cat. ___ dog is black.",
+    "options": [
+      "A",
+      "Some",
+      "An",
+      "The"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Se usa the cuando ya hemos mencionado algo y sabemos de cuál hablamos.",
+      "wrong": {
+        "A": "Ya hemos hablado del perro, así que es específico: the dog.",
+        "An": "\"An\" va delante de sonido vocálico y, además, aquí el perro ya es conocido.",
+        "Some": "\"Some\" va con plurales o incontables; aquí hablamos de un perro concreto."
+      },
+      "examples": [
+        "I bought a book. The book is very good.",
+        "There's a café on the corner. The coffee there is great."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-articles-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "articles",
+    "tags": [
+      "grammar",
+      "the"
+    ],
+    "prompt": "Can you close ___ door, please? It's cold.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "one"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Usamos the cuando quien escucha sabe exactamente a qué nos referimos (la puerta de esta habitación).",
+      "wrong": {
+        "a": "Hablamos de una puerta concreta que los dos conocemos, así que va the.",
+        "an": "\"an\" va delante de sonido vocálico y aquí se trata de una puerta concreta.",
+        "one": "\"one\" se usa para contar; no queremos decir 'una puerta cualquiera'."
+      },
+      "examples": [
+        "Please turn off the light.",
+        "Where is the bathroom?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-articles-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "articles",
+    "tags": [
+      "grammar",
+      "a-an",
+      "pronunciation"
+    ],
+    "prompt": "He's ___ honest man. He never tells lies.",
+    "options": [
+      "an",
+      "one",
+      "a",
+      "the"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Se elige a/an por el sonido, no por la letra: en honest la h no se pronuncia, así que va an.",
+      "wrong": {
+        "a": "Aunque empieza por h, honest suena /ˈɒnɪst/ (empieza por sonido vocálico), así que va an.",
+        "the": "\"the\" indica un hombre concreto ya conocido; aquí solo lo describimos.",
+        "one": "\"one\" se usa para contar, no para describir a una persona."
+      },
+      "examples": [
+        "It takes an hour.",
+        "She's a happy girl."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-plurals-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "plurals",
+    "tags": [
+      "grammar",
+      "irregular"
+    ],
+    "prompt": "I have two ___: a boy and a girl.",
+    "options": [
+      "child",
+      "children",
+      "childs",
+      "childrens"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Child tiene plural irregular: children.",
+      "wrong": {
+        "childs": "\"child\" no forma el plural con -s; es irregular: children.",
+        "childrens": "\"children\" ya es plural; no se le añade -s.",
+        "child": "\"child\" es singular y aquí hay dos."
+      },
+      "examples": [
+        "The children are in the park.",
+        "She has three children."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-plurals-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "plurals",
+    "tags": [
+      "grammar",
+      "irregular"
+    ],
+    "prompt": "My ___ hurt after the long walk.",
+    "options": [
+      "foot",
+      "feet",
+      "feets",
+      "foots"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Foot tiene plural irregular: feet (como tooth → teeth).",
+      "wrong": {
+        "foots": "\"foot\" no forma el plural con -s: feet.",
+        "feets": "\"feet\" ya es plural; no lleva -s.",
+        "foot": "El verbo hurt sin -s indica plural; además caminamos con los dos pies: feet."
+      },
+      "examples": [
+        "My feet are cold.",
+        "Brush your teeth."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-plurals-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "plurals",
+    "tags": [
+      "grammar",
+      "spelling"
+    ],
+    "prompt": "We need five ___ for the salad.",
+    "options": [
+      "tomatoe",
+      "tomatos",
+      "tomato",
+      "tomatoes"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Algunos sustantivos que terminan en -o añaden -es en plural: tomatoes, potatoes.",
+      "wrong": {
+        "tomatos": "Tomato añade -es en plural: tomatoes.",
+        "tomato": "Con five hace falta el plural.",
+        "tomatoe": "\"tomatoe\" no existe; el singular es tomato y el plural tomatoes."
+      },
+      "examples": [
+        "I like potatoes.",
+        "These tomatoes are very red."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-plurals-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "plurals",
+    "tags": [
+      "grammar",
+      "irregular"
+    ],
+    "prompt": "What is the plural of 'woman'?",
+    "options": [
+      "women",
+      "womens",
+      "womans",
+      "woman's"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Woman tiene plural irregular: women (igual que man → men).",
+      "wrong": {
+        "womans": "\"woman\" no forma el plural con -s: women.",
+        "womens": "\"women\" ya es plural; no lleva -s.",
+        "woman's": "\"woman's\" es el posesivo (de la mujer), no el plural."
+      },
+      "examples": [
+        "Two women are talking.",
+        "There are ten men in the team."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-plurals-005",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "plurals",
+    "tags": [
+      "grammar",
+      "spelling"
+    ],
+    "prompt": "Two ___ stop near my house every ten minutes.",
+    "options": [
+      "bus",
+      "buses",
+      "bus's",
+      "buss"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Los sustantivos que terminan en -s, -sh, -ch, -x añaden -es en plural: buses, boxes, watches.",
+      "wrong": {
+        "bus": "Con two hace falta el plural: buses.",
+        "buss": "Las palabras acabadas en -s añaden -es, no otra s: buses.",
+        "bus's": "\"bus's\" es el posesivo (del autobús), no el plural."
+      },
+      "examples": [
+        "I have two boxes.",
+        "These watches are expensive."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-possessive-adjectives-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "possessive-adjectives",
+    "tags": [
+      "grammar",
+      "his-her"
+    ],
+    "prompt": "This is my brother. ___ name is Luis.",
+    "options": [
+      "He",
+      "Her",
+      "Its",
+      "His"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "El posesivo concuerda con el poseedor: his (de él), her (de ella), its (de una cosa o animal).",
+      "wrong": {
+        "Her": "En español 'su' sirve para todos, pero en inglés her es 'de ella'; el dueño es my brother (él).",
+        "Its": "\"Its\" es para cosas o animales; para un hombre se usa his.",
+        "He": "\"He\" es pronombre sujeto (él); delante de un sustantivo hace falta el posesivo his."
+      },
+      "examples": [
+        "Her name is Ana.",
+        "His car is blue."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-possessive-adjectives-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "possessive-adjectives",
+    "tags": [
+      "grammar",
+      "their"
+    ],
+    "prompt": "Maria and Ana live here. That is ___ car.",
+    "options": [
+      "they",
+      "their",
+      "there",
+      "her"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Their es el posesivo de they (su/sus de ellos o ellas).",
+      "wrong": {
+        "her": "\"her\" es de una sola mujer; aquí son dos personas (Maria and Ana).",
+        "they": "\"they\" es pronombre sujeto; delante de un sustantivo se usa their.",
+        "there": "\"there\" suena igual pero significa 'allí'; no es posesivo."
+      },
+      "examples": [
+        "Their house is very big.",
+        "The students have their books."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-possessive-adjectives-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "possessive-adjectives",
+    "tags": [
+      "grammar",
+      "its"
+    ],
+    "prompt": "Our school is big. ___ library has 5,000 books.",
+    "options": [
+      "His",
+      "Its",
+      "It's",
+      "Their"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Its (sin apóstrofo) es el posesivo de it; it's significa it is.",
+      "wrong": {
+        "It's": "\"It's\" significa it is; 'It is library has...' no tiene sentido.",
+        "His": "\"His\" es para un hombre; una escuela es it, así que va its.",
+        "Their": "\"Their\" es para plural; 'our school' es singular."
+      },
+      "examples": [
+        "The cat is eating its food.",
+        "This city is famous for its beaches."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-possessive-adjectives-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "possessive-adjectives",
+    "tags": [
+      "grammar",
+      "our"
+    ],
+    "prompt": "We love ___ new teacher. She's very funny.",
+    "options": [
+      "ours",
+      "us",
+      "we",
+      "our"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Our es el posesivo de we y va delante de un sustantivo: our teacher.",
+      "wrong": {
+        "us": "\"us\" es pronombre objeto (nos/nosotros) y no va delante de un sustantivo.",
+        "we": "\"we\" es pronombre sujeto; delante de un sustantivo hace falta our.",
+        "ours": "\"ours\" (el nuestro) va solo, sin sustantivo detrás: the teacher is ours."
+      },
+      "examples": [
+        "Our flat is small.",
+        "This is our dog."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-subject-object-pronouns-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "subject-object-pronouns",
+    "tags": [
+      "grammar",
+      "object"
+    ],
+    "prompt": "I don't know Sara. Can you introduce me to ___?",
+    "options": [
+      "her",
+      "she",
+      "his",
+      "hers"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Después de un verbo o una preposición (to, with, for) se usa el pronombre objeto: me, you, him, her, it, us, them.",
+      "wrong": {
+        "she": "\"she\" es sujeto; después de la preposición to se usa her.",
+        "hers": "\"hers\" significa 'el suyo/la suya' (de ella), no 'ella' como objeto.",
+        "his": "\"his\" es 'de él'; Sara es mujer y aquí se necesita el pronombre objeto her."
+      },
+      "examples": [
+        "I talk to her every day.",
+        "Can you help me?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-subject-object-pronouns-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "subject-object-pronouns",
+    "tags": [
+      "grammar",
+      "subject"
+    ],
+    "prompt": "Paul and I play tennis. ___ play every Sunday.",
+    "options": [
+      "We",
+      "Us",
+      "They",
+      "Our"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El sujeto de la frase va con pronombre sujeto: I, you, he, she, it, we, they. 'Paul and I' = we.",
+      "wrong": {
+        "Us": "\"Us\" es pronombre objeto; como sujeto de play se usa we.",
+        "They": "\"They\" excluye a quien habla; 'Paul and I' incluye al hablante, así que es we.",
+        "Our": "\"Our\" es posesivo y necesita un sustantivo detrás (our team)."
+      },
+      "examples": [
+        "We are friends.",
+        "My sister and I live together. We share a flat."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-subject-object-pronouns-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "subject-object-pronouns",
+    "tags": [
+      "grammar",
+      "object"
+    ],
+    "prompt": "Call ___ tonight, please. Here is my number.",
+    "options": [
+      "my",
+      "I",
+      "mine",
+      "me"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Después de un verbo como call, el pronombre va en forma objeto: call me, call him.",
+      "wrong": {
+        "I": "\"I\" solo se usa como sujeto; después del verbo call va me.",
+        "my": "\"my\" es posesivo y necesita un sustantivo detrás (my phone).",
+        "mine": "\"mine\" significa 'el mío/la mía'; aquí se necesita me (a mí)."
+      },
+      "examples": [
+        "Tell me your name.",
+        "Please email me the photos."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-subject-object-pronouns-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "subject-object-pronouns",
+    "tags": [
+      "grammar",
+      "object"
+    ],
+    "prompt": "Where is Peter? I can't see ___.",
+    "options": [
+      "he",
+      "him",
+      "his",
+      "it"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "El pronombre objeto de he es him: I can see him.",
+      "wrong": {
+        "he": "\"he\" es sujeto; como objeto del verbo see se usa him.",
+        "his": "\"his\" es posesivo (de él) y necesita un sustantivo detrás.",
+        "it": "\"it\" es para cosas o animales; Peter es una persona: him."
+      },
+      "examples": [
+        "I know him.",
+        "Do you like them?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-demonstratives-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "demonstratives",
+    "tags": [
+      "grammar",
+      "these"
+    ],
+    "prompt": "Look at ___ shoes on my feet! They're new.",
+    "options": [
+      "those",
+      "this",
+      "that",
+      "these"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "This/these = cerca (singular/plural); that/those = lejos (singular/plural).",
+      "wrong": {
+        "this": "\"this\" es singular; shoes es plural.",
+        "that": "\"that\" es singular y para algo lejano; los zapatos son plural y están cerca.",
+        "those": "\"those\" es para cosas lejanas; los zapatos están en mis pies (cerca): these."
+      },
+      "examples": [
+        "These apples are sweet.",
+        "This bag is mine."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-demonstratives-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "demonstratives",
+    "tags": [
+      "grammar",
+      "that"
+    ],
+    "prompt": "Who is ___ man over there, next to the door?",
+    "options": [
+      "that",
+      "these",
+      "this",
+      "those"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "That se usa para una persona o cosa singular que está lejos (over there).",
+      "wrong": {
+        "this": "\"this\" es para algo cercano; 'over there' indica distancia: that.",
+        "these": "\"these\" es plural y cercano; man es singular y está lejos.",
+        "those": "\"those\" es plural; man es singular."
+      },
+      "examples": [
+        "That car over there is mine.",
+        "Is that your house?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-demonstratives-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "demonstratives",
+    "tags": [
+      "grammar",
+      "those"
+    ],
+    "prompt": "Can you see ___ birds at the top of that tall tree?",
+    "options": [
+      "that",
+      "these",
+      "those",
+      "this"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Those se usa para cosas o personas en plural que están lejos.",
+      "wrong": {
+        "these": "\"these\" es para cosas cercanas; los pájaros están lejos, en lo alto del árbol.",
+        "this": "\"this\" es singular y cercano; birds es plural.",
+        "that": "\"that\" es singular; birds es plural."
+      },
+      "examples": [
+        "Those mountains are beautiful.",
+        "Who are those people?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-demonstratives-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "demonstratives",
+    "tags": [
+      "grammar",
+      "introductions"
+    ],
+    "prompt": "___ is my friend Sam. Sam, this is my sister Laura.",
+    "options": [
+      "These",
+      "It",
+      "This",
+      "Those"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Para presentar a una persona se usa This is...: This is my friend Sam.",
+      "wrong": {
+        "These": "\"These\" es plural; presentamos a una sola persona.",
+        "Those": "\"Those\" es plural y lejano; aquí presentamos a una persona que está con nosotros.",
+        "It": "\"It\" es para cosas; para presentar a alguien decimos This is..."
+      },
+      "examples": [
+        "This is my brother, Tom.",
+        "Mum, this is my teacher."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-can-cant-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "can-cant",
+    "tags": [
+      "grammar",
+      "ability"
+    ],
+    "prompt": "My grandmother is 80, but she ___ swim very well.",
+    "options": [
+      "cans",
+      "can to",
+      "can",
+      "is can"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Can es igual para todas las personas y va seguido del verbo sin to: she can swim.",
+      "wrong": {
+        "cans": "Can nunca lleva -s, ni siquiera con he/she/it.",
+        "can to": "Después de can el verbo va sin to: can swim.",
+        "is can": "Can no necesita el verbo be: she can, no 'she is can'."
+      },
+      "examples": [
+        "He can play the piano.",
+        "I can speak two languages."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-can-cant-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "can-cant",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "I ___ come to your party. I'm working that night. Sorry!",
+    "options": [
+      "can",
+      "not can",
+      "can't",
+      "don't can"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "La negativa de can es can't (cannot); no usa do.",
+      "wrong": {
+        "can": "\"can\" es afirmativo; la frase dice que no puedo porque trabajo.",
+        "don't can": "Can no usa el auxiliar do: se dice can't, no 'don't can'.",
+        "not can": "En español decimos 'no puedo', pero en inglés el not va detrás: can't / cannot."
+      },
+      "examples": [
+        "She can't drive.",
+        "We can't find our keys."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-can-cant-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "can-cant",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "___ you speak German? — Yes, a little.",
+    "options": [
+      "Can",
+      "Does",
+      "Are",
+      "Do can"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Para preguntar con can se invierte: Can + sujeto + verbo base?",
+      "wrong": {
+        "Are": "\"Are\" es del verbo be; 'Are you speak' no es correcto.",
+        "Does": "\"Does\" es para he/she/it, y con you se usaría do, no does.",
+        "Do can": "Can no necesita do: se dice Can you...?, no 'Do can you...?'."
+      },
+      "examples": [
+        "Can you swim?",
+        "Can he cook?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-prepositions-of-time-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "prepositions-of-time",
+    "tags": [
+      "grammar",
+      "in"
+    ],
+    "prompt": "My birthday is ___ May.",
+    "options": [
+      "at",
+      "on",
+      "the",
+      "in"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con meses, años y estaciones se usa in: in May, in 2020, in summer.",
+      "wrong": {
+        "on": "\"on\" se usa con días y fechas (on Monday, on 5th May), no con un mes solo.",
+        "at": "\"at\" se usa con horas (at 6 o'clock), no con meses.",
+        "the": "\"the\" es un artículo, no una preposición; con meses va in."
+      },
+      "examples": [
+        "We go on holiday in August.",
+        "She was born in 1998."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-prepositions-of-time-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "prepositions-of-time",
+    "tags": [
+      "grammar",
+      "at"
+    ],
+    "prompt": "The class starts ___ 9 o'clock.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Con horas se usa at: at 9 o'clock, at half past six.",
+      "wrong": {
+        "in": "\"in\" se usa con meses, años y partes del día (in the morning), no con horas.",
+        "on": "\"on\" se usa con días y fechas, no con horas.",
+        "to": "En español decimos 'a las 9', pero en inglés no se usa to: at 9 o'clock."
+      },
+      "examples": [
+        "I get up at seven.",
+        "The shop closes at 8 p.m."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-prepositions-of-time-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "prepositions-of-time",
+    "tags": [
+      "grammar",
+      "on"
+    ],
+    "prompt": "We don't go to school ___ Saturdays.",
+    "options": [
+      "on",
+      "at",
+      "the",
+      "in"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Con días de la semana y fechas se usa on: on Monday, on Saturdays, on 1st June.",
+      "wrong": {
+        "in": "\"in\" se usa con meses y años; con días va on.",
+        "at": "\"at\" se usa con horas; con días va on.",
+        "the": "En español decimos 'los sábados', pero en inglés se usa on: on Saturdays."
+      },
+      "examples": [
+        "See you on Friday.",
+        "I play football on Sundays."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-prepositions-of-time-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "prepositions-of-time",
+    "tags": [
+      "grammar",
+      "at"
+    ],
+    "prompt": "I usually read ___ night before I go to sleep.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "for"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Se dice at night, pero in the morning / in the afternoon / in the evening.",
+      "wrong": {
+        "in": "Con night sin artículo se usa at: at night (in the night no es la forma habitual aquí).",
+        "on": "\"on\" se usa con días; con night va at.",
+        "for": "En español decimos 'por la noche', pero en inglés no es for: at night."
+      },
+      "examples": [
+        "I work at night.",
+        "She studies in the morning."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-prepositions-of-place-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "prepositions-of-place",
+    "tags": [
+      "grammar",
+      "on"
+    ],
+    "prompt": "The keys are ___ the table, next to the lamp.",
+    "options": [
+      "at",
+      "into",
+      "on",
+      "in"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "On se usa para algo que está sobre una superficie: on the table, on the wall, on the floor.",
+      "wrong": {
+        "in": "En español decimos 'en la mesa', pero in significa 'dentro de'; sobre una superficie se usa on.",
+        "into": "\"into\" indica movimiento hacia dentro; aquí las llaves están quietas sobre la mesa.",
+        "at": "\"at\" indica un punto o lugar general, no 'encima de' una superficie."
+      },
+      "examples": [
+        "Your phone is on the sofa.",
+        "There's a picture on the wall."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-prepositions-of-place-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "prepositions-of-place",
+    "tags": [
+      "grammar",
+      "between"
+    ],
+    "prompt": "The bank is ___ the café and the bookshop.",
+    "options": [
+      "in",
+      "next",
+      "between",
+      "among"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Between significa 'entre' dos cosas o personas: between A and B.",
+      "wrong": {
+        "among": "\"among\" se usa para 'entre' muchas cosas, no entre dos con and.",
+        "next": "\"next\" necesita to (next to = al lado de) y no expresa 'entre A y B'.",
+        "in": "\"in\" significa 'dentro de'; no sirve para 'entre A y B'."
+      },
+      "examples": [
+        "Sit between Anna and me.",
+        "The pharmacy is between the bank and the school."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-prepositions-of-place-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "prepositions-of-place",
+    "tags": [
+      "grammar",
+      "next-to"
+    ],
+    "prompt": "The bus stop is ___ to the school.",
+    "options": [
+      "in front",
+      "between",
+      "next",
+      "behind"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Next to significa 'al lado de'.",
+      "wrong": {
+        "behind": "\"behind\" (detrás de) no lleva to: behind the school.",
+        "in front": "Se dice in front of (delante de), no 'in front to'.",
+        "between": "\"between\" va con dos cosas (between A and B), no con to."
+      },
+      "examples": [
+        "The cat is next to the window.",
+        "I sit next to Maria in class."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-continuous-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "present-continuous",
+    "tags": [
+      "grammar",
+      "now"
+    ],
+    "prompt": "Be quiet! The baby ___.",
+    "options": [
+      "is sleeping",
+      "sleeping",
+      "are sleeping",
+      "sleeps"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El presente continuo (am/is/are + -ing) describe algo que pasa ahora mismo.",
+      "wrong": {
+        "sleeps": "\"sleeps\" es presente simple (costumbre); 'Be quiet!' indica que está pasando ahora.",
+        "sleeping": "Falta el verbo be: the baby is sleeping.",
+        "are sleeping": "\"are\" es para plural; 'the baby' es singular: is."
+      },
+      "examples": [
+        "She is talking on the phone.",
+        "They're playing in the garden."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-continuous-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "present-continuous",
+    "tags": [
+      "grammar",
+      "now"
+    ],
+    "prompt": "Look! It ___ outside. Take an umbrella.",
+    "options": [
+      "raining",
+      "rains",
+      "rain",
+      "is raining"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con Look! o now, para algo que está pasando en este momento, se usa am/is/are + -ing.",
+      "wrong": {
+        "rains": "\"rains\" es presente simple (en general); 'Look!' indica que llueve ahora mismo.",
+        "raining": "Falta el verbo be: it is raining.",
+        "rain": "\"rain\" en forma base no concuerda con it ni expresa algo en progreso."
+      },
+      "examples": [
+        "Look! The bus is coming.",
+        "It's snowing in the mountains now."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-continuous-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "present-continuous",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "What ___ you doing right now? — I'm cooking.",
+    "options": [
+      "are",
+      "do",
+      "does",
+      "is"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Preguntas en presente continuo: (Wh-) + am/is/are + sujeto + -ing.",
+      "wrong": {
+        "do": "\"do\" es para el presente simple; con doing (ahora mismo) se necesita are.",
+        "is": "\"is\" es para he/she/it; con you se usa are.",
+        "does": "\"does\" es del presente simple y para he/she/it."
+      },
+      "examples": [
+        "What is she reading?",
+        "Are they watching TV?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-present-continuous-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "present-continuous",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "I ___ TV now. I'm doing my homework.",
+    "options": [
+      "am not watch",
+      "am not watching",
+      "not watching",
+      "don't watch"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Negativa del presente continuo: am/is/are + not + verbo -ing.",
+      "wrong": {
+        "don't watch": "\"don't watch\" es presente simple (en general); 'now' pide presente continuo.",
+        "not watching": "Falta el verbo be: I am not watching.",
+        "am not watch": "En presente continuo el verbo necesita -ing: watching."
+      },
+      "examples": [
+        "She isn't working today.",
+        "We aren't listening."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-imperatives-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "imperatives",
+    "tags": [
+      "grammar",
+      "affirmative"
+    ],
+    "prompt": "___ the window, please. It's very hot in here.",
+    "options": [
+      "Open",
+      "Opens",
+      "Opening",
+      "To open"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El imperativo usa el verbo en forma base, sin sujeto: Open the door. Sit down.",
+      "wrong": {
+        "Opens": "El imperativo no lleva -s: Open.",
+        "Opening": "La forma -ing no se usa para dar órdenes o pedir algo.",
+        "To open": "El imperativo no lleva to: Open the window."
+      },
+      "examples": [
+        "Close the door, please.",
+        "Turn left at the bank."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-imperatives-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "imperatives",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "___ late for the exam tomorrow!",
+    "options": [
+      "Don't be",
+      "No be",
+      "Not be",
+      "Don't"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El imperativo negativo se forma con Don't + verbo base, también con be: Don't be late.",
+      "wrong": {
+        "Not be": "Falta el auxiliar: el imperativo negativo empieza por Don't.",
+        "No be": "En español decimos 'no llegues tarde', pero en inglés no se usa no: Don't be.",
+        "Don't": "Falta el verbo be: Don't be late."
+      },
+      "examples": [
+        "Don't be sad.",
+        "Don't be afraid."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-imperatives-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "imperatives",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "___ touch that plate! It's very hot.",
+    "options": [
+      "Doesn't",
+      "No",
+      "Not",
+      "Don't"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Para prohibir o advertir se usa Don't + verbo base.",
+      "wrong": {
+        "Not": "\"Not\" solo no forma el imperativo negativo; hace falta Don't.",
+        "No": "En español decimos 'no toques', pero en inglés se dice Don't touch, no 'No touch'.",
+        "Doesn't": "El imperativo no tiene sujeto y siempre usa don't, nunca doesn't."
+      },
+      "examples": [
+        "Don't run in the corridor.",
+        "Don't forget your keys."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-have-got-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "have-got",
+    "tags": [
+      "grammar",
+      "third-person"
+    ],
+    "prompt": "She ___ two brothers and a sister.",
+    "options": [
+      "have got",
+      "is got",
+      "got has",
+      "has got"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Have got expresa posesión o familia; con he/she/it es has got.",
+      "wrong": {
+        "have got": "\"have got\" es para I/you/we/they; con she se usa has got.",
+        "is got": "Have got no se forma con be: has got.",
+        "got has": "El orden es has + got: she has got."
+      },
+      "examples": [
+        "He has got a new phone.",
+        "I've got two cousins."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-have-got-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "have-got",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "___ you got a pen? — Yes, here you are.",
+    "options": [
+      "Has",
+      "Have",
+      "Are",
+      "Do"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En preguntas con have got se invierte have: Have you got...? / Has she got...?",
+      "wrong": {
+        "Do": "Con have got no se usa do: Have you got...?",
+        "Has": "\"Has\" es para he/she/it; con you se usa have.",
+        "Are": "\"Are\" es del verbo be; have got se pregunta con have."
+      },
+      "examples": [
+        "Have they got a car?",
+        "Has he got any pets?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-have-got-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "have-got",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "We ___ a car. We go everywhere by bike.",
+    "options": [
+      "don't got",
+      "not have got",
+      "hasn't got",
+      "haven't got"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Negativa de have got: haven't got (I/you/we/they) / hasn't got (he/she/it).",
+      "wrong": {
+        "hasn't got": "\"hasn't got\" es para he/she/it; con we se usa haven't got.",
+        "don't got": "Con have got no se usa don't; se dice haven't got.",
+        "not have got": "El not va después de have: haven't got (have not got)."
+      },
+      "examples": [
+        "I haven't got time.",
+        "She hasn't got a brother."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-possessive-s-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "possessive-s",
+    "tags": [
+      "grammar",
+      "singular"
+    ],
+    "prompt": "That's ___ car. He bought it last year.",
+    "options": [
+      "my fathers'",
+      "my father",
+      "of my father",
+      "my father's"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Para indicar posesión de personas se usa 's: my father's car (el coche de mi padre).",
+      "wrong": {
+        "my fathers'": "\"fathers'\" es el posesivo plural (de varios padres); 'He' indica uno solo.",
+        "my father": "Sin 's no hay posesión: falta el apóstrofo y la s.",
+        "of my father": "En español decimos 'el coche de mi padre', pero en inglés no se dice 'car of my father': my father's car."
+      },
+      "examples": [
+        "This is Anna's bag.",
+        "My brother's name is Leo."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-possessive-s-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "possessive-s",
+    "tags": [
+      "grammar",
+      "translation"
+    ],
+    "prompt": "How do you say 'la habitación de mi hermana' in English?",
+    "options": [
+      "my sisters room",
+      "my sister room",
+      "the room of my sister",
+      "my sister's room"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con personas, la posesión se expresa con 's: my sister's room.",
+      "wrong": {
+        "the room of my sister": "Es una traducción literal del español; en inglés, con personas, lo natural es my sister's room.",
+        "my sisters room": "Falta el apóstrofo: sin él, sisters es solo un plural.",
+        "my sister room": "Falta 's para indicar que la habitación es de mi hermana."
+      },
+      "examples": [
+        "My mum's job is interesting.",
+        "Is this Pedro's phone?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-possessive-s-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "possessive-s",
+    "tags": [
+      "grammar",
+      "irregular-plural"
+    ],
+    "prompt": "The ___ toys are all over the living room floor.",
+    "options": [
+      "childrens",
+      "childrens'",
+      "children",
+      "children's"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con plurales irregulares que no terminan en s (children, people, men) se añade 's: the children's toys.",
+      "wrong": {
+        "childrens'": "Children ya es plural y no termina en s, así que el apóstrofo va antes de la s: children's.",
+        "childrens": "\"childrens\" no existe y falta el apóstrofo del posesivo.",
+        "children": "Sin 's no se indica que los juguetes son de los niños."
+      },
+      "examples": [
+        "The women's team won.",
+        "This is the men's bathroom."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-question-words-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "question-words",
+    "tags": [
+      "grammar",
+      "where"
+    ],
+    "prompt": "___ do you live? — In Lima.",
+    "options": [
+      "Where",
+      "Who",
+      "When",
+      "What"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Where pregunta por el lugar (dónde).",
+      "wrong": {
+        "What": "\"What\" pregunta por cosas (qué); la respuesta es un lugar: Where.",
+        "When": "\"When\" pregunta por el tiempo (cuándo); la respuesta es un lugar.",
+        "Who": "\"Who\" pregunta por personas (quién); la respuesta es una ciudad."
+      },
+      "examples": [
+        "Where is the station?",
+        "Where are you from?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-question-words-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "question-words",
+    "tags": [
+      "grammar",
+      "who"
+    ],
+    "prompt": "___ is your English teacher? — Mr Brown.",
+    "options": [
+      "Who",
+      "Where",
+      "When",
+      "How"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Who pregunta por personas (quién).",
+      "wrong": {
+        "Where": "\"Where\" pregunta por el lugar; la respuesta es una persona.",
+        "How": "\"How\" pregunta por el modo o estado (cómo); la respuesta es un nombre.",
+        "When": "\"When\" pregunta por el tiempo; la respuesta es una persona."
+      },
+      "examples": [
+        "Who is that girl?",
+        "Who lives here?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-question-words-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "question-words",
+    "tags": [
+      "grammar",
+      "how-many"
+    ],
+    "prompt": "___ brothers have you got? — Two.",
+    "options": [
+      "How much",
+      "What",
+      "How many",
+      "Which"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "How many se usa con sustantivos contables en plural (cuántos/cuántas).",
+      "wrong": {
+        "How much": "\"How much\" es para incontables (water, money); brothers se puede contar: How many.",
+        "What": "\"What brothers\" pregunta qué hermanos, no cuántos; la respuesta es un número.",
+        "Which": "\"Which\" pregunta cuál entre varios; la respuesta 'Two' indica cantidad."
+      },
+      "examples": [
+        "How many students are there?",
+        "How many cups do you need?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-question-words-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "question-words",
+    "tags": [
+      "grammar",
+      "how-much"
+    ],
+    "prompt": "___ is this T-shirt? — It's 15 euros.",
+    "options": [
+      "How much",
+      "What",
+      "How many",
+      "How"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "How much se usa para preguntar el precio (cuánto cuesta) y con incontables.",
+      "wrong": {
+        "How many": "\"How many\" va con sustantivos contables en plural; para precios se usa How much.",
+        "What": "\"What is this T-shirt?\" pregunta qué es, no cuánto cuesta.",
+        "How": "\"How\" solo pregunta cómo es; para el precio hace falta How much."
+      },
+      "examples": [
+        "How much is the ticket?",
+        "How much water do you drink?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-question-words-005",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "question-words",
+    "tags": [
+      "grammar",
+      "when"
+    ],
+    "prompt": "___ is your birthday? — On 3rd June.",
+    "options": [
+      "Who",
+      "When",
+      "Where",
+      "How"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "When pregunta por el tiempo o la fecha (cuándo).",
+      "wrong": {
+        "Where": "\"Where\" pregunta por el lugar; la respuesta es una fecha.",
+        "Who": "\"Who\" pregunta por personas; la respuesta es una fecha.",
+        "How": "\"How\" pregunta cómo; para una fecha se usa When."
+      },
+      "examples": [
+        "When is the meeting?",
+        "When do you get up?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-some-any-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "some-any",
+    "tags": [
+      "grammar",
+      "affirmative"
+    ],
+    "prompt": "There are ___ eggs in the fridge. Let's make an omelette.",
+    "options": [
+      "a",
+      "much",
+      "some",
+      "any"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "En frases afirmativas se usa some con plurales e incontables.",
+      "wrong": {
+        "any": "\"any\" se usa en negativas y preguntas; esta frase es afirmativa.",
+        "a": "\"a\" va con un sustantivo singular; eggs es plural.",
+        "much": "\"much\" va con incontables (much water); eggs es contable."
+      },
+      "examples": [
+        "I've got some friends in London.",
+        "There is some juice in the glass."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-some-any-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "some-any",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "Have you got ___ brothers or sisters?",
+    "options": [
+      "much",
+      "any",
+      "one",
+      "a"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En preguntas generales se usa any: Have you got any...?",
+      "wrong": {
+        "one": "\"one\" va con singular; brothers or sisters es plural. Para 'algún/alguno' en preguntas se usa any.",
+        "a": "\"a\" va con singular; brothers or sisters es plural.",
+        "much": "\"much\" va con incontables; brothers se puede contar."
+      },
+      "examples": [
+        "Are there any shops near here?",
+        "Do you have any questions?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-some-any-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "some-any",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "We don't have ___ bread. Can you buy some?",
+    "options": [
+      "a",
+      "some",
+      "many",
+      "any"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En frases negativas se usa any: We don't have any bread.",
+      "wrong": {
+        "some": "En negativas se usa any, no some.",
+        "a": "Bread es incontable; no va con a.",
+        "many": "\"many\" va con contables en plural; bread es incontable."
+      },
+      "examples": [
+        "I don't have any money.",
+        "There aren't any chairs."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-adverbs-of-frequency-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "adverbs-of-frequency",
+    "tags": [
+      "grammar",
+      "word-order",
+      "be"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "Is always she late.",
+      "She is always late.",
+      "Always she is late.",
+      "She is late always."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Los adverbios de frecuencia (always, never, usually...) van después del verbo be.",
+      "wrong": {
+        "Always she is late.": "El adverbio no va al principio delante del sujeto en esta frase; va después de is.",
+        "Is always she late.": "Esto no es ni pregunta correcta ni afirmación; el orden es She is always late.",
+        "She is late always.": "\"always\" no va al final de la frase; con be va entre el verbo y el adjetivo: She is always late."
+      },
+      "examples": [
+        "He is never tired.",
+        "They are usually happy."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-adverbs-of-frequency-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "adverbs-of-frequency",
+    "tags": [
+      "grammar",
+      "word-order"
+    ],
+    "prompt": "I ___ coffee in the evening. I can't sleep after it.",
+    "options": [
+      "drink never",
+      "never drink",
+      "am never drink",
+      "never drinks"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Con verbos que no son be, el adverbio de frecuencia va delante del verbo: I never drink.",
+      "wrong": {
+        "drink never": "El adverbio va antes del verbo principal, no detrás: never drink.",
+        "never drinks": "Con I el verbo no lleva -s: I never drink.",
+        "am never drink": "No hace falta be: el presente simple es I never drink."
+      },
+      "examples": [
+        "She usually walks to work.",
+        "We sometimes eat out."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-adverbs-of-frequency-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "adverbs-of-frequency",
+    "tags": [
+      "grammar",
+      "word-order",
+      "be"
+    ],
+    "prompt": "He ___ late for work. He's very organised.",
+    "options": [
+      "is never",
+      "isn't never",
+      "is late never",
+      "never"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Con be, el adverbio de frecuencia va después: He is never late.",
+      "wrong": {
+        "never": "Falta el verbo be delante de late: he is never late.",
+        "is late never": "La frase ya tiene 'late'; además never va entre is y late.",
+        "isn't never": "En inglés no hay doble negación: \"never\" ya es negativo, así que el verbo va en afirmativa (is never). En español decimos \"no llega nunca\", en inglés no."
+      },
+      "examples": [
+        "I'm always hungry at 1 p.m.",
+        "The bus is often full."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-adjective-order-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "adjective-order",
+    "tags": [
+      "grammar",
+      "translation"
+    ],
+    "prompt": "How do you say 'un coche rojo' in English?",
+    "options": [
+      "a reds car",
+      "a red car",
+      "an red car",
+      "a car red"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En inglés el adjetivo va delante del sustantivo: a red car.",
+      "wrong": {
+        "a car red": "En español el adjetivo va detrás (coche rojo), pero en inglés va delante: a red car.",
+        "a reds car": "Los adjetivos en inglés no tienen plural: red, nunca reds.",
+        "an red car": "Red empieza por consonante, así que va a, no an."
+      },
+      "examples": [
+        "She has a big house.",
+        "It's a beautiful day."
+      ]
+    }
+  },
+  {
+    "id": "gram-a1-adjective-order-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "adjective-order",
+    "tags": [
+      "grammar",
+      "plural"
+    ],
+    "prompt": "My sister has got ___ and long hair.",
+    "options": [
+      "eyes blue",
+      "blue eyes",
+      "eyes blues",
+      "blues eyes"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "El adjetivo va delante del sustantivo y no cambia en plural: blue eyes.",
+      "wrong": {
+        "eyes blue": "En español decimos 'ojos azules', pero en inglés el adjetivo va delante: blue eyes.",
+        "blues eyes": "El adjetivo no lleva -s en plural: blue eyes.",
+        "eyes blues": "El orden está invertido y el adjetivo no lleva -s."
+      },
+      "examples": [
+        "He has got short black hair.",
+        "They are good students."
+      ]
+    }
+  }
+]
