@@ -28,7 +28,7 @@ export type GameMode = "rally" | "mezcla" | "quiz" | "fill";
 
 /** Modos de juego del menú principal; los que no tienen `id` aún no se pueden jugar. */
 export const GAME_MODES: { id?: GameMode; name: string; description: string }[] = [
-  { id: "rally", name: "Rally", description: "¿Cuántas seguidas sin fallar? Con ranking" },
+  { id: "rally", name: "Rally", description: "¿Cuántas seguidas sin fallar?" },
   { id: "quiz", name: "Quiz relámpago", description: "Elige la respuesta correcta" },
   { id: "fill", name: "Completa la frase", description: "Encuentra la palabra que falta" },
   { id: "mezcla", name: "Partida mixta", description: "Preguntas de todo tipo" },
