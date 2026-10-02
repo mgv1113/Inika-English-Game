@@ -1,7 +1,9 @@
 import Fastify from "fastify";
 import { z } from "zod";
 import { authRoutes, type AuthOptions } from "./auth/routes.js";
-import { LEVEL_GROUPS, LEVELS, MODES, toPublic, type LevelGroup, type Question } from "./content.js";
+import { rallyRoutes } from "./rally/routes.js";
+import { createMemoryRallyStore, type RallyStore } from "./rally/store.js";
+import { grade, LEVEL_GROUPS, LEVELS, MODES, toPublic, type LevelGroup, type Question } from "./content.js";
 
 export type HealthCheck = () => Promise<boolean>;
 
@@ -9,6 +11,8 @@ export interface AppOptions {
   questions: Question[];
   checks?: Record<string, HealthCheck>;
   auth: AuthOptions;
+  /** Ranking de Rally. Sin él se guarda en memoria. */
+  rally?: RallyStore;
   logger?: boolean;
   /** Número de proxies delante del servidor (para saber la IP real del jugador). */
   trustProxy?: number;
@@ -26,9 +30,10 @@ const answerBody = z.object({
   choice: z.number().int().nonnegative(),
 });
 
-export function buildApp({ questions, checks = {}, auth, logger = false, trustProxy = 0 }: AppOptions) {
+export function buildApp({ questions, checks = {}, auth, rally, logger = false, trustProxy = 0 }: AppOptions) {
   const app = Fastify({ logger, trustProxy: (_address, hop) => hop < trustProxy });
   app.register(authRoutes, auth);
+  app.register(rallyRoutes, { questions, store: rally ?? createMemoryRallyStore(), authStore: auth.store });
   const byId = new Map(questions.map((q) => [q.id, q]));
 
   app.get("/api/health", async () => {
@@ -65,14 +70,7 @@ export function buildApp({ questions, checks = {}, auth, logger = false, trustPr
     if (!q) return reply.code(404).send({ error: "pregunta no encontrada" });
     const { choice } = parsed.data;
     if (choice >= q.options.length) return reply.code(400).send({ error: "opción fuera de rango" });
-    const correct = choice === q.correct;
-    return {
-      correct,
-      correctIndex: q.correct,
-      rule: q.explanation.rule,
-      why: correct ? null : q.explanation.wrong[q.options[choice]],
-      examples: q.explanation.examples,
-    };
+    return grade(q, choice);
   });
 
   return app;

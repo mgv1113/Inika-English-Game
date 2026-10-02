@@ -1,3 +1,4 @@
+import { resolve } from "node:path";
 import pg from "pg";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { buildApp } from "../src/app.js";
@@ -6,7 +7,9 @@ import { hashPassword, verifyPassword } from "../src/auth/password.js";
 import { createPgAuthStore } from "../src/auth/pg-store.js";
 import { OAUTH_COOKIE, SESSION_COOKIE } from "../src/auth/routes.js";
 import type { AuthStore } from "../src/auth/store.js";
+import { loadQuestions } from "../src/content.js";
 import { migrate } from "../src/db/migrate.js";
+import { createMemoryRallyStore, createPgRallyStore, type RallyStore } from "../src/rally/store.js";
 
 // Con TEST_DATABASE_URL (CI la define) las mismas pruebas corren también contra PostgreSQL.
 const databaseUrl = process.env.TEST_DATABASE_URL;
@@ -25,18 +28,21 @@ describe("contraseñas", () => {
   });
 });
 
-const stores: [string, () => Promise<{ store: AuthStore; close: () => Promise<void> }>][] = [
-  ["memoria", async () => ({ store: createMemoryAuthStore(), close: async () => {} })],
+const stores: [string, () => Promise<{ store: AuthStore; rally: RallyStore; close: () => Promise<void> }>][] = [
+  [
+    "memoria",
+    async () => ({ store: createMemoryAuthStore(), rally: createMemoryRallyStore(), close: async () => {} }),
+  ],
 ];
 if (databaseUrl) {
   stores.push([
     "PostgreSQL",
     async () => {
       const pool = new pg.Pool({ connectionString: databaseUrl });
-      await pool.query("drop table if exists sessions, auth_identities, users, schema_migrations cascade");
-      expect(await migrate(pool)).toEqual([1]);
+      await pool.query("drop table if exists rally_scores, sessions, auth_identities, users, schema_migrations cascade");
+      expect(await migrate(pool)).toEqual([1, 2]);
       expect(await migrate(pool)).toEqual([]);
-      return { store: createPgAuthStore(pool), close: () => pool.end() };
+      return { store: createPgAuthStore(pool), rally: createPgRallyStore(pool), close: () => pool.end() };
     },
   ]);
 }
@@ -399,5 +405,85 @@ describe("límite de intentos", () => {
     expect(codes).toEqual([401, 401, 401, 429]);
     expect(last.error).toMatch(/Demasiados intentos/);
     await app.close();
+  });
+});
+
+describe.each(stores)("Rally (%s)", (_name, setup) => {
+  const questions = loadQuestions(resolve(__dirname, "../../../content/questions"));
+  const byId = new Map(questions.map((q) => [q.id, q]));
+  let close: () => Promise<void>;
+  let app: ReturnType<typeof buildApp>;
+
+  beforeAll(async () => {
+    const s = await setup();
+    close = s.close;
+    app = buildApp({ questions, rally: s.rally, auth: { store: s.store, secureCookies: true, attemptsPerMinute: 1000 } });
+  });
+  afterAll(async () => {
+    await app.close();
+    await close();
+  });
+
+  const cookiesOf = (token?: string) => (token ? { [SESSION_COOKIE]: token } : {});
+  const start = (group: string, token?: string) =>
+    app.inject({ method: "POST", url: "/api/rally/start", payload: { group }, cookies: cookiesOf(token) });
+  const answer = (rallyId: string, choice: number) =>
+    app.inject({ method: "POST", url: "/api/rally/answer", payload: { rallyId, choice } });
+
+  /** Contesta bien `streak` preguntas y falla la siguiente. Devuelve la última respuesta. */
+  async function play(group: string, streak: number, token?: string) {
+    const started = (await start(group, token)).json();
+    expect(started.question).not.toHaveProperty("correct");
+    let question = started.question;
+    const seen = new Set([question.id]);
+    for (let i = 0; i < streak; i++) {
+      const q = byId.get(question.id)!;
+      expect(["A1", "A2"]).toContain(q.level);
+      const res = (await answer(started.rallyId, q.correct)).json();
+      expect(res).toMatchObject({ correct: true, score: i + 1, over: false });
+      expect(seen.has(res.next.id), "no repite preguntas").toBe(false);
+      seen.add(res.next.id);
+      question = res.next;
+    }
+    const q = byId.get(question.id)!;
+    const last = (await answer(started.rallyId, q.correct === 0 ? 1 : 0)).json();
+    expect(last).toMatchObject({ correct: false, score: streak, over: true, correctIndex: q.correct });
+    expect((await answer(started.rallyId, 0)).statusCode).toBe(404);
+    return last;
+  }
+
+  it("sin cuenta se juega pero no entra al ranking", async () => {
+    expect((await play("basico", 2)).best).toBeNull();
+    expect((await app.inject({ method: "GET", url: "/api/rally/ranking?group=basico" })).json()).toEqual([]);
+  });
+
+  it("guarda la mejor racha de cada jugador en el ranking de su grupo", async () => {
+    const signUp = async (email: string, displayName: string) => {
+      const res = await app.inject({
+        method: "POST",
+        url: "/api/auth/register",
+        payload: { email, password: "secreta-123", displayName },
+      });
+      return res.cookies.find((c) => c.name === SESSION_COOKIE)!.value;
+    };
+    const ana = await signUp("ana.rally@example.com", "Ana");
+    const luis = await signUp("luis.rally@example.com", "Luis");
+
+    expect((await play("basico", 3, ana)).best).toBe(3);
+    expect((await play("basico", 1, ana)).best).toBe(3);
+    expect((await play("basico", 5, luis)).best).toBe(5);
+    expect((await play("basico", 0, luis)).best).toBeNull();
+
+    const ranking = await app.inject({ method: "GET", url: "/api/rally/ranking?group=basico" });
+    expect(ranking.json()).toEqual([
+      { displayName: "Luis", score: 5 },
+      { displayName: "Ana", score: 3 },
+    ]);
+    expect((await app.inject({ method: "GET", url: "/api/rally/ranking?group=avanzado" })).json()).toEqual([]);
+  });
+
+  it("rechaza grupos desconocidos", async () => {
+    expect((await start("experto")).statusCode).toBe(400);
+    expect((await app.inject({ method: "GET", url: "/api/rally/ranking?group=experto" })).statusCode).toBe(400);
   });
 });

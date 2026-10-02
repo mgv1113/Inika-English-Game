@@ -62,6 +62,18 @@ export function loadQuestions(dir: string): Question[] {
   return questions;
 }
 
+/** Resultado de contestar `choice`, con la explicación en español. */
+export function grade(q: Question, choice: number) {
+  const correct = choice === q.correct;
+  return {
+    correct,
+    correctIndex: q.correct,
+    rule: q.explanation.rule,
+    why: correct ? null : (q.explanation.wrong[q.options[choice]] ?? null),
+    examples: q.explanation.examples,
+  };
+}
+
 export function toPublic({ correct: _c, explanation: _e, ...rest }: Question): PublicQuestion {
   return rest;
 }

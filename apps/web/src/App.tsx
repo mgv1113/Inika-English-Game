@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { AccountCard } from "./Account";
 import { AuthForm } from "./Auth";
+import { QuestionCard } from "./QuestionCard";
+import { Rally } from "./Rally";
 import {
   deleteAccount,
   fetchLevelCounts,
@@ -21,6 +23,7 @@ import {
 type State =
   | { phase: "modes" }
   | { phase: "choose" }
+  | { phase: "rally" }
   | { phase: "loading" }
   | { phase: "error"; message: string }
   | { phase: "playing"; questions: PublicQuestion[]; index: number; score: number; result?: { choice: number; answer: AnswerResult } }
@@ -45,6 +48,10 @@ export function App() {
 
   const start = (chosen: LevelGroup = group) => {
     setGroup(chosen);
+    if (mode === "rally") {
+      setState({ phase: "rally" });
+      return;
+    }
     setState({ phase: "loading" });
     fetchQuestions(mode, chosen, 5)
       .then((questions) => setState({ phase: "playing", questions, index: 0, score: 0 }))
@@ -179,6 +186,19 @@ export function App() {
           <button onClick={() => start()}>Reintentar</button>
         </section>
       )}
+      {state.phase === "rally" && (
+        // Sigue montado mientras se abre "Entrar", para no perder el resultado del Rally.
+        <div hidden={showAuth}>
+          <Rally
+            group={group}
+            groupName={LEVEL_GROUPS.find((g) => g.id === group)!.name}
+            signedIn={!!user}
+            onSignIn={() => setShowAuth(true)}
+            onChangeLevel={() => setState({ phase: "choose" })}
+            onChangeMode={() => setState({ phase: "modes" })}
+          />
+        </div>
+      )}
       {!showAuth && state.phase === "playing" && <Round state={state} setState={setState} />}
       {!showAuth && state.phase === "done" && (
         <section className="card center">
@@ -212,10 +232,8 @@ function Round({
   setState: (s: State) => void;
 }) {
   const q = state.questions[state.index];
-  const result = state.result;
 
   const choose = async (choice: number) => {
-    if (result) return;
     const answer = await sendAnswer(q.id, choice);
     setState({ ...state, score: state.score + (answer.correct ? 1 : 0), result: { choice, answer } });
   };
@@ -229,41 +247,5 @@ function Round({
     }
   };
 
-  return (
-    <section className="card">
-      <p className="muted">
-        {q.level} · {q.mode === "fill" ? "Completa la frase" : "Quiz relámpago"}
-      </p>
-      <h2 className="prompt">{q.prompt}</h2>
-      <div className="options">
-        {q.options.map((option, i) => {
-          let cls = "option";
-          if (result) {
-            if (i === result.answer.correctIndex) cls += " right";
-            else if (i === result.choice) cls += " wrong";
-          }
-          return (
-            <button key={option} className={cls} onClick={() => choose(i)} disabled={!!result}>
-              {option}
-            </button>
-          );
-        })}
-      </div>
-      {result && (
-        <div className={`explanation ${result.answer.correct ? "ok" : "ko"}`}>
-          <strong>{result.answer.correct ? "¡Correcto!" : "Casi…"}</strong>
-          {result.answer.why && <p>{result.answer.why}</p>}
-          <p>
-            <em>Regla:</em> {result.answer.rule}
-          </p>
-          <ul>
-            {result.answer.examples.map((ex) => (
-              <li key={ex}>{ex}</li>
-            ))}
-          </ul>
-          <button onClick={next}>Siguiente</button>
-        </div>
-      )}
-    </section>
-  );
+  return <QuestionCard q={q} result={state.result} onChoose={choose} onNext={next} />;
 }

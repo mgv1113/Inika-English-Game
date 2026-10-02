@@ -89,3 +89,7 @@ footer a { color: var(--muted); }
 .mode { flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; }
 .levels + .actions { margin-top: 12px; }
 .actions { display: grid; gap: 8px; justify-items: center; }
+.ranking { text-align: left; margin: 8px 0 20px; padding-left: 28px; }
+.ranking li { padding: 6px 0; border-bottom: 1px solid var(--border); }
+.ranking li span { display: inline-block; width: calc(100% - 3em); }
+.ranking li strong { color: var(--accent); }
