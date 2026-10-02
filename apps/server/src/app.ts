@@ -38,6 +38,15 @@ export function buildApp({ questions, checks = {}, auth, logger = false, trustPr
     return { status: "ok", questions: questions.length, ...results };
   });
 
+  // Cuántas preguntas tiene cada grupo; la pantalla desactiva los que no tienen ninguna.
+  const groupCounts = Object.fromEntries(
+    Object.entries(LEVEL_GROUPS).map(([group, levels]) => [
+      group,
+      questions.filter((q) => (levels as readonly string[]).includes(q.level)).length,
+    ]),
+  );
+  app.get("/api/levels", async () => groupCounts);
+
   app.get("/api/questions/sample", async (req, reply) => {
     const parsed = sampleQuery.safeParse(req.query);
     if (!parsed.success) return reply.code(400).send({ error: parsed.error.issues });
