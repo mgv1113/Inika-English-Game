@@ -1,9 +1,11 @@
 import Fastify from "fastify";
 import { z } from "zod";
 import { authRoutes, type AuthOptions } from "./auth/routes.js";
+import { gameRoutes } from "./games/routes.js";
+import { createMemoryGameScoreStore, type GameScoreStore } from "./games/store.js";
 import { rallyRoutes } from "./rally/routes.js";
 import { createMemoryRallyStore, type RallyStore } from "./rally/store.js";
-import { grade, LEVEL_GROUPS, LEVELS, MODES, toPublic, type LevelGroup, type Question } from "./content.js";
+import { grade, LEVEL_GROUPS, LEVELS, MAX_QUESTIONS, MODES, pickQuestions, toPublic, type LevelGroup, type Question } from "./content.js";
 
 export type HealthCheck = () => Promise<boolean>;
 
@@ -13,13 +15,12 @@ export interface AppOptions {
   auth: AuthOptions;
   /** Ranking de Rally. Sin él se guarda en memoria. */
   rally?: RallyStore;
+  /** Ranking de Quiz relámpago, Completa la frase y Partida mixta. Sin él se guarda en memoria. */
+  games?: GameScoreStore;
   logger?: boolean;
   /** Número de proxies delante del servidor (para saber la IP real del jugador). */
   trustProxy?: number;
 }
-
-/** Máximo de preguntas por partida (Quiz relámpago deja elegir la cantidad). */
-export const MAX_QUESTIONS = 100;
 
 const sampleQuery = z.object({
   count: z.coerce.number().int().min(1).max(MAX_QUESTIONS).default(5),
@@ -33,10 +34,11 @@ const answerBody = z.object({
   choice: z.number().int().nonnegative(),
 });
 
-export function buildApp({ questions, checks = {}, auth, rally, logger = false, trustProxy = 0 }: AppOptions) {
+export function buildApp({ questions, checks = {}, auth, rally, games, logger = false, trustProxy = 0 }: AppOptions) {
   const app = Fastify({ logger, trustProxy: (_address, hop) => hop < trustProxy });
   app.register(authRoutes, auth);
   app.register(rallyRoutes, { questions, store: rally ?? createMemoryRallyStore(), authStore: auth.store });
+  app.register(gameRoutes, { questions, store: games ?? createMemoryGameScoreStore(), authStore: auth.store });
   const byId = new Map(questions.map((q) => [q.id, q]));
 
   app.get("/api/health", async () => {
@@ -60,10 +62,7 @@ export function buildApp({ questions, checks = {}, auth, rally, logger = false, 
     const parsed = sampleQuery.safeParse(req.query);
     if (!parsed.success) return reply.code(400).send({ error: parsed.error.issues });
     const { count, level, group, mode } = parsed.data;
-    const levels: readonly string[] | undefined = level ? [level] : group && LEVEL_GROUPS[group];
-    const pool = questions.filter((q) => (!levels || levels.includes(q.level)) && (!mode || q.mode === mode));
-    const picked = [...pool].sort(() => Math.random() - 0.5).slice(0, count);
-    return picked.map(toPublic);
+    return pickQuestions(questions, { count, level, group, mode }).map(toPublic);
   });
 
   app.post("/api/answers", async (req, reply) => {

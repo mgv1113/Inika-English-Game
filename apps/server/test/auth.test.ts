@@ -9,6 +9,7 @@ import { OAUTH_COOKIE, SESSION_COOKIE } from "../src/auth/routes.js";
 import type { AuthStore } from "../src/auth/store.js";
 import { loadQuestions } from "../src/content.js";
 import { migrate } from "../src/db/migrate.js";
+import { createMemoryGameScoreStore, createPgGameScoreStore, type GameScoreStore } from "../src/games/store.js";
 import { createMemoryRallyStore, createPgRallyStore, type RallyStore } from "../src/rally/store.js";
 
 // Con TEST_DATABASE_URL (CI la define) las mismas pruebas corren también contra PostgreSQL.
@@ -28,10 +29,15 @@ describe("contraseñas", () => {
   });
 });
 
-const stores: [string, () => Promise<{ store: AuthStore; rally: RallyStore; close: () => Promise<void> }>][] = [
+const stores: [string, () => Promise<{ store: AuthStore; rally: RallyStore; games: GameScoreStore; close: () => Promise<void> }>][] = [
   [
     "memoria",
-    async () => ({ store: createMemoryAuthStore(), rally: createMemoryRallyStore(), close: async () => {} }),
+    async () => ({
+      store: createMemoryAuthStore(),
+      rally: createMemoryRallyStore(),
+      games: createMemoryGameScoreStore(),
+      close: async () => {},
+    }),
   ],
 ];
 if (databaseUrl) {
@@ -39,10 +45,12 @@ if (databaseUrl) {
     "PostgreSQL",
     async () => {
       const pool = new pg.Pool({ connectionString: databaseUrl });
-      await pool.query("drop table if exists rally_scores, sessions, auth_identities, users, schema_migrations cascade");
-      expect(await migrate(pool)).toEqual([1, 2]);
+      await pool.query("drop table if exists game_scores, rally_scores, sessions, auth_identities, users, schema_migrations cascade");
+      expect(await migrate(pool)).toEqual([1, 2, 3]);
       expect(await migrate(pool)).toEqual([]);
-      return { store: createPgAuthStore(pool), rally: createPgRallyStore(pool), close: () => pool.end() };
+      return { store: createPgAuthStore(pool), rally: createPgRallyStore(pool),
+        games: createPgGameScoreStore(pool),
+        close: () => pool.end() };
     },
   ]);
 }
@@ -485,5 +493,102 @@ describe.each(stores)("Rally (%s)", (_name, setup) => {
   it("rechaza grupos desconocidos", async () => {
     expect((await start("experto")).statusCode).toBe(400);
     expect((await app.inject({ method: "GET", url: "/api/rally/ranking?group=experto" })).statusCode).toBe(400);
+  });
+});
+
+describe.each(stores)("ranking de partidas (%s)", (_name, setup) => {
+  const questions = loadQuestions(resolve(__dirname, "../../../content/questions"));
+  const byId = new Map(questions.map((q) => [q.id, q]));
+  let close: () => Promise<void>;
+  let app: ReturnType<typeof buildApp>;
+
+  beforeAll(async () => {
+    const s = await setup();
+    close = s.close;
+    app = buildApp({
+      questions,
+      games: s.games,
+      rally: s.rally,
+      auth: { store: s.store, secureCookies: true, attemptsPerMinute: 1000 },
+    });
+  });
+  afterAll(async () => {
+    await app.close();
+    await close();
+  });
+
+  const ranking = async (mode: string, group: string) =>
+    (await app.inject({ method: "GET", url: `/api/games/ranking?mode=${mode}&group=${group}` })).json();
+
+  /** Juega una partida y acierta solo las `right` primeras. Devuelve la última respuesta. */
+  async function play(mode: string, count: number, right: number, token?: string) {
+    const res = await app.inject({
+      method: "POST",
+      url: "/api/games/start",
+      payload: { mode, group: "basico", count },
+      cookies: token ? { [SESSION_COOKIE]: token } : {},
+    });
+    const { gameId, questions: picked } = res.json();
+    expect(picked).toHaveLength(count);
+    let last;
+    for (const [i, pub] of picked.entries()) {
+      expect(pub).not.toHaveProperty("correct");
+      const q = byId.get(pub.id)!;
+      expect(["A1", "A2"]).toContain(q.level);
+      if (mode !== "mezcla") expect(q.mode).toBe(mode);
+      const choice = i < right ? q.correct : q.correct === 0 ? 1 : 0;
+      const answer = (await app.inject({ method: "POST", url: "/api/games/answer", payload: { gameId, questionId: q.id, choice } })).json();
+      expect(answer).toMatchObject({ correct: i < right, score: Math.min(i + 1, right), over: i === count - 1 });
+      last = answer;
+    }
+    const again = await app.inject({ method: "POST", url: "/api/games/answer", payload: { gameId, questionId: picked[0].id, choice: 0 } });
+    expect(again.statusCode).toBe(404);
+    return last;
+  }
+
+  it("sin cuenta se juega pero no entra al ranking", async () => {
+    expect((await play("quiz", 3, 3)).best).toBeNull();
+    expect(await ranking("quiz", "basico")).toEqual([]);
+  });
+
+  it("no deja contestar dos veces la misma pregunta", async () => {
+    const { gameId, questions: picked } = (
+      await app.inject({ method: "POST", url: "/api/games/start", payload: { mode: "fill", group: "basico", count: 2 } })
+    ).json();
+    const answer = () => app.inject({ method: "POST", url: "/api/games/answer", payload: { gameId, questionId: picked[0].id, choice: 0 } });
+    expect((await answer()).statusCode).toBe(200);
+    expect((await answer()).statusCode).toBe(409);
+  });
+
+  it("guarda la mejor partida por modo y nivel, por porcentaje de aciertos", async () => {
+    const signUp = async (email: string, displayName: string) => {
+      const res = await app.inject({ method: "POST", url: "/api/auth/register", payload: { email, password: "secreta-123", displayName } });
+      return res.cookies.find((c) => c.name === SESSION_COOKIE)!.value;
+    };
+    const ana = await signUp("ana.partidas@example.com", "Ana");
+    const luis = await signUp("luis.partidas@example.com", "Luis");
+
+    expect((await play("quiz", 4, 3, ana)).best).toEqual({ correct: 3, total: 4 });
+    expect((await play("quiz", 2, 2, ana)).best).toEqual({ correct: 2, total: 2 });
+    expect((await play("quiz", 4, 3, ana)).best).toEqual({ correct: 2, total: 2 });
+    expect((await play("quiz", 5, 5, luis)).best).toEqual({ correct: 5, total: 5 });
+    expect((await play("fill", 3, 1, luis)).best).toEqual({ correct: 1, total: 3 });
+    expect((await play("mezcla", 5, 0, luis)).best).toBeNull();
+
+    expect(await ranking("quiz", "basico")).toEqual([
+      { displayName: "Luis", correct: 5, total: 5 },
+      { displayName: "Ana", correct: 2, total: 2 },
+    ]);
+    expect(await ranking("fill", "basico")).toEqual([{ displayName: "Luis", correct: 1, total: 3 }]);
+    expect(await ranking("mezcla", "basico")).toEqual([]);
+    expect(await ranking("quiz", "avanzado")).toEqual([]);
+  });
+
+  it("rechaza modos, grupos y cantidades no válidos", async () => {
+    const start = (payload: object) => app.inject({ method: "POST", url: "/api/games/start", payload });
+    expect((await start({ mode: "rally", group: "basico" })).statusCode).toBe(400);
+    expect((await start({ mode: "quiz", group: "experto" })).statusCode).toBe(400);
+    expect((await start({ mode: "quiz", group: "basico", count: 101 })).statusCode).toBe(400);
+    expect((await app.inject({ method: "GET", url: "/api/games/ranking?mode=quiz&group=experto" })).statusCode).toBe(400);
   });
 });

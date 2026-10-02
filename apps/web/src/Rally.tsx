@@ -8,6 +8,7 @@ import {
   type RallyAnswer,
 } from "./api";
 import { QuestionCard } from "./QuestionCard";
+import { Ranking } from "./Ranking";
 
 type State =
   | { phase: "loading" }
@@ -104,19 +105,10 @@ export function Rally({
         </p>
       )}
       {signedIn && state.best === null && <p className="muted">Tu próxima racha contará para el ranking.</p>}
-      <h3>Ranking · {groupName}</h3>
-      {ranking === null && <p className="muted">Cargando…</p>}
-      {ranking?.length === 0 && <p className="muted">Todavía nadie aparece. ¡Sé el primero!</p>}
-      {!!ranking?.length && (
-        <ol className="ranking">
-          {ranking.map((r, i) => (
-            <li key={i}>
-              <span>{r.displayName}</span>
-              <strong>{r.score}</strong>
-            </li>
-          ))}
-        </ol>
-      )}
+      <Ranking
+        title={`Ranking · ${groupName}`}
+        entries={ranking && ranking.map((r) => ({ displayName: r.displayName, value: String(r.score) }))}
+      />
       <div className="actions">
         <button onClick={begin}>Jugar otra vez</button>
         <button className="link" onClick={onChangeLevel}>

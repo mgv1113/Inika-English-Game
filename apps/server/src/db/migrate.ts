@@ -54,6 +54,23 @@ export const MIGRATIONS: { version: number; name: string; sql: string }[] = [
       create index rally_scores_ranking on rally_scores (level_group, best_score desc, achieved_at);
     `,
   },
+  {
+    version: 3,
+    name: "ranking-partidas",
+    sql: `
+      -- Mejor partida de cada jugador por modo (quiz, fill, mezcla) y grupo de niveles.
+      create table game_scores (
+        user_id uuid not null references users (id) on delete cascade,
+        mode text not null,
+        level_group text not null,
+        correct int not null check (correct > 0),
+        total int not null check (total >= correct),
+        achieved_at timestamptz not null default now(),
+        primary key (user_id, mode, level_group)
+      );
+      create index game_scores_ranking on game_scores (mode, level_group);
+    `,
+  },
 ];
 
 const LOCK_ID = 7_310_001;

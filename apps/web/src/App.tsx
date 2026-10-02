@@ -3,17 +3,20 @@ import { AccountCard } from "./Account";
 import { AuthForm } from "./Auth";
 import { QuestionCard } from "./QuestionCard";
 import { Rally } from "./Rally";
+import { formatResult, Ranking } from "./Ranking";
 import {
   deleteAccount,
   fetchLevelCounts,
   fetchMe,
-  fetchQuestions,
+  answerGame,
+  fetchGameRanking,
   GAME_MODES,
   LEVEL_GROUPS,
   logout,
-  sendAnswer,
+  startGame,
   takeAuthResult,
-  type AnswerResult,
+  type GameAnswer,
+  type GameResult,
   type GameMode,
   type LevelGroup,
   type PublicQuestion,
@@ -27,8 +30,15 @@ type State =
   | { phase: "rally" }
   | { phase: "loading" }
   | { phase: "error"; message: string }
-  | { phase: "playing"; questions: PublicQuestion[]; index: number; score: number; result?: { choice: number; answer: AnswerResult } }
-  | { phase: "done"; score: number; total: number };
+  | {
+      phase: "playing";
+      gameId: string;
+      questions: PublicQuestion[];
+      index: number;
+      score: number;
+      result?: { choice: number; answer: GameAnswer };
+    }
+  | { phase: "done"; score: number; total: number; best: GameResult | null };
 
 /** Máximo que acepta la API en una partida. */
 const MAX_QUESTIONS = 100;
@@ -53,7 +63,16 @@ export function App() {
   const [showAuth, setShowAuth] = useState(!!oauthError);
   const [showAccount, setShowAccount] = useState(!!accountNotice);
 
+  const [ranking, setRanking] = useState<(GameResult & { displayName: string })[] | null>(null);
+
   const modeName = GAME_MODES.find((m) => m.id === mode)?.name;
+  const groupName = LEVEL_GROUPS.find((g) => g.id === group)?.name;
+
+  const finish = (done: Extract<State, { phase: "done" }>) => {
+    setState(done);
+    setRanking(null);
+    if (mode !== "rally") fetchGameRanking(mode, group).then(setRanking, () => setRanking([]));
+  };
 
   const start = (chosen: LevelGroup = group, howMany = amount) => {
     setGroup(chosen);
@@ -63,8 +82,8 @@ export function App() {
       return;
     }
     setState({ phase: "loading" });
-    fetchQuestions(mode, chosen, choosesAmount(mode) ? howMany : 5)
-      .then((questions) => setState({ phase: "playing", questions, index: 0, score: 0 }))
+    startGame(mode, chosen, choosesAmount(mode) ? howMany : 5)
+      .then(({ gameId, questions }) => setState({ phase: "playing", gameId, questions, index: 0, score: 0 }))
       .catch((e: Error) => setState({ phase: "error", message: e.message }));
   };
 
@@ -238,7 +257,7 @@ export function App() {
       )}
       {!showAuth && state.phase === "playing" && (
         <p className="score">
-          {modeName} · {LEVEL_GROUPS.find((g) => g.id === group)?.name} · {state.index + 1}/{state.questions.length} · {state.score} pts
+          {modeName} · {groupName} · {state.index + 1}/{state.questions.length} · {state.score} pts
         </p>
       )}
       {!showAuth && state.phase === "loading" && <p className="muted">Cargando…</p>}
@@ -261,13 +280,31 @@ export function App() {
           />
         </div>
       )}
-      {!showAuth && state.phase === "playing" && <Round state={state} setState={setState} />}
+      {!showAuth && state.phase === "playing" && <Round state={state} setState={setState} onFinish={finish} />}
       {!showAuth && state.phase === "done" && (
         <section className="card center">
           <h2>¡Partida terminada!</h2>
           <p className="big">
             {state.score} / {state.total}
           </p>
+          {state.best && (
+            <p>
+              Tu mejor partida en {groupName}: {formatResult(state.best)}
+            </p>
+          )}
+          {!user && (
+            <p>
+              <button className="link" onClick={() => setShowAuth(true)}>
+                Entra con tu cuenta
+              </button>{" "}
+              para aparecer en el ranking.
+            </p>
+          )}
+          {user && !state.best && <p className="muted">Tu próxima partida contará para el ranking.</p>}
+          <Ranking
+            title={`Ranking · ${modeName} · ${groupName}`}
+            entries={ranking && ranking.map((r) => ({ displayName: r.displayName, value: formatResult(r) }))}
+          />
           <div className="actions">
             <button onClick={() => start()}>Jugar otra vez</button>
             <button className="link" onClick={() => setState({ phase: "choose" })}>
@@ -289,25 +326,39 @@ export function App() {
 function Round({
   state,
   setState,
+  onFinish,
 }: {
   state: Extract<State, { phase: "playing" }>;
   setState: (s: State) => void;
+  onFinish: (done: Extract<State, { phase: "done" }>) => void;
 }) {
   const q = state.questions[state.index];
 
   const choose = async (choice: number) => {
-    const answer = await sendAnswer(q.id, choice);
-    setState({ ...state, score: state.score + (answer.correct ? 1 : 0), result: { choice, answer } });
+    try {
+      const answer = await answerGame(state.gameId, q.id, choice);
+      setState({ ...state, score: answer.score, result: { choice, answer } });
+    } catch (e) {
+      setState({ phase: "error", message: (e as Error).message });
+    }
   };
 
   const next = () => {
     const index = state.index + 1;
     if (index >= state.questions.length) {
-      setState({ phase: "done", score: state.score, total: state.questions.length });
+      onFinish({ phase: "done", score: state.score, total: state.questions.length, best: state.result?.answer.best ?? null });
     } else {
       setState({ ...state, index, result: undefined });
     }
   };
 
-  return <QuestionCard q={q} result={state.result} onChoose={choose} onNext={next} />;
+  return (
+    <QuestionCard
+      q={q}
+      result={state.result}
+      onChoose={choose}
+      onNext={next}
+      nextLabel={state.result?.answer.over ? "Ver resultado" : "Siguiente"}
+    />
+  );
 }
