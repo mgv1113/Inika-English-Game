@@ -3,6 +3,7 @@ import { AccountCard } from "./Account";
 import { AuthForm } from "./Auth";
 import {
   deleteAccount,
+  fetchLevelCounts,
   fetchMe,
   fetchQuestions,
   LEVEL_GROUPS,
@@ -31,6 +32,7 @@ const oauthError = authResult?.kind === "error" && !accountNotice ? authResult.m
 export function App() {
   const [state, setState] = useState<State>({ phase: "choose" });
   const [group, setGroup] = useState<LevelGroup>("basico");
+  const [counts, setCounts] = useState<Partial<Record<LevelGroup, number>>>({});
   const [user, setUser] = useState<User | null>(null);
   const [showAuth, setShowAuth] = useState(!!oauthError);
   const [showAccount, setShowAccount] = useState(!!accountNotice);
@@ -43,6 +45,9 @@ export function App() {
       .catch((e: Error) => setState({ phase: "error", message: e.message }));
   };
 
+  useEffect(() => {
+    fetchLevelCounts().then(setCounts, () => setCounts({}));
+  }, []);
   useEffect(() => {
     fetchMe().then(setUser, () => setUser(null));
   }, []);
@@ -116,12 +121,15 @@ export function App() {
         <section className="card">
           <h2>Elige tu nivel</h2>
           <div className="levels">
-            {LEVEL_GROUPS.map((g) => (
-              <button key={g.id} className="option level" onClick={() => start(g.id)}>
-                <span>{g.name}</span>
-                <span className="muted">{g.levels}</span>
-              </button>
-            ))}
+            {LEVEL_GROUPS.map((g) => {
+              const soon = counts[g.id] === 0;
+              return (
+                <button key={g.id} className="option level" onClick={() => start(g.id)} disabled={soon}>
+                  <span>{g.name}</span>
+                  <span className="muted">{soon ? "Próximamente" : g.levels}</span>
+                </button>
+              );
+            })}
           </div>
         </section>
       )}

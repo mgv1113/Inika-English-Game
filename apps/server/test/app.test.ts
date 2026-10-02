@@ -64,6 +64,10 @@ describe("API", () => {
     const body = res.json();
     expect(body).toHaveLength(20);
     for (const q of body) expect(["A1", "A2"]).toContain(q.level);
+    const counts = (await app.inject({ method: "GET", url: "/api/levels" })).json();
+    expect(counts.basico).toBe(questions.filter((q) => ["A1", "A2"].includes(q.level)).length);
+    expect(counts.intermedio).toBe(questions.filter((q) => ["B1", "B2"].includes(q.level)).length);
+    expect(counts.avanzado).toBe(questions.filter((q) => ["C1", "C2"].includes(q.level)).length);
     const bad = await app.inject({ method: "GET", url: "/api/questions/sample?group=experto" });
     expect(bad.statusCode).toBe(400);
   });

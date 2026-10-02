@@ -19,9 +19,16 @@ export type LevelGroup = "basico" | "intermedio" | "avanzado";
 
 export const LEVEL_GROUPS: { id: LevelGroup; name: string; levels: string }[] = [
   { id: "basico", name: "Básico", levels: "A1 – A2" },
-  { id: "intermedio", name: "Intermedio", levels: "B1" },
-  { id: "avanzado", name: "Avanzado", levels: "B2+" },
+  { id: "intermedio", name: "Intermedio", levels: "B1 – B2" },
+  { id: "avanzado", name: "Avanzado", levels: "C1 – C2" },
 ];
+
+/** Número de preguntas de cada grupo de niveles. */
+export async function fetchLevelCounts(): Promise<Record<LevelGroup, number>> {
+  const res = await fetch("/api/levels");
+  if (!res.ok) throw new Error("No se pudieron cargar los niveles");
+  return res.json();
+}
 
 export async function fetchQuestions(group: LevelGroup, count = 5): Promise<PublicQuestion[]> {
   const res = await fetch(`/api/questions/sample?count=${count}&group=${group}`);
