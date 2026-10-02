@@ -1,0 +1,1516 @@
+[
+  {
+    "id": "pv-a2-turn-up-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "turn-up",
+    "tags": [
+      "phrasal-verb",
+      "volume"
+    ],
+    "prompt": "I can't hear the music. Can you ___ the volume, please?",
+    "options": [
+      "turn up",
+      "turn down",
+      "turn off",
+      "go up"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Turn up\" significa subir el volumen (o la calefacción, etc.).",
+      "wrong": {
+        "turn down": "\"turn down\" es lo contrario: bajar el volumen. Si no oyes la música, necesitas subirlo.",
+        "turn off": "\"turn off\" es apagar. No quieres apagar la música, quieres oírla mejor.",
+        "go up": "\"go up\" significa subir tú (o un precio), pero no lleva objeto: no se dice \"go up the volume\"."
+      },
+      "examples": [
+        "Turn up the radio, I love this song!",
+        "Can you turn the heating up? It's cold."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-turn-down-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "turn-down",
+    "tags": [
+      "phrasal-verb",
+      "volume"
+    ],
+    "prompt": "The baby is sleeping. Please ___ the TV a little. It's too loud.",
+    "options": [
+      "turn up",
+      "turn down",
+      "turn in",
+      "low down"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Turn down\" significa bajar el volumen (o la calefacción).",
+      "wrong": {
+        "turn up": "\"turn up\" es subir el volumen; si el bebé duerme y la tele está alta, hay que bajarlo.",
+        "turn in": "\"turn in\" significa entregar (un trabajo) o irse a dormir; no tiene que ver con el volumen.",
+        "low down": "\"low\" es adjetivo, no verbo; \"low down\" no existe para bajar el volumen. Se dice turn down."
+      },
+      "examples": [
+        "Can you turn the music down? I'm on the phone.",
+        "Please turn down the heating, it's too hot."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-fill-in-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "fill-in",
+    "tags": [
+      "phrasal-verb",
+      "forms"
+    ],
+    "prompt": "Please ___ this form with your name and address.",
+    "options": [
+      "fill on",
+      "fill up",
+      "full in",
+      "fill in"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Fill in\" (a form) significa rellenar un formulario o un impreso.",
+      "wrong": {
+        "fill on": "La partícula correcta es \"in\", no \"on\": fill in a form.",
+        "fill up": "\"fill up\" es llenar un recipiente (fill up the tank, fill up a glass), no un formulario.",
+        "full in": "\"full\" es adjetivo (lleno); el verbo es \"fill\"."
+      },
+      "examples": [
+        "Fill in your email address here.",
+        "I filled in the application form yesterday."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-find-out-004",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "find-out",
+    "tags": [
+      "phrasal-verb",
+      "meaning"
+    ],
+    "prompt": "What does 'find out' mean in: 'I found out that the shop closes at 6 p.m.'?",
+    "options": [
+      "encontrar algo que habías perdido",
+      "salir a buscar algo",
+      "enterarse / descubrir (una información)",
+      "fundar una empresa"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Find out\" significa enterarse o descubrir una información.",
+      "wrong": {
+        "encontrar algo que habías perdido": "Eso es solo \"find\" (I found my keys). \"Find out\" se usa con información, no con objetos.",
+        "salir a buscar algo": "\"Out\" aquí no significa salir; el verbo completo \"find out\" significa enterarse.",
+        "fundar una empresa": "Fundar es \"found\" (found a company); no tiene relación con \"find out\"."
+      },
+      "examples": [
+        "I want to find out more about the course.",
+        "How did you find out about the party?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-find-out-005",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "find-out",
+    "tags": [
+      "phrasal-verb",
+      "information"
+    ],
+    "prompt": "Can you ___ what time the train leaves tomorrow?",
+    "options": [
+      "find",
+      "find out",
+      "know out",
+      "discover out"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Find out\" + información (what, when, where...) = averiguar, enterarse.",
+      "wrong": {
+        "find": "Para conseguir una información que no sabes se usa \"find out\"; \"find\" solo es para encontrar cosas o personas.",
+        "know out": "\"know out\" no existe. \"Know\" es saber algo que ya sabes; para averiguarlo se dice find out.",
+        "discover out": "\"discover\" no lleva \"out\". Además, para averiguar datos prácticos lo natural es find out."
+      },
+      "examples": [
+        "I'll find out where the meeting is.",
+        "She found out the price online."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-grow-up-006",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "grow-up",
+    "tags": [
+      "phrasal-verb",
+      "family"
+    ],
+    "prompt": "My dad ___ in a small village near the sea.",
+    "options": [
+      "grew",
+      "grew up",
+      "raised",
+      "grown up"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Grow up\" significa crecer (pasar la infancia) en un lugar; pasado: grew up.",
+      "wrong": {
+        "grew": "\"grew\" solo se usa para el tamaño (the tree grew). Para hablar de dónde pasaste la infancia se dice grew up.",
+        "raised": "\"raise\" significa criar a alguien; habría que decir \"was raised\". \"My dad raised in a village\" está mal.",
+        "grown up": "\"grown up\" es el participio; en pasado simple necesitas \"grew up\"."
+      },
+      "examples": [
+        "I grew up in Madrid.",
+        "Where did you grow up?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-grow-up-007",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "grow-up",
+    "tags": [
+      "phrasal-verb",
+      "future"
+    ],
+    "prompt": "What do you want to be when you ___?",
+    "options": [
+      "grow",
+      "grow out",
+      "get older up",
+      "grow up"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Grow up\" significa hacerse mayor (de niño a adulto).",
+      "wrong": {
+        "grow": "\"grow\" solo habla de crecer en tamaño; la pregunta típica es \"when you grow up\".",
+        "grow out": "\"grow out (of)\" es quedarse pequeña la ropa (grow out of your shoes); no es hacerse mayor.",
+        "get older up": "\"get older\" no lleva \"up\"; esta expresión no existe."
+      },
+      "examples": [
+        "When I grow up, I want to be a doctor.",
+        "Children grow up so fast!"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-try-on-008",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "try-on",
+    "tags": [
+      "phrasal-verb",
+      "shopping"
+    ],
+    "prompt": "These shoes are nice. Can I ___ before I buy them?",
+    "options": [
+      "prove them",
+      "test them in",
+      "try them on",
+      "try on them"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Try on\" significa probarse ropa o calzado. Con pronombre va en medio: try them on.",
+      "wrong": {
+        "prove them": "Falso amigo: \"prove\" es demostrar, no probar. En español decimos \"probármelos\", en inglés try them on.",
+        "test them in": "\"test\" es hacer una prueba técnica, y \"in\" no es la partícula correcta. Se dice try them on.",
+        "try on them": "Con pronombres (it, them) el pronombre va entre el verbo y la partícula: try them on."
+      },
+      "examples": [
+        "Can I try this jacket on?",
+        "She tried on three dresses."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-put-away-009",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "put-away",
+    "tags": [
+      "phrasal-verb",
+      "home"
+    ],
+    "prompt": "What does 'put away' mean in: 'Put your clothes away, please.'?",
+    "options": [
+      "guardar en su sitio",
+      "tirar a la basura",
+      "ponerse la ropa",
+      "alejarse de alguien"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Put away\" significa guardar algo en su sitio.",
+      "wrong": {
+        "tirar a la basura": "Tirar a la basura es \"throw away\", no \"put away\".",
+        "ponerse la ropa": "Ponerse ropa es \"put on\". \"Put away\" es guardarla en el armario.",
+        "alejarse de alguien": "\"Away\" sugiere distancia, pero \"put away\" no significa alejarse; es guardar."
+      },
+      "examples": [
+        "Put your toys away before dinner.",
+        "I put the dishes away after washing them."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-put-away-010",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "put-away",
+    "tags": [
+      "phrasal-verb",
+      "school"
+    ],
+    "prompt": "Please put your phones ___ during the exam.",
+    "options": [
+      "off",
+      "out",
+      "away",
+      "on"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Put (something) away\" significa guardar algo para no usarlo.",
+      "wrong": {
+        "off": "\"put off\" significa aplazar (put off the exam). Apagar se dice \"turn off\", pero aquí se pide guardarlo.",
+        "out": "\"put out\" es apagar un fuego o sacar algo fuera; no es guardar el móvil.",
+        "on": "\"put on\" es ponerse ropa; no tiene sentido con un móvil durante un examen."
+      },
+      "examples": [
+        "Put your books away, please.",
+        "He put his wallet away."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-run-out-of-011",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "run-out-of",
+    "tags": [
+      "phrasal-verb",
+      "home"
+    ],
+    "prompt": "We've ___ milk. Can you buy some on your way home?",
+    "options": [
+      "run out of",
+      "run out",
+      "finished of",
+      "run away from"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Run out of\" + cosa significa quedarse sin algo.",
+      "wrong": {
+        "run out": "Cuando dices de qué te quedas sin, necesitas \"of\": run out of milk.",
+        "finished of": "\"finish\" no lleva \"of\". En español decimos \"se nos acabó la leche\", pero en inglés: we've run out of milk.",
+        "run away from": "\"run away from\" es huir de algo; no se huye de la leche."
+      },
+      "examples": [
+        "We've run out of bread.",
+        "I ran out of time in the exam."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-run-out-of-012",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "run-out-of",
+    "tags": [
+      "phrasal-verb",
+      "technology",
+      "meaning"
+    ],
+    "prompt": "What does 'My phone has run out of battery' mean?",
+    "options": [
+      "Mi móvil ha salido corriendo.",
+      "La batería se ha salido del móvil.",
+      "Mi móvil se está cargando.",
+      "Mi móvil se ha quedado sin batería."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Run out of\" significa quedarse sin algo (batería, dinero, tiempo...).",
+      "wrong": {
+        "Mi móvil ha salido corriendo.": "Es una traducción palabra por palabra de \"run out\". Como phrasal verb significa quedarse sin algo.",
+        "La batería se ha salido del móvil.": "\"Out of\" no indica que la batería salga físicamente; indica que ya no queda.",
+        "Mi móvil se está cargando.": "Es casi lo contrario: se ha quedado sin batería y por eso necesita cargarse."
+      },
+      "examples": [
+        "My laptop ran out of battery during the call.",
+        "The printer has run out of ink."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-call-back-013",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "call-back",
+    "tags": [
+      "phrasal-verb",
+      "phone"
+    ],
+    "prompt": "I'm busy right now. I'll ___ later, OK?",
+    "options": [
+      "call back you",
+      "return you",
+      "call you again back",
+      "call you back"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Call (someone) back\" significa devolver la llamada. Con pronombre: call you back.",
+      "wrong": {
+        "call back you": "Con pronombre, este va en medio: call you back, no call back you.",
+        "return you": "En español decimos \"te devuelvo la llamada\", pero \"return you\" significa devolverte a ti. Se dice call you back.",
+        "call you again back": "Sobra \"again\": \"back\" ya expresa que vuelves a llamar."
+      },
+      "examples": [
+        "Can you call me back in ten minutes?",
+        "She didn't answer, so I'll call her back."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-check-in-014",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "check-in",
+    "tags": [
+      "phrasal-verb",
+      "travel"
+    ],
+    "prompt": "When you arrive at a hotel, you go to reception to ___.",
+    "options": [
+      "check in",
+      "check out",
+      "check on",
+      "sign out"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Check in\" significa registrarse al llegar a un hotel o al aeropuerto.",
+      "wrong": {
+        "check out": "\"check out\" es lo que haces al irte: pagar y dejar la habitación.",
+        "check on": "\"check on\" es comprobar cómo está algo o alguien (check on the baby).",
+        "sign out": "\"sign out\" es cerrar sesión o firmar al salir; justo lo contrario de llegar."
+      },
+      "examples": [
+        "We checked in at 3 p.m.",
+        "You need to check in two hours before the flight."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-check-out-015",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "check-out",
+    "tags": [
+      "phrasal-verb",
+      "travel",
+      "meaning"
+    ],
+    "prompt": "What does 'check out' mean at a hotel?",
+    "options": [
+      "registrarte al llegar",
+      "dejar la habitación y pagar al irte",
+      "revisar si la habitación está limpia",
+      "reservar una habitación"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En un hotel, \"check out\" significa dejar la habitación (y pagar) al marcharte.",
+      "wrong": {
+        "registrarte al llegar": "Eso es \"check in\". \"Check out\" es al salir.",
+        "revisar si la habitación está limpia": "Aunque \"check\" significa comprobar, \"check out\" en un hotel es irse.",
+        "reservar una habitación": "Reservar es \"book\" (book a room)."
+      },
+      "examples": [
+        "We have to check out before 11 a.m.",
+        "What time is check-out?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-set-off-016",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "set-off",
+    "tags": [
+      "phrasal-verb",
+      "travel"
+    ],
+    "prompt": "We ___ very early in the morning to avoid the traffic.",
+    "options": [
+      "set up",
+      "set off",
+      "put off",
+      "went off"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Set off\" significa salir o ponerse en camino para un viaje.",
+      "wrong": {
+        "set up": "\"set up\" es montar o preparar algo (set up a tent, set up a business).",
+        "put off": "\"put off\" significa aplazar; no explica cuándo empezasteis el viaje.",
+        "went off": "\"go off\" se usa con alarmas o bombas (the alarm went off), no con personas que salen de viaje."
+      },
+      "examples": [
+        "We set off at 6 a.m.",
+        "What time do we set off tomorrow?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-get-back-017",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "get-back",
+    "tags": [
+      "phrasal-verb",
+      "travel"
+    ],
+    "prompt": "What time did you ___ from your holiday?",
+    "options": [
+      "return back",
+      "get back",
+      "get return",
+      "turn back"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Get back\" significa volver o regresar a un lugar.",
+      "wrong": {
+        "return back": "\"return\" ya significa volver; \"return back\" es redundante.",
+        "get return": "\"return\" no es partícula; con \"get\" se usa \"back\".",
+        "turn back": "\"turn back\" es dar media vuelta a mitad de camino, no regresar a casa al terminar un viaje."
+      },
+      "examples": [
+        "I got back home at midnight.",
+        "When does Anna get back from London?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-throw-away-018",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "throw-away",
+    "tags": [
+      "phrasal-verb",
+      "recycling"
+    ],
+    "prompt": "Don't ___ those bottles! We can recycle them.",
+    "options": [
+      "throw up",
+      "throw on",
+      "get away",
+      "throw away"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Throw away\" significa tirar algo a la basura.",
+      "wrong": {
+        "throw up": "\"throw up\" significa vomitar. Cuidado: no tiene nada que ver con las botellas.",
+        "throw on": "\"throw on\" es ponerse ropa rápidamente (throw on a jacket).",
+        "get away": "\"get away\" es escaparse o irse de vacaciones; no lleva un objeto como \"bottles\"."
+      },
+      "examples": [
+        "I threw away my old shoes.",
+        "Don't throw that box away, I need it."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-clean-up-019",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "clean-up",
+    "tags": [
+      "phrasal-verb",
+      "home"
+    ],
+    "prompt": "The kitchen is a mess after the party. Let's ___ before Mum gets home.",
+    "options": [
+      "clean in",
+      "make clean",
+      "clean up",
+      "clean off"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Clean up\" significa limpiar y recoger un sitio que está desordenado.",
+      "wrong": {
+        "clean in": "\"clean in\" no existe como phrasal verb.",
+        "make clean": "Es una traducción literal de \"hacer limpieza\"; no es natural en inglés.",
+        "clean off": "\"clean off\" necesita un objeto (clean the mud off your shoes); no sirve solo para ordenar la cocina."
+      },
+      "examples": [
+        "Can you help me clean up the living room?",
+        "We cleaned up after the picnic."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-give-back-020",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "give-back",
+    "tags": [
+      "phrasal-verb",
+      "school"
+    ],
+    "prompt": "I lent Tom my book last month and he still hasn't ___.",
+    "options": [
+      "given it back",
+      "given back it",
+      "returned back it",
+      "given it again"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Give (something) back\" significa devolver algo. Con pronombre: give it back.",
+      "wrong": {
+        "given back it": "Con pronombre, este va entre el verbo y la partícula: given it back.",
+        "returned back it": "\"return\" ya significa devolver; \"back\" sobra y el orden es incorrecto.",
+        "given it again": "\"give it again\" significa dárselo otra vez, no devolvérmelo."
+      },
+      "examples": [
+        "Can you give me my pen back?",
+        "I gave the money back to my sister."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-hurry-up-021",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "hurry-up",
+    "tags": [
+      "phrasal-verb",
+      "meaning"
+    ],
+    "prompt": "What does 'Hurry up!' mean?",
+    "options": [
+      "¡Cálmate!",
+      "¡Sube!",
+      "¡Date prisa!",
+      "¡Espera!"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Hurry up\" significa darse prisa.",
+      "wrong": {
+        "¡Cálmate!": "Eso es \"Calm down!\", casi lo contrario.",
+        "¡Sube!": "\"Up\" no significa subir aquí; forma parte del phrasal verb. Subir sería \"Come up!\" o \"Go up!\".",
+        "¡Espera!": "Esperar es \"Wait!\" o \"Hold on!\"."
+      },
+      "examples": [
+        "Hurry up! The bus is leaving.",
+        "We need to hurry up or we'll be late."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-look-up-022",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "look-up",
+    "tags": [
+      "phrasal-verb",
+      "dictionary"
+    ],
+    "prompt": "If you don't know a word, you can ___ in the dictionary.",
+    "options": [
+      "look up it",
+      "look it on",
+      "look it up",
+      "look it for"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Look up\" significa buscar una palabra o un dato en un diccionario o internet. Con pronombre: look it up.",
+      "wrong": {
+        "look up it": "Con pronombre, este va en medio: look it up.",
+        "look it on": "La partícula correcta es \"up\": look it up.",
+        "look it for": "\"look for\" es buscar algo perdido, y el pronombre no va en medio: look for it."
+      },
+      "examples": [
+        "I looked up the word 'busy'.",
+        "Look it up online if you're not sure."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-take-out-023",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "take-out",
+    "tags": [
+      "phrasal-verb",
+      "home"
+    ],
+    "prompt": "It's your turn to ___ the rubbish tonight.",
+    "options": [
+      "take off",
+      "take on",
+      "go out",
+      "take out"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Take out\" significa sacar algo (por ejemplo, sacar la basura).",
+      "wrong": {
+        "take off": "\"take off\" es quitarse ropa o despegar un avión.",
+        "take on": "\"take on\" es aceptar un trabajo o una responsabilidad nueva.",
+        "go out": "\"go out\" es salir tú; no lleva objeto. No se dice \"go out the rubbish\"."
+      },
+      "examples": [
+        "Can you take the bins out?",
+        "I took out the rubbish after dinner."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-wash-up-024",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "wash-up",
+    "tags": [
+      "phrasal-verb",
+      "home",
+      "meaning"
+    ],
+    "prompt": "In British English, what does 'I'll wash up after dinner' mean?",
+    "options": [
+      "Me ducharé después de cenar.",
+      "Lavaré la ropa después de cenar.",
+      "Subiré a lavarme después de cenar.",
+      "Fregaré los platos después de cenar."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En inglés británico, \"wash up\" significa fregar los platos. (En inglés americano significa lavarse las manos y la cara.)",
+      "wrong": {
+        "Me ducharé después de cenar.": "Ducharse es \"have a shower\"; \"wash up\" no es ducharse.",
+        "Lavaré la ropa después de cenar.": "Lavar la ropa es \"do the washing\" o \"do the laundry\".",
+        "Subiré a lavarme después de cenar.": "\"Up\" no indica subir aquí; forma parte del phrasal verb."
+      },
+      "examples": [
+        "You cooked, so I'll wash up.",
+        "Who's going to wash up tonight?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-hang-up-025",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "hang-up",
+    "tags": [
+      "phrasal-verb",
+      "phone"
+    ],
+    "prompt": "He was so angry that he ___ without saying goodbye.",
+    "options": [
+      "hanged up",
+      "hung up",
+      "hung on",
+      "closed"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Hang up\" significa colgar el teléfono. Pasado: hung up.",
+      "wrong": {
+        "hanged up": "\"hanged\" solo se usa para ahorcar; el pasado de colgar es \"hung\".",
+        "hung on": "\"hang on\" es esperar un momento (Hang on, please!), justo lo contrario de colgar.",
+        "closed": "En español a veces decimos \"le cerró el teléfono\", pero en inglés no se usa \"close\"; se dice hung up."
+      },
+      "examples": [
+        "Don't hang up, I need to tell you something!",
+        "She hung up and went to bed."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-go-on-026",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "go-on",
+    "tags": [
+      "phrasal-verb",
+      "conversation"
+    ],
+    "prompt": "Sorry, I interrupted you. Please ___. What happened next?",
+    "options": [
+      "go off",
+      "go out",
+      "go on",
+      "go over"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Go on\" significa continuar, seguir (por ejemplo, seguir hablando).",
+      "wrong": {
+        "go off": "\"go off\" se usa con alarmas que suenan o comida que se estropea.",
+        "go out": "\"go out\" es salir (de casa, de fiesta).",
+        "go over": "\"go over\" es repasar algo (go over your notes)."
+      },
+      "examples": [
+        "Go on, I'm listening.",
+        "The party went on until 2 a.m."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-eat-out-027",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "eat-out",
+    "tags": [
+      "phrasal-verb",
+      "food"
+    ],
+    "prompt": "We don't feel like cooking tonight. Let's ___.",
+    "options": [
+      "eat off",
+      "eat out",
+      "go out eat",
+      "eat up"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Eat out\" significa comer o cenar fuera, en un restaurante.",
+      "wrong": {
+        "eat off": "\"eat off\" significa comer de un plato o superficie (eat off a plate); no es salir a cenar.",
+        "go out eat": "Falta \"to\" o \"and\": go out to eat. Lo más natural es \"eat out\".",
+        "eat up": "\"eat up\" significa comérselo todo; no soluciona que no queráis cocinar."
+      },
+      "examples": [
+        "We eat out every Friday.",
+        "Do you want to eat out or stay in?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-dress-up-028",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "dress-up",
+    "tags": [
+      "phrasal-verb",
+      "clothes",
+      "meaning"
+    ],
+    "prompt": "What does 'dress up' mean in: 'We dressed up for my sister's wedding.'?",
+    "options": [
+      "vestirse a toda prisa",
+      "quitarse la ropa",
+      "lavar la ropa",
+      "arreglarse / ponerse ropa elegante"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Dress up\" significa arreglarse, ponerse ropa elegante para una ocasión especial.",
+      "wrong": {
+        "vestirse a toda prisa": "\"Up\" no indica rapidez; vestirse rápido sería \"get dressed quickly\".",
+        "quitarse la ropa": "Quitarse la ropa es \"take off your clothes\" o \"get undressed\".",
+        "lavar la ropa": "Lavar la ropa es \"do the washing\"."
+      },
+      "examples": [
+        "You don't need to dress up, it's a casual party.",
+        "Everyone dressed up for the dinner."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-calm-down-029",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "calm-down",
+    "tags": [
+      "phrasal-verb",
+      "emotions"
+    ],
+    "prompt": "___! It's only a small scratch on the car.",
+    "options": [
+      "Calm down",
+      "Calm up",
+      "Relax down",
+      "Tranquil down"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Calm down\" significa calmarse, tranquilizarse.",
+      "wrong": {
+        "Calm up": "La partícula correcta es \"down\": calm down.",
+        "Relax down": "\"Relax\" funciona solo (Relax!), sin \"down\".",
+        "Tranquil down": "\"tranquil\" es un adjetivo poco común en inglés. En español decimos \"¡tranquilo!\", en inglés: Calm down!"
+      },
+      "examples": [
+        "Calm down and tell me what happened.",
+        "The kids calmed down after lunch."
+      ]
+    }
+  },
+  {
+    "id": "pv-a2-sort-out-030",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "sort-out",
+    "tags": [
+      "phrasal-verb",
+      "problems",
+      "meaning"
+    ],
+    "prompt": "What does 'sort out' mean in: 'I need to sort out a problem with my bank card.'?",
+    "options": [
+      "resolver, arreglar",
+      "sortear",
+      "salir del banco",
+      "olvidarse de algo"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Sort out\" significa resolver o arreglar un problema o una situación.",
+      "wrong": {
+        "sortear": "Falso amigo: \"sort\" no significa sortear. Sortear un premio es \"draw\" o \"raffle\".",
+        "salir del banco": "\"Out\" no indica salir aquí; \"sort out\" significa resolver.",
+        "olvidarse de algo": "Olvidarse es \"forget\"; \"sort out\" es lo contrario: ocuparse del problema."
+      },
+      "examples": [
+        "Don't worry, I'll sort it out.",
+        "We sorted out the problem with the tickets."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-break-a-leg-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "break-a-leg",
+    "tags": [
+      "idiom",
+      "theatre"
+    ],
+    "prompt": "Before your concert, a friend says 'Break a leg!' What does it mean?",
+    "options": [
+      "¡Ten cuidado de no caerte!",
+      "¡Date prisa!",
+      "¡Mucha suerte!",
+      "¡Lo vas a hacer fatal!"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Break a leg!\" se dice antes de una actuación y significa ¡mucha suerte!",
+      "wrong": {
+        "¡Ten cuidado de no caerte!": "Aunque habla de romperse una pierna, no es literal: es un deseo de buena suerte.",
+        "¡Date prisa!": "Darse prisa es \"Hurry up!\".",
+        "¡Lo vas a hacer fatal!": "No es un insulto ni una mala noticia; es una forma positiva de desear suerte."
+      },
+      "examples": [
+        "Break a leg tonight!",
+        "Good luck with the play! Break a leg!"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-under-the-weather-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "under-the-weather",
+    "tags": [
+      "idiom",
+      "health"
+    ],
+    "prompt": "I'm feeling a bit ___ today, so I'm staying in bed.",
+    "options": [
+      "under the weather",
+      "over the weather",
+      "under the rain",
+      "on the weather"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Under the weather\" significa estar un poco enfermo o pachucho.",
+      "wrong": {
+        "over the weather": "La preposición fija es \"under\"; \"over the weather\" no existe.",
+        "under the rain": "Bajo la lluvia es literal; no significa estar enfermo. La expresión es under the weather.",
+        "on the weather": "La expresión es fija: under the weather."
+      },
+      "examples": [
+        "You look a bit under the weather.",
+        "I was under the weather last week."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-raining-cats-and-dogs-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "raining-cats-and-dogs",
+    "tags": [
+      "idiom",
+      "weather"
+    ],
+    "prompt": "Take an umbrella! It's raining ___.",
+    "options": [
+      "dogs and cats",
+      "jugs",
+      "cats and mice",
+      "cats and dogs"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"It's raining cats and dogs\" significa que llueve muchísimo (llueve a cántaros).",
+      "wrong": {
+        "dogs and cats": "El orden es fijo: cats and dogs.",
+        "jugs": "En español decimos \"llueve a cántaros\", pero en inglés no se traduce así.",
+        "cats and mice": "La expresión es \"cats and dogs\"; con mice no existe."
+      },
+      "examples": [
+        "It rained cats and dogs all weekend.",
+        "We can't go out, it's raining cats and dogs."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-cost-an-arm-and-a-leg-004",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "cost-an-arm-and-a-leg",
+    "tags": [
+      "idiom",
+      "money",
+      "meaning"
+    ],
+    "prompt": "'This phone cost an arm and a leg.' What does it mean?",
+    "options": [
+      "Fue muy barato.",
+      "Se rompió enseguida.",
+      "Fue carísimo (costó un ojo de la cara).",
+      "Costó mucho esfuerzo físico."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Cost an arm and a leg\" significa costar muchísimo dinero, como \"costar un ojo de la cara\".",
+      "wrong": {
+        "Fue muy barato.": "Es lo contrario: la expresión indica un precio muy alto.",
+        "Se rompió enseguida.": "La expresión habla del precio, no de la calidad.",
+        "Costó mucho esfuerzo físico.": "Los brazos y piernas no son literales; hablan de dinero."
+      },
+      "examples": [
+        "Our holiday cost an arm and a leg.",
+        "I want a car that doesn't cost an arm and a leg."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-once-in-a-blue-moon-005",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "once-in-a-blue-moon",
+    "tags": [
+      "idiom",
+      "frequency",
+      "family"
+    ],
+    "prompt": "My brother lives in Australia, so I only see him ___.",
+    "options": [
+      "once in a blue sky",
+      "every blue moon",
+      "once in a blue moon",
+      "once a blue moon"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Once in a blue moon\" significa muy de vez en cuando, casi nunca.",
+      "wrong": {
+        "once in a blue sky": "La expresión usa \"moon\", no \"sky\".",
+        "every blue moon": "La forma fija es \"once in a blue moon\".",
+        "once a blue moon": "Falta \"in\": once in a blue moon."
+      },
+      "examples": [
+        "I eat fast food once in a blue moon.",
+        "He calls me once in a blue moon."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-hit-the-books-006",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "hit-the-books",
+    "tags": [
+      "idiom",
+      "school",
+      "meaning"
+    ],
+    "prompt": "'I have an exam tomorrow, so I need to hit the books tonight.' What does 'hit the books' mean?",
+    "options": [
+      "estudiar mucho",
+      "tirar los libros",
+      "comprar libros nuevos",
+      "dejar de estudiar"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Hit the books\" significa ponerse a estudiar en serio.",
+      "wrong": {
+        "tirar los libros": "\"Hit\" no es literal aquí; nadie golpea ni tira los libros.",
+        "comprar libros nuevos": "La expresión no habla de comprar, sino de estudiar.",
+        "dejar de estudiar": "Es lo contrario: significa estudiar mucho."
+      },
+      "examples": [
+        "Exams start next week, so it's time to hit the books.",
+        "She hit the books all weekend."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-couch-potato-007",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "couch-potato",
+    "tags": [
+      "idiom",
+      "lifestyle"
+    ],
+    "prompt": "My uncle watches TV all day and never does any exercise. He's a real ___.",
+    "options": [
+      "couch potato",
+      "sofa potato",
+      "house potato",
+      "couch bear"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"A couch potato\" es una persona perezosa que pasa mucho tiempo en el sofá viendo la tele.",
+      "wrong": {
+        "sofa potato": "Aunque \"sofa\" y \"couch\" significan lo mismo, la expresión fija es couch potato.",
+        "house potato": "La expresión es \"couch potato\"; \"house potato\" no existe.",
+        "couch bear": "El animal no es parte de la expresión; se dice couch potato."
+      },
+      "examples": [
+        "Don't be a couch potato, let's go for a walk!",
+        "I was a couch potato all weekend."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-in-hot-water-008",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "in-hot-water",
+    "tags": [
+      "idiom",
+      "problems",
+      "meaning"
+    ],
+    "prompt": "'Tom is in hot water because he broke his dad's laptop.' What does it mean?",
+    "options": [
+      "Tom se está bañando.",
+      "Tom está metido en un lío.",
+      "Tom tiene fiebre.",
+      "Tom está muy contento."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Be in hot water\" significa estar en apuros o metido en un lío.",
+      "wrong": {
+        "Tom se está bañando.": "No es literal; nadie habla de un baño.",
+        "Tom tiene fiebre.": "\"Hot\" no se refiere a la temperatura del cuerpo aquí.",
+        "Tom está muy contento.": "Romper el portátil de su padre no le pone contento: está en problemas."
+      },
+      "examples": [
+        "You'll be in hot water if you're late again.",
+        "She got into hot water with her boss."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-feel-blue-009",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "feel-blue",
+    "tags": [
+      "idiom",
+      "emotions"
+    ],
+    "prompt": "She's been feeling ___ since her best friend moved away.",
+    "options": [
+      "yellow",
+      "white",
+      "pink",
+      "blue"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Feel blue\" significa sentirse triste o deprimido.",
+      "wrong": {
+        "yellow": "En inglés \"yellow\" se asocia a la cobardía, no a la tristeza.",
+        "white": "\"White\" no expresa ningún estado de ánimo en esta frase.",
+        "pink": "\"In the pink\" significa estar sano, no triste."
+      },
+      "examples": [
+        "I always feel blue on Sunday evenings.",
+        "Why are you feeling blue?"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-apple-of-my-eye-010",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "apple-of-my-eye",
+    "tags": [
+      "idiom",
+      "family",
+      "meaning"
+    ],
+    "prompt": "'My granddaughter is the apple of my eye.' What does it mean?",
+    "options": [
+      "Le gustan mucho las manzanas.",
+      "La quiero muchísimo; es la niña de mis ojos.",
+      "Tiene algo en el ojo.",
+      "Me molesta mucho."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"The apple of my eye\" es la persona a la que más quieres, como \"la niña de mis ojos\".",
+      "wrong": {
+        "Le gustan mucho las manzanas.": "La manzana no es literal; habla de cariño.",
+        "Tiene algo en el ojo.": "El ojo tampoco es literal; la expresión habla de amor.",
+        "Me molesta mucho.": "Es lo contrario: es una persona muy querida."
+      },
+      "examples": [
+        "His daughter is the apple of his eye.",
+        "That little dog is the apple of her eye."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-keep-an-eye-on-011",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "keep-an-eye-on",
+    "tags": [
+      "idiom",
+      "travel"
+    ],
+    "prompt": "Can you ___ my bag while I go to the toilet?",
+    "options": [
+      "throw an eye on",
+      "keep the eyes in",
+      "keep an eye on",
+      "put an eye on"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Keep an eye on\" significa vigilar o echar un ojo a algo o alguien.",
+      "wrong": {
+        "throw an eye on": "En español decimos \"echar un ojo\", pero en inglés no se usa \"throw\": keep an eye on.",
+        "keep the eyes in": "El artículo es \"an\" (singular) y la preposición es \"on\".",
+        "put an eye on": "El verbo de esta expresión es \"keep\", no \"put\"."
+      },
+      "examples": [
+        "Keep an eye on the pasta, please.",
+        "Can you keep an eye on the kids for a minute?"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-take-it-easy-012",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "take-it-easy",
+    "tags": [
+      "idiom",
+      "health",
+      "meaning"
+    ],
+    "prompt": "Your doctor says: 'Take it easy this week.' What does she mean?",
+    "options": [
+      "Tómate la medicina fácil.",
+      "Haz mucho deporte.",
+      "Descansa y no te esfuerces mucho.",
+      "Ve más rápido."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Take it easy\" significa tomárselo con calma, descansar.",
+      "wrong": {
+        "Tómate la medicina fácil.": "\"Take\" no significa tomar una medicina aquí; la expresión completa es tomárselo con calma.",
+        "Haz mucho deporte.": "Es lo contrario: te pide que no te esfuerces.",
+        "Ve más rápido.": "\"Take it easy\" pide calma, no velocidad."
+      },
+      "examples": [
+        "Take it easy, there's no rush.",
+        "I'm going to take it easy this weekend."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-get-the-hang-of-013",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "get-the-hang-of",
+    "tags": [
+      "idiom",
+      "learning"
+    ],
+    "prompt": "Driving was hard at first, but now I'm ___ it.",
+    "options": [
+      "getting the hang of",
+      "taking the hang of",
+      "getting the hand of",
+      "doing the hang of"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Get the hang of something\" significa pillarle el truco a algo, aprender a hacerlo.",
+      "wrong": {
+        "taking the hang of": "El verbo de esta expresión es \"get\", no \"take\".",
+        "getting the hand of": "Es \"hang\", no \"hand\" (mano).",
+        "doing the hang of": "No se usa \"do\"; la expresión fija es get the hang of."
+      },
+      "examples": [
+        "You'll get the hang of it soon.",
+        "I'm finally getting the hang of this app."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-by-heart-014",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "by-heart",
+    "tags": [
+      "idiom",
+      "school",
+      "memory"
+    ],
+    "prompt": "We had to learn the poem ___ for the school show.",
+    "options": [
+      "by heart",
+      "by memory",
+      "from heart",
+      "in heart"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Learn something by heart\" significa aprender algo de memoria.",
+      "wrong": {
+        "by memory": "En español decimos \"de memoria\", pero en inglés la expresión es by heart.",
+        "from heart": "La preposición correcta es \"by\". (\"From the heart\" significa con sinceridad.)",
+        "in heart": "La preposición correcta es \"by\": by heart."
+      },
+      "examples": [
+        "I know her phone number by heart.",
+        "Do you know the song by heart?"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-make-up-your-mind-015",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "make-up-your-mind",
+    "tags": [
+      "idiom",
+      "decisions"
+    ],
+    "prompt": "Pizza or pasta? You need to ___. The waiter is waiting!",
+    "options": [
+      "do up your mind",
+      "take your mind",
+      "make up your mind",
+      "make up your head"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Make up your mind\" significa decidirse.",
+      "wrong": {
+        "do up your mind": "El verbo es \"make\", no \"do\" (\"do up\" es abrochar).",
+        "take your mind": "\"take your mind off\" es distraerte de algo; no significa decidir.",
+        "make up your head": "La palabra es \"mind\", no \"head\"."
+      },
+      "examples": [
+        "I can't make up my mind.",
+        "Make up your mind! We're late."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-its-up-to-you-016",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "its-up-to-you",
+    "tags": [
+      "idiom",
+      "decisions"
+    ],
+    "prompt": "I don't mind if we go to the beach or the mountains. ___.",
+    "options": [
+      "It's on you",
+      "It's up for you",
+      "It depends of you",
+      "It's up to you"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"It's up to you\" significa \"tú decides\", \"como quieras\".",
+      "wrong": {
+        "It's on you": "\"It's on you\" significa que es tu responsabilidad o que tú invitas (pagas).",
+        "It's up for you": "La preposición correcta es \"to\": up to you.",
+        "It depends of you": "En español decimos \"depende de ti\", pero en inglés es \"depend on\", nunca \"of\"."
+      },
+      "examples": [
+        "Tea or coffee? It's up to you.",
+        "It's up to you where we eat tonight."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-lose-your-temper-017",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "lose-your-temper",
+    "tags": [
+      "idiom",
+      "emotions",
+      "meaning"
+    ],
+    "prompt": "What does 'lose your temper' mean?",
+    "options": [
+      "perder la temperatura",
+      "perder el tiempo",
+      "perder la memoria",
+      "enfadarse mucho, perder los estribos"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Lose your temper\" significa enfadarse mucho de repente, perder los estribos.",
+      "wrong": {
+        "perder la temperatura": "Falso amigo: \"temper\" no es temperatura (temperature). Es el carácter o el humor.",
+        "perder el tiempo": "Perder el tiempo es \"waste time\".",
+        "perder la memoria": "Perder la memoria es \"lose your memory\"."
+      },
+      "examples": [
+        "My dad never loses his temper.",
+        "I lost my temper and shouted at the TV."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-in-a-hurry-018",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "in-a-hurry",
+    "tags": [
+      "idiom",
+      "daily-life"
+    ],
+    "prompt": "Sorry, I can't talk now. I'm ___.",
+    "options": [
+      "with hurry",
+      "in a hurry",
+      "on a hurry",
+      "in hurry"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Be in a hurry\" significa tener prisa.",
+      "wrong": {
+        "with hurry": "En español decimos \"con prisa\", pero en inglés se usa in a hurry.",
+        "on a hurry": "La preposición correcta es \"in\".",
+        "in hurry": "Falta el artículo \"a\": in a hurry."
+      },
+      "examples": [
+        "I'm in a hurry, see you later!",
+        "She left in a hurry."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-no-big-deal-019",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "no-big-deal",
+    "tags": [
+      "idiom",
+      "conversation"
+    ],
+    "prompt": "'I forgot your birthday!' 'Don't worry, it's ___.'",
+    "options": [
+      "no great deal",
+      "no big deal",
+      "not big deal",
+      "no big business"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"It's no big deal\" significa \"no pasa nada\", \"no tiene importancia\".",
+      "wrong": {
+        "no great deal": "\"A great deal\" significa mucho; \"no great deal\" no se usa para decir \"no pasa nada\".",
+        "not big deal": "Falta el artículo: \"not a big deal\" o \"no big deal\".",
+        "no big business": "La palabra fija es \"deal\", no \"business\"."
+      },
+      "examples": [
+        "I lost my umbrella, but it's no big deal.",
+        "Relax, it's no big deal."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a2-so-far-so-good-020",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "so-far-so-good",
+    "tags": [
+      "idiom",
+      "work",
+      "meaning"
+    ],
+    "prompt": "'How's your new job?' 'So far so good.' What does it mean?",
+    "options": [
+      "De momento, todo va bien.",
+      "Está muy lejos, pero es bueno.",
+      "Ya no me gusta.",
+      "Es muy aburrido."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"So far so good\" significa \"de momento, todo bien\".",
+      "wrong": {
+        "Está muy lejos, pero es bueno.": "\"Far\" no habla de distancia aquí; \"so far\" significa hasta ahora.",
+        "Ya no me gusta.": "La expresión es positiva: hasta ahora todo va bien.",
+        "Es muy aburrido.": "\"Good\" indica que va bien, no que sea aburrido."
+      },
+      "examples": [
+        "'How's the trip?' 'So far so good.'",
+        "So far so good, but the hard part is next week."
+      ]
+    }
+  }
+]

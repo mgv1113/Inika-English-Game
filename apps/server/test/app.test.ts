@@ -10,6 +10,30 @@ describe("contenido", () => {
   it("carga y valida todas las preguntas", () => {
     expect(questions.length).toBeGreaterThan(0);
   });
+
+  it("no repite preguntas ni opciones", () => {
+    const normalize = (s: string) => s.toLowerCase().replace(/[^a-z0-9_]+/g, " ").trim();
+    const seen = new Map<string, string>();
+    for (const q of questions) {
+      const options = q.options.map((o) => o.trim().toLowerCase());
+      expect(new Set(options).size, `opciones repetidas en ${q.id}`).toBe(options.length);
+      const key = `${normalize(q.prompt)}|${options.map(normalize).sort().join("|")}`;
+      expect(seen.get(key), `${q.id} repite a ${seen.get(key)}`).toBeUndefined();
+      seen.set(key, q.id);
+    }
+  });
+
+  it("las preguntas \"fill\" tienen un hueco ___", () => {
+    for (const q of questions.filter((q) => q.mode === "fill")) {
+      expect(q.prompt, q.id).toContain("___");
+    }
+  });
+
+  it("cubre los niveles A1 a B2", () => {
+    for (const level of ["A1", "A2", "B1", "B2"]) {
+      expect(questions.filter((q) => q.level === level).length, level).toBeGreaterThanOrEqual(100);
+    }
+  });
 });
 
 describe("API", () => {

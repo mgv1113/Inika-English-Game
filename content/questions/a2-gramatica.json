@@ -1,0 +1,1797 @@
+[
+  {
+    "id": "gram-a2-past-simple-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "past-simple",
+    "tags": [
+      "grammar",
+      "regular-verbs"
+    ],
+    "prompt": "Last summer my family ___ to Mexico by car.",
+    "options": [
+      "travels",
+      "travel",
+      "has travelled",
+      "travelled"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con una acción terminada en un momento pasado concreto (last summer) se usa el past simple: verbo + -ed.",
+      "wrong": {
+        "travel": "\"travel\" es presente; \"last summer\" pide pasado: travelled.",
+        "travels": "\"travels\" es presente con he/she/it; además el sujeto es \"my family\" en pasado.",
+        "has travelled": "El present perfect no se usa con un momento pasado terminado como \"last summer\"."
+      },
+      "examples": [
+        "We visited Rome last year.",
+        "She cleaned her room yesterday."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-simple-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "past-simple",
+    "tags": [
+      "grammar",
+      "irregular-verbs"
+    ],
+    "prompt": "I ___ my keys at the office yesterday, so I couldn't open my door.",
+    "options": [
+      "was leave",
+      "leave",
+      "left",
+      "leaved"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Leave\" es irregular: su pasado es \"left\".",
+      "wrong": {
+        "leaved": "\"leaved\" no existe: leave es irregular (leave – left – left).",
+        "leave": "\"leave\" es presente; \"yesterday\" pide pasado.",
+        "was leave": "\"was leave\" mezcla be con el infinitivo; el past simple no lleva was: I left."
+      },
+      "examples": [
+        "He left the party at midnight.",
+        "I lost my phone last week."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-simple-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "past-simple",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "We ___ take the bus this morning because it was full.",
+    "options": [
+      "don't",
+      "not",
+      "wasn't",
+      "didn't"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "La negativa del past simple se forma con didn't + infinitivo.",
+      "wrong": {
+        "don't": "\"don't\" es presente; \"this morning\" y \"was full\" indican pasado.",
+        "wasn't": "\"wasn't\" va con adjetivos o -ing (wasn't happy), no con un verbo en infinitivo como take.",
+        "not": "En inglés no basta con \"not\" delante del verbo (en español sí: \"no tomamos\"); hace falta el auxiliar didn't."
+      },
+      "examples": [
+        "I didn't watch TV last night.",
+        "They didn't go to the party."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-simple-004",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "past-simple",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "___ you call your grandmother on her birthday last week?",
+    "options": [
+      "Do",
+      "Were",
+      "Did",
+      "Have"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Las preguntas en past simple se forman con Did + sujeto + infinitivo.",
+      "wrong": {
+        "Do": "\"Do\" es presente, pero \"last week\" es pasado.",
+        "Were": "\"Were\" se usa con adjetivos o -ing (Were you happy?), no con el infinitivo call.",
+        "Have": "El present perfect (Have you called) no se usa con \"last week\" y además pediría el participio, no call."
+      },
+      "examples": [
+        "Did you see the match yesterday?",
+        "Did she finish her project?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-simple-005",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "past-simple",
+    "tags": [
+      "grammar",
+      "irregular-verbs"
+    ],
+    "prompt": "Which is the past simple of 'buy'?",
+    "options": [
+      "buyed",
+      "brought",
+      "buied",
+      "bought"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Buy\" es irregular: buy – bought – bought.",
+      "wrong": {
+        "buyed": "\"buyed\" no existe: buy es un verbo irregular.",
+        "brought": "\"brought\" es el pasado de \"bring\" (traer), no de buy (comprar). Se confunden mucho.",
+        "buied": "\"buied\" no existe; además buy es irregular."
+      },
+      "examples": [
+        "I bought a new jacket on Saturday.",
+        "She brought a cake to the party."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-was-were-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "was-were",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "The children ___ very tired after the school trip yesterday.",
+    "options": [
+      "was",
+      "have",
+      "did",
+      "were"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Pasado de be: was con I/he/she/it, were con you/we/they y sujetos plurales.",
+      "wrong": {
+        "was": "\"was\" es para sujetos singulares; \"the children\" es plural.",
+        "did": "\"did\" es auxiliar de otros verbos; con un adjetivo (tired) se usa be: were.",
+        "have": "En español \"tener sueño/cansancio\" puede confundir, pero en inglés se dice be tired, no have tired."
+      },
+      "examples": [
+        "My parents were at home last night.",
+        "The film was very long."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-was-were-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "was-were",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "Where ___ you at 8 o'clock last night? I called you twice.",
+    "options": [
+      "did",
+      "was",
+      "were",
+      "are"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con you, el pasado de be es siempre were, también en preguntas.",
+      "wrong": {
+        "was": "\"was\" no se usa con you, solo con I/he/she/it.",
+        "did": "\"did\" necesita otro verbo (Where did you go?); aquí el verbo es be.",
+        "are": "\"are\" es presente; \"last night\" pide pasado."
+      },
+      "examples": [
+        "Were you at school yesterday?",
+        "Where were they on Sunday?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-continuous-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "past-continuous",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "At 7 p.m. yesterday, I ___ dinner with my parents.",
+    "options": [
+      "were having",
+      "had been",
+      "was having",
+      "am having"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "El past continuous (was/were + -ing) describe una acción en progreso en un momento concreto del pasado.",
+      "wrong": {
+        "were having": "\"were\" no va con I; con I se usa was having.",
+        "am having": "\"am having\" es presente continuo; \"yesterday\" pide pasado.",
+        "had been": "\"had been\" sin -ing no tiene sentido aquí (I had been dinner); falta el verbo principal."
+      },
+      "examples": [
+        "At ten o'clock I was studying.",
+        "What were you doing at midnight?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-continuous-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "past-continuous",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "They ___ football in the park when it started to rain.",
+    "options": [
+      "were playing",
+      "are playing",
+      "was playing",
+      "play"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Acción larga en progreso (past continuous) interrumpida por otra corta (past simple).",
+      "wrong": {
+        "was playing": "\"was\" va con sujetos singulares; \"they\" pide were.",
+        "are playing": "\"are playing\" es presente; \"started\" muestra que la historia es pasada.",
+        "play": "\"play\" es presente simple; no encaja con una historia en pasado."
+      },
+      "examples": [
+        "We were walking home when we saw the accident.",
+        "She was sleeping when the alarm rang."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-continuous-vs-past-simple-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "past-continuous-vs-past-simple",
+    "tags": [
+      "grammar",
+      "while"
+    ],
+    "prompt": "___ I was walking to work, I saw an old friend.",
+    "options": [
+      "Meanwhile",
+      "For",
+      "While",
+      "During"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"While\" + sujeto + verbo introduce la acción larga en progreso.",
+      "wrong": {
+        "During": "\"During\" (durante) va con un sustantivo (during the trip), no con una frase con sujeto y verbo.",
+        "Meanwhile": "\"Meanwhile\" significa \"mientras tanto\" y empieza una oración nueva; no introduce esta subordinada.",
+        "For": "\"For\" indica duración (for two hours) o finalidad; no significa \"mientras\"."
+      },
+      "examples": [
+        "While I was cooking, the phone rang.",
+        "He fell asleep while he was watching TV."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-past-continuous-vs-past-simple-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "past-continuous-vs-past-simple",
+    "tags": [
+      "grammar",
+      "when"
+    ],
+    "prompt": "Maria was reading in the garden when she ___ a strange noise.",
+    "options": [
+      "hears",
+      "was hearing",
+      "hear",
+      "heard"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "La acción corta que interrumpe a la larga va en past simple, normalmente después de when.",
+      "wrong": {
+        "was hearing": "\"hear\" casi no se usa en continuo y aquí es una acción corta y repentina: heard.",
+        "hears": "\"hears\" es presente; la historia está en pasado (was reading).",
+        "hear": "\"hear\" es presente o infinitivo; hace falta el pasado heard."
+      },
+      "examples": [
+        "I was driving when I saw the sign.",
+        "They were eating when the lights went out."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-going-to-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "going-to",
+    "tags": [
+      "grammar",
+      "predictions"
+    ],
+    "prompt": "Look at those black clouds! It ___ rain.",
+    "options": [
+      "going to",
+      "is going",
+      "goes to",
+      "is going to"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Be going to + infinitivo se usa para predicciones basadas en algo que vemos ahora.",
+      "wrong": {
+        "goes to": "\"goes to\" es una traducción literal de \"va a\"; en inglés se necesita be + going to.",
+        "is going": "\"is going\" sin \"to\" no puede ir seguido de un infinitivo: is going to rain.",
+        "going to": "Falta el verbo be: it is going to (it's going to)."
+      },
+      "examples": [
+        "Be careful! You're going to fall.",
+        "She's going to have a baby."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-going-to-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "going-to",
+    "tags": [
+      "grammar",
+      "plans"
+    ],
+    "prompt": "We ___ visit my aunt next weekend. We bought the train tickets yesterday.",
+    "options": [
+      "goes to",
+      "going to",
+      "are going to",
+      "are go to"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Be going to expresa planes o intenciones ya decididos.",
+      "wrong": {
+        "going to": "Falta el verbo be: we are going to.",
+        "are go to": "\"are go to\" no es correcto: hace falta la forma -ing, going.",
+        "goes to": "\"goes to\" es traducción literal de \"va a\" y además no concuerda con we."
+      },
+      "examples": [
+        "I'm going to start a new course in May.",
+        "They're going to move to Lima."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-going-to-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "going-to",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "I'm not ___ watch TV tonight. I have an exam tomorrow.",
+    "options": [
+      "going",
+      "will",
+      "go to",
+      "going to"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "La negativa de be going to es: am/is/are + not + going to + infinitivo.",
+      "wrong": {
+        "go to": "\"go to\" sin -ing no forma el futuro con be: I'm not going to.",
+        "going": "\"going\" sin \"to\" no puede ir seguido de watch.",
+        "will": "\"I'm not will\" es incorrecto: will no va después de be."
+      },
+      "examples": [
+        "He isn't going to come today.",
+        "We aren't going to buy a car."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-will-vs-going-to-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "will-vs-going-to",
+    "tags": [
+      "grammar",
+      "spontaneous-decisions"
+    ],
+    "prompt": "A: We don't have any milk. B: Oh, I didn't know. I ___ buy some now.",
+    "options": [
+      "'ll",
+      "am",
+      "will to",
+      "going to"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Para decisiones tomadas en el momento de hablar se usa will ('ll).",
+      "wrong": {
+        "going to": "Falta el verbo be y, además, aquí se trata de una decisión del momento.",
+        "will to": "Después de will va el infinitivo sin \"to\": I'll buy.",
+        "am": "\"am\" no va seguido del infinitivo: \"I am buy\" no existe. Para una decisión que tomas en ese momento se usa will: I'll buy some now."
+      },
+      "examples": [
+        "It's cold. I'll close the window.",
+        "I'm hungry. I think I'll make a sandwich."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-will-vs-going-to-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "will-vs-going-to",
+    "tags": [
+      "grammar",
+      "requests"
+    ],
+    "prompt": "___ you open the window, please? It's very hot in here.",
+    "options": [
+      "Going",
+      "Will",
+      "Do",
+      "Are you going to"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Will you…? sirve para pedir un favor de forma educada.",
+      "wrong": {
+        "Are you going to": "\"Are you going to…?\" pregunta por un plan, no pide un favor; con \"please\" no es natural.",
+        "Do": "\"Do you open…?\" pregunta por un hábito; no se usa para pedir algo.",
+        "Going": "\"Going\" no puede empezar una pregunta sin el verbo be."
+      },
+      "examples": [
+        "Will you help me with this box, please?",
+        "Will you close the door, please?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-will-vs-going-to-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "will-vs-going-to",
+    "tags": [
+      "grammar",
+      "plans"
+    ],
+    "prompt": "Why are you wearing old clothes? — Because I ___ paint my bedroom this afternoon.",
+    "options": [
+      "will",
+      "go to",
+      "going to",
+      "am going to"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Para un plan decidido antes de hablar (por eso lleva ropa vieja) se usa be going to.",
+      "wrong": {
+        "will": "\"will\" se usa para decisiones del momento; aquí el plan ya estaba decidido antes.",
+        "going to": "Falta el verbo be: I am going to.",
+        "go to": "\"go to\" es traducción literal de \"voy a\"; hace falta am going to."
+      },
+      "examples": [
+        "I've bought the paint. I'm going to paint the kitchen.",
+        "We're going to have a party on Friday."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-comparatives-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "comparatives",
+    "tags": [
+      "grammar",
+      "short-adjectives"
+    ],
+    "prompt": "My new phone is ___ than my old one, but it works very well.",
+    "options": [
+      "more cheap",
+      "more cheaper",
+      "cheaper",
+      "cheapest"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Adjetivos cortos (una sílaba) forman el comparativo con -er + than.",
+      "wrong": {
+        "more cheap": "Con adjetivos de una sílaba no se usa more: cheaper.",
+        "cheapest": "\"cheapest\" es superlativo y no va con than.",
+        "more cheaper": "No se puede usar more y -er a la vez."
+      },
+      "examples": [
+        "This bag is smaller than that one.",
+        "Today is colder than yesterday."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-superlatives-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "superlatives",
+    "tags": [
+      "grammar",
+      "irregular"
+    ],
+    "prompt": "This is ___ restaurant in town. Everybody loves it.",
+    "options": [
+      "best",
+      "the most good",
+      "the better",
+      "the best"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Good es irregular: good – better – the best.",
+      "wrong": {
+        "the better": "\"the better\" es comparativo; para el número uno de un grupo (in town) se usa el superlativo.",
+        "the most good": "\"good\" es irregular; no se dice \"the most good\".",
+        "best": "Antes de un superlativo con sustantivo hace falta \"the\": the best restaurant."
+      },
+      "examples": [
+        "She is the best student in the class.",
+        "It was the worst day of my life."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-superlatives-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "superlatives",
+    "tags": [
+      "grammar",
+      "spelling"
+    ],
+    "prompt": "Today is ___ day of the year! It's 40 degrees.",
+    "options": [
+      "the hottest",
+      "the hotest",
+      "hotter",
+      "the most hot"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Adjetivos cortos acabados en consonante-vocal-consonante doblan la consonante: hot – the hottest.",
+      "wrong": {
+        "the hotest": "Hay que doblar la t: hottest.",
+        "hotter": "\"hotter\" es comparativo; \"of the year\" pide el superlativo.",
+        "the most hot": "Hot es un adjetivo corto: the hottest, no the most hot."
+      },
+      "examples": [
+        "August is the hottest month here.",
+        "That's the biggest pizza I've ever seen."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-comparatives-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "comparatives",
+    "tags": [
+      "grammar",
+      "as-as"
+    ],
+    "prompt": "Tom is not as tall ___ his brother.",
+    "options": [
+      "as",
+      "that",
+      "like",
+      "than"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Para comparar igualdad se usa as + adjetivo + as.",
+      "wrong": {
+        "than": "\"than\" va con el comparativo (taller than), no con as … as.",
+        "that": "En español decimos \"tan alto como\" o \"más que\"; en inglés \"that\" no sirve para comparar.",
+        "like": "\"like\" significa \"como\" en el sentido de \"parecido a\", pero no completa la estructura as … as."
+      },
+      "examples": [
+        "My car is as fast as yours.",
+        "The test wasn't as hard as I thought."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-much-many-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "much-many",
+    "tags": [
+      "grammar",
+      "questions"
+    ],
+    "prompt": "How ___ water do you drink every day?",
+    "options": [
+      "much",
+      "a lot",
+      "lot",
+      "many"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "How much se usa con sustantivos incontables (water); how many, con contables.",
+      "wrong": {
+        "many": "\"many\" va con sustantivos contables en plural (how many glasses); water es incontable.",
+        "lot": "\"lot\" no se usa solo así; la expresión es a lot of y no va con How.",
+        "a lot": "\"How a lot\" no existe; para preguntar cantidad se usa How much / How many."
+      },
+      "examples": [
+        "How much money do you need?",
+        "How many brothers have you got?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-much-many-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "much-many",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "There aren't ___ people at the beach today. It's quiet.",
+    "options": [
+      "much",
+      "a lot",
+      "lot of",
+      "many"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En negativas, many va con contables en plural (people).",
+      "wrong": {
+        "much": "\"much\" va con incontables; people es contable y plural.",
+        "lot of": "Falta \"a\": la expresión correcta es a lot of.",
+        "a lot": "Falta \"of\" antes del sustantivo: a lot of people."
+      },
+      "examples": [
+        "There aren't many cars on the road.",
+        "I don't have many friends here."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-a-lot-of-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "a-lot-of",
+    "tags": [
+      "grammar",
+      "affirmative"
+    ],
+    "prompt": "We have ___ homework this week: five exercises every day!",
+    "options": [
+      "a lot",
+      "lots",
+      "a lot of",
+      "many"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "En frases afirmativas se usa a lot of con contables e incontables.",
+      "wrong": {
+        "many": "\"many\" va con contables en plural; homework es incontable.",
+        "a lot": "Delante de un sustantivo hace falta \"of\": a lot of homework.",
+        "lots": "\"lots\" también necesita \"of\" delante del sustantivo: lots of homework."
+      },
+      "examples": [
+        "She drinks a lot of coffee.",
+        "There are a lot of tourists in summer."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-countable-uncountable-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "countable-uncountable",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "¿Cuál de estos sustantivos es incontable en inglés?",
+    "options": [
+      "tip",
+      "advice",
+      "suggestion",
+      "idea"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Advice (consejo) es incontable: no tiene plural ni va con a/an. Se dice some advice o a piece of advice.",
+      "wrong": {
+        "suggestion": "\"suggestion\" es contable: a suggestion, two suggestions.",
+        "tip": "\"tip\" (consejo, truco) es contable: some useful tips.",
+        "idea": "\"idea\" es contable: a good idea, many ideas."
+      },
+      "examples": [
+        "Can I give you some advice?",
+        "She gave me a good piece of advice."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-countable-uncountable-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "countable-uncountable",
+    "tags": [
+      "grammar",
+      "information"
+    ],
+    "prompt": "Can you give me some ___ about hotels in London?",
+    "options": [
+      "informations",
+      "many information",
+      "information",
+      "an information"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Information es incontable en inglés: no lleva -s ni a/an.",
+      "wrong": {
+        "informations": "En español decimos \"informaciones\", pero en inglés information nunca lleva -s.",
+        "an information": "Al ser incontable no puede ir con \"an\".",
+        "many information": "\"many\" va con contables; además \"some\" ya está en la frase."
+      },
+      "examples": [
+        "I need more information.",
+        "The website has a lot of useful information."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-countable-uncountable-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "countable-uncountable",
+    "tags": [
+      "grammar",
+      "some"
+    ],
+    "prompt": "I need to buy ___ bread for breakfast.",
+    "options": [
+      "an",
+      "many",
+      "a",
+      "some"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Bread es incontable: se usa some bread o a loaf of bread, no a bread.",
+      "wrong": {
+        "a": "En español decimos \"un pan\", pero en inglés bread es incontable y no lleva \"a\".",
+        "many": "\"many\" va con contables en plural; bread es incontable.",
+        "an": "\"an\" va con contables singulares que empiezan por vocal; bread es incontable."
+      },
+      "examples": [
+        "Would you like some cheese?",
+        "We bought a loaf of bread."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-a-few-a-little-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "a-few-a-little",
+    "tags": [
+      "grammar",
+      "uncountable"
+    ],
+    "prompt": "There's ___ milk in the fridge, enough for your coffee.",
+    "options": [
+      "a few",
+      "few",
+      "a little",
+      "many"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "A little va con incontables (milk) y significa \"un poco, suficiente\".",
+      "wrong": {
+        "a few": "\"a few\" va con contables en plural (a few eggs); milk es incontable.",
+        "many": "\"many\" va con contables y \"There's many milk\" es incorrecto.",
+        "few": "\"few\" va con contables y significa \"pocos, casi ninguno\"."
+      },
+      "examples": [
+        "I have a little time now.",
+        "Add a little salt to the soup."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-a-few-a-little-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "a-few-a-little",
+    "tags": [
+      "grammar",
+      "countable"
+    ],
+    "prompt": "I have ___ friends in Canada, so I'm not alone there.",
+    "options": [
+      "a lot",
+      "a little",
+      "a few",
+      "much"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "A few va con contables en plural (friends) y significa \"unos pocos, algunos\".",
+      "wrong": {
+        "a little": "\"a little\" va con incontables (a little water), no con friends.",
+        "much": "\"much\" va con incontables y casi no se usa en afirmativas.",
+        "a lot": "Delante de un sustantivo falta \"of\": a lot of friends."
+      },
+      "examples": [
+        "We stayed there for a few days.",
+        "I bought a few apples."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-should-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "should",
+    "tags": [
+      "grammar",
+      "advice"
+    ],
+    "prompt": "You look really tired. You ___ go to bed early tonight.",
+    "options": [
+      "should",
+      "should to",
+      "shoulds",
+      "must to"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Should + infinitivo sin to se usa para dar consejos.",
+      "wrong": {
+        "should to": "Después de should no va \"to\": you should go.",
+        "shoulds": "Los verbos modales nunca llevan -s.",
+        "must to": "\"must\" tampoco lleva \"to\" detrás, y aquí se da un consejo, no una obligación."
+      },
+      "examples": [
+        "You should drink more water.",
+        "We should leave now."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-should-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "should",
+    "tags": [
+      "grammar",
+      "negative"
+    ],
+    "prompt": "You ___ eat so much sugar. It's bad for your teeth.",
+    "options": [
+      "not should",
+      "shouldn't",
+      "shouldn't to",
+      "don't should"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "La negativa de should es shouldn't + infinitivo sin to.",
+      "wrong": {
+        "don't should": "Should es modal y no usa el auxiliar do: you shouldn't.",
+        "not should": "\"not\" va después de should, no antes: should not / shouldn't.",
+        "shouldn't to": "Después de shouldn't no va \"to\"."
+      },
+      "examples": [
+        "You shouldn't drive so fast.",
+        "Children shouldn't stay up late."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-should-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "should",
+    "tags": [
+      "grammar",
+      "meaning"
+    ],
+    "prompt": "What does 'You should see a doctor' mean?",
+    "options": [
+      "Deberías ir al médico.",
+      "Viste a un médico por la calle.",
+      "Vas a ir al médico.",
+      "Fuiste al médico."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Should expresa consejo o recomendación: \"deberías\".",
+      "wrong": {
+        "Fuiste al médico.": "Eso sería \"You went to the doctor\" (pasado).",
+        "Vas a ir al médico.": "Eso sería \"You are going to see a doctor\" (plan).",
+        "Viste a un médico por la calle.": "Eso sería \"You saw a doctor in the street\"; should no es pasado de see."
+      },
+      "examples": [
+        "You should study more.",
+        "Should I call her?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-have-to-must-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "have-to-must",
+    "tags": [
+      "grammar",
+      "dont-have-to"
+    ],
+    "prompt": "Tomorrow is Saturday, so I ___ get up early. I can sleep until ten.",
+    "options": [
+      "don't have to",
+      "mustn't",
+      "haven't to",
+      "don't must"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Don't have to = no es necesario. Mustn't = está prohibido.",
+      "wrong": {
+        "mustn't": "\"mustn't\" significa que está prohibido; aquí solo no es necesario.",
+        "haven't to": "Have to forma la negativa con don't: don't have to.",
+        "don't must": "Must es modal y no usa do."
+      },
+      "examples": [
+        "You don't have to pay. It's free.",
+        "She doesn't have to work on Sundays."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-have-to-must-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "have-to-must",
+    "tags": [
+      "grammar",
+      "mustnt"
+    ],
+    "prompt": "You ___ smoke in the hospital. It's forbidden.",
+    "options": [
+      "don't have to",
+      "doesn't have to",
+      "mustn't",
+      "haven't"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Mustn't expresa prohibición: no puedes hacerlo.",
+      "wrong": {
+        "don't have to": "\"don't have to\" significa \"no es necesario\", no \"está prohibido\".",
+        "haven't": "\"haven't\" es auxiliar de los tiempos perfectos y no expresa prohibición.",
+        "doesn't have to": "\"doesn't\" no va con you, y además expresaría falta de necesidad."
+      },
+      "examples": [
+        "You mustn't use your phone during the exam.",
+        "We mustn't be late."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-have-to-must-003",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "have-to-must",
+    "tags": [
+      "grammar",
+      "has-to"
+    ],
+    "prompt": "My dad ___ wear a uniform at work. It's a company rule.",
+    "options": [
+      "have to",
+      "must to",
+      "has to",
+      "has"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Have to expresa obligación; con he/she/it es has to.",
+      "wrong": {
+        "have to": "Con he/she/it (my dad) se usa has to.",
+        "must to": "Must no lleva \"to\" detrás.",
+        "has": "Sin \"to\" significa \"tener\", no obligación: has to wear."
+      },
+      "examples": [
+        "She has to finish the report today.",
+        "I have to call my mum."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-have-to-must-004",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "have-to-must",
+    "tags": [
+      "grammar",
+      "past"
+    ],
+    "prompt": "Yesterday I ___ work late because we had a big project.",
+    "options": [
+      "must",
+      "have to",
+      "musted",
+      "had to"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Must no tiene pasado; para obligación en pasado se usa had to.",
+      "wrong": {
+        "must": "\"must\" solo se usa para presente o futuro; con yesterday hace falta had to.",
+        "have to": "\"have to\" es presente; yesterday pide pasado.",
+        "musted": "\"musted\" no existe; must no tiene pasado."
+      },
+      "examples": [
+        "We had to wait for an hour.",
+        "Did you have to wear a uniform at school?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-present-perfect-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "present-perfect",
+    "tags": [
+      "grammar",
+      "never"
+    ],
+    "prompt": "I have ___ been to Japan, but I'd love to go one day.",
+    "options": [
+      "ever",
+      "never",
+      "yet",
+      "already"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Never con present perfect significa \"nunca (en mi vida)\".",
+      "wrong": {
+        "ever": "\"ever\" se usa en preguntas (Have you ever…?), no en afirmativas así.",
+        "yet": "\"yet\" va al final de negativas y preguntas, no en esta posición.",
+        "already": "\"already\" significa que sí has ido, y eso contradice \"I'd love to go one day\"."
+      },
+      "examples": [
+        "She has never seen snow.",
+        "I've never eaten octopus."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-present-perfect-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "present-perfect",
+    "tags": [
+      "grammar",
+      "yet"
+    ],
+    "prompt": "I haven't finished my homework ___. I need ten more minutes.",
+    "options": [
+      "yet",
+      "just",
+      "already",
+      "ever"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Yet va al final de frases negativas y preguntas: \"todavía\".",
+      "wrong": {
+        "already": "\"already\" se usa en afirmativas (I've already finished), no al final de una negativa.",
+        "just": "\"just\" va entre have y el participio y significa \"acabar de\"; no encaja aquí.",
+        "ever": "\"ever\" se usa en preguntas sobre experiencias, no en esta negativa."
+      },
+      "examples": [
+        "Has the bus arrived yet?",
+        "They haven't called yet."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-present-perfect-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "present-perfect",
+    "tags": [
+      "grammar",
+      "just"
+    ],
+    "prompt": "Where's Paul? — He's ___ left. You missed him by one minute.",
+    "options": [
+      "yet",
+      "just",
+      "still",
+      "ever"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Just con present perfect significa \"acabar de\": algo muy reciente.",
+      "wrong": {
+        "yet": "\"yet\" va al final de negativas o preguntas, no entre has y el participio en una afirmativa.",
+        "ever": "\"ever\" se usa en preguntas sobre experiencias, no en esta afirmación.",
+        "still": "\"still\" significa \"todavía\" y no se usa así con el present perfect afirmativo."
+      },
+      "examples": [
+        "I've just had lunch.",
+        "The film has just started."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-present-perfect-004",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "present-perfect",
+    "tags": [
+      "grammar",
+      "already"
+    ],
+    "prompt": "We don't need to buy tickets. Sara has ___ bought them.",
+    "options": [
+      "never",
+      "yet",
+      "ever",
+      "already"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Already en afirmativas significa \"ya\": antes de lo esperado.",
+      "wrong": {
+        "yet": "\"yet\" va en negativas y preguntas y al final de la frase.",
+        "ever": "\"ever\" se usa en preguntas, no en una afirmación así.",
+        "never": "\"never\" contradice la primera frase: si nunca los compró, sí habría que comprarlos."
+      },
+      "examples": [
+        "I've already seen this film.",
+        "He has already left."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-adverbs-of-manner-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "adverbs-of-manner",
+    "tags": [
+      "grammar"
+    ],
+    "prompt": "Please drive ___. The road is wet.",
+    "options": [
+      "more careful",
+      "careful",
+      "carefully",
+      "carefuly"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Para decir cómo se hace algo se usa un adverbio: adjetivo + -ly (careful → carefully).",
+      "wrong": {
+        "careful": "\"careful\" es adjetivo; para modificar el verbo drive hace falta el adverbio carefully.",
+        "carefuly": "Se escribe con doble l: careful + ly = carefully.",
+        "more careful": "\"more careful\" es un adjetivo comparativo; el verbo drive necesita un adverbio."
+      },
+      "examples": [
+        "She sings beautifully.",
+        "Speak slowly, please."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-adverbs-of-manner-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "adverbs-of-manner",
+    "tags": [
+      "grammar",
+      "irregular"
+    ],
+    "prompt": "She speaks English very ___. She lived in London for five years.",
+    "options": [
+      "goodly",
+      "good",
+      "well",
+      "better"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "El adverbio de good es irregular: well.",
+      "wrong": {
+        "good": "\"good\" es adjetivo (a good student); para el verbo speak se usa well.",
+        "goodly": "\"goodly\" no existe como adverbio de good.",
+        "better": "\"better\" es comparativo y no va detrás de very."
+      },
+      "examples": [
+        "He plays the guitar well.",
+        "Did you sleep well?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-verb-gerund-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "verb-gerund",
+    "tags": [
+      "grammar",
+      "enjoy"
+    ],
+    "prompt": "I enjoy ___ in the sea in summer.",
+    "options": [
+      "swam",
+      "to swim",
+      "swim",
+      "swimming"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Enjoy va seguido de verbo en -ing.",
+      "wrong": {
+        "to swim": "En español decimos \"disfruto nadar\", pero enjoy no admite to + infinitivo.",
+        "swim": "Después de enjoy el verbo no va en infinitivo sin to.",
+        "swam": "\"swam\" es el pasado de swim; aquí hace falta la forma -ing."
+      },
+      "examples": [
+        "We enjoyed walking on the beach.",
+        "Do you enjoy cooking?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-verb-gerund-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "verb-gerund",
+    "tags": [
+      "grammar",
+      "hate"
+    ],
+    "prompt": "My brother hates ___ the dishes after dinner.",
+    "options": [
+      "did",
+      "doing",
+      "does",
+      "do"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Like, love y hate van seguidos de verbo en -ing para gustos generales.",
+      "wrong": {
+        "do": "Después de hates no puede ir el infinitivo sin to.",
+        "does": "\"does\" es la forma conjugada; después de otro verbo no se repite la conjugación.",
+        "did": "\"did\" es pasado; detrás de hates hace falta -ing."
+      },
+      "examples": [
+        "I hate getting up early.",
+        "She likes reading comics."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-verb-gerund-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "verb-gerund",
+    "tags": [
+      "grammar",
+      "love"
+    ],
+    "prompt": "Elige la frase correcta.",
+    "options": [
+      "She loves dance salsa.",
+      "She loves dancing salsa.",
+      "She loves to dancing salsa.",
+      "She love dancing salsa."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Love + verbo en -ing; con she el verbo principal lleva -s: she loves.",
+      "wrong": {
+        "She loves dance salsa.": "Después de loves no va el infinitivo sin to.",
+        "She love dancing salsa.": "Con she el verbo necesita -s: loves.",
+        "She loves to dancing salsa.": "No se pone \"to\" delante de la forma -ing."
+      },
+      "examples": [
+        "They love travelling.",
+        "My dad loves playing chess."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-too-enough-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "too-enough",
+    "tags": [
+      "grammar",
+      "too"
+    ],
+    "prompt": "I can't drink this coffee. It's ___ hot.",
+    "options": [
+      "very much",
+      "too",
+      "to",
+      "enough"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Too + adjetivo = demasiado, con un resultado negativo.",
+      "wrong": {
+        "enough": "\"enough\" va detrás del adjetivo (hot enough) y significa \"suficiente\", lo contrario de lo que se quiere decir.",
+        "very much": "\"very much\" no va delante de un adjetivo.",
+        "to": "\"to\" es una preposición; \"demasiado\" se escribe too, con dos o."
+      },
+      "examples": [
+        "This shirt is too small for me.",
+        "It's too late to call him."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-too-enough-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "too-enough",
+    "tags": [
+      "grammar",
+      "enough"
+    ],
+    "prompt": "He isn't old ___ to drive a car. He's only 15.",
+    "options": [
+      "so",
+      "too",
+      "very",
+      "enough"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Adjetivo + enough = suficientemente. Enough va DETRÁS del adjetivo.",
+      "wrong": {
+        "too": "\"too\" va delante del adjetivo (too old) y no encaja después de old.",
+        "very": "\"very\" va delante del adjetivo, no detrás.",
+        "so": "\"so\" va delante del adjetivo (so old) y no forma esta estructura con to."
+      },
+      "examples": [
+        "The room isn't big enough.",
+        "Are you warm enough?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-too-enough-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "too-enough",
+    "tags": [
+      "grammar",
+      "nouns"
+    ],
+    "prompt": "We don't have ___ money to buy a new car.",
+    "options": [
+      "too",
+      "too much",
+      "enough",
+      "enough of"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Enough + sustantivo = suficiente. Con sustantivos, enough va DELANTE.",
+      "wrong": {
+        "too": "\"too\" no va delante de un sustantivo; sería too much money.",
+        "too much": "\"too much money\" (demasiado dinero) no tiene sentido con \"don't have … to buy\".",
+        "enough of": "No se usa \"of\" entre enough y un sustantivo sin determinante: enough money."
+      },
+      "examples": [
+        "Is there enough food for everyone?",
+        "I don't have enough time."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-prepositions-of-movement-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "prepositions-of-movement",
+    "tags": [
+      "grammar",
+      "through"
+    ],
+    "prompt": "We walked ___ the tunnel to get to the other side of the mountain.",
+    "options": [
+      "for",
+      "through",
+      "by",
+      "on"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Through = a través de, por dentro de algo (un túnel, un bosque).",
+      "wrong": {
+        "by": "En español decimos \"por el túnel\", pero by significa \"junto a\" o \"pasando al lado\".",
+        "on": "\"on\" indica encima de una superficie, no por dentro.",
+        "for": "\"for\" no indica movimiento; es otra traducción errónea de \"por\"."
+      },
+      "examples": [
+        "The train goes through a long tunnel.",
+        "We walked through the forest."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-prepositions-of-movement-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "prepositions-of-movement",
+    "tags": [
+      "grammar",
+      "up"
+    ],
+    "prompt": "Walk ___ the stairs to the second floor and the office is on the left.",
+    "options": [
+      "on",
+      "for",
+      "above",
+      "up"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Up = hacia arriba; down = hacia abajo (go up/down the stairs).",
+      "wrong": {
+        "on": "\"on the stairs\" indica posición (estar en la escalera), no movimiento hacia arriba.",
+        "for": "\"for\" no indica dirección; en español decimos \"sube por las escaleras\", pero en inglés es up the stairs.",
+        "above": "\"above\" indica posición más alta, sin movimiento."
+      },
+      "examples": [
+        "She ran up the hill.",
+        "Go down the street and turn right."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-prepositions-of-movement-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "prepositions-of-movement",
+    "tags": [
+      "grammar",
+      "out-of"
+    ],
+    "prompt": "The children ran ___ the classroom when the bell rang.",
+    "options": [
+      "of",
+      "out from",
+      "off",
+      "out of"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Out of = salir de un espacio cerrado (out of the room, out of the car).",
+      "wrong": {
+        "out from": "La forma correcta es out of, no out from.",
+        "off": "\"off\" se usa con superficies o transportes como el autobús (get off the bus), no con una habitación.",
+        "of": "\"of\" sola no indica movimiento; hace falta out of."
+      },
+      "examples": [
+        "He got out of the taxi.",
+        "The cat jumped out of the box."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-subject-object-questions-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "subject-object-questions",
+    "tags": [
+      "grammar",
+      "subject-question"
+    ],
+    "prompt": "Who ___ the window? — Tom broke it.",
+    "options": [
+      "did broke",
+      "breaked",
+      "does broke",
+      "broke"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Si who es el sujeto (Tom rompió), no se usa did: Who broke…?",
+      "wrong": {
+        "did broke": "Who es el sujeto, así que no hace falta did; además, después de did iría break, no broke.",
+        "does broke": "\"does\" es presente y no va con broke.",
+        "breaked": "\"breaked\" no existe: break es irregular (broke)."
+      },
+      "examples": [
+        "Who called you? — My boss called me.",
+        "Who wrote this book?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-subject-object-questions-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "subject-object-questions",
+    "tags": [
+      "grammar",
+      "object-question"
+    ],
+    "prompt": "Who ___ you call last night? — I called my sister.",
+    "options": [
+      "did",
+      "have",
+      "do",
+      "was"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Si who es el objeto (llamaste a alguien), se usa did + sujeto + infinitivo.",
+      "wrong": {
+        "was": "\"was\" no forma preguntas con un infinitivo como call.",
+        "do": "\"do\" es presente; \"last night\" pide did.",
+        "have": "\"have\" pediría el participio (called) y no se usa con last night."
+      },
+      "examples": [
+        "Who did you see at the party?",
+        "What did she buy?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-subject-object-questions-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "subject-object-questions",
+    "tags": [
+      "grammar",
+      "subject-question"
+    ],
+    "prompt": "What ___ at the party last night? — Nothing special.",
+    "options": [
+      "happened",
+      "did it happen",
+      "happens",
+      "did happen"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Si what es el sujeto, la pregunta no usa did: What happened?",
+      "wrong": {
+        "did happen": "What es el sujeto, así que no se usa did en una pregunta normal.",
+        "did it happen": "\"it\" sobra: what ya es el sujeto.",
+        "happens": "\"happens\" es presente; \"last night\" pide pasado."
+      },
+      "examples": [
+        "What happened to your car?",
+        "Who lives here?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-possessive-pronouns-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "possessive-pronouns",
+    "tags": [
+      "grammar",
+      "mine"
+    ],
+    "prompt": "This isn't my umbrella. ___ is blue.",
+    "options": [
+      "Mine's",
+      "Mine",
+      "Me",
+      "My"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Mine = el mío/la mía; sustituye a my + sustantivo.",
+      "wrong": {
+        "My": "\"My\" necesita un sustantivo detrás (my umbrella).",
+        "Me": "\"Me\" es pronombre objeto, no posesivo.",
+        "Mine's": "\"Mine's\" ya significa \"mine is\", así que repetiría el verbo."
+      },
+      "examples": [
+        "That bag is mine.",
+        "Your car is red; mine is black."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-possessive-pronouns-002",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "possessive-pronouns",
+    "tags": [
+      "grammar",
+      "yours"
+    ],
+    "prompt": "Is this pen ___ or mine?",
+    "options": [
+      "yours",
+      "your's",
+      "your",
+      "you"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Yours = el tuyo/la tuya. Los pronombres posesivos no llevan apóstrofo.",
+      "wrong": {
+        "your": "\"your\" necesita un sustantivo detrás (your pen).",
+        "you": "\"you\" es pronombre personal, no posesivo.",
+        "your's": "Los posesivos nunca llevan apóstrofo: yours."
+      },
+      "examples": [
+        "Is this phone yours?",
+        "My room is bigger than yours."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-possessive-pronouns-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "possessive-pronouns",
+    "tags": [
+      "grammar",
+      "theirs"
+    ],
+    "prompt": "Those bikes aren't ours. They're ___.",
+    "options": [
+      "theirs",
+      "their",
+      "them",
+      "their's"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Theirs = el suyo/los suyos (de ellos).",
+      "wrong": {
+        "their": "\"their\" necesita un sustantivo detrás (their bikes).",
+        "them": "\"them\" es pronombre objeto (I see them), no posesivo.",
+        "their's": "Los posesivos no llevan apóstrofo: theirs."
+      },
+      "examples": [
+        "The house on the corner is theirs.",
+        "Is this table ours or theirs?"
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-would-like-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "would-like",
+    "tags": [
+      "grammar",
+      "noun"
+    ],
+    "prompt": "Waiter: What can I get you? — I ___ a glass of water, please.",
+    "options": [
+      "would like to",
+      "like to",
+      "am like",
+      "would like"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Would like + sustantivo = quisiera; es la forma educada de pedir algo.",
+      "wrong": {
+        "would like to": "Con un sustantivo no va \"to\"; sería would like to + verbo (would like to drink).",
+        "like to": "\"like to\" expresa un gusto general y necesitaría un verbo detrás.",
+        "am like": "\"am like\" no es correcto: like no se usa con be así."
+      },
+      "examples": [
+        "I'd like a coffee, please.",
+        "We would like a table for two."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-would-like-002",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "would-like",
+    "tags": [
+      "grammar",
+      "infinitive"
+    ],
+    "prompt": "Would you like ___ to the cinema with us tonight?",
+    "options": [
+      "come",
+      "to coming",
+      "coming",
+      "to come"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Would like + to + infinitivo (a diferencia de like + -ing).",
+      "wrong": {
+        "coming": "Con would like no se usa -ing; eso es con like para gustos generales.",
+        "come": "Falta \"to\": would like to come.",
+        "to coming": "Después de \"to\" va el infinitivo, no la forma -ing."
+      },
+      "examples": [
+        "Would you like to dance?",
+        "I'd like to visit Peru one day."
+      ]
+    }
+  },
+  {
+    "id": "gram-a2-would-like-003",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "would-like",
+    "tags": [
+      "grammar",
+      "meaning"
+    ],
+    "prompt": "What does 'I'd like a sandwich' mean?",
+    "options": [
+      "Tenía un sándwich.",
+      "Quisiera un sándwich.",
+      "Me gustan los sándwiches.",
+      "Me gustó el sándwich."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "I'd like = I would like = quisiera / me gustaría.",
+      "wrong": {
+        "Me gustó el sándwich.": "Eso sería \"I liked the sandwich\" (pasado).",
+        "Me gustan los sándwiches.": "Eso sería \"I like sandwiches\" (gusto general).",
+        "Tenía un sándwich.": "Eso sería \"I had a sandwich\"; 'd aquí es would, no had."
+      },
+      "examples": [
+        "I'd like some help, please.",
+        "She'd like a new laptop."
+      ]
+    }
+  }
+]

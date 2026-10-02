@@ -1,0 +1,898 @@
+[
+  {
+    "id": "pv-a1-get-up-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "get-up",
+    "tags": [
+      "phrasal-verb",
+      "daily-routine"
+    ],
+    "prompt": "I ___ at 7 o'clock every morning and have a shower.",
+    "options": [
+      "stand up",
+      "get up",
+      "rise up",
+      "get on"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Get up\" significa levantarse de la cama.",
+      "wrong": {
+        "stand up": "\"stand up\" es ponerse de pie (por ejemplo, de una silla). Para salir de la cama por la mañana se dice \"get up\".",
+        "rise up": "\"rise up\" significa sublevarse o rebelarse; no se usa para levantarse de la cama.",
+        "get on": "\"get on\" es subir a un autobús, tren o avión, no levantarse."
+      },
+      "examples": [
+        "What time do you get up on Sundays?",
+        "She gets up early for work."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-wake-up-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "wake-up",
+    "tags": [
+      "phrasal-verb",
+      "daily-routine"
+    ],
+    "prompt": "My alarm rings and I wake up. What does 'wake up' mean?",
+    "options": [
+      "despertarse",
+      "levantarse",
+      "dormirse",
+      "acostarse"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Wake up\" significa despertarse (abrir los ojos después de dormir).",
+      "wrong": {
+        "levantarse": "Levantarse (salir de la cama) es \"get up\". Puedes despertarte y quedarte en la cama.",
+        "dormirse": "Dormirse es \"fall asleep\", lo contrario de \"wake up\".",
+        "acostarse": "Acostarse es \"go to bed\"."
+      },
+      "examples": [
+        "I wake up at 6:30.",
+        "The baby wakes up at night."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-sit-down-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "sit-down",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Please come in and ___. The doctor will see you in five minutes.",
+    "options": [
+      "sit on",
+      "seat down",
+      "sit up",
+      "sit down"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Sit down\" significa sentarse.",
+      "wrong": {
+        "sit on": "\"sit on\" necesita decir dónde: \"sit on the chair\". Solo, sin objeto, no funciona aquí.",
+        "seat down": "\"seat\" es asiento (sustantivo); el verbo para sentarse es \"sit\": \"sit down\".",
+        "sit up": "\"sit up\" es enderezarse o incorporarse en la silla o la cama, no sentarse."
+      },
+      "examples": [
+        "Sit down, please.",
+        "We sat down at the table."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-stand-up-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "stand-up",
+    "tags": [
+      "phrasal-verb",
+      "school"
+    ],
+    "prompt": "When the teacher comes into the classroom, all the students ___.",
+    "options": [
+      "stand on",
+      "stay up",
+      "stand up",
+      "go up"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Stand up\" significa ponerse de pie.",
+      "wrong": {
+        "stand on": "\"stand on\" es estar de pie encima de algo (\"stand on a chair\") y necesita objeto.",
+        "stay up": "\"stay up\" es quedarse despierto hasta tarde, no ponerse de pie.",
+        "go up": "\"go up\" es subir (escaleras, precios). En español decimos \"se levantan\", pero en inglés es \"stand up\"."
+      },
+      "examples": [
+        "Please stand up and say your name.",
+        "He stood up and opened the door."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-turn-on-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "turn-on",
+    "tags": [
+      "phrasal-verb",
+      "home"
+    ],
+    "prompt": "It's dark in here. Can you ___ the light, please?",
+    "options": [
+      "turn on",
+      "turn off",
+      "open",
+      "turn in"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Turn on\" significa encender (luz, televisión, aparatos).",
+      "wrong": {
+        "turn off": "\"turn off\" es apagar. Si está oscuro, necesitas encender la luz.",
+        "open": "En algunos lugares se dice \"abrir la luz\", pero en inglés la luz no se \"open\": se dice \"turn on\".",
+        "turn in": "\"turn in\" es entregar (un trabajo) o irse a dormir; no sirve para la luz."
+      },
+      "examples": [
+        "Turn on the TV, please.",
+        "I turn on my computer at 9."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-turn-off-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "turn-off",
+    "tags": [
+      "phrasal-verb",
+      "technology"
+    ],
+    "prompt": "The teacher says: 'Turn off your phones, please.' What does 'turn off' mean here?",
+    "options": [
+      "encender",
+      "girar",
+      "apagar",
+      "bajar el volumen"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Turn off\" significa apagar un aparato o una luz.",
+      "wrong": {
+        "encender": "Encender es \"turn on\", lo contrario.",
+        "girar": "\"turn\" solo puede ser girar, pero \"turn off\" con un aparato es apagar.",
+        "bajar el volumen": "Bajar el volumen es \"turn down\"."
+      },
+      "examples": [
+        "Turn off the lights when you leave.",
+        "Did you turn off the oven?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-put-on-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "put-on",
+    "tags": [
+      "phrasal-verb",
+      "clothes"
+    ],
+    "prompt": "It's very cold outside. ___ your coat before you leave.",
+    "options": [
+      "Take off",
+      "Put on",
+      "Wear on",
+      "Dress"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Put on\" significa ponerse una prenda de ropa.",
+      "wrong": {
+        "Take off": "\"take off\" es quitarse la ropa. Con frío te pones el abrigo.",
+        "Wear on": "\"wear\" es llevar puesto, y \"wear on\" no tiene este significado. Ponerse es \"put on\".",
+        "Dress": "\"dress\" es vestir(se) a una persona (\"dress the baby\"), no se usa con una prenda como objeto."
+      },
+      "examples": [
+        "Put on your shoes.",
+        "She put on a hat."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-take-off-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "take-off",
+    "tags": [
+      "phrasal-verb",
+      "clothes"
+    ],
+    "prompt": "Please ___ your shoes before you come into the house.",
+    "options": [
+      "take off",
+      "put on",
+      "take out",
+      "get off"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Take off\" significa quitarse una prenda de ropa.",
+      "wrong": {
+        "put on": "\"put on\" es ponerse; antes de entrar en casa normalmente te los quitas.",
+        "take out": "\"take out\" es sacar algo de un sitio (\"take out your book\"); con ropa se dice \"take off\".",
+        "get off": "\"get off\" es bajarse de un autobús o tren, no quitarse ropa."
+      },
+      "examples": [
+        "Take off your jacket, it's warm in here.",
+        "He took off his glasses."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-come-in-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "come-in",
+    "tags": [
+      "phrasal-verb",
+      "home"
+    ],
+    "prompt": "Someone knocks on your door. You want them to enter. What do you say?",
+    "options": [
+      "Go in!",
+      "Enter in!",
+      "Come on!",
+      "Come in!"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Come in\" significa entrar (hacia donde está quien habla). \"Come in!\" = ¡Pasa! / ¡Adelante!",
+      "wrong": {
+        "Go in!": "\"go in\" es entrar en un lugar lejos de quien habla. Si tú estás dentro, invitas con \"Come in!\".",
+        "Enter in!": "En inglés \"enter\" no lleva \"in\". La forma natural de invitar a pasar es \"Come in!\".",
+        "Come on!": "\"Come on!\" significa ¡vamos! o ¡venga!, no ¡pasa!"
+      },
+      "examples": [
+        "Come in and sit down.",
+        "Can I come in?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-go-out-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "go-out",
+    "tags": [
+      "phrasal-verb",
+      "free-time"
+    ],
+    "prompt": "On Saturday night we usually ___ for dinner with our friends.",
+    "options": [
+      "go off",
+      "go out",
+      "get out",
+      "come out"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Go out\" significa salir (a divertirse, a cenar, etc.).",
+      "wrong": {
+        "go off": "\"go off\" es sonar (una alarma) o estropearse (la comida); no es salir.",
+        "get out": "\"get out\" es salir de un lugar con esfuerzo o echar a alguien (\"Get out!\"); para salir a cenar se dice \"go out\".",
+        "come out": "\"come out\" es salir hacia donde está quien habla o publicarse (un libro); no es salir a divertirse."
+      },
+      "examples": [
+        "Do you want to go out tonight?",
+        "They go out every Friday."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-look-at-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "look-at",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "___ this photo! It's my new puppy.",
+    "options": [
+      "Look",
+      "Look for",
+      "Look at",
+      "See at"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Look at\" significa mirar algo; necesita \"at\" antes del objeto.",
+      "wrong": {
+        "Look": "En español decimos \"mira esta foto\", pero en inglés \"look\" necesita \"at\" antes del objeto: \"look at this photo\".",
+        "Look for": "\"look for\" es buscar; la foto ya está aquí, solo quieres que la miren.",
+        "See at": "\"see\" no lleva \"at\". Para pedir que alguien mire algo se usa \"look at\"."
+      },
+      "examples": [
+        "Look at the board, please.",
+        "She is looking at the map."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-look-for-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "look-for",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "I'm ___ my keys. I can't find them anywhere!",
+    "options": [
+      "looking at",
+      "searching",
+      "looking after",
+      "looking for"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Look for\" significa buscar algo que no encuentras.",
+      "wrong": {
+        "looking at": "\"look at\" es mirar algo que ves; si no encuentras las llaves, las estás buscando.",
+        "searching": "\"search\" sin \"for\" significa registrar un lugar: \"search my keys\" no es buscar las llaves. Lo natural es \"look for\".",
+        "looking after": "\"look after\" es cuidar (a una persona o animal), no buscar."
+      },
+      "examples": [
+        "What are you looking for?",
+        "We are looking for a hotel."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-listen-to-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "listen-to",
+    "tags": [
+      "phrasal-verb",
+      "free-time"
+    ],
+    "prompt": "I ___ music on the bus every morning.",
+    "options": [
+      "listen",
+      "listen to",
+      "hear to",
+      "listen at"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Listen to\" significa escuchar; antes del objeto siempre lleva \"to\".",
+      "wrong": {
+        "listen": "En español decimos \"escucho música\" sin preposición, pero en inglés hace falta \"to\": \"listen to music\".",
+        "hear to": "\"hear\" (oír) nunca lleva \"to\". Para escuchar con atención se usa \"listen to\".",
+        "listen at": "La preposición de \"listen\" es \"to\", no \"at\"."
+      },
+      "examples": [
+        "Listen to me, please.",
+        "She listens to the radio in the car."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-pick-up-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "pick-up",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "There are some papers on the floor. Can you ___ those papers, please?",
+    "options": [
+      "pick up",
+      "take up",
+      "raise",
+      "catch"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Pick up\" significa recoger o levantar algo del suelo o de una mesa.",
+      "wrong": {
+        "take up": "\"take up\" es empezar una afición (\"take up yoga\") u ocupar espacio; no es recoger del suelo.",
+        "raise": "\"raise\" es levantar o subir algo (la mano, los precios), no recoger algo del suelo.",
+        "catch": "\"catch\" es atrapar algo que está en el aire, como una pelota."
+      },
+      "examples": [
+        "Pick up your toys, please.",
+        "He picked up the phone."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-write-down-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "write-down",
+    "tags": [
+      "phrasal-verb",
+      "school"
+    ],
+    "prompt": "'Write down my phone number.' What does 'write down' mean?",
+    "options": [
+      "escribir abajo del todo",
+      "anotar, apuntar",
+      "borrar",
+      "dictar"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Write down\" significa anotar o apuntar algo para no olvidarlo.",
+      "wrong": {
+        "escribir abajo del todo": "Es una traducción literal. \"Down\" aquí no indica posición: \"write down\" es anotar.",
+        "borrar": "Borrar es \"delete\" o \"rub out\", lo contrario de anotar.",
+        "dictar": "Dictar es \"dictate\"; quien hace \"write down\" es quien escribe."
+      },
+      "examples": [
+        "Write down the new words in your notebook.",
+        "I wrote down her address."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-come-back-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "come-back",
+    "tags": [
+      "phrasal-verb",
+      "family"
+    ],
+    "prompt": "My dad is in London for work. He ___ home on Friday.",
+    "options": [
+      "comes out",
+      "comes again",
+      "comes back",
+      "returns back"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Come back\" significa volver al lugar donde está quien habla.",
+      "wrong": {
+        "comes out": "\"come out\" es salir, no volver a casa.",
+        "comes again": "\"come again\" es venir otra vez de visita; para volver a casa se usa \"come back\".",
+        "returns back": "\"return\" ya significa volver; añadir \"back\" es repetir la idea. Di \"returns\" o \"comes back\"."
+      },
+      "examples": [
+        "Come back soon!",
+        "What time do you come back from school?"
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-go-back-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "go-back",
+    "tags": [
+      "phrasal-verb",
+      "travel"
+    ],
+    "prompt": "We live in Madrid. Our friend Ana is from Mexico. Every summer she ___ to Mexico to see her family.",
+    "options": [
+      "goes back",
+      "comes back",
+      "goes out",
+      "turns back"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Go back\" significa volver a un lugar donde no está quien habla.",
+      "wrong": {
+        "comes back": "\"come back\" es volver hacia donde está quien habla. Nosotros estamos en Madrid, no en México, así que es \"goes back\".",
+        "goes out": "\"go out\" es salir (a divertirse), no volver a su país.",
+        "turns back": "\"turn back\" es dar la vuelta a mitad de camino, no viajar a su país cada verano."
+      },
+      "examples": [
+        "I want to go back to Paris one day.",
+        "He went back home at 10."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-get-on-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "get-on",
+    "tags": [
+      "phrasal-verb",
+      "transport"
+    ],
+    "prompt": "Quick! ___ the bus, it's leaving!",
+    "options": [
+      "Go up",
+      "Get up",
+      "Enter in",
+      "Get on"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Get on\" significa subir a un autobús, tren, avión o bicicleta.",
+      "wrong": {
+        "Go up": "En español decimos \"subir al autobús\", pero en inglés \"go up\" es subir escaleras o una cuesta. Al autobús se dice \"get on\".",
+        "Get up": "\"get up\" es levantarse de la cama.",
+        "Enter in": "\"enter\" no lleva \"in\", y para el autobús lo natural es \"get on\"."
+      },
+      "examples": [
+        "We got on the train at 8.",
+        "Get on the bus at the next stop."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-get-off-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "get-off",
+    "tags": [
+      "phrasal-verb",
+      "transport"
+    ],
+    "prompt": "This is our stop. We need to ___ the bus now.",
+    "options": [
+      "get down",
+      "go down",
+      "get off",
+      "get out"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Get off\" significa bajarse de un autobús, tren, avión o bicicleta.",
+      "wrong": {
+        "get down": "\"get down\" es agacharse o bajar de un sitio alto; del autobús te bajas con \"get off\".",
+        "go down": "En español decimos \"bajar del autobús\", pero \"go down\" es bajar escaleras o una calle.",
+        "get out": "\"get out\" se usa con coches y necesita \"of\" (\"get out of the car\"); del autobús se dice \"get off\"."
+      },
+      "examples": [
+        "Get off at the next station.",
+        "She got off the plane in Rome."
+      ]
+    }
+  },
+  {
+    "id": "pv-a1-slow-down-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "slow-down",
+    "tags": [
+      "phrasal-verb",
+      "transport"
+    ],
+    "prompt": "You're driving too fast! Please ___.",
+    "options": [
+      "go down",
+      "slow down",
+      "speed up",
+      "down slow"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Slow down\" significa ir más despacio, reducir la velocidad.",
+      "wrong": {
+        "go down": "\"go down\" es bajar (escaleras, precios); para reducir la velocidad se dice \"slow down\".",
+        "speed up": "\"speed up\" es acelerar, lo contrario de lo que pides.",
+        "down slow": "El orden es verbo + partícula: \"slow down\", no \"down slow\"."
+      },
+      "examples": [
+        "Slow down, there's a school here.",
+        "Can you slow down? I can't follow you."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-hows-it-going-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "hows-it-going",
+    "tags": [
+      "idiom",
+      "greetings"
+    ],
+    "prompt": "A friend says: 'Hi! How's it going?' What is a good answer?",
+    "options": [
+      "I'm going to school.",
+      "It's going by bus.",
+      "Fine, thanks! And you?",
+      "I'm 20 years old."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"How's it going?\" es un saludo informal: ¿Qué tal? / ¿Cómo va todo?",
+      "wrong": {
+        "I'm going to school.": "La pregunta no es adónde vas; \"How's it going?\" pregunta qué tal estás.",
+        "It's going by bus.": "No es una pregunta sobre transporte; es un saludo como \"¿qué tal?\".",
+        "I'm 20 years old.": "Eso responde a \"How old are you?\", no a \"How's it going?\"."
+      },
+      "examples": [
+        "A: How's it going? B: Not bad, thanks.",
+        "Hey Tom, how's it going?"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-take-care-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "take-care",
+    "tags": [
+      "idiom",
+      "goodbyes"
+    ],
+    "prompt": "At the end of a phone call your friend says: 'Bye! Take care!' What does 'Take care!' mean?",
+    "options": [
+      "¡Cuídate!",
+      "¡Toma esto!",
+      "¡Date prisa!",
+      "¡Que aproveche!"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Take care!\" se usa al despedirse y significa ¡Cuídate!",
+      "wrong": {
+        "¡Toma esto!": "Es una traducción literal de \"take\". La expresión \"Take care!\" es una despedida: ¡Cuídate!",
+        "¡Date prisa!": "¡Date prisa! es \"Hurry up!\".",
+        "¡Que aproveche!": "¡Que aproveche! es \"Enjoy your meal!\"."
+      },
+      "examples": [
+        "Bye, Maria. Take care!",
+        "Take care, see you next week."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-no-way-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "no-way",
+    "tags": [
+      "idiom",
+      "reactions"
+    ],
+    "prompt": "A: I won 1,000 euros in a competition! B: ___ That's amazing!",
+    "options": [
+      "No problem!",
+      "Never mind!",
+      "No thanks!",
+      "No way!"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"No way!\" expresa sorpresa: ¡No me digas! / ¡Imposible!",
+      "wrong": {
+        "No problem!": "\"No problem!\" se dice cuando alguien da las gracias o pide un favor, no para mostrar sorpresa.",
+        "Never mind!": "\"Never mind!\" es \"no pasa nada\" o \"olvídalo\"; no muestra sorpresa ante una buena noticia.",
+        "No thanks!": "\"No thanks!\" es rechazar algo que te ofrecen."
+      },
+      "examples": [
+        "A: I met Taylor Swift! B: No way!",
+        "No way! Is that true?"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-never-mind-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "never-mind",
+    "tags": [
+      "idiom",
+      "reactions"
+    ],
+    "prompt": "A: Sorry, I forgot to bring your book. B: ___ You can bring it tomorrow.",
+    "options": [
+      "No way!",
+      "Never mind.",
+      "You're welcome.",
+      "Of course."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Never mind\" significa no pasa nada / no te preocupes / olvídalo.",
+      "wrong": {
+        "No way!": "\"No way!\" expresa sorpresa o un rechazo fuerte, no tranquiliza a alguien que pide perdón.",
+        "You're welcome.": "\"You're welcome\" es la respuesta a \"Thank you\", no a \"Sorry\".",
+        "Of course.": "\"Of course\" es \"claro\" o \"por supuesto\"; no responde bien a una disculpa."
+      },
+      "examples": [
+        "A: I can't find the pen. B: Never mind, I have another one.",
+        "Never mind, it's not important."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-hang-on-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "hang-on",
+    "tags": [
+      "idiom",
+      "phone"
+    ],
+    "prompt": "'Hang on a minute, I'm putting on my shoes.' What does 'Hang on' mean here?",
+    "options": [
+      "Cuelga",
+      "Agárrate fuerte",
+      "Date prisa",
+      "Espera"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Hang on (a minute/a second)\" significa espera un momento.",
+      "wrong": {
+        "Cuelga": "Colgar el teléfono es \"hang up\". \"Hang on\" es esperar.",
+        "Agárrate fuerte": "Puede significar agarrarse, pero aquí la persona se está poniendo los zapatos: pide que esperes.",
+        "Date prisa": "Date prisa es \"Hurry up\", casi lo contrario."
+      },
+      "examples": [
+        "Hang on, I'm coming!",
+        "Hang on a second, I need my bag."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-me-neither-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "me-too-me-neither",
+    "tags": [
+      "idiom",
+      "agreeing"
+    ],
+    "prompt": "A: I don't like coffee. B: ___",
+    "options": [
+      "Me too.",
+      "Me no.",
+      "Me neither.",
+      "Me also."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Para estar de acuerdo con una frase negativa se dice \"Me neither\" (yo tampoco); con una afirmativa, \"Me too\" (yo también).",
+      "wrong": {
+        "Me too.": "\"Me too\" es \"yo también\" y responde a frases afirmativas (\"I like coffee\" - \"Me too\"). Aquí la frase es negativa.",
+        "Me no.": "Es una traducción literal de \"yo no\"; en inglés no existe. Para decir \"yo tampoco\" se usa \"Me neither\".",
+        "Me also.": "\"Me also\" no se usa en inglés; además, la frase es negativa, así que necesitas \"Me neither\"."
+      },
+      "examples": [
+        "A: I'm hungry. B: Me too!",
+        "A: I can't swim. B: Me neither."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-youre-welcome-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "youre-welcome",
+    "tags": [
+      "idiom",
+      "politeness"
+    ],
+    "prompt": "A: Thank you for the coffee! B: ___",
+    "options": [
+      "Welcome.",
+      "You're welcome.",
+      "Of nothing.",
+      "Never mind."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"You're welcome\" es la respuesta normal a \"Thank you\": de nada.",
+      "wrong": {
+        "Welcome.": "\"Welcome\" solo significa bienvenido (\"Welcome to Spain!\"). Para \"de nada\" se dice \"You're welcome\".",
+        "Of nothing.": "Es una traducción literal de \"de nada\"; en inglés no existe.",
+        "Never mind.": "\"Never mind\" es \"no pasa nada\" después de un problema o una disculpa, no después de un \"gracias\"."
+      },
+      "examples": [
+        "A: Thanks for your help. B: You're welcome.",
+        "You're welcome, any time!"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-good-luck-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "good-luck",
+    "tags": [
+      "idiom",
+      "wishes"
+    ],
+    "prompt": "A: Tomorrow is my driving test! B: ___! I'm sure you can do it.",
+    "options": [
+      "Good luck",
+      "Lucky you",
+      "Have luck",
+      "Good look"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Good luck!\" significa ¡Buena suerte! y se dice antes de algo difícil.",
+      "wrong": {
+        "Lucky you": "\"Lucky you!\" es \"¡qué suerte tienes!\", y se dice cuando a alguien ya le ha pasado algo bueno.",
+        "Have luck": "Es una traducción literal de \"que tengas suerte\"; en inglés se dice \"Good luck!\".",
+        "Good look": "\"look\" (mirada, aspecto) no es \"luck\" (suerte); se pronuncian parecido, pero se escriben y significan distinto."
+      },
+      "examples": [
+        "Good luck with your exam!",
+        "Good luck in your new job!"
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-of-course-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "of-course",
+    "tags": [
+      "idiom",
+      "politeness"
+    ],
+    "prompt": "A: Can I use your pen? B: Of course! What does B mean?",
+    "options": [
+      "Del curso",
+      "Por desgracia",
+      "Claro, por supuesto",
+      "Tal vez"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Of course\" significa claro / por supuesto.",
+      "wrong": {
+        "Del curso": "Es una traducción literal palabra por palabra; \"of course\" es una expresión fija: claro, por supuesto.",
+        "Por desgracia": "Por desgracia es \"unfortunately\".",
+        "Tal vez": "Tal vez es \"maybe\" o \"perhaps\"; \"of course\" es un sí seguro."
+      },
+      "examples": [
+        "A: Can you help me? B: Of course!",
+        "Of course you can come to the party."
+      ]
+    }
+  },
+  {
+    "id": "idiom-a1-see-you-later-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "see-you-later",
+    "tags": [
+      "idiom",
+      "goodbyes"
+    ],
+    "prompt": "You leave the office for lunch. You will see your colleague again in the afternoon. What do you say?",
+    "options": [
+      "See you later!",
+      "See you before!",
+      "Look you later!",
+      "Nice to meet you!"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"See you later!\" es una despedida: ¡Hasta luego!",
+      "wrong": {
+        "See you before!": "\"before\" es antes; vas a ver a tu compañero después, así que es \"See you later!\".",
+        "Look you later!": "\"look\" no funciona así; la expresión fija usa \"see\": \"See you later!\".",
+        "Nice to meet you!": "\"Nice to meet you!\" se dice al conocer a alguien por primera vez, no al despedirse de un compañero."
+      },
+      "examples": [
+        "Bye, Tom! See you later!",
+        "See you later at the gym."
+      ]
+    }
+  }
+]

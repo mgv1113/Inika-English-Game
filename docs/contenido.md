@@ -44,3 +44,9 @@ Las preguntas están en `content/questions/*.json`. Cada archivo es una lista de
 - Cada distractor debe ser un error que un hispanohablante cometería de verdad.
 - Si el error viene de traducir del español, decirlo ("en español decimos…, en inglés no").
 - `npm test` valida todo el contenido; no se publica nada que no pase.
+
+## Organización del banco
+
+Un archivo por nivel y bloque: `<nivel>-gramatica.json`, `<nivel>-vocabulario.json` y `<nivel>-phrasal-idioms.json` (A1, A2, B1 y B2). El primer tag de cada pregunta es su tipo (`grammar`, `vocabulary`, `phrasal-verb` o `idiom`).
+
+El juego no tiene un nivel "B2+": las preguntas de B2 alto (frontera con C1) llevan `"level": "B2"` y el tag extra `b2-plus`.

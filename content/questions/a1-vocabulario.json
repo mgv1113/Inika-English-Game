@@ -1,0 +1,1469 @@
+[
+  {
+    "id": "vocab-a1-family-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "family",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "My mother's sister is my ___.",
+    "options": [
+      "uncle",
+      "aunt",
+      "cousin",
+      "niece"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'aunt' = tía; 'uncle' = tío.",
+      "wrong": {
+        "uncle": "'uncle' es el tío (hombre). La hermana de tu madre es una mujer: aunt.",
+        "cousin": "'cousin' es el primo o la prima: el hijo o la hija de tu tía, no la tía.",
+        "niece": "'niece' es la sobrina: la hija de tu hermano o hermana."
+      },
+      "examples": [
+        "My aunt lives in Madrid.",
+        "Her uncle is a doctor."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-family-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "family",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'parents' mean?",
+    "options": [
+      "parientes",
+      "primos",
+      "abuelos",
+      "padres (madre y padre)"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'parents' = padres (la madre y el padre). 'Parientes' se dice 'relatives'.",
+      "wrong": {
+        "parientes": "Es un falso amigo. 'parents' no son todos los familiares; para 'parientes' se dice 'relatives'.",
+        "primos": "'primos' en inglés es 'cousins'.",
+        "abuelos": "'abuelos' en inglés es 'grandparents'."
+      },
+      "examples": [
+        "My parents are teachers.",
+        "I visit my relatives at Christmas."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-family-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "family",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "My grandfather is my father's ___.",
+    "options": [
+      "father",
+      "son",
+      "brother",
+      "uncle"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'grandfather' = abuelo: el padre de tu padre o de tu madre.",
+      "wrong": {
+        "son": "'son' es hijo. Tu abuelo no es el hijo de tu padre, es su padre.",
+        "brother": "'brother' es hermano. El hermano de tu padre es tu tío (uncle), no tu abuelo.",
+        "uncle": "'uncle' es tío. Tu abuelo es el padre de tu padre, no su tío."
+      },
+      "examples": [
+        "My grandfather is 80 years old.",
+        "My grandmother is my mother's mother."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-numbers-ages-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "numbers-ages",
+    "tags": [
+      "vocabulary",
+      "ages"
+    ],
+    "prompt": "My sister ___ twelve years old.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "are"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Para decir la edad en inglés se usa el verbo 'be', no 'have'.",
+      "wrong": {
+        "has": "En español decimos 'tiene doce años', pero en inglés la edad va con 'be': she is twelve.",
+        "have": "'have' no se usa para la edad y además con 'my sister' sería 'has'. Lo correcto es 'is'.",
+        "are": "'are' es para you/we/they. Con 'my sister' (she) se usa 'is'."
+      },
+      "examples": [
+        "I am twenty years old.",
+        "How old are you?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-numbers-ages-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "numbers-ages",
+    "tags": [
+      "vocabulary",
+      "numbers"
+    ],
+    "prompt": "How do you write the number 40 in English?",
+    "options": [
+      "fourty",
+      "fourteen",
+      "forty",
+      "fortieth"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "40 = forty (sin 'u'), aunque 4 = four y 14 = fourteen.",
+      "wrong": {
+        "fourty": "Error muy común: aunque 'four' lleva 'u', el 40 se escribe sin ella: forty.",
+        "fourteen": "'fourteen' es 14, no 40.",
+        "fortieth": "'fortieth' es el ordinal (cuadragésimo), no el número 40."
+      },
+      "examples": [
+        "My dad is forty.",
+        "There are forty students in the class."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-numbers-ages-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "numbers-ages",
+    "tags": [
+      "vocabulary",
+      "numbers"
+    ],
+    "prompt": "Ten plus three is ___.",
+    "options": [
+      "thirteen",
+      "thirty",
+      "third",
+      "three"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Los números del 13 al 19 terminan en -teen; las decenas (30, 40...) terminan en -ty.",
+      "wrong": {
+        "thirty": "'thirty' es 30. Diez más tres es 13: thirteen (termina en -teen).",
+        "third": "'third' es 'tercero' (ordinal), no un número para sumar.",
+        "three": "'three' es 3, pero 10 + 3 = 13: thirteen."
+      },
+      "examples": [
+        "I'm thirteen years old.",
+        "Thirty minus ten is twenty."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-days-months-seasons-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "days-months-seasons",
+    "tags": [
+      "vocabulary",
+      "days"
+    ],
+    "prompt": "Today is Friday, so tomorrow is ___.",
+    "options": [
+      "Thursday",
+      "Sunday",
+      "Monday",
+      "Saturday"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Después de Friday (viernes) viene Saturday (sábado). Los días se escriben con mayúscula.",
+      "wrong": {
+        "Thursday": "'Thursday' (jueves) es el día anterior al viernes: sería 'yesterday', no 'tomorrow'.",
+        "Sunday": "'Sunday' (domingo) es pasado mañana si hoy es viernes.",
+        "Monday": "'Monday' (lunes) llega tres días después del viernes, no mañana."
+      },
+      "examples": [
+        "We play football on Saturday.",
+        "My English class is on Monday."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-days-months-seasons-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "days-months-seasons",
+    "tags": [
+      "vocabulary",
+      "months"
+    ],
+    "prompt": "Which month comes after April?",
+    "options": [
+      "March",
+      "May",
+      "June",
+      "August"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Los meses en inglés: ... March, April, May, June... y siempre con mayúscula.",
+      "wrong": {
+        "March": "'March' (marzo) va antes de abril, no después.",
+        "June": "'June' (junio) va después de mayo, no justo después de abril.",
+        "August": "'August' (agosto) es el octavo mes, mucho después de abril."
+      },
+      "examples": [
+        "My birthday is in May.",
+        "School starts in September."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-days-months-seasons-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "days-months-seasons",
+    "tags": [
+      "vocabulary",
+      "seasons"
+    ],
+    "prompt": "In Spain it's very hot in ___. We go to the beach in July and August.",
+    "options": [
+      "winter",
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Las estaciones: spring (primavera), summer (verano), autumn/fall (otoño), winter (invierno).",
+      "wrong": {
+        "winter": "'winter' es invierno; en España julio y agosto son verano, no invierno.",
+        "autumn": "'autumn' es otoño (septiembre a noviembre en España), no julio y agosto.",
+        "spring": "'spring' es primavera (marzo a mayo). Julio y agosto son verano."
+      },
+      "examples": [
+        "I love swimming in summer.",
+        "It snows in winter."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-colors-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "colors",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What color is the sky on a sunny day?",
+    "options": [
+      "green",
+      "brown",
+      "grey",
+      "blue"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'blue' = azul. El cielo en un día de sol es azul.",
+      "wrong": {
+        "green": "'green' es verde, el color de la hierba, no del cielo.",
+        "brown": "'brown' es marrón, como la madera o el chocolate.",
+        "grey": "'grey' es gris: el cielo es gris cuando hay nubes, no en un día de sol."
+      },
+      "examples": [
+        "My bag is blue.",
+        "The sea is blue and green."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-colors-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "colors",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "Bananas are ___ when they are ready to eat.",
+    "options": [
+      "yellow",
+      "purple",
+      "orange",
+      "pink"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'yellow' = amarillo.",
+      "wrong": {
+        "purple": "'purple' es morado, como las uvas o las berenjenas, no los plátanos.",
+        "orange": "'orange' es naranja, como las naranjas o las zanahorias.",
+        "pink": "'pink' es rosa, no el color de un plátano maduro."
+      },
+      "examples": [
+        "The sun is yellow.",
+        "I have a yellow T-shirt."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-colors-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "colors",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What does 'brown' mean?",
+    "options": [
+      "gris",
+      "morado",
+      "marrón",
+      "naranja"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'brown' = marrón; con el pelo o los ojos se traduce como castaño.",
+      "wrong": {
+        "gris": "'gris' en inglés es 'grey' (o 'gray' en EE. UU.).",
+        "morado": "'morado' en inglés es 'purple'.",
+        "naranja": "'naranja' (el color) en inglés es 'orange'."
+      },
+      "examples": [
+        "My dog is brown.",
+        "She has brown eyes."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-food-drink-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "food-drink",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I drink a glass of ___ every morning. It's white and it comes from cows.",
+    "options": [
+      "juice",
+      "water",
+      "milk",
+      "coffee"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'milk' = leche.",
+      "wrong": {
+        "juice": "'juice' es zumo; no es blanco ni viene de las vacas.",
+        "water": "'water' es agua: no es blanca ni viene de las vacas.",
+        "coffee": "'coffee' es café: es marrón oscuro y no viene de las vacas."
+      },
+      "examples": [
+        "Do you want milk in your tea?",
+        "Children drink a lot of milk."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-food-drink-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "food-drink",
+    "tags": [
+      "vocabulary",
+      "spelling"
+    ],
+    "prompt": "What does 'dessert' mean?",
+    "options": [
+      "postre",
+      "desierto",
+      "cena",
+      "merienda"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'dessert' (dos s) = postre; 'desert' (una s) = desierto.",
+      "wrong": {
+        "desierto": "'desierto' es 'desert' (con una sola s). 'dessert' (con dos s) es el postre.",
+        "cena": "'cena' en inglés es 'dinner'.",
+        "merienda": "'merienda' se puede decir 'snack', no 'dessert'."
+      },
+      "examples": [
+        "We have ice cream for dessert.",
+        "The Sahara is a big desert."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-food-drink-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "food-drink",
+    "tags": [
+      "vocabulary",
+      "meals"
+    ],
+    "prompt": "In the morning I have ___ at 8 o'clock: toast and coffee.",
+    "options": [
+      "lunch",
+      "dinner",
+      "dessert",
+      "breakfast"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'breakfast' = desayuno; 'lunch' = comida; 'dinner' = cena.",
+      "wrong": {
+        "lunch": "'lunch' es la comida del mediodía, no la de las 8 de la mañana.",
+        "dinner": "'dinner' es la cena (por la noche), no algo de la mañana.",
+        "dessert": "'dessert' es el postre, y tostadas con café no es un postre."
+      },
+      "examples": [
+        "I have breakfast at home.",
+        "We have lunch at 2 p.m."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-house-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "house",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I sleep in my ___ every night.",
+    "options": [
+      "kitchen",
+      "bedroom",
+      "bathroom",
+      "garden"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'bedroom' = dormitorio (bed = cama + room = habitación).",
+      "wrong": {
+        "kitchen": "'kitchen' es la cocina: allí cocinas, no duermes.",
+        "bathroom": "'bathroom' es el baño: allí te duchas, no duermes.",
+        "garden": "'garden' es el jardín, que está fuera de la casa."
+      },
+      "examples": [
+        "My bedroom is small.",
+        "There are three bedrooms in our flat."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-house-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "house",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "We cook dinner in the ___.",
+    "options": [
+      "living room",
+      "kitchen",
+      "bedroom",
+      "garage"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'kitchen' = cocina (la habitación).",
+      "wrong": {
+        "living room": "'living room' es el salón: allí ves la tele o descansas, no cocinas.",
+        "bedroom": "'bedroom' es el dormitorio, para dormir.",
+        "garage": "'garage' es el garaje, para el coche."
+      },
+      "examples": [
+        "The kitchen is next to the living room.",
+        "My mum is in the kitchen."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-house-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "house",
+    "tags": [
+      "vocabulary",
+      "furniture"
+    ],
+    "prompt": "We sit on the ___ in the living room and watch TV.",
+    "options": [
+      "sink",
+      "oven",
+      "bath",
+      "sofa"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'sofa' = sofá (también 'couch').",
+      "wrong": {
+        "sink": "'sink' es el fregadero o el lavabo: no te sientas en él.",
+        "oven": "'oven' es el horno, está en la cocina.",
+        "bath": "'bath' es la bañera, está en el baño."
+      },
+      "examples": [
+        "The cat is sleeping on the sofa.",
+        "Our sofa is very comfortable."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-body-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "body",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I see with my ___.",
+    "options": [
+      "eyes",
+      "ears",
+      "nose",
+      "hands"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'eyes' = ojos.",
+      "wrong": {
+        "ears": "'ears' son las orejas/oídos: sirven para oír (hear), no para ver.",
+        "nose": "'nose' es la nariz: sirve para oler (smell).",
+        "hands": "'hands' son las manos: sirven para tocar (touch)."
+      },
+      "examples": [
+        "She has green eyes.",
+        "Close your eyes."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-body-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "body",
+    "tags": [
+      "vocabulary",
+      "irregular-plural"
+    ],
+    "prompt": "I wear shoes on my ___.",
+    "options": [
+      "foots",
+      "hands",
+      "feet",
+      "legs"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'foot' = pie; el plural es irregular: 'feet'.",
+      "wrong": {
+        "foots": "Error típico: 'foot' tiene plural irregular. No se dice 'foots', sino 'feet'.",
+        "hands": "'hands' son las manos: en las manos llevas guantes (gloves), no zapatos.",
+        "legs": "'legs' son las piernas: los zapatos van en los pies, no en las piernas."
+      },
+      "examples": [
+        "My feet are cold.",
+        "He has big feet."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-body-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "body",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What does 'head' mean?",
+    "options": [
+      "pelo",
+      "cara",
+      "cabeza",
+      "cuello"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'head' = cabeza.",
+      "wrong": {
+        "pelo": "'pelo' en inglés es 'hair'.",
+        "cara": "'cara' en inglés es 'face'.",
+        "cuello": "'cuello' en inglés es 'neck'."
+      },
+      "examples": [
+        "I have a headache.",
+        "Put your hat on your head."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-clothes-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "clothes",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "It's very cold today. Put on your ___.",
+    "options": [
+      "coat",
+      "shorts",
+      "sandals",
+      "swimsuit"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'coat' = abrigo. Se dice 'put on' para ponerse ropa.",
+      "wrong": {
+        "shorts": "'shorts' son pantalones cortos: son para el calor, no para el frío.",
+        "sandals": "'sandals' son sandalias, para el verano.",
+        "swimsuit": "'swimsuit' es el bañador: es para la playa o la piscina."
+      },
+      "examples": [
+        "Take your coat, it's cold.",
+        "Her coat is black."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-clothes-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "clothes",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What does 'trousers' mean?",
+    "options": [
+      "camisa",
+      "calcetines",
+      "zapatos",
+      "pantalones"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'trousers' = pantalones (en EE. UU. 'pants'). Siempre va en plural.",
+      "wrong": {
+        "camisa": "'camisa' en inglés es 'shirt'.",
+        "calcetines": "'calcetines' en inglés es 'socks'.",
+        "zapatos": "'zapatos' en inglés es 'shoes'."
+      },
+      "examples": [
+        "These trousers are too long.",
+        "He's wearing blue trousers."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-clothes-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "clothes",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "It's sunny, so I wear a ___ on my head.",
+    "options": [
+      "glove",
+      "hat",
+      "sock",
+      "belt"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'hat' = sombrero o gorro.",
+      "wrong": {
+        "glove": "'glove' es un guante: va en la mano, no en la cabeza.",
+        "sock": "'sock' es un calcetín: va en el pie.",
+        "belt": "'belt' es un cinturón: va en la cintura."
+      },
+      "examples": [
+        "I wear a hat in summer.",
+        "That's a nice hat!"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-jobs-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "jobs",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "A ___ works in a hospital and helps sick people.",
+    "options": [
+      "teacher",
+      "nurse",
+      "waiter",
+      "farmer"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'nurse' = enfermero/enfermera.",
+      "wrong": {
+        "teacher": "'teacher' es profesor: trabaja en un colegio, no en un hospital.",
+        "waiter": "'waiter' es camarero: trabaja en un restaurante o un bar.",
+        "farmer": "'farmer' es granjero: trabaja en el campo con animales y plantas."
+      },
+      "examples": [
+        "My mother is a nurse.",
+        "The nurse is very kind."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-jobs-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "jobs",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What does 'waiter' mean?",
+    "options": [
+      "esperador",
+      "cocinero",
+      "conductor",
+      "camarero"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'waiter' = camarero; 'waitress' = camarera.",
+      "wrong": {
+        "esperador": "Es una traducción literal de 'wait' (esperar). 'Esperador' no existe; 'waiter' es quien sirve en un restaurante.",
+        "cocinero": "'cocinero' en inglés es 'cook' o 'chef'.",
+        "conductor": "'conductor' (de coche o autobús) en inglés es 'driver'."
+      },
+      "examples": [
+        "The waiter brings the menu.",
+        "She works as a waitress in a café."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-jobs-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "jobs",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "My uncle drives a bus. He's a bus ___.",
+    "options": [
+      "driver",
+      "pilot",
+      "guide",
+      "chef"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'driver' = conductor (de coche, autobús, taxi...).",
+      "wrong": {
+        "pilot": "'pilot' es piloto: conduce aviones, no autobuses.",
+        "guide": "'guide' es guía: explica cosas a los turistas, no conduce.",
+        "chef": "'chef' es cocinero: trabaja en una cocina."
+      },
+      "examples": [
+        "The taxi driver is friendly.",
+        "My sister is a lorry driver."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-weather-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "weather",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "Take an umbrella. It's ___ outside.",
+    "options": [
+      "sunny",
+      "hot",
+      "raining",
+      "dry"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'It's raining' = está lloviendo. El paraguas (umbrella) es para la lluvia.",
+      "wrong": {
+        "sunny": "'sunny' es soleado: con sol no necesitas paraguas.",
+        "hot": "'hot' es calor: el calor no es una razón para llevar paraguas.",
+        "dry": "'dry' es seco: si está seco no llueve, no necesitas paraguas."
+      },
+      "examples": [
+        "It's raining again!",
+        "It rains a lot in London."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-weather-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "weather",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "It ___ a lot here in winter, and everything is white.",
+    "options": [
+      "rains",
+      "shines",
+      "snows",
+      "blows"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'snow' = nieve / nevar.",
+      "wrong": {
+        "rains": "'rains' es llover: la lluvia no deja todo blanco. Lo blanco es la nieve.",
+        "shines": "'shines' es brillar (el sol): el sol no pone todo blanco.",
+        "blows": "'blows' es soplar (el viento): el viento no deja todo blanco."
+      },
+      "examples": [
+        "It snows in the mountains.",
+        "The children play in the snow."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-weather-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "weather",
+    "tags": [
+      "vocabulary",
+      "spanish-interference"
+    ],
+    "prompt": "How do you say 'Hace frío' in English?",
+    "options": [
+      "It's cold.",
+      "It makes cold.",
+      "It has cold.",
+      "It does cold."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Para el tiempo se usa 'It's + adjetivo': It's cold, It's hot, It's windy.",
+      "wrong": {
+        "It makes cold.": "Traducción literal de 'hace'. En inglés, para el tiempo se usa 'it is', no 'make'.",
+        "It has cold.": "En inglés no se usa 'have' para el tiempo. Se dice 'It's cold'.",
+        "It does cold.": "'do' no se usa para el tiempo. Lo correcto es 'It's cold'."
+      },
+      "examples": [
+        "It's cold in January.",
+        "It's very hot today."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-daily-routine-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "daily-routine",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I ___ my teeth after every meal.",
+    "options": [
+      "wash",
+      "comb",
+      "cut",
+      "brush"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'brush your teeth' = lavarse los dientes (con cepillo).",
+      "wrong": {
+        "wash": "En español decimos 'lavarse los dientes', pero en inglés no se dice 'wash my teeth', sino 'brush'.",
+        "comb": "'comb' es peinar: se usa con el pelo (comb my hair), no con los dientes.",
+        "cut": "'cut' es cortar: no tiene sentido con los dientes."
+      },
+      "examples": [
+        "Brush your teeth before bed.",
+        "I brush my teeth twice a day."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-daily-routine-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "daily-routine",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I get up, ___ dressed and go to work.",
+    "options": [
+      "put",
+      "get",
+      "make",
+      "take"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'get dressed' = vestirse.",
+      "wrong": {
+        "put": "'put' necesita un objeto (put on my shirt). Para 'vestirse' se dice 'get dressed'.",
+        "make": "'make dressed' no existe en inglés. Se dice 'get dressed'.",
+        "take": "'take dressed' no existe. 'Vestirse' es 'get dressed'."
+      },
+      "examples": [
+        "I get dressed quickly in the morning.",
+        "She gets dressed after breakfast."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-daily-routine-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "daily-routine",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What does 'go to bed' mean?",
+    "options": [
+      "levantarse",
+      "acostarse",
+      "despertarse",
+      "ducharse"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'go to bed' = irse a la cama, acostarse.",
+      "wrong": {
+        "levantarse": "'levantarse' es 'get up', lo contrario de 'go to bed'.",
+        "despertarse": "'despertarse' es 'wake up'.",
+        "ducharse": "'ducharse' es 'have a shower' o 'take a shower'."
+      },
+      "examples": [
+        "I go to bed at eleven.",
+        "The children go to bed early."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-telling-time-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "telling-time",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "It's 7:30. How do you say it?",
+    "options": [
+      "It's seven and a half.",
+      "It's half past six.",
+      "It's half to seven.",
+      "It's half past seven."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'half past' = y media (las 7:30 = half past seven).",
+      "wrong": {
+        "It's seven and a half.": "En español decimos 'las siete y media', pero en inglés no: se dice 'half past seven'.",
+        "It's half past six.": "'half past six' es 6:30, una hora menos.",
+        "It's half to seven.": "En inglés no se usa 'half to'. Para las 7:30 se dice 'half past seven'."
+      },
+      "examples": [
+        "It's half past three.",
+        "The film starts at half past eight."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-telling-time-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "telling-time",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "It's 3:15. It's a quarter ___ three.",
+    "options": [
+      "past",
+      "to",
+      "of",
+      "and"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'a quarter past' = y cuarto; 'a quarter to' = menos cuarto.",
+      "wrong": {
+        "to": "'a quarter to three' es 2:45 (las tres menos cuarto), no 3:15.",
+        "of": "'a quarter of' no se usa para 'y cuarto'. Para las 3:15 se dice 'a quarter past three'.",
+        "and": "En español decimos 'las tres y cuarto', pero en inglés no se usa 'and': se dice 'a quarter past'."
+      },
+      "examples": [
+        "It's a quarter past ten.",
+        "We meet at a quarter to six."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-telling-time-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "telling-time",
+    "tags": [
+      "vocabulary",
+      "prepositions"
+    ],
+    "prompt": "My English class starts ___ nine o'clock.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con horas concretas se usa 'at': at nine o'clock, at 5:30.",
+      "wrong": {
+        "in": "'in' se usa con meses, años o partes del día (in the morning), no con horas exactas.",
+        "on": "'on' se usa con días (on Monday), no con horas.",
+        "to": "'to' en las horas significa 'menos' (a quarter to nine); aquí necesitas 'at'."
+      },
+      "examples": [
+        "The bus leaves at 8 o'clock.",
+        "I have lunch at two."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-opposites-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "opposites",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What is the opposite of 'big'?",
+    "options": [
+      "tall",
+      "long",
+      "small",
+      "fat"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'big' = grande; 'small' = pequeño.",
+      "wrong": {
+        "tall": "'tall' es alto (personas, edificios). Su opuesto es 'short', no 'big'.",
+        "long": "'long' es largo. Su opuesto es 'short'.",
+        "fat": "'fat' es gordo, no el opuesto de 'big'. El opuesto de 'fat' es 'thin'."
+      },
+      "examples": [
+        "Our house is big, but the garden is small.",
+        "I have a small dog."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-opposites-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "opposites",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "My grandfather isn't young. He's ___.",
+    "options": [
+      "old",
+      "new",
+      "short",
+      "small"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'young' = joven; 'old' = viejo, mayor. 'new' (nuevo) es para cosas.",
+      "wrong": {
+        "new": "'new' es nuevo y se usa para cosas (a new car), no para personas. Una persona mayor es 'old'.",
+        "short": "'short' es bajo o corto: es el opuesto de 'tall' o 'long', no de 'young'.",
+        "small": "'small' es pequeño: es el opuesto de 'big', no de 'young'."
+      },
+      "examples": [
+        "My car is old.",
+        "He is young, only 20."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-opposites-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "opposites",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "What is the opposite of 'cheap'?",
+    "options": [
+      "rich",
+      "big",
+      "poor",
+      "expensive"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'cheap' = barato; 'expensive' = caro.",
+      "wrong": {
+        "rich": "'rich' es rico (con mucho dinero), se dice de personas. 'Caro' es 'expensive'.",
+        "big": "'big' es grande: habla del tamaño, no del precio.",
+        "poor": "'poor' es pobre, lo opuesto de 'rich', no de 'cheap'."
+      },
+      "examples": [
+        "This phone is very expensive.",
+        "The bus is cheap."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-greetings-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "greetings",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "Someone asks you 'How are you?'. What is a good answer?",
+    "options": [
+      "I'm 20 years old.",
+      "I'm fine, thanks.",
+      "I'm from Spain.",
+      "I'm a student."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'How are you?' = ¿Cómo estás? Respuesta típica: 'I'm fine, thanks. And you?'",
+      "wrong": {
+        "I'm 20 years old.": "Eso responde a 'How old are you?' (¿cuántos años tienes?), no a '¿cómo estás?'.",
+        "I'm from Spain.": "Eso responde a 'Where are you from?' (¿de dónde eres?).",
+        "I'm a student.": "Eso responde a 'What do you do?' (¿a qué te dedicas?)."
+      },
+      "examples": [
+        "How are you? – I'm good, thanks.",
+        "I'm fine, thank you. And you?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-greetings-002",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "greetings",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "'Hi, I'm Laura.' – 'Hello, Laura. I'm Tom. Nice to ___ you.'",
+    "options": [
+      "know",
+      "meet",
+      "met",
+      "find"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Nice to meet you' = Encantado de conocerte (la primera vez que ves a alguien).",
+      "wrong": {
+        "know": "En español decimos 'encantado de conocerte', pero en inglés al presentarse se dice 'Nice to meet you', no 'know'.",
+        "met": "'met' es el pasado de 'meet'. Después de 'to' va el verbo en forma base: to meet.",
+        "find": "'find' es encontrar algo que buscas. Al conocer a alguien se dice 'meet'."
+      },
+      "examples": [
+        "Nice to meet you, too!",
+        "It's nice to meet you, Mr Brown."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-greetings-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "greetings",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "It's 8 a.m. You arrive at school and say: 'Good ___, everyone!'",
+    "options": [
+      "afternoon",
+      "evening",
+      "night",
+      "morning"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Good morning' = buenos días (hasta las 12).",
+      "wrong": {
+        "afternoon": "'Good afternoon' se usa después de las 12 del mediodía, no a las 8 de la mañana.",
+        "evening": "'Good evening' se usa por la tarde-noche, no por la mañana.",
+        "night": "'Good night' no es un saludo: se usa para despedirse por la noche o antes de dormir."
+      },
+      "examples": [
+        "Good morning, Mrs Smith!",
+        "Good afternoon, how can I help you?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-greetings-004",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "greetings",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "You want to introduce your friend Mark. What do you say?",
+    "options": [
+      "This is Mark.",
+      "I present you Mark.",
+      "He's call Mark.",
+      "Is Mark."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Para presentar a alguien se dice 'This is + nombre'.",
+      "wrong": {
+        "I present you Mark.": "Traducción literal de 'te presento a Mark'. En inglés se dice 'This is Mark'.",
+        "He's call Mark.": "Incorrecto: sería 'He's called Mark', y además para presentar se usa 'This is...'.",
+        "Is Mark.": "En inglés la frase necesita sujeto. Se dice 'This is Mark'."
+      },
+      "examples": [
+        "This is my sister, Ana.",
+        "Mum, this is my friend Leo."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-city-places-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "city-places",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I buy bread every morning at the ___.",
+    "options": [
+      "library",
+      "pharmacy",
+      "bakery",
+      "bank"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'bakery' = panadería.",
+      "wrong": {
+        "library": "'library' es la biblioteca (para leer libros), no una tienda de pan.",
+        "pharmacy": "'pharmacy' es la farmacia: allí compras medicinas, no pan.",
+        "bank": "'bank' es el banco: allí guardas dinero, no compras pan."
+      },
+      "examples": [
+        "The bakery opens at 7 a.m.",
+        "I buy cakes at the bakery."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-city-places-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "city-places",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "We watch films at the ___ on Saturday night.",
+    "options": [
+      "museum",
+      "station",
+      "cinema",
+      "bakery"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'cinema' = cine (en EE. UU. 'movie theater').",
+      "wrong": {
+        "museum": "'museum' es el museo: allí ves arte o historia, no películas.",
+        "station": "'station' es la estación de tren o autobús.",
+        "bakery": "'bakery' es la panadería."
+      },
+      "examples": [
+        "Let's go to the cinema!",
+        "The cinema is near the park."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-city-places-003",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "city-places",
+    "tags": [
+      "vocabulary"
+    ],
+    "prompt": "I take the train at the ___ near my house.",
+    "options": [
+      "station",
+      "stadium",
+      "park",
+      "post office"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'station' = estación (de tren o autobús).",
+      "wrong": {
+        "stadium": "'stadium' es el estadio, para ver deportes; allí no se coge el tren.",
+        "park": "'park' es el parque: allí no se coge el tren.",
+        "post office": "'post office' es la oficina de correos, para enviar cartas."
+      },
+      "examples": [
+        "The train station is very big.",
+        "Where is the bus station?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-false-friends-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'carpet' mean?",
+    "options": [
+      "carpeta",
+      "cortina",
+      "cartera",
+      "alfombra"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'carpet' = alfombra (no 'carpeta', que es 'folder').",
+      "wrong": {
+        "carpeta": "Es un falso amigo: 'carpet' parece 'carpeta', pero no. 'Carpeta' se dice 'folder'.",
+        "cortina": "'cortina' en inglés es 'curtain'.",
+        "cartera": "'cartera' en inglés es 'wallet'."
+      },
+      "examples": [
+        "There's a red carpet in the living room.",
+        "Put your papers in a folder."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-false-friends-002",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "You see a sign that says 'EXIT'. What does it mean?",
+    "options": [
+      "éxito",
+      "salida",
+      "entrada",
+      "examen"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'exit' = salida; 'éxito' = success.",
+      "wrong": {
+        "éxito": "Es un falso amigo: 'exit' no es 'éxito'. 'Éxito' se dice 'success'.",
+        "entrada": "'entrada' es 'entrance' o 'way in', justo lo contrario.",
+        "examen": "'examen' en inglés es 'exam' o 'test'."
+      },
+      "examples": [
+        "Where is the exit?",
+        "The exit is on the left."
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-false-friends-003",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "On clothes, the letter L means ___.",
+    "options": [
+      "long",
+      "large",
+      "light",
+      "little"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'large' = grande (no 'largo'). Las tallas: S = small, M = medium, L = large.",
+      "wrong": {
+        "long": "'long' es largo, pero la L de las tallas no significa 'largo'.",
+        "light": "'light' es ligero o claro, no es una talla.",
+        "little": "'little' es pequeño: lo contrario de la talla L."
+      },
+      "examples": [
+        "I need a large T-shirt.",
+        "Can I have a large coffee, please?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-a1-false-friends-004",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "My hair is very ___. It goes down to my waist.",
+    "options": [
+      "large",
+      "big",
+      "tall",
+      "long"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'long' = largo; 'large' = grande.",
+      "wrong": {
+        "large": "Falso amigo: 'large' significa 'grande', no 'largo'. Para el pelo largo se dice 'long hair'.",
+        "big": "'big' es grande; el pelo no se describe como grande, sino como largo (long).",
+        "tall": "'tall' es alto y se usa para personas o edificios, no para el pelo."
+      },
+      "examples": [
+        "She has long black hair.",
+        "It's a long street."
+      ]
+    }
+  }
+]
