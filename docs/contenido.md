@@ -19,7 +19,7 @@ Las preguntas están en `content/questions/*.json`. Cada archivo es una lista de
       "give away": "\"Give away\" = regalar algo o revelar un secreto.",
       "give back": "\"Give back\" = devolver algo."
     },
-    "examples": ["She gave up smoking."]
+    "examples": [{ "en": "She gave up smoking.", "es": "Ella dejó de fumar." }]
   }
 }
 ```
@@ -36,7 +36,7 @@ Las preguntas están en `content/questions/*.json`. Cada archivo es una lista de
 | `correct` | Índice (desde 0) de la opción correcta |
 | `explanation.rule` | La regla en una línea, en español |
 | `explanation.wrong` | Por qué cada opción incorrecta está mal (obligatorio para todas) |
-| `explanation.examples` | Uno o más ejemplos correctos en inglés |
+| `explanation.examples` | Uno o más ejemplos correctos: `en` en inglés y `es` su traducción al español |
 
 ## Guía de estilo
 

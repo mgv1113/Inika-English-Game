@@ -24,8 +24,14 @@
         "get on": "\"get on\" es subir a un autobús, tren o avión, no levantarse."
       },
       "examples": [
-        "What time do you get up on Sundays?",
-        "She gets up early for work."
+        {
+          "en": "What time do you get up on Sundays?",
+          "es": "¿A qué hora te levantas los domingos?"
+        },
+        {
+          "en": "She gets up early for work.",
+          "es": "Ella se levanta temprano para ir a trabajar."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "acostarse": "Acostarse es \"go to bed\"."
       },
       "examples": [
-        "I wake up at 6:30.",
-        "The baby wakes up at night."
+        {
+          "en": "I wake up at 6:30.",
+          "es": "Me despierto a las 6:30."
+        },
+        {
+          "en": "The baby wakes up at night.",
+          "es": "El bebé se despierta en la noche."
+        }
       ]
     }
   },
@@ -83,8 +95,14 @@
         "sit up": "\"sit up\" es enderezarse o incorporarse en la silla o la cama, no sentarse."
       },
       "examples": [
-        "Sit down, please.",
-        "We sat down at the table."
+        {
+          "en": "Sit down, please.",
+          "es": "Siéntate, por favor."
+        },
+        {
+          "en": "We sat down at the table.",
+          "es": "Nos sentamos a la mesa."
+        }
       ]
     }
   },
@@ -113,8 +131,14 @@
         "go up": "\"go up\" es subir (escaleras, precios). En español decimos \"se levantan\", pero en inglés es \"stand up\"."
       },
       "examples": [
-        "Please stand up and say your name.",
-        "He stood up and opened the door."
+        {
+          "en": "Please stand up and say your name.",
+          "es": "Por favor, ponte de pie y di tu nombre."
+        },
+        {
+          "en": "He stood up and opened the door.",
+          "es": "Él se levantó y abrió la puerta."
+        }
       ]
     }
   },
@@ -143,8 +167,14 @@
         "turn in": "\"turn in\" es entregar (un trabajo) o irse a dormir; no sirve para la luz."
       },
       "examples": [
-        "Turn on the TV, please.",
-        "I turn on my computer at 9."
+        {
+          "en": "Turn on the TV, please.",
+          "es": "Prende la televisión, por favor."
+        },
+        {
+          "en": "I turn on my computer at 9.",
+          "es": "Prendo mi computadora a las 9."
+        }
       ]
     }
   },
@@ -173,8 +203,14 @@
         "bajar el volumen": "Bajar el volumen es \"turn down\"."
       },
       "examples": [
-        "Turn off the lights when you leave.",
-        "Did you turn off the oven?"
+        {
+          "en": "Turn off the lights when you leave.",
+          "es": "Apaga las luces cuando salgas."
+        },
+        {
+          "en": "Did you turn off the oven?",
+          "es": "¿Apagaste el horno?"
+        }
       ]
     }
   },
@@ -203,8 +239,14 @@
         "Dress": "\"dress\" es vestir(se) a una persona (\"dress the baby\"), no se usa con una prenda como objeto."
       },
       "examples": [
-        "Put on your shoes.",
-        "She put on a hat."
+        {
+          "en": "Put on your shoes.",
+          "es": "Ponte los zapatos."
+        },
+        {
+          "en": "She put on a hat.",
+          "es": "Ella se puso un sombrero."
+        }
       ]
     }
   },
@@ -233,8 +275,14 @@
         "get off": "\"get off\" es bajarse de un autobús o tren, no quitarse ropa."
       },
       "examples": [
-        "Take off your jacket, it's warm in here.",
-        "He took off his glasses."
+        {
+          "en": "Take off your jacket, it's warm in here.",
+          "es": "Quítate la chaqueta, aquí adentro hace calor."
+        },
+        {
+          "en": "He took off his glasses.",
+          "es": "Él se quitó los lentes."
+        }
       ]
     }
   },
@@ -263,8 +311,14 @@
         "Come on!": "\"Come on!\" significa ¡vamos! o ¡venga!, no ¡pasa!"
       },
       "examples": [
-        "Come in and sit down.",
-        "Can I come in?"
+        {
+          "en": "Come in and sit down.",
+          "es": "Pasa y siéntate."
+        },
+        {
+          "en": "Can I come in?",
+          "es": "¿Puedo pasar?"
+        }
       ]
     }
   },
@@ -293,8 +347,14 @@
         "come out": "\"come out\" es salir hacia donde está quien habla o publicarse (un libro); no es salir a divertirse."
       },
       "examples": [
-        "Do you want to go out tonight?",
-        "They go out every Friday."
+        {
+          "en": "Do you want to go out tonight?",
+          "es": "¿Quieres salir esta noche?"
+        },
+        {
+          "en": "They go out every Friday.",
+          "es": "Ellos salen todos los viernes."
+        }
       ]
     }
   },
@@ -322,8 +382,14 @@
         "See at": "\"see\" no lleva \"at\". Para pedir que alguien mire algo se usa \"look at\"."
       },
       "examples": [
-        "Look at the board, please.",
-        "She is looking at the map."
+        {
+          "en": "Look at the board, please.",
+          "es": "Miren el pizarrón, por favor."
+        },
+        {
+          "en": "She is looking at the map.",
+          "es": "Ella está mirando el mapa."
+        }
       ]
     }
   },
@@ -351,8 +417,14 @@
         "looking after": "\"look after\" es cuidar (a una persona o animal), no buscar."
       },
       "examples": [
-        "What are you looking for?",
-        "We are looking for a hotel."
+        {
+          "en": "What are you looking for?",
+          "es": "¿Qué estás buscando?"
+        },
+        {
+          "en": "We are looking for a hotel.",
+          "es": "Estamos buscando un hotel."
+        }
       ]
     }
   },
@@ -381,8 +453,14 @@
         "listen at": "La preposición de \"listen\" es \"to\", no \"at\"."
       },
       "examples": [
-        "Listen to me, please.",
-        "She listens to the radio in the car."
+        {
+          "en": "Listen to me, please.",
+          "es": "Escúchame, por favor."
+        },
+        {
+          "en": "She listens to the radio in the car.",
+          "es": "Ella escucha la radio en el carro."
+        }
       ]
     }
   },
@@ -410,8 +488,14 @@
         "catch": "\"catch\" es atrapar algo que está en el aire, como una pelota."
       },
       "examples": [
-        "Pick up your toys, please.",
-        "He picked up the phone."
+        {
+          "en": "Pick up your toys, please.",
+          "es": "Recoge tus juguetes, por favor."
+        },
+        {
+          "en": "He picked up the phone.",
+          "es": "Él contestó el teléfono."
+        }
       ]
     }
   },
@@ -440,8 +524,14 @@
         "dictar": "Dictar es \"dictate\"; quien hace \"write down\" es quien escribe."
       },
       "examples": [
-        "Write down the new words in your notebook.",
-        "I wrote down her address."
+        {
+          "en": "Write down the new words in your notebook.",
+          "es": "Anoten las palabras nuevas en su cuaderno."
+        },
+        {
+          "en": "I wrote down her address.",
+          "es": "Anoté su dirección."
+        }
       ]
     }
   },
@@ -470,8 +560,14 @@
         "returns back": "\"return\" ya significa volver; añadir \"back\" es repetir la idea. Di \"returns\" o \"comes back\"."
       },
       "examples": [
-        "Come back soon!",
-        "What time do you come back from school?"
+        {
+          "en": "Come back soon!",
+          "es": "¡Vuelve pronto!"
+        },
+        {
+          "en": "What time do you come back from school?",
+          "es": "¿A qué hora vuelves de la escuela?"
+        }
       ]
     }
   },
@@ -500,8 +596,14 @@
         "turns back": "\"turn back\" es dar la vuelta a mitad de camino, no viajar a su país cada verano."
       },
       "examples": [
-        "I want to go back to Paris one day.",
-        "He went back home at 10."
+        {
+          "en": "I want to go back to Paris one day.",
+          "es": "Algún día quiero volver a París."
+        },
+        {
+          "en": "He went back home at 10.",
+          "es": "Él volvió a casa a las 10."
+        }
       ]
     }
   },
@@ -530,8 +632,14 @@
         "Enter in": "\"enter\" no lleva \"in\", y para el autobús lo natural es \"get on\"."
       },
       "examples": [
-        "We got on the train at 8.",
-        "Get on the bus at the next stop."
+        {
+          "en": "We got on the train at 8.",
+          "es": "Nos subimos al tren a las 8."
+        },
+        {
+          "en": "Get on the bus at the next stop.",
+          "es": "Súbete al autobús en la próxima parada."
+        }
       ]
     }
   },
@@ -560,8 +668,14 @@
         "get out": "\"get out\" se usa con coches y necesita \"of\" (\"get out of the car\"); del autobús se dice \"get off\"."
       },
       "examples": [
-        "Get off at the next station.",
-        "She got off the plane in Rome."
+        {
+          "en": "Get off at the next station.",
+          "es": "Bájate en la próxima estación."
+        },
+        {
+          "en": "She got off the plane in Rome.",
+          "es": "Ella se bajó del avión en Roma."
+        }
       ]
     }
   },
@@ -590,8 +704,14 @@
         "down slow": "El orden es verbo + partícula: \"slow down\", no \"down slow\"."
       },
       "examples": [
-        "Slow down, there's a school here.",
-        "Can you slow down? I can't follow you."
+        {
+          "en": "Slow down, there's a school here.",
+          "es": "Baja la velocidad, aquí hay una escuela."
+        },
+        {
+          "en": "Can you slow down? I can't follow you.",
+          "es": "¿Puedes ir más despacio? No te entiendo."
+        }
       ]
     }
   },
@@ -620,8 +740,14 @@
         "I'm 20 years old.": "Eso responde a \"How old are you?\", no a \"How's it going?\"."
       },
       "examples": [
-        "A: How's it going? B: Not bad, thanks.",
-        "Hey Tom, how's it going?"
+        {
+          "en": "A: How's it going? B: Not bad, thanks.",
+          "es": "A: ¿Cómo te va? B: Bien, gracias."
+        },
+        {
+          "en": "Hey Tom, how's it going?",
+          "es": "Hola, Tom, ¿cómo te va?"
+        }
       ]
     }
   },
@@ -650,8 +776,14 @@
         "¡Que aproveche!": "¡Que aproveche! es \"Enjoy your meal!\"."
       },
       "examples": [
-        "Bye, Maria. Take care!",
-        "Take care, see you next week."
+        {
+          "en": "Bye, Maria. Take care!",
+          "es": "Adiós, Maria. ¡Cuídate!"
+        },
+        {
+          "en": "Take care, see you next week.",
+          "es": "Cuídate, nos vemos la próxima semana."
+        }
       ]
     }
   },
@@ -680,8 +812,14 @@
         "No thanks!": "\"No thanks!\" es rechazar algo que te ofrecen."
       },
       "examples": [
-        "A: I met Taylor Swift! B: No way!",
-        "No way! Is that true?"
+        {
+          "en": "A: I met Taylor Swift! B: No way!",
+          "es": "A: ¡Conocí a Taylor Swift! B: ¡No puede ser!"
+        },
+        {
+          "en": "No way! Is that true?",
+          "es": "¡No puede ser! ¿Es verdad?"
+        }
       ]
     }
   },
@@ -710,8 +848,14 @@
         "Of course.": "\"Of course\" es \"claro\" o \"por supuesto\"; no responde bien a una disculpa."
       },
       "examples": [
-        "A: I can't find the pen. B: Never mind, I have another one.",
-        "Never mind, it's not important."
+        {
+          "en": "A: I can't find the pen. B: Never mind, I have another one.",
+          "es": "A: No encuentro el bolígrafo. B: No importa, tengo otro."
+        },
+        {
+          "en": "Never mind, it's not important.",
+          "es": "No importa, no es importante."
+        }
       ]
     }
   },
@@ -740,8 +884,14 @@
         "Date prisa": "Date prisa es \"Hurry up\", casi lo contrario."
       },
       "examples": [
-        "Hang on, I'm coming!",
-        "Hang on a second, I need my bag."
+        {
+          "en": "Hang on, I'm coming!",
+          "es": "¡Espera, ya voy!"
+        },
+        {
+          "en": "Hang on a second, I need my bag.",
+          "es": "Espera un segundo, necesito mi bolsa."
+        }
       ]
     }
   },
@@ -770,8 +920,14 @@
         "Me also.": "\"Me also\" no se usa en inglés; además, la frase es negativa, así que necesitas \"Me neither\"."
       },
       "examples": [
-        "A: I'm hungry. B: Me too!",
-        "A: I can't swim. B: Me neither."
+        {
+          "en": "A: I'm hungry. B: Me too!",
+          "es": "A: Tengo hambre. B: ¡Yo también!"
+        },
+        {
+          "en": "A: I can't swim. B: Me neither.",
+          "es": "A: No sé nadar. B: Yo tampoco."
+        }
       ]
     }
   },
@@ -800,8 +956,14 @@
         "Never mind.": "\"Never mind\" es \"no pasa nada\" después de un problema o una disculpa, no después de un \"gracias\"."
       },
       "examples": [
-        "A: Thanks for your help. B: You're welcome.",
-        "You're welcome, any time!"
+        {
+          "en": "A: Thanks for your help. B: You're welcome.",
+          "es": "A: Gracias por tu ayuda. B: De nada."
+        },
+        {
+          "en": "You're welcome, any time!",
+          "es": "¡De nada, cuando quieras!"
+        }
       ]
     }
   },
@@ -830,8 +992,14 @@
         "Good look": "\"look\" (mirada, aspecto) no es \"luck\" (suerte); se pronuncian parecido, pero se escriben y significan distinto."
       },
       "examples": [
-        "Good luck with your exam!",
-        "Good luck in your new job!"
+        {
+          "en": "Good luck with your exam!",
+          "es": "¡Mucha suerte en tu examen!"
+        },
+        {
+          "en": "Good luck in your new job!",
+          "es": "¡Mucha suerte en tu nuevo trabajo!"
+        }
       ]
     }
   },
@@ -860,8 +1028,14 @@
         "Tal vez": "Tal vez es \"maybe\" o \"perhaps\"; \"of course\" es un sí seguro."
       },
       "examples": [
-        "A: Can you help me? B: Of course!",
-        "Of course you can come to the party."
+        {
+          "en": "A: Can you help me? B: Of course!",
+          "es": "A: ¿Me puedes ayudar? B: ¡Claro!"
+        },
+        {
+          "en": "Of course you can come to the party.",
+          "es": "Claro que puedes venir a la fiesta."
+        }
       ]
     }
   },
@@ -890,8 +1064,14 @@
         "Nice to meet you!": "\"Nice to meet you!\" se dice al conocer a alguien por primera vez, no al despedirse de un compañero."
       },
       "examples": [
-        "Bye, Tom! See you later!",
-        "See you later at the gym."
+        {
+          "en": "Bye, Tom! See you later!",
+          "es": "¡Adiós, Tom! ¡Nos vemos más tarde!"
+        },
+        {
+          "en": "See you later at the gym.",
+          "es": "Nos vemos más tarde en el gimnasio."
+        }
       ]
     }
   }

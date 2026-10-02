@@ -24,8 +24,14 @@
         "has travelled": "El present perfect no se usa con un momento pasado terminado como \"last summer\"."
       },
       "examples": [
-        "We visited Rome last year.",
-        "She cleaned her room yesterday."
+        {
+          "en": "We visited Rome last year.",
+          "es": "Visitamos Roma el año pasado."
+        },
+        {
+          "en": "She cleaned her room yesterday.",
+          "es": "Ella limpió su cuarto ayer."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "was leave": "\"was leave\" mezcla be con el infinitivo; el past simple no lleva was: I left."
       },
       "examples": [
-        "He left the party at midnight.",
-        "I lost my phone last week."
+        {
+          "en": "He left the party at midnight.",
+          "es": "Él se fue de la fiesta a medianoche."
+        },
+        {
+          "en": "I lost my phone last week.",
+          "es": "Perdí mi celular la semana pasada."
+        }
       ]
     }
   },
@@ -84,8 +96,14 @@
         "not": "En inglés no basta con \"not\" delante del verbo (en español sí: \"no tomamos\"); hace falta el auxiliar didn't."
       },
       "examples": [
-        "I didn't watch TV last night.",
-        "They didn't go to the party."
+        {
+          "en": "I didn't watch TV last night.",
+          "es": "No vi televisión anoche."
+        },
+        {
+          "en": "They didn't go to the party.",
+          "es": "Ellos no fueron a la fiesta."
+        }
       ]
     }
   },
@@ -114,8 +132,14 @@
         "Have": "El present perfect (Have you called) no se usa con \"last week\" y además pediría el participio, no call."
       },
       "examples": [
-        "Did you see the match yesterday?",
-        "Did she finish her project?"
+        {
+          "en": "Did you see the match yesterday?",
+          "es": "¿Viste el partido ayer?"
+        },
+        {
+          "en": "Did she finish her project?",
+          "es": "¿Terminó ella su proyecto?"
+        }
       ]
     }
   },
@@ -144,8 +168,14 @@
         "buied": "\"buied\" no existe; además buy es irregular."
       },
       "examples": [
-        "I bought a new jacket on Saturday.",
-        "She brought a cake to the party."
+        {
+          "en": "I bought a new jacket on Saturday.",
+          "es": "Compré una chaqueta nueva el sábado."
+        },
+        {
+          "en": "She brought a cake to the party.",
+          "es": "Ella llevó un pastel a la fiesta."
+        }
       ]
     }
   },
@@ -173,8 +203,14 @@
         "have": "En español \"tener sueño/cansancio\" puede confundir, pero en inglés se dice be tired, no have tired."
       },
       "examples": [
-        "My parents were at home last night.",
-        "The film was very long."
+        {
+          "en": "My parents were at home last night.",
+          "es": "Mis padres estaban en casa anoche."
+        },
+        {
+          "en": "The film was very long.",
+          "es": "La película fue muy larga."
+        }
       ]
     }
   },
@@ -203,8 +239,14 @@
         "are": "\"are\" es presente; \"last night\" pide pasado."
       },
       "examples": [
-        "Were you at school yesterday?",
-        "Where were they on Sunday?"
+        {
+          "en": "Were you at school yesterday?",
+          "es": "¿Estuviste en la escuela ayer?"
+        },
+        {
+          "en": "Where were they on Sunday?",
+          "es": "¿Dónde estaban ellos el domingo?"
+        }
       ]
     }
   },
@@ -232,8 +274,14 @@
         "had been": "\"had been\" sin -ing no tiene sentido aquí (I had been dinner); falta el verbo principal."
       },
       "examples": [
-        "At ten o'clock I was studying.",
-        "What were you doing at midnight?"
+        {
+          "en": "At ten o'clock I was studying.",
+          "es": "A las diez estaba estudiando."
+        },
+        {
+          "en": "What were you doing at midnight?",
+          "es": "¿Qué estabas haciendo a medianoche?"
+        }
       ]
     }
   },
@@ -261,8 +309,14 @@
         "play": "\"play\" es presente simple; no encaja con una historia en pasado."
       },
       "examples": [
-        "We were walking home when we saw the accident.",
-        "She was sleeping when the alarm rang."
+        {
+          "en": "We were walking home when we saw the accident.",
+          "es": "Íbamos caminando a casa cuando vimos el accidente."
+        },
+        {
+          "en": "She was sleeping when the alarm rang.",
+          "es": "Ella estaba durmiendo cuando sonó la alarma."
+        }
       ]
     }
   },
@@ -291,8 +345,14 @@
         "For": "\"For\" indica duración (for two hours) o finalidad; no significa \"mientras\"."
       },
       "examples": [
-        "While I was cooking, the phone rang.",
-        "He fell asleep while he was watching TV."
+        {
+          "en": "While I was cooking, the phone rang.",
+          "es": "Mientras yo cocinaba, sonó el teléfono."
+        },
+        {
+          "en": "He fell asleep while he was watching TV.",
+          "es": "Se quedó dormido mientras veía televisión."
+        }
       ]
     }
   },
@@ -321,8 +381,14 @@
         "hear": "\"hear\" es presente o infinitivo; hace falta el pasado heard."
       },
       "examples": [
-        "I was driving when I saw the sign.",
-        "They were eating when the lights went out."
+        {
+          "en": "I was driving when I saw the sign.",
+          "es": "Estaba manejando cuando vi la señal."
+        },
+        {
+          "en": "They were eating when the lights went out.",
+          "es": "Estaban comiendo cuando se fue la luz."
+        }
       ]
     }
   },
@@ -351,8 +417,14 @@
         "going to": "Falta el verbo be: it is going to (it's going to)."
       },
       "examples": [
-        "Be careful! You're going to fall.",
-        "She's going to have a baby."
+        {
+          "en": "Be careful! You're going to fall.",
+          "es": "¡Cuidado! Te vas a caer."
+        },
+        {
+          "en": "She's going to have a baby.",
+          "es": "Ella va a tener un bebé."
+        }
       ]
     }
   },
@@ -381,8 +453,14 @@
         "goes to": "\"goes to\" es traducción literal de \"va a\" y además no concuerda con we."
       },
       "examples": [
-        "I'm going to start a new course in May.",
-        "They're going to move to Lima."
+        {
+          "en": "I'm going to start a new course in May.",
+          "es": "Voy a empezar un curso nuevo en mayo."
+        },
+        {
+          "en": "They're going to move to Lima.",
+          "es": "Se van a mudar a Lima."
+        }
       ]
     }
   },
@@ -411,8 +489,14 @@
         "will": "\"I'm not will\" es incorrecto: will no va después de be."
       },
       "examples": [
-        "He isn't going to come today.",
-        "We aren't going to buy a car."
+        {
+          "en": "He isn't going to come today.",
+          "es": "Él no va a venir hoy."
+        },
+        {
+          "en": "We aren't going to buy a car.",
+          "es": "No vamos a comprar un carro."
+        }
       ]
     }
   },
@@ -441,8 +525,14 @@
         "am": "\"am\" no va seguido del infinitivo: \"I am buy\" no existe. Para una decisión que tomas en ese momento se usa will: I'll buy some now."
       },
       "examples": [
-        "It's cold. I'll close the window.",
-        "I'm hungry. I think I'll make a sandwich."
+        {
+          "en": "It's cold. I'll close the window.",
+          "es": "Hace frío. Voy a cerrar la ventana."
+        },
+        {
+          "en": "I'm hungry. I think I'll make a sandwich.",
+          "es": "Tengo hambre. Creo que me voy a hacer un sándwich."
+        }
       ]
     }
   },
@@ -471,8 +561,14 @@
         "Going": "\"Going\" no puede empezar una pregunta sin el verbo be."
       },
       "examples": [
-        "Will you help me with this box, please?",
-        "Will you close the door, please?"
+        {
+          "en": "Will you help me with this box, please?",
+          "es": "¿Me ayudas con esta caja, por favor?"
+        },
+        {
+          "en": "Will you close the door, please?",
+          "es": "¿Puedes cerrar la puerta, por favor?"
+        }
       ]
     }
   },
@@ -501,8 +597,14 @@
         "go to": "\"go to\" es traducción literal de \"voy a\"; hace falta am going to."
       },
       "examples": [
-        "I've bought the paint. I'm going to paint the kitchen.",
-        "We're going to have a party on Friday."
+        {
+          "en": "I've bought the paint. I'm going to paint the kitchen.",
+          "es": "Ya compré la pintura. Voy a pintar la cocina."
+        },
+        {
+          "en": "We're going to have a party on Friday.",
+          "es": "Vamos a hacer una fiesta el viernes."
+        }
       ]
     }
   },
@@ -531,8 +633,14 @@
         "more cheaper": "No se puede usar more y -er a la vez."
       },
       "examples": [
-        "This bag is smaller than that one.",
-        "Today is colder than yesterday."
+        {
+          "en": "This bag is smaller than that one.",
+          "es": "Esta bolsa es más pequeña que esa."
+        },
+        {
+          "en": "Today is colder than yesterday.",
+          "es": "Hoy hace más frío que ayer."
+        }
       ]
     }
   },
@@ -561,8 +669,14 @@
         "best": "Antes de un superlativo con sustantivo hace falta \"the\": the best restaurant."
       },
       "examples": [
-        "She is the best student in the class.",
-        "It was the worst day of my life."
+        {
+          "en": "She is the best student in the class.",
+          "es": "Ella es la mejor alumna de la clase."
+        },
+        {
+          "en": "It was the worst day of my life.",
+          "es": "Fue el peor día de mi vida."
+        }
       ]
     }
   },
@@ -591,8 +705,14 @@
         "the most hot": "Hot es un adjetivo corto: the hottest, no the most hot."
       },
       "examples": [
-        "August is the hottest month here.",
-        "That's the biggest pizza I've ever seen."
+        {
+          "en": "August is the hottest month here.",
+          "es": "Agosto es el mes más caluroso aquí."
+        },
+        {
+          "en": "That's the biggest pizza I've ever seen.",
+          "es": "Es la pizza más grande que he visto en mi vida."
+        }
       ]
     }
   },
@@ -621,8 +741,14 @@
         "like": "\"like\" significa \"como\" en el sentido de \"parecido a\", pero no completa la estructura as … as."
       },
       "examples": [
-        "My car is as fast as yours.",
-        "The test wasn't as hard as I thought."
+        {
+          "en": "My car is as fast as yours.",
+          "es": "Mi carro es tan rápido como el tuyo."
+        },
+        {
+          "en": "The test wasn't as hard as I thought.",
+          "es": "El examen no fue tan difícil como pensaba."
+        }
       ]
     }
   },
@@ -651,8 +777,14 @@
         "a lot": "\"How a lot\" no existe; para preguntar cantidad se usa How much / How many."
       },
       "examples": [
-        "How much money do you need?",
-        "How many brothers have you got?"
+        {
+          "en": "How much money do you need?",
+          "es": "¿Cuánto dinero necesitas?"
+        },
+        {
+          "en": "How many brothers have you got?",
+          "es": "¿Cuántos hermanos tienes?"
+        }
       ]
     }
   },
@@ -681,8 +813,14 @@
         "a lot": "Falta \"of\" antes del sustantivo: a lot of people."
       },
       "examples": [
-        "There aren't many cars on the road.",
-        "I don't have many friends here."
+        {
+          "en": "There aren't many cars on the road.",
+          "es": "No hay muchos carros en la carretera."
+        },
+        {
+          "en": "I don't have many friends here.",
+          "es": "No tengo muchos amigos aquí."
+        }
       ]
     }
   },
@@ -711,8 +849,14 @@
         "lots": "\"lots\" también necesita \"of\" delante del sustantivo: lots of homework."
       },
       "examples": [
-        "She drinks a lot of coffee.",
-        "There are a lot of tourists in summer."
+        {
+          "en": "She drinks a lot of coffee.",
+          "es": "Ella toma mucho café."
+        },
+        {
+          "en": "There are a lot of tourists in summer.",
+          "es": "Hay muchos turistas en verano."
+        }
       ]
     }
   },
@@ -740,8 +884,14 @@
         "idea": "\"idea\" es contable: a good idea, many ideas."
       },
       "examples": [
-        "Can I give you some advice?",
-        "She gave me a good piece of advice."
+        {
+          "en": "Can I give you some advice?",
+          "es": "¿Te puedo dar un consejo?"
+        },
+        {
+          "en": "She gave me a good piece of advice.",
+          "es": "Ella me dio un buen consejo."
+        }
       ]
     }
   },
@@ -770,8 +920,14 @@
         "many information": "\"many\" va con contables; además \"some\" ya está en la frase."
       },
       "examples": [
-        "I need more information.",
-        "The website has a lot of useful information."
+        {
+          "en": "I need more information.",
+          "es": "Necesito más información."
+        },
+        {
+          "en": "The website has a lot of useful information.",
+          "es": "El sitio web tiene mucha información útil."
+        }
       ]
     }
   },
@@ -800,8 +956,14 @@
         "an": "\"an\" va con contables singulares que empiezan por vocal; bread es incontable."
       },
       "examples": [
-        "Would you like some cheese?",
-        "We bought a loaf of bread."
+        {
+          "en": "Would you like some cheese?",
+          "es": "¿Quieres un poco de queso?"
+        },
+        {
+          "en": "We bought a loaf of bread.",
+          "es": "Compramos un pan de molde."
+        }
       ]
     }
   },
@@ -830,8 +992,14 @@
         "few": "\"few\" va con contables y significa \"pocos, casi ninguno\"."
       },
       "examples": [
-        "I have a little time now.",
-        "Add a little salt to the soup."
+        {
+          "en": "I have a little time now.",
+          "es": "Ahora tengo un poco de tiempo."
+        },
+        {
+          "en": "Add a little salt to the soup.",
+          "es": "Agrégale un poco de sal a la sopa."
+        }
       ]
     }
   },
@@ -860,8 +1028,14 @@
         "a lot": "Delante de un sustantivo falta \"of\": a lot of friends."
       },
       "examples": [
-        "We stayed there for a few days.",
-        "I bought a few apples."
+        {
+          "en": "We stayed there for a few days.",
+          "es": "Nos quedamos allí unos días."
+        },
+        {
+          "en": "I bought a few apples.",
+          "es": "Compré unas cuantas manzanas."
+        }
       ]
     }
   },
@@ -890,8 +1064,14 @@
         "must to": "\"must\" tampoco lleva \"to\" detrás, y aquí se da un consejo, no una obligación."
       },
       "examples": [
-        "You should drink more water.",
-        "We should leave now."
+        {
+          "en": "You should drink more water.",
+          "es": "Deberías tomar más agua."
+        },
+        {
+          "en": "We should leave now.",
+          "es": "Deberíamos irnos ya."
+        }
       ]
     }
   },
@@ -920,8 +1100,14 @@
         "shouldn't to": "Después de shouldn't no va \"to\"."
       },
       "examples": [
-        "You shouldn't drive so fast.",
-        "Children shouldn't stay up late."
+        {
+          "en": "You shouldn't drive so fast.",
+          "es": "No deberías manejar tan rápido."
+        },
+        {
+          "en": "Children shouldn't stay up late.",
+          "es": "Los niños no deberían acostarse tarde."
+        }
       ]
     }
   },
@@ -950,8 +1136,14 @@
         "Viste a un médico por la calle.": "Eso sería \"You saw a doctor in the street\"; should no es pasado de see."
       },
       "examples": [
-        "You should study more.",
-        "Should I call her?"
+        {
+          "en": "You should study more.",
+          "es": "Deberías estudiar más."
+        },
+        {
+          "en": "Should I call her?",
+          "es": "¿Debería llamarla?"
+        }
       ]
     }
   },
@@ -980,8 +1172,14 @@
         "don't must": "Must es modal y no usa do."
       },
       "examples": [
-        "You don't have to pay. It's free.",
-        "She doesn't have to work on Sundays."
+        {
+          "en": "You don't have to pay. It's free.",
+          "es": "No tienes que pagar. Es gratis."
+        },
+        {
+          "en": "She doesn't have to work on Sundays.",
+          "es": "Ella no tiene que trabajar los domingos."
+        }
       ]
     }
   },
@@ -1010,8 +1208,14 @@
         "doesn't have to": "\"doesn't\" no va con you, y además expresaría falta de necesidad."
       },
       "examples": [
-        "You mustn't use your phone during the exam.",
-        "We mustn't be late."
+        {
+          "en": "You mustn't use your phone during the exam.",
+          "es": "No puedes usar el celular durante el examen."
+        },
+        {
+          "en": "We mustn't be late.",
+          "es": "No debemos llegar tarde."
+        }
       ]
     }
   },
@@ -1040,8 +1244,14 @@
         "has": "Sin \"to\" significa \"tener\", no obligación: has to wear."
       },
       "examples": [
-        "She has to finish the report today.",
-        "I have to call my mum."
+        {
+          "en": "She has to finish the report today.",
+          "es": "Ella tiene que terminar el informe hoy."
+        },
+        {
+          "en": "I have to call my mum.",
+          "es": "Tengo que llamar a mi mamá."
+        }
       ]
     }
   },
@@ -1070,8 +1280,14 @@
         "musted": "\"musted\" no existe; must no tiene pasado."
       },
       "examples": [
-        "We had to wait for an hour.",
-        "Did you have to wear a uniform at school?"
+        {
+          "en": "We had to wait for an hour.",
+          "es": "Tuvimos que esperar una hora."
+        },
+        {
+          "en": "Did you have to wear a uniform at school?",
+          "es": "¿Tenías que usar uniforme en la escuela?"
+        }
       ]
     }
   },
@@ -1100,8 +1316,14 @@
         "already": "\"already\" significa que sí has ido, y eso contradice \"I'd love to go one day\"."
       },
       "examples": [
-        "She has never seen snow.",
-        "I've never eaten octopus."
+        {
+          "en": "She has never seen snow.",
+          "es": "Ella nunca ha visto la nieve."
+        },
+        {
+          "en": "I've never eaten octopus.",
+          "es": "Nunca he comido pulpo."
+        }
       ]
     }
   },
@@ -1130,8 +1352,14 @@
         "ever": "\"ever\" se usa en preguntas sobre experiencias, no en esta negativa."
       },
       "examples": [
-        "Has the bus arrived yet?",
-        "They haven't called yet."
+        {
+          "en": "Has the bus arrived yet?",
+          "es": "¿Ya llegó el autobús?"
+        },
+        {
+          "en": "They haven't called yet.",
+          "es": "Todavía no han llamado."
+        }
       ]
     }
   },
@@ -1160,8 +1388,14 @@
         "still": "\"still\" significa \"todavía\" y no se usa así con el present perfect afirmativo."
       },
       "examples": [
-        "I've just had lunch.",
-        "The film has just started."
+        {
+          "en": "I've just had lunch.",
+          "es": "Acabo de almorzar."
+        },
+        {
+          "en": "The film has just started.",
+          "es": "La película acaba de empezar."
+        }
       ]
     }
   },
@@ -1190,8 +1424,14 @@
         "never": "\"never\" contradice la primera frase: si nunca los compró, sí habría que comprarlos."
       },
       "examples": [
-        "I've already seen this film.",
-        "He has already left."
+        {
+          "en": "I've already seen this film.",
+          "es": "Ya vi esta película."
+        },
+        {
+          "en": "He has already left.",
+          "es": "Él ya se fue."
+        }
       ]
     }
   },
@@ -1219,8 +1459,14 @@
         "more careful": "\"more careful\" es un adjetivo comparativo; el verbo drive necesita un adverbio."
       },
       "examples": [
-        "She sings beautifully.",
-        "Speak slowly, please."
+        {
+          "en": "She sings beautifully.",
+          "es": "Ella canta precioso."
+        },
+        {
+          "en": "Speak slowly, please.",
+          "es": "Habla despacio, por favor."
+        }
       ]
     }
   },
@@ -1249,8 +1495,14 @@
         "better": "\"better\" es comparativo y no va detrás de very."
       },
       "examples": [
-        "He plays the guitar well.",
-        "Did you sleep well?"
+        {
+          "en": "He plays the guitar well.",
+          "es": "Él toca bien la guitarra."
+        },
+        {
+          "en": "Did you sleep well?",
+          "es": "¿Dormiste bien?"
+        }
       ]
     }
   },
@@ -1279,8 +1531,14 @@
         "swam": "\"swam\" es el pasado de swim; aquí hace falta la forma -ing."
       },
       "examples": [
-        "We enjoyed walking on the beach.",
-        "Do you enjoy cooking?"
+        {
+          "en": "We enjoyed walking on the beach.",
+          "es": "Disfrutamos caminar por la playa."
+        },
+        {
+          "en": "Do you enjoy cooking?",
+          "es": "¿Te gusta cocinar?"
+        }
       ]
     }
   },
@@ -1309,8 +1567,14 @@
         "did": "\"did\" es pasado; detrás de hates hace falta -ing."
       },
       "examples": [
-        "I hate getting up early.",
-        "She likes reading comics."
+        {
+          "en": "I hate getting up early.",
+          "es": "Odio levantarme temprano."
+        },
+        {
+          "en": "She likes reading comics.",
+          "es": "A ella le gusta leer cómics."
+        }
       ]
     }
   },
@@ -1339,8 +1603,14 @@
         "She loves to dancing salsa.": "No se pone \"to\" delante de la forma -ing."
       },
       "examples": [
-        "They love travelling.",
-        "My dad loves playing chess."
+        {
+          "en": "They love travelling.",
+          "es": "A ellos les encanta viajar."
+        },
+        {
+          "en": "My dad loves playing chess.",
+          "es": "A mi papá le encanta jugar ajedrez."
+        }
       ]
     }
   },
@@ -1369,8 +1639,14 @@
         "to": "\"to\" es una preposición; \"demasiado\" se escribe too, con dos o."
       },
       "examples": [
-        "This shirt is too small for me.",
-        "It's too late to call him."
+        {
+          "en": "This shirt is too small for me.",
+          "es": "Esta camisa me queda demasiado chica."
+        },
+        {
+          "en": "It's too late to call him.",
+          "es": "Es demasiado tarde para llamarlo."
+        }
       ]
     }
   },
@@ -1399,8 +1675,14 @@
         "so": "\"so\" va delante del adjetivo (so old) y no forma esta estructura con to."
       },
       "examples": [
-        "The room isn't big enough.",
-        "Are you warm enough?"
+        {
+          "en": "The room isn't big enough.",
+          "es": "El cuarto no es lo bastante grande."
+        },
+        {
+          "en": "Are you warm enough?",
+          "es": "¿Tienes suficiente calor?"
+        }
       ]
     }
   },
@@ -1429,8 +1711,14 @@
         "enough of": "No se usa \"of\" entre enough y un sustantivo sin determinante: enough money."
       },
       "examples": [
-        "Is there enough food for everyone?",
-        "I don't have enough time."
+        {
+          "en": "Is there enough food for everyone?",
+          "es": "¿Hay suficiente comida para todos?"
+        },
+        {
+          "en": "I don't have enough time.",
+          "es": "No tengo suficiente tiempo."
+        }
       ]
     }
   },
@@ -1459,8 +1747,14 @@
         "for": "\"for\" no indica movimiento; es otra traducción errónea de \"por\"."
       },
       "examples": [
-        "The train goes through a long tunnel.",
-        "We walked through the forest."
+        {
+          "en": "The train goes through a long tunnel.",
+          "es": "El tren pasa por un túnel largo."
+        },
+        {
+          "en": "We walked through the forest.",
+          "es": "Caminamos por el bosque."
+        }
       ]
     }
   },
@@ -1489,8 +1783,14 @@
         "above": "\"above\" indica posición más alta, sin movimiento."
       },
       "examples": [
-        "She ran up the hill.",
-        "Go down the street and turn right."
+        {
+          "en": "She ran up the hill.",
+          "es": "Ella subió corriendo la colina."
+        },
+        {
+          "en": "Go down the street and turn right.",
+          "es": "Baja por la calle y dobla a la derecha."
+        }
       ]
     }
   },
@@ -1519,8 +1819,14 @@
         "of": "\"of\" sola no indica movimiento; hace falta out of."
       },
       "examples": [
-        "He got out of the taxi.",
-        "The cat jumped out of the box."
+        {
+          "en": "He got out of the taxi.",
+          "es": "Él se bajó del taxi."
+        },
+        {
+          "en": "The cat jumped out of the box.",
+          "es": "El gato saltó fuera de la caja."
+        }
       ]
     }
   },
@@ -1549,8 +1855,14 @@
         "breaked": "\"breaked\" no existe: break es irregular (broke)."
       },
       "examples": [
-        "Who called you? — My boss called me.",
-        "Who wrote this book?"
+        {
+          "en": "Who called you? — My boss called me.",
+          "es": "¿Quién te llamó? — Me llamó mi jefe."
+        },
+        {
+          "en": "Who wrote this book?",
+          "es": "¿Quién escribió este libro?"
+        }
       ]
     }
   },
@@ -1579,8 +1891,14 @@
         "have": "\"have\" pediría el participio (called) y no se usa con last night."
       },
       "examples": [
-        "Who did you see at the party?",
-        "What did she buy?"
+        {
+          "en": "Who did you see at the party?",
+          "es": "¿A quién viste en la fiesta?"
+        },
+        {
+          "en": "What did she buy?",
+          "es": "¿Qué compró ella?"
+        }
       ]
     }
   },
@@ -1609,8 +1927,14 @@
         "happens": "\"happens\" es presente; \"last night\" pide pasado."
       },
       "examples": [
-        "What happened to your car?",
-        "Who lives here?"
+        {
+          "en": "What happened to your car?",
+          "es": "¿Qué le pasó a tu carro?"
+        },
+        {
+          "en": "Who lives here?",
+          "es": "¿Quién vive aquí?"
+        }
       ]
     }
   },
@@ -1639,8 +1963,14 @@
         "Mine's": "\"Mine's\" ya significa \"mine is\", así que repetiría el verbo."
       },
       "examples": [
-        "That bag is mine.",
-        "Your car is red; mine is black."
+        {
+          "en": "That bag is mine.",
+          "es": "Esa bolsa es mía."
+        },
+        {
+          "en": "Your car is red; mine is black.",
+          "es": "Tu carro es rojo; el mío es negro."
+        }
       ]
     }
   },
@@ -1669,8 +1999,14 @@
         "your's": "Los posesivos nunca llevan apóstrofo: yours."
       },
       "examples": [
-        "Is this phone yours?",
-        "My room is bigger than yours."
+        {
+          "en": "Is this phone yours?",
+          "es": "¿Este celular es tuyo?"
+        },
+        {
+          "en": "My room is bigger than yours.",
+          "es": "Mi cuarto es más grande que el tuyo."
+        }
       ]
     }
   },
@@ -1699,8 +2035,14 @@
         "their's": "Los posesivos no llevan apóstrofo: theirs."
       },
       "examples": [
-        "The house on the corner is theirs.",
-        "Is this table ours or theirs?"
+        {
+          "en": "The house on the corner is theirs.",
+          "es": "La casa de la esquina es de ellos."
+        },
+        {
+          "en": "Is this table ours or theirs?",
+          "es": "¿Esta mesa es nuestra o de ellos?"
+        }
       ]
     }
   },
@@ -1729,8 +2071,14 @@
         "am like": "\"am like\" no es correcto: like no se usa con be así."
       },
       "examples": [
-        "I'd like a coffee, please.",
-        "We would like a table for two."
+        {
+          "en": "I'd like a coffee, please.",
+          "es": "Quisiera un café, por favor."
+        },
+        {
+          "en": "We would like a table for two.",
+          "es": "Quisiéramos una mesa para dos."
+        }
       ]
     }
   },
@@ -1759,8 +2107,14 @@
         "to coming": "Después de \"to\" va el infinitivo, no la forma -ing."
       },
       "examples": [
-        "Would you like to dance?",
-        "I'd like to visit Peru one day."
+        {
+          "en": "Would you like to dance?",
+          "es": "¿Quieres bailar?"
+        },
+        {
+          "en": "I'd like to visit Peru one day.",
+          "es": "Me gustaría visitar Perú algún día."
+        }
       ]
     }
   },
@@ -1789,8 +2143,14 @@
         "Tenía un sándwich.": "Eso sería \"I had a sandwich\"; 'd aquí es would, no had."
       },
       "examples": [
-        "I'd like some help, please.",
-        "She'd like a new laptop."
+        {
+          "en": "I'd like some help, please.",
+          "es": "Quisiera un poco de ayuda, por favor."
+        },
+        {
+          "en": "She'd like a new laptop.",
+          "es": "A ella le gustaría una laptop nueva."
+        }
       ]
     }
   }

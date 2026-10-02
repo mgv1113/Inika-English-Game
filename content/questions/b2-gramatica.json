@@ -23,8 +23,14 @@
         "have caught": "\"if + have caught\" no existe para hablar de un pasado irreal; necesitas el pasado perfecto: had caught."
       },
       "examples": [
-        "If I had known, I would have called you.",
-        "They would have won if they had trained harder."
+        {
+          "en": "If I had known, I would have called you.",
+          "es": "Si lo hubiera sabido, te habría llamado."
+        },
+        {
+          "en": "They would have won if they had trained harder.",
+          "es": "Habrían ganado si hubieran entrenado más."
+        }
       ]
     }
   },
@@ -52,7 +58,10 @@
         "will have passed": "\"will have passed\" es futuro perfecto; no sirve para imaginar algo que no ocurrió en el pasado."
       },
       "examples": [
-        "We would have stayed longer if the hotel had been nicer."
+        {
+          "en": "We would have stayed longer if the hotel had been nicer.",
+          "es": "Nos habríamos quedado más tiempo si el hotel hubiera sido mejor."
+        }
       ]
     }
   },
@@ -80,7 +89,10 @@
         "If I had knew about the party, I would have gone.": "Después de had va el participio (known), no el pasado simple (knew)."
       },
       "examples": [
-        "If she had asked me, I would have helped her."
+        {
+          "en": "If she had asked me, I would have helped her.",
+          "es": "Si me lo hubiera pedido, la habría ayudado."
+        }
       ]
     }
   },
@@ -109,8 +121,14 @@
         "had been": "El pasado perfecto no va en la consecuencia; para un resultado presente irreal se usa would + infinitivo."
       },
       "examples": [
-        "If I had taken that job, I would live in Paris now.",
-        "If she had saved money, she wouldn't be broke today."
+        {
+          "en": "If I had taken that job, I would live in Paris now.",
+          "es": "Si hubiera aceptado ese trabajo, ahora viviría en París."
+        },
+        {
+          "en": "If she had saved money, she wouldn't be broke today.",
+          "es": "Si hubiera ahorrado dinero, hoy no estaría sin un peso."
+        }
       ]
     }
   },
@@ -139,8 +157,14 @@
         "hasn't been": "El presente perfecto no sirve en una condición irreal. Para un rasgo permanente de su carácter se usa weren't."
       },
       "examples": [
-        "If he weren't so stubborn, he would have apologised yesterday.",
-        "If I spoke French, I would have understood the guide."
+        {
+          "en": "If he weren't so stubborn, he would have apologised yesterday.",
+          "es": "Si no fuera tan terco, se habría disculpado ayer."
+        },
+        {
+          "en": "If I spoke French, I would have understood the guide.",
+          "es": "Si hablara francés, habría entendido al guía."
+        }
       ]
     }
   },
@@ -168,7 +192,10 @@
         "Será perezoso mañana y no terminará el informe.": "La frase no habla del futuro. \"would have finished\" se refiere a ayer."
       },
       "examples": [
-        "If I were more organised, I wouldn't have missed the deadline."
+        {
+          "en": "If I were more organised, I wouldn't have missed the deadline.",
+          "es": "Si fuera más organizado, no me habría pasado la fecha límite."
+        }
       ]
     }
   },
@@ -196,8 +223,14 @@
         "had known": "\"had known\" expresa un lamento sobre el pasado, y la frase habla de ahora (\"I have no idea\")."
       },
       "examples": [
-        "I wish I had more free time.",
-        "I wish we lived closer to the sea."
+        {
+          "en": "I wish I had more free time.",
+          "es": "Ojalá tuviera más tiempo libre."
+        },
+        {
+          "en": "I wish we lived closer to the sea.",
+          "es": "Ojalá viviéramos más cerca del mar."
+        }
       ]
     }
   },
@@ -225,8 +258,14 @@
         "have listened": "Después de wish no se usa el presente perfecto. Para el pasado se usa had + participio."
       },
       "examples": [
-        "I wish I hadn't said that.",
-        "If only we had left earlier!"
+        {
+          "en": "I wish I hadn't said that.",
+          "es": "Ojalá no hubiera dicho eso."
+        },
+        {
+          "en": "If only we had left earlier!",
+          "es": "¡Si tan solo hubiéramos salido más temprano!"
+        }
       ]
     }
   },
@@ -254,8 +293,14 @@
         "is stopping": "El presente continuo no encaja: if only expresa un deseo, no una acción que ya está ocurriendo."
       },
       "examples": [
-        "I wish the neighbours would turn the music down.",
-        "If only the bus would come!"
+        {
+          "en": "I wish the neighbours would turn the music down.",
+          "es": "Ojalá los vecinos le bajaran a la música."
+        },
+        {
+          "en": "If only the bus would come!",
+          "es": "¡Ojalá llegara el autobús!"
+        }
       ]
     }
   },
@@ -284,8 +329,14 @@
         "it is believed": "La estructura con it va seguida de that: It is believed that the suspect left... No puede ir después del sujeto."
       },
       "examples": [
-        "She is said to be the best chef in town.",
-        "The thieves are thought to have escaped by car."
+        {
+          "en": "She is said to be the best chef in town.",
+          "es": "Dicen que es la mejor chef de la ciudad."
+        },
+        {
+          "en": "The thieves are thought to have escaped by car.",
+          "es": "Se cree que los ladrones escaparon en auto."
+        }
       ]
     }
   },
@@ -314,8 +365,14 @@
         "It is said the castle to be haunted.": "Con It is said va una oración con that, no un infinitivo. El infinitivo va con el castillo como sujeto: The castle is said to be haunted."
       },
       "examples": [
-        "It is said that he speaks six languages.",
-        "He is said to speak six languages."
+        {
+          "en": "It is said that he speaks six languages.",
+          "es": "Se dice que habla seis idiomas."
+        },
+        {
+          "en": "He is said to speak six languages.",
+          "es": "Dicen que habla seis idiomas."
+        }
       ]
     }
   },
@@ -344,8 +401,14 @@
         "being": "Después de is thought no va -ing, sino to + infinitivo."
       },
       "examples": [
-        "The ship is believed to have sunk in 1820.",
-        "He is thought to have been injured."
+        {
+          "en": "The ship is believed to have sunk in 1820.",
+          "es": "Se cree que el barco se hundió en 1820."
+        },
+        {
+          "en": "He is thought to have been injured.",
+          "es": "Se cree que resultó herido."
+        }
       ]
     }
   },
@@ -373,8 +436,14 @@
         "It is expected prices to rise next year.": "Con It is expected va that + oración: It is expected that prices will rise."
       },
       "examples": [
-        "Interest rates are expected to fall.",
-        "The minister is expected to resign."
+        {
+          "en": "Interest rates are expected to fall.",
+          "es": "Se espera que bajen las tasas de interés."
+        },
+        {
+          "en": "The minister is expected to resign.",
+          "es": "Se espera que el ministro renuncie."
+        }
       ]
     }
   },
@@ -402,8 +471,14 @@
         "let": "let significa permitir y va con infinitivo sin to (let him cut), no con participio."
       },
       "examples": [
-        "We had the kitchen painted last month.",
-        "She's having her nails done."
+        {
+          "en": "We had the kitchen painted last month.",
+          "es": "Mandamos a pintar la cocina el mes pasado."
+        },
+        {
+          "en": "She's having her nails done.",
+          "es": "Se está haciendo las uñas."
+        }
       ]
     }
   },
@@ -431,8 +506,14 @@
         "I had my car to repair yesterday.": "\"to repair\" no sirve aquí. La estructura causativa usa el participio: had my car repaired."
       },
       "examples": [
-        "I had my eyes tested.",
-        "They had their roof fixed after the storm."
+        {
+          "en": "I had my eyes tested.",
+          "es": "Me hice revisar la vista."
+        },
+        {
+          "en": "They had their roof fixed after the storm.",
+          "es": "Mandaron a arreglar el techo después de la tormenta."
+        }
       ]
     }
   },
@@ -460,8 +541,14 @@
         "Ella tenía un teléfono robado en el autobús.": "Es una traducción literal de \"had\". Aquí la estructura es causativa: have + objeto + participio."
       },
       "examples": [
-        "He had his wallet stolen in Rome.",
-        "We had our flight cancelled."
+        {
+          "en": "He had his wallet stolen in Rome.",
+          "es": "Le robaron la billetera en Roma."
+        },
+        {
+          "en": "We had our flight cancelled.",
+          "es": "Nos cancelaron el vuelo."
+        }
       ]
     }
   },
@@ -489,8 +576,14 @@
         "postpone": "Directamente después de suggest no va el infinitivo sin to. Se usa -ing: suggested postponing."
       },
       "examples": [
-        "She suggested going to the beach.",
-        "He suggested that we take a taxi."
+        {
+          "en": "She suggested going to the beach.",
+          "es": "Ella sugirió ir a la playa."
+        },
+        {
+          "en": "He suggested that we take a taxi.",
+          "es": "Él sugirió que tomáramos un taxi."
+        }
       ]
     }
   },
@@ -518,8 +611,14 @@
         "that took": "Si usas that, necesitas un sujeto: denied that he had taken."
       },
       "examples": [
-        "He denied breaking the window.",
-        "She denied having lied to the police."
+        {
+          "en": "He denied breaking the window.",
+          "es": "Él negó haber roto la ventana."
+        },
+        {
+          "en": "She denied having lied to the police.",
+          "es": "Ella negó haberle mentido a la policía."
+        }
       ]
     }
   },
@@ -547,8 +646,14 @@
         "Tom admitted me that he broke the vase.": "admit no lleva objeto de persona. Se dice admitted (to me) that..."
       },
       "examples": [
-        "She admitted making a mistake.",
-        "He admitted that he was wrong."
+        {
+          "en": "She admitted making a mistake.",
+          "es": "Ella admitió haber cometido un error."
+        },
+        {
+          "en": "He admitted that he was wrong.",
+          "es": "Él admitió que estaba equivocado."
+        }
       ]
     }
   },
@@ -576,8 +681,14 @@
         "against to": "warn against va con -ing (warned us against swimming), no con to."
       },
       "examples": [
-        "The doctor warned him not to eat so much salt.",
-        "They warned us against travelling at night."
+        {
+          "en": "The doctor warned him not to eat so much salt.",
+          "es": "El médico le advirtió que no comiera tanta sal."
+        },
+        {
+          "en": "They warned us against travelling at night.",
+          "es": "Nos advirtieron que no viajáramos de noche."
+        }
       ]
     }
   },
@@ -605,8 +716,14 @@
         "She refused that she would sign the contract.": "refuse no va con una oración con that. Se usa refuse + to + infinitivo."
       },
       "examples": [
-        "He refused to answer the question.",
-        "They refused to pay the bill."
+        {
+          "en": "He refused to answer the question.",
+          "es": "Se negó a responder la pregunta."
+        },
+        {
+          "en": "They refused to pay the bill.",
+          "es": "Se negaron a pagar la cuenta."
+        }
       ]
     }
   },
@@ -634,8 +751,14 @@
         "should have": "\"should have\" expresa lo que era de esperar o lo que habría convenido, no una deducción a partir de pruebas."
       },
       "examples": [
-        "You must have been tired after the trip.",
-        "He must have forgotten the keys."
+        {
+          "en": "You must have been tired after the trip.",
+          "es": "Debes de haber estado cansado después del viaje."
+        },
+        {
+          "en": "He must have forgotten the keys.",
+          "es": "Seguro se le olvidaron las llaves."
+        }
       ]
     }
   },
@@ -663,8 +786,14 @@
         "needn't have": "\"needn't have\" significa que algo no era necesario, no que fuera imposible."
       },
       "examples": [
-        "He can't have seen us; it was too dark.",
-        "She couldn't have known about it."
+        {
+          "en": "He can't have seen us; it was too dark.",
+          "es": "No puede habernos visto; estaba demasiado oscuro."
+        },
+        {
+          "en": "She couldn't have known about it.",
+          "es": "Ella no podía haberlo sabido."
+        }
       ]
     }
   },
@@ -692,8 +821,14 @@
         "She might be busy yesterday.": "Con yesterday necesitas la forma de pasado: might have been."
       },
       "examples": [
-        "They might have missed the bus.",
-        "He may have left already."
+        {
+          "en": "They might have missed the bus.",
+          "es": "Puede que hayan perdido el autobús."
+        },
+        {
+          "en": "He may have left already.",
+          "es": "Puede que ya se haya ido."
+        }
       ]
     }
   },
@@ -721,8 +856,14 @@
         "should": "Para el pasado hace falta have + participio: should have told."
       },
       "examples": [
-        "I should have studied more.",
-        "We shouldn't have eaten so late."
+        {
+          "en": "I should have studied more.",
+          "es": "Debería haber estudiado más."
+        },
+        {
+          "en": "We shouldn't have eaten so late.",
+          "es": "No deberíamos haber cenado tan tarde."
+        }
       ]
     }
   },
@@ -751,8 +892,14 @@
         "shouldn't": "Para el pasado falta have: shouldn't have taken. Y shouldn't (sin have) no puede ir con taken."
       },
       "examples": [
-        "You needn't have waited for me.",
-        "I needn't have worried; the exam was easy."
+        {
+          "en": "You needn't have waited for me.",
+          "es": "No hacía falta que me esperaras."
+        },
+        {
+          "en": "I needn't have worried; the exam was easy.",
+          "es": "No tenía por qué haberme preocupado; el examen estuvo fácil."
+        }
       ]
     }
   },
@@ -780,8 +927,14 @@
         "La segunda indica que estaba prohibido comprar leche.": "needn't expresa falta de necesidad, no prohibición (para eso se usa mustn't)."
       },
       "examples": [
-        "I didn't need to go to work, so I stayed in bed.",
-        "I needn't have gone to work; the office was closed."
+        {
+          "en": "I didn't need to go to work, so I stayed in bed.",
+          "es": "No tenía que ir a trabajar, así que me quedé en la cama."
+        },
+        {
+          "en": "I needn't have gone to work; the office was closed.",
+          "es": "No hacía falta que fuera a trabajar; la oficina estaba cerrada."
+        }
       ]
     }
   },
@@ -810,8 +963,14 @@
         "saw I": "Los verbos normales no se invierten. Se invierte el auxiliar: have I seen."
       },
       "examples": [
-        "Never have I felt so tired.",
-        "Rarely do we eat out these days."
+        {
+          "en": "Never have I felt so tired.",
+          "es": "Nunca me había sentido tan cansado."
+        },
+        {
+          "en": "Rarely do we eat out these days.",
+          "es": "Casi nunca comemos fuera estos días."
+        }
       ]
     }
   },
@@ -840,8 +999,14 @@
         "did he was": "Con be no se usa did. Lo correcto es was he."
       },
       "examples": [
-        "Not only did she win, but she also broke the record.",
-        "Not only is it cheap, but it's also healthy."
+        {
+          "en": "Not only did she win, but she also broke the record.",
+          "es": "No solo ganó, sino que además rompió el récord."
+        },
+        {
+          "en": "Not only is it cheap, but it's also healthy.",
+          "es": "No solo es barato, sino que además es saludable."
+        }
       ]
     }
   },
@@ -870,8 +1035,14 @@
         "then": "\"then\" significa luego y no puede unir las dos partes de esta estructura."
       },
       "examples": [
-        "Hardly had I closed my eyes when the phone rang.",
-        "Scarcely had the film started when the lights came on."
+        {
+          "en": "Hardly had I closed my eyes when the phone rang.",
+          "es": "Apenas había cerrado los ojos cuando sonó el teléfono."
+        },
+        {
+          "en": "Scarcely had the film started when the lights came on.",
+          "es": "Apenas había empezado la película cuando se encendieron las luces."
+        }
       ]
     }
   },
@@ -900,8 +1071,14 @@
         "have I left": "El presente perfecto no encaja con una secuencia de hechos pasados (\"it started\"). Se usa had."
       },
       "examples": [
-        "No sooner had she arrived than the meeting began.",
-        "No sooner had we paid than we saw a cheaper offer."
+        {
+          "en": "No sooner had she arrived than the meeting began.",
+          "es": "En cuanto ella llegó, empezó la reunión."
+        },
+        {
+          "en": "No sooner had we paid than we saw a cheaper offer.",
+          "es": "Apenas pagamos, vimos una oferta más barata."
+        }
       ]
     }
   },
@@ -930,8 +1107,14 @@
         "After finish": "Después de una preposición como after va -ing: After finishing."
       },
       "examples": [
-        "Having lost his keys, he had to call a locksmith.",
-        "Having seen the film, I didn't want to see it again."
+        {
+          "en": "Having lost his keys, he had to call a locksmith.",
+          "es": "Como había perdido las llaves, tuvo que llamar a un cerrajero."
+        },
+        {
+          "en": "Having seen the film, I didn't want to see it again.",
+          "es": "Como ya había visto la película, no quise volver a verla."
+        }
       ]
     }
   },
@@ -960,8 +1143,14 @@
         "Been built in 1890, the bridge is still in use today.": "\"Been\" no puede empezar una oración de participio sin having. Basta con Built."
       },
       "examples": [
-        "Written in 1949, the novel is still popular.",
-        "Made by hand, these shoes last for years."
+        {
+          "en": "Written in 1949, the novel is still popular.",
+          "es": "Escrita en 1949, la novela sigue siendo popular."
+        },
+        {
+          "en": "Made by hand, these shoes last for years.",
+          "es": "Hechos a mano, estos zapatos duran años."
+        }
       ]
     }
   },
@@ -989,8 +1178,14 @@
         "While walked home, I saw an accident.": "\"walked\" sin sujeto no es correcto aquí. Se dice while walking o while I was walking."
       },
       "examples": [
-        "While waiting for the bus, she read a book.",
-        "Feeling tired, he went to bed early."
+        {
+          "en": "While waiting for the bus, she read a book.",
+          "es": "Mientras esperaba el autobús, leyó un libro."
+        },
+        {
+          "en": "Feeling tired, he went to bed early.",
+          "es": "Como se sentía cansado, se fue a dormir temprano."
+        }
       ]
     }
   },
@@ -1018,8 +1213,14 @@
         "would have": "would es condicional; aquí se habla de un plan real para esta noche."
       },
       "examples": [
-        "This time tomorrow, I'll be flying to Lima.",
-        "At 8 tonight, they'll be watching the match."
+        {
+          "en": "This time tomorrow, I'll be flying to Lima.",
+          "es": "Mañana a esta hora estaré volando a Lima."
+        },
+        {
+          "en": "At 8 tonight, they'll be watching the match.",
+          "es": "Esta noche a las 8 estarán viendo el partido."
+        }
       ]
     }
   },
@@ -1047,8 +1248,14 @@
         "have worked": "El presente perfecto mide hasta ahora, no hasta un momento del futuro (\"by the end of this year\")."
       },
       "examples": [
-        "By June, she will have finished her degree.",
-        "By 2030, they will have been married for 20 years."
+        {
+          "en": "By June, she will have finished her degree.",
+          "es": "Para junio, ya habrá terminado su carrera."
+        },
+        {
+          "en": "By 2030, they will have been married for 20 years.",
+          "es": "Para 2030, llevarán 20 años casados."
+        }
       ]
     }
   },
@@ -1076,8 +1283,14 @@
         "haven't": "El presente perfecto no encaja. Con would rather + otra persona se usa el pasado simple."
       },
       "examples": [
-        "I'd rather you came tomorrow.",
-        "She'd rather we didn't tell anyone."
+        {
+          "en": "I'd rather you came tomorrow.",
+          "es": "Preferiría que vinieras mañana."
+        },
+        {
+          "en": "She'd rather we didn't tell anyone.",
+          "es": "Ella preferiría que no le dijéramos a nadie."
+        }
       ]
     }
   },
@@ -1105,8 +1318,14 @@
         "took": "Aunque had parece pasado, had better va con infinitivo sin to y se refiere al presente o futuro."
       },
       "examples": [
-        "You'd better hurry or you'll miss the train.",
-        "We'd better not be late."
+        {
+          "en": "You'd better hurry or you'll miss the train.",
+          "es": "Más vale que te apures o vas a perder el tren."
+        },
+        {
+          "en": "We'd better not be late.",
+          "es": "Mejor no lleguemos tarde."
+        }
       ]
     }
   },
@@ -1134,8 +1353,14 @@
         "have bought": "El presente perfecto no encaja; la estructura pide el pasado simple: bought."
       },
       "examples": [
-        "It's time you went to bed.",
-        "It's about time they fixed this road."
+        {
+          "en": "It's time you went to bed.",
+          "es": "Ya es hora de que te vayas a dormir."
+        },
+        {
+          "en": "It's about time they fixed this road.",
+          "es": "Ya era hora de que arreglaran esta calle."
+        }
       ]
     }
   },
@@ -1163,8 +1388,14 @@
         "However": "however une dos oraciones y no puede ir directamente delante de un sustantivo."
       },
       "examples": [
-        "Despite feeling ill, she went to work.",
-        "In spite of the rain, we had a great time."
+        {
+          "en": "Despite feeling ill, she went to work.",
+          "es": "A pesar de sentirse mal, fue a trabajar."
+        },
+        {
+          "en": "In spite of the rain, we had a great time.",
+          "es": "A pesar de la lluvia, la pasamos genial."
+        }
       ]
     }
   },
@@ -1192,8 +1423,14 @@
         "in spite of": "in spite of va seguido de un sustantivo o de -ing, no de una oración."
       },
       "examples": [
-        "He's very tall, whereas his brother is quite short.",
-        "Some people prefer tea, whereas others love coffee."
+        {
+          "en": "He's very tall, whereas his brother is quite short.",
+          "es": "Él es muy alto, mientras que su hermano es bastante bajo."
+        },
+        {
+          "en": "Some people prefer tea, whereas others love coffee.",
+          "es": "Algunas personas prefieren el té, mientras que otras adoran el café."
+        }
       ]
     }
   },
@@ -1221,8 +1458,14 @@
         "whom": "whom es de objeto (o va tras preposición). Aquí el relativo es el sujeto de \"lives\"."
       },
       "examples": [
-        "Madrid, which is the capital of Spain, is very lively.",
-        "My teacher, who is from Ireland, speaks four languages."
+        {
+          "en": "Madrid, which is the capital of Spain, is very lively.",
+          "es": "Madrid, que es la capital de España, es muy animada."
+        },
+        {
+          "en": "My teacher, who is from Ireland, speaks four languages.",
+          "es": "Mi profesor, que es de Irlanda, habla cuatro idiomas."
+        }
       ]
     }
   },
@@ -1251,8 +1494,14 @@
         "He failed the exam, it surprised everyone.": "Son dos oraciones unidas solo con una coma, y en inglés eso es incorrecto."
       },
       "examples": [
-        "She didn't call, which was strange.",
-        "The train was late, which meant I missed my flight."
+        {
+          "en": "She didn't call, which was strange.",
+          "es": "Ella no llamó, lo cual fue raro."
+        },
+        {
+          "en": "The train was late, which meant I missed my flight.",
+          "es": "El tren llegó tarde, lo que hizo que perdiera mi vuelo."
+        }
       ]
     }
   },
@@ -1281,8 +1530,14 @@
         "The thing what": "Se dice The thing (that) I need; what no va detrás de un sustantivo."
       },
       "examples": [
-        "What I love about this city is the food.",
-        "What we need is more time."
+        {
+          "en": "What I love about this city is the food.",
+          "es": "Lo que me encanta de esta ciudad es la comida."
+        },
+        {
+          "en": "What we need is more time.",
+          "es": "Lo que necesitamos es más tiempo."
+        }
       ]
     }
   },
@@ -1311,8 +1566,14 @@
         "It were Maria who called the police.": "Con It el verbo es singular: It was."
       },
       "examples": [
-        "It was in Rome that they met.",
-        "It's my brother who needs help, not me."
+        {
+          "en": "It was in Rome that they met.",
+          "es": "Fue en Roma donde se conocieron."
+        },
+        {
+          "en": "It's my brother who needs help, not me.",
+          "es": "Es mi hermano quien necesita ayuda, no yo."
+        }
       ]
     }
   }

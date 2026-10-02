@@ -24,8 +24,14 @@
         "pasaje": "\"Pasaje\" (el billete o el precio del viaje) se dice \"ticket\" o \"fare\"."
       },
       "examples": [
-        "How much luggage can I take on the plane?",
-        "My luggage is still at the hotel."
+        {
+          "en": "How much luggage can I take on the plane?",
+          "es": "¿Cuánto equipaje puedo llevar en el avión?"
+        },
+        {
+          "en": "My luggage is still at the hotel.",
+          "es": "Mi equipaje sigue en el hotel."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "missed": "\"Missed\" es perder un vuelo porque llegas tarde tú; no describe un vuelo que sale tarde."
       },
       "examples": [
-        "The train was delayed by twenty minutes.",
-        "Sorry, my bus was delayed."
+        {
+          "en": "The train was delayed by twenty minutes.",
+          "es": "El tren se retrasó veinte minutos."
+        },
+        {
+          "en": "Sorry, my bus was delayed.",
+          "es": "Perdón, mi autobús se retrasó."
+        }
       ]
     }
   },
@@ -85,8 +97,14 @@
         "descend": "\"Descend\" es descender (bajar una montaña, un avión que baja de altura); no se usa para bajarse de un tren."
       },
       "examples": [
-        "Get off the bus at the museum.",
-        "We got on the train in Madrid."
+        {
+          "en": "Get off the bus at the museum.",
+          "es": "Bájate del autobús en el museo."
+        },
+        {
+          "en": "We got on the train in Madrid.",
+          "es": "Nos subimos al tren en Madrid."
+        }
       ]
     }
   },
@@ -115,8 +133,14 @@
         "note": "\"Note\" es una nota escrita o, en inglés británico, un billete de dinero (a £10 note)."
       },
       "examples": [
-        "Can I have the receipt, please?",
-        "Keep the receipt if you want to return it."
+        {
+          "en": "Can I have the receipt, please?",
+          "es": "¿Me da el recibo, por favor?"
+        },
+        {
+          "en": "Keep the receipt if you want to return it.",
+          "es": "Guarda el recibo si lo quieres devolver."
+        }
       ]
     }
   },
@@ -145,8 +169,14 @@
         "cost": "\"Cost\" es lo que cuesta algo: el sujeto sería la chaqueta (it costs a lot), no \"I\"."
       },
       "examples": [
-        "We can't afford a new car this year.",
-        "Can you afford to go on holiday?"
+        {
+          "en": "We can't afford a new car this year.",
+          "es": "No nos alcanza para un carro nuevo este año."
+        },
+        {
+          "en": "Can you afford to go on holiday?",
+          "es": "¿Te alcanza para irte de vacaciones?"
+        }
       ]
     }
   },
@@ -175,8 +205,14 @@
         "exchange": "\"Exchange\" es cambiar una cosa por otra o cambiar divisas, no la vuelta de una compra."
       },
       "examples": [
-        "Here's your change.",
-        "Sorry, I don't have any change."
+        {
+          "en": "Here's your change.",
+          "es": "Aquí tiene su cambio."
+        },
+        {
+          "en": "Sorry, I don't have any change.",
+          "es": "Lo siento, no tengo cambio."
+        }
       ]
     }
   },
@@ -205,8 +241,14 @@
         "cold": "\"A cold\" es un resfriado; no se produce por comer algo en mal estado."
       },
       "examples": [
-        "I've got a stomachache after that pizza.",
-        "She stayed at home with a stomachache."
+        {
+          "en": "I've got a stomachache after that pizza.",
+          "es": "Me duele el estómago después de esa pizza."
+        },
+        {
+          "en": "She stayed at home with a stomachache.",
+          "es": "Ella se quedó en casa con dolor de estómago."
+        }
       ]
     }
   },
@@ -235,8 +277,14 @@
         "medical": "\"medical\" es un adjetivo (medical care, atención médica); no puede ser la persona a la que vas a ver."
       },
       "examples": [
-        "I'm going to see the doctor tomorrow.",
-        "The doctor gave me some medicine."
+        {
+          "en": "I'm going to see the doctor tomorrow.",
+          "es": "Voy a ir al médico mañana."
+        },
+        {
+          "en": "The doctor gave me some medicine.",
+          "es": "El médico me dio un medicamento."
+        }
       ]
     }
   },
@@ -265,8 +313,14 @@
         "ill": "\"Ill\" (enfermo) describe a una persona, no a una parte del cuerpo."
       },
       "examples": [
-        "She's got a sore throat and a cold.",
-        "My throat hurts. I've got a sore throat."
+        {
+          "en": "She's got a sore throat and a cold.",
+          "es": "Ella tiene dolor de garganta y un resfriado."
+        },
+        {
+          "en": "My throat hurts. I've got a sore throat.",
+          "es": "Me duele la garganta. Tengo dolor de garganta."
+        }
       ]
     }
   },
@@ -295,8 +349,14 @@
         "talk": "\"Talk\" es conversar; no lleva un objeto como \"me the time\"."
       },
       "examples": [
-        "Can you tell me the way to the station?",
-        "He told us a funny story."
+        {
+          "en": "Can you tell me the way to the station?",
+          "es": "¿Me puede decir cómo llegar a la estación?"
+        },
+        {
+          "en": "He told us a funny story.",
+          "es": "Él nos contó una historia graciosa."
+        }
       ]
     }
   },
@@ -325,8 +385,14 @@
         "talked": "\"Talk\" no introduce lo que alguien dijo con \"that\"; se usa con \"about\" o \"to\"."
       },
       "examples": [
-        "He said that he was hungry.",
-        "They said they would come."
+        {
+          "en": "He said that he was hungry.",
+          "es": "Dijo que tenía hambre."
+        },
+        {
+          "en": "They said they would come.",
+          "es": "Dijeron que vendrían."
+        }
       ]
     }
   },
@@ -355,8 +421,14 @@
         "He said to me the truth.": "Orden incorrecto, y con \"truth\" se usa \"tell\", no \"say\"."
       },
       "examples": [
-        "Always tell the truth.",
-        "She told me a secret."
+        {
+          "en": "Always tell the truth.",
+          "es": "Siempre di la verdad."
+        },
+        {
+          "en": "She told me a secret.",
+          "es": "Ella me contó un secreto."
+        }
       ]
     }
   },
@@ -385,8 +457,14 @@
         "tell": "\"Tell\" es contar o decir algo a alguien, no hablar un idioma."
       },
       "examples": [
-        "She speaks French and German.",
-        "Do you speak Spanish?"
+        {
+          "en": "She speaks French and German.",
+          "es": "Ella habla francés y alemán."
+        },
+        {
+          "en": "Do you speak Spanish?",
+          "es": "¿Hablas español?"
+        }
       ]
     }
   },
@@ -416,8 +494,14 @@
         "telling": "\"Tell\" necesita a quién y qué se cuenta; no funciona aquí."
       },
       "examples": [
-        "Good morning, David speaking.",
-        "Hello? Who's speaking, please?"
+        {
+          "en": "Good morning, David speaking.",
+          "es": "Buenos días, habla David."
+        },
+        {
+          "en": "Hello? Who's speaking, please?",
+          "es": "¿Aló? ¿Con quién hablo, por favor?"
+        }
       ]
     }
   },
@@ -446,8 +530,14 @@
         "conversation": "Una conversación se tiene (have a conversation) entre varias personas; no se \"da\" a un público."
       },
       "examples": [
-        "She gave a great talk about her travels.",
-        "The talk starts at 6 pm."
+        {
+          "en": "She gave a great talk about her travels.",
+          "es": "Ella dio una charla excelente sobre sus viajes."
+        },
+        {
+          "en": "The talk starts at 6 pm.",
+          "es": "La charla empieza a las 6 p. m."
+        }
       ]
     }
   },
@@ -476,8 +566,14 @@
         "play": "\"Play\" es jugar o tocar; no tiene sentido con una llamada."
       },
       "examples": [
-        "Can I make a quick call?",
-        "She made three phone calls this morning."
+        {
+          "en": "Can I make a quick call?",
+          "es": "¿Puedo hacer una llamada rápida?"
+        },
+        {
+          "en": "She made three phone calls this morning.",
+          "es": "Ella hizo tres llamadas esta mañana."
+        }
       ]
     }
   },
@@ -507,8 +603,14 @@
         "wash": "\"Wash the washing-up\" repite la idea; se dice \"wash the dishes\" o \"do the washing-up\"."
       },
       "examples": [
-        "I'll do the washing-up tonight.",
-        "Who does the shopping in your house?"
+        {
+          "en": "I'll do the washing-up tonight.",
+          "es": "Yo lavo los platos esta noche."
+        },
+        {
+          "en": "Who does the shopping in your house?",
+          "es": "¿Quién hace las compras en tu casa?"
+        }
       ]
     }
   },
@@ -537,8 +639,14 @@
         "put": "\"Put\" es poner; no se usa con \"mistake\"."
       },
       "examples": [
-        "Everyone makes mistakes.",
-        "I made a mistake in the exam."
+        {
+          "en": "Everyone makes mistakes.",
+          "es": "Todos cometemos errores."
+        },
+        {
+          "en": "I made a mistake in the exam.",
+          "es": "Cometí un error en el examen."
+        }
       ]
     }
   },
@@ -568,8 +676,14 @@
         "tired": "\"Tired\" describe a una persona cansada, no a una película."
       },
       "examples": [
-        "The class was boring, so I was bored.",
-        "What a boring book!"
+        {
+          "en": "The class was boring, so I was bored.",
+          "es": "La clase estaba aburrida, así que me aburrí."
+        },
+        {
+          "en": "What a boring book!",
+          "es": "¡Qué libro tan aburrido!"
+        }
       ]
     }
   },
@@ -598,8 +712,14 @@
         "Te falto": "No es el significado; \"I miss you\" expresa que sientes la falta de esa persona."
       },
       "examples": [
-        "I miss my family when I travel.",
-        "We miss you! Come back soon."
+        {
+          "en": "I miss my family when I travel.",
+          "es": "Extraño a mi familia cuando viajo."
+        },
+        {
+          "en": "We miss you! Come back soon.",
+          "es": "¡Te extrañamos! Vuelve pronto."
+        }
       ]
     }
   },
@@ -628,8 +748,14 @@
         "glad": "\"Glad\" no se usa con \"of her\" para este sentido; se dice \"glad that…\"."
       },
       "examples": [
-        "I'm proud of you!",
-        "He's proud of his new house."
+        {
+          "en": "I'm proud of you!",
+          "es": "¡Estoy orgulloso de ti!"
+        },
+        {
+          "en": "He's proud of his new house.",
+          "es": "Él está orgulloso de su casa nueva."
+        }
       ]
     }
   },
@@ -658,8 +784,14 @@
         "getting": "\"Get photos\" sería conseguir fotos, no sacarlas tú con la cámara."
       },
       "examples": [
-        "Can you take a photo of us?",
-        "She took lots of photos in Rome."
+        {
+          "en": "Can you take a photo of us?",
+          "es": "¿Nos puedes tomar una foto?"
+        },
+        {
+          "en": "She took lots of photos in Rome.",
+          "es": "Ella tomó muchas fotos en Roma."
+        }
       ]
     }
   },
@@ -689,8 +821,14 @@
         "goes": "\"Go\" se usa con actividades en -ing (go swimming); \"goes football\" no es correcto."
       },
       "examples": [
-        "We play basketball after school.",
-        "Do you play tennis?"
+        {
+          "en": "We play basketball after school.",
+          "es": "Jugamos básquetbol después de la escuela."
+        },
+        {
+          "en": "Do you play tennis?",
+          "es": "¿Juegas tenis?"
+        }
       ]
     }
   },
@@ -720,8 +858,14 @@
         "makes": "\"Make\" es crear algo; no se usa con yoga."
       },
       "examples": [
-        "I do karate on Tuesdays.",
-        "She does exercise every day."
+        {
+          "en": "I do karate on Tuesdays.",
+          "es": "Hago karate los martes."
+        },
+        {
+          "en": "She does exercise every day.",
+          "es": "Ella hace ejercicio todos los días."
+        }
       ]
     }
   },
@@ -750,8 +894,14 @@
         "infirmary": "Se parece a \"enfermería\", pero \"infirmary\" es un lugar (un hospital o enfermería), no una persona."
       },
       "examples": [
-        "The nurse gave me an injection.",
-        "He wants to be a nurse."
+        {
+          "en": "The nurse gave me an injection.",
+          "es": "La enfermera me puso una inyección."
+        },
+        {
+          "en": "He wants to be a nurse.",
+          "es": "Él quiere ser enfermero."
+        }
       ]
     }
   },
@@ -781,8 +931,14 @@
         "charges": "\"Charge\" es cobrar a un cliente un precio, no recibir un sueldo."
       },
       "examples": [
-        "She earns 2,000 euros a month.",
-        "How much do you earn?"
+        {
+          "en": "She earns 2,000 euros a month.",
+          "es": "Ella gana 2000 euros al mes."
+        },
+        {
+          "en": "How much do you earn?",
+          "es": "¿Cuánto ganas?"
+        }
       ]
     }
   },
@@ -811,8 +967,14 @@
         "resigned": "\"Resign\" es dimitir: lo hace el trabajador, no la empresa."
       },
       "examples": [
-        "If you're late again, they'll fire you.",
-        "She was fired last year."
+        {
+          "en": "If you're late again, they'll fire you.",
+          "es": "Si vuelves a llegar tarde, te van a despedir."
+        },
+        {
+          "en": "She was fired last year.",
+          "es": "La despidieron el año pasado."
+        }
       ]
     }
   },
@@ -841,8 +1003,14 @@
         "a veces": "\"A veces\" es \"sometimes\"."
       },
       "examples": [
-        "Actually, I don't like coffee.",
-        "He looks young, but actually he's 50."
+        {
+          "en": "Actually, I don't like coffee.",
+          "es": "En realidad, no me gusta el café."
+        },
+        {
+          "en": "He looks young, but actually he's 50.",
+          "es": "Se ve joven, pero en realidad tiene 50 años."
+        }
       ]
     }
   },
@@ -871,8 +1039,14 @@
         "go": "\"Go\" necesita \"to\" (go to the meeting); sin preposición no es correcto."
       },
       "examples": [
-        "She attends English classes twice a week.",
-        "Over 200 people attended the concert."
+        {
+          "en": "She attends English classes twice a week.",
+          "es": "Ella va a clases de inglés dos veces por semana."
+        },
+        {
+          "en": "Over 200 people attended the concert.",
+          "es": "Más de 200 personas asistieron al concierto."
+        }
       ]
     }
   },
@@ -901,8 +1075,14 @@
         "sentarse": "Sentarse es \"sit down\"."
       },
       "examples": [
-        "Can I assist you with your bags?",
-        "A nurse assisted the doctor."
+        {
+          "en": "Can I assist you with your bags?",
+          "es": "¿Le ayudo con sus maletas?"
+        },
+        {
+          "en": "A nurse assisted the doctor.",
+          "es": "Una enfermera ayudó al médico."
+        }
       ]
     }
   },
@@ -932,8 +1112,14 @@
         "shame": "\"Shame\" es un sustantivo (vergüenza); después de \"I was so\" hace falta un adjetivo."
       },
       "examples": [
-        "She was embarrassed when she fell.",
-        "Don't be embarrassed, everyone makes mistakes."
+        {
+          "en": "She was embarrassed when she fell.",
+          "es": "Le dio mucha vergüenza cuando se cayó."
+        },
+        {
+          "en": "Don't be embarrassed, everyone makes mistakes.",
+          "es": "No te dé vergüenza, todos cometemos errores."
+        }
       ]
     }
   },
@@ -963,8 +1149,14 @@
         "newsagent's": "\"Newsagent's\" es el quiosco o tienda de periódicos; no presta libros."
       },
       "examples": [
-        "The library opens at nine.",
-        "I bought a new novel at the bookshop."
+        {
+          "en": "The library opens at nine.",
+          "es": "La biblioteca abre a las nueve."
+        },
+        {
+          "en": "I bought a new novel at the bookshop.",
+          "es": "Compré una novela nueva en la librería."
+        }
       ]
     }
   },
@@ -994,8 +1186,14 @@
         "Tom es muy sentimental": "\"Sentimental\" en inglés es \"sentimental\", no \"sensible\"."
       },
       "examples": [
-        "It was a sensible decision to save money.",
-        "She's very sensitive, so be kind."
+        {
+          "en": "It was a sensible decision to save money.",
+          "es": "Fue una decisión sensata ahorrar dinero."
+        },
+        {
+          "en": "She's very sensitive, so be kind.",
+          "es": "Ella es muy sensible, así que sé amable."
+        }
       ]
     }
   },
@@ -1024,8 +1222,14 @@
         "carry out": "\"Carry out\" es llevar a cabo (realizar) algo, que es el falso amigo; no significa darse cuenta."
       },
       "examples": [
-        "I realized I had lost my keys.",
-        "She didn't realize it was so late."
+        {
+          "en": "I realized I had lost my keys.",
+          "es": "Me di cuenta de que había perdido mis llaves."
+        },
+        {
+          "en": "She didn't realize it was so late.",
+          "es": "Ella no se dio cuenta de que era tan tarde."
+        }
       ]
     }
   },
@@ -1054,8 +1258,14 @@
         "pay": "\"Pay\" es pagar; no tiene sentido con un bolígrafo que quieres usar."
       },
       "examples": [
-        "Could you lend me ten euros?",
-        "I lent my bike to my cousin."
+        {
+          "en": "Could you lend me ten euros?",
+          "es": "¿Me podrías prestar diez euros?"
+        },
+        {
+          "en": "I lent my bike to my cousin.",
+          "es": "Le presté mi bicicleta a mi primo."
+        }
       ]
     }
   },
@@ -1084,8 +1294,14 @@
         "let": "\"Let\" es dejar o permitir hacer algo (let me go), no tomar prestado."
       },
       "examples": [
-        "Can I borrow your phone for a minute?",
-        "She borrowed a book from me."
+        {
+          "en": "Can I borrow your phone for a minute?",
+          "es": "¿Me prestas tu celular un minuto?"
+        },
+        {
+          "en": "She borrowed a book from me.",
+          "es": "Ella me pidió prestado un libro."
+        }
       ]
     }
   },
@@ -1114,8 +1330,14 @@
         "My brother borrowed 20 euros to me.": "\"Borrow\" es tomar prestado (borrow from someone); no se usa con \"to me\"."
       },
       "examples": [
-        "I borrowed 20 euros from my brother.",
-        "He lent me his car for the weekend."
+        {
+          "en": "I borrowed 20 euros from my brother.",
+          "es": "Le pedí prestados 20 euros a mi hermano."
+        },
+        {
+          "en": "He lent me his car for the weekend.",
+          "es": "Él me prestó su carro el fin de semana."
+        }
       ]
     }
   },
@@ -1144,8 +1366,14 @@
         "wear": "\"Wear\" es llevar puesto (ropa); en español \"llevar\" sirve para las dos cosas, en inglés no."
       },
       "examples": [
-        "Can you bring your guitar tomorrow?",
-        "Bring a friend to dinner!"
+        {
+          "en": "Can you bring your guitar tomorrow?",
+          "es": "¿Puedes traer tu guitarra mañana?"
+        },
+        {
+          "en": "Bring a friend to dinner!",
+          "es": "¡Trae a un amigo a cenar!"
+        }
       ]
     }
   },
@@ -1174,8 +1402,14 @@
         "lend": "\"Lend\" es prestar; no tiene sentido con la basura."
       },
       "examples": [
-        "Take your umbrella with you.",
-        "I took the kids to school this morning."
+        {
+          "en": "Take your umbrella with you.",
+          "es": "Llévate el paraguas."
+        },
+        {
+          "en": "I took the kids to school this morning.",
+          "es": "Llevé a los niños a la escuela esta mañana."
+        }
       ]
     }
   },
@@ -1205,8 +1439,14 @@
         "carries": "\"Carry\" es cargar o transportar algo; no expresa tiempo."
       },
       "examples": [
-        "It takes ten minutes to walk to school.",
-        "How long does it take to get there?"
+        {
+          "en": "It takes ten minutes to walk to school.",
+          "es": "Se tarda diez minutos caminando a la escuela."
+        },
+        {
+          "en": "How long does it take to get there?",
+          "es": "¿Cuánto se tarda en llegar allá?"
+        }
       ]
     }
   }

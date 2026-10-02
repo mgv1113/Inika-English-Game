@@ -25,8 +25,14 @@
         "I did attend": "Sigue sin inversión; además \"did\" enfático no encaja con el presente perfecto que pide la experiencia."
       },
       "examples": [
-        "Seldom have I seen him so angry.",
-        "Rarely does she take a day off."
+        {
+          "en": "Seldom have I seen him so angry.",
+          "es": "Pocas veces lo he visto tan enojado."
+        },
+        {
+          "en": "Rarely does she take a day off.",
+          "es": "Rara vez se toma un día libre."
+        }
       ]
     }
   },
@@ -56,8 +62,14 @@
         "he did know": "\"he did know\" es afirmación enfática (sí lo sabía), justo lo contrario del sentido de \"Little\"."
       },
       "examples": [
-        "Little did we realise how difficult it would be.",
-        "Little did she know that her life was about to change."
+        {
+          "en": "Little did we realise how difficult it would be.",
+          "es": "Poco imaginábamos lo difícil que sería."
+        },
+        {
+          "en": "Little did she know that her life was about to change.",
+          "es": "Ella no tenía idea de que su vida estaba a punto de cambiar."
+        }
       ]
     }
   },
@@ -87,8 +99,14 @@
         "staff aren't allowed": "Doble negación: \"Under no circumstances\" ya es negativo, así que el verbo va en afirmativo (y con inversión)."
       },
       "examples": [
-        "Under no circumstances should you open this door.",
-        "On no account must the alarm be switched off."
+        {
+          "en": "Under no circumstances should you open this door.",
+          "es": "Bajo ninguna circunstancia debes abrir esta puerta."
+        },
+        {
+          "en": "On no account must the alarm be switched off.",
+          "es": "Por ningún motivo se debe apagar la alarma."
+        }
       ]
     }
   },
@@ -118,8 +136,14 @@
         "Only when I got home I did realise I had lost my keys.": "\"I did realise\" mantiene el orden sujeto + auxiliar; debe ser auxiliar + sujeto: did I realise."
       },
       "examples": [
-        "Only after the meeting had ended did they announce the results.",
-        "Only once you have signed can we process the order."
+        {
+          "en": "Only after the meeting had ended did they announce the results.",
+          "es": "Solo después de que terminó la reunión anunciaron los resultados."
+        },
+        {
+          "en": "Only once you have signed can we process the order.",
+          "es": "Solo cuando hayas firmado podremos procesar el pedido."
+        }
       ]
     }
   },
@@ -149,8 +173,14 @@
         "was the rain heavy": "El adjetivo debe ir inmediatamente después de \"So\": So heavy was the rain."
       },
       "examples": [
-        "So complex was the problem that nobody could solve it.",
-        "So quickly did he speak that I missed half of it."
+        {
+          "en": "So complex was the problem that nobody could solve it.",
+          "es": "El problema era tan complejo que nadie pudo resolverlo."
+        },
+        {
+          "en": "So quickly did he speak that I missed half of it.",
+          "es": "Habló tan rápido que me perdí la mitad."
+        }
       ]
     }
   },
@@ -180,8 +210,14 @@
         "If you would need": "No se usa \"would\" tras \"if\" en este tipo de condicional; sería \"If you need\" o \"Should you need\"."
       },
       "examples": [
-        "Should you have any questions, please call us.",
-        "Should the flight be delayed, we will inform you by text."
+        {
+          "en": "Should you have any questions, please call us.",
+          "es": "Si tiene alguna pregunta, por favor llámenos."
+        },
+        {
+          "en": "Should the flight be delayed, we will inform you by text.",
+          "es": "Si el vuelo se retrasa, le avisaremos por mensaje de texto."
+        }
       ]
     }
   },
@@ -211,8 +247,14 @@
         "Were it not been for": "Mezcla dos estructuras: \"Were it not for\" (presente) y \"Had it not been for\" (pasado); \"Were… been\" es incorrecto."
       },
       "examples": [
-        "Had it not been for the map, we would have got lost.",
-        "Had it not been for her advice, I would have made a terrible mistake."
+        {
+          "en": "Had it not been for the map, we would have got lost.",
+          "es": "De no haber sido por el mapa, nos habríamos perdido."
+        },
+        {
+          "en": "Had it not been for her advice, I would have made a terrible mistake.",
+          "es": "De no haber sido por su consejo, habría cometido un error terrible."
+        }
       ]
     }
   },
@@ -242,8 +284,14 @@
         "Were I accept": "Falta \"to\": la estructura es Were + sujeto + to + infinitivo."
       },
       "examples": [
-        "Were I to lose my job, I would retrain as a teacher.",
-        "Were she to call, tell her I'm busy."
+        {
+          "en": "Were I to lose my job, I would retrain as a teacher.",
+          "es": "Si llegara a perder mi trabajo, me capacitaría para ser maestro."
+        },
+        {
+          "en": "Were she to call, tell her I'm busy.",
+          "es": "Si llegara a llamar, dile que estoy ocupado."
+        }
       ]
     }
   },
@@ -273,8 +321,14 @@
         "will stop": "\"will\" no se usa para expresar lo que alguien exige; el subjuntivo inglés es la forma base (stop)."
       },
       "examples": [
-        "She insisted that he be present at the meeting.",
-        "They demanded that the company pay compensation."
+        {
+          "en": "She insisted that he be present at the meeting.",
+          "es": "Ella insistió en que él estuviera presente en la reunión."
+        },
+        {
+          "en": "They demanded that the company pay compensation.",
+          "es": "Exigieron que la empresa pagara una indemnización."
+        }
       ]
     }
   },
@@ -304,8 +358,14 @@
         "to submit": "Con \"that + sujeto\" no se usa \"to\"; sería \"It is essential for every applicant to submit…\"."
       },
       "examples": [
-        "It is vital that she arrive on time.",
-        "It is imperative that the data be kept secure."
+        {
+          "en": "It is vital that she arrive on time.",
+          "es": "Es fundamental que ella llegue a tiempo."
+        },
+        {
+          "en": "It is imperative that the data be kept secure.",
+          "es": "Es imprescindible que los datos se mantengan seguros."
+        }
       ]
     }
   },
@@ -335,8 +395,14 @@
         "will postpone": "Es activa (la propuesta no aplaza nada, es aplazada) y además no es subjuntivo."
       },
       "examples": [
-        "They asked that the meeting be cancelled.",
-        "I suggest that the matter be discussed in private."
+        {
+          "en": "They asked that the meeting be cancelled.",
+          "es": "Pidieron que se cancelara la reunión."
+        },
+        {
+          "en": "I suggest that the matter be discussed in private.",
+          "es": "Sugiero que el asunto se discuta en privado."
+        }
       ]
     }
   },
@@ -366,8 +432,14 @@
         "She demanded that he apologising at once.": "El gerundio no puede ser el verbo de la oración subordinada."
       },
       "examples": [
-        "The union demanded that wages be increased.",
-        "He demanded that she tell him the truth."
+        {
+          "en": "The union demanded that wages be increased.",
+          "es": "El sindicato exigió que se aumentaran los salarios."
+        },
+        {
+          "en": "He demanded that she tell him the truth.",
+          "es": "Él exigió que ella le dijera la verdad."
+        }
       ]
     }
   },
@@ -396,8 +468,14 @@
         "Otherwise": "\"Otherwise\" (si no, de lo contrario) no introduce una condición al inicio de la frase."
       },
       "examples": [
-        "Supposing it rains, shall we still go?",
-        "Suppose you lost your passport, who would you call?"
+        {
+          "en": "Supposing it rains, shall we still go?",
+          "es": "Suponiendo que llueva, ¿igual vamos?"
+        },
+        {
+          "en": "Suppose you lost your passport, who would you call?",
+          "es": "Supongamos que perdieras tu pasaporte, ¿a quién llamarías?"
+        }
       ]
     }
   },
@@ -426,8 +504,14 @@
         "otherwise": "\"otherwise\" significa \"de lo contrario\" y no puede unir así las dos oraciones."
       },
       "examples": [
-        "I'll come, provided that I finish work early.",
-        "Providing the weather is good, we'll eat outside."
+        {
+          "en": "I'll come, provided that I finish work early.",
+          "es": "Iré, siempre y cuando termine de trabajar temprano."
+        },
+        {
+          "en": "Providing the weather is good, we'll eat outside.",
+          "es": "Si hace buen tiempo, comeremos afuera."
+        }
       ]
     }
   },
@@ -457,8 +541,14 @@
         "If not": "\"If not\" no puede ir seguido directamente de un sustantivo; sería \"If it hadn't been for\"."
       },
       "examples": [
-        "But for the traffic, we'd have arrived on time.",
-        "But for his quick reaction, there would have been an accident."
+        {
+          "en": "But for the traffic, we'd have arrived on time.",
+          "es": "De no ser por el tráfico, habríamos llegado a tiempo."
+        },
+        {
+          "en": "But for his quick reaction, there would have been an accident.",
+          "es": "De no ser por su rápida reacción, habría habido un accidente."
+        }
       ]
     }
   },
@@ -488,8 +578,14 @@
         "supposing": "\"supposing\" plantea una hipótesis; no significa \"de lo contrario\"."
       },
       "examples": [
-        "Write it down; otherwise you'll forget.",
-        "I'm glad you called, otherwise I'd have waited all day."
+        {
+          "en": "Write it down; otherwise you'll forget.",
+          "es": "Anótalo; si no, se te va a olvidar."
+        },
+        {
+          "en": "I'm glad you called, otherwise I'd have waited all day.",
+          "es": "Me alegra que hayas llamado; si no, habría esperado todo el día."
+        }
       ]
     }
   },
@@ -519,8 +615,14 @@
         "under condition": "No es una expresión fija en inglés; la correcta es \"on condition that\"."
       },
       "examples": [
-        "You can go on condition that you're back by midnight.",
-        "He was released on condition that he left the country."
+        {
+          "en": "You can go on condition that you're back by midnight.",
+          "es": "Puedes ir con la condición de que regreses antes de la medianoche."
+        },
+        {
+          "en": "He was released on condition that he left the country.",
+          "es": "Lo liberaron con la condición de que se fuera del país."
+        }
       ]
     }
   },
@@ -550,8 +652,14 @@
         "should have": "\"should have forgotten\" significaría que olvidarlo era lo correcto o lo esperado; no tiene sentido."
       },
       "examples": [
-        "He could hardly have known about it; nobody told him.",
-        "They could hardly have chosen a worse day."
+        {
+          "en": "He could hardly have known about it; nobody told him.",
+          "es": "Difícilmente pudo haberlo sabido; nadie le dijo."
+        },
+        {
+          "en": "They could hardly have chosen a worse day.",
+          "es": "No pudieron haber elegido un peor día."
+        }
       ]
     }
   },
@@ -581,8 +689,14 @@
         "would rather have": "\"would rather have\" expresa preferencia, no probabilidad, y no encaja con \"been in meetings\"."
       },
       "examples": [
-        "She may well have missed the bus.",
-        "The letter might well have been lost in the post."
+        {
+          "en": "She may well have missed the bus.",
+          "es": "Es muy posible que ella haya perdido el autobús."
+        },
+        {
+          "en": "The letter might well have been lost in the post.",
+          "es": "Es muy posible que la carta se haya perdido en el correo."
+        }
       ]
     }
   },
@@ -612,8 +726,14 @@
         "had been having": "El pasado perfecto va en la condición (if), no en el resultado; en el resultado se usa would."
       },
       "examples": [
-        "If you'd come at noon, we would have been sleeping.",
-        "I would have been working anyway, so I couldn't have helped."
+        {
+          "en": "If you'd come at noon, we would have been sleeping.",
+          "es": "Si hubieras venido al mediodía, habríamos estado durmiendo."
+        },
+        {
+          "en": "I would have been working anyway, so I couldn't have helped.",
+          "es": "De todos modos habría estado trabajando, así que no habría podido ayudar."
+        }
       ]
     }
   },
@@ -643,8 +763,14 @@
         "Una obligación futura: tendrás que decírmelo.": "\"might have + participio\" se refiere al pasado, no a una obligación futura."
       },
       "examples": [
-        "You might have asked before borrowing my car!",
-        "He could have at least said thank you."
+        {
+          "en": "You might have asked before borrowing my car!",
+          "es": "¡Al menos me hubieras preguntado antes de usar mi auto!"
+        },
+        {
+          "en": "He could have at least said thank you.",
+          "es": "Al menos podría haber dado las gracias."
+        }
       ]
     }
   },
@@ -674,8 +800,14 @@
         "having told": "Es activa: significaría que yo les digo a ellos, pero aquí me lo dicen a mí (pasiva)."
       },
       "examples": [
-        "She hates being interrupted.",
-        "He can't stand being kept waiting."
+        {
+          "en": "She hates being interrupted.",
+          "es": "Ella odia que la interrumpan."
+        },
+        {
+          "en": "He can't stand being kept waiting.",
+          "es": "Él no soporta que lo hagan esperar."
+        }
       ]
     }
   },
@@ -705,8 +837,14 @@
         "having been told": "\"claim\" va seguido de infinitivo, no de gerundio."
       },
       "examples": [
-        "He is said to have been offered a fortune.",
-        "The documents appear to have been destroyed."
+        {
+          "en": "He is said to have been offered a fortune.",
+          "es": "Se dice que le ofrecieron una fortuna."
+        },
+        {
+          "en": "The documents appear to have been destroyed.",
+          "es": "Al parecer, los documentos fueron destruidos."
+        }
       ]
     }
   },
@@ -736,8 +874,14 @@
         "Each employee were given a bonus.": "\"each employee\" es singular: va con \"was\", no con \"were\"."
       },
       "examples": [
-        "I was offered a place at the university.",
-        "We were shown the new office by the manager."
+        {
+          "en": "I was offered a place at the university.",
+          "es": "Me ofrecieron un lugar en la universidad."
+        },
+        {
+          "en": "We were shown the new office by the manager.",
+          "es": "El gerente nos mostró la nueva oficina."
+        }
       ]
     }
   },
@@ -767,8 +911,14 @@
         "to consider": "\"is to consider\" expresaría un plan u obligación activa y no encaja con \"by the board\"."
       },
       "examples": [
-        "The road is being repaired.",
-        "Your application is being processed."
+        {
+          "en": "The road is being repaired.",
+          "es": "Están reparando la calle."
+        },
+        {
+          "en": "Your application is being processed.",
+          "es": "Su solicitud está siendo procesada."
+        }
       ]
     }
   },
@@ -798,8 +948,14 @@
         "has": "\"has\" no une las dos partes de la oración hendida y no concuerda con el pasado."
       },
       "examples": [
-        "All she wanted was a bit of peace and quiet.",
-        "All you have to do is press this button."
+        {
+          "en": "All she wanted was a bit of peace and quiet.",
+          "es": "Lo único que ella quería era un poco de paz y tranquilidad."
+        },
+        {
+          "en": "All you have to do is press this button.",
+          "es": "Lo único que tienes que hacer es presionar este botón."
+        }
       ]
     }
   },
@@ -829,8 +985,14 @@
         "of": "\"The reason of\" no introduce una oración; además en inglés se dice \"the reason for + sustantivo\"."
       },
       "examples": [
-        "The reason why she left is still a mystery.",
-        "That's the reason why I never trust online reviews."
+        {
+          "en": "The reason why she left is still a mystery.",
+          "es": "La razón por la que se fue sigue siendo un misterio."
+        },
+        {
+          "en": "That's the reason why I never trust online reviews.",
+          "es": "Esa es la razón por la que nunca confío en las reseñas en línea."
+        }
       ]
     }
   },
@@ -860,8 +1022,14 @@
         "it": "Repite el sujeto y deja la frase sin relativo: \"It's the price it worries me\" es incorrecto."
       },
       "examples": [
-        "It was my sister that found the keys.",
-        "It's his attitude that annoys me most."
+        {
+          "en": "It was my sister that found the keys.",
+          "es": "Fue mi hermana la que encontró las llaves."
+        },
+        {
+          "en": "It's his attitude that annoys me most.",
+          "es": "Lo que más me molesta es su actitud."
+        }
       ]
     }
   },
@@ -891,8 +1059,14 @@
         "Not been told": "Falta \"having\": la forma correcta es Not having been told."
       },
       "examples": [
-        "Not having been invited, I stayed at home.",
-        "Having been warned, we took an umbrella."
+        {
+          "en": "Not having been invited, I stayed at home.",
+          "es": "Como no me habían invitado, me quedé en casa."
+        },
+        {
+          "en": "Having been warned, we took an umbrella.",
+          "es": "Como nos habían advertido, llevamos un paraguas."
+        }
       ]
     }
   },
@@ -922,8 +1096,14 @@
         "No knowing": "\"No\" va con sustantivos; para negar un participio se usa \"not\"."
       },
       "examples": [
-        "Not wanting to wake anyone, he took off his shoes.",
-        "Not being an expert, I can't comment."
+        {
+          "en": "Not wanting to wake anyone, he took off his shoes.",
+          "es": "Para no despertar a nadie, se quitó los zapatos."
+        },
+        {
+          "en": "Not being an expert, I can't comment.",
+          "es": "Como no soy experto, no puedo opinar."
+        }
       ]
     }
   },
@@ -953,8 +1133,14 @@
         "To be warned": "El infinitivo expresa finalidad o futuro, no una acción anterior que causa el despido."
       },
       "examples": [
-        "Having been told the news, she called her mother.",
-        "Having been rejected twice, he decided to give up."
+        {
+          "en": "Having been told the news, she called her mother.",
+          "es": "Después de enterarse de la noticia, llamó a su mamá."
+        },
+        {
+          "en": "Having been rejected twice, he decided to give up.",
+          "es": "Después de haber sido rechazado dos veces, decidió darse por vencido."
+        }
       ]
     }
   },
@@ -983,8 +1169,14 @@
         "none": "\"none\" significa \"ninguno\", no sustituye una oración."
       },
       "examples": [
-        "Is it ready? If not, I'll wait.",
-        "Will it rain? I hope not."
+        {
+          "en": "Is it ready? If not, I'll wait.",
+          "es": "¿Está listo? Si no, esperaré."
+        },
+        {
+          "en": "Will it rain? I hope not.",
+          "es": "¿Va a llover? Espero que no."
+        }
       ]
     }
   },
@@ -1014,8 +1206,14 @@
         "such": "\"done such\" no es correcto; \"such\" necesita un sustantivo (such a thing)."
       },
       "examples": [
-        "Please sign the form if you have not already done so.",
-        "He promised to apologise, but he never did so."
+        {
+          "en": "Please sign the form if you have not already done so.",
+          "es": "Por favor, firme el formulario si aún no lo ha hecho."
+        },
+        {
+          "en": "He promised to apologise, but he never did so.",
+          "es": "Prometió disculparse, pero nunca lo hizo."
+        }
       ]
     }
   },
@@ -1045,8 +1243,14 @@
         "neither didn't": "Doble negación: \"neither\" ya es negativo, así que el auxiliar va en afirmativo."
       },
       "examples": [
-        "She can't swim, and neither can I.",
-        "He doesn't eat meat, nor does his wife."
+        {
+          "en": "She can't swim, and neither can I.",
+          "es": "Ella no sabe nadar, y yo tampoco."
+        },
+        {
+          "en": "He doesn't eat meat, nor does his wife.",
+          "es": "Él no come carne, ni su esposa tampoco."
+        }
       ]
     }
   },
@@ -1076,8 +1280,14 @@
         "whom": "\"whom\" se refiere a personas, y \"the process\" es una cosa."
       },
       "examples": [
-        "They signed an agreement whereby profits would be shared equally.",
-        "It's a system whereby users can vote online."
+        {
+          "en": "They signed an agreement whereby profits would be shared equally.",
+          "es": "Firmaron un acuerdo según el cual las ganancias se repartirían en partes iguales."
+        },
+        {
+          "en": "It's a system whereby users can vote online.",
+          "es": "Es un sistema mediante el cual los usuarios pueden votar en línea."
+        }
       ]
     }
   },
@@ -1107,8 +1317,14 @@
         "which": "\"which\" es para cosas; \"brothers\" son personas."
       },
       "examples": [
-        "I bought five books, two of which were in French.",
-        "The guests, most of whom were students, left early."
+        {
+          "en": "I bought five books, two of which were in French.",
+          "es": "Compré cinco libros, dos de los cuales estaban en francés."
+        },
+        {
+          "en": "The guests, most of whom were students, left early.",
+          "es": "Los invitados, la mayoría de los cuales eran estudiantes, se fueron temprano."
+        }
       ]
     }
   },
@@ -1138,8 +1354,14 @@
         "which by": "\"which\" no se usa para personas y el orden es preposición + relativo."
       },
       "examples": [
-        "The person to whom I spoke was very helpful.",
-        "She is the author by whom the novel was translated."
+        {
+          "en": "The person to whom I spoke was very helpful.",
+          "es": "La persona con la que hablé fue muy servicial."
+        },
+        {
+          "en": "She is the author by whom the novel was translated.",
+          "es": "Ella es la autora que tradujo la novela."
+        }
       ]
     }
   },
@@ -1169,8 +1391,14 @@
         "where in": "Orden incorrecto; se dice \"in which\" o simplemente \"where\"."
       },
       "examples": [
-        "The hotel at which we stayed was excellent.",
-        "This is the box in which I keep my letters."
+        {
+          "en": "The hotel at which we stayed was excellent.",
+          "es": "El hotel en el que nos hospedamos era excelente."
+        },
+        {
+          "en": "This is the box in which I keep my letters.",
+          "es": "Esta es la caja en la que guardo mis cartas."
+        }
       ]
     }
   },
@@ -1200,8 +1428,14 @@
         "barely none": "Doble negación; además \"none\" es pronombre y no puede ir delante de un sustantivo."
       },
       "examples": [
-        "We have hardly any milk left.",
-        "Hardly anyone came to the talk."
+        {
+          "en": "We have hardly any milk left.",
+          "es": "Casi no nos queda leche."
+        },
+        {
+          "en": "Hardly anyone came to the talk.",
+          "es": "Casi nadie vino a la charla."
+        }
       ]
     }
   },
@@ -1231,8 +1465,14 @@
         "Vast majority": "Falta el artículo: the vast majority."
       },
       "examples": [
-        "The vast majority of students passed.",
-        "A vast majority of voters supported the plan."
+        {
+          "en": "The vast majority of students passed.",
+          "es": "La gran mayoría de los estudiantes aprobó."
+        },
+        {
+          "en": "A vast majority of voters supported the plan.",
+          "es": "Una amplia mayoría de los votantes apoyó el plan."
+        }
       ]
     }
   },
@@ -1262,8 +1502,14 @@
         "little": "\"little\" se usa con incontables, no con \"scientists\"."
       },
       "examples": [
-        "Few people know the real story.",
-        "Very few applicants met all the requirements."
+        {
+          "en": "Few people know the real story.",
+          "es": "Pocas personas conocen la verdadera historia."
+        },
+        {
+          "en": "Very few applicants met all the requirements.",
+          "es": "Muy pocos postulantes cumplían todos los requisitos."
+        }
       ]
     }
   },
@@ -1292,8 +1538,14 @@
         "were about": "Falta \"to\": were about to leave."
       },
       "examples": [
-        "I was about to call you.",
-        "The film was about to start when the power went off."
+        {
+          "en": "I was about to call you.",
+          "es": "Estaba a punto de llamarte."
+        },
+        {
+          "en": "The film was about to start when the power went off.",
+          "es": "La película estaba a punto de empezar cuando se cortó la luz."
+        }
       ]
     }
   },
@@ -1323,8 +1575,14 @@
         "is to have been": "El presente no concuerda con un plan pasado que se canceló."
       },
       "examples": [
-        "She was to have started work on Monday, but she fell ill.",
-        "The bridge was to have been finished by 2020."
+        {
+          "en": "She was to have started work on Monday, but she fell ill.",
+          "es": "Ella iba a empezar a trabajar el lunes, pero se enfermó."
+        },
+        {
+          "en": "The bridge was to have been finished by 2020.",
+          "es": "El puente debía haberse terminado para 2020."
+        }
       ]
     }
   },
@@ -1353,8 +1611,14 @@
         "going": "Falta la preposición \"of\"."
       },
       "examples": [
-        "She was on the verge of tears.",
-        "They were on the verge of signing the contract."
+        {
+          "en": "She was on the verge of tears.",
+          "es": "Ella estaba al borde de las lágrimas."
+        },
+        {
+          "en": "They were on the verge of signing the contract.",
+          "es": "Estaban a punto de firmar el contrato."
+        }
       ]
     }
   },
@@ -1384,8 +1648,14 @@
         "Insofar as": "\"insofar as\" significa \"en la medida en que\" y necesita una oración detrás."
       },
       "examples": [
-        "Notwithstanding the cost, they bought the house.",
-        "The plan was approved, notwithstanding some objections."
+        {
+          "en": "Notwithstanding the cost, they bought the house.",
+          "es": "A pesar del costo, compraron la casa."
+        },
+        {
+          "en": "The plan was approved, notwithstanding some objections.",
+          "es": "El plan fue aprobado, a pesar de algunas objeciones."
+        }
       ]
     }
   },
@@ -1415,8 +1685,14 @@
         "despite": "\"despite\" va con sustantivo o -ing; \"despite based\" es incorrecto."
       },
       "examples": [
-        "It was a success, albeit a limited one.",
-        "He agreed, albeit reluctantly."
+        {
+          "en": "It was a success, albeit a limited one.",
+          "es": "Fue un éxito, aunque limitado."
+        },
+        {
+          "en": "He agreed, albeit reluctantly.",
+          "es": "Aceptó, aunque de mala gana."
+        }
       ]
     }
   },
@@ -1446,8 +1722,14 @@
         "siempre que": "Eso sería \"provided that\" o \"as long as\" (condición)."
       },
       "examples": [
-        "I agree with you insofar as the costs are concerned.",
-        "The report is useful insofar as it identifies the problems."
+        {
+          "en": "I agree with you insofar as the costs are concerned.",
+          "es": "Estoy de acuerdo contigo en lo que respecta a los costos."
+        },
+        {
+          "en": "The report is useful insofar as it identifies the problems.",
+          "es": "El informe es útil en la medida en que identifica los problemas."
+        }
       ]
     }
   },
@@ -1477,8 +1759,14 @@
         "inform": "\"regret\" no va seguido de la forma base sin \"to\"."
       },
       "examples": [
-        "I regret to say that the shop is closing.",
-        "I regret not studying harder at school."
+        {
+          "en": "I regret to say that the shop is closing.",
+          "es": "Lamento informarles que la tienda va a cerrar."
+        },
+        {
+          "en": "I regret not studying harder at school.",
+          "es": "Me arrepiento de no haber estudiado más en la escuela."
+        }
       ]
     }
   },
@@ -1507,8 +1795,14 @@
         "to explaining": "\"to\" aquí es parte del infinitivo, así que va con la forma base: to explain."
       },
       "examples": [
-        "She went on to become a famous writer.",
-        "He went on talking even though nobody was listening."
+        {
+          "en": "She went on to become a famous writer.",
+          "es": "Con el tiempo, llegó a ser una escritora famosa."
+        },
+        {
+          "en": "He went on talking even though nobody was listening.",
+          "es": "Siguió hablando aunque nadie lo estaba escuchando."
+        }
       ]
     }
   },
@@ -1537,8 +1831,14 @@
         "to moving": "\"mean\" no lleva \"to\" + -ing; es \"mean moving\"."
       },
       "examples": [
-        "Being a nurse means working at weekends.",
-        "I didn't mean to upset you."
+        {
+          "en": "Being a nurse means working at weekends.",
+          "es": "Ser enfermera implica trabajar los fines de semana."
+        },
+        {
+          "en": "I didn't mean to upset you.",
+          "es": "No quise hacerte sentir mal."
+        }
       ]
     }
   }

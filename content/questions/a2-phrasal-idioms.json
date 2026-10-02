@@ -24,8 +24,14 @@
         "go up": "\"go up\" significa subir tú (o un precio), pero no lleva objeto: no se dice \"go up the volume\"."
       },
       "examples": [
-        "Turn up the radio, I love this song!",
-        "Can you turn the heating up? It's cold."
+        {
+          "en": "Turn up the radio, I love this song!",
+          "es": "¡Sube el volumen de la radio, me encanta esta canción!"
+        },
+        {
+          "en": "Can you turn the heating up? It's cold.",
+          "es": "¿Puedes subir la calefacción? Hace frío."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "low down": "\"low\" es adjetivo, no verbo; \"low down\" no existe para bajar el volumen. Se dice turn down."
       },
       "examples": [
-        "Can you turn the music down? I'm on the phone.",
-        "Please turn down the heating, it's too hot."
+        {
+          "en": "Can you turn the music down? I'm on the phone.",
+          "es": "¿Puedes bajarle a la música? Estoy hablando por teléfono."
+        },
+        {
+          "en": "Please turn down the heating, it's too hot.",
+          "es": "Por favor, baja la calefacción, hace demasiado calor."
+        }
       ]
     }
   },
@@ -84,8 +96,14 @@
         "full in": "\"full\" es adjetivo (lleno); el verbo es \"fill\"."
       },
       "examples": [
-        "Fill in your email address here.",
-        "I filled in the application form yesterday."
+        {
+          "en": "Fill in your email address here.",
+          "es": "Escribe tu correo electrónico aquí."
+        },
+        {
+          "en": "I filled in the application form yesterday.",
+          "es": "Llené el formulario de solicitud ayer."
+        }
       ]
     }
   },
@@ -114,8 +132,14 @@
         "fundar una empresa": "Fundar es \"found\" (found a company); no tiene relación con \"find out\"."
       },
       "examples": [
-        "I want to find out more about the course.",
-        "How did you find out about the party?"
+        {
+          "en": "I want to find out more about the course.",
+          "es": "Quiero averiguar más sobre el curso."
+        },
+        {
+          "en": "How did you find out about the party?",
+          "es": "¿Cómo te enteraste de la fiesta?"
+        }
       ]
     }
   },
@@ -144,8 +168,14 @@
         "discover out": "\"discover\" no lleva \"out\". Además, para averiguar datos prácticos lo natural es find out."
       },
       "examples": [
-        "I'll find out where the meeting is.",
-        "She found out the price online."
+        {
+          "en": "I'll find out where the meeting is.",
+          "es": "Voy a averiguar dónde es la reunión."
+        },
+        {
+          "en": "She found out the price online.",
+          "es": "Ella averiguó el precio en internet."
+        }
       ]
     }
   },
@@ -174,8 +204,14 @@
         "grown up": "\"grown up\" es el participio; en pasado simple necesitas \"grew up\"."
       },
       "examples": [
-        "I grew up in Madrid.",
-        "Where did you grow up?"
+        {
+          "en": "I grew up in Madrid.",
+          "es": "Crecí en Madrid."
+        },
+        {
+          "en": "Where did you grow up?",
+          "es": "¿Dónde creciste?"
+        }
       ]
     }
   },
@@ -204,8 +240,14 @@
         "get older up": "\"get older\" no lleva \"up\"; esta expresión no existe."
       },
       "examples": [
-        "When I grow up, I want to be a doctor.",
-        "Children grow up so fast!"
+        {
+          "en": "When I grow up, I want to be a doctor.",
+          "es": "Cuando sea grande, quiero ser médico."
+        },
+        {
+          "en": "Children grow up so fast!",
+          "es": "¡Los niños crecen tan rápido!"
+        }
       ]
     }
   },
@@ -234,8 +276,14 @@
         "try on them": "Con pronombres (it, them) el pronombre va entre el verbo y la partícula: try them on."
       },
       "examples": [
-        "Can I try this jacket on?",
-        "She tried on three dresses."
+        {
+          "en": "Can I try this jacket on?",
+          "es": "¿Me puedo probar esta chaqueta?"
+        },
+        {
+          "en": "She tried on three dresses.",
+          "es": "Ella se probó tres vestidos."
+        }
       ]
     }
   },
@@ -264,8 +312,14 @@
         "alejarse de alguien": "\"Away\" sugiere distancia, pero \"put away\" no significa alejarse; es guardar."
       },
       "examples": [
-        "Put your toys away before dinner.",
-        "I put the dishes away after washing them."
+        {
+          "en": "Put your toys away before dinner.",
+          "es": "Guarda tus juguetes antes de la cena."
+        },
+        {
+          "en": "I put the dishes away after washing them.",
+          "es": "Guardé los platos después de lavarlos."
+        }
       ]
     }
   },
@@ -294,8 +348,14 @@
         "on": "\"put on\" es ponerse ropa; no tiene sentido con un móvil durante un examen."
       },
       "examples": [
-        "Put your books away, please.",
-        "He put his wallet away."
+        {
+          "en": "Put your books away, please.",
+          "es": "Guarden sus libros, por favor."
+        },
+        {
+          "en": "He put his wallet away.",
+          "es": "Él guardó su billetera."
+        }
       ]
     }
   },
@@ -324,8 +384,14 @@
         "run away from": "\"run away from\" es huir de algo; no se huye de la leche."
       },
       "examples": [
-        "We've run out of bread.",
-        "I ran out of time in the exam."
+        {
+          "en": "We've run out of bread.",
+          "es": "Se nos acabó el pan."
+        },
+        {
+          "en": "I ran out of time in the exam.",
+          "es": "Se me acabó el tiempo en el examen."
+        }
       ]
     }
   },
@@ -355,8 +421,14 @@
         "Mi móvil se está cargando.": "Es casi lo contrario: se ha quedado sin batería y por eso necesita cargarse."
       },
       "examples": [
-        "My laptop ran out of battery during the call.",
-        "The printer has run out of ink."
+        {
+          "en": "My laptop ran out of battery during the call.",
+          "es": "A mi laptop se le acabó la batería durante la llamada."
+        },
+        {
+          "en": "The printer has run out of ink.",
+          "es": "A la impresora se le acabó la tinta."
+        }
       ]
     }
   },
@@ -385,8 +457,14 @@
         "call you again back": "Sobra \"again\": \"back\" ya expresa que vuelves a llamar."
       },
       "examples": [
-        "Can you call me back in ten minutes?",
-        "She didn't answer, so I'll call her back."
+        {
+          "en": "Can you call me back in ten minutes?",
+          "es": "¿Me puedes devolver la llamada en diez minutos?"
+        },
+        {
+          "en": "She didn't answer, so I'll call her back.",
+          "es": "Ella no contestó, así que la vuelvo a llamar más tarde."
+        }
       ]
     }
   },
@@ -415,8 +493,14 @@
         "sign out": "\"sign out\" es cerrar sesión o firmar al salir; justo lo contrario de llegar."
       },
       "examples": [
-        "We checked in at 3 p.m.",
-        "You need to check in two hours before the flight."
+        {
+          "en": "We checked in at 3 p.m.",
+          "es": "Hicimos el check-in a las 3 p. m."
+        },
+        {
+          "en": "You need to check in two hours before the flight.",
+          "es": "Tienes que hacer el check-in dos horas antes del vuelo."
+        }
       ]
     }
   },
@@ -446,8 +530,14 @@
         "reservar una habitación": "Reservar es \"book\" (book a room)."
       },
       "examples": [
-        "We have to check out before 11 a.m.",
-        "What time is check-out?"
+        {
+          "en": "We have to check out before 11 a.m.",
+          "es": "Tenemos que dejar la habitación antes de las 11 a. m."
+        },
+        {
+          "en": "What time is check-out?",
+          "es": "¿A qué hora es la salida del hotel?"
+        }
       ]
     }
   },
@@ -476,8 +566,14 @@
         "went off": "\"go off\" se usa con alarmas o bombas (the alarm went off), no con personas que salen de viaje."
       },
       "examples": [
-        "We set off at 6 a.m.",
-        "What time do we set off tomorrow?"
+        {
+          "en": "We set off at 6 a.m.",
+          "es": "Salimos a las 6 a. m."
+        },
+        {
+          "en": "What time do we set off tomorrow?",
+          "es": "¿A qué hora salimos mañana?"
+        }
       ]
     }
   },
@@ -506,8 +602,14 @@
         "turn back": "\"turn back\" es dar media vuelta a mitad de camino, no regresar a casa al terminar un viaje."
       },
       "examples": [
-        "I got back home at midnight.",
-        "When does Anna get back from London?"
+        {
+          "en": "I got back home at midnight.",
+          "es": "Volví a casa a medianoche."
+        },
+        {
+          "en": "When does Anna get back from London?",
+          "es": "¿Cuándo vuelve Anna de Londres?"
+        }
       ]
     }
   },
@@ -536,8 +638,14 @@
         "get away": "\"get away\" es escaparse o irse de vacaciones; no lleva un objeto como \"bottles\"."
       },
       "examples": [
-        "I threw away my old shoes.",
-        "Don't throw that box away, I need it."
+        {
+          "en": "I threw away my old shoes.",
+          "es": "Boté mis zapatos viejos."
+        },
+        {
+          "en": "Don't throw that box away, I need it.",
+          "es": "No tires esa caja, la necesito."
+        }
       ]
     }
   },
@@ -566,8 +674,14 @@
         "clean off": "\"clean off\" necesita un objeto (clean the mud off your shoes); no sirve solo para ordenar la cocina."
       },
       "examples": [
-        "Can you help me clean up the living room?",
-        "We cleaned up after the picnic."
+        {
+          "en": "Can you help me clean up the living room?",
+          "es": "¿Me ayudas a ordenar la sala?"
+        },
+        {
+          "en": "We cleaned up after the picnic.",
+          "es": "Limpiamos todo después del pícnic."
+        }
       ]
     }
   },
@@ -596,8 +710,14 @@
         "given it again": "\"give it again\" significa dárselo otra vez, no devolvérmelo."
       },
       "examples": [
-        "Can you give me my pen back?",
-        "I gave the money back to my sister."
+        {
+          "en": "Can you give me my pen back?",
+          "es": "¿Me devuelves mi pluma?"
+        },
+        {
+          "en": "I gave the money back to my sister.",
+          "es": "Le devolví el dinero a mi hermana."
+        }
       ]
     }
   },
@@ -626,8 +746,14 @@
         "¡Espera!": "Esperar es \"Wait!\" o \"Hold on!\"."
       },
       "examples": [
-        "Hurry up! The bus is leaving.",
-        "We need to hurry up or we'll be late."
+        {
+          "en": "Hurry up! The bus is leaving.",
+          "es": "¡Apúrate! El autobús ya se va."
+        },
+        {
+          "en": "We need to hurry up or we'll be late.",
+          "es": "Tenemos que apurarnos o vamos a llegar tarde."
+        }
       ]
     }
   },
@@ -656,8 +782,14 @@
         "look it for": "\"look for\" es buscar algo perdido, y el pronombre no va en medio: look for it."
       },
       "examples": [
-        "I looked up the word 'busy'.",
-        "Look it up online if you're not sure."
+        {
+          "en": "I looked up the word 'busy'.",
+          "es": "Busqué la palabra \"busy\" en el diccionario."
+        },
+        {
+          "en": "Look it up online if you're not sure.",
+          "es": "Búscalo en internet si no estás seguro."
+        }
       ]
     }
   },
@@ -686,8 +818,14 @@
         "go out": "\"go out\" es salir tú; no lleva objeto. No se dice \"go out the rubbish\"."
       },
       "examples": [
-        "Can you take the bins out?",
-        "I took out the rubbish after dinner."
+        {
+          "en": "Can you take the bins out?",
+          "es": "¿Puedes sacar la basura?"
+        },
+        {
+          "en": "I took out the rubbish after dinner.",
+          "es": "Saqué la basura después de la cena."
+        }
       ]
     }
   },
@@ -717,8 +855,14 @@
         "Subiré a lavarme después de cenar.": "\"Up\" no indica subir aquí; forma parte del phrasal verb."
       },
       "examples": [
-        "You cooked, so I'll wash up.",
-        "Who's going to wash up tonight?"
+        {
+          "en": "You cooked, so I'll wash up.",
+          "es": "Tú cocinaste, así que yo lavo los platos."
+        },
+        {
+          "en": "Who's going to wash up tonight?",
+          "es": "¿Quién va a lavar los platos esta noche?"
+        }
       ]
     }
   },
@@ -747,8 +891,14 @@
         "closed": "En español a veces decimos \"le cerró el teléfono\", pero en inglés no se usa \"close\"; se dice hung up."
       },
       "examples": [
-        "Don't hang up, I need to tell you something!",
-        "She hung up and went to bed."
+        {
+          "en": "Don't hang up, I need to tell you something!",
+          "es": "¡No cuelgues, tengo que decirte algo!"
+        },
+        {
+          "en": "She hung up and went to bed.",
+          "es": "Ella colgó y se fue a dormir."
+        }
       ]
     }
   },
@@ -777,8 +927,14 @@
         "go over": "\"go over\" es repasar algo (go over your notes)."
       },
       "examples": [
-        "Go on, I'm listening.",
-        "The party went on until 2 a.m."
+        {
+          "en": "Go on, I'm listening.",
+          "es": "Sigue, te estoy escuchando."
+        },
+        {
+          "en": "The party went on until 2 a.m.",
+          "es": "La fiesta siguió hasta las 2 a. m."
+        }
       ]
     }
   },
@@ -807,8 +963,14 @@
         "eat up": "\"eat up\" significa comérselo todo; no soluciona que no queráis cocinar."
       },
       "examples": [
-        "We eat out every Friday.",
-        "Do you want to eat out or stay in?"
+        {
+          "en": "We eat out every Friday.",
+          "es": "Comemos fuera todos los viernes."
+        },
+        {
+          "en": "Do you want to eat out or stay in?",
+          "es": "¿Quieres salir a comer o quedarte en casa?"
+        }
       ]
     }
   },
@@ -838,8 +1000,14 @@
         "lavar la ropa": "Lavar la ropa es \"do the washing\"."
       },
       "examples": [
-        "You don't need to dress up, it's a casual party.",
-        "Everyone dressed up for the dinner."
+        {
+          "en": "You don't need to dress up, it's a casual party.",
+          "es": "No tienes que arreglarte mucho, es una fiesta informal."
+        },
+        {
+          "en": "Everyone dressed up for the dinner.",
+          "es": "Todos se arreglaron para la cena."
+        }
       ]
     }
   },
@@ -868,8 +1036,14 @@
         "Tranquil down": "\"tranquil\" es un adjetivo poco común en inglés. En español decimos \"¡tranquilo!\", en inglés: Calm down!"
       },
       "examples": [
-        "Calm down and tell me what happened.",
-        "The kids calmed down after lunch."
+        {
+          "en": "Calm down and tell me what happened.",
+          "es": "Cálmate y cuéntame qué pasó."
+        },
+        {
+          "en": "The kids calmed down after lunch.",
+          "es": "Los niños se calmaron después del almuerzo."
+        }
       ]
     }
   },
@@ -899,8 +1073,14 @@
         "olvidarse de algo": "Olvidarse es \"forget\"; \"sort out\" es lo contrario: ocuparse del problema."
       },
       "examples": [
-        "Don't worry, I'll sort it out.",
-        "We sorted out the problem with the tickets."
+        {
+          "en": "Don't worry, I'll sort it out.",
+          "es": "No te preocupes, yo lo resuelvo."
+        },
+        {
+          "en": "We sorted out the problem with the tickets.",
+          "es": "Resolvimos el problema con los boletos."
+        }
       ]
     }
   },
@@ -929,8 +1109,14 @@
         "¡Lo vas a hacer fatal!": "No es un insulto ni una mala noticia; es una forma positiva de desear suerte."
       },
       "examples": [
-        "Break a leg tonight!",
-        "Good luck with the play! Break a leg!"
+        {
+          "en": "Break a leg tonight!",
+          "es": "¡Mucha suerte esta noche!"
+        },
+        {
+          "en": "Good luck with the play! Break a leg!",
+          "es": "¡Suerte con la obra! ¡Que te vaya muy bien!"
+        }
       ]
     }
   },
@@ -959,8 +1145,14 @@
         "on the weather": "La expresión es fija: under the weather."
       },
       "examples": [
-        "You look a bit under the weather.",
-        "I was under the weather last week."
+        {
+          "en": "You look a bit under the weather.",
+          "es": "Te ves un poco indispuesto."
+        },
+        {
+          "en": "I was under the weather last week.",
+          "es": "Estuve medio enfermo la semana pasada."
+        }
       ]
     }
   },
@@ -989,8 +1181,14 @@
         "cats and mice": "La expresión es \"cats and dogs\"; con mice no existe."
       },
       "examples": [
-        "It rained cats and dogs all weekend.",
-        "We can't go out, it's raining cats and dogs."
+        {
+          "en": "It rained cats and dogs all weekend.",
+          "es": "Llovió a cántaros todo el fin de semana."
+        },
+        {
+          "en": "We can't go out, it's raining cats and dogs.",
+          "es": "No podemos salir, está lloviendo a cántaros."
+        }
       ]
     }
   },
@@ -1020,8 +1218,14 @@
         "Costó mucho esfuerzo físico.": "Los brazos y piernas no son literales; hablan de dinero."
       },
       "examples": [
-        "Our holiday cost an arm and a leg.",
-        "I want a car that doesn't cost an arm and a leg."
+        {
+          "en": "Our holiday cost an arm and a leg.",
+          "es": "Nuestras vacaciones costaron un ojo de la cara."
+        },
+        {
+          "en": "I want a car that doesn't cost an arm and a leg.",
+          "es": "Quiero un carro que no cueste un ojo de la cara."
+        }
       ]
     }
   },
@@ -1051,8 +1255,14 @@
         "once a blue moon": "Falta \"in\": once in a blue moon."
       },
       "examples": [
-        "I eat fast food once in a blue moon.",
-        "He calls me once in a blue moon."
+        {
+          "en": "I eat fast food once in a blue moon.",
+          "es": "Como comida rápida muy de vez en cuando."
+        },
+        {
+          "en": "He calls me once in a blue moon.",
+          "es": "Me llama muy de vez en cuando."
+        }
       ]
     }
   },
@@ -1082,8 +1292,14 @@
         "dejar de estudiar": "Es lo contrario: significa estudiar mucho."
       },
       "examples": [
-        "Exams start next week, so it's time to hit the books.",
-        "She hit the books all weekend."
+        {
+          "en": "Exams start next week, so it's time to hit the books.",
+          "es": "Los exámenes empiezan la próxima semana, así que es hora de ponerse a estudiar en serio."
+        },
+        {
+          "en": "She hit the books all weekend.",
+          "es": "Ella estudió duro todo el fin de semana."
+        }
       ]
     }
   },
@@ -1112,8 +1328,14 @@
         "couch bear": "El animal no es parte de la expresión; se dice couch potato."
       },
       "examples": [
-        "Don't be a couch potato, let's go for a walk!",
-        "I was a couch potato all weekend."
+        {
+          "en": "Don't be a couch potato, let's go for a walk!",
+          "es": "¡No te quedes echado en el sofá, vamos a caminar!"
+        },
+        {
+          "en": "I was a couch potato all weekend.",
+          "es": "Me la pasé tirado en el sofá todo el fin de semana."
+        }
       ]
     }
   },
@@ -1143,8 +1365,14 @@
         "Tom está muy contento.": "Romper el portátil de su padre no le pone contento: está en problemas."
       },
       "examples": [
-        "You'll be in hot water if you're late again.",
-        "She got into hot water with her boss."
+        {
+          "en": "You'll be in hot water if you're late again.",
+          "es": "Vas a estar en problemas si vuelves a llegar tarde."
+        },
+        {
+          "en": "She got into hot water with her boss.",
+          "es": "Ella se metió en problemas con su jefe."
+        }
       ]
     }
   },
@@ -1173,8 +1401,14 @@
         "pink": "\"In the pink\" significa estar sano, no triste."
       },
       "examples": [
-        "I always feel blue on Sunday evenings.",
-        "Why are you feeling blue?"
+        {
+          "en": "I always feel blue on Sunday evenings.",
+          "es": "Siempre me pongo triste los domingos en la noche."
+        },
+        {
+          "en": "Why are you feeling blue?",
+          "es": "¿Por qué estás triste?"
+        }
       ]
     }
   },
@@ -1204,8 +1438,14 @@
         "Me molesta mucho.": "Es lo contrario: es una persona muy querida."
       },
       "examples": [
-        "His daughter is the apple of his eye.",
-        "That little dog is the apple of her eye."
+        {
+          "en": "His daughter is the apple of his eye.",
+          "es": "Su hija es la niña de sus ojos."
+        },
+        {
+          "en": "That little dog is the apple of her eye.",
+          "es": "Ese perrito es la niña de sus ojos."
+        }
       ]
     }
   },
@@ -1234,8 +1474,14 @@
         "put an eye on": "El verbo de esta expresión es \"keep\", no \"put\"."
       },
       "examples": [
-        "Keep an eye on the pasta, please.",
-        "Can you keep an eye on the kids for a minute?"
+        {
+          "en": "Keep an eye on the pasta, please.",
+          "es": "Échale un ojo a la pasta, por favor."
+        },
+        {
+          "en": "Can you keep an eye on the kids for a minute?",
+          "es": "¿Puedes cuidar a los niños un minuto?"
+        }
       ]
     }
   },
@@ -1265,8 +1511,14 @@
         "Ve más rápido.": "\"Take it easy\" pide calma, no velocidad."
       },
       "examples": [
-        "Take it easy, there's no rush.",
-        "I'm going to take it easy this weekend."
+        {
+          "en": "Take it easy, there's no rush.",
+          "es": "Tranquilo, no hay prisa."
+        },
+        {
+          "en": "I'm going to take it easy this weekend.",
+          "es": "Voy a descansar este fin de semana."
+        }
       ]
     }
   },
@@ -1295,8 +1547,14 @@
         "doing the hang of": "No se usa \"do\"; la expresión fija es get the hang of."
       },
       "examples": [
-        "You'll get the hang of it soon.",
-        "I'm finally getting the hang of this app."
+        {
+          "en": "You'll get the hang of it soon.",
+          "es": "Pronto le vas a agarrar la onda."
+        },
+        {
+          "en": "I'm finally getting the hang of this app.",
+          "es": "Por fin le estoy agarrando la onda a esta app."
+        }
       ]
     }
   },
@@ -1326,8 +1584,14 @@
         "in heart": "La preposición correcta es \"by\": by heart."
       },
       "examples": [
-        "I know her phone number by heart.",
-        "Do you know the song by heart?"
+        {
+          "en": "I know her phone number by heart.",
+          "es": "Me sé su número de teléfono de memoria."
+        },
+        {
+          "en": "Do you know the song by heart?",
+          "es": "¿Te sabes la canción de memoria?"
+        }
       ]
     }
   },
@@ -1356,8 +1620,14 @@
         "make up your head": "La palabra es \"mind\", no \"head\"."
       },
       "examples": [
-        "I can't make up my mind.",
-        "Make up your mind! We're late."
+        {
+          "en": "I can't make up my mind.",
+          "es": "No me puedo decidir."
+        },
+        {
+          "en": "Make up your mind! We're late.",
+          "es": "¡Decídete! Vamos tarde."
+        }
       ]
     }
   },
@@ -1386,8 +1656,14 @@
         "It depends of you": "En español decimos \"depende de ti\", pero en inglés es \"depend on\", nunca \"of\"."
       },
       "examples": [
-        "Tea or coffee? It's up to you.",
-        "It's up to you where we eat tonight."
+        {
+          "en": "Tea or coffee? It's up to you.",
+          "es": "¿Té o café? Tú decides."
+        },
+        {
+          "en": "It's up to you where we eat tonight.",
+          "es": "Tú decides dónde comemos esta noche."
+        }
       ]
     }
   },
@@ -1417,8 +1693,14 @@
         "perder la memoria": "Perder la memoria es \"lose your memory\"."
       },
       "examples": [
-        "My dad never loses his temper.",
-        "I lost my temper and shouted at the TV."
+        {
+          "en": "My dad never loses his temper.",
+          "es": "Mi papá nunca pierde la paciencia."
+        },
+        {
+          "en": "I lost my temper and shouted at the TV.",
+          "es": "Perdí los estribos y le grité a la tele."
+        }
       ]
     }
   },
@@ -1447,8 +1729,14 @@
         "in hurry": "Falta el artículo \"a\": in a hurry."
       },
       "examples": [
-        "I'm in a hurry, see you later!",
-        "She left in a hurry."
+        {
+          "en": "I'm in a hurry, see you later!",
+          "es": "Estoy apurado, ¡nos vemos!"
+        },
+        {
+          "en": "She left in a hurry.",
+          "es": "Ella se fue con prisa."
+        }
       ]
     }
   },
@@ -1477,8 +1765,14 @@
         "no big business": "La palabra fija es \"deal\", no \"business\"."
       },
       "examples": [
-        "I lost my umbrella, but it's no big deal.",
-        "Relax, it's no big deal."
+        {
+          "en": "I lost my umbrella, but it's no big deal.",
+          "es": "Perdí mi paraguas, pero no es para tanto."
+        },
+        {
+          "en": "Relax, it's no big deal.",
+          "es": "Tranquilo, no pasa nada."
+        }
       ]
     }
   },
@@ -1508,8 +1802,14 @@
         "Es muy aburrido.": "\"Good\" indica que va bien, no que sea aburrido."
       },
       "examples": [
-        "'How's the trip?' 'So far so good.'",
-        "So far so good, but the hard part is next week."
+        {
+          "en": "'How's the trip?' 'So far so good.'",
+          "es": "—¿Qué tal el viaje? —Hasta ahora, todo bien."
+        },
+        {
+          "en": "So far so good, but the hard part is next week.",
+          "es": "Hasta ahora, todo bien, pero lo difícil viene la próxima semana."
+        }
       ]
     }
   }

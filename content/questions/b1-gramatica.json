@@ -24,8 +24,14 @@
         "have been losing": "El present perfect continuous no combina con \"yesterday\" ni con una acción puntual."
       },
       "examples": [
-        "We visited Rome last summer.",
-        "She called me two hours ago."
+        {
+          "en": "We visited Rome last summer.",
+          "es": "Visitamos Roma el verano pasado."
+        },
+        {
+          "en": "She called me two hours ago.",
+          "es": "Ella me llamó hace dos horas."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "goes": "El presente simple no sirve para contar experiencias hasta ahora (three times so far)."
       },
       "examples": [
-        "I have read this book twice so far.",
-        "Have you ever been to Mexico?"
+        {
+          "en": "I have read this book twice so far.",
+          "es": "Hasta ahora he leído este libro dos veces."
+        },
+        {
+          "en": "Have you ever been to Mexico?",
+          "es": "¿Alguna vez has estado en México?"
+        }
       ]
     }
   },
@@ -84,8 +96,14 @@
         "do / started": "\"do\" es presente y \"started\" es pasado; las preguntas en past simple usan did + verbo base."
       },
       "examples": [
-        "When did you arrive?",
-        "When did they get married?"
+        {
+          "en": "When did you arrive?",
+          "es": "¿Cuándo llegaste?"
+        },
+        {
+          "en": "When did they get married?",
+          "es": "¿Cuándo se casaron?"
+        }
       ]
     }
   },
@@ -114,8 +132,14 @@
         "during": "\"during\" significa \"durante\" y va con un sustantivo (during the summer), no con una frase."
       },
       "examples": [
-        "I've lived here since 2018.",
-        "She has been happy since she moved."
+        {
+          "en": "I've lived here since 2018.",
+          "es": "Vivo aquí desde 2018."
+        },
+        {
+          "en": "She has been happy since she moved.",
+          "es": "Ella está feliz desde que se mudó."
+        }
       ]
     }
   },
@@ -144,8 +168,14 @@
         "during": "\"during\" indica en qué momento ocurre algo, no cuánto tiempo dura hasta ahora."
       },
       "examples": [
-        "They've been married for twenty years.",
-        "I haven't eaten for six hours."
+        {
+          "en": "They've been married for twenty years.",
+          "es": "Llevan veinte años casados."
+        },
+        {
+          "en": "I haven't eaten for six hours.",
+          "es": "No he comido nada en seis horas."
+        }
       ]
     }
   },
@@ -174,8 +204,14 @@
         "from": "Traducción literal de \"desde\"; con present perfect se usa \"since\"."
       },
       "examples": [
-        "He hasn't called since Monday.",
-        "It hasn't rained since June."
+        {
+          "en": "He hasn't called since Monday.",
+          "es": "No ha llamado desde el lunes."
+        },
+        {
+          "en": "It hasn't rained since June.",
+          "es": "No ha llovido desde junio."
+        }
       ]
     }
   },
@@ -204,8 +240,14 @@
         "had waited": "El past perfect se refiere a algo anterior a otro momento pasado, no a algo que sigue ahora."
       },
       "examples": [
-        "She has been studying since 9 a.m.",
-        "We've been living here for two years."
+        {
+          "en": "She has been studying since 9 a.m.",
+          "es": "Ella está estudiando desde las 9 de la mañana."
+        },
+        {
+          "en": "We've been living here for two years.",
+          "es": "Llevamos dos años viviendo aquí."
+        }
       ]
     }
   },
@@ -234,8 +276,14 @@
         "did / learn": "\"did\" indica algo terminado, pero la respuesta \"since I was twelve\" muestra que sigue hasta hoy."
       },
       "examples": [
-        "How long have you been working here?",
-        "How long has it been raining?"
+        {
+          "en": "How long have you been working here?",
+          "es": "¿Cuánto tiempo llevas trabajando aquí?"
+        },
+        {
+          "en": "How long has it been raining?",
+          "es": "¿Cuánto tiempo lleva lloviendo?"
+        }
       ]
     }
   },
@@ -264,8 +312,14 @@
         "run": "\"run\" no concuerda con \"she\" y no expresa una actividad reciente."
       },
       "examples": [
-        "Your eyes are red. Have you been crying?",
-        "The ground is wet. It has been raining."
+        {
+          "en": "Your eyes are red. Have you been crying?",
+          "es": "Tienes los ojos rojos. ¿Has estado llorando?"
+        },
+        {
+          "en": "The ground is wet. It has been raining.",
+          "es": "El suelo está mojado. Ha estado lloviendo."
+        }
       ]
     }
   },
@@ -294,8 +348,14 @@
         "did / start": "\"did\" + verbo se usa en preguntas y negativas, no en una afirmación así."
       },
       "examples": [
-        "When I got home, everyone had gone to bed.",
-        "The train had left when we reached the station."
+        {
+          "en": "When I got home, everyone had gone to bed.",
+          "es": "Cuando llegué a casa, todos se habían ido a dormir."
+        },
+        {
+          "en": "The train had left when we reached the station.",
+          "es": "El tren ya se había ido cuando llegamos a la estación."
+        }
       ]
     }
   },
@@ -324,8 +384,14 @@
         "was / flying": "\"was never flying before\" no es natural; hablamos de experiencia previa, no de acción en progreso."
       },
       "examples": [
-        "I had never seen snow before that trip.",
-        "He was tired because he hadn't slept."
+        {
+          "en": "I had never seen snow before that trip.",
+          "es": "Nunca había visto la nieve antes de ese viaje."
+        },
+        {
+          "en": "He was tired because he hadn't slept.",
+          "es": "Estaba cansado porque no había dormido."
+        }
       ]
     }
   },
@@ -354,8 +420,14 @@
         "was eating": "El pasado continuo indica que comías en ese momento, pero el desayuno ya había terminado."
       },
       "examples": [
-        "She was happy because she had passed the exam.",
-        "We were late because we had missed the bus."
+        {
+          "en": "She was happy because she had passed the exam.",
+          "es": "Ella estaba feliz porque había aprobado el examen."
+        },
+        {
+          "en": "We were late because we had missed the bus.",
+          "es": "Llegamos tarde porque habíamos perdido el autobús."
+        }
       ]
     }
   },
@@ -384,8 +456,14 @@
         "am used to": "Está en presente y significa \"estar acostumbrado\"; la frase habla de un hábito pasado."
       },
       "examples": [
-        "We used to live in a small town.",
-        "She used to have long hair."
+        {
+          "en": "We used to live in a small town.",
+          "es": "Antes vivíamos en un pueblo pequeño."
+        },
+        {
+          "en": "She used to have long hair.",
+          "es": "Ella antes tenía el pelo largo."
+        }
       ]
     }
   },
@@ -414,8 +492,14 @@
         "used": "Falta el verbo be: para \"estar acostumbrado\" se dice \"I'm used to\"."
       },
       "examples": [
-        "She is used to working at night.",
-        "I'm not used to spicy food."
+        {
+          "en": "She is used to working at night.",
+          "es": "Ella está acostumbrada a trabajar de noche."
+        },
+        {
+          "en": "I'm not used to spicy food.",
+          "es": "No estoy acostumbrado a la comida picante."
+        }
       ]
     }
   },
@@ -444,8 +528,14 @@
         "use": "\"use to\" no significa acostumbrarse; se necesita \"get used to\"."
       },
       "examples": [
-        "It took me months to get used to the cold.",
-        "You'll get used to wearing glasses."
+        {
+          "en": "It took me months to get used to the cold.",
+          "es": "Me tomó meses acostumbrarme al frío."
+        },
+        {
+          "en": "You'll get used to wearing glasses.",
+          "es": "Te vas a acostumbrar a usar lentes."
+        }
       ]
     }
   },
@@ -475,8 +565,14 @@
         "be used to": "\"be used to\" significa estar acostumbrado y no encaja con \"live\" en forma base."
       },
       "examples": [
-        "Did she use to play the piano?",
-        "I didn't use to like coffee."
+        {
+          "en": "Did she use to play the piano?",
+          "es": "¿Ella tocaba el piano antes?"
+        },
+        {
+          "en": "I didn't use to like coffee.",
+          "es": "Antes no me gustaba el café."
+        }
       ]
     }
   },
@@ -505,8 +601,14 @@
         "mixed": "El pasado no concuerda con \"you get\" en presente; es una verdad general."
       },
       "examples": [
-        "If you press this button, the machine stops.",
-        "If plants don't get water, they die."
+        {
+          "en": "If you press this button, the machine stops.",
+          "es": "Si presionas este botón, la máquina se detiene."
+        },
+        {
+          "en": "If plants don't get water, they die.",
+          "es": "Si las plantas no reciben agua, se mueren."
+        }
       ]
     }
   },
@@ -535,8 +637,14 @@
         "missed": "El pasado no expresa una consecuencia futura."
       },
       "examples": [
-        "If it's sunny, we'll go to the beach.",
-        "She'll be angry if you're late."
+        {
+          "en": "If it's sunny, we'll go to the beach.",
+          "es": "Si hace sol, iremos a la playa."
+        },
+        {
+          "en": "She'll be angry if you're late.",
+          "es": "Ella se va a enojar si llegas tarde."
+        }
       ]
     }
   },
@@ -565,8 +673,14 @@
         "will have": "En la parte con \"if\" no se usa will, y la situación es imaginaria."
       },
       "examples": [
-        "If I lived near the sea, I would swim every day.",
-        "If she knew the answer, she would tell us."
+        {
+          "en": "If I lived near the sea, I would swim every day.",
+          "es": "Si viviera cerca del mar, nadaría todos los días."
+        },
+        {
+          "en": "If she knew the answer, she would tell us.",
+          "es": "Si ella supiera la respuesta, nos la diría."
+        }
       ]
     }
   },
@@ -596,8 +710,14 @@
         "did": "\"did\" no se usa en la parte principal de un condicional imaginario."
       },
       "examples": [
-        "What would you do if you won the lottery?",
-        "Where would you live if you could choose?"
+        {
+          "en": "What would you do if you won the lottery?",
+          "es": "¿Qué harías si te ganaras la lotería?"
+        },
+        {
+          "en": "Where would you live if you could choose?",
+          "es": "¿Dónde vivirías si pudieras elegir?"
+        }
       ]
     }
   },
@@ -626,8 +746,14 @@
         "without": "\"without\" va con un sustantivo o -ing (without studying), no con una frase completa."
       },
       "examples": [
-        "I won't go unless you come with me.",
-        "Unless we leave now, we'll be late."
+        {
+          "en": "I won't go unless you come with me.",
+          "es": "No voy a ir a menos que vengas conmigo."
+        },
+        {
+          "en": "Unless we leave now, we'll be late.",
+          "es": "Si no salimos ahora, vamos a llegar tarde."
+        }
       ]
     }
   },
@@ -657,8 +783,14 @@
         "Cuando llueva, haremos la fiesta en el jardín.": "\"Cuando\" se dice \"when\"; \"unless\" expresa una excepción."
       },
       "examples": [
-        "Unless you hurry, you'll miss the bus.",
-        "I'll call you unless I'm busy."
+        {
+          "en": "Unless you hurry, you'll miss the bus.",
+          "es": "Si no te apuras, vas a perder el autobús."
+        },
+        {
+          "en": "I'll call you unless I'm busy.",
+          "es": "Te llamaré, a menos que esté ocupado."
+        }
       ]
     }
   },
@@ -687,8 +819,14 @@
         "except": "\"except\" no puede introducir una frase con sujeto y verbo como conjunción de condición."
       },
       "examples": [
-        "She won't come unless you invite her.",
-        "Don't call me unless it's important."
+        {
+          "en": "She won't come unless you invite her.",
+          "es": "Ella no vendrá a menos que la invites."
+        },
+        {
+          "en": "Don't call me unless it's important.",
+          "es": "No me llames a menos que sea importante."
+        }
       ]
     }
   },
@@ -717,8 +855,14 @@
         "spoken": "Falta el verbo be: la pasiva es be + participio (is spoken)."
       },
       "examples": [
-        "Coffee is grown in Colombia.",
-        "These rooms are cleaned every day."
+        {
+          "en": "Coffee is grown in Colombia.",
+          "es": "El café se cultiva en Colombia."
+        },
+        {
+          "en": "These rooms are cleaned every day.",
+          "es": "Estas habitaciones se limpian todos los días."
+        }
       ]
     }
   },
@@ -747,8 +891,14 @@
         "is painted": "La acción ocurrió en el pasado (hace siglos), así que la pasiva va en pasado: was painted."
       },
       "examples": [
-        "The bridge was built in 1890.",
-        "These songs were written by the Beatles."
+        {
+          "en": "The bridge was built in 1890.",
+          "es": "El puente fue construido en 1890."
+        },
+        {
+          "en": "These songs were written by the Beatles.",
+          "es": "Estas canciones fueron escritas por los Beatles."
+        }
       ]
     }
   },
@@ -777,8 +927,14 @@
         "has stolen": "Es activa y además no combina con \"last night\"."
       },
       "examples": [
-        "My phone was found in the taxi.",
-        "The letters were sent yesterday."
+        {
+          "en": "My phone was found in the taxi.",
+          "es": "Encontraron mi teléfono en el taxi."
+        },
+        {
+          "en": "The letters were sent yesterday.",
+          "es": "Las cartas se enviaron ayer."
+        }
       ]
     }
   },
@@ -807,8 +963,14 @@
         "that": "\"that\" no expresa posesión; \"cuyo/su\" se traduce con \"whose\"."
       },
       "examples": [
-        "I have a friend whose sister is a doctor.",
-        "That's the boy whose dog bit me."
+        {
+          "en": "I have a friend whose sister is a doctor.",
+          "es": "Tengo un amigo cuya hermana es doctora."
+        },
+        {
+          "en": "That's the boy whose dog bit me.",
+          "es": "Ese es el niño cuyo perro me mordió."
+        }
       ]
     }
   },
@@ -837,8 +999,14 @@
         "whose": "\"whose\" indica posesión y necesita un sustantivo detrás."
       },
       "examples": [
-        "That's the café where we met.",
-        "I visited the town where my father was born."
+        {
+          "en": "That's the café where we met.",
+          "es": "Ese es el café donde nos conocimos."
+        },
+        {
+          "en": "I visited the town where my father was born.",
+          "es": "Visité el pueblo donde nació mi padre."
+        }
       ]
     }
   },
@@ -868,8 +1036,14 @@
         "whose": "\"whose\" indica posesión y necesita un sustantivo detrás (whose husband…)."
       },
       "examples": [
-        "My boss, who is from Peru, speaks four languages.",
-        "Our teacher, who is very patient, explained it again."
+        {
+          "en": "My boss, who is from Peru, speaks four languages.",
+          "es": "Mi jefe, que es de Perú, habla cuatro idiomas."
+        },
+        {
+          "en": "Our teacher, who is very patient, explained it again.",
+          "es": "Nuestra maestra, que es muy paciente, lo explicó otra vez."
+        }
       ]
     }
   },
@@ -899,8 +1073,14 @@
         "where": "Aquí falta el sujeto de \"is\"; \"where\" no puede ser sujeto (sí: the city where I live)."
       },
       "examples": [
-        "My car, which is very old, broke down again.",
-        "The Amazon, which is in South America, is huge."
+        {
+          "en": "My car, which is very old, broke down again.",
+          "es": "Mi carro, que es muy viejo, se descompuso otra vez."
+        },
+        {
+          "en": "The Amazon, which is in South America, is huge.",
+          "es": "El Amazonas, que está en Sudamérica, es enorme."
+        }
       ]
     }
   },
@@ -929,8 +1109,14 @@
         "spoke": "\"speak\" no se usa para reproducir un mensaje con \"that\"."
       },
       "examples": [
-        "He told us that the shop was closed.",
-        "She said that she was busy."
+        {
+          "en": "He told us that the shop was closed.",
+          "es": "Nos dijo que la tienda estaba cerrada."
+        },
+        {
+          "en": "She said that she was busy.",
+          "es": "Ella dijo que estaba ocupada."
+        }
       ]
     }
   },
@@ -959,8 +1145,14 @@
         "have seen": "No concuerda con \"she\" y además no combina con \"the week before\"."
       },
       "examples": [
-        "He said he had lost his wallet.",
-        "They told me they had finished the project."
+        {
+          "en": "He said he had lost his wallet.",
+          "es": "Él dijo que había perdido su billetera."
+        },
+        {
+          "en": "They told me they had finished the project.",
+          "es": "Me dijeron que habían terminado el proyecto."
+        }
       ]
     }
   },
@@ -989,8 +1181,14 @@
         "is going": "Falta \"to\" (is going to) y además no hace el cambio a pasado."
       },
       "examples": [
-        "She said she would help me.",
-        "He promised he would call the next day."
+        {
+          "en": "She said she would help me.",
+          "es": "Ella dijo que me ayudaría."
+        },
+        {
+          "en": "He promised he would call the next day.",
+          "es": "Prometió que llamaría al día siguiente."
+        }
       ]
     }
   },
@@ -1019,8 +1217,14 @@
         "being": "Tras \"tell someone\" no va -ing, sino el infinitivo con to."
       },
       "examples": [
-        "My mum told me to tidy my room.",
-        "The doctor told him not to smoke."
+        {
+          "en": "My mum told me to tidy my room.",
+          "es": "Mi mamá me dijo que ordenara mi cuarto."
+        },
+        {
+          "en": "The doctor told him not to smoke.",
+          "es": "El doctor le dijo que no fumara."
+        }
       ]
     }
   },
@@ -1049,8 +1253,14 @@
         "drank": "Después de \"stop\" no va un verbo en pasado."
       },
       "examples": [
-        "She stopped smoking last year.",
-        "Stop talking, please."
+        {
+          "en": "She stopped smoking last year.",
+          "es": "Ella dejó de fumar el año pasado."
+        },
+        {
+          "en": "Stop talking, please.",
+          "es": "Dejen de hablar, por favor."
+        }
       ]
     }
   },
@@ -1079,8 +1289,14 @@
         "turned off": "Después de \"remember\" no va un verbo en pasado."
       },
       "examples": [
-        "Remember to buy milk.",
-        "I remember meeting her at a party."
+        {
+          "en": "Remember to buy milk.",
+          "es": "Acuérdate de comprar leche."
+        },
+        {
+          "en": "I remember meeting her at a party.",
+          "es": "Recuerdo haberla conocido en una fiesta."
+        }
       ]
     }
   },
@@ -1109,8 +1325,14 @@
         "had": "Después de \"stop\" no va un verbo en pasado."
       },
       "examples": [
-        "He stopped to tie his shoes.",
-        "We stopped to take some photos."
+        {
+          "en": "He stopped to tie his shoes.",
+          "es": "Se detuvo para atarse los zapatos."
+        },
+        {
+          "en": "We stopped to take some photos.",
+          "es": "Nos detuvimos para tomar algunas fotos."
+        }
       ]
     }
   },
@@ -1139,8 +1361,14 @@
         "may not": "\"may not\" expresa duda negativa, pero el contexto da casi certeza de que sí está agotada."
       },
       "examples": [
-        "You must be hungry after the trip.",
-        "He must be at home; his car is outside."
+        {
+          "en": "You must be hungry after the trip.",
+          "es": "Debes tener hambre después del viaje."
+        },
+        {
+          "en": "He must be at home; his car is outside.",
+          "es": "Debe estar en casa; su carro está afuera."
+        }
       ]
     }
   },
@@ -1169,8 +1397,14 @@
         "might": "\"might\" indica que es posible, pero el contexto lo hace imposible."
       },
       "examples": [
-        "It can't be true!",
-        "He can't be tired; he's just woken up."
+        {
+          "en": "It can't be true!",
+          "es": "¡No puede ser cierto!"
+        },
+        {
+          "en": "He can't be tired; he's just woken up.",
+          "es": "No puede estar cansado; se acaba de despertar."
+        }
       ]
     }
   },
@@ -1199,8 +1433,14 @@
         "has to": "\"has to\" expresa obligación o certeza, no posibilidad."
       },
       "examples": [
-        "Take a jacket; it might be cold later.",
-        "He might be in a meeting."
+        {
+          "en": "Take a jacket; it might be cold later.",
+          "es": "Lleva una chaqueta; puede que haga frío más tarde."
+        },
+        {
+          "en": "He might be in a meeting.",
+          "es": "Puede que esté en una reunión."
+        }
       ]
     }
   },
@@ -1229,8 +1469,14 @@
         "too": "\"too\" significa \"demasiado\" (con sentido negativo) y no va delante de \"a\"."
       },
       "examples": [
-        "They are such nice people.",
-        "It was such a long trip that we slept all day."
+        {
+          "en": "They are such nice people.",
+          "es": "Son personas tan agradables."
+        },
+        {
+          "en": "It was such a long trip that we slept all day.",
+          "es": "Fue un viaje tan largo que dormimos todo el día."
+        }
       ]
     }
   },
@@ -1259,8 +1505,14 @@
         "very": "\"very\" no se combina con \"that\" para expresar consecuencia."
       },
       "examples": [
-        "I was so tired that I went to bed early.",
-        "The test was so easy that everyone passed."
+        {
+          "en": "I was so tired that I went to bed early.",
+          "es": "Estaba tan cansado que me acosté temprano."
+        },
+        {
+          "en": "The test was so easy that everyone passed.",
+          "es": "La prueba fue tan fácil que todos aprobaron."
+        }
       ]
     }
   },
@@ -1289,8 +1541,14 @@
         "won't you": "La frase no usa will; la coletilla repite el auxiliar \"are\"."
       },
       "examples": [
-        "It's cold today, isn't it?",
-        "They live here, don't they?"
+        {
+          "en": "It's cold today, isn't it?",
+          "es": "Hace frío hoy, ¿verdad?"
+        },
+        {
+          "en": "They live here, don't they?",
+          "es": "Viven aquí, ¿no?"
+        }
       ]
     }
   },
@@ -1319,8 +1577,14 @@
         "wasn't she": "El auxiliar de la frase es did, no was, y además debe ser afirmativo."
       },
       "examples": [
-        "You aren't busy, are you?",
-        "He can't swim, can he?"
+        {
+          "en": "You aren't busy, are you?",
+          "es": "No estás ocupado, ¿verdad?"
+        },
+        {
+          "en": "He can't swim, can he?",
+          "es": "Él no sabe nadar, ¿verdad?"
+        }
       ]
     }
   },
@@ -1349,8 +1613,14 @@
         "can't": "\"can't\" diría que es imposible que llueva, lo cual contradice el 50%."
       },
       "examples": [
-        "I might go out tonight, I'm not sure.",
-        "She may be late because of the traffic."
+        {
+          "en": "I might go out tonight, I'm not sure.",
+          "es": "Puede que salga esta noche, no estoy seguro."
+        },
+        {
+          "en": "She may be late because of the traffic.",
+          "es": "Puede que ella llegue tarde por el tráfico."
+        }
       ]
     }
   },
@@ -1379,8 +1649,14 @@
         "are": "\"you are love\" no es gramatical; se necesita will + verbo."
       },
       "examples": [
-        "I'm sure they'll win the match.",
-        "It will be sunny tomorrow, according to the news."
+        {
+          "en": "I'm sure they'll win the match.",
+          "es": "Estoy seguro de que van a ganar el partido."
+        },
+        {
+          "en": "It will be sunny tomorrow, according to the news.",
+          "es": "Mañana va a hacer sol, según las noticias."
+        }
       ]
     }
   },
@@ -1409,8 +1685,14 @@
         "does the station be": "\"does\" no se usa con el verbo be, y en preguntas indirectas no va auxiliar."
       },
       "examples": [
-        "Do you know where the bank is?",
-        "Can you tell me what her name is?"
+        {
+          "en": "Do you know where the bank is?",
+          "es": "¿Sabes dónde está el banco?"
+        },
+        {
+          "en": "Can you tell me what her name is?",
+          "es": "¿Me puedes decir cómo se llama ella?"
+        }
       ]
     }
   },
@@ -1439,8 +1721,14 @@
         "the museum open": "Falta la -s de tercera persona: the museum opens."
       },
       "examples": [
-        "I wonder what time the shop closes.",
-        "Do you know where she works?"
+        {
+          "en": "I wonder what time the shop closes.",
+          "es": "Me pregunto a qué hora cierra la tienda."
+        },
+        {
+          "en": "Do you know where she works?",
+          "es": "¿Sabes dónde trabaja ella?"
+        }
       ]
     }
   },
@@ -1469,8 +1757,14 @@
         "am understand": "No se puede usar \"am\" con el verbo base."
       },
       "examples": [
-        "I know the answer.",
-        "Do you believe me?"
+        {
+          "en": "I know the answer.",
+          "es": "Sé la respuesta."
+        },
+        {
+          "en": "Do you believe me?",
+          "es": "¿Me crees?"
+        }
       ]
     }
   },
@@ -1499,8 +1793,14 @@
         "is tasted": "La pasiva no tiene sentido aquí; la sopa no \"es probada\", sabe deliciosa."
       },
       "examples": [
-        "This cake smells amazing.",
-        "Your idea sounds great."
+        {
+          "en": "This cake smells amazing.",
+          "es": "Este pastel huele increíble."
+        },
+        {
+          "en": "Your idea sounds great.",
+          "es": "Tu idea suena genial."
+        }
       ]
     }
   }

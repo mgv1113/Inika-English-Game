@@ -23,8 +23,14 @@
         "get on with": "\"get on with\" es llevarse bien con alguien o seguir con una tarea; no significa tolerar una molestia."
       },
       "examples": [
-        "I can't put up with his rudeness any longer.",
-        "We had to put up with a lot of rain on holiday."
+        {
+          "en": "I can't put up with his rudeness any longer.",
+          "es": "Ya no aguanto más su mala educación."
+        },
+        {
+          "en": "We had to put up with a lot of rain on holiday.",
+          "es": "Tuvimos que aguantar mucha lluvia en las vacaciones."
+        }
       ]
     }
   },
@@ -52,8 +58,14 @@
         "come up with": "\"come up with\" es idear o proponer (come up with an idea); no tiene sentido con trabajo atrasado."
       },
       "examples": [
-        "I spent Sunday catching up on sleep.",
-        "She's catching up on emails after her holiday."
+        {
+          "en": "I spent Sunday catching up on sleep.",
+          "es": "Pasé el domingo recuperando sueño."
+        },
+        {
+          "en": "She's catching up on emails after her holiday.",
+          "es": "Se está poniendo al día con los correos después de sus vacaciones."
+        }
       ]
     }
   },
@@ -81,8 +93,14 @@
         "going down": "\"go down\" significa bajar o disminuir; además no puede llevar 'the flu' como objeto directo."
       },
       "examples": [
-        "He came down with a cold the day before his exam.",
-        "Half the class has come down with a stomach bug."
+        {
+          "en": "He came down with a cold the day before his exam.",
+          "es": "Se enfermó de gripe el día antes de su examen."
+        },
+        {
+          "en": "Half the class has come down with a stomach bug.",
+          "es": "La mitad de la clase se enfermó del estómago."
+        }
       ]
     }
   },
@@ -110,8 +128,14 @@
         "get rid of": "\"get rid of\" es deshacerse de algo; no tiene sentido 'deshacerse del ensayo' en este contexto."
       },
       "examples": [
-        "Nobody gets away with cheating in Mr Lee's class.",
-        "She broke the rules and got away with it."
+        {
+          "en": "Nobody gets away with cheating in Mr Lee's class.",
+          "es": "Nadie se sale con la suya haciendo trampa en la clase del señor Lee."
+        },
+        {
+          "en": "She broke the rules and got away with it.",
+          "es": "Rompió las reglas y se salió con la suya."
+        }
       ]
     }
   },
@@ -139,8 +163,14 @@
         "buscar a alguien": "Buscar es \"look for\". \"look down on\" no tiene nada que ver con buscar."
       },
       "examples": [
-        "Don't look down on people because of the job they do.",
-        "He felt that his neighbours looked down on him."
+        {
+          "en": "Don't look down on people because of the job they do.",
+          "es": "No menosprecies a la gente por el trabajo que hace."
+        },
+        {
+          "en": "He felt that his neighbours looked down on him.",
+          "es": "Sentía que sus vecinos lo miraban por encima del hombro."
+        }
       ]
     }
   },
@@ -168,8 +198,14 @@
         "cut in": "\"cut in\" es interrumpir a alguien o colarse con el coche; no lleva objeto como 'sugar'."
       },
       "examples": [
-        "I'm trying to cut down on coffee.",
-        "We need to cut down on plastic packaging."
+        {
+          "en": "I'm trying to cut down on coffee.",
+          "es": "Estoy tratando de tomar menos café."
+        },
+        {
+          "en": "We need to cut down on plastic packaging.",
+          "es": "Tenemos que reducir los empaques de plástico."
+        }
       ]
     }
   },
@@ -197,8 +233,14 @@
         "came into": "\"come into\" se usa para heredar dinero (came into a fortune) o entrar en un lugar, no para encontrar fotos."
       },
       "examples": [
-        "I came across an interesting article this morning.",
-        "If you come across my keys, let me know."
+        {
+          "en": "I came across an interesting article this morning.",
+          "es": "Esta mañana me encontré con un artículo interesante."
+        },
+        {
+          "en": "If you come across my keys, let me know.",
+          "es": "Si te encuentras mis llaves, avísame."
+        }
       ]
     }
   },
@@ -226,8 +268,14 @@
         "keep up with": "\"keep up with\" es seguir el ritmo de algo o alguien, no cumplir unas expectativas."
       },
       "examples": [
-        "The film really lived up to the hype.",
-        "He's trying hard to live up to his father's reputation."
+        {
+          "en": "The film really lived up to the hype.",
+          "es": "La película realmente estuvo a la altura de las expectativas."
+        },
+        {
+          "en": "He's trying hard to live up to his father's reputation.",
+          "es": "Se esfuerza mucho por estar a la altura de la reputación de su padre."
+        }
       ]
     }
   },
@@ -255,8 +303,14 @@
         "stood for": "\"stand for\" significa representar o 'ser la abreviatura de' (UN stands for United Nations) y necesita objeto."
       },
       "examples": [
-        "Her application stood out from all the others.",
-        "Use a bright colour so the title stands out."
+        {
+          "en": "Her application stood out from all the others.",
+          "es": "Su solicitud destacó entre todas las demás."
+        },
+        {
+          "en": "Use a bright colour so the title stands out.",
+          "es": "Usa un color brillante para que el título resalte."
+        }
       ]
     }
   },
@@ -285,8 +339,14 @@
         "make up": "\"make up\" significa inventar, reconciliarse o formar parte de; no encaja con contratar ni con aceptar proyectos."
       },
       "examples": [
-        "The restaurant is taking on extra waiters for the summer.",
-        "She took on too much and got stressed."
+        {
+          "en": "The restaurant is taking on extra waiters for the summer.",
+          "es": "El restaurante está contratando meseros extra para el verano."
+        },
+        {
+          "en": "She took on too much and got stressed.",
+          "es": "Asumió demasiadas cosas y se estresó."
+        }
       ]
     }
   },
@@ -315,8 +375,14 @@
         "ruled it": "Falta la partícula \"out\". \"rule\" solo significa gobernar o trazar líneas, no descartar."
       },
       "examples": [
-        "The doctor ruled out a broken bone.",
-        "We can't rule it out completely."
+        {
+          "en": "The doctor ruled out a broken bone.",
+          "es": "El médico descartó una fractura."
+        },
+        {
+          "en": "We can't rule it out completely.",
+          "es": "No podemos descartarlo por completo."
+        }
       ]
     }
   },
@@ -345,8 +411,14 @@
         "bring back": "\"bring back\" es recuperar algo del pasado o devolver algo; no encaja con 'real change'."
       },
       "examples": [
-        "The internet brought about huge changes in how we work.",
-        "What brought about this decision?"
+        {
+          "en": "The internet brought about huge changes in how we work.",
+          "es": "Internet provocó grandes cambios en nuestra forma de trabajar."
+        },
+        {
+          "en": "What brought about this decision?",
+          "es": "¿Qué motivó esta decisión?"
+        }
       ]
     }
   },
@@ -374,8 +446,14 @@
         "put down": "\"put down\" es dejar algo, apuntar algo o humillar a alguien; no significa proponer."
       },
       "examples": [
-        "Several ideas were put forward at the meeting.",
-        "She put forward a plan to save energy."
+        {
+          "en": "Several ideas were put forward at the meeting.",
+          "es": "Se propusieron varias ideas en la reunión."
+        },
+        {
+          "en": "She put forward a plan to save energy.",
+          "es": "Ella propuso un plan para ahorrar energía."
+        }
       ]
     }
   },
@@ -403,8 +481,14 @@
         "make out": "\"make out\" es distinguir o entender algo con dificultad. 'Hacer pruebas' no se traduce con make."
       },
       "examples": [
-        "The police carried out an investigation.",
-        "The survey was carried out last year."
+        {
+          "en": "The police carried out an investigation.",
+          "es": "La policía llevó a cabo una investigación."
+        },
+        {
+          "en": "The survey was carried out last year.",
+          "es": "La encuesta se realizó el año pasado."
+        }
       ]
     }
   },
@@ -432,8 +516,14 @@
         "pull up": "\"pull up\" es detener un vehículo o acercar una silla; no se usa para documentos."
       },
       "examples": [
-        "The lawyer drew up the contract.",
-        "Let's draw up a list of guests."
+        {
+          "en": "The lawyer drew up the contract.",
+          "es": "El abogado redactó el contrato."
+        },
+        {
+          "en": "Let's draw up a list of guests.",
+          "es": "Hagamos una lista de invitados."
+        }
       ]
     }
   },
@@ -461,8 +551,14 @@
         "fell out": "\"fall out\" es pelearse con alguien o caerse de dentro de algo; no tiene sentido con 'the deal'."
       },
       "examples": [
-        "Our holiday plans fell through because of the strike.",
-        "The sale fell through when the buyer lost his job."
+        {
+          "en": "Our holiday plans fell through because of the strike.",
+          "es": "Nuestros planes de vacaciones se cayeron por la huelga."
+        },
+        {
+          "en": "The sale fell through when the buyer lost his job.",
+          "es": "La venta no se concretó cuando el comprador perdió su trabajo."
+        }
       ]
     }
   },
@@ -490,8 +586,14 @@
         "get across": "\"get across\" es lograr que se entienda una idea (get your message across); no tiene sentido con una estantería."
       },
       "examples": [
-        "I finally got round to answering your email.",
-        "She never gets round to cleaning the car."
+        {
+          "en": "I finally got round to answering your email.",
+          "es": "Por fin me di tiempo para responder tu correo."
+        },
+        {
+          "en": "She never gets round to cleaning the car.",
+          "es": "Nunca encuentra el momento para lavar el auto."
+        }
       ]
     }
   },
@@ -519,8 +621,14 @@
         "held out": "\"hold out\" es extender la mano o resistir/durar; no se usa para contener las lágrimas."
       },
       "examples": [
-        "He couldn't hold back his anger.",
-        "Fear of failure is holding her back."
+        {
+          "en": "He couldn't hold back his anger.",
+          "es": "No pudo contener su enojo."
+        },
+        {
+          "en": "Fear of failure is holding her back.",
+          "es": "El miedo al fracaso la está frenando."
+        }
       ]
     }
   },
@@ -549,8 +657,14 @@
         "take off": "\"take off\" significa despegar, quitarse una prenda o triunfar; no encaja con ver ni con entender."
       },
       "examples": [
-        "Can you make out the number on that bus?",
-        "I couldn't make out his handwriting."
+        {
+          "en": "Can you make out the number on that bus?",
+          "es": "¿Alcanzas a ver el número de ese autobús?"
+        },
+        {
+          "en": "I couldn't make out his handwriting.",
+          "es": "No pude descifrar su letra."
+        }
       ]
     }
   },
@@ -579,8 +693,14 @@
         "arreglar algo": "Arreglar sería \"fix\" o \"repair\". La frase dice que nadie admitió haberla roto."
       },
       "examples": [
-        "Come on, own up — who ate my sandwich?",
-        "He owned up to the mistake and apologised."
+        {
+          "en": "Come on, own up — who ate my sandwich?",
+          "es": "Vamos, confiesen: ¿quién se comió mi sándwich?"
+        },
+        {
+          "en": "He owned up to the mistake and apologised.",
+          "es": "Admitió el error y pidió disculpas."
+        }
       ]
     }
   },
@@ -609,8 +729,14 @@
         "cut down": "\"cut down\" es talar árboles; para reducir algo se usa \"cut down on\", y aun así no indica retirada total y gradual."
       },
       "examples": [
-        "The old system will be phased out by 2030.",
-        "Many countries are phasing out coal."
+        {
+          "en": "The old system will be phased out by 2030.",
+          "es": "El sistema antiguo se eliminará gradualmente para 2030."
+        },
+        {
+          "en": "Many countries are phasing out coal.",
+          "es": "Muchos países están dejando el carbón de forma gradual."
+        }
       ]
     }
   },
@@ -639,8 +765,14 @@
         "put down": "\"put down\" es reprimir una rebelión o humillar a alguien; no significa restar importancia."
       },
       "examples": [
-        "The company played down the risks.",
-        "She always plays down her achievements."
+        {
+          "en": "The company played down the risks.",
+          "es": "La empresa le restó importancia a los riesgos."
+        },
+        {
+          "en": "She always plays down her achievements.",
+          "es": "Ella siempre le resta importancia a sus logros."
+        }
       ]
     }
   },
@@ -669,8 +801,14 @@
         "sum on it": "La partícula correcta es \"up\", no \"on\"; \"sum on\" no existe en inglés."
       },
       "examples": [
-        "To sum up, the project was a success.",
-        "It's hard to sum it up in a few words."
+        {
+          "en": "To sum up, the project was a success.",
+          "es": "En resumen, el proyecto fue un éxito."
+        },
+        {
+          "en": "It's hard to sum it up in a few words.",
+          "es": "Es difícil resumirlo en pocas palabras."
+        }
       ]
     }
   },
@@ -698,8 +836,14 @@
         "wear down": "\"wear down\" es desgastar poco a poco o agotar la resistencia de alguien; no encaja con un analgésico."
       },
       "examples": [
-        "The excitement soon wore off.",
-        "Wait until the anaesthetic wears off before you eat."
+        {
+          "en": "The excitement soon wore off.",
+          "es": "La emoción pronto se desvaneció."
+        },
+        {
+          "en": "Wait until the anaesthetic wears off before you eat.",
+          "es": "Espera a que se te pase el efecto de la anestesia antes de comer."
+        }
       ]
     }
   },
@@ -727,8 +871,14 @@
         "calls up": "\"call up\" es llamar por teléfono o convocar a alguien; no tiene sentido con 'a response'."
       },
       "examples": [
-        "This news calls for a celebration!",
-        "Protesters are calling for lower prices."
+        {
+          "en": "This news calls for a celebration!",
+          "es": "¡Esta noticia hay que celebrarla!"
+        },
+        {
+          "en": "Protesters are calling for lower prices.",
+          "es": "Los manifestantes exigen precios más bajos."
+        }
       ]
     }
   },
@@ -756,8 +906,14 @@
         "fall back": "\"fall back\" es retroceder (un ejército) o recurrir a algo (fall back on); no es ceder en una discusión."
       },
       "examples": [
-        "Neither side is willing to back down.",
-        "He backed down when he saw the evidence."
+        {
+          "en": "Neither side is willing to back down.",
+          "es": "Ninguna de las partes está dispuesta a ceder."
+        },
+        {
+          "en": "He backed down when he saw the evidence.",
+          "es": "Se echó para atrás cuando vio las pruebas."
+        }
       ]
     }
   },
@@ -786,8 +942,14 @@
         "came round": "\"come round\" es visitar a alguien, recuperar el conocimiento o cambiar de opinión; no lleva 'problems' como objeto."
       },
       "examples": [
-        "The plan came up against strong opposition.",
-        "Every new business comes up against difficulties."
+        {
+          "en": "The plan came up against strong opposition.",
+          "es": "El plan se topó con una fuerte oposición."
+        },
+        {
+          "en": "Every new business comes up against difficulties.",
+          "es": "Todo negocio nuevo se enfrenta a dificultades."
+        }
       ]
     }
   },
@@ -815,8 +977,14 @@
         "get without": "No existe en inglés. Se dice \"do without\" o \"go without\"."
       },
       "examples": [
-        "I can't do without my phone.",
-        "If there's no sugar, we'll just have to do without."
+        {
+          "en": "I can't do without my phone.",
+          "es": "No puedo vivir sin mi celular."
+        },
+        {
+          "en": "If there's no sugar, we'll just have to do without.",
+          "es": "Si no hay azúcar, tendremos que arreglárnoslas sin ella."
+        }
       ]
     }
   },
@@ -844,8 +1012,14 @@
         "fell off": "\"fall off\" es caerse de algo (fall off a bike); no tiene sentido con 'his best friend'."
       },
       "examples": [
-        "She's fallen out with her flatmate again.",
-        "They fell out over who should pay."
+        {
+          "en": "She's fallen out with her flatmate again.",
+          "es": "Se volvió a pelear con su compañera de departamento."
+        },
+        {
+          "en": "They fell out over who should pay.",
+          "es": "Se pelearon por quién debía pagar."
+        }
       ]
     }
   },
@@ -874,8 +1048,14 @@
         "empeorar la situación": "No: la imagen es 'alisar las arrugas', es decir, dejar todo en orden antes del lanzamiento."
       },
       "examples": [
-        "We ironed out the last details of the contract.",
-        "There are a few bugs to iron out in the app."
+        {
+          "en": "We ironed out the last details of the contract.",
+          "es": "Resolvimos los últimos detalles del contrato."
+        },
+        {
+          "en": "There are a few bugs to iron out in the app.",
+          "es": "Hay algunos errores que corregir en la app."
+        }
       ]
     }
   },
@@ -903,8 +1083,14 @@
         "sets off": "\"set off\" es salir de viaje o hacer que algo suene (set off an alarm); un partido no sale de viaje."
       },
       "examples": [
-        "Let's kick off the meeting with some good news.",
-        "The festival kicks off on Friday."
+        {
+          "en": "Let's kick off the meeting with some good news.",
+          "es": "Empecemos la reunión con buenas noticias."
+        },
+        {
+          "en": "The festival kicks off on Friday.",
+          "es": "El festival arranca el viernes."
+        }
       ]
     }
   },
@@ -932,8 +1118,14 @@
         "choose out of": "No existe en inglés con este sentido. Para 'darse de baja de algo' se dice \"opt out of\"."
       },
       "examples": [
-        "You can opt out of the newsletter at any time.",
-        "Most parents opted out of the school trip."
+        {
+          "en": "You can opt out of the newsletter at any time.",
+          "es": "Puedes darte de baja del boletín en cualquier momento."
+        },
+        {
+          "en": "Most parents opted out of the school trip.",
+          "es": "La mayoría de los padres decidió no participar en la excursión escolar."
+        }
       ]
     }
   },
@@ -961,8 +1153,14 @@
         "step on": "\"step on\" es pisar algo; no tiene sentido aquí."
       },
       "examples": [
-        "The president stepped down after the scandal.",
-        "She will step down as captain at the end of the season."
+        {
+          "en": "The president stepped down after the scandal.",
+          "es": "El presidente renunció después del escándalo."
+        },
+        {
+          "en": "She will step down as captain at the end of the season.",
+          "es": "Dejará de ser capitana al final de la temporada."
+        }
       ]
     }
   },
@@ -991,8 +1189,14 @@
         "talked it into me": "El orden está al revés: se convence a la persona (me), y la actividad va después de into (into it)."
       },
       "examples": [
-        "He talked me into buying a new laptop.",
-        "Don't let them talk you into it."
+        {
+          "en": "He talked me into buying a new laptop.",
+          "es": "Me convenció de comprar una laptop nueva."
+        },
+        {
+          "en": "Don't let them talk you into it.",
+          "es": "No dejes que te convenzan."
+        }
       ]
     }
   },
@@ -1020,8 +1224,14 @@
         "turned in": "\"turn in\" es entregar algo o irse a dormir; en español decimos 'convertirse en', pero en inglés la preposición es \"into\", no \"in\"."
       },
       "examples": [
-        "The caterpillar turned into a butterfly.",
-        "Our small argument turned into a big fight."
+        {
+          "en": "The caterpillar turned into a butterfly.",
+          "es": "La oruga se convirtió en mariposa."
+        },
+        {
+          "en": "Our small argument turned into a big fight.",
+          "es": "Nuestra pequeña discusión se convirtió en una gran pelea."
+        }
       ]
     }
   },
@@ -1049,8 +1259,14 @@
         "un tema divertido para romper el hielo": "Es casi lo contrario: es un tema incómodo que crea tensión, no que la elimina."
       },
       "examples": [
-        "Let's talk about the elephant in the room: the budget.",
-        "Her ex at the party was the elephant in the room."
+        {
+          "en": "Let's talk about the elephant in the room: the budget.",
+          "es": "Hablemos del tema que todos evitan: el presupuesto."
+        },
+        {
+          "en": "Her ex at the party was the elephant in the room.",
+          "es": "Su ex en la fiesta era el tema incómodo que nadie mencionaba."
+        }
       ]
     }
   },
@@ -1078,8 +1294,14 @@
         "hitting the hay": "\"hit the hay\" es irse a dormir; es justo lo contrario de quedarse estudiando hasta tarde."
       },
       "examples": [
-        "I burned the midnight oil to finish the report.",
-        "Students often burn the midnight oil before exams."
+        {
+          "en": "I burned the midnight oil to finish the report.",
+          "es": "Me desvelé trabajando para terminar el informe."
+        },
+        {
+          "en": "Students often burn the midnight oil before exams.",
+          "es": "Los estudiantes suelen quemarse las pestañas antes de los exámenes."
+        }
       ]
     }
   },
@@ -1107,8 +1329,14 @@
         "a long shot": "\"a long shot\" es algo con pocas probabilidades de éxito; no tiene sentido con una discusión."
       },
       "examples": [
-        "Don't worry, it's a storm in a teacup.",
-        "The media turned a storm in a teacup into a scandal."
+        {
+          "en": "Don't worry, it's a storm in a teacup.",
+          "es": "Tranquilo, es una tormenta en un vaso de agua."
+        },
+        {
+          "en": "The media turned a storm in a teacup into a scandal.",
+          "es": "Los medios convirtieron una tormenta en un vaso de agua en un escándalo."
+        }
       ]
     }
   },
@@ -1136,8 +1364,14 @@
         "break the ice": "\"break the ice\" es romper el hielo, aliviar la tensión inicial; aquí la persona va directa al problema."
       },
       "examples": [
-        "I'll cut to the chase: you didn't get the job.",
-        "Can we cut to the chase? What do you want?"
+        {
+          "en": "I'll cut to the chase: you didn't get the job.",
+          "es": "Voy al grano: no te quedaste con el puesto."
+        },
+        {
+          "en": "Can we cut to the chase? What do you want?",
+          "es": "¿Podemos ir al grano? ¿Qué quieres?"
+        }
       ]
     }
   },
@@ -1165,8 +1399,14 @@
         "organizaron un desfile": "Es una lectura demasiado literal del carro de la banda. El sentido es figurado: seguir una moda."
       },
       "examples": [
-        "Lots of brands jumped on the bandwagon after the trend went viral.",
-        "He's not a real fan; he just jumped on the bandwagon."
+        {
+          "en": "Lots of brands jumped on the bandwagon after the trend went viral.",
+          "es": "Muchas marcas se subieron al tren cuando la tendencia se hizo viral."
+        },
+        {
+          "en": "He's not a real fan; he just jumped on the bandwagon.",
+          "es": "No es un fan de verdad; solo se subió a la moda."
+        }
       ]
     }
   },
@@ -1194,8 +1434,14 @@
         "rocked the boat": "\"rock the boat\" es causar problemas en una situación estable; no tiene que ver con llegar tarde."
       },
       "examples": [
-        "Buy now or you'll miss the boat.",
-        "I wanted to invest, but I missed the boat."
+        {
+          "en": "Buy now or you'll miss the boat.",
+          "es": "Compra ahora o se te va a ir el tren."
+        },
+        {
+          "en": "I wanted to invest, but I missed the boat.",
+          "es": "Quería invertir, pero se me pasó la oportunidad."
+        }
       ]
     }
   },
@@ -1223,8 +1469,14 @@
         "the elephant in the room": "\"the elephant in the room\" es un tema evidente que nadie menciona; aquí se dice que lo visible es solo una pequeña parte."
       },
       "examples": [
-        "These cases are just the tip of the iceberg.",
-        "The broken window was the tip of the iceberg; the whole house needed repairs."
+        {
+          "en": "These cases are just the tip of the iceberg.",
+          "es": "Estos casos son solo la punta del iceberg."
+        },
+        {
+          "en": "The broken window was the tip of the iceberg; the whole house needed repairs.",
+          "es": "La ventana rota era solo la punta del iceberg; toda la casa necesitaba reparaciones."
+        }
       ]
     }
   },
@@ -1252,8 +1504,14 @@
         "keep the ball": "No es una expresión idiomática. Para empezar una actividad se dice \"get the ball rolling\"."
       },
       "examples": [
-        "Let's get the ball rolling with a quick survey.",
-        "She got the ball rolling by donating the first 100 euros."
+        {
+          "en": "Let's get the ball rolling with a quick survey.",
+          "es": "Pongamos manos a la obra con una encuesta rápida."
+        },
+        {
+          "en": "She got the ball rolling by donating the first 100 euros.",
+          "es": "Ella dio el primer paso donando los primeros 100 euros."
+        }
       ]
     }
   },
@@ -1281,8 +1539,14 @@
         "turn the page": "\"turn the page\" es pasar página, dejar algo atrás; no significa entender lo que no se dice."
       },
       "examples": [
-        "Reading between the lines, I think he wants to quit.",
-        "You have to read between the lines with his messages."
+        {
+          "en": "Reading between the lines, I think he wants to quit.",
+          "es": "Leyendo entre líneas, creo que quiere renunciar."
+        },
+        {
+          "en": "You have to read between the lines with his messages.",
+          "es": "Con sus mensajes hay que leer entre líneas."
+        }
       ]
     }
   },
@@ -1310,8 +1574,14 @@
         "lo celebró": "No tiene sentido después de suspender cinco veces; el idiom expresa rendición."
       },
       "examples": [
-        "Don't throw in the towel now — you're so close!",
-        "The company threw in the towel and closed the shop."
+        {
+          "en": "Don't throw in the towel now — you're so close!",
+          "es": "¡No tires la toalla ahora, ya casi lo logras!"
+        },
+        {
+          "en": "The company threw in the towel and closed the shop.",
+          "es": "La empresa tiró la toalla y cerró la tienda."
+        }
       ]
     }
   },
@@ -1339,8 +1609,14 @@
         "by hook or by crook": "\"by hook or by crook\" es 'como sea, por las buenas o por las malas'; no expresa fidelidad en lo bueno y lo malo."
       },
       "examples": [
-        "She stood by me through thick and thin.",
-        "True friends stay with you through thick and thin."
+        {
+          "en": "She stood by me through thick and thin.",
+          "es": "Estuvo a mi lado en las buenas y en las malas."
+        },
+        {
+          "en": "True friends stay with you through thick and thin.",
+          "es": "Los amigos de verdad están contigo en las buenas y en las malas."
+        }
       ]
     }
   },
@@ -1369,8 +1645,14 @@
         "cold fish": "\"a cold fish\" es una persona fría y distante; no explica la sorpresa de que gane."
       },
       "examples": [
-        "He's a dark horse — I had no idea he could sing.",
-        "The new candidate could be the dark horse in this election."
+        {
+          "en": "He's a dark horse — I had no idea he could sing.",
+          "es": "Es una caja de sorpresas: no tenía idea de que sabía cantar."
+        },
+        {
+          "en": "The new candidate could be the dark horse in this election.",
+          "es": "El nuevo candidato podría ser la gran sorpresa de esta elección."
+        }
       ]
     }
   },
@@ -1399,8 +1681,14 @@
         "no le importa en absoluto": "Si tiene 'a chip on his shoulder', sí le importa: es un tema que le molesta mucho."
       },
       "examples": [
-        "She's got a chip on her shoulder about her accent.",
-        "Stop acting like you've got a chip on your shoulder."
+        {
+          "en": "She's got a chip on her shoulder about her accent.",
+          "es": "Tiene un complejo con su acento."
+        },
+        {
+          "en": "Stop acting like you've got a chip on your shoulder.",
+          "es": "Deja de actuar como si estuvieras resentido con el mundo."
+        }
       ]
     }
   },
@@ -1429,8 +1717,14 @@
         "on their toes": "\"keep someone on their toes\" es mantenerlos alerta; no explica que no hable de su vida privada."
       },
       "examples": [
-        "He keeps journalists at arm's length.",
-        "I tried to be friendly, but she kept me at arm's length."
+        {
+          "en": "He keeps journalists at arm's length.",
+          "es": "Mantiene a los periodistas a distancia."
+        },
+        {
+          "en": "I tried to be friendly, but she kept me at arm's length.",
+          "es": "Intenté ser amable, pero ella me mantuvo a distancia."
+        }
       ]
     }
   },
@@ -1458,8 +1752,14 @@
         "bite the bullet": "\"bite the bullet\" es afrontar algo desagradable con valor; aquí se aconseja justo evitarlo."
       },
       "examples": [
-        "They stopped arguing years ago — let sleeping dogs lie.",
-        "I decided to let sleeping dogs lie and say nothing."
+        {
+          "en": "They stopped arguing years ago — let sleeping dogs lie.",
+          "es": "Dejaron de discutir hace años; mejor no revolver el asunto."
+        },
+        {
+          "en": "I decided to let sleeping dogs lie and say nothing.",
+          "es": "Decidí no remover el pasado y no decir nada."
+        }
       ]
     }
   },
@@ -1487,8 +1787,14 @@
         "on the fence": "\"on the fence\" es estar indeciso; no expresa estar en una situación de riesgo."
       },
       "examples": [
-        "After that comment, he's on thin ice.",
-        "You're skating on thin ice with your teacher."
+        {
+          "en": "After that comment, he's on thin ice.",
+          "es": "Después de ese comentario, está en la cuerda floja."
+        },
+        {
+          "en": "You're skating on thin ice with your teacher.",
+          "es": "Estás en la cuerda floja con tu profesor."
+        }
       ]
     }
   },
@@ -1517,8 +1823,14 @@
         "pulled my leg": "\"pull someone's leg\" es tomar el pelo; aquí el hermano no bromeaba, se llevó la atención."
       },
       "examples": [
-        "She stole my thunder by presenting my idea first.",
-        "I don't want to steal your thunder, but I've got news too."
+        {
+          "en": "She stole my thunder by presenting my idea first.",
+          "es": "Me robó el protagonismo al presentar mi idea primero."
+        },
+        {
+          "en": "I don't want to steal your thunder, but I've got news too.",
+          "es": "No quiero robarte el protagonismo, pero yo también tengo noticias."
+        }
       ]
     }
   },
@@ -1546,8 +1858,14 @@
         "leerlas con sentido del humor": "La sal aquí no se refiere a la gracia (como 'salero' en español), sino al escepticismo."
       },
       "examples": [
-        "Take his stories with a pinch of salt.",
-        "I take weather forecasts with a pinch of salt."
+        {
+          "en": "Take his stories with a pinch of salt.",
+          "es": "No te creas del todo sus historias."
+        },
+        {
+          "en": "I take weather forecasts with a pinch of salt.",
+          "es": "No me fío mucho de los pronósticos del clima."
+        }
       ]
     }
   },
@@ -1575,8 +1893,14 @@
         "on air": "\"on air\" significa 'en antena' (radio o televisión); no expresa incertidumbre."
       },
       "examples": [
-        "The date of the wedding is still up in the air.",
-        "Everything is up in the air until we hear from the bank."
+        {
+          "en": "The date of the wedding is still up in the air.",
+          "es": "La fecha de la boda todavía está en el aire."
+        },
+        {
+          "en": "Everything is up in the air until we hear from the bank.",
+          "es": "Todo está en el aire hasta que sepamos algo del banco."
+        }
       ]
     }
   },
@@ -1604,8 +1928,14 @@
         "back to square zero": "El número fijo de la expresión es \"one\", no \"zero\". En español decimos 'volver a la casilla de salida', pero en inglés es square one."
       },
       "examples": [
-        "The test failed, so it's back to square one.",
-        "After the argument, we were back to square one."
+        {
+          "en": "The test failed, so it's back to square one.",
+          "es": "La prueba falló, así que volvemos a empezar de cero."
+        },
+        {
+          "en": "After the argument, we were back to square one.",
+          "es": "Después de la discusión, volvimos al punto de partida."
+        }
       ]
     }
   },
@@ -1633,8 +1963,14 @@
         "flogging a dead horse": "\"flog a dead horse\" es insistir en algo inútil; no es equivocarse de persona."
       },
       "examples": [
-        "The police were barking up the wrong tree.",
-        "If you want money, you're barking up the wrong tree."
+        {
+          "en": "The police were barking up the wrong tree.",
+          "es": "La policía estaba buscando en el lugar equivocado."
+        },
+        {
+          "en": "If you want money, you're barking up the wrong tree.",
+          "es": "Si quieres dinero, te equivocaste de persona."
+        }
       ]
     }
   },
@@ -1662,8 +1998,14 @@
         "Cut corners": "\"cut corners\" es hacer las cosas mal para ahorrar tiempo; no se dirige a una persona."
       },
       "examples": [
-        "Cut me some slack — I've had a terrible day.",
-        "The teacher cut him some slack because he was ill."
+        {
+          "en": "Cut me some slack — I've had a terrible day.",
+          "es": "Ten un poco de paciencia conmigo; tuve un día terrible."
+        },
+        {
+          "en": "The teacher cut him some slack because he was ill.",
+          "es": "El profesor fue más indulgente con él porque estaba enfermo."
+        }
       ]
     }
   },
@@ -1691,8 +2033,14 @@
         "alguien que corra muy rápido": "Correr es la imagen, pero el sentido es empezar a trabajar bien inmediatamente."
       },
       "examples": [
-        "The new manager hit the ground running.",
-        "We want the team to hit the ground running in January."
+        {
+          "en": "The new manager hit the ground running.",
+          "es": "El nuevo gerente arrancó a toda máquina desde el primer día."
+        },
+        {
+          "en": "We want the team to hit the ground running in January.",
+          "es": "Queremos que el equipo arranque con todo en enero."
+        }
       ]
     }
   },
@@ -1720,8 +2068,14 @@
         "show me the ropes": "\"show someone the ropes\" lo hace la persona que enseña; 'it took me a few weeks to show me' no tiene sentido."
       },
       "examples": [
-        "Ana will show you the ropes on your first day.",
-        "New staff need time to learn the ropes."
+        {
+          "en": "Ana will show you the ropes on your first day.",
+          "es": "Ana te va a enseñar cómo funciona todo en tu primer día."
+        },
+        {
+          "en": "New staff need time to learn the ropes.",
+          "es": "El personal nuevo necesita tiempo para aprender cómo funcionan las cosas."
+        }
       ]
     }
   },
@@ -1749,8 +2103,14 @@
         "make it up": "\"make it up\" es inventárselo o compensar algo; no significa tener dinero suficiente."
       },
       "examples": [
-        "Many families struggle to make ends meet.",
-        "She works at weekends to make ends meet."
+        {
+          "en": "Many families struggle to make ends meet.",
+          "es": "Muchas familias luchan para llegar a fin de mes."
+        },
+        {
+          "en": "She works at weekends to make ends meet.",
+          "es": "Trabaja los fines de semana para llegar a fin de mes."
+        }
       ]
     }
   },
@@ -1778,8 +2138,14 @@
         "a close call": "\"a close call\" es algo que casi sale mal (te salvaste por poco); no encaja aquí."
       },
       "examples": [
-        "It's a long shot, but maybe she still has the receipt.",
-        "Winning the league is a long shot this year."
+        {
+          "en": "It's a long shot, but maybe she still has the receipt.",
+          "es": "Es poco probable, pero quizá todavía tenga el recibo."
+        },
+        {
+          "en": "Winning the league is a long shot this year.",
+          "es": "Ganar la liga es poco probable este año."
+        }
       ]
     }
   },
@@ -1807,8 +2173,14 @@
         "pulled out": "\"pull out\" es retirarse de algo; no significa conseguir algo gracias a influencias."
       },
       "examples": [
-        "She pulled a few strings to get her son an interview.",
-        "I can't pull strings for you this time."
+        {
+          "en": "She pulled a few strings to get her son an interview.",
+          "es": "Movió algunas influencias para conseguirle una entrevista a su hijo."
+        },
+        {
+          "en": "I can't pull strings for you this time.",
+          "es": "Esta vez no puedo usar mis contactos para ayudarte."
+        }
       ]
     }
   },
@@ -1836,8 +2208,14 @@
         "que no cambie de trabajo": "El hablante no habla de trabajos, sino de no alterar un acuerdo que contenta a todos."
       },
       "examples": [
-        "He didn't want to rock the boat, so he kept quiet.",
-        "Don't rock the boat before the contract is signed."
+        {
+          "en": "He didn't want to rock the boat, so he kept quiet.",
+          "es": "No quería causar problemas, así que se quedó callado."
+        },
+        {
+          "en": "Don't rock the boat before the contract is signed.",
+          "es": "No causes problemas antes de que se firme el contrato."
+        }
       ]
     }
   },
@@ -1865,8 +2243,14 @@
         "behind the times": "\"behind the times\" es estar anticuado; no tiene que ver con la puntualidad."
       },
       "examples": [
-        "The ambulance arrived in the nick of time.",
-        "She finished the essay in the nick of time."
+        {
+          "en": "The ambulance arrived in the nick of time.",
+          "es": "La ambulancia llegó justo a tiempo."
+        },
+        {
+          "en": "She finished the essay in the nick of time.",
+          "es": "Terminó el ensayo justo a tiempo."
+        }
       ]
     }
   },
@@ -1894,8 +2278,14 @@
         "out of this world": "\"out of this world\" significa 'buenísimo, increíble' y no va después de 'gives me'."
       },
       "examples": [
-        "Living near the city but in the countryside is the best of both worlds.",
-        "A hybrid car gives you the best of both worlds."
+        {
+          "en": "Living near the city but in the countryside is the best of both worlds.",
+          "es": "Vivir cerca de la ciudad pero en el campo es lo mejor de ambos mundos."
+        },
+        {
+          "en": "A hybrid car gives you the best of both worlds.",
+          "es": "Un auto híbrido te da lo mejor de ambos mundos."
+        }
       ]
     }
   },
@@ -1923,8 +2313,14 @@
         "by chance": "\"by chance\" es por casualidad; contradice la idea de seguir siempre las reglas."
       },
       "examples": [
-        "The police did everything by the book.",
-        "He plays it by the book at work."
+        {
+          "en": "The police did everything by the book.",
+          "es": "La policía hizo todo según las reglas."
+        },
+        {
+          "en": "He plays it by the book at work.",
+          "es": "En el trabajo sigue las reglas al pie de la letra."
+        }
       ]
     }
   },
@@ -1952,8 +2348,14 @@
         "la abuela cuenta los mejores chistes": "No tiene relación con el humor; habla de autoridad en la familia."
       },
       "examples": [
-        "Who calls the shots in this office?",
-        "When you start your own business, you call the shots."
+        {
+          "en": "Who calls the shots in this office?",
+          "es": "¿Quién manda en esta oficina?"
+        },
+        {
+          "en": "When you start your own business, you call the shots.",
+          "es": "Cuando empiezas tu propio negocio, tú tomas las decisiones."
+        }
       ]
     }
   },
@@ -1982,8 +2384,14 @@
         "fill the bill": "\"fill/fit the bill\" significa ser adecuado para algo; no significa pagar."
       },
       "examples": [
-        "Taxpayers will foot the bill for the new stadium.",
-        "My parents footed the bill for the wedding."
+        {
+          "en": "Taxpayers will foot the bill for the new stadium.",
+          "es": "Los contribuyentes pagarán la cuenta del nuevo estadio."
+        },
+        {
+          "en": "My parents footed the bill for the wedding.",
+          "es": "Mis padres pagaron los gastos de la boda."
+        }
       ]
     }
   },
@@ -2012,8 +2420,14 @@
         "a smoking gun": "\"a smoking gun\" es una prueba clara de culpabilidad; es lo contrario de una pista que no tiene nada que ver."
       },
       "examples": [
-        "The question about cost was a red herring.",
-        "The writer uses red herrings to confuse the reader."
+        {
+          "en": "The question about cost was a red herring.",
+          "es": "La pregunta sobre el costo era una pista falsa."
+        },
+        {
+          "en": "The writer uses red herrings to confuse the reader.",
+          "es": "El escritor usa pistas falsas para confundir al lector."
+        }
       ]
     }
   },
@@ -2041,8 +2455,14 @@
         "the word of the mouth": "La expresión fija no lleva artículos: \"word of mouth\"."
       },
       "examples": [
-        "The shop grew thanks to word of mouth.",
-        "Most of our customers find us through word of mouth."
+        {
+          "en": "The shop grew thanks to word of mouth.",
+          "es": "La tienda creció gracias al boca a boca."
+        },
+        {
+          "en": "Most of our customers find us through word of mouth.",
+          "es": "La mayoría de nuestros clientes nos encuentran por recomendación de boca en boca."
+        }
       ]
     }
   }
