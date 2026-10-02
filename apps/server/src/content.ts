@@ -9,6 +9,7 @@ export const LEVEL_GROUPS = {
   basico: ["A1", "A2"],
   intermedio: ["B1", "B2"],
   avanzado: ["C1", "C2"],
+  todos: LEVELS,
 } as const satisfies Record<string, readonly (typeof LEVELS)[number][]>;
 
 export type LevelGroup = keyof typeof LEVEL_GROUPS;

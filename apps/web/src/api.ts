@@ -15,12 +15,13 @@ export interface AnswerResult {
   examples: string[];
 }
 
-export type LevelGroup = "basico" | "intermedio" | "avanzado";
+export type LevelGroup = "basico" | "intermedio" | "avanzado" | "todos";
 
 export const LEVEL_GROUPS: { id: LevelGroup; name: string; levels: string }[] = [
   { id: "basico", name: "Básico", levels: "A1 – A2" },
   { id: "intermedio", name: "Intermedio", levels: "B1 – B2" },
   { id: "avanzado", name: "Avanzado", levels: "C1 – C2" },
+  { id: "todos", name: "Todos los niveles", levels: "A1 – C2, mezclados" },
 ];
 
 /** Número de preguntas de cada grupo de niveles. */
