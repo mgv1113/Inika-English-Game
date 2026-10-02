@@ -47,6 +47,6 @@ Las preguntas están en `content/questions/*.json`. Cada archivo es una lista de
 
 ## Organización del banco
 
-Un archivo por nivel y bloque: `<nivel>-gramatica.json`, `<nivel>-vocabulario.json` y `<nivel>-phrasal-idioms.json` (A1, A2, B1 y B2). El primer tag de cada pregunta es su tipo (`grammar`, `vocabulary`, `phrasal-verb` o `idiom`).
+Un archivo por nivel y bloque: `<nivel>-gramatica.json`, `<nivel>-vocabulario.json` y `<nivel>-phrasal-idioms.json` (A1, A2, B1, B2, C1 y C2). El primer tag de cada pregunta es su tipo (`grammar`, `vocabulary`, `phrasal-verb` o `idiom`).
 
 El juego no tiene un nivel "B2+": las preguntas de B2 alto (frontera con C1) llevan `"level": "B2"` y el tag extra `b2-plus`.

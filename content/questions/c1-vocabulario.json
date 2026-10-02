@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "vocab-c1-collocations-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "Rising sea levels ___ a serious threat to coastal cities such as Venice.",
+    "options": [
+      "make",
+      "pose",
+      "give",
+      "do"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "La colocación fija es 'pose a threat' (suponer/representar una amenaza).",
+      "wrong": {
+        "make": "'make a threat' significa amenazar verbalmente a alguien (he made threats against his boss); el mar no 'amenaza' así, supone un peligro.",
+        "give": "'give a threat' no es una colocación en inglés.",
+        "do": "'do a threat' no existe; en inglés 'threat' no va con 'do'."
+      },
+      "examples": [
+        "Air pollution poses a risk to public health.",
+        "The new virus poses no threat to humans."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-collocations-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations",
+      "work"
+    ],
+    "prompt": "The team worked all weekend to ___ the deadline for the grant application.",
+    "options": [
+      "reach",
+      "fulfil",
+      "meet",
+      "arrive"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con 'deadline' se dice 'meet a deadline' (cumplir un plazo); lo contrario es 'miss a deadline'.",
+      "wrong": {
+        "reach": "'reach' se usa con 'an agreement' o 'a goal', no con 'deadline'.",
+        "fulfil": "'fulfil' va con 'a requirement', 'a promise' o 'a dream', no con 'deadline'.",
+        "arrive": "'arrive' es intransitivo: no puede llevar objeto directo ('arrive the deadline' es incorrecto)."
+      },
+      "examples": [
+        "If we don't meet the deadline, we'll lose the contract.",
+        "She has never missed a deadline."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-collocations-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations",
+      "formal"
+    ],
+    "prompt": "As head of department, you ___ full responsibility for the safety of your staff.",
+    "options": [
+      "bear",
+      "support",
+      "wear",
+      "suffer"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Bear responsibility' (cargar con / asumir la responsabilidad) es una colocación formal habitual.",
+      "wrong": {
+        "support": "Calco de 'soportar'; 'support' significa apoyar, no cargar con una responsabilidad.",
+        "wear": "'wear' es llevar puesto (ropa, gafas); no se usa con 'responsibility'.",
+        "suffer": "'suffer' es sufrir (un dolor, una pérdida); no se 'sufre' una responsabilidad en inglés."
+      },
+      "examples": [
+        "Parents bear responsibility for their children's education.",
+        "Nobody wanted to bear the blame for the mistake."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-collocations-004",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations",
+      "academic"
+    ],
+    "prompt": "From the results of the survey, we can ___ the conclusion that most customers prefer shopping online.",
+    "options": [
+      "take",
+      "extract",
+      "pull",
+      "draw"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En inglés se dice 'draw a conclusion' (sacar una conclusión).",
+      "wrong": {
+        "take": "Calco de 'sacar/tomar una conclusión'; 'take a conclusion' no es natural en inglés.",
+        "extract": "Calco de 'extraer'; 'extract' se usa con datos o información, no con 'conclusion'.",
+        "pull": "'pull' es tirar de algo físicamente; no forma colocación con 'conclusion'."
+      },
+      "examples": [
+        "It's too early to draw any conclusions.",
+        "What conclusions can we draw from these figures?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-collocations-005",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "After six hours of discussion, the committee finally ___ a consensus on the new budget.",
+    "options": [
+      "arrived",
+      "hit",
+      "reached",
+      "touched"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con 'consensus' (y 'agreement') se usa 'reach': reach a consensus (llegar a un consenso).",
+      "wrong": {
+        "arrived": "'arrive' necesita la preposición 'at' (arrive at a consensus); sin 'at' es incorrecto.",
+        "hit": "'hit' se usa con 'a target' o 'a record', no con 'consensus'.",
+        "touched": "'touch' es tocar físicamente; no forma colocación con 'consensus'."
+      },
+      "examples": [
+        "The two parties failed to reach a consensus.",
+        "We reached an agreement after long negotiations."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-collocations-006",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations",
+      "business"
+    ],
+    "prompt": "Which expression means 'un aumento brusco' in English?",
+    "options": [
+      "a sharp increase",
+      "a hard increase",
+      "a tall increase",
+      "an acute increase"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'A sharp increase/rise/fall' describe un cambio brusco y repentino.",
+      "wrong": {
+        "a hard increase": "'hard' no se combina con 'increase'; sería un calco de 'duro'.",
+        "a tall increase": "'tall' describe altura de personas, árboles o edificios, no cifras.",
+        "an acute increase": "'acute' va con 'shortage', 'pain' o 'problem', no con 'increase'."
+      },
+      "examples": [
+        "There has been a sharp increase in house prices.",
+        "Sales fell sharply in March."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-collocations-007",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "The new evidence ___ serious doubt on the official version of events.",
+    "options": [
+      "casts",
+      "puts",
+      "launches",
+      "drops"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Cast doubt on something' significa poner en duda algo.",
+      "wrong": {
+        "puts": "Calco de 'poner en duda'; 'put doubt on' no es la colocación inglesa.",
+        "launches": "Calco de 'lanzar dudas'; 'launch' se usa con campañas o productos.",
+        "drops": "'drop' es dejar caer; no forma colocación con 'doubt'."
+      },
+      "examples": [
+        "The report casts doubt on the minister's claims.",
+        "Recent studies have cast doubt on this theory."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-collocations-008",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "collocations",
+    "tags": [
+      "vocabulary",
+      "collocations",
+      "academic"
+    ],
+    "prompt": "Her research has ___ a major contribution to our understanding of the disease.",
+    "options": [
+      "done",
+      "brought",
+      "made",
+      "given"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Se dice 'make a contribution (to something)': hacer una aportación.",
+      "wrong": {
+        "done": "'do' no se combina con 'contribution'; con 'contribution' el verbo es 'make'.",
+        "brought": "Calco de 'aportar'; 'bring a contribution' no es natural en inglés.",
+        "given": "'give a contribution' se usa a veces para donaciones de dinero, pero no para aportaciones a la ciencia."
+      },
+      "examples": [
+        "Each member of the team made a valuable contribution.",
+        "Immigrants have made a huge contribution to the economy."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-nuanced-synonyms-001",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "nuanced-synonyms",
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "formal"
+    ],
+    "prompt": "Which verb specifically means 'to say that someone has done something wrong or illegal, without giving proof'?",
+    "options": [
+      "claim",
+      "allege",
+      "assert",
+      "state"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Allege' = afirmar que alguien ha hecho algo malo o ilegal sin haberlo probado (de ahí 'alleged', presunto).",
+      "wrong": {
+        "claim": "'claim' es afirmar algo que puede no ser cierto, pero no implica necesariamente acusar de algo ilegal.",
+        "assert": "'assert' es afirmar con firmeza y seguridad, sin idea de acusación.",
+        "state": "'state' es declarar algo de forma clara y oficial; es neutro, no acusa a nadie."
+      },
+      "examples": [
+        "She alleged that her manager had stolen the money.",
+        "The alleged thief was arrested this morning."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-nuanced-synonyms-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "nuanced-synonyms",
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "false-friends"
+    ],
+    "prompt": "What does 'assert' mean in: 'She asserted her right to speak at the meeting'?",
+    "options": [
+      "hacer valer, reivindicar",
+      "acertar",
+      "fingir",
+      "aceptar"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Assert' significa afirmar con firmeza o hacer valer (un derecho, la autoridad).",
+      "wrong": {
+        "acertar": "Falso amigo por el parecido de sonido; 'acertar' es 'get it right' o 'guess correctly'.",
+        "fingir": "'fingir' es 'pretend', no 'assert'.",
+        "aceptar": "'aceptar' es 'accept'; 'assert her right' es reclamarlo, no aceptarlo."
+      },
+      "examples": [
+        "He asserted that he was innocent.",
+        "You need to assert yourself more in meetings."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-nuanced-synonyms-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "nuanced-synonyms",
+    "tags": [
+      "vocabulary",
+      "synonyms"
+    ],
+    "prompt": "Three passengers were seriously ___ in the crash, but fortunately nobody died.",
+    "options": [
+      "damaged",
+      "broken",
+      "injured",
+      "spoiled"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Injure' se usa para heridas físicas de personas o animales en accidentes; 'damage' para cosas.",
+      "wrong": {
+        "damaged": "'damage' se usa con objetos (a car, a building), no con personas.",
+        "broken": "'broken' se usa para huesos u objetos (a broken leg), no para personas enteras.",
+        "spoiled": "'spoil' es estropear (comida, planes) o mimar a un niño; no se refiere a heridas."
+      },
+      "examples": [
+        "She injured her back lifting boxes.",
+        "Two people were injured in the fire."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-nuanced-synonyms-004",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "nuanced-synonyms",
+    "tags": [
+      "vocabulary",
+      "synonyms"
+    ],
+    "prompt": "The storm ___ the roof of the school, so classes were cancelled for a week.",
+    "options": [
+      "injured",
+      "damaged",
+      "hurt",
+      "wounded"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Damage' = dañar cosas materiales (edificios, coches, objetos).",
+      "wrong": {
+        "injured": "'injure' es herir a personas o animales, no a un tejado.",
+        "hurt": "'hurt' es hacer daño a personas (física o emocionalmente), no a objetos.",
+        "wounded": "'wound' es herir con un arma (bala, cuchillo); solo se usa con personas."
+      },
+      "examples": [
+        "The earthquake damaged hundreds of buildings.",
+        "Smoking can damage your lungs."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-nuanced-synonyms-005",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "nuanced-synonyms",
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "technology"
+    ],
+    "prompt": "Too much screen time can do children more ___ than good.",
+    "options": [
+      "harm",
+      "injury",
+      "hurt",
+      "bad"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "La expresión fija es 'do more harm than good' (hacer más mal que bien); 'harm' es daño en sentido general.",
+      "wrong": {
+        "bad": "Calco de 'más mal que bien'; en inglés 'bad' no se usa como sustantivo en esta expresión: se dice 'more harm than good'.",
+        "injury": "'injury' es una lesión física concreta; no encaja en esta expresión.",
+        "hurt": "'hurt' como sustantivo significa dolor emocional; la expresión fija usa 'harm'."
+      },
+      "examples": [
+        "A little sunshine won't do you any harm.",
+        "Strict diets often do more harm than good."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-nuanced-synonyms-006",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "nuanced-synonyms",
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "formal"
+    ],
+    "prompt": "In the thick fog, we could barely ___ the outline of the lighthouse.",
+    "options": [
+      "warn",
+      "discern",
+      "realise",
+      "advert"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Discern' (formal) = distinguir o percibir algo con dificultad.",
+      "wrong": {
+        "warn": "'warn' es advertir de un peligro a alguien; no significa ver o distinguir.",
+        "realise": "'realise' es darse cuenta de un hecho (realise that...), no distinguir algo con la vista.",
+        "advert": "Calco de 'advertir'; 'advert' en inglés es un anuncio publicitario (sustantivo)."
+      },
+      "examples": [
+        "I could just discern a figure in the distance.",
+        "It is difficult to discern any pattern in the data."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-nuanced-synonyms-007",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "nuanced-synonyms",
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "formal"
+    ],
+    "prompt": "Many people ___ the new law as an attack on their personal freedom.",
+    "options": [
+      "notice",
+      "realise",
+      "perceive",
+      "discern"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Perceive something as...' = ver/interpretar algo de cierta manera.",
+      "wrong": {
+        "notice": "'notice' es fijarse en algo; no se usa con la estructura 'notice X as Y'.",
+        "realise": "'realise' es darse cuenta de algo; no admite 'realise X as Y'.",
+        "discern": "'discern' es distinguir algo difícil de ver o entender; no se usa con 'as' para dar una interpretación."
+      },
+      "examples": [
+        "She is perceived as a strong leader.",
+        "How do you think others perceive you?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-academic-vocabulary-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "academic-vocabulary",
+    "tags": [
+      "vocabulary",
+      "academic"
+    ],
+    "prompt": "The scientists designed an experiment to test their ___ that the drug reduces memory loss.",
+    "options": [
+      "hypothesis",
+      "hypothetical",
+      "suppose",
+      "proof"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Hypothesis' (plural 'hypotheses') = hipótesis, una idea que se comprueba con experimentos.",
+      "wrong": {
+        "hypothetical": "'hypothetical' es un adjetivo (hipotético); después de 'their' necesitamos un sustantivo.",
+        "suppose": "'suppose' es un verbo (suponer), no puede ir después de 'their'.",
+        "proof": "'proof' es una prueba que ya demuestra algo; no tiene sentido 'testear' una prueba antes de hacer el experimento."
+      },
+      "examples": [
+        "The results support our original hypothesis.",
+        "Scientists have proposed several hypotheses."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-academic-vocabulary-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "academic-vocabulary",
+    "tags": [
+      "vocabulary",
+      "academic",
+      "false-friends"
+    ],
+    "prompt": "The report provides a ___ analysis of the housing market, covering every region of the country.",
+    "options": [
+      "comprehensible",
+      "understanding",
+      "comprehending",
+      "comprehensive"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Comprehensive' = completo, exhaustivo. No significa 'comprensivo' (eso es 'understanding').",
+      "wrong": {
+        "comprehensible": "'comprehensible' = que se puede entender; no expresa que el análisis cubra todo.",
+        "understanding": "'understanding' = comprensivo con los demás; se dice de personas, no de un análisis.",
+        "comprehending": "'comprehending' es el gerundio de 'comprehend' (entender); no funciona como adjetivo aquí."
+      },
+      "examples": [
+        "We offer comprehensive insurance for your car.",
+        "The book is a comprehensive guide to Spanish history."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-academic-vocabulary-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "academic-vocabulary",
+    "tags": [
+      "vocabulary",
+      "academic"
+    ],
+    "prompt": "Constant criticism from his boss slowly ___ his confidence until he decided to resign.",
+    "options": [
+      "underlined",
+      "undermined",
+      "underwent",
+      "underestimated"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Undermine' = socavar, debilitar algo poco a poco (confianza, autoridad, esfuerzos).",
+      "wrong": {
+        "underlined": "'underline' es subrayar (un texto o una idea), no debilitar.",
+        "underwent": "'undergo' es someterse a algo (an operation, changes); no lleva 'his confidence' como objeto con este sentido.",
+        "underestimated": "'underestimate' es subestimar; la crítica no 'subestima' la confianza de nadie."
+      },
+      "examples": [
+        "These rumours could undermine the company's reputation.",
+        "Lack of sleep undermines your ability to concentrate."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-academic-vocabulary-004",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "academic-vocabulary",
+    "tags": [
+      "vocabulary",
+      "academic",
+      "false-friends"
+    ],
+    "prompt": "The government has created a legal ___ to protect personal data online.",
+    "options": [
+      "mark",
+      "frame",
+      "picture",
+      "framework"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Framework' = marco (estructura de reglas o ideas): a legal framework, a theoretical framework.",
+      "wrong": {
+        "mark": "Calco de 'marco'; 'mark' es una marca o una nota escolar.",
+        "frame": "'frame' es el marco físico de un cuadro o una ventana, no un marco legal o teórico.",
+        "picture": "'picture' es una imagen o un cuadro; no expresa un conjunto de normas."
+      },
+      "examples": [
+        "The study uses a clear theoretical framework.",
+        "We need a framework for international cooperation."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-academic-vocabulary-005",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "academic-vocabulary",
+    "tags": [
+      "vocabulary",
+      "academic",
+      "word-formation"
+    ],
+    "prompt": "The study found a ___ link between lack of sleep and poor memory.",
+    "options": [
+      "signifying",
+      "significance",
+      "significant",
+      "signified"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Significant' = importante, considerable o estadísticamente relevante; es el adjetivo que va delante de un sustantivo.",
+      "wrong": {
+        "signifying": "'signifying' es el gerundio de 'signify' (significar); no describe el vínculo.",
+        "significance": "'significance' es el sustantivo (importancia); delante de 'link' hace falta un adjetivo.",
+        "signified": "'signified' es el participio de 'signify'; 'a signified link' no tiene sentido."
+      },
+      "examples": [
+        "There was a significant rise in prices.",
+        "The difference between the two groups was not significant."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-academic-vocabulary-006",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "academic-vocabulary",
+    "tags": [
+      "vocabulary",
+      "academic"
+    ],
+    "prompt": "What does 'empirical evidence' mean?",
+    "options": [
+      "pruebas teóricas sin datos",
+      "pruebas de origen imperial",
+      "pruebas basadas en la observación o la experimentación",
+      "pruebas falsas o inventadas"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Empirical' = basado en la observación o la experiencia, no solo en la teoría.",
+      "wrong": {
+        "pruebas teóricas sin datos": "Es justo lo contrario: 'empirical' se opone a 'theoretical'.",
+        "pruebas de origen imperial": "'empirical' no tiene relación con 'empire' (imperio), aunque se parezcan.",
+        "pruebas falsas o inventadas": "'empirical' no implica falsedad; al contrario, se basa en datos reales."
+      },
+      "examples": [
+        "There is little empirical evidence to support this claim.",
+        "The theory was tested in an empirical study."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-001",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'casualties' mean in: 'The earthquake caused hundreds of casualties'?",
+    "options": [
+      "víctimas (muertos o heridos)",
+      "casualidades",
+      "accidentes sin importancia",
+      "causas"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Casualty' = víctima (muerto o herido) en un accidente, guerra o desastre; 'casualidad' es 'coincidence' o 'chance'.",
+      "wrong": {
+        "casualidades": "Falso amigo: 'casualidad' en inglés es 'coincidence' o 'chance'.",
+        "accidentes sin importancia": "'casualties' son personas, no accidentes; y no son nada leves.",
+        "causas": "'causas' es 'causes'; no tiene relación con 'casualties'."
+      },
+      "examples": [
+        "There were no casualties in the fire.",
+        "He was taken to the casualty department of the hospital."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'eventual' mean in: 'Despite a bad start, she was the eventual winner of the tournament'?",
+    "options": [
+      "posible",
+      "ocasional",
+      "final, que llegó al final",
+      "temporal"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Eventual' = final, el que resulta al final de un proceso. 'Eventual' en español (posible) es 'possible'.",
+      "wrong": {
+        "posible": "Falso amigo: el 'eventual' español (posible) se dice 'possible' o 'potential'.",
+        "ocasional": "'ocasional' es 'occasional'; 'eventual' no tiene ese significado.",
+        "temporal": "'temporal' es 'temporary'; 'eventual' no tiene ese significado."
+      },
+      "examples": [
+        "The eventual cost of the project was twice the original estimate.",
+        "After many delays, they eventually arrived at midnight."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "formal"
+    ],
+    "prompt": "What does 'contest' mean in: 'His family plans to contest the will in court'?",
+    "options": [
+      "contestar, responder",
+      "participar en un concurso",
+      "confesar",
+      "impugnar, disputar"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Como verbo, 'contest' = impugnar o disputar (una decisión, un resultado, un testamento). 'Contestar' es 'answer' o 'reply'.",
+      "wrong": {
+        "contestar, responder": "Falso amigo: 'contestar' en inglés es 'answer' o 'reply'.",
+        "participar en un concurso": "'contest' como sustantivo es un concurso, pero aquí es un verbo con objeto ('the will').",
+        "confesar": "'confesar' es 'confess'; no se parece en significado."
+      },
+      "examples": [
+        "The opposition contested the election results.",
+        "She decided not to contest the fine."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-004",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "confusing-words"
+    ],
+    "prompt": "Please be ___: don't tell anyone in the office about my new job yet.",
+    "options": [
+      "discreet",
+      "discrete",
+      "discretion",
+      "indiscreet"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Discreet' = discreto, reservado (que no cuenta secretos). 'Discrete' = separado, independiente.",
+      "wrong": {
+        "discrete": "'discrete' (con -te) significa separado o diferenciado, no reservado.",
+        "discretion": "'discretion' es el sustantivo (discreción); después de 'be' hace falta un adjetivo.",
+        "indiscreet": "'indiscreet' es lo contrario: alguien que cuenta lo que debería callar."
+      },
+      "examples": [
+        "He was very discreet about his private life.",
+        "Can I count on your discretion?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-005",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "academic"
+    ],
+    "prompt": "The course is divided into five ___ units that can be studied in any order.",
+    "options": [
+      "discreet",
+      "humble",
+      "discrete",
+      "modest"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Discrete' (formal/académico) = separado, independiente, diferenciado.",
+      "wrong": {
+        "discreet": "'discreet' (con -eet) es reservado, prudente; se dice de personas, no de unidades de un curso.",
+        "humble": "'humble' es humilde; no indica que las unidades sean independientes.",
+        "modest": "'modest' es modesto o pequeño; no explica que se puedan estudiar en cualquier orden."
+      },
+      "examples": [
+        "The process can be broken down into discrete stages.",
+        "Light behaves like discrete particles."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-006",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "academic"
+    ],
+    "prompt": "In a research paper, what is the 'abstract'?",
+    "options": [
+      "el resumen breve al principio del artículo",
+      "una parte abstracta y difícil de entender",
+      "la bibliografía",
+      "el apéndice con datos"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "En textos académicos, 'abstract' = resumen breve del artículo que aparece al principio.",
+      "wrong": {
+        "una parte abstracta y difícil de entender": "Aunque 'abstract' también es el adjetivo 'abstracto', como sustantivo en un artículo es el resumen.",
+        "la bibliografía": "La bibliografía es 'references' o 'bibliography'.",
+        "el apéndice con datos": "El apéndice es 'appendix'."
+      },
+      "examples": [
+        "The abstract should be no longer than 250 words.",
+        "Read the abstract first to see if the paper is relevant."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-007",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'consistent' mean in: 'His story was not consistent with the evidence'?",
+    "options": [
+      "consistente, espeso",
+      "coherente, que concuerda",
+      "resistente, sólido",
+      "constante en el tiempo"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Consistent with' = coherente con, que concuerda con. Para 'consistente' (sólido, espeso) se dice 'solid', 'thick' o 'substantial'.",
+      "wrong": {
+        "consistente, espeso": "Falso amigo: una salsa 'consistente' es 'thick', no 'consistent'.",
+        "resistente, sólido": "'sólido' es 'solid' o 'sturdy'; 'consistent' no describe la resistencia.",
+        "constante en el tiempo": "'consistent' puede significar regular (a consistent player), pero con 'with the evidence' significa que concuerda."
+      },
+      "examples": [
+        "The results are consistent with previous studies.",
+        "She has been a consistent performer all season."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-008",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "business"
+    ],
+    "prompt": "What does 'contemplate' mean in: 'The company is contemplating moving its headquarters to Madrid'?",
+    "options": [
+      "mirar algo con admiración",
+      "complacer a alguien",
+      "celebrar algo",
+      "estar considerando, plantearse"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Contemplate + -ing' = plantearse, considerar la posibilidad de hacer algo.",
+      "wrong": {
+        "mirar algo con admiración": "'contemplate' puede significar mirar con calma, pero con '+ -ing' (contemplating moving) significa plantearse.",
+        "complacer a alguien": "'complacer' es 'please'; no tiene relación.",
+        "celebrar algo": "'celebrar' es 'celebrate'; no tiene relación."
+      },
+      "examples": [
+        "I would never contemplate leaving my family.",
+        "She is contemplating a career change."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-false-friends-009",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "false-friends",
+    "tags": [
+      "vocabulary",
+      "false-friends",
+      "health"
+    ],
+    "prompt": "The doctor ___ me that the medicine might make me feel sleepy.",
+    "options": [
+      "prevented",
+      "warned",
+      "noticed",
+      "avoided"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Warn someone that...' = advertir/avisar. 'Prevent' = impedir o evitar, no 'prevenir' en el sentido de avisar.",
+      "wrong": {
+        "prevented": "Falso amigo: 'prevenir' en el sentido de avisar es 'warn'; 'prevent' es impedir (prevent an accident).",
+        "noticed": "Calco de 'notificar'; 'notice' es fijarse o darse cuenta, no avisar a alguien.",
+        "avoided": "'avoid' es evitar; 'avoided me that' es incorrecto."
+      },
+      "examples": [
+        "They warned us not to swim in the river.",
+        "Vaccines help prevent serious diseases."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-word-formation-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "After several accidents, the government plans to ___ the safety rules for building sites.",
+    "options": [
+      "strengthen",
+      "strength",
+      "strong",
+      "strongly"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El sufijo -en convierte adjetivos o sustantivos en verbos: strong → strengthen (reforzar), wide → widen, short → shorten.",
+      "wrong": {
+        "strength": "'strength' es el sustantivo (fuerza); después de 'to' hace falta un verbo.",
+        "strong": "'strong' es el adjetivo; no puede funcionar como verbo.",
+        "strongly": "'strongly' es el adverbio; después de 'to' hace falta un verbo."
+      },
+      "examples": [
+        "The bridge needs to be strengthened.",
+        "They widened the road last year."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-word-formation-002",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "Supermarkets are trying to ___ the use of plastic bags by charging for them.",
+    "options": [
+      "minimum",
+      "minimal",
+      "minimise",
+      "minimally"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "El sufijo -ise (-ize en EE. UU.) forma verbos: minimum → minimise (reducir al mínimo).",
+      "wrong": {
+        "minimum": "'minimum' es un sustantivo o adjetivo; después de 'to' necesitamos un verbo.",
+        "minimal": "'minimal' es adjetivo (mínimo); no puede ser el verbo.",
+        "minimally": "'minimally' es adverbio; no puede llevar 'the use' como objeto."
+      },
+      "examples": [
+        "We must minimise the risks.",
+        "The company wants to modernise its offices."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-word-formation-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "Could you ___ what you mean by 'flexible hours'? I'm not sure I understand.",
+    "options": [
+      "clear",
+      "clarify",
+      "clarity",
+      "clearance"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "El sufijo -ify forma verbos: clear → clarify (aclarar), simple → simplify, just → justify.",
+      "wrong": {
+        "clear": "'clear' como verbo es despejar o vaciar (clear the table); no se usa para aclarar lo que quieres decir.",
+        "clarity": "'clarity' es el sustantivo (claridad); después de 'Could you' hace falta un verbo.",
+        "clearance": "'clearance' es un sustantivo (autorización, liquidación); no es un verbo."
+      },
+      "examples": [
+        "Let me clarify the main points.",
+        "We need to simplify the application process."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-word-formation-004",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation",
+      "health"
+    ],
+    "prompt": "The new vaccine has proved highly ___ against the virus.",
+    "options": [
+      "effective",
+      "efficacy",
+      "affective",
+      "effected"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "El sufijo -ive forma adjetivos: effect → effective (eficaz). 'Effective against' = eficaz contra.",
+      "wrong": {
+        "affective": "'affective' es un término técnico de psicología (afectivo, emocional); no significa eficaz.",
+        "efficacy": "'efficacy' es el sustantivo (eficacia); después de 'highly' hace falta un adjetivo.",
+        "effected": "'effected' es el participio de 'effect' (llevar a cabo, formal); no describe la vacuna."
+      },
+      "examples": [
+        "This is the most effective treatment available.",
+        "Exercise is an effective way to reduce stress."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-word-formation-005",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "The film received ___ praise from critics: every single review was positive.",
+    "options": [
+      "unanimity",
+      "unanimously",
+      "unanimated",
+      "unanimous"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "El sufijo -ous forma adjetivos: unanimity → unanimous (unánime), fame → famous, danger → dangerous.",
+      "wrong": {
+        "unanimity": "'unanimity' es el sustantivo (unanimidad); delante de 'praise' hace falta un adjetivo.",
+        "unanimously": "'unanimously' es el adverbio; modifica verbos (they voted unanimously), no sustantivos.",
+        "unanimated": "'unanimated' no existe en inglés."
+      },
+      "examples": [
+        "The decision was unanimous.",
+        "The board voted unanimously in favour."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-word-formation-006",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "word-formation",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "The instructions were so badly written that they were almost ___.",
+    "options": [
+      "uncomprehensible",
+      "incomprehensible",
+      "incomprehensive",
+      "incomprehension"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Muchos adjetivos en -ible toman el prefijo in-: comprehensible → incomprehensible (incomprensible).",
+      "wrong": {
+        "uncomprehensible": "Con este adjetivo el prefijo negativo es 'in-', no 'un-'; 'uncomprehensible' no existe.",
+        "incomprehensive": "'comprehensive' significa completo; 'incomprehensive' no es una palabra estándar y no significa incomprensible.",
+        "incomprehension": "'incomprehension' es el sustantivo; después de 'were almost' hace falta un adjetivo."
+      },
+      "examples": [
+        "His accent was almost incomprehensible to me.",
+        "The handwriting was completely illegible."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-dependent-prepositions-001",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions",
+      "formal"
+    ],
+    "prompt": "I'm writing ___ behalf of my manager, who is currently on holiday.",
+    "options": [
+      "by",
+      "for",
+      "on",
+      "at"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'On behalf of someone' = en nombre de alguien / en representación de alguien.",
+      "wrong": {
+        "by": "'by behalf of' no existe; la expresión siempre es 'on behalf of'.",
+        "for": "'for behalf of' es un error frecuente; la preposición fija es 'on'.",
+        "at": "'at behalf of' no existe en inglés."
+      },
+      "examples": [
+        "On behalf of everyone here, thank you.",
+        "She accepted the award on behalf of her father."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-dependent-prepositions-002",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions",
+      "formal"
+    ],
+    "prompt": "With regard ___ your recent enquiry, I am pleased to confirm that the room is available.",
+    "options": [
+      "of",
+      "to",
+      "at",
+      "about"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'With regard to' (formal) = en relación con, con respecto a.",
+      "wrong": {
+        "of": "Calco de 'con respecto de'; 'with regard of' es incorrecto.",
+        "at": "'at' no se combina con 'regard' en esta expresión.",
+        "about": "'about' sola ya significa 'sobre', pero 'with regard about' no existe."
+      },
+      "examples": [
+        "With regard to your complaint, we have refunded the full amount.",
+        "I have nothing to say with regard to that matter."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-dependent-prepositions-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions",
+      "formal"
+    ],
+    "prompt": "___ the light of the new evidence, the court decided to reopen the case.",
+    "options": [
+      "In",
+      "With",
+      "At",
+      "Under"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'In the light of' (también 'in light of' en EE. UU.) = a la luz de, teniendo en cuenta.",
+      "wrong": {
+        "Under": "'under the light' es literalmente 'bajo la luz' (una lámpara); no es la expresión.",
+        "With": "'with the light of' no es una expresión fija en inglés.",
+        "At": "Calco de 'a la luz de'; en inglés la preposición es 'in', no 'at'."
+      },
+      "examples": [
+        "In the light of recent events, the concert has been cancelled.",
+        "In light of the results, we will change our strategy."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-dependent-prepositions-004",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions",
+      "work"
+    ],
+    "prompt": "Who is ___ charge of the marketing department while Laura is away?",
+    "options": [
+      "at",
+      "of",
+      "on",
+      "in"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Be in charge of something' = estar a cargo de algo, ser el responsable.",
+      "wrong": {
+        "at": "Calco de 'a cargo de'; en inglés es 'in charge of', no 'at charge of'.",
+        "of": "'of' ya aparece después de 'charge'; delante hace falta 'in'.",
+        "on": "'on charge' no es la expresión; 'on a charge of' se usa para acusaciones (arrested on a charge of theft)."
+      },
+      "examples": [
+        "Who's in charge here?",
+        "She was put in charge of the new project."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-dependent-prepositions-005",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "dependent-prepositions",
+    "tags": [
+      "vocabulary",
+      "prepositions",
+      "formal"
+    ],
+    "prompt": "The decision was taken ___ accordance with the company's safety regulations.",
+    "options": [
+      "with",
+      "of",
+      "in",
+      "on"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'In accordance with' (formal) = de acuerdo con, conforme a.",
+      "wrong": {
+        "with": "'with' va después de 'accordance', no antes: in accordance with.",
+        "of": "Calco de 'de acuerdo con'; 'of accordance with' es incorrecto.",
+        "on": "'on accordance' no existe; la expresión fija empieza con 'in'."
+      },
+      "examples": [
+        "All waste must be disposed of in accordance with the law.",
+        "We acted in accordance with your instructions."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-formal-register-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "formal-register",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "The conference will ___ at 9 a.m. with a welcome speech from the director.",
+    "options": [
+      "inaugurate",
+      "commence",
+      "initiate",
+      "comment"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Commence' es el equivalente formal de 'start' o 'begin' y puede usarse sin objeto.",
+      "wrong": {
+        "inaugurate": "'inaugurate' necesita objeto (inaugurate a building); 'the conference will inaugurate' no tiene sentido.",
+        "initiate": "'initiate' necesita objeto (initiate talks); no se usa solo con el sentido de empezar.",
+        "comment": "'comment' es comentar; se parece en la forma pero no tiene que ver."
+      },
+      "examples": [
+        "The ceremony will commence at noon.",
+        "Work commenced on the new bridge in May."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-formal-register-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "formal-register",
+    "tags": [
+      "vocabulary",
+      "formal",
+      "shopping"
+    ],
+    "prompt": "Formal notice: 'Tickets may be ___ online or at the box office.' Which verb fits?",
+    "options": [
+      "shopped",
+      "acquainted",
+      "purchased",
+      "adquired"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Purchase' es el equivalente formal de 'buy' (comprar).",
+      "wrong": {
+        "shopped": "'shop' es intransitivo (go shopping); no se dice 'tickets may be shopped'.",
+        "acquainted": "'acquainted' significa familiarizado o conocido (be acquainted with someone).",
+        "adquired": "Calco de 'adquirir'; la palabra inglesa es 'acquire' (y con c), y además no es lo habitual para entradas."
+      },
+      "examples": [
+        "Proof of purchase is required for all refunds.",
+        "The museum purchased the painting in 1998."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-formal-register-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "formal-register",
+    "tags": [
+      "vocabulary",
+      "formal",
+      "work"
+    ],
+    "prompt": "Dear customer, we will ___ to answer all enquiries within 48 hours.",
+    "options": [
+      "pretend",
+      "endeavour",
+      "procure",
+      "intent"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Endeavour to do something' (formal) = esforzarse por / procurar hacer algo.",
+      "wrong": {
+        "pretend": "Falso amigo: 'pretend' es fingir, no 'pretender' (intentar).",
+        "procure": "Calco de 'procurar'; 'procure' en inglés es conseguir u obtener algo, no intentar.",
+        "intent": "'intent' es un sustantivo o adjetivo; el verbo sería 'intend', y aun así cambiaría el sentido."
+      },
+      "examples": [
+        "We will endeavour to resolve the problem as soon as possible.",
+        "Every endeavour was made to find the missing child."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-formal-register-004",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "formal-register",
+    "tags": [
+      "vocabulary",
+      "formal",
+      "false-friends"
+    ],
+    "prompt": "What does 'ascertain' mean in: 'The police are trying to ascertain the cause of the fire'?",
+    "options": [
+      "averiguar, determinar con certeza",
+      "asegurar a alguien",
+      "ascender",
+      "acertar por casualidad"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Ascertain' (formal) = averiguar o establecer algo con certeza; equivale a 'find out'.",
+      "wrong": {
+        "acertar por casualidad": "Falso amigo por el sonido; 'acertar' es 'get it right' o 'guess correctly'.",
+        "asegurar a alguien": "'asegurar a alguien' es 'assure'; 'ascertain' es averiguar.",
+        "ascender": "'ascender' es 'ascend' o 'be promoted'."
+      },
+      "examples": [
+        "We need to ascertain whether the information is accurate.",
+        "It was difficult to ascertain the truth."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-extreme-adjectives-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "extreme-adjectives",
+    "tags": [
+      "vocabulary",
+      "adjectives"
+    ],
+    "prompt": "After the 25-kilometre hike in the mountains, we were ___ exhausted.",
+    "options": [
+      "very",
+      "utterly",
+      "fairly",
+      "slightly"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Los adjetivos extremos (exhausted, furious, freezing) van con adverbios como 'utterly', 'absolutely' o 'completely', no con 'very'.",
+      "wrong": {
+        "very": "'very' va con adjetivos graduables (very tired), no con extremos como 'exhausted'.",
+        "fairly": "'fairly' (bastante) solo va con adjetivos graduables; con 'exhausted' es incorrecto.",
+        "slightly": "'slightly' (un poco) no combina con un adjetivo extremo como 'exhausted'."
+      },
+      "examples": [
+        "I'm utterly exhausted after that meeting.",
+        "She was very tired, but not exhausted."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-extreme-adjectives-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "extreme-adjectives",
+    "tags": [
+      "vocabulary",
+      "adjectives",
+      "weather"
+    ],
+    "prompt": "Take a warm coat: it's ___ freezing outside!",
+    "options": [
+      "very",
+      "a bit",
+      "absolutely",
+      "fairly"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Freezing' es un adjetivo extremo (helado); se intensifica con 'absolutely' o 'really', no con 'very'.",
+      "wrong": {
+        "very": "'very' no se usa con adjetivos extremos; se dice 'very cold' pero 'absolutely freezing'.",
+        "a bit": "'a bit' suaviza adjetivos graduables (a bit cold); con 'freezing' es contradictorio.",
+        "fairly": "'fairly' solo va con adjetivos graduables (fairly cold)."
+      },
+      "examples": [
+        "It's absolutely freezing in this office.",
+        "The water was really freezing."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-extreme-adjectives-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "extreme-adjectives",
+    "tags": [
+      "vocabulary",
+      "adjectives"
+    ],
+    "prompt": "Which sentence is NOT correct in standard English?",
+    "options": [
+      "He was absolutely furious.",
+      "He was very furious.",
+      "He was very angry.",
+      "He was really furious."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Furious' es un adjetivo extremo: no admite 'very'. Sí admite 'absolutely' o 'really'.",
+      "wrong": {
+        "He was absolutely furious.": "Es correcta: 'absolutely' es el adverbio típico con adjetivos extremos.",
+        "He was very angry.": "Es correcta: 'angry' es graduable y admite 'very'.",
+        "He was really furious.": "Es correcta: 'really' combina tanto con adjetivos graduables como con extremos."
+      },
+      "examples": [
+        "My boss was absolutely furious about the delay.",
+        "I was really angry with myself."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-extreme-adjectives-004",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "extreme-adjectives",
+    "tags": [
+      "vocabulary",
+      "adjectives",
+      "travel"
+    ],
+    "prompt": "The view from the top of the mountain was absolutely ___.",
+    "options": [
+      "nice",
+      "pretty",
+      "interesting",
+      "stunning"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Absolutely' solo intensifica adjetivos extremos como 'stunning' (impresionante), 'amazing' o 'terrible'.",
+      "wrong": {
+        "nice": "'nice' es un adjetivo graduable; 'absolutely nice' no es natural (se dice 'very nice').",
+        "pretty": "'pretty' es graduable; con 'absolutely' no es natural (se dice 'very pretty').",
+        "interesting": "'interesting' es graduable; se dice 'very interesting', no 'absolutely interesting'."
+      },
+      "examples": [
+        "The scenery was absolutely stunning.",
+        "The food was absolutely delicious."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c1-extreme-adjectives-005",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "extreme-adjectives",
+    "tags": [
+      "vocabulary",
+      "adjectives"
+    ],
+    "prompt": "Which adjective is the extreme form of 'hungry'?",
+    "options": [
+      "greedy",
+      "starving",
+      "famine",
+      "appetising"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Starving' = muerto de hambre; es la forma extrema de 'hungry' y va con 'absolutely' o 'completely'.",
+      "wrong": {
+        "greedy": "'greedy' es glotón o codicioso; describe un defecto, no tener mucha hambre.",
+        "famine": "'famine' es un sustantivo (hambruna), no un adjetivo.",
+        "appetising": "'appetising' describe comida que da hambre (apetitosa), no a una persona hambrienta."
+      },
+      "examples": [
+        "I'm absolutely starving: what's for dinner?",
+        "We were starving after the long walk."
+      ]
+    }
+  }
+]

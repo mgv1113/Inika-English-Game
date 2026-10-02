@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "pv-c2-bandy-about-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "bandy-about",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Figures of up to £2 million have been ___ in the press, but nobody has confirmed the actual price of the painting.",
+    "options": [
+      "banded together",
+      "brushed off",
+      "bandied about",
+      "boiled down"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"bandy about/around\" = mencionar algo (cifras, nombres, palabras) a la ligera y repetidamente, a menudo sin base.",
+      "wrong": {
+        "banded together": "\"band together\" es unirse para un fin común (las personas se unen); no se usa para cifras que circulan.",
+        "brushed off": "\"brush off\" es ignorar o despachar a alguien o una crítica; las cifras no se 'ignoran' en la prensa en este sentido.",
+        "boiled down": "\"boil down to\" es reducirse a lo esencial; además necesita \"to\" y no describe rumores que circulan."
+      },
+      "examples": [
+        "Words like 'genius' get bandied about far too easily.",
+        "Several names have been bandied about as the next coach."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-beaver-away-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "beaver-away",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "What does 'beaver away' mean in: 'She's been beavering away at her thesis all summer'?",
+    "options": [
+      "trabajar duro y sin parar en algo",
+      "esconderse para evitar algo",
+      "posponer algo una y otra vez",
+      "abandonar algo a medias"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"beaver away (at something)\" = trabajar con mucho empeño y constancia, como un castor.",
+      "wrong": {
+        "esconderse para evitar algo": "Eso sería \"lie low\" o \"keep out of the way\". \"beaver away\" no tiene que ver con esconderse.",
+        "posponer algo una y otra vez": "Eso es \"put off\" o procrastinar; \"beaver away\" es justo lo contrario: trabajar con constancia.",
+        "abandonar algo a medias": "Eso sería \"give up on\" o \"drop\"; quien está \"beavering away\" sigue trabajando sin parar."
+      },
+      "examples": [
+        "He's been beavering away in the garage on his old motorbike.",
+        "The team beavered away until midnight to meet the deadline."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-bow-out-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "bow-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "After twenty years as conductor of the orchestra, he decided it was time to ___ gracefully and let someone younger take over.",
+    "options": [
+      "bow down",
+      "pull through",
+      "sit in",
+      "bow out"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"bow out\" = retirarse de un puesto o actividad, normalmente de forma elegante tras mucho tiempo.",
+      "wrong": {
+        "bow down": "\"bow down\" es inclinarse o someterse ante alguien; no significa retirarse de un puesto.",
+        "pull through": "\"pull through\" es recuperarse de una enfermedad o salir de una crisis; no encaja con dejar el puesto.",
+        "sit in": "\"sit in (on)\" es asistir como observador a una reunión o clase; es casi lo contrario de retirarse."
+      },
+      "examples": [
+        "She bowed out of politics after the election.",
+        "The champion bowed out in the second round."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-chip-in-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "chip-in",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "If everyone in the office ___ a fiver, we can buy Maria a really nice leaving present.",
+    "options": [
+      "chips off",
+      "chips in",
+      "cashes in",
+      "pays off"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"chip in\" = contribuir con una parte del dinero (o con ayuda) para algo que se paga entre varios; 'poner un bote'.",
+      "wrong": {
+        "chips off": "\"chip off\" es desconchar o quitar un trocito de algo (la pintura); no tiene que ver con aportar dinero.",
+        "cashes in": "\"cash in (on)\" es sacar provecho económico de algo o canjear algo por dinero; no es contribuir a un regalo común.",
+        "pays off": "\"pay off\" es saldar una deuda o dar resultado; no significa poner dinero entre varios."
+      },
+      "examples": [
+        "We all chipped in to buy him a new bike.",
+        "If you chip in ten euros, we'll have enough for the cake."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-churn-out-005",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "churn-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Choose the best option: 'The factory ___ thousands of cheap plastic toys every day, with little concern for quality.'",
+    "options": [
+      "churns up",
+      "churns out",
+      "brings round",
+      "lays out"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"churn out\" = producir algo en grandes cantidades y de forma mecánica, a menudo con poca calidad.",
+      "wrong": {
+        "churns up": "\"churn up\" es remover o revolver (el barro, el agua, el estómago); no significa producir en masa.",
+        "brings round": "\"bring round\" es convencer a alguien o hacerle volver en sí; no se usa para fabricar productos.",
+        "lays out": "\"lay out\" es disponer u ordenar algo (un jardín, una página) o gastar dinero; no es producir en serie."
+      },
+      "examples": [
+        "She churns out three novels a year.",
+        "The studio keeps churning out the same kind of film."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-clam-up-006",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "clam-up",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Whenever journalists ask about his private life, the normally talkative actor ___ completely.",
+    "options": [
+      "opens up",
+      "speaks out",
+      "clears up",
+      "clams up"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"clam up\" = cerrarse en banda, negarse de repente a hablar (como una almeja que se cierra).",
+      "wrong": {
+        "opens up": "\"open up\" es abrirse y hablar con sinceridad; es lo contrario de lo que pide la frase ('normally talkative' marca un contraste).",
+        "speaks out": "\"speak out\" es alzar la voz públicamente para defender o criticar algo; no es quedarse callado.",
+        "clears up": "\"clear up\" es aclarar algo, ordenar o despejarse (el tiempo); no significa cerrarse en banda."
+      },
+      "examples": [
+        "The suspect clammed up as soon as the police mentioned the money.",
+        "Teenagers often clam up when parents ask too many questions."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-conjure-up-007",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "conjure-up",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "What does 'conjure up' mean in: 'The smell of fresh bread always conjures up memories of my grandmother's kitchen'?",
+    "options": [
+      "evocar, traer a la mente",
+      "borrar, hacer olvidar",
+      "confundir, mezclar",
+      "conspirar, tramar"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"conjure up\" = evocar una imagen o recuerdo; también 'sacar de la nada' (conjure up a meal).",
+      "wrong": {
+        "borrar, hacer olvidar": "Es justo lo contrario: el olor hace aparecer los recuerdos, no los borra.",
+        "confundir, mezclar": "\"conjure up\" no implica confusión; los recuerdos aparecen con claridad.",
+        "conspirar, tramar": "Parece venir de 'conjurar' en el sentido de conspiración (conjura), pero ese es un falso amigo: en inglés eso sería \"plot\" o \"conspire\"."
+      },
+      "examples": [
+        "The word 'Scotland' conjures up images of mountains and lakes.",
+        "His music conjures up the atmosphere of 1920s Paris."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-egg-on-008",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "egg-on",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "He would never have jumped into the freezing lake if his friends hadn't ___.",
+    "options": [
+      "egged on him",
+      "talked him out",
+      "egged him on",
+      "held him back"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"egg someone on\" = animar o incitar a alguien a hacer algo, normalmente arriesgado o tonto.",
+      "wrong": {
+        "egged on him": "El pronombre objeto debe ir entre el verbo y la partícula: \"egg him on\", nunca \"egg on him\".",
+        "talked him out": "\"talk someone out of something\" es disuadir; además está incompleto (falta \"of it\") y el sentido sería el contrario.",
+        "held him back": "\"hold back\" es frenar o retener a alguien; si los amigos lo frenan, la frase no tiene lógica."
+      },
+      "examples": [
+        "The crowd egged the fighters on.",
+        "Stop egging him on — he'll only get into trouble."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-fob-off-009",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "fob-off",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "When I complained about the faulty laptop, the shop tried to ___ with a voucher instead of a refund.",
+    "options": [
+      "fob off me",
+      "show me off",
+      "tell me off",
+      "fob me off"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"fob someone off (with something)\" = quitarse a alguien de encima con excusas o con algo de menor valor.",
+      "wrong": {
+        "fob off me": "Con pronombre, la partícula va detrás: \"fob me off\", no \"fob off me\".",
+        "show me off": "\"show off\" es presumir o lucir algo; no tiene sentido 'lucirme' con un vale.",
+        "tell me off": "\"tell off\" es regañar; la tienda no te regaña con un vale, intenta quitarte de encima."
+      },
+      "examples": [
+        "Don't let them fob you off with excuses.",
+        "He was fobbed off with a cheap replacement."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-gear-up-for-010",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "gear-up-for",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "What does 'gear up for' mean in: 'The whole town is gearing up for the summer festival'?",
+    "options": [
+      "recuperarse de",
+      "prepararse para",
+      "quejarse de",
+      "cansarse de"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"gear up for (something)\" = prepararse, ponerse a punto para un acontecimiento o actividad.",
+      "wrong": {
+        "recuperarse de": "Eso sería \"get over\" o \"recover from\"; el festival aún no ha ocurrido.",
+        "quejarse de": "Eso sería \"complain about\"; \"gear up\" no tiene sentido negativo.",
+        "cansarse de": "Eso sería \"get tired of\" o \"be fed up with\"; aquí el pueblo se está organizando con ilusión."
+      },
+      "examples": [
+        "Retailers are gearing up for the Christmas rush.",
+        "The team is gearing up for the final."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-hammer-out-011",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "hammer-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "After three days of tense negotiations, the two sides finally ___ a deal that everyone could accept.",
+    "options": [
+      "hammered in",
+      "knocked down",
+      "hammered out",
+      "carried away"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"hammer out\" = elaborar o cerrar un acuerdo tras mucha discusión y esfuerzo.",
+      "wrong": {
+        "hammered in": "\"hammer in\" es clavar algo a martillazos (o meter una idea a la fuerza); no es alcanzar un acuerdo.",
+        "knocked down": "\"knock down\" es derribar o rebajar un precio; no significa elaborar un acuerdo.",
+        "carried away": "\"get carried away\" es dejarse llevar; \"carried away a deal\" no tiene sentido."
+      },
+      "examples": [
+        "The ministers hammered out a compromise overnight.",
+        "We still need to hammer out the details of the contract."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-hanker-after-012",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "hanker-after",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Choose the best option: 'Ever since he moved to London, he has ___ the quiet life he used to have in the countryside.'",
+    "options": [
+      "hankered after",
+      "hung around",
+      "handed over",
+      "looked after"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"hanker after/for (something)\" = anhelar, desear mucho algo, a menudo que no se tiene o se ha perdido.",
+      "wrong": {
+        "hung around": "\"hang around\" es quedarse por un sitio sin hacer nada; no expresa añoranza.",
+        "handed over": "\"hand over\" es entregar algo a alguien; no se entrega 'una vida tranquila'.",
+        "looked after": "\"look after\" es cuidar de alguien o algo; no significa desear o echar de menos."
+      },
+      "examples": [
+        "She still hankers after a career in music.",
+        "I've been hankering after a proper cup of tea all day."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-home-in-on-013",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "home-in-on",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Instead of discussing every possible cause, the researchers decided to ___ the most likely one.",
+    "options": [
+      "home in on",
+      "zoom out of",
+      "come in for",
+      "close down on"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"home in on\" = centrarse en algo concreto, dirigirse con precisión hacia un objetivo.",
+      "wrong": {
+        "zoom out of": "\"zoom out\" es alejarse para ver el conjunto; es lo contrario de centrarse en una sola causa.",
+        "come in for": "\"come in for\" se usa con críticas o elogios (come in for criticism); no es concentrarse en algo.",
+        "close down on": "\"close down\" es cerrar un negocio; \"close down on\" no existe con este sentido."
+      },
+      "examples": [
+        "The missile homed in on its target.",
+        "Let's home in on the main problem first."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-jack-in-014",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "jack-in",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "What does 'jack in' mean in: 'He jacked in his job at the bank to become a surf instructor'?",
+    "options": [
+      "conseguir",
+      "perder por despido",
+      "dejar, abandonar",
+      "solicitar"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"jack in\" (británico, informal) = dejar algo voluntariamente, sobre todo un trabajo o un curso.",
+      "wrong": {
+        "conseguir": "Eso sería \"land\" o \"get\"; si se hizo instructor de surf, el trabajo del banco lo dejó.",
+        "perder por despido": "Eso sería \"be laid off\" o \"get the sack\"; \"jack in\" implica que él decidió dejarlo.",
+        "solicitar": "Eso sería \"apply for\"; \"jack in\" no tiene que ver con pedir un puesto."
+      },
+      "examples": [
+        "I'm thinking of jacking in my course.",
+        "She jacked it all in and moved to Spain."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-palm-off-015",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "palm-off",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "The dealer tried to ___ a fake Rolex on an unsuspecting tourist.",
+    "options": [
+      "pass over",
+      "palm off",
+      "hand down",
+      "lay off"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"palm something off on someone\" = colarle a alguien algo falso o de mala calidad, engañándole.",
+      "wrong": {
+        "pass over": "\"pass over\" es pasar por alto o ignorar a alguien (para un ascenso); no es colar algo falso.",
+        "hand down": "\"hand down\" es transmitir algo a la siguiente generación (heredar); no implica engaño.",
+        "lay off": "\"lay off\" es despedir a trabajadores o dejar de hacer algo; no tiene sentido aquí."
+      },
+      "examples": [
+        "He palmed off his old car on his cousin.",
+        "They tried to palm the broken chairs off on us."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-pan-out-016",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "pan-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "We had planned to open a second café, but things didn't ___ as we'd hoped.",
+    "options": [
+      "make out",
+      "carry out",
+      "pull out",
+      "pan out"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"pan out\" = salir, resultar o desarrollarse de cierta manera (things didn't pan out = las cosas no salieron bien).",
+      "wrong": {
+        "make out": "\"make out\" es distinguir o entender algo; \"things didn't make out\" no tiene sentido.",
+        "carry out": "\"carry out\" es llevar a cabo y necesita objeto (carry out a plan); \"things\" no pueden 'llevarse a cabo' solas así.",
+        "pull out": "\"pull out\" es retirarse (de un acuerdo); se dice de personas, no de cómo evolucionan las cosas."
+      },
+      "examples": [
+        "Let's see how things pan out.",
+        "The deal never panned out."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-pore-over-017",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "pore-over",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "She spent the whole evening ___ old maps of the city, looking for the street where her grandfather was born.",
+    "options": [
+      "pouring over",
+      "poring over",
+      "looking after",
+      "passing over"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"pore over\" = examinar o leer algo con mucha atención y durante mucho tiempo.",
+      "wrong": {
+        "pouring over": "Error de ortografía muy frecuente: \"pour\" es verter un líquido. La expresión es \"pore over\" (estudiar con detalle).",
+        "looking after": "\"look after\" es cuidar; no se 'cuidan' mapas para buscar una calle.",
+        "passing over": "\"pass over\" es pasar por alto o ignorar; es lo contrario de examinar con atención."
+      },
+      "examples": [
+        "He pored over the contract before signing it.",
+        "Students were poring over their notes before the exam."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-rake-in-018",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "rake-in",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "What does 'rake in' mean in: 'With its new app, the company is raking in money'?",
+    "options": [
+      "ganar mucho dinero con facilidad",
+      "perder dinero rápidamente",
+      "ahorrar poco a poco",
+      "pedir dinero prestado"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"rake in\" = ganar mucho dinero, como si se recogiera con un rastrillo.",
+      "wrong": {
+        "perder dinero rápidamente": "Es justo lo contrario; perder dinero sería \"lose money\" o \"haemorrhage cash\".",
+        "ahorrar poco a poco": "Ahorrar poco a poco sería \"save up\" o \"put money aside\"; \"rake in\" implica grandes cantidades.",
+        "pedir dinero prestado": "Eso sería \"borrow money\"; \"rake in\" es ingresar, no pedir."
+      },
+      "examples": [
+        "The film raked in $200 million in its first week.",
+        "He's been raking it in since he opened the shop."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-root-out-019",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "root-out",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "The new director has promised to ___ corruption in the city council once and for all.",
+    "options": [
+      "root for",
+      "rule out",
+      "set out",
+      "root out"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"root out\" = erradicar, arrancar de raíz algo malo (corrupción, fraude, etc.).",
+      "wrong": {
+        "root for": "\"root for\" es apoyar o animar a alguien (root for a team); nadie promete 'apoyar' la corrupción.",
+        "rule out": "\"rule out\" es descartar una posibilidad; no significa eliminar un problema existente.",
+        "set out": "\"set out\" es emprender un viaje o exponer algo (set out the plans); no es erradicar."
+      },
+      "examples": [
+        "The police are determined to root out drug dealing in the area.",
+        "We need to root out the cause of the problem."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-rustle-up-020",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "rustle-up",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Choose the best option: 'There's not much in the fridge, but I can probably ___ an omelette for us.'",
+    "options": [
+      "rattle off",
+      "wrap up",
+      "rustle up",
+      "dish out"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"rustle up\" = preparar o conseguir algo rápidamente con lo que se tiene a mano (sobre todo comida).",
+      "wrong": {
+        "rattle off": "\"rattle off\" es decir algo de carrerilla (rattle off a list); no es preparar comida.",
+        "wrap up": "\"wrap up\" es envolver o terminar algo; no significa cocinar algo rápido.",
+        "dish out": "\"dish out\" es repartir o servir (comida, consejos); no es improvisar una comida con lo que hay."
+      },
+      "examples": [
+        "I'll rustle up some sandwiches.",
+        "Can you rustle up a few volunteers for Saturday?"
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-square-up-to-021",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "square-up-to",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Small and outnumbered, the residents decided to ___ the developers and fight the building plan in court.",
+    "options": [
+      "look up to",
+      "make up to",
+      "square up to",
+      "live up to"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"square up to\" = plantar cara a alguien, prepararse para enfrentarse a un rival o un problema.",
+      "wrong": {
+        "look up to": "\"look up to\" es admirar a alguien; no tiene sentido admirar a quien quieres combatir en los tribunales.",
+        "make up to": "\"make up to\" es hacer la pelota o compensar a alguien; no es enfrentarse.",
+        "live up to": "\"live up to\" es estar a la altura de expectativas; no se usa con una persona rival."
+      },
+      "examples": [
+        "The two players squared up to each other.",
+        "The government must square up to the crisis."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-stump-up-022",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "stump-up",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Parents are being asked to ___ £200 each for the school trip to Rome.",
+    "options": [
+      "step up",
+      "stamp out",
+      "set up",
+      "stump up"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"stump up\" (británico, informal) = soltar o aflojar dinero, normalmente a disgusto.",
+      "wrong": {
+        "step up": "\"step up\" es dar un paso al frente o intensificar algo; no significa pagar.",
+        "stamp out": "\"stamp out\" es erradicar algo (stamp out bullying); no se 'erradican' 200 libras.",
+        "set up": "\"set up\" es montar o crear algo; \"set up £200\" no tiene sentido."
+      },
+      "examples": [
+        "The club had to stump up £5 million for the new player.",
+        "Who's going to stump up for the repairs?"
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-waffle-on-023",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "waffle-on",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "What does 'waffle on' mean in: 'He waffled on for twenty minutes without actually answering the question'?",
+    "options": [
+      "hablar mucho sin decir nada concreto",
+      "hablar con precisión y claridad",
+      "quedarse callado",
+      "gritar enfadado"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"waffle on\" (británico) = enrollarse, hablar o escribir mucho sin ir al grano.",
+      "wrong": {
+        "hablar con precisión y claridad": "Es lo contrario: la frase dice que no contestó a la pregunta.",
+        "quedarse callado": "Eso sería \"clam up\" o \"keep quiet\"; quien \"waffles on\" habla sin parar.",
+        "gritar enfadado": "Eso sería \"shout\" o \"rant\"; \"waffle\" no implica enfado, sino palabrería."
+      },
+      "examples": [
+        "Stop waffling on and tell me what happened.",
+        "The essay waffles on for pages without a clear argument."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-whip-up-024",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "whip-up",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "The speaker tried to ___ support for the strike, but most of the workers remained unconvinced.",
+    "options": [
+      "whip out",
+      "whip up",
+      "wipe out",
+      "give up"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"whip up\" = avivar o despertar rápidamente un sentimiento (apoyo, entusiasmo, odio); también preparar algo rápido.",
+      "wrong": {
+        "whip out": "\"whip out\" es sacar algo de golpe (whip out a phone); no se 'saca' el apoyo de la gente.",
+        "wipe out": "\"wipe out\" es aniquilar o borrar; es lo contrario de lo que quiere el orador.",
+        "give up": "\"give up\" es renunciar; no tiene sentido que intente renunciar al apoyo que busca."
+      },
+      "examples": [
+        "The newspapers whipped up fear about the virus.",
+        "She managed to whip up enthusiasm for the project."
+      ]
+    }
+  },
+  {
+    "id": "pv-c2-wriggle-out-of-025",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "wriggle-out-of",
+    "tags": [
+      "phrasal-verb"
+    ],
+    "prompt": "Choose the best option: 'He always manages to ___ doing the washing-up by claiming he has urgent emails to answer.'",
+    "options": [
+      "wriggle into",
+      "make up for",
+      "run out of",
+      "wriggle out of"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"wriggle out of (doing) something\" = escaquearse de una obligación con excusas o artimañas.",
+      "wrong": {
+        "wriggle into": "\"wriggle into\" es meterse retorciéndose en algo (wriggle into tight jeans); no es escaquearse.",
+        "make up for": "\"make up for\" es compensar algo; no encaja con evitar una tarea con excusas.",
+        "run out of": "\"run out of\" es quedarse sin algo; \"run out of doing the washing-up\" no tiene sentido."
+      },
+      "examples": [
+        "She tried to wriggle out of paying the fine.",
+        "You promised to help — don't try to wriggle out of it now."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-pyrrhic-victory-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "pyrrhic-victory",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "The company won the court case, but the legal costs nearly bankrupted it: a ___ victory if ever there was one.",
+    "options": [
+      "landslide",
+      "moral",
+      "Pyrrhic",
+      "sweeping"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"a Pyrrhic victory\" = una victoria pírrica: se gana, pero a un coste tan alto que casi equivale a perder.",
+      "wrong": {
+        "landslide": "\"landslide victory\" es una victoria aplastante y clara; aquí el triunfo casi arruina a la empresa.",
+        "moral": "\"moral victory\" se usa cuando pierdes pero demuestras que tenías razón; aquí la empresa sí ganó el juicio.",
+        "sweeping": "\"sweeping victory\" es una victoria arrolladora; no transmite el coste ruinoso de ganar."
+      },
+      "examples": [
+        "The strike ended in a Pyrrhic victory for the union.",
+        "Winning the argument was a Pyrrhic victory: we never spoke again."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-albatross-around-ones-neck-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "albatross-around-ones-neck",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "What does it mean if 'the unpopular tax reform became an albatross around the government's neck'?",
+    "options": [
+      "Se convirtió en un símbolo de buena suerte para el gobierno.",
+      "Le dio al gobierno una ventaja inesperada.",
+      "Fue un secreto que el gobierno guardó bien.",
+      "Se convirtió en una carga de la que el gobierno no podía librarse."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"an albatross around one's neck\" = un lastre, un problema o culpa que te persigue y no puedes quitarte de encima.",
+      "wrong": {
+        "Se convirtió en un símbolo de buena suerte para el gobierno.": "El albatros aquí no trae suerte: en el poema de Coleridge es un castigo que el marinero lleva colgado al cuello.",
+        "Le dio al gobierno una ventaja inesperada.": "Es lo contrario: 'unpopular' indica que la reforma perjudica al gobierno.",
+        "Fue un secreto que el gobierno guardó bien.": "La expresión no tiene que ver con secretos, sino con una carga o lastre constante."
+      },
+      "examples": [
+        "The huge debt became an albatross around his neck.",
+        "That failed project is still an albatross around her neck."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-beyond-the-pale-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "beyond-the-pale",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "His offensive remarks about the waiters were completely ___, and he was asked to leave the restaurant.",
+    "options": [
+      "beside the point",
+      "beyond the pale",
+      "out of the woods",
+      "off the record"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "beyond the pale\" = totalmente inaceptable, fuera de los límites de la decencia.",
+      "wrong": {
+        "beside the point": "\"beside the point\" es 'irrelevante'; no explica por qué le echan del restaurante.",
+        "out of the woods": "\"out of the woods\" es 'fuera de peligro'; no describe un comportamiento inaceptable.",
+        "off the record": "\"off the record\" es extraoficial, no para publicar; no describe un comportamiento inaceptable que justifique echar a alguien."
+      },
+      "examples": [
+        "Cheating in an exam for children is beyond the pale.",
+        "Some of his jokes were beyond the pale."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-busmans-holiday-004",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "busmans-holiday",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "A chef spends her day off cooking a big dinner for friends. Her friend says it's 'a busman's holiday'. What does that mean?",
+    "options": [
+      "Ha hecho unas vacaciones muy baratas.",
+      "Ha viajado en autobús.",
+      "Pasa su tiempo libre haciendo lo mismo que en su trabajo.",
+      "Ha tenido un día festivo sin cobrar."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"a busman's holiday\" = tiempo libre que pasas haciendo lo mismo que haces en el trabajo.",
+      "wrong": {
+        "Ha hecho unas vacaciones muy baratas.": "La expresión no habla de precio, sino de pasar el tiempo libre haciendo lo mismo que en el trabajo.",
+        "Ha viajado en autobús.": "Es una interpretación literal; el sentido es figurado: hacer en el tiempo libre lo mismo que en el trabajo.",
+        "Ha tenido un día festivo sin cobrar.": "No tiene que ver con el sueldo, sino con repetir la actividad laboral en el tiempo libre."
+      },
+      "examples": [
+        "For a teacher, helping my kids with homework is a busman's holiday.",
+        "He's a mechanic, so fixing his friend's car was a busman's holiday."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-damn-with-faint-praise-005",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "damn-with-faint-praise",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "By calling the novel 'perfectly adequate', the critic ___ with faint praise.",
+    "options": [
+      "damned it",
+      "condemned it",
+      "praised it",
+      "flattered it"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"damn with faint praise\" = criticar de forma indirecta mediante un elogio tan tibio que suena a desaprobación.",
+      "wrong": {
+        "condemned it": "En español diríamos 'condenarlo', pero la expresión fija en inglés es \"damn with faint praise\", no \"condemn\".",
+        "praised it": "\"praise with faint praise\" es redundante y no existe; la gracia es que un elogio tibio actúa como crítica.",
+        "flattered it": "\"flatter\" es halagar o adular; no forma esta expresión y contradice la idea de un elogio pobre."
+      },
+      "examples": [
+        "Describing the meal as 'edible' was damning it with faint praise.",
+        "His reference letter damned her with faint praise."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-flash-in-the-pan-006",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "flash-in-the-pan",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Critics predicted the band would be a ___, but twenty years later they're still selling out stadiums.",
+    "options": [
+      "flash in the pan",
+      "bolt from the blue",
+      "storm in a teacup",
+      "flame in the pan"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"a flash in the pan\" = un éxito repentino que no dura; algo efímero.",
+      "wrong": {
+        "bolt from the blue": "\"a bolt from the blue\" es una sorpresa repentina; no implica que el éxito vaya a durar poco.",
+        "storm in a teacup": "\"a storm in a teacup\" es una tormenta en un vaso de agua (un drama exagerado); no habla de éxito efímero.",
+        "flame in the pan": "La expresión fija es \"flash in the pan\", no \"flame\"."
+      },
+      "examples": [
+        "His early success turned out to be a flash in the pan.",
+        "Is this new trend just a flash in the pan?"
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-acid-test-007",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "acid-test",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Choose the best option: 'The new manager seems confident, but the real ___ will be how she handles the end-of-year results.'",
+    "options": [
+      "litmus paper",
+      "acid rain",
+      "acid test",
+      "lemon test"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"the acid test\" = la prueba de fuego, la prueba definitiva que muestra si algo vale o no.",
+      "wrong": {
+        "litmus paper": "\"litmus paper\" es el papel tornasol del laboratorio; la expresión figurada sería \"litmus test\", no \"paper\".",
+        "acid rain": "\"acid rain\" es lluvia ácida, un fenómeno medioambiental; no significa prueba decisiva.",
+        "lemon test": "\"lemon test\" no es una expresión idiomática en inglés; puede salir de pensar en algo 'ácido'."
+      },
+      "examples": [
+        "The acid test of a good restaurant is whether people come back.",
+        "This match is the acid test for the young team."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-hostage-to-fortune-008",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "hostage-to-fortune",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "When a politician promised never to raise taxes, a journalist called it 'a hostage to fortune'. What did she mean?",
+    "options": [
+      "Era una apuesta totalmente segura.",
+      "Era un compromiso arriesgado que podía volverse en su contra.",
+      "Era un golpe de buena suerte.",
+      "Era una deuda pendiente."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"a hostage to fortune\" = una promesa o acción que te deja expuesto a problemas futuros que no controlas.",
+      "wrong": {
+        "Era una apuesta totalmente segura.": "Es lo contrario: la expresión indica riesgo, porque las circunstancias pueden obligarle a romper la promesa.",
+        "Era un golpe de buena suerte.": "'fortune' aquí significa 'destino, azar', no 'suerte' ni 'riqueza'.",
+        "Era una deuda pendiente.": "No se refiere a dinero; un 'rehén' de la fortuna es algo que queda expuesto a lo que pueda pasar."
+      },
+      "examples": [
+        "Setting a fixed date for the launch was a hostage to fortune.",
+        "Don't give hostages to fortune by promising too much."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-hobsons-choice-009",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "hobsons-choice",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "With only one train a day to the village, it was ___: take the 6 a.m. service or don't travel at all.",
+    "options": [
+      "a free choice",
+      "spoilt for choice",
+      "a choice of words",
+      "Hobson's choice"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Hobson's choice\" = no tener elección real: o aceptas lo que hay o te quedas sin nada.",
+      "wrong": {
+        "a free choice": "Es lo contrario: no hay alternativa real, solo aceptar o renunciar.",
+        "spoilt for choice": "\"be spoilt for choice\" es tener muchas opciones; además no encaja gramaticalmente tras \"it was\".",
+        "a choice of words": "\"a choice of words\" se refiere a la forma de expresarse; no tiene que ver con los trenes."
+      },
+      "examples": [
+        "It's Hobson's choice: work late or lose the contract.",
+        "With only one candidate, the vote was Hobson's choice."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-on-tenterhooks-010",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "on-tenterhooks",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "We were ___ all evening, waiting for the results of the election to come in.",
+    "options": [
+      "on the hooks",
+      "on tenterhooks",
+      "on cloud nine",
+      "on the mend"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"on tenterhooks\" = en ascuas, con mucha ansiedad esperando saber algo.",
+      "wrong": {
+        "on the hooks": "La expresión fija es \"on tenterhooks\"; \"on the hooks\" no tiene este sentido.",
+        "on cloud nine": "\"on cloud nine\" es estar loco de contento; aquí aún no saben el resultado y están nerviosos.",
+        "on the mend": "\"on the mend\" es estar recuperándose de una enfermedad; no tiene que ver con la espera."
+      },
+      "examples": [
+        "She kept us on tenterhooks until the very end.",
+        "I've been on tenterhooks all week waiting for the job offer."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-pass-muster-011",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "pass-muster",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Choose the best option: 'His first draft didn't ___ with the editor, so he had to rewrite most of it.'",
+    "options": [
+      "pass muster",
+      "pass the buck",
+      "pass mustard",
+      "pass away"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"pass muster\" = ser aceptable, cumplir con el nivel exigido tras una revisión.",
+      "wrong": {
+        "pass the buck": "\"pass the buck\" es echarle el muerto a otro, pasar la responsabilidad; no es ser aceptado.",
+        "pass mustard": "Confusión frecuente por el sonido: es \"muster\" (revista militar), no \"mustard\" (mostaza).",
+        "pass away": "\"pass away\" es fallecer; no tiene sentido con un borrador."
+      },
+      "examples": [
+        "Your essay won't pass muster with all those errors.",
+        "The new safety measures passed muster with the inspectors."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-poisoned-chalice-012",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "poisoned-chalice",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Someone describes taking over a failing football club as 'a poisoned chalice'. What does it mean?",
+    "options": [
+      "Es un regalo muy valioso.",
+      "Es una trampa ilegal.",
+      "Es una oportunidad sin ningún riesgo.",
+      "Parece un honor, pero en realidad trae problemas."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"a poisoned chalice\" = un cáliz envenenado: algo que parece una oportunidad o un honor pero acaba perjudicando.",
+      "wrong": {
+        "Es un regalo muy valioso.": "Solo lo parece: el cáliz está 'envenenado', así que el honor esconde problemas.",
+        "Es una trampa ilegal.": "No implica nada ilegal; simplemente es un puesto que probablemente acabará mal.",
+        "Es una oportunidad sin ningún riesgo.": "Es lo contrario: la expresión subraya el riesgo de fracasar."
+      },
+      "examples": [
+        "The leadership of the party proved to be a poisoned chalice.",
+        "Many saw the job as a poisoned chalice."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-a-sop-to-someone-013",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "a-sop-to-someone",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "The small pay rise was merely ___ the unions, designed to stop them going on strike.",
+    "options": [
+      "a soup for",
+      "a stop to",
+      "a sop to",
+      "a step to"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"a sop to someone\" = una pequeña concesión para contentar o apaciguar a alguien sin resolver el problema.",
+      "wrong": {
+        "a soup for": "Parece la 'sopa' del español, pero la expresión es \"a sop to\": una concesión pequeña para calmar a alguien.",
+        "a stop to": "\"put a stop to\" es poner fin a algo; \"a stop to the unions\" no tiene sentido aquí.",
+        "a step to": "\"a step to/towards\" es un paso hacia algo; no expresa una concesión para apaciguar."
+      },
+      "examples": [
+        "The new park was a sop to angry residents.",
+        "These changes are just a sop to public opinion."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-thin-end-of-the-wedge-014",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "thin-end-of-the-wedge",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Charging for plastic bags is just ___; soon they'll be charging us for paper ones too.",
+    "options": [
+      "the thick end of the wedge",
+      "the end of the road",
+      "the thin end of the wedge",
+      "the edge of the wedge"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"the thin end of the wedge\" = un primer cambio pequeño que abrirá la puerta a otros mayores y peores.",
+      "wrong": {
+        "the thick end of the wedge": "La expresión fija es \"thin end\": la parte fina de la cuña es la que entra primero.",
+        "the end of the road": "\"the end of the road\" es el final de algo; contradice 'soon they'll be charging us...'.",
+        "the edge of the wedge": "No es una expresión inglesa; la forma correcta es \"the thin end of the wedge\"."
+      },
+      "examples": [
+        "Some say this tax is the thin end of the wedge.",
+        "Allowing one exception could be the thin end of the wedge."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-sword-of-damocles-015",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "sword-of-damocles",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "What does it mean: 'The threat of redundancy hung over the workers like the sword of Damocles'?",
+    "options": [
+      "Era una protección poderosa para ellos.",
+      "Era una decisión justa de la empresa.",
+      "Era un castigo que ya habían cumplido.",
+      "Era un peligro inminente que los amenazaba constantemente."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"a sword of Damocles\" = la espada de Damocles: un peligro que amenaza constantemente y puede caer en cualquier momento.",
+      "wrong": {
+        "Era una protección poderosa para ellos.": "Es lo contrario: la espada cuelga sobre la cabeza como amenaza, no como defensa.",
+        "Era una decisión justa de la empresa.": "La expresión no valora si algo es justo; habla de una amenaza constante.",
+        "Era un castigo que ya habían cumplido.": "La espada de Damocles es algo que puede caer en cualquier momento, no algo pasado."
+      },
+      "examples": [
+        "The court case is a sword of Damocles hanging over the company.",
+        "Debt hung over them like a sword of Damocles."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-toe-the-line-016",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "toe-the-line",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Ministers who refuse to ___ on the new policy will be removed from the cabinet.",
+    "options": [
+      "toe the line",
+      "tow the line",
+      "cross the line",
+      "draw the line"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"toe the line\" = acatar las normas o la postura oficial, aunque no estés de acuerdo.",
+      "wrong": {
+        "tow the line": "Error frecuente por el sonido: \"tow\" es remolcar. La expresión es \"toe\" (dedo del pie), poner los pies en la línea.",
+        "cross the line": "\"cross the line\" es pasarse de la raya; aquí se castiga a quien no obedece, no a quien se pasa.",
+        "draw the line": "\"draw the line\" es poner un límite (a lo que aceptas); no significa acatar la disciplina del partido."
+      },
+      "examples": [
+        "Employees are expected to toe the line.",
+        "He refused to toe the party line."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-rest-on-your-laurels-017",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "rest-on-your-laurels",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Choose the best option: 'We won the league last year, but we can't ___: every team will want to beat us now.'",
+    "options": [
+      "sleep on our laurels",
+      "rest on our laurels",
+      "rest our case",
+      "turn over a new leaf"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"rest on one's laurels\" = dormirse en los laureles, confiarse tras un éxito y dejar de esforzarse.",
+      "wrong": {
+        "sleep on our laurels": "En español decimos 'dormirse en los laureles', pero en inglés el verbo es \"rest\", no \"sleep\".",
+        "rest our case": "\"I rest my case\" se usa al terminar un argumento ('no hay más que hablar'); no es confiarse tras un éxito.",
+        "turn over a new leaf": "\"turn over a new leaf\" es empezar de nuevo y cambiar a mejor; no encaja con 'we can't'."
+      },
+      "examples": [
+        "She's not one to rest on her laurels.",
+        "The company rested on its laurels and lost market share."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-baptism-of-fire-018",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "baptism-of-fire",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Her first week as a teacher was a real ___: a school inspection, two parents' evenings and a class of thirty-five.",
+    "options": [
+      "ring of fire",
+      "line of fire",
+      "christening of fire",
+      "baptism of fire"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"a baptism of fire\" = un bautismo de fuego: un comienzo muy difícil en una actividad nueva.",
+      "wrong": {
+        "ring of fire": "\"ring of fire\" es un anillo de fuego (o la zona volcánica del Pacífico); no es un comienzo difícil.",
+        "line of fire": "\"in the line of fire\" es estar en la línea de tiro, expuesto a críticas; no describe un debut duro.",
+        "christening of fire": "\"christening\" es el bautizo de un bebé; la expresión fija usa \"baptism\"."
+      },
+      "examples": [
+        "His first match as captain was a baptism of fire.",
+        "Starting during the busy season was a baptism of fire."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-cast-pearls-before-swine-019",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "cast-pearls-before-swine",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "What does it mean: 'Explaining fine wine to him is like casting pearls before swine'?",
+    "options": [
+      "Gastar mucho dinero en lujos.",
+      "Desperdiciar comida.",
+      "Ofrecer algo valioso a quien no sabe apreciarlo.",
+      "Presumir de ser rico."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"cast pearls before swine\" = echar margaritas a los cerdos: dar algo valioso a quien no lo aprecia.",
+      "wrong": {
+        "Gastar mucho dinero en lujos.": "No se habla de gastar dinero; las perlas representan algo valioso que el otro no valora.",
+        "Desperdiciar comida.": "Aunque haya cerdos, la expresión no tiene que ver con comida.",
+        "Presumir de ser rico.": "No es presumir; el problema está en que el receptor no aprecia lo que recibe."
+      },
+      "examples": [
+        "Playing Mozart for that crowd was casting pearls before swine.",
+        "Don't cast pearls before swine."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-steal-a-march-on-020",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "steal-a-march-on",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "By launching their product a month early, they managed to ___ their main competitor.",
+    "options": [
+      "steal a march on",
+      "march on",
+      "steal a match on",
+      "fall behind"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"steal a march on someone\" = tomar la delantera a alguien, adelantarse a un rival.",
+      "wrong": {
+        "march on": "\"march on\" es seguir avanzando o marchar hacia un lugar; falta \"steal a\" para el sentido de adelantarse.",
+        "steal a match on": "La expresión fija es \"march\" (marcha militar), no \"match\".",
+        "fall behind": "\"fall behind\" es quedarse atrás; contradice lanzar el producto antes."
+      },
+      "examples": [
+        "The rival paper stole a march on us with the story.",
+        "Early planning helped us steal a march on the competition."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-nine-days-wonder-021",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "nine-days-wonder",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Choose the best option: 'The viral video was a ___: everyone talked about it for a week, then it was completely forgotten.'",
+    "options": [
+      "nine-to-five",
+      "wonder of the world",
+      "cat with nine lives",
+      "nine days' wonder"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"a nine days' wonder\" = algo que causa sensación durante un tiempo muy breve y luego se olvida.",
+      "wrong": {
+        "nine-to-five": "\"a nine-to-five\" es un trabajo de horario de oficina; no tiene que ver con la fama pasajera.",
+        "wonder of the world": "\"a wonder of the world\" es una maravilla del mundo, algo admirable y duradero; lo contrario de 'forgotten'.",
+        "cat with nine lives": "Tener 'nine lives' es sobrevivir a todo; aquí el vídeo cae en el olvido."
+      },
+      "examples": [
+        "The scandal was a nine days' wonder.",
+        "Her fame proved to be a nine days' wonder."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-put-the-cat-among-the-pigeons-022",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "put-the-cat-among-the-pigeons",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "Announcing that the office would move to another city really ___ among the pigeons.",
+    "options": [
+      "let the cat",
+      "put the cat",
+      "put the dog",
+      "threw the bird"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"put the cat among the pigeons\" = decir o hacer algo que causa alboroto o polémica.",
+      "wrong": {
+        "let the cat": "Se confunde con \"let the cat out of the bag\" (revelar un secreto); la expresión es \"put the cat among the pigeons\".",
+        "put the dog": "El animal de la expresión fija es el gato: \"put the cat among the pigeons\".",
+        "threw the bird": "No existe esta expresión; la forma fija es \"put the cat among the pigeons\"."
+      },
+      "examples": [
+        "His resignation really put the cat among the pigeons.",
+        "That proposal will put the cat among the pigeons."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-at-sixes-and-sevens-023",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "at-sixes-and-sevens",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "What does it mean: 'The office has been at sixes and sevens since the manager left'?",
+    "options": [
+      "Trabaja con horarios muy tempranos.",
+      "Está desorganizada y todo es un caos.",
+      "Está de celebración constante.",
+      "Está en completo silencio."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"at sixes and sevens\" = hecho un lío, en total desorden o confusión.",
+      "wrong": {
+        "Trabaja con horarios muy tempranos.": "Es una lectura literal de los números como horas ('a las seis y a las siete'); la expresión no habla de horarios.",
+        "Está de celebración constante.": "No implica celebración; describe confusión y desorden.",
+        "Está en completo silencio.": "No tiene que ver con el ruido; significa desorganización."
+      },
+      "examples": [
+        "After the move, the house was at sixes and sevens.",
+        "The team was at sixes and sevens in the first half."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-the-proof-of-the-pudding-024",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "the-proof-of-the-pudding",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "The new design looks great on paper, but the proof of the pudding is in the ___.",
+    "options": [
+      "cooking",
+      "baking",
+      "recipe",
+      "eating"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"the proof of the pudding is in the eating\" = algo solo se puede juzgar de verdad cuando se prueba en la práctica.",
+      "wrong": {
+        "cooking": "La expresión fija es \"in the eating\": algo se demuestra al probarlo, no al prepararlo.",
+        "baking": "Hornear es parte de la preparación; el refrán dice que la prueba está en comerlo: \"eating\".",
+        "recipe": "La receta es la teoría ('on paper'); el refrán insiste en que lo que cuenta es el resultado: \"eating\"."
+      },
+      "examples": [
+        "We'll see if the plan works: the proof of the pudding is in the eating.",
+        "The proof of the pudding will be next season's results."
+      ]
+    }
+  },
+  {
+    "id": "idiom-c2-curates-egg-025",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "curates-egg",
+    "tags": [
+      "idiom"
+    ],
+    "prompt": "A critic says a new album is 'a bit of a curate's egg'. What does she mean?",
+    "options": [
+      "Tiene partes buenas y partes malas.",
+      "Es completamente malo.",
+      "Es una obra maestra.",
+      "Es muy raro y valioso."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"a curate's egg\" (británico) = algo irregular, con partes buenas y partes malas.",
+      "wrong": {
+        "Es completamente malo.": "El 'curate's egg' no es malo del todo: es bueno 'en partes'.",
+        "Es una obra maestra.": "Tampoco es todo bueno; la expresión indica calidad desigual.",
+        "Es muy raro y valioso.": "No tiene que ver con rareza o valor; describe algo irregular."
+      },
+      "examples": [
+        "The film is a curate's egg: great acting, terrible script.",
+        "The new menu is something of a curate's egg."
+      ]
+    }
+  }
+]
