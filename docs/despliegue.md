@@ -67,4 +67,4 @@ docker compose up -d server
 docker compose logs server | grep "inicio de sesión externo"
 ```
 
-El registro muestra qué proveedores quedaron activos. Si una cuenta de Google o Facebook usa un correo que ya está registrado con contraseña, el juego no las une solo: pide entrar con la contraseña.
+El registro muestra qué proveedores quedaron activos. Si Google y Facebook traen el mismo correo, el juego las une en una sola cuenta. Si el correo ya está registrado con contraseña, no las une solo: pide entrar con la contraseña.

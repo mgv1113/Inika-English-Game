@@ -79,8 +79,26 @@ export function createPgAuthStore(pool: pg.Pool): AuthStore {
           [email, displayName],
         );
         if (inserted.rowCount === 0) {
-          await client.query("rollback");
-          return null;
+          // El correo ya existe: enlazar solo si esa cuenta no tiene contraseña.
+          const owner = await client.query<UserRow>(
+            `select ${USER_COLUMNS} from users u
+             where u.email = $1
+               and not exists (
+                 select 1 from auth_identities p where p.user_id = u.id and p.provider = 'password'
+               )`,
+            [email],
+          );
+          if (owner.rowCount === 0) {
+            await client.query("rollback");
+            return null;
+          }
+          await client.query(
+            `insert into auth_identities (user_id, provider, subject) values ($1, $2, $3)
+             on conflict (provider, subject) do nothing`,
+            [owner.rows[0].id, provider, subject],
+          );
+          await client.query("commit");
+          return (await findOAuthUser(provider, subject)) ?? toUser(owner.rows[0]);
         }
         const user = toUser(inserted.rows[0]);
         const identity = await client.query(
