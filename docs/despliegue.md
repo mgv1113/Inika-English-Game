@@ -2,7 +2,7 @@
 
 Requisitos: Docker con el plugin compose, y los puertos 80 y 443 abiertos.
 
-1. En el DNS del dominio, crear un registro **A** para el subdominio (por ejemplo `english.posyscr.com`) apuntando a la IP del VPS.
+1. En el DNS del dominio, crear un registro **A** para el subdominio (por ejemplo `english.inikatech.com`; en Cloudflare con la nube gris, "DNS only") apuntando a la IP del VPS.
 2. En el VPS:
 
    ```bash
