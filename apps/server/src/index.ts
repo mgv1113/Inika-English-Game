@@ -3,6 +3,7 @@ import pg from "pg";
 import { Redis } from "ioredis";
 import { buildApp, type HealthCheck } from "./app.js";
 import { createMemoryAuthStore } from "./auth/memory-store.js";
+import { oauthConfigFromEnv } from "./auth/oauth.js";
 import { createPgAuthStore } from "./auth/pg-store.js";
 import type { AuthStore } from "./auth/store.js";
 import { loadQuestions } from "./content.js";
@@ -34,10 +35,14 @@ if (process.env.REDIS_URL) {
   checks.cache = async () => (await redis.ping()) === "PONG";
 }
 
+const oauth = oauthConfigFromEnv(process.env);
+const providers = [oauth?.google && "Google", oauth?.facebook && "Facebook"].filter(Boolean);
+console.log(`inicio de sesión externo: ${providers.length ? providers.join(", ") : "ninguno configurado"}`);
+
 const app = buildApp({
   questions,
   checks,
-  auth: { store, secureCookies: production },
+  auth: { store, secureCookies: production, oauth },
   logger: true,
   trustProxy: Number(process.env.TRUST_PROXY_HOPS ?? 0),
 });

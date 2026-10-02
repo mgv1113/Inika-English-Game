@@ -4,7 +4,7 @@ import { buildApp } from "../src/app.js";
 import { createMemoryAuthStore } from "../src/auth/memory-store.js";
 import { hashPassword, verifyPassword } from "../src/auth/password.js";
 import { createPgAuthStore } from "../src/auth/pg-store.js";
-import { SESSION_COOKIE } from "../src/auth/routes.js";
+import { OAUTH_COOKIE, SESSION_COOKIE } from "../src/auth/routes.js";
 import type { AuthStore } from "../src/auth/store.js";
 import { migrate } from "../src/db/migrate.js";
 
@@ -116,6 +116,17 @@ describe.each(stores)("cuentas con correo (%s)", (_name, setup) => {
     expect((await me(token)).statusCode).toBe(401);
   });
 
+  it("borra la cuenta y deja el correo libre", async () => {
+    const res = await register({ email: "borrar@example.com", password: "secreta-123", displayName: "Borrar" });
+    const token = sessionOf(res)!.value;
+    const del = await app.inject({ method: "DELETE", url: "/api/auth/me", cookies: { [SESSION_COOKIE]: token } });
+    expect(del.statusCode).toBe(204);
+    expect((await me(token)).statusCode).toBe(401);
+    expect((await login({ email: "borrar@example.com", password: "secreta-123" })).statusCode).toBe(401);
+    expect((await register({ email: "borrar@example.com", password: "secreta-123", displayName: "Otra" })).statusCode).toBe(201);
+    expect((await app.inject({ method: "DELETE", url: "/api/auth/me" })).statusCode).toBe(401);
+  });
+
   it("rechaza sesiones inexistentes o vencidas", async () => {
     expect((await me()).statusCode).toBe(401);
     expect((await me("token-inventado")).statusCode).toBe(401);
@@ -128,6 +139,178 @@ describe.each(stores)("cuentas con correo (%s)", (_name, setup) => {
       expiresAt: new Date(Date.now() - 1000),
     });
     expect((await me("vencido")).statusCode).toBe(401);
+  });
+});
+
+describe.each(stores)("Google y Facebook (%s)", (_name, setup) => {
+  let store: AuthStore;
+  let close: () => Promise<void>;
+  let app: ReturnType<typeof buildApp>;
+
+  // Respuestas simuladas de Google y Facebook.
+  let googleProfile: Record<string, unknown>;
+  let facebookProfile: Record<string, unknown>;
+  let tokenStatus = 200;
+  const calls: URL[] = [];
+  const fakeFetch = (async (input: string | URL, init?: RequestInit) => {
+    const url = new URL(String(input));
+    calls.push(url);
+    const reply = (body: object, status = 200) => new Response(JSON.stringify(body), { status });
+    if (url.href === "https://oauth2.googleapis.com/token") {
+      const body = new URLSearchParams(String(init?.body));
+      expect(body.get("code")).toBe("codigo-ok");
+      expect(body.get("code_verifier")).toBeTruthy();
+      return reply({ access_token: "token-google" }, tokenStatus);
+    }
+    if (url.href === "https://openidconnect.googleapis.com/v1/userinfo") return reply(googleProfile);
+    if (url.pathname.endsWith("/oauth/access_token")) return reply({ access_token: "token-facebook" }, tokenStatus);
+    if (url.pathname.endsWith("/me")) return reply(facebookProfile);
+    throw new Error(`llamada inesperada: ${url}`);
+  }) as typeof fetch;
+
+  beforeAll(async () => {
+    ({ store, close } = await setup());
+    app = buildApp({
+      questions: [],
+      auth: {
+        store,
+        secureCookies: true,
+        attemptsPerMinute: 1000,
+        oauth: {
+          publicUrl: "https://juego.example",
+          google: { clientId: "id-google", clientSecret: "secreto-google" },
+          facebook: { clientId: "id-facebook", clientSecret: "secreto-facebook" },
+          fetch: fakeFetch,
+        },
+      },
+    });
+    await app.inject({
+      method: "POST",
+      url: "/api/auth/register",
+      payload: { email: "ocupado@example.com", password: "secreta-123", displayName: "Ocupado" },
+    });
+  });
+  afterAll(async () => {
+    await app.close();
+    await close();
+  });
+
+  async function signIn(provider: "google" | "facebook", query: (state: string) => Record<string, string>) {
+    const start = await app.inject({ method: "GET", url: `/api/auth/${provider}/start` });
+    expect(start.statusCode).toBe(302);
+    const location = new URL(start.headers.location as string);
+    const cookie = start.cookies.find((c) => c.name === OAUTH_COOKIE)!;
+    const res = await app.inject({
+      method: "GET",
+      url: `/api/auth/${provider}/callback`,
+      query: query(location.searchParams.get("state")!),
+      cookies: { [OAUTH_COOKIE]: cookie.value },
+    });
+    return { start, location, res, session: res.cookies.find((c) => c.name === SESSION_COOKIE) };
+  }
+  const ok = (state: string) => ({ code: "codigo-ok", state });
+  const me = (token: string) =>
+    app.inject({ method: "GET", url: "/api/auth/me", cookies: { [SESSION_COOKIE]: token } }).then((r) => r.json().user);
+
+  it("indica qué proveedores están configurados", async () => {
+    expect((await app.inject({ method: "GET", url: "/api/auth/providers" })).json()).toEqual({
+      google: true,
+      facebook: true,
+    });
+  });
+
+  it("envía a Google con state, PKCE y la URL de vuelta exacta", async () => {
+    const { start, location } = await signIn("google", ok);
+    expect(location.origin + location.pathname).toBe("https://accounts.google.com/o/oauth2/v2/auth");
+    expect(location.searchParams.get("client_id")).toBe("id-google");
+    expect(location.searchParams.get("redirect_uri")).toBe("https://juego.example/api/auth/google/callback");
+    expect(location.searchParams.get("code_challenge_method")).toBe("S256");
+    expect(start.cookies.find((c) => c.name === OAUTH_COOKIE)).toMatchObject({
+      httpOnly: true,
+      secure: true,
+      sameSite: "Lax",
+      path: "/api/auth/google",
+    });
+  });
+
+  it("crea la cuenta con Google y la reutiliza en el siguiente inicio de sesión", async () => {
+    googleProfile = { sub: "g-1", email: "Luis@Gmail.com", email_verified: true, name: "  Luis Pérez " };
+    const first = await signIn("google", ok);
+    expect(first.res.statusCode).toBe(302);
+    expect(first.res.headers.location).toBe("/");
+    expect(first.res.cookies.find((c) => c.name === OAUTH_COOKIE)?.value).toBe("");
+    const user = await me(first.session!.value);
+    expect(user).toMatchObject({ email: "luis@gmail.com", displayName: "Luis Pérez" });
+
+    googleProfile = { ...googleProfile, name: "Otro nombre" };
+    const second = await signIn("google", ok);
+    expect((await me(second.session!.value)).id).toBe(user.id);
+  });
+
+  it("no guarda un correo de Google sin verificar", async () => {
+    googleProfile = { sub: "g-2", email: "sin-verificar@gmail.com", email_verified: false, name: "Sin" };
+    const { session } = await signIn("google", ok);
+    expect((await me(session!.value)).email).toBeNull();
+  });
+
+  it("crea la cuenta con Facebook aunque no comparta su correo", async () => {
+    facebookProfile = { id: "fb-1", name: "Marta" };
+    const { location, session } = await signIn("facebook", ok);
+    expect(location.hostname).toBe("www.facebook.com");
+    expect(location.searchParams.get("redirect_uri")).toBe("https://juego.example/api/auth/facebook/callback");
+    expect(await me(session!.value)).toMatchObject({ email: null, displayName: "Marta" });
+    expect(calls.at(-1)!.searchParams.get("appsecret_proof")).toMatch(/^[0-9a-f]{64}$/);
+  });
+
+  it("no enlaza solo con una cuenta de correo existente", async () => {
+    facebookProfile = { id: "fb-2", name: "Intruso", email: "ocupado@example.com" };
+    const { res, session } = await signIn("facebook", ok);
+    expect(res.headers.location).toBe("/?auth_error=email_taken");
+    expect(session).toBeUndefined();
+  });
+
+  it("rechaza una vuelta con state distinto o sin la cookie", async () => {
+    const bad = await signIn("google", () => ({ code: "codigo-ok", state: "otro" }));
+    expect(bad.res.headers.location).toBe("/?auth_error=failed");
+    expect(bad.session).toBeUndefined();
+
+    const noCookie = await app.inject({ method: "GET", url: "/api/auth/google/callback", query: ok("x") });
+    expect(noCookie.headers.location).toBe("/?auth_error=failed");
+  });
+
+  it("vuelve al juego si la persona cancela", async () => {
+    const { res, session } = await signIn("google", (state) => ({ error: "access_denied", state }));
+    expect(res.headers.location).toBe("/?auth_error=cancelled");
+    expect(session).toBeUndefined();
+  });
+
+  it("al borrar la cuenta, Google crea una nueva la próxima vez", async () => {
+    googleProfile = { sub: "g-3", name: "Temporal" };
+    const first = await signIn("google", ok);
+    const before = await me(first.session!.value);
+    await app.inject({ method: "DELETE", url: "/api/auth/me", cookies: { [SESSION_COOKIE]: first.session!.value } });
+    const second = await signIn("google", ok);
+    expect((await me(second.session!.value)).id).not.toBe(before.id);
+  });
+
+  it("avisa si Google o Facebook fallan", async () => {
+    tokenStatus = 400;
+    const { res, session } = await signIn("facebook", ok);
+    tokenStatus = 200;
+    expect(res.headers.location).toBe("/?auth_error=failed");
+    expect(session).toBeUndefined();
+  });
+});
+
+describe("sin credenciales de Google ni Facebook", () => {
+  it("no muestra los botones ni abre las rutas", async () => {
+    const app = buildApp({ questions: [], auth: { store: createMemoryAuthStore(), secureCookies: false } });
+    expect((await app.inject({ method: "GET", url: "/api/auth/providers" })).json()).toEqual({
+      google: false,
+      facebook: false,
+    });
+    expect((await app.inject({ method: "GET", url: "/api/auth/google/start" })).statusCode).toBe(404);
+    await app.close();
   });
 });
 

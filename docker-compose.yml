@@ -24,6 +24,12 @@ services:
       REDIS_URL: redis://cache:6379
       # Proxies delante de la API (Caddy) para leer la IP real en el límite de intentos.
       TRUST_PROXY_HOPS: "1"
+      # Inicio de sesión con Google y Facebook: cada botón aparece solo si tiene sus credenciales.
+      PUBLIC_URL: https://${DOMAIN:-localhost}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      FACEBOOK_APP_ID: ${FACEBOOK_APP_ID:-}
+      FACEBOOK_APP_SECRET: ${FACEBOOK_APP_SECRET:-}
     depends_on:
       db:
         condition: service_healthy
