@@ -4,6 +4,8 @@ import { z } from "zod";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 export const MODES = ["quiz", "fill"] as const;
+/** Máximo de preguntas por partida (Quiz relámpago y Completa la frase dejan elegir la cantidad). */
+export const MAX_QUESTIONS = 100;
 
 /** Niveles que el jugador elige en la pantalla, agrupando los niveles CEFR. */
 export const LEVEL_GROUPS = {
@@ -61,6 +63,16 @@ export function loadQuestions(dir: string): Question[] {
     ids.add(q.id);
   }
   return questions;
+}
+
+/** Preguntas al azar, sin repetir, del grupo de niveles y el modo pedidos. */
+export function pickQuestions(
+  questions: Question[],
+  { group, level, mode, count }: { group?: LevelGroup; level?: (typeof LEVELS)[number]; mode?: (typeof MODES)[number]; count: number },
+) {
+  const levels: readonly string[] | undefined = level ? [level] : group && LEVEL_GROUPS[group];
+  const pool = questions.filter((q) => (!levels || levels.includes(q.level)) && (!mode || q.mode === mode));
+  return [...pool].sort(() => Math.random() - 0.5).slice(0, count);
 }
 
 /** Resultado de contestar `choice`, con la explicación en español. */

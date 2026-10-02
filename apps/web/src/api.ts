@@ -47,20 +47,48 @@ export async function fetchLevelCounts(): Promise<Record<LevelGroup, number>> {
   return res.json();
 }
 
-export async function fetchQuestions(mode: GameMode, group: LevelGroup, count = 5): Promise<PublicQuestion[]> {
-  const modeParam = mode === "mezcla" ? "" : `&mode=${mode}`;
-  const res = await fetch(`/api/questions/sample?count=${count}&group=${group}${modeParam}`);
+export interface GameResult {
+  correct: number;
+  total: number;
+}
+
+export interface GameAnswer extends AnswerResult {
+  score: number;
+  over: boolean;
+  /** Al terminar: mejor partida del jugador en este modo y nivel; null si no tiene cuenta o no acertó ninguna. */
+  best?: GameResult | null;
+}
+
+export async function startGame(
+  mode: Exclude<GameMode, "rally">,
+  group: LevelGroup,
+  count = 5,
+): Promise<{ gameId: string; questions: PublicQuestion[] }> {
+  const res = await fetch("/api/games/start", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ mode, group, count }),
+  });
   if (!res.ok) throw new Error("No se pudieron cargar las preguntas");
   return res.json();
 }
 
-export async function sendAnswer(questionId: string, choice: number): Promise<AnswerResult> {
-  const res = await fetch("/api/answers", {
+export async function answerGame(gameId: string, questionId: string, choice: number): Promise<GameAnswer> {
+  const res = await fetch("/api/games/answer", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ questionId, choice }),
+    body: JSON.stringify({ gameId, questionId, choice }),
   });
   if (!res.ok) throw new Error("No se pudo enviar la respuesta");
+  return res.json();
+}
+
+export async function fetchGameRanking(
+  mode: Exclude<GameMode, "rally">,
+  group: LevelGroup,
+): Promise<(GameResult & { displayName: string })[]> {
+  const res = await fetch(`/api/games/ranking?mode=${mode}&group=${group}`);
+  if (!res.ok) throw new Error("No se pudo cargar el ranking");
   return res.json();
 }
 

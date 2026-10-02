@@ -8,6 +8,7 @@ import { createPgAuthStore } from "./auth/pg-store.js";
 import type { AuthStore } from "./auth/store.js";
 import { loadQuestions } from "./content.js";
 import { migrate } from "./db/migrate.js";
+import { createMemoryGameScoreStore, createPgGameScoreStore, type GameScoreStore } from "./games/store.js";
 import { createMemoryRallyStore, createPgRallyStore, type RallyStore } from "./rally/store.js";
 
 const port = Number(process.env.PORT ?? 3000);
@@ -18,6 +19,7 @@ const questions = loadQuestions(contentDir);
 const checks: Record<string, HealthCheck> = {};
 let store: AuthStore;
 let rally: RallyStore;
+let games: GameScoreStore;
 
 if (process.env.DATABASE_URL) {
   const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
@@ -26,12 +28,14 @@ if (process.env.DATABASE_URL) {
   if (applied.length) console.log(`migraciones aplicadas: ${applied.join(", ")}`);
   store = createPgAuthStore(pool);
   rally = createPgRallyStore(pool);
+  games = createPgGameScoreStore(pool);
 } else if (production) {
   throw new Error("DATABASE_URL es obligatorio en producción");
 } else {
   console.warn("Sin DATABASE_URL: las cuentas se guardan en memoria y se pierden al reiniciar.");
   store = createMemoryAuthStore();
   rally = createMemoryRallyStore();
+  games = createMemoryGameScoreStore();
 }
 
 if (process.env.REDIS_URL) {
@@ -47,6 +51,7 @@ const app = buildApp({
   questions,
   checks,
   rally,
+  games,
   auth: { store, secureCookies: production, oauth },
   logger: true,
   trustProxy: Number(process.env.TRUST_PROXY_HOPS ?? 0),
