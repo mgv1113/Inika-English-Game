@@ -18,8 +18,11 @@ export interface AppOptions {
   trustProxy?: number;
 }
 
+/** Máximo de preguntas por partida (Quiz relámpago deja elegir la cantidad). */
+export const MAX_QUESTIONS = 100;
+
 const sampleQuery = z.object({
-  count: z.coerce.number().int().min(1).max(20).default(5),
+  count: z.coerce.number().int().min(1).max(MAX_QUESTIONS).default(5),
   level: z.enum(LEVELS).optional(),
   group: z.enum(Object.keys(LEVEL_GROUPS) as [LevelGroup, ...LevelGroup[]]).optional(),
   mode: z.enum(MODES).optional(),
