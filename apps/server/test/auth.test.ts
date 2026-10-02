@@ -269,6 +269,19 @@ describe.each(stores)("Google y Facebook (%s)", (_name, setup) => {
     expect(session).toBeUndefined();
   });
 
+  it("une Google y Facebook en la misma cuenta si traen el mismo correo", async () => {
+    googleProfile = { sub: "g-mismo", email: "mismo@gmail.com", email_verified: true, name: "Mismo" };
+    const viaGoogle = await me((await signIn("google", ok)).session!.value);
+
+    facebookProfile = { id: "fb-mismo", name: "Mismo FB", email: "Mismo@gmail.com" };
+    const first = await signIn("facebook", ok);
+    expect(first.res.headers.location).toBe("/");
+    expect((await me(first.session!.value)).id).toBe(viaGoogle.id);
+
+    const again = await signIn("facebook", ok);
+    expect((await me(again.session!.value)).id).toBe(viaGoogle.id);
+  });
+
   it("rechaza una vuelta con state distinto o sin la cookie", async () => {
     const bad = await signIn("google", () => ({ code: "codigo-ok", state: "otro" }));
     expect(bad.res.headers.location).toBe("/?auth_error=failed");

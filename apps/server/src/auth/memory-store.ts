@@ -29,7 +29,13 @@ export function createMemoryAuthStore(): AuthStore {
     async createOAuthUser({ provider, subject, email, displayName }) {
       const existing = oauth.get(oauthKey(provider, subject));
       if (existing) return users.get(existing)!;
-      if (email && emailTaken(email)) return null;
+      if (email && emailTaken(email)) {
+        const owner = [...users.values()].find((u) => u.email === email)!;
+        const hasPassword = [...passwords.values()].some((p) => p.userId === owner.id);
+        if (hasPassword) return null;
+        oauth.set(oauthKey(provider, subject), owner.id);
+        return owner;
+      }
       const user: User = { id: randomUUID(), email, displayName, createdAt: new Date() };
       users.set(user.id, user);
       oauth.set(oauthKey(provider, subject), user.id);

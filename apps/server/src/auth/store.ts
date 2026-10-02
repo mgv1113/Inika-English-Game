@@ -19,8 +19,10 @@ export interface AuthStore {
   /** Usuario dueño de una identidad externa (Google o Facebook), o null si es nueva. */
   findOAuthUser(provider: OAuthProvider, subject: string): Promise<User | null>;
   /**
-   * Crea usuario + identidad externa. Devuelve null si el correo ya pertenece a
-   * otra cuenta (no se enlaza solo: el registro con correo no verifica el correo).
+   * Crea usuario + identidad externa. Si el correo ya pertenece a una cuenta que
+   * solo entra con Google o Facebook (correos verificados), añade la identidad a
+   * esa cuenta. Devuelve null si el correo es de una cuenta con contraseña: ahí
+   * no se enlaza solo, porque el registro con correo no verifica el correo.
    */
   createOAuthUser(input: {
     provider: OAuthProvider;
