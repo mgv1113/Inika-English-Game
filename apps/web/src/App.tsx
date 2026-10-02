@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { fetchQuestions, sendAnswer, type AnswerResult, type PublicQuestion } from "./api";
+import { AuthForm } from "./Auth";
+import { fetchMe, fetchQuestions, logout, sendAnswer, type AnswerResult, type PublicQuestion, type User } from "./api";
 
 type State =
   | { phase: "loading" }
@@ -9,6 +10,8 @@ type State =
 
 export function App() {
   const [state, setState] = useState<State>({ phase: "loading" });
+  const [user, setUser] = useState<User | null>(null);
+  const [showAuth, setShowAuth] = useState(false);
 
   const start = () => {
     setState({ phase: "loading" });
@@ -18,26 +21,59 @@ export function App() {
   };
 
   useEffect(start, []);
+  useEffect(() => {
+    fetchMe().then(setUser, () => setUser(null));
+  }, []);
+
+  const signOut = async () => {
+    await logout();
+    setUser(null);
+  };
 
   return (
     <main className="app">
       <header>
         <h1>Inika English Game</h1>
-        {state.phase === "playing" && (
-          <span className="score">
-            {state.index + 1}/{state.questions.length} · {state.score} pts
-          </span>
-        )}
+        <div className="account">
+          {user ? (
+            <>
+              <span className="muted">Hola, {user.displayName}</span>
+              <button className="link" onClick={signOut}>
+                Salir
+              </button>
+            </>
+          ) : (
+            !showAuth && (
+              <button className="link" onClick={() => setShowAuth(true)}>
+                Entrar
+              </button>
+            )
+          )}
+        </div>
       </header>
-      {state.phase === "loading" && <p className="muted">Cargando…</p>}
-      {state.phase === "error" && (
+      {showAuth && !user && (
+        <AuthForm
+          onDone={(u) => {
+            setUser(u);
+            setShowAuth(false);
+          }}
+          onCancel={() => setShowAuth(false)}
+        />
+      )}
+      {!showAuth && state.phase === "playing" && (
+        <p className="score">
+          {state.index + 1}/{state.questions.length} · {state.score} pts
+        </p>
+      )}
+      {!showAuth && state.phase === "loading" && <p className="muted">Cargando…</p>}
+      {!showAuth && state.phase === "error" && (
         <section className="card">
           <p>{state.message}</p>
           <button onClick={start}>Reintentar</button>
         </section>
       )}
-      {state.phase === "playing" && <Round state={state} setState={setState} />}
-      {state.phase === "done" && (
+      {!showAuth && state.phase === "playing" && <Round state={state} setState={setState} />}
+      {!showAuth && state.phase === "done" && (
         <section className="card center">
           <h2>¡Partida terminada!</h2>
           <p className="big">

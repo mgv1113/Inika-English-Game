@@ -24,6 +24,8 @@ git pull
 docker compose up -d --build
 ```
 
+Las migraciones de la base de datos se aplican solas cuando arranca el servidor (`docker compose logs server` muestra "migraciones aplicadas").
+
 ## Respaldo de la base de datos
 
 ```bash
