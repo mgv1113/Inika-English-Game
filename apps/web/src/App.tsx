@@ -33,6 +33,9 @@ type State =
 /** Máximo que acepta la API en una partida. */
 const MAX_QUESTIONS = 100;
 
+/** Modos en los que el jugador elige cuántas preguntas tendrá la partida. */
+const choosesAmount = (mode: GameMode) => mode === "quiz" || mode === "fill";
+
 // Si volvemos de Google o Facebook con un error, se muestra en el formulario.
 const authResult = takeAuthResult();
 // Los problemas al vincular se muestran en "Mi cuenta"; los de inicio de sesión, en el formulario.
@@ -60,7 +63,7 @@ export function App() {
       return;
     }
     setState({ phase: "loading" });
-    fetchQuestions(mode, chosen, mode === "quiz" ? howMany : 5)
+    fetchQuestions(mode, chosen, choosesAmount(mode) ? howMany : 5)
       .then((questions) => setState({ phase: "playing", questions, index: 0, score: 0 }))
       .catch((e: Error) => setState({ phase: "error", message: e.message }));
   };
@@ -171,7 +174,7 @@ export function App() {
                   key={g.id}
                   className="option level"
                   onClick={() => {
-                    if (mode !== "quiz") return start(g.id);
+                    if (!choosesAmount(mode)) return start(g.id);
                     setGroup(g.id);
                     setState({ phase: "amount" });
                   }}
