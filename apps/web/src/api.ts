@@ -24,6 +24,21 @@ export const LEVEL_GROUPS: { id: LevelGroup; name: string; levels: string }[] = 
   { id: "todos", name: "Todos los niveles", levels: "A1 – C2, mezclados" },
 ];
 
+export type GameMode = "mezcla" | "quiz" | "fill";
+
+/** Modos de juego del menú principal; los que no tienen `id` aún no se pueden jugar. */
+export const GAME_MODES: { id?: GameMode; name: string; description: string }[] = [
+  { id: "quiz", name: "Quiz relámpago", description: "Elige la respuesta correcta" },
+  { id: "fill", name: "Completa la frase", description: "Encuentra la palabra que falta" },
+  { id: "mezcla", name: "Partida mixta", description: "Preguntas de todo tipo" },
+  { name: "Phrasal Verb Builder", description: "Une verbo y partícula" },
+  { name: "Idiom Match", description: "Empareja cada idiom con su significado" },
+  { name: "Corrige el error", description: "Encuentra la palabra incorrecta" },
+  { name: "Ordena la frase", description: "Pon las palabras en orden" },
+  { name: "Escucha y escribe", description: "Dictado en inglés" },
+  { name: "Supervivencia", description: "Tres vidas y dificultad creciente" },
+];
+
 /** Número de preguntas de cada grupo de niveles. */
 export async function fetchLevelCounts(): Promise<Record<LevelGroup, number>> {
   const res = await fetch("/api/levels");
@@ -31,8 +46,9 @@ export async function fetchLevelCounts(): Promise<Record<LevelGroup, number>> {
   return res.json();
 }
 
-export async function fetchQuestions(group: LevelGroup, count = 5): Promise<PublicQuestion[]> {
-  const res = await fetch(`/api/questions/sample?count=${count}&group=${group}`);
+export async function fetchQuestions(mode: GameMode, group: LevelGroup, count = 5): Promise<PublicQuestion[]> {
+  const modeParam = mode === "mezcla" ? "" : `&mode=${mode}`;
+  const res = await fetch(`/api/questions/sample?count=${count}&group=${group}${modeParam}`);
   if (!res.ok) throw new Error("No se pudieron cargar las preguntas");
   return res.json();
 }

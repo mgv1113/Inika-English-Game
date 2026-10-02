@@ -86,4 +86,6 @@ footer a { color: var(--muted); }
 .levels { display: grid; gap: 10px; }
 .level { display: flex; justify-content: space-between; align-items: center; }
 .level .muted { margin: 0; }
+.mode { flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; }
+.levels + .actions { margin-top: 12px; }
 .actions { display: grid; gap: 8px; justify-items: center; }

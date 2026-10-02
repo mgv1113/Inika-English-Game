@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { z } from "zod";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
+export const MODES = ["quiz", "fill"] as const;
 
 /** Niveles que el jugador elige en la pantalla, agrupando los niveles CEFR. */
 export const LEVEL_GROUPS = {
@@ -17,7 +18,7 @@ export type LevelGroup = keyof typeof LEVEL_GROUPS;
 export const questionSchema = z
   .object({
     id: z.string().regex(/^[a-z0-9-]+$/),
-    mode: z.enum(["quiz", "fill"]),
+    mode: z.enum(MODES),
     level: z.enum(LEVELS),
     topic: z.string().min(1),
     tags: z.array(z.string()),
