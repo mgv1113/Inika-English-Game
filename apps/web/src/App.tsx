@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AuthForm } from "./Auth";
-import { fetchMe, fetchQuestions, logout, sendAnswer, type AnswerResult, type PublicQuestion, type User } from "./api";
+import { deleteAccount, fetchMe, fetchQuestions, logout, sendAnswer, takeOAuthError, type AnswerResult, type PublicQuestion, type User } from "./api";
 
 type State =
   | { phase: "loading" }
@@ -8,10 +8,14 @@ type State =
   | { phase: "playing"; questions: PublicQuestion[]; index: number; score: number; result?: { choice: number; answer: AnswerResult } }
   | { phase: "done"; score: number; total: number };
 
+// Si volvemos de Google o Facebook con un error, se muestra en el formulario.
+const oauthError = takeOAuthError();
+
 export function App() {
   const [state, setState] = useState<State>({ phase: "loading" });
   const [user, setUser] = useState<User | null>(null);
-  const [showAuth, setShowAuth] = useState(false);
+  const [showAuth, setShowAuth] = useState(!!oauthError);
+  const [showAccount, setShowAccount] = useState(false);
 
   const start = () => {
     setState({ phase: "loading" });
@@ -28,6 +32,18 @@ export function App() {
   const signOut = async () => {
     await logout();
     setUser(null);
+    setShowAccount(false);
+  };
+
+  const removeAccount = async () => {
+    if (!window.confirm("¿Borrar tu cuenta y todos sus datos? No se puede deshacer.")) return;
+    try {
+      await deleteAccount();
+      setUser(null);
+      setShowAccount(false);
+    } catch (e) {
+      window.alert((e as Error).message);
+    }
   };
 
   return (
@@ -37,7 +53,9 @@ export function App() {
         <div className="account">
           {user ? (
             <>
-              <span className="muted">Hola, {user.displayName}</span>
+              <button className="link" onClick={() => setShowAccount(!showAccount)}>
+                {user.displayName}
+              </button>
               <button className="link" onClick={signOut}>
                 Salir
               </button>
@@ -51,6 +69,20 @@ export function App() {
           )}
         </div>
       </header>
+      {showAccount && user && (
+        <section className="card account-card">
+          <p>
+            <strong>{user.displayName}</strong>
+            {user.email && <span className="muted"> · {user.email}</span>}
+          </p>
+          <button className="danger" onClick={removeAccount}>
+            Borrar mi cuenta
+          </button>
+          <button className="link" onClick={() => setShowAccount(false)}>
+            Volver al juego
+          </button>
+        </section>
+      )}
       {showAuth && !user && (
         <AuthForm
           onDone={(u) => {
@@ -58,6 +90,7 @@ export function App() {
             setShowAuth(false);
           }}
           onCancel={() => setShowAuth(false)}
+          initialError={oauthError}
         />
       )}
       {!showAuth && state.phase === "playing" && (
@@ -82,6 +115,9 @@ export function App() {
           <button onClick={start}>Jugar otra vez</button>
         </section>
       )}
+      <footer>
+        <a href="/privacidad.html">Privacidad</a>
+      </footer>
     </main>
   );
 }

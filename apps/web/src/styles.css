@@ -64,3 +64,17 @@ button.link { background: none; color: var(--primary); padding: 8px; min-height:
 button:disabled { opacity: 0.6; cursor: default; }
 .account { white-space: nowrap; }
 .tab { padding: 10px 8px; }
+.social { display: grid; gap: 10px; margin-bottom: 16px; }
+.social-button {
+  display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px;
+  border-radius: 12px; font-weight: 600; text-decoration: none; border: 2px solid var(--border);
+}
+.social-button.google { background: #fff; color: #1f1f1f; }
+.social-button.facebook { background: #1877f2; color: #fff; border-color: #1877f2; }
+.divider { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 0.9rem; margin: 6px 0 0; }
+.divider::before, .divider::after { content: ""; flex: 1; border-top: 1px solid var(--border); }
+.account-card { display: grid; gap: 10px; margin-bottom: 16px; }
+.account-card p { margin: 0; }
+button.danger { background: var(--wrong); }
+footer { margin-top: 24px; text-align: center; font-size: 0.85rem; }
+footer a { color: var(--muted); }

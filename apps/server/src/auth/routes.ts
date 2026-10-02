@@ -3,10 +3,12 @@ import cookie from "@fastify/cookie";
 import rateLimit from "@fastify/rate-limit";
 import type { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import { z } from "zod";
+import { PROVIDERS, type OAuthConfig } from "./oauth.js";
 import { burnPasswordCheck, hashPassword, verifyPassword } from "./password.js";
-import type { AuthStore, User } from "./store.js";
+import type { AuthStore, OAuthProvider, User } from "./store.js";
 
 export const SESSION_COOKIE = "sid";
+export const OAUTH_COOKIE = "oauth";
 const SESSION_DAYS = 30;
 
 export interface AuthOptions {
@@ -15,6 +17,8 @@ export interface AuthOptions {
   secureCookies: boolean;
   /** Intentos de registro o inicio de sesión por IP y minuto. */
   attemptsPerMinute?: number;
+  /** Google y Facebook. Cada proveedor solo se activa si tiene credenciales. */
+  oauth?: OAuthConfig;
 }
 
 const email = z
@@ -52,7 +56,7 @@ function toPublicUser(user: User) {
 const hashToken = (token: string) => createHash("sha256").update(token).digest();
 
 export async function authRoutes(app: FastifyInstance, opts: AuthOptions) {
-  const { store, secureCookies, attemptsPerMinute = 10 } = opts;
+  const { store, secureCookies, attemptsPerMinute = 10, oauth } = opts;
 
   await app.register(cookie);
   await app.register(rateLimit, {
@@ -128,4 +132,83 @@ export async function authRoutes(app: FastifyInstance, opts: AuthOptions) {
     }
     return { user: toPublicUser(user) };
   });
+
+  app.delete("/api/auth/me", async (req, reply) => {
+    const user = await currentUser(req);
+    if (!user) return reply.code(401).send({ error: "No has iniciado sesión." });
+    await store.deleteUser(user.id);
+    clearSession(reply);
+    return reply.code(204).send();
+  });
+
+  const enabled = (Object.keys(PROVIDERS) as OAuthProvider[]).filter((p) => oauth?.[p]);
+
+  app.get("/api/auth/providers", async () => ({
+    google: enabled.includes("google"),
+    facebook: enabled.includes("facebook"),
+  }));
+
+  for (const provider of enabled) {
+    const client = oauth![provider]!;
+    const flow = PROVIDERS[provider];
+    const redirectUri = `${oauth!.publicUrl}/api/auth/${provider}/callback`;
+    const httpFetch = oauth!.fetch ?? fetch;
+    const cookieOptions = {
+      path: `/api/auth/${provider}`,
+      httpOnly: true,
+      // Lax: el navegador la envía cuando Google o Facebook redirigen de vuelta.
+      sameSite: "lax" as const,
+      secure: secureCookies,
+    };
+    const fail = (reply: FastifyReply, error: OAuthError) => {
+      reply.clearCookie(OAUTH_COOKIE, cookieOptions);
+      return reply.redirect(`/?auth_error=${error}`);
+    };
+
+    app.get(`/api/auth/${provider}/start`, { config: limited }, async (_req, reply) => {
+      const state = randomBytes(16).toString("base64url");
+      const verifier = randomBytes(32).toString("base64url");
+      reply.setCookie(OAUTH_COOKIE, `${state}.${verifier}`, { ...cookieOptions, maxAge: 10 * 60 });
+      return reply.redirect(flow.authorizeUrl({ client, redirectUri, state, verifier }));
+    });
+
+    const callbackQuery = z.object({
+      code: z.string().min(1).optional(),
+      state: z.string().optional(),
+      error: z.string().optional(),
+    });
+
+    app.get(`/api/auth/${provider}/callback`, { config: limited }, async (req, reply) => {
+      const query = callbackQuery.safeParse(req.query);
+      const [state, verifier] = (req.cookies[OAUTH_COOKIE] ?? "").split(".");
+      if (!query.success || !state || !verifier || query.data.state !== state) return fail(reply, "failed");
+      if (query.data.error || !query.data.code) return fail(reply, "cancelled");
+
+      let user: User | null;
+      try {
+        const profile = await flow.fetchProfile({ client, redirectUri, code: query.data.code, verifier, fetch: httpFetch });
+        user =
+          (await store.findOAuthUser(provider, profile.subject)) ??
+          (await store.createOAuthUser({
+            provider,
+            subject: profile.subject,
+            email: profile.email?.trim().toLowerCase() || null,
+            displayName: displayNameFrom(profile.name),
+          }));
+      } catch (err) {
+        req.log.warn({ err, provider }, "falló el inicio de sesión externo");
+        return fail(reply, "failed");
+      }
+      if (!user) return fail(reply, "email_taken");
+
+      reply.clearCookie(OAUTH_COOKIE, cookieOptions);
+      await startSession(reply, user);
+      return reply.redirect("/");
+    });
+  }
 }
+
+/** Motivos que el juego muestra al volver de Google o Facebook (`/?auth_error=...`). */
+export type OAuthError = "cancelled" | "email_taken" | "failed";
+
+const displayNameFrom = (name: string | null) => name?.trim().slice(0, 40).trim() || "Jugador";

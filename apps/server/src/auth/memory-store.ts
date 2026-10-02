@@ -1,15 +1,18 @@
 import { randomUUID } from "node:crypto";
-import type { AuthStore, User } from "./store.js";
+import type { AuthStore, OAuthProvider, User } from "./store.js";
 
 /** Almacenamiento en memoria para tests y desarrollo sin PostgreSQL. */
 export function createMemoryAuthStore(): AuthStore {
   const users = new Map<string, User>();
   const passwords = new Map<string, { userId: string; passwordHash: string }>();
+  const oauth = new Map<string, string>();
   const sessions = new Map<string, { userId: string; expiresAt: Date }>();
+  const oauthKey = (provider: OAuthProvider, subject: string) => `${provider}:${subject}`;
+  const emailTaken = (email: string) => [...users.values()].some((u) => u.email === email);
 
   return {
     async createPasswordUser({ email, displayName, passwordHash }) {
-      if (passwords.has(email)) return null;
+      if (emailTaken(email)) return null;
       const user: User = { id: randomUUID(), email, displayName, createdAt: new Date() };
       users.set(user.id, user);
       passwords.set(email, { userId: user.id, passwordHash });
@@ -18,6 +21,19 @@ export function createMemoryAuthStore(): AuthStore {
     async findPasswordIdentity(email) {
       const identity = passwords.get(email);
       return identity ? { user: users.get(identity.userId)!, passwordHash: identity.passwordHash } : null;
+    },
+    async findOAuthUser(provider, subject) {
+      const userId = oauth.get(oauthKey(provider, subject));
+      return userId ? users.get(userId)! : null;
+    },
+    async createOAuthUser({ provider, subject, email, displayName }) {
+      const existing = oauth.get(oauthKey(provider, subject));
+      if (existing) return users.get(existing)!;
+      if (email && emailTaken(email)) return null;
+      const user: User = { id: randomUUID(), email, displayName, createdAt: new Date() };
+      users.set(user.id, user);
+      oauth.set(oauthKey(provider, subject), user.id);
+      return user;
     },
     async createSession({ tokenHash, userId, expiresAt }) {
       sessions.set(tokenHash.toString("hex"), { userId, expiresAt });
@@ -29,6 +45,12 @@ export function createMemoryAuthStore(): AuthStore {
     },
     async deleteSession(tokenHash) {
       sessions.delete(tokenHash.toString("hex"));
+    },
+    async deleteUser(userId) {
+      users.delete(userId);
+      for (const [key, value] of passwords) if (value.userId === userId) passwords.delete(key);
+      for (const [key, value] of oauth) if (value === userId) oauth.delete(key);
+      for (const [key, value] of sessions) if (value.userId === userId) sessions.delete(key);
     },
   };
 }

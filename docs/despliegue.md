@@ -50,3 +50,21 @@ Si el VPS ya tiene `nginxproxy/nginx-proxy` y `acme-companion` sirviendo otros s
    ```
 
 3. `docker compose up -d --build` como siempre. El certificado puede tardar uno o dos minutos la primera vez (`docker logs acme-companion` muestra el avance).
+
+## Entrar con Google y Facebook
+
+Los botones "Continuar con Google" y "Continuar con Facebook" solo aparecen si sus credenciales están en `.env`. Las credenciales se crean en la consola de cada proveedor con estas URL de redirección exactas (cambiando el dominio si usas otro):
+
+- Google: `https://english-game.inikatech.com/api/auth/google/callback`
+- Facebook: `https://english-game.inikatech.com/api/auth/facebook/callback`
+
+La política de privacidad y las instrucciones para borrar datos, que piden ambos, están en `https://english-game.inikatech.com/privacidad.html` (sección `#borrar`).
+
+Después de completar `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `FACEBOOK_APP_ID` y `FACEBOOK_APP_SECRET` en `.env`:
+
+```bash
+docker compose up -d server
+docker compose logs server | grep "inicio de sesión externo"
+```
+
+El registro muestra qué proveedores quedaron activos. Si una cuenta de Google o Facebook usa un correo que ya está registrado con contraseña, el juego no las une solo: pide entrar con la contraseña.

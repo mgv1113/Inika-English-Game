@@ -1,5 +1,5 @@
 import type pg from "pg";
-import type { AuthStore, User } from "./store.js";
+import type { AuthStore, OAuthProvider, User } from "./store.js";
 
 interface UserRow {
   id: string;
@@ -15,6 +15,16 @@ function toUser(row: UserRow): User {
 }
 
 export function createPgAuthStore(pool: pg.Pool): AuthStore {
+  async function findOAuthUser(provider: OAuthProvider, subject: string) {
+    const { rows } = await pool.query<UserRow>(
+      `select ${USER_COLUMNS}
+       from auth_identities i join users u on u.id = i.user_id
+       where i.provider = $1 and i.subject = $2`,
+      [provider, subject],
+    );
+    return rows[0] ? toUser(rows[0]) : null;
+  }
+
   return {
     async createPasswordUser({ email, displayName, passwordHash }) {
       const client = await pool.connect();
@@ -56,6 +66,43 @@ export function createPgAuthStore(pool: pg.Pool): AuthStore {
       return rows[0] ? { user: toUser(rows[0]), passwordHash: rows[0].password_hash } : null;
     },
 
+    findOAuthUser,
+
+    async createOAuthUser({ provider, subject, email, displayName }) {
+      const client = await pool.connect();
+      try {
+        await client.query("begin");
+        const inserted = await client.query<UserRow>(
+          `insert into users (email, display_name) values ($1, $2)
+           on conflict (email) do nothing
+           returning id, email, display_name, created_at`,
+          [email, displayName],
+        );
+        if (inserted.rowCount === 0) {
+          await client.query("rollback");
+          return null;
+        }
+        const user = toUser(inserted.rows[0]);
+        const identity = await client.query(
+          `insert into auth_identities (user_id, provider, subject) values ($1, $2, $3)
+           on conflict (provider, subject) do nothing`,
+          [user.id, provider, subject],
+        );
+        if (identity.rowCount === 0) {
+          // Otra petición creó la misma identidad a la vez: usar esa cuenta.
+          await client.query("rollback");
+          return findOAuthUser(provider, subject);
+        }
+        await client.query("commit");
+        return user;
+      } catch (err) {
+        await client.query("rollback");
+        throw err;
+      } finally {
+        client.release();
+      }
+    },
+
     async createSession({ tokenHash, userId, expiresAt }) {
       await pool.query("delete from sessions where user_id = $1 and expires_at <= now()", [userId]);
       await pool.query("insert into sessions (token_hash, user_id, expires_at) values ($1, $2, $3)", [
@@ -77,6 +124,11 @@ export function createPgAuthStore(pool: pg.Pool): AuthStore {
 
     async deleteSession(tokenHash) {
       await pool.query("delete from sessions where token_hash = $1", [tokenHash]);
+    },
+
+    async deleteUser(userId) {
+      // Las identidades y sesiones se borran en cascada.
+      await pool.query("delete from users where id = $1", [userId]);
     },
   };
 }

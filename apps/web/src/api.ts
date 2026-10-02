@@ -57,9 +57,41 @@ export async function logout(): Promise<void> {
   await fetch("/api/auth/logout", { method: "POST" });
 }
 
+export async function deleteAccount(): Promise<void> {
+  const res = await fetch("/api/auth/me", { method: "DELETE" });
+  if (!res.ok && res.status !== 401) throw new Error("No se pudo borrar la cuenta. Inténtalo de nuevo.");
+}
+
 /** Usuario con sesión iniciada, o null. */
 export async function fetchMe(): Promise<User | null> {
   const res = await fetch("/api/auth/me");
   if (!res.ok) return null;
   return (await res.json()).user;
+}
+
+export interface Providers {
+  google: boolean;
+  facebook: boolean;
+}
+
+/** Proveedores externos configurados en el servidor. Sin respuesta, ninguno. */
+export async function fetchProviders(): Promise<Providers> {
+  const res = await fetch("/api/auth/providers").catch(() => null);
+  return res?.ok ? res.json() : { google: false, facebook: false };
+}
+
+const OAUTH_ERRORS: Record<string, string> = {
+  cancelled: "Cancelaste el inicio de sesión. Puedes intentarlo otra vez cuando quieras.",
+  email_taken: "Ya tienes una cuenta con ese correo. Entra con tu correo y contraseña.",
+  failed: "No se pudo iniciar sesión. Inténtalo de nuevo.",
+};
+
+/** Lee y quita de la URL el error con el que vuelve un inicio de sesión con Google o Facebook. */
+export function takeOAuthError(): string | undefined {
+  const url = new URL(window.location.href);
+  const code = url.searchParams.get("auth_error");
+  if (!code) return undefined;
+  url.searchParams.delete("auth_error");
+  window.history.replaceState(null, "", url.pathname + url.search + url.hash);
+  return OAUTH_ERRORS[code] ?? OAUTH_ERRORS.failed;
 }
