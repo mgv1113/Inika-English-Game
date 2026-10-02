@@ -1,0 +1,192 @@
+[
+  {
+    "id": "gram-present-simple-001",
+    "mode": "quiz",
+    "level": "A1",
+    "topic": "present-simple",
+    "tags": ["grammar", "third-person"],
+    "prompt": "She ___ to school every day.",
+    "options": ["go", "goes", "going", "gone"],
+    "correct": 1,
+    "explanation": {
+      "rule": "En presente simple, con he/she/it el verbo lleva -s o -es.",
+      "wrong": {
+        "go": "\"go\" es la forma para I/you/we/they. Con \"she\" necesita -es: goes.",
+        "going": "\"going\" necesita el verbo be antes (she is going) y describe algo en progreso, no una rutina.",
+        "gone": "\"gone\" es el participio; se usa con have/has (she has gone)."
+      },
+      "examples": ["He works in a bank.", "It rains a lot in April."]
+    }
+  },
+  {
+    "id": "gram-articles-001",
+    "mode": "fill",
+    "level": "A1",
+    "topic": "articles",
+    "tags": ["grammar"],
+    "prompt": "I saw ___ elephant at the zoo.",
+    "options": ["a", "an", "the", "—"],
+    "correct": 1,
+    "explanation": {
+      "rule": "Se usa \"an\" antes de palabras que empiezan con sonido de vocal.",
+      "wrong": {
+        "a": "\"elephant\" empieza con sonido de vocal, así que es \"an\", no \"a\".",
+        "the": "Es la primera vez que se menciona el elefante, por eso va un artículo indefinido.",
+        "—": "Un sustantivo contable en singular necesita artículo."
+      },
+      "examples": ["an apple", "an hour (la h no suena)", "a university (suena \"yu\")"]
+    }
+  },
+  {
+    "id": "gram-past-simple-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "past-simple",
+    "tags": ["grammar", "irregular-verbs"],
+    "prompt": "Yesterday we ___ a great movie.",
+    "options": ["see", "saw", "seen", "seed"],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Yesterday\" pide pasado simple. \"See\" es irregular: see, saw, seen.",
+      "wrong": {
+        "see": "\"see\" es presente; \"yesterday\" indica pasado.",
+        "seen": "\"seen\" es el participio y necesita have/had (we have seen).",
+        "seed": "\"see\" es irregular, no se le agrega -ed. \"Seed\" significa semilla."
+      },
+      "examples": ["I saw her last week.", "They went home early."]
+    }
+  },
+  {
+    "id": "gram-first-conditional-001",
+    "mode": "fill",
+    "level": "B1",
+    "topic": "first-conditional",
+    "tags": ["grammar", "conditionals"],
+    "prompt": "If it ___ tomorrow, we will stay at home.",
+    "options": ["will rain", "rains", "rained", "rain"],
+    "correct": 1,
+    "explanation": {
+      "rule": "En el primer condicional: if + presente simple, will + verbo.",
+      "wrong": {
+        "will rain": "Después de \"if\" no se usa \"will\" en el primer condicional.",
+        "rained": "\"rained\" corresponde al segundo condicional (if it rained, we would...).",
+        "rain": "Con \"it\" el presente simple lleva -s: rains."
+      },
+      "examples": ["If you study, you will pass.", "If she calls, I'll tell her."]
+    }
+  },
+  {
+    "id": "pv-give-up-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "phrasal-verbs-give",
+    "tags": ["phrasal-verb"],
+    "prompt": "Don't ___! You're almost at the finish line.",
+    "options": ["give up", "give in", "give away", "give back"],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Give up\" = rendirse, dejar de intentar.",
+      "wrong": {
+        "give in": "\"Give in\" = ceder ante la presión de alguien. Aquí no hay nadie presionando.",
+        "give away": "\"Give away\" = regalar algo o revelar un secreto.",
+        "give back": "\"Give back\" = devolver algo."
+      },
+      "examples": ["She gave up smoking.", "Never give up on your dreams."]
+    }
+  },
+  {
+    "id": "pv-look-after-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "phrasal-verbs-look",
+    "tags": ["phrasal-verb"],
+    "prompt": "Can you ___ my cat while I'm on holiday?",
+    "options": ["look for", "look after", "look up", "look into"],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Look after\" = cuidar a alguien o algo.",
+      "wrong": {
+        "look for": "\"Look for\" = buscar.",
+        "look up": "\"Look up\" = buscar información (en un diccionario, en internet).",
+        "look into": "\"Look into\" = investigar un asunto."
+      },
+      "examples": ["Nurses look after patients.", "I'll look after the kids tonight."]
+    }
+  },
+  {
+    "id": "idiom-piece-of-cake-001",
+    "mode": "quiz",
+    "level": "A2",
+    "topic": "idioms-easy-difficult",
+    "tags": ["idiom"],
+    "prompt": "The exam was a piece of cake. What does it mean?",
+    "options": ["It was very easy", "It was delicious", "It was very short", "It was a surprise"],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"A piece of cake\" = algo muy fácil.",
+      "wrong": {
+        "It was delicious": "Es un idiom: no habla de comida, aunque mencione un pastel.",
+        "It was very short": "No habla de duración, sino de dificultad.",
+        "It was a surprise": "Para una sorpresa se diría \"out of the blue\"."
+      },
+      "examples": ["Fixing that bug was a piece of cake.", "Don't worry, the test is a piece of cake."]
+    }
+  },
+  {
+    "id": "idiom-break-the-ice-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "idioms-social",
+    "tags": ["idiom"],
+    "prompt": "He told a joke to ___ at the start of the meeting.",
+    "options": ["break the ice", "break a leg", "hit the sack", "spill the beans"],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Break the ice\" = romper el hielo, hacer que la gente se sienta cómoda.",
+      "wrong": {
+        "break a leg": "\"Break a leg\" = ¡mucha suerte! (se dice antes de una presentación).",
+        "hit the sack": "\"Hit the sack\" = irse a dormir.",
+        "spill the beans": "\"Spill the beans\" = revelar un secreto."
+      },
+      "examples": ["Games are a good way to break the ice.", "She asked about his trip to break the ice."]
+    }
+  },
+  {
+    "id": "vocab-make-do-001",
+    "mode": "fill",
+    "level": "A2",
+    "topic": "make-vs-do",
+    "tags": ["vocabulary", "collocations"],
+    "prompt": "I need to ___ my homework before dinner.",
+    "options": ["make", "do", "have", "take"],
+    "correct": 1,
+    "explanation": {
+      "rule": "Se dice \"do homework\". \"Do\" va con tareas y obligaciones; \"make\" con crear o producir algo.",
+      "wrong": {
+        "make": "\"Make\" es para crear algo (make a cake, make a decision), pero la tarea se \"hace\" con do.",
+        "have": "\"Have homework\" significa tener tarea pendiente, no hacerla.",
+        "take": "\"Take\" no se combina con homework."
+      },
+      "examples": ["do the dishes", "make a mistake", "do your best"]
+    }
+  },
+  {
+    "id": "gram-present-perfect-001",
+    "mode": "quiz",
+    "level": "B1",
+    "topic": "present-perfect",
+    "tags": ["grammar"],
+    "prompt": "I ___ in this city since 2019.",
+    "options": ["live", "lived", "have lived", "am living"],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con \"since\" + un momento del pasado que llega hasta hoy se usa present perfect: have/has + participio.",
+      "wrong": {
+        "live": "El presente simple no conecta el pasado con el presente; en español decimos \"vivo desde\", pero en inglés no.",
+        "lived": "El pasado simple indica algo terminado, pero sigues viviendo ahí.",
+        "am living": "El presente continuo no se usa con \"since\" para algo que empezó en el pasado."
+      },
+      "examples": ["She has worked here since May.", "We have known each other for years."]
+    }
+  }
+]
