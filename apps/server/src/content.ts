@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { z } from "zod";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
+export const MODES = ["quiz", "fill"] as const;
 
 /** Niveles que el jugador elige en la pantalla, agrupando los niveles CEFR. */
 export const LEVEL_GROUPS = {
@@ -17,7 +18,7 @@ export type LevelGroup = keyof typeof LEVEL_GROUPS;
 export const questionSchema = z
   .object({
     id: z.string().regex(/^[a-z0-9-]+$/),
-    mode: z.enum(["quiz", "fill"]),
+    mode: z.enum(MODES),
     level: z.enum(LEVELS),
     topic: z.string().min(1),
     tags: z.array(z.string()),
@@ -59,6 +60,18 @@ export function loadQuestions(dir: string): Question[] {
     ids.add(q.id);
   }
   return questions;
+}
+
+/** Resultado de contestar `choice`, con la explicación en español. */
+export function grade(q: Question, choice: number) {
+  const correct = choice === q.correct;
+  return {
+    correct,
+    correctIndex: q.correct,
+    rule: q.explanation.rule,
+    why: correct ? null : (q.explanation.wrong[q.options[choice]] ?? null),
+    examples: q.explanation.examples,
+  };
 }
 
 export function toPublic({ correct: _c, explanation: _e, ...rest }: Question): PublicQuestion {

@@ -24,6 +24,22 @@ export const LEVEL_GROUPS: { id: LevelGroup; name: string; levels: string }[] = 
   { id: "todos", name: "Todos los niveles", levels: "A1 – C2, mezclados" },
 ];
 
+export type GameMode = "rally" | "mezcla" | "quiz" | "fill";
+
+/** Modos de juego del menú principal; los que no tienen `id` aún no se pueden jugar. */
+export const GAME_MODES: { id?: GameMode; name: string; description: string }[] = [
+  { id: "rally", name: "Rally", description: "¿Cuántas seguidas sin fallar?" },
+  { id: "quiz", name: "Quiz relámpago", description: "Elige la respuesta correcta" },
+  { id: "fill", name: "Completa la frase", description: "Encuentra la palabra que falta" },
+  { id: "mezcla", name: "Partida mixta", description: "Preguntas de todo tipo" },
+  { name: "Phrasal Verb Builder", description: "Une verbo y partícula" },
+  { name: "Idiom Match", description: "Empareja cada idiom con su significado" },
+  { name: "Corrige el error", description: "Encuentra la palabra incorrecta" },
+  { name: "Ordena la frase", description: "Pon las palabras en orden" },
+  { name: "Escucha y escribe", description: "Dictado en inglés" },
+  { name: "Supervivencia", description: "Tres vidas y dificultad creciente" },
+];
+
 /** Número de preguntas de cada grupo de niveles. */
 export async function fetchLevelCounts(): Promise<Record<LevelGroup, number>> {
   const res = await fetch("/api/levels");
@@ -31,8 +47,9 @@ export async function fetchLevelCounts(): Promise<Record<LevelGroup, number>> {
   return res.json();
 }
 
-export async function fetchQuestions(group: LevelGroup, count = 5): Promise<PublicQuestion[]> {
-  const res = await fetch(`/api/questions/sample?count=${count}&group=${group}`);
+export async function fetchQuestions(mode: GameMode, group: LevelGroup, count = 5): Promise<PublicQuestion[]> {
+  const modeParam = mode === "mezcla" ? "" : `&mode=${mode}`;
+  const res = await fetch(`/api/questions/sample?count=${count}&group=${group}${modeParam}`);
   if (!res.ok) throw new Error("No se pudieron cargar las preguntas");
   return res.json();
 }
@@ -127,4 +144,39 @@ export function takeAuthResult(): AuthResult | undefined {
   window.history.replaceState(null, "", url.pathname + url.search + url.hash);
   if (code) return { kind: "error", code, message: OAUTH_ERRORS[code] ?? OAUTH_ERRORS.failed };
   return { kind: "linked", message: `${PROVIDER_NAMES[linked!] ?? "La cuenta"} quedó vinculado. Ya puedes entrar con él.` };
+}
+
+export interface RallyAnswer extends AnswerResult {
+  score: number;
+  over: boolean;
+  /** Siguiente pregunta, si la racha sigue. */
+  next?: PublicQuestion;
+  /** Mejor racha del jugador en este grupo; null si no tiene cuenta o no acertó ninguna. */
+  best?: number | null;
+}
+
+export async function startRally(group: LevelGroup): Promise<{ rallyId: string; question: PublicQuestion; ranked: boolean }> {
+  const res = await fetch("/api/rally/start", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ group }),
+  });
+  if (!res.ok) throw new Error("No se pudo empezar el Rally");
+  return res.json();
+}
+
+export async function answerRally(rallyId: string, choice: number): Promise<RallyAnswer> {
+  const res = await fetch("/api/rally/answer", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ rallyId, choice }),
+  });
+  if (!res.ok) throw new Error("No se pudo enviar la respuesta");
+  return res.json();
+}
+
+export async function fetchRallyRanking(group: LevelGroup): Promise<{ displayName: string; score: number }[]> {
+  const res = await fetch(`/api/rally/ranking?group=${group}`);
+  if (!res.ok) throw new Error("No se pudo cargar el ranking");
+  return res.json();
 }

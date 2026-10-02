@@ -69,6 +69,12 @@ describe("API", () => {
     expect(counts.intermedio).toBe(questions.filter((q) => ["B1", "B2"].includes(q.level)).length);
     expect(counts.avanzado).toBe(questions.filter((q) => ["C1", "C2"].includes(q.level)).length);
     expect(counts.todos).toBe(questions.length);
+    const fill = (await app.inject({ method: "GET", url: "/api/questions/sample?count=20&group=avanzado&mode=fill" })).json();
+    expect(fill).toHaveLength(20);
+    for (const q of fill) {
+      expect(q.mode).toBe("fill");
+      expect(["C1", "C2"]).toContain(q.level);
+    }
     const bad = await app.inject({ method: "GET", url: "/api/questions/sample?group=experto" });
     expect(bad.statusCode).toBe(400);
   });

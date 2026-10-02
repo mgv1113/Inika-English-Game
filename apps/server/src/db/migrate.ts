@@ -39,6 +39,21 @@ export const MIGRATIONS: { version: number; name: string; sql: string }[] = [
       create index sessions_user_id on sessions (user_id);
     `,
   },
+  {
+    version: 2,
+    name: "ranking-rally",
+    sql: `
+      -- Mejor racha de cada jugador en cada grupo de niveles (basico, intermedio, ...).
+      create table rally_scores (
+        user_id uuid not null references users (id) on delete cascade,
+        level_group text not null,
+        best_score int not null check (best_score > 0),
+        achieved_at timestamptz not null default now(),
+        primary key (user_id, level_group)
+      );
+      create index rally_scores_ranking on rally_scores (level_group, best_score desc, achieved_at);
+    `,
+  },
 ];
 
 const LOCK_ID = 7_310_001;

@@ -1,23 +1,29 @@
 import { useEffect, useState } from "react";
 import { AccountCard } from "./Account";
 import { AuthForm } from "./Auth";
+import { QuestionCard } from "./QuestionCard";
+import { Rally } from "./Rally";
 import {
   deleteAccount,
   fetchLevelCounts,
   fetchMe,
   fetchQuestions,
+  GAME_MODES,
   LEVEL_GROUPS,
   logout,
   sendAnswer,
   takeAuthResult,
   type AnswerResult,
+  type GameMode,
   type LevelGroup,
   type PublicQuestion,
   type User,
 } from "./api";
 
 type State =
+  | { phase: "modes" }
   | { phase: "choose" }
+  | { phase: "rally" }
   | { phase: "loading" }
   | { phase: "error"; message: string }
   | { phase: "playing"; questions: PublicQuestion[]; index: number; score: number; result?: { choice: number; answer: AnswerResult } }
@@ -30,17 +36,24 @@ const accountNotice = authResult && (authResult.kind === "linked" || authResult.
 const oauthError = authResult?.kind === "error" && !accountNotice ? authResult.message : undefined;
 
 export function App() {
-  const [state, setState] = useState<State>({ phase: "choose" });
+  const [state, setState] = useState<State>({ phase: "modes" });
+  const [mode, setMode] = useState<GameMode>("mezcla");
   const [group, setGroup] = useState<LevelGroup>("basico");
   const [counts, setCounts] = useState<Partial<Record<LevelGroup, number>>>({});
   const [user, setUser] = useState<User | null>(null);
   const [showAuth, setShowAuth] = useState(!!oauthError);
   const [showAccount, setShowAccount] = useState(!!accountNotice);
 
+  const modeName = GAME_MODES.find((m) => m.id === mode)?.name;
+
   const start = (chosen: LevelGroup = group) => {
     setGroup(chosen);
+    if (mode === "rally") {
+      setState({ phase: "rally" });
+      return;
+    }
     setState({ phase: "loading" });
-    fetchQuestions(chosen, 5)
+    fetchQuestions(mode, chosen, 5)
       .then((questions) => setState({ phase: "playing", questions, index: 0, score: 0 }))
       .catch((e: Error) => setState({ phase: "error", message: e.message }));
   };
@@ -117,8 +130,31 @@ export function App() {
           initialError={oauthError}
         />
       )}
+      {!showAuth && state.phase === "modes" && (
+        <section className="card">
+          <h2>Modos de juego</h2>
+          <div className="levels">
+            {GAME_MODES.map((m) => (
+              <button
+                key={m.name}
+                className="option level mode"
+                disabled={!m.id}
+                onClick={() => {
+                  if (!m.id) return;
+                  setMode(m.id);
+                  setState({ phase: "choose" });
+                }}
+              >
+                <span>{m.name}</span>
+                <span className="muted">{m.id ? m.description : "Próximamente"}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
       {!showAuth && state.phase === "choose" && (
         <section className="card">
+          <p className="muted">{modeName}</p>
           <h2>Elige tu nivel</h2>
           <div className="levels">
             {LEVEL_GROUPS.map((g) => {
@@ -131,11 +167,16 @@ export function App() {
               );
             })}
           </div>
+          <div className="actions">
+            <button className="link" onClick={() => setState({ phase: "modes" })}>
+              Volver a los modos de juego
+            </button>
+          </div>
         </section>
       )}
       {!showAuth && state.phase === "playing" && (
         <p className="score">
-          {LEVEL_GROUPS.find((g) => g.id === group)?.name} · {state.index + 1}/{state.questions.length} · {state.score} pts
+          {modeName} · {LEVEL_GROUPS.find((g) => g.id === group)?.name} · {state.index + 1}/{state.questions.length} · {state.score} pts
         </p>
       )}
       {!showAuth && state.phase === "loading" && <p className="muted">Cargando…</p>}
@@ -144,6 +185,19 @@ export function App() {
           <p>{state.message}</p>
           <button onClick={() => start()}>Reintentar</button>
         </section>
+      )}
+      {state.phase === "rally" && (
+        // Sigue montado mientras se abre "Entrar", para no perder el resultado del Rally.
+        <div hidden={showAuth}>
+          <Rally
+            group={group}
+            groupName={LEVEL_GROUPS.find((g) => g.id === group)!.name}
+            signedIn={!!user}
+            onSignIn={() => setShowAuth(true)}
+            onChangeLevel={() => setState({ phase: "choose" })}
+            onChangeMode={() => setState({ phase: "modes" })}
+          />
+        </div>
       )}
       {!showAuth && state.phase === "playing" && <Round state={state} setState={setState} />}
       {!showAuth && state.phase === "done" && (
@@ -156,6 +210,9 @@ export function App() {
             <button onClick={() => start()}>Jugar otra vez</button>
             <button className="link" onClick={() => setState({ phase: "choose" })}>
               Cambiar nivel
+            </button>
+            <button className="link" onClick={() => setState({ phase: "modes" })}>
+              Cambiar modo de juego
             </button>
           </div>
         </section>
@@ -175,10 +232,8 @@ function Round({
   setState: (s: State) => void;
 }) {
   const q = state.questions[state.index];
-  const result = state.result;
 
   const choose = async (choice: number) => {
-    if (result) return;
     const answer = await sendAnswer(q.id, choice);
     setState({ ...state, score: state.score + (answer.correct ? 1 : 0), result: { choice, answer } });
   };
@@ -192,41 +247,5 @@ function Round({
     }
   };
 
-  return (
-    <section className="card">
-      <p className="muted">
-        {q.level} · {q.mode === "fill" ? "Completa la frase" : "Quiz relámpago"}
-      </p>
-      <h2 className="prompt">{q.prompt}</h2>
-      <div className="options">
-        {q.options.map((option, i) => {
-          let cls = "option";
-          if (result) {
-            if (i === result.answer.correctIndex) cls += " right";
-            else if (i === result.choice) cls += " wrong";
-          }
-          return (
-            <button key={option} className={cls} onClick={() => choose(i)} disabled={!!result}>
-              {option}
-            </button>
-          );
-        })}
-      </div>
-      {result && (
-        <div className={`explanation ${result.answer.correct ? "ok" : "ko"}`}>
-          <strong>{result.answer.correct ? "¡Correcto!" : "Casi…"}</strong>
-          {result.answer.why && <p>{result.answer.why}</p>}
-          <p>
-            <em>Regla:</em> {result.answer.rule}
-          </p>
-          <ul>
-            {result.answer.examples.map((ex) => (
-              <li key={ex}>{ex}</li>
-            ))}
-          </ul>
-          <button onClick={next}>Siguiente</button>
-        </div>
-      )}
-    </section>
-  );
+  return <QuestionCard q={q} result={state.result} onChoose={choose} onNext={next} />;
 }

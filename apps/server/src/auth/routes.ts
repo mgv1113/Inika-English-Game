@@ -53,7 +53,7 @@ function toPublicUser(user: User) {
   return { id: user.id, email: user.email, displayName: user.displayName };
 }
 
-const hashToken = (token: string) => createHash("sha256").update(token).digest();
+export const hashToken = (token: string) => createHash("sha256").update(token).digest();
 
 export async function authRoutes(app: FastifyInstance, opts: AuthOptions) {
   const { store, secureCookies, attemptsPerMinute = 10, oauth } = opts;
