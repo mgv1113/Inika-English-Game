@@ -30,4 +30,21 @@ docker compose up -d --build
 docker compose exec db pg_dump -U inika inika > respaldo-$(date +%F).sql
 ```
 
-Si el VPS ya usa los puertos 80/443 para otro sitio, hay que poner el juego detrás del proxy existente en lugar de exponer Caddy directamente; avisar y se ajusta.
+## VPS con nginx-proxy (puertos 80/443 ya ocupados)
+
+Si el VPS ya tiene `nginxproxy/nginx-proxy` y `acme-companion` sirviendo otros sitios, el juego no publica puertos: se une a la red de nginx-proxy y acme-companion le saca el certificado.
+
+1. Averiguar la red de nginx-proxy:
+
+   ```bash
+   docker inspect nginx-proxy -f '{{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}'
+   ```
+
+2. En `.env`, descomentar y completar:
+
+   ```
+   COMPOSE_FILE=docker-compose.yml:docker-compose.nginx-proxy.yml
+   PROXY_NETWORK=<la red del paso 1>
+   ```
+
+3. `docker compose up -d --build` como siempre. El certificado puede tardar uno o dos minutos la primera vez (`docker logs acme-companion` muestra el avance).

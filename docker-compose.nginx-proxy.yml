@@ -1,0 +1,19 @@
+# Para un VPS donde nginx-proxy + acme-companion ya ocupan los puertos 80 y 443.
+# El juego no publica puertos: nginx-proxy le reenvía el tráfico de $DOMAIN y
+# acme-companion obtiene el certificado HTTPS.
+services:
+  web:
+    ports: !reset []
+    environment:
+      SITE_ADDRESS: ":80"
+      VIRTUAL_HOST: ${DOMAIN:?define DOMAIN en .env}
+      VIRTUAL_PORT: "80"
+      LETSENCRYPT_HOST: ${DOMAIN}
+    networks:
+      - default
+      - proxy
+
+networks:
+  proxy:
+    external: true
+    name: ${PROXY_NETWORK:?define PROXY_NETWORK en .env}
