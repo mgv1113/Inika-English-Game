@@ -68,6 +68,7 @@ describe("API", () => {
     expect(counts.basico).toBe(questions.filter((q) => ["A1", "A2"].includes(q.level)).length);
     expect(counts.intermedio).toBe(questions.filter((q) => ["B1", "B2"].includes(q.level)).length);
     expect(counts.avanzado).toBe(questions.filter((q) => ["C1", "C2"].includes(q.level)).length);
+    expect(counts.todos).toBe(questions.length);
     const bad = await app.inject({ method: "GET", url: "/api/questions/sample?group=experto" });
     expect(bad.statusCode).toBe(400);
   });
