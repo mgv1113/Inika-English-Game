@@ -82,3 +82,4 @@ button:disabled { opacity: 0.6; cursor: default; }
 button.danger { background: var(--wrong); }
 footer { margin-top: 24px; text-align: center; font-size: 0.85rem; }
 footer a { color: var(--muted); }
+.form-ok { color: var(--right); margin: 0; }

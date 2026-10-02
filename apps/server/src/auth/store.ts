@@ -30,6 +30,13 @@ export interface AuthStore {
     email: string | null;
     displayName: string;
   }): Promise<User | null>;
+  /**
+   * Añade una identidad externa a una cuenta ya abierta (vincular desde el perfil).
+   * Devuelve false si esa cuenta de Google o Facebook ya pertenece a otra cuenta del juego.
+   */
+  linkOAuthIdentity(input: { userId: string; provider: OAuthProvider; subject: string }): Promise<boolean>;
+  /** Formas de entrar de una cuenta: `password`, `google`, `facebook`. */
+  listProviders(userId: string): Promise<string[]>;
   createSession(input: { tokenHash: Buffer; userId: string; expiresAt: Date }): Promise<void>;
   /** Usuario de una sesión vigente, o null si no existe o ya expiró. */
   findSessionUser(tokenHash: Buffer): Promise<User | null>;

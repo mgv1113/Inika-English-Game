@@ -130,7 +130,7 @@ export async function authRoutes(app: FastifyInstance, opts: AuthOptions) {
       if (req.cookies[SESSION_COOKIE]) clearSession(reply);
       return reply.code(401).send({ error: "No has iniciado sesión." });
     }
-    return { user: toPublicUser(user) };
+    return { user: { ...toPublicUser(user), providers: await store.listProviders(user.id) } };
   });
 
   app.delete("/api/auth/me", async (req, reply) => {
@@ -165,10 +165,12 @@ export async function authRoutes(app: FastifyInstance, opts: AuthOptions) {
       return reply.redirect(`/?auth_error=${error}`);
     };
 
-    app.get(`/api/auth/${provider}/start`, { config: limited }, async (_req, reply) => {
+    // `?link=1`: vincular a la cuenta abierta en vez de iniciar sesión.
+    app.get(`/api/auth/${provider}/start`, { config: limited }, async (req, reply) => {
       const state = randomBytes(16).toString("base64url");
       const verifier = randomBytes(32).toString("base64url");
-      reply.setCookie(OAUTH_COOKIE, `${state}.${verifier}`, { ...cookieOptions, maxAge: 10 * 60 });
+      const mode = (req.query as { link?: string }).link === "1" ? "link" : "login";
+      reply.setCookie(OAUTH_COOKIE, `${state}.${verifier}.${mode}`, { ...cookieOptions, maxAge: 10 * 60 });
       return reply.redirect(flow.authorizeUrl({ client, redirectUri, state, verifier }));
     });
 
@@ -180,9 +182,25 @@ export async function authRoutes(app: FastifyInstance, opts: AuthOptions) {
 
     app.get(`/api/auth/${provider}/callback`, { config: limited }, async (req, reply) => {
       const query = callbackQuery.safeParse(req.query);
-      const [state, verifier] = (req.cookies[OAUTH_COOKIE] ?? "").split(".");
+      const [state, verifier, mode] = (req.cookies[OAUTH_COOKIE] ?? "").split(".");
       if (!query.success || !state || !verifier || query.data.state !== state) return fail(reply, "failed");
       if (query.data.error || !query.data.code) return fail(reply, "cancelled");
+
+      if (mode === "link") {
+        const current = await currentUser(req);
+        if (!current) return fail(reply, "failed");
+        let linked: boolean;
+        try {
+          const profile = await flow.fetchProfile({ client, redirectUri, code: query.data.code, verifier, fetch: httpFetch });
+          linked = await store.linkOAuthIdentity({ userId: current.id, provider, subject: profile.subject });
+        } catch (err) {
+          req.log.warn({ err, provider }, "falló la vinculación externa");
+          return fail(reply, "failed");
+        }
+        if (!linked) return fail(reply, "in_use");
+        reply.clearCookie(OAUTH_COOKIE, cookieOptions);
+        return reply.redirect(`/?linked=${provider}`);
+      }
 
       let user: User | null;
       try {
@@ -209,6 +227,6 @@ export async function authRoutes(app: FastifyInstance, opts: AuthOptions) {
 }
 
 /** Motivos que el juego muestra al volver de Google o Facebook (`/?auth_error=...`). */
-export type OAuthError = "cancelled" | "email_taken" | "failed";
+export type OAuthError = "cancelled" | "email_taken" | "in_use" | "failed";
 
 const displayNameFrom = (name: string | null) => name?.trim().slice(0, 40).trim() || "Jugador";

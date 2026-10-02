@@ -35,6 +35,8 @@ export interface User {
   id: string;
   email: string | null;
   displayName: string;
+  /** Formas de entrar (`password`, `google`, `facebook`); solo viene en `fetchMe`. */
+  providers?: string[];
 }
 
 async function authRequest(path: string, body?: object): Promise<User> {
@@ -80,18 +82,33 @@ export async function fetchProviders(): Promise<Providers> {
   return res?.ok ? res.json() : { google: false, facebook: false };
 }
 
-const OAUTH_ERRORS: Record<string, string> = {
-  cancelled: "Cancelaste el inicio de sesión. Puedes intentarlo otra vez cuando quieras.",
-  email_taken: "Ya tienes una cuenta con ese correo. Entra con tu correo y contraseña.",
-  failed: "No se pudo iniciar sesión. Inténtalo de nuevo.",
+export const PROVIDER_NAMES: Record<string, string> = {
+  password: "Correo y contraseña",
+  google: "Google",
+  facebook: "Facebook",
 };
 
-/** Lee y quita de la URL el error con el que vuelve un inicio de sesión con Google o Facebook. */
-export function takeOAuthError(): string | undefined {
+const OAUTH_ERRORS: Record<string, string> = {
+  cancelled: "Cancelaste el inicio de sesión. Puedes intentarlo otra vez cuando quieras.",
+  email_taken:
+    "Ya tienes una cuenta con ese correo. Entra con tu correo y contraseña, pulsa tu nombre y vincula Google o Facebook desde ahí.",
+  in_use: "Esa cuenta ya está vinculada a otra cuenta del juego.",
+  failed: "No se pudo completar. Inténtalo de nuevo.",
+};
+
+export type AuthResult =
+  | { kind: "error"; code: string; message: string }
+  | { kind: "linked"; message: string };
+
+/** Lee y quita de la URL el resultado con el que se vuelve de Google o Facebook. */
+export function takeAuthResult(): AuthResult | undefined {
   const url = new URL(window.location.href);
   const code = url.searchParams.get("auth_error");
-  if (!code) return undefined;
+  const linked = url.searchParams.get("linked");
+  if (!code && !linked) return undefined;
   url.searchParams.delete("auth_error");
+  url.searchParams.delete("linked");
   window.history.replaceState(null, "", url.pathname + url.search + url.hash);
-  return OAUTH_ERRORS[code] ?? OAUTH_ERRORS.failed;
+  if (code) return { kind: "error", code, message: OAUTH_ERRORS[code] ?? OAUTH_ERRORS.failed };
+  return { kind: "linked", message: `${PROVIDER_NAMES[linked!] ?? "La cuenta"} quedó vinculado. Ya puedes entrar con él.` };
 }

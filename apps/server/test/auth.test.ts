@@ -282,6 +282,58 @@ describe.each(stores)("Google y Facebook (%s)", (_name, setup) => {
     expect((await me(again.session!.value)).id).toBe(viaGoogle.id);
   });
 
+  it("vincula Facebook a una cuenta con contraseña desde el perfil", async () => {
+    const reg = await app.inject({
+      method: "POST",
+      url: "/api/auth/register",
+      payload: { email: "vincular@example.com", password: "secreta-123", displayName: "Vincular" },
+    });
+    const sid = reg.cookies.find((c) => c.name === SESSION_COOKIE)!.value;
+    facebookProfile = { id: "fb-vincular", name: "Vincular", email: "vincular@example.com" };
+
+    // Sin vincular, Facebook no entra a la cuenta con contraseña.
+    expect((await signIn("facebook", ok)).res.headers.location).toBe("/?auth_error=email_taken");
+
+    const start = await app.inject({ method: "GET", url: "/api/auth/facebook/start?link=1" });
+    const state = new URL(start.headers.location as string).searchParams.get("state")!;
+    const oauthCookie = start.cookies.find((c) => c.name === OAUTH_COOKIE)!.value;
+    const linked = await app.inject({
+      method: "GET",
+      url: "/api/auth/facebook/callback",
+      query: ok(state),
+      cookies: { [OAUTH_COOKIE]: oauthCookie, [SESSION_COOKIE]: sid },
+    });
+    expect(linked.headers.location).toBe("/?linked=facebook");
+    expect((await me(sid)).providers).toEqual(expect.arrayContaining(["password", "facebook"]));
+
+    // Desde ahora Facebook entra a esa misma cuenta.
+    const viaFacebook = await signIn("facebook", ok);
+    expect((await me(viaFacebook.session!.value)).email).toBe("vincular@example.com");
+  });
+
+  it("no vincula una cuenta de Facebook que ya es de otra persona, ni sin sesión", async () => {
+    facebookProfile = { id: "fb-vincular", name: "Otro" };
+    const other = await app.inject({
+      method: "POST",
+      url: "/api/auth/register",
+      payload: { email: "otra@example.com", password: "secreta-123", displayName: "Otra" },
+    });
+    const sid = other.cookies.find((c) => c.name === SESSION_COOKIE)!.value;
+    const link = async (cookies: Record<string, string>) => {
+      const start = await app.inject({ method: "GET", url: "/api/auth/facebook/start?link=1" });
+      const state = new URL(start.headers.location as string).searchParams.get("state")!;
+      return app.inject({
+        method: "GET",
+        url: "/api/auth/facebook/callback",
+        query: ok(state),
+        cookies: { [OAUTH_COOKIE]: start.cookies.find((c) => c.name === OAUTH_COOKIE)!.value, ...cookies },
+      });
+    };
+    expect((await link({ [SESSION_COOKIE]: sid })).headers.location).toBe("/?auth_error=in_use");
+    expect((await link({})).headers.location).toBe("/?auth_error=failed");
+    expect((await me(sid)).providers).toEqual(["password"]);
+  });
+
   it("rechaza una vuelta con state distinto o sin la cookie", async () => {
     const bad = await signIn("google", () => ({ code: "codigo-ok", state: "otro" }));
     expect(bad.res.headers.location).toBe("/?auth_error=failed");
