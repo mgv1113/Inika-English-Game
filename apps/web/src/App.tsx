@@ -49,7 +49,12 @@ export function App() {
   return (
     <main className="app">
       <header>
-        <h1>Inika English Game</h1>
+        <h1>
+          <picture>
+            <source srcSet="/logo-oscuro.svg" media="(prefers-color-scheme: dark)" />
+            <img className="logo" src="/logo-claro.svg" alt="Inika English Game" />
+          </picture>
+        </h1>
         <div className="account">
           {user ? (
             <>
