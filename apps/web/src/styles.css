@@ -83,3 +83,7 @@ button.danger { background: var(--wrong); }
 footer { margin-top: 24px; text-align: center; font-size: 0.85rem; }
 footer a { color: var(--muted); }
 .form-ok { color: var(--right); margin: 0; }
+.levels { display: grid; gap: 10px; }
+.level { display: flex; justify-content: space-between; align-items: center; }
+.level .muted { margin: 0; }
+.actions { display: grid; gap: 8px; justify-items: center; }

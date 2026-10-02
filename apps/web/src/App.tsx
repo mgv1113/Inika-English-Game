@@ -1,9 +1,22 @@
 import { useEffect, useState } from "react";
 import { AccountCard } from "./Account";
 import { AuthForm } from "./Auth";
-import { deleteAccount, fetchMe, fetchQuestions, logout, sendAnswer, takeAuthResult, type AnswerResult, type PublicQuestion, type User } from "./api";
+import {
+  deleteAccount,
+  fetchMe,
+  fetchQuestions,
+  LEVEL_GROUPS,
+  logout,
+  sendAnswer,
+  takeAuthResult,
+  type AnswerResult,
+  type LevelGroup,
+  type PublicQuestion,
+  type User,
+} from "./api";
 
 type State =
+  | { phase: "choose" }
   | { phase: "loading" }
   | { phase: "error"; message: string }
   | { phase: "playing"; questions: PublicQuestion[]; index: number; score: number; result?: { choice: number; answer: AnswerResult } }
@@ -16,19 +29,20 @@ const accountNotice = authResult && (authResult.kind === "linked" || authResult.
 const oauthError = authResult?.kind === "error" && !accountNotice ? authResult.message : undefined;
 
 export function App() {
-  const [state, setState] = useState<State>({ phase: "loading" });
+  const [state, setState] = useState<State>({ phase: "choose" });
+  const [group, setGroup] = useState<LevelGroup>("basico");
   const [user, setUser] = useState<User | null>(null);
   const [showAuth, setShowAuth] = useState(!!oauthError);
   const [showAccount, setShowAccount] = useState(!!accountNotice);
 
-  const start = () => {
+  const start = (chosen: LevelGroup = group) => {
+    setGroup(chosen);
     setState({ phase: "loading" });
-    fetchQuestions(5)
+    fetchQuestions(chosen, 5)
       .then((questions) => setState({ phase: "playing", questions, index: 0, score: 0 }))
       .catch((e: Error) => setState({ phase: "error", message: e.message }));
   };
 
-  useEffect(start, []);
   useEffect(() => {
     fetchMe().then(setUser, () => setUser(null));
   }, []);
@@ -98,16 +112,29 @@ export function App() {
           initialError={oauthError}
         />
       )}
+      {!showAuth && state.phase === "choose" && (
+        <section className="card">
+          <h2>Elige tu nivel</h2>
+          <div className="levels">
+            {LEVEL_GROUPS.map((g) => (
+              <button key={g.id} className="option level" onClick={() => start(g.id)}>
+                <span>{g.name}</span>
+                <span className="muted">{g.levels}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
       {!showAuth && state.phase === "playing" && (
         <p className="score">
-          {state.index + 1}/{state.questions.length} · {state.score} pts
+          {LEVEL_GROUPS.find((g) => g.id === group)?.name} · {state.index + 1}/{state.questions.length} · {state.score} pts
         </p>
       )}
       {!showAuth && state.phase === "loading" && <p className="muted">Cargando…</p>}
       {!showAuth && state.phase === "error" && (
         <section className="card">
           <p>{state.message}</p>
-          <button onClick={start}>Reintentar</button>
+          <button onClick={() => start()}>Reintentar</button>
         </section>
       )}
       {!showAuth && state.phase === "playing" && <Round state={state} setState={setState} />}
@@ -117,7 +144,12 @@ export function App() {
           <p className="big">
             {state.score} / {state.total}
           </p>
-          <button onClick={start}>Jugar otra vez</button>
+          <div className="actions">
+            <button onClick={() => start()}>Jugar otra vez</button>
+            <button className="link" onClick={() => setState({ phase: "choose" })}>
+              Cambiar nivel
+            </button>
+          </div>
         </section>
       )}
       <footer>

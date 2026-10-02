@@ -59,6 +59,15 @@ describe("API", () => {
     }
   });
 
+  it("filtra por grupo de niveles", async () => {
+    const res = await app.inject({ method: "GET", url: "/api/questions/sample?count=20&group=basico" });
+    const body = res.json();
+    expect(body).toHaveLength(20);
+    for (const q of body) expect(["A1", "A2"]).toContain(q.level);
+    const bad = await app.inject({ method: "GET", url: "/api/questions/sample?group=experto" });
+    expect(bad.statusCode).toBe(400);
+  });
+
   it("explica por qué una respuesta es incorrecta", async () => {
     const q = questions[0];
     const wrongChoice = q.correct === 0 ? 1 : 0;
