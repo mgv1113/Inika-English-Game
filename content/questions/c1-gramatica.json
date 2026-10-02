@@ -1,0 +1,1545 @@
+[
+  {
+    "id": "gram-c1-advanced-inversion-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "formal"
+    ],
+    "prompt": "Seldom ___ such a well-organised conference as the one in Lisbon last spring.",
+    "options": [
+      "I have attended",
+      "have I attended",
+      "have attended I",
+      "I did attend"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Tras adverbios negativos o restrictivos (Seldom, Rarely) al inicio de la frase se invierte: auxiliar + sujeto + verbo.",
+      "wrong": {
+        "I have attended": "Sin inversión. En español decimos \"Pocas veces he asistido…\", pero en inglés, tras \"Seldom\" inicial, el auxiliar va delante del sujeto.",
+        "have attended I": "El sujeto no va al final: solo se invierte el auxiliar (have I attended), no el verbo principal.",
+        "I did attend": "Sigue sin inversión; además \"did\" enfático no encaja con el presente perfecto que pide la experiencia."
+      },
+      "examples": [
+        "Seldom have I seen him so angry.",
+        "Rarely does she take a day off."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-inversion-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "narrative"
+    ],
+    "prompt": "Little ___ that the police had been watching him for months.",
+    "options": [
+      "did he know",
+      "he knew",
+      "knew he",
+      "he did know"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Little did + sujeto + verbo\" es una inversión literaria que significa \"no tenía ni idea de que…\".",
+      "wrong": {
+        "he knew": "Falta la inversión: con \"Little\" al principio con sentido negativo se necesita did + sujeto.",
+        "knew he": "En inglés moderno no se invierte el verbo léxico; se usa el auxiliar did: did he know.",
+        "he did know": "\"he did know\" es afirmación enfática (sí lo sabía), justo lo contrario del sentido de \"Little\"."
+      },
+      "examples": [
+        "Little did we realise how difficult it would be.",
+        "Little did she know that her life was about to change."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-inversion-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "formal"
+    ],
+    "prompt": "Under no circumstances ___ to leave the building while the inspection is taking place.",
+    "options": [
+      "staff are allowed",
+      "allowed are staff",
+      "are staff allowed",
+      "staff aren't allowed"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Las expresiones negativas como \"Under no circumstances\" o \"On no account\" al inicio exigen inversión: are staff allowed.",
+      "wrong": {
+        "staff are allowed": "Orden normal sin inversión; tras \"Under no circumstances\" inicial el auxiliar va antes del sujeto.",
+        "allowed are staff": "Se invierte solo el auxiliar con el sujeto; el participio \"allowed\" no se adelanta.",
+        "staff aren't allowed": "Doble negación: \"Under no circumstances\" ya es negativo, así que el verbo va en afirmativo (y con inversión)."
+      },
+      "examples": [
+        "Under no circumstances should you open this door.",
+        "On no account must the alarm be switched off."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-inversion-004",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "time-clauses"
+    ],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "Only when I got home I realised I had lost my keys.",
+      "Only when did I get home I realised I had lost my keys.",
+      "Only when I got home I did realise I had lost my keys.",
+      "Only when I got home did I realise I had lost my keys."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Con \"Only when/after/once…\" la inversión va en la oración principal, no en la subordinada: Only when I got home did I realise…",
+      "wrong": {
+        "Only when I got home I realised I had lost my keys.": "Falta la inversión en la oración principal: did I realise.",
+        "Only when did I get home I realised I had lost my keys.": "La inversión está en el sitio equivocado: se invierte la oración principal, no la que va con \"when\".",
+        "Only when I got home I did realise I had lost my keys.": "\"I did realise\" mantiene el orden sujeto + auxiliar; debe ser auxiliar + sujeto: did I realise."
+      },
+      "examples": [
+        "Only after the meeting had ended did they announce the results.",
+        "Only once you have signed can we process the order."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-inversion-005",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "so-that"
+    ],
+    "prompt": "So ___ that the final had to be postponed until the following day.",
+    "options": [
+      "the rain was heavy",
+      "heavy the rain was",
+      "was the rain heavy",
+      "heavy was the rain"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"So + adjetivo + be + sujeto + that…\" es una inversión enfática formal: So heavy was the rain that…",
+      "wrong": {
+        "the rain was heavy": "Tras \"So\" inicial el adjetivo debe ir pegado a \"So\" y luego el verbo antes del sujeto.",
+        "heavy the rain was": "Orden de español (\"tan fuerte la lluvia era\"); en inglés el verbo va antes del sujeto: heavy was the rain.",
+        "was the rain heavy": "El adjetivo debe ir inmediatamente después de \"So\": So heavy was the rain."
+      },
+      "examples": [
+        "So complex was the problem that nobody could solve it.",
+        "So quickly did he speak that I missed half of it."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-inversion-006",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "conditionals"
+    ],
+    "prompt": "___ any further assistance, please do not hesitate to contact our customer service team.",
+    "options": [
+      "Would you need",
+      "Should you need",
+      "Had you needed",
+      "If you would need"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Should + sujeto + verbo\" sustituye a \"If you need\" en registro formal (condicional con inversión).",
+      "wrong": {
+        "Would you need": "\"Would\" no se usa para la inversión condicional; con este sentido solo vale \"Should\".",
+        "Had you needed": "\"Had you needed\" es tercer condicional (pasado irreal) y no encaja con una petición presente como \"please do not hesitate\".",
+        "If you would need": "No se usa \"would\" tras \"if\" en este tipo de condicional; sería \"If you need\" o \"Should you need\"."
+      },
+      "examples": [
+        "Should you have any questions, please call us.",
+        "Should the flight be delayed, we will inform you by text."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-inversion-007",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "conditionals"
+    ],
+    "prompt": "___ the support of my family, I would never have finished my degree.",
+    "options": [
+      "Had it not been for",
+      "Hadn't it been for",
+      "Had not it been for",
+      "Were it not been for"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Had it not been for…\" = \"If it hadn't been for…\" (sin…). En la inversión condicional la negación no se contrae.",
+      "wrong": {
+        "Hadn't it been for": "En la inversión condicional no se usa la forma contraída: Had it not been for.",
+        "Had not it been for": "\"not\" va después del sujeto: Had it not, no Had not it.",
+        "Were it not been for": "Mezcla dos estructuras: \"Were it not for\" (presente) y \"Had it not been for\" (pasado); \"Were… been\" es incorrecto."
+      },
+      "examples": [
+        "Had it not been for the map, we would have got lost.",
+        "Had it not been for her advice, I would have made a terrible mistake."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-inversion-008",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "conditionals"
+    ],
+    "prompt": "___ the offer, I would have to move to Dublin, which I'm not sure I want to do.",
+    "options": [
+      "I were to accept",
+      "Were I to accept",
+      "Would I accept",
+      "Were I accept"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Were I to + infinitivo\" = \"If I were to…\": condicional hipotético formal con inversión.",
+      "wrong": {
+        "I were to accept": "Sin \"If\" hace falta la inversión: Were I to accept.",
+        "Would I accept": "\"Would\" convierte la frase en pregunta; no sirve para la condición.",
+        "Were I accept": "Falta \"to\": la estructura es Were + sujeto + to + infinitivo."
+      },
+      "examples": [
+        "Were I to lose my job, I would retrain as a teacher.",
+        "Were she to call, tell her I'm busy."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-subjunctive-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive",
+      "formal"
+    ],
+    "prompt": "The doctor insisted that he ___ smoking immediately.",
+    "options": [
+      "stop",
+      "to stop",
+      "stopping",
+      "will stop"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Tras insist/demand/recommend/suggest + that se usa el subjuntivo: el infinitivo sin \"to\" para todas las personas (he stop).",
+      "wrong": {
+        "to stop": "Tras \"that\" va una oración con sujeto y verbo; no lleva \"to\". \"insisted that he to stop\" es incorrecto.",
+        "stopping": "El gerundio no puede ser el verbo de la oración con \"that he…\".",
+        "will stop": "\"will\" no se usa para expresar lo que alguien exige; el subjuntivo inglés es la forma base (stop)."
+      },
+      "examples": [
+        "She insisted that he be present at the meeting.",
+        "They demanded that the company pay compensation."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-subjunctive-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive",
+      "formal"
+    ],
+    "prompt": "It is essential that every applicant ___ a copy of their passport before the interview.",
+    "options": [
+      "submitting",
+      "submitted",
+      "submit",
+      "to submit"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Tras \"It is essential/vital/imperative that…\" se usa el subjuntivo: la forma base del verbo.",
+      "wrong": {
+        "submitting": "El gerundio no puede funcionar como verbo principal de la oración \"that every applicant…\".",
+        "submitted": "El pasado no encaja: es un requisito presente/futuro y la norma pide la forma base (submit).",
+        "to submit": "Con \"that + sujeto\" no se usa \"to\"; sería \"It is essential for every applicant to submit…\"."
+      },
+      "examples": [
+        "It is vital that she arrive on time.",
+        "It is imperative that the data be kept secure."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-subjunctive-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive",
+      "passive"
+    ],
+    "prompt": "The committee recommended that the proposal ___ until next year.",
+    "options": [
+      "to be postponed",
+      "being postponed",
+      "will postpone",
+      "be postponed"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Subjuntivo pasivo: be + participio (that the proposal be postponed), sin cambiar \"be\" según el sujeto.",
+      "wrong": {
+        "to be postponed": "Tras \"that + sujeto\" no va \"to\": the proposal be postponed.",
+        "being postponed": "El gerundio no funciona como verbo de la oración con \"that\".",
+        "will postpone": "Es activa (la propuesta no aplaza nada, es aplazada) y además no es subjuntivo."
+      },
+      "examples": [
+        "They asked that the meeting be cancelled.",
+        "I suggest that the matter be discussed in private."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-subjunctive-004",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive",
+      "spanish-interference"
+    ],
+    "prompt": "Which sentence is correct in formal English?",
+    "options": [
+      "She demanded him to apologise at once.",
+      "She demanded that he apologise at once.",
+      "She demanded that he to apologise at once.",
+      "She demanded that he apologising at once."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Demand\" no admite objeto + infinitivo; se usa demand that + sujeto + forma base (subjuntivo).",
+      "wrong": {
+        "She demanded him to apologise at once.": "Calco del español \"le exigió que…\" con estructura de \"ask him to\"; \"demand\" no funciona así.",
+        "She demanded that he to apologise at once.": "Tras \"that he\" no va \"to\": that he apologise.",
+        "She demanded that he apologising at once.": "El gerundio no puede ser el verbo de la oración subordinada."
+      },
+      "examples": [
+        "The union demanded that wages be increased.",
+        "He demanded that she tell him the truth."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-conditionals-without-if-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "conditionals-without-if",
+    "tags": [
+      "grammar",
+      "conditionals"
+    ],
+    "prompt": "___ you won the lottery, what would you do first?",
+    "options": [
+      "Supposing",
+      "Provided",
+      "Unless",
+      "Otherwise"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Supposing/Suppose (that)\" = \"Imagina que…\" introduce una situación hipotética, como \"if\".",
+      "wrong": {
+        "Provided": "\"Provided\" expresa una condición necesaria (siempre que), no una hipótesis imaginaria en una pregunta.",
+        "Unless": "\"Unless\" = \"a menos que\"; \"a menos que ganaras la lotería, ¿qué harías?\" no tiene sentido.",
+        "Otherwise": "\"Otherwise\" (si no, de lo contrario) no introduce una condición al inicio de la frase."
+      },
+      "examples": [
+        "Supposing it rains, shall we still go?",
+        "Suppose you lost your passport, who would you call?"
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-conditionals-without-if-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "conditionals-without-if",
+    "tags": [
+      "grammar",
+      "conditionals"
+    ],
+    "prompt": "You can borrow my car, ___ you bring it back with a full tank.",
+    "options": [
+      "unless",
+      "in case",
+      "provided that",
+      "otherwise"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Provided (that) / Providing\" = \"siempre que, con tal de que\": condición necesaria.",
+      "wrong": {
+        "unless": "\"unless\" = \"a menos que\": daría el sentido contrario (puedes usarlo si NO lo devuelves lleno).",
+        "in case": "\"in case\" = \"por si acaso\", no expresa una condición: no es \"siempre que\".",
+        "otherwise": "\"otherwise\" significa \"de lo contrario\" y no puede unir así las dos oraciones."
+      },
+      "examples": [
+        "I'll come, provided that I finish work early.",
+        "Providing the weather is good, we'll eat outside."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-conditionals-without-if-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "conditionals-without-if",
+    "tags": [
+      "grammar",
+      "conditionals",
+      "formal"
+    ],
+    "prompt": "___ your help, we would never have met the deadline.",
+    "options": [
+      "Except for",
+      "But for",
+      "Without of",
+      "If not"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"But for + sustantivo\" = \"de no ser por / sin\": condicional formal sin \"if\".",
+      "wrong": {
+        "Except for": "\"Except for\" significa \"excepto\", no \"de no ser por\"; no crea condición.",
+        "Without of": "Calco de \"sin de\"; \"without\" no lleva \"of\" (sería \"Without your help\").",
+        "If not": "\"If not\" no puede ir seguido directamente de un sustantivo; sería \"If it hadn't been for\"."
+      },
+      "examples": [
+        "But for the traffic, we'd have arrived on time.",
+        "But for his quick reaction, there would have been an accident."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-conditionals-without-if-004",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "conditionals-without-if",
+    "tags": [
+      "grammar",
+      "conditionals",
+      "connectors"
+    ],
+    "prompt": "We'd better leave now; ___, we'll miss the last train home.",
+    "options": [
+      "unless",
+      "provided",
+      "supposing",
+      "otherwise"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Otherwise\" = \"si no / de lo contrario\": introduce la consecuencia de no cumplir lo anterior.",
+      "wrong": {
+        "unless": "\"unless\" necesita una oración condicional detrás (unless we hurry); aquí no encaja.",
+        "provided": "\"provided\" introduce una condición, no la consecuencia negativa.",
+        "supposing": "\"supposing\" plantea una hipótesis; no significa \"de lo contrario\"."
+      },
+      "examples": [
+        "Write it down; otherwise you'll forget.",
+        "I'm glad you called, otherwise I'd have waited all day."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-conditionals-without-if-005",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "conditionals-without-if",
+    "tags": [
+      "grammar",
+      "conditionals",
+      "spanish-interference"
+    ],
+    "prompt": "The bank agreed to lend us the money ___ we paid it back within two years.",
+    "options": [
+      "in condition that",
+      "on condition that",
+      "with the condition of",
+      "under condition"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"On condition that\" = \"con la condición de que\": la preposición correcta es \"on\".",
+      "wrong": {
+        "in condition that": "Error de preposición: es \"on condition that\", no \"in\".",
+        "with the condition of": "Calco de \"con la condición de\"; además no puede ir seguido de una oración (we paid).",
+        "under condition": "No es una expresión fija en inglés; la correcta es \"on condition that\"."
+      },
+      "examples": [
+        "You can go on condition that you're back by midnight.",
+        "He was released on condition that he left the country."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-past-modals-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-past-modals",
+    "tags": [
+      "grammar",
+      "modals",
+      "deduction"
+    ],
+    "prompt": "She ___ forgotten about the meeting; it's been in her calendar for weeks and she reminded us about it yesterday.",
+    "options": [
+      "could hardly have",
+      "may well have",
+      "must have",
+      "should have"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Could hardly have + participio\" = \"es casi imposible que…\": deducción negativa sobre el pasado.",
+      "wrong": {
+        "may well have": "\"may well have\" indica que es bastante probable, pero el contexto (ella misma lo recordó) lo hace casi imposible.",
+        "must have": "\"must have\" afirma que seguro lo olvidó, lo contrario de lo que indica el contexto.",
+        "should have": "\"should have forgotten\" significaría que olvidarlo era lo correcto o lo esperado; no tiene sentido."
+      },
+      "examples": [
+        "He could hardly have known about it; nobody told him.",
+        "They could hardly have chosen a worse day."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-past-modals-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-past-modals",
+    "tags": [
+      "grammar",
+      "modals",
+      "deduction"
+    ],
+    "prompt": "Don't worry if he hasn't replied. He ___ been in meetings all afternoon; he usually is on Tuesdays.",
+    "options": [
+      "can hardly have",
+      "may well have",
+      "must not have",
+      "would rather have"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"May/might well have + participio\" = \"es muy posible que…\": probabilidad alta sobre el pasado.",
+      "wrong": {
+        "can hardly have": "Indica que es casi imposible, pero el contexto (suele estar en reuniones los martes) lo hace probable.",
+        "must not have": "Expresa certeza de que no estuvo en reuniones, lo contrario de lo que sugiere el contexto.",
+        "would rather have": "\"would rather have\" expresa preferencia, no probabilidad, y no encaja con \"been in meetings\"."
+      },
+      "examples": [
+        "She may well have missed the bus.",
+        "The letter might well have been lost in the post."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-past-modals-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-past-modals",
+    "tags": [
+      "grammar",
+      "modals",
+      "conditionals"
+    ],
+    "prompt": "If you had called me at nine o'clock last night, I ___ dinner, so I wouldn't have answered.",
+    "options": [
+      "would be had",
+      "will have been having",
+      "would have been having",
+      "had been having"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Would have been + -ing\": acción en progreso en un pasado hipotético (condicional perfecto continuo).",
+      "wrong": {
+        "would be had": "Forma inexistente: mezcla condicional y pasiva sin sentido.",
+        "will have been having": "Es futuro perfecto continuo; aquí hablamos de una situación hipotética pasada.",
+        "had been having": "El pasado perfecto va en la condición (if), no en el resultado; en el resultado se usa would."
+      },
+      "examples": [
+        "If you'd come at noon, we would have been sleeping.",
+        "I would have been working anyway, so I couldn't have helped."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-past-modals-004",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-past-modals",
+    "tags": [
+      "grammar",
+      "modals",
+      "criticism"
+    ],
+    "prompt": "A friend turns up at your door without warning and you say: \"You might have told me you were coming!\" What does this express?",
+    "options": [
+      "Una certeza: seguro que me lo dijiste.",
+      "Una posibilidad: quizá me lo dijiste.",
+      "Una queja: deberías habérmelo dicho y no lo hiciste.",
+      "Una obligación futura: tendrás que decírmelo."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"You might/could have + participio\" con tono de reproche = \"podrías haber…\": crítica por no haber hecho algo.",
+      "wrong": {
+        "Una certeza: seguro que me lo dijiste.": "La certeza se expresa con \"must have\"; además el amigo NO avisó.",
+        "Una posibilidad: quizá me lo dijiste.": "En otro contexto sería posibilidad, pero aquí la exclamación y la visita sin aviso muestran reproche.",
+        "Una obligación futura: tendrás que decírmelo.": "\"might have + participio\" se refiere al pasado, no a una obligación futura."
+      },
+      "examples": [
+        "You might have asked before borrowing my car!",
+        "He could have at least said thank you."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-passive-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-passive",
+    "tags": [
+      "grammar",
+      "passive",
+      "gerund"
+    ],
+    "prompt": "I really resent ___ what to do by people who have far less experience than I do.",
+    "options": [
+      "to be told",
+      "being told",
+      "be told",
+      "having told"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Pasiva con gerundio: being + participio. \"Resent\" va siempre seguido de gerundio.",
+      "wrong": {
+        "to be told": "\"resent\" no admite infinitivo; solo gerundio (resent being told).",
+        "be told": "Tras \"resent\" no puede ir la forma base; hace falta el gerundio \"being\".",
+        "having told": "Es activa: significaría que yo les digo a ellos, pero aquí me lo dicen a mí (pasiva)."
+      },
+      "examples": [
+        "She hates being interrupted.",
+        "He can't stand being kept waiting."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-passive-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-passive",
+    "tags": [
+      "grammar",
+      "passive",
+      "infinitive"
+    ],
+    "prompt": "She claims ___ about the job cuts weeks before they were officially announced.",
+    "options": [
+      "to be telling",
+      "to have told",
+      "having been told",
+      "to have been told"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Infinitivo perfecto pasivo: to have been + participio, para algo que le ocurrió a ella antes del momento de hablar.",
+      "wrong": {
+        "to be telling": "Es activo y progresivo; no expresa que alguien se lo dijo a ella en el pasado.",
+        "to have told": "Es activo: \"tell\" necesita a quién se dice. Aquí ella recibió la información, así que es pasiva.",
+        "having been told": "\"claim\" va seguido de infinitivo, no de gerundio."
+      },
+      "examples": [
+        "He is said to have been offered a fortune.",
+        "The documents appear to have been destroyed."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-passive-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-passive",
+    "tags": [
+      "grammar",
+      "passive",
+      "two-objects"
+    ],
+    "prompt": "Active: 'The company gave each employee a bonus.' Which passive sentence is correct?",
+    "options": [
+      "Each employee was given with a bonus.",
+      "It was given each employee a bonus.",
+      "Each employee was given a bonus.",
+      "Each employee were given a bonus."
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con verbos de dos objetos (give, offer, send, show) la persona suele pasar a sujeto: Each employee was given a bonus.",
+      "wrong": {
+        "Each employee was given with a bonus.": "\"give\" no lleva \"with\"; se confunde con \"provide/present someone with\".",
+        "It was given each employee a bonus.": "Calco de una construcción impersonal; en inglés no se usa \"It\" como sujeto vacío aquí.",
+        "Each employee were given a bonus.": "\"each employee\" es singular: va con \"was\", no con \"were\"."
+      },
+      "examples": [
+        "I was offered a place at the university.",
+        "We were shown the new office by the manager."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-passive-004",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-passive",
+    "tags": [
+      "grammar",
+      "passive",
+      "continuous"
+    ],
+    "prompt": "The proposal is currently ___ by the board, so we won't know the outcome until next week.",
+    "options": [
+      "considering",
+      "been considered",
+      "being considered",
+      "to consider"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Pasiva continua: is/are + being + participio, para una acción que se está haciendo ahora sobre el sujeto.",
+      "wrong": {
+        "considering": "Es activa: significaría que la propuesta está considerando algo.",
+        "been considered": "\"is been\" no existe; tras \"is\" la pasiva continua necesita \"being\".",
+        "to consider": "\"is to consider\" expresaría un plan u obligación activa y no encaja con \"by the board\"."
+      },
+      "examples": [
+        "The road is being repaired.",
+        "Your application is being processed."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-cleft-sentences-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-cleft-sentences",
+    "tags": [
+      "grammar",
+      "cleft-sentences",
+      "emphasis"
+    ],
+    "prompt": "All I did ___ ask him a simple question, and he completely lost his temper.",
+    "options": [
+      "did",
+      "were",
+      "was",
+      "has"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"All + sujeto + did + was (+ infinitivo)\" enfatiza que solo se hizo eso: All I did was ask…",
+      "wrong": {
+        "did": "Repite el auxiliar; el verbo que une las dos partes es \"be\": All I did was…",
+        "were": "\"All I did\" es singular (lo único que hice), así que va con \"was\".",
+        "has": "\"has\" no une las dos partes de la oración hendida y no concuerda con el pasado."
+      },
+      "examples": [
+        "All she wanted was a bit of peace and quiet.",
+        "All you have to do is press this button."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-cleft-sentences-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-cleft-sentences",
+    "tags": [
+      "grammar",
+      "cleft-sentences",
+      "spanish-interference"
+    ],
+    "prompt": "The reason ___ I'm calling is to confirm your appointment for Thursday.",
+    "options": [
+      "why",
+      "because",
+      "for what",
+      "of"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"The reason why/that + oración + is…\" sirve para enfatizar la causa.",
+      "wrong": {
+        "because": "\"The reason because\" es incorrecto; \"reason\" ya incluye la idea de causa: The reason why.",
+        "for what": "Calco de \"la razón por lo que\"; en inglés sería \"why\", \"that\" o \"for which\".",
+        "of": "\"The reason of\" no introduce una oración; además en inglés se dice \"the reason for + sustantivo\"."
+      },
+      "examples": [
+        "The reason why she left is still a mystery.",
+        "That's the reason why I never trust online reviews."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-cleft-sentences-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-cleft-sentences",
+    "tags": [
+      "grammar",
+      "cleft-sentences",
+      "spanish-interference"
+    ],
+    "prompt": "It's the price ___ worries me, not the quality.",
+    "options": [
+      "what",
+      "that",
+      "who",
+      "it"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Oración hendida \"It is + elemento enfatizado + that…\": It's the price that worries me.",
+      "wrong": {
+        "what": "Calco de \"es el precio lo que me preocupa\"; en inglés con \"It's…\" se usa \"that\" (o \"which\"), no \"what\".",
+        "who": "\"who\" es para personas; \"the price\" es una cosa.",
+        "it": "Repite el sujeto y deja la frase sin relativo: \"It's the price it worries me\" es incorrecto."
+      },
+      "examples": [
+        "It was my sister that found the keys.",
+        "It's his attitude that annoys me most."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-participle-clauses-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-participle-clauses",
+    "tags": [
+      "grammar",
+      "participle-clauses",
+      "negative"
+    ],
+    "prompt": "___ about the delay, the passengers were furious when the flight was suddenly cancelled.",
+    "options": [
+      "Having not told",
+      "Not telling",
+      "Not having been told",
+      "Not been told"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Participio perfecto pasivo negativo: Not having been + participio = \"como no les habían dicho…\".",
+      "wrong": {
+        "Having not told": "Es activo: significaría que los pasajeros no habían dicho nada a otros.",
+        "Not telling": "Activo y simultáneo: los pasajeros no contaban algo; no es el sentido.",
+        "Not been told": "Falta \"having\": la forma correcta es Not having been told."
+      },
+      "examples": [
+        "Not having been invited, I stayed at home.",
+        "Having been warned, we took an umbrella."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-participle-clauses-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-participle-clauses",
+    "tags": [
+      "grammar",
+      "participle-clauses",
+      "negative"
+    ],
+    "prompt": "___ what to say, she simply smiled and left the room.",
+    "options": [
+      "Knowing not",
+      "Don't knowing",
+      "No knowing",
+      "Not knowing"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En las oraciones de participio la negación es \"not\" delante del -ing: Not knowing = \"como no sabía…\".",
+      "wrong": {
+        "Knowing not": "\"not\" va delante del participio, no detrás.",
+        "Don't knowing": "No se usa el auxiliar \"don't\" con el gerundio.",
+        "No knowing": "\"No\" va con sustantivos; para negar un participio se usa \"not\"."
+      },
+      "examples": [
+        "Not wanting to wake anyone, he took off his shoes.",
+        "Not being an expert, I can't comment."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-participle-clauses-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-participle-clauses",
+    "tags": [
+      "grammar",
+      "participle-clauses",
+      "passive"
+    ],
+    "prompt": "___ twice about his lateness, he was finally dismissed in March.",
+    "options": [
+      "Having warned",
+      "Warning",
+      "Having been warned",
+      "To be warned"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Having been + participio expresa una acción pasiva anterior a la principal: \"tras haber sido advertido…\".",
+      "wrong": {
+        "Having warned": "Es activo: significaría que él advirtió a otros, pero fue él quien recibió la advertencia.",
+        "Warning": "Activo y simultáneo: él estaría advirtiendo a alguien.",
+        "To be warned": "El infinitivo expresa finalidad o futuro, no una acción anterior que causa el despido."
+      },
+      "examples": [
+        "Having been told the news, she called her mother.",
+        "Having been rejected twice, he decided to give up."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-ellipsis-substitution-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "ellipsis-substitution",
+    "tags": [
+      "grammar",
+      "ellipsis"
+    ],
+    "prompt": "Check whether the files have been backed up and, if ___, do it before you leave.",
+    "options": [
+      "no",
+      "not",
+      "don't",
+      "none"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"If not\" sustituye a una oración negativa completa (if they haven't been backed up). También: I hope not, I'm afraid not.",
+      "wrong": {
+        "no": "Calco de \"si no\"; en inglés la sustitución de una oración negativa es \"if not\".",
+        "don't": "Falta sujeto y verbo; además el tiempo no concuerda con \"have been backed up\".",
+        "none": "\"none\" significa \"ninguno\", no sustituye una oración."
+      },
+      "examples": [
+        "Is it ready? If not, I'll wait.",
+        "Will it rain? I hope not."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-ellipsis-substitution-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "ellipsis-substitution",
+    "tags": [
+      "grammar",
+      "ellipsis",
+      "formal"
+    ],
+    "prompt": "The manager asked us to reduce costs by ten percent, and we have done ___.",
+    "options": [
+      "it so",
+      "that so",
+      "such",
+      "so"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Do so\" sustituye a un verbo y su complemento ya mencionado, en registro formal.",
+      "wrong": {
+        "it so": "\"do it so\" es incorrecto; se usa \"do so\" o \"do it\", no ambos.",
+        "that so": "\"do that so\" mezcla dos sustitutos; basta con \"so\" (o \"that\").",
+        "such": "\"done such\" no es correcto; \"such\" necesita un sustantivo (such a thing)."
+      },
+      "examples": [
+        "Please sign the form if you have not already done so.",
+        "He promised to apologise, but he never did so."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-ellipsis-substitution-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "ellipsis-substitution",
+    "tags": [
+      "grammar",
+      "ellipsis",
+      "agreement"
+    ],
+    "prompt": "I didn't enjoy the film at all, and ___ my sister.",
+    "options": [
+      "neither did",
+      "so did",
+      "either did",
+      "neither didn't"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Para añadir acuerdo con una frase negativa se usa neither/nor + auxiliar + sujeto.",
+      "wrong": {
+        "so did": "\"so did\" sirve para frases afirmativas; aquí la primera es negativa.",
+        "either did": "\"either\" va al final de una frase negativa (my sister didn't either), no al principio con inversión.",
+        "neither didn't": "Doble negación: \"neither\" ya es negativo, así que el auxiliar va en afirmativo."
+      },
+      "examples": [
+        "She can't swim, and neither can I.",
+        "He doesn't eat meat, nor does his wife."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-relative-clauses-001",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-relative-clauses",
+    "tags": [
+      "grammar",
+      "relative-clauses",
+      "formal"
+    ],
+    "prompt": "The process ___ the company selects new staff is extremely rigorous.",
+    "options": [
+      "which",
+      "whereby",
+      "where by",
+      "whom"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Whereby\" (= by which, mediante el cual) es un relativo formal para procesos, sistemas o acuerdos.",
+      "wrong": {
+        "which": "Falta la preposición: la empresa selecciona \"by\" ese proceso; sería \"by which\" o \"whereby\".",
+        "where by": "Se escribe en una sola palabra: whereby.",
+        "whom": "\"whom\" se refiere a personas, y \"the process\" es una cosa."
+      },
+      "examples": [
+        "They signed an agreement whereby profits would be shared equally.",
+        "It's a system whereby users can vote online."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-relative-clauses-002",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-relative-clauses",
+    "tags": [
+      "grammar",
+      "relative-clauses",
+      "quantifiers"
+    ],
+    "prompt": "She has three brothers, none of ___ live nearby.",
+    "options": [
+      "them",
+      "who",
+      "whom",
+      "which"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Cuantificador + of + whom/which en relativas explicativas: none of whom (personas), some of which (cosas).",
+      "wrong": {
+        "them": "Con \"them\" serían dos oraciones unidas solo por una coma, lo cual es incorrecto; se necesita el relativo \"whom\".",
+        "who": "Después de preposición (of) se usa \"whom\", no \"who\".",
+        "which": "\"which\" es para cosas; \"brothers\" son personas."
+      },
+      "examples": [
+        "I bought five books, two of which were in French.",
+        "The guests, most of whom were students, left early."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-relative-clauses-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-relative-clauses",
+    "tags": [
+      "grammar",
+      "relative-clauses",
+      "formal"
+    ],
+    "prompt": "The man ___ the anonymous letter was written has never been identified.",
+    "options": [
+      "by who",
+      "by whom",
+      "whom",
+      "which by"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En registro formal la preposición va delante del relativo: by whom (personas), in/by which (cosas).",
+      "wrong": {
+        "by who": "Tras preposición se usa \"whom\", no \"who\".",
+        "whom": "Falta la preposición \"by\": la carta fue escrita por ese hombre.",
+        "which by": "\"which\" no se usa para personas y el orden es preposición + relativo."
+      },
+      "examples": [
+        "The person to whom I spoke was very helpful.",
+        "She is the author by whom the novel was translated."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-relative-clauses-004",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-relative-clauses",
+    "tags": [
+      "grammar",
+      "relative-clauses",
+      "prepositions"
+    ],
+    "prompt": "The flat ___ we lived for ten years has just been sold.",
+    "options": [
+      "which",
+      "in that",
+      "where in",
+      "in which"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Preposición + which en relativas formales: the flat in which we lived (= where we lived).",
+      "wrong": {
+        "which": "Falta la preposición: vivíamos \"en\" el piso (in which / which we lived in).",
+        "in that": "\"that\" no puede ir detrás de una preposición.",
+        "where in": "Orden incorrecto; se dice \"in which\" o simplemente \"where\"."
+      },
+      "examples": [
+        "The hotel at which we stayed was excellent.",
+        "This is the box in which I keep my letters."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-quantifiers-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-quantifiers",
+    "tags": [
+      "grammar",
+      "quantifiers",
+      "spanish-interference"
+    ],
+    "prompt": "There was ___ interest in the proposal, so it was quietly dropped.",
+    "options": [
+      "hardly no",
+      "hardly any",
+      "almost any",
+      "barely none"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Hardly any\" = \"casi nada/ninguno\". \"Hardly\" ya es negativo, así que se combina con \"any\".",
+      "wrong": {
+        "hardly no": "Doble negación: en español decimos \"casi no hubo ningún…\", pero en inglés \"hardly\" va con \"any\".",
+        "almost any": "\"almost any\" significa \"casi cualquier\", no \"casi ninguno\".",
+        "barely none": "Doble negación; además \"none\" es pronombre y no puede ir delante de un sustantivo."
+      },
+      "examples": [
+        "We have hardly any milk left.",
+        "Hardly anyone came to the talk."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-quantifiers-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "advanced-quantifiers",
+    "tags": [
+      "grammar",
+      "quantifiers",
+      "spanish-interference"
+    ],
+    "prompt": "___ of the respondents said they would prefer to work from home at least two days a week.",
+    "options": [
+      "The big majority",
+      "The vast most",
+      "The vast majority",
+      "Vast majority"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"The vast majority of\" = \"la gran mayoría de\": colocación fija con \"vast\".",
+      "wrong": {
+        "The big majority": "Traducción literal de \"la gran mayoría\"; en inglés la colocación natural es \"vast\".",
+        "The vast most": "\"most\" no se combina con \"vast\" ni con \"the\" en este sentido.",
+        "Vast majority": "Falta el artículo: the vast majority."
+      },
+      "examples": [
+        "The vast majority of students passed.",
+        "A vast majority of voters supported the plan."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-advanced-quantifiers-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "advanced-quantifiers",
+    "tags": [
+      "grammar",
+      "quantifiers",
+      "formal"
+    ],
+    "prompt": "Although the theory was widely publicised, ___ scientists took it seriously, and it was soon forgotten.",
+    "options": [
+      "a little",
+      "a few",
+      "little",
+      "few"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Few\" (sin artículo) = \"pocos, casi ninguno\" con sentido negativo; \"a few\" = \"unos cuantos\" con sentido positivo.",
+      "wrong": {
+        "a little": "\"a little\" va con incontables; \"scientists\" es contable plural.",
+        "a few": "\"a few\" tiene sentido positivo (algunos sí); no explica que la teoría se olvidara pronto.",
+        "little": "\"little\" se usa con incontables, no con \"scientists\"."
+      },
+      "examples": [
+        "Few people know the real story.",
+        "Very few applicants met all the requirements."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-future-in-the-past-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "future-in-the-past",
+    "tags": [
+      "grammar",
+      "future-in-the-past"
+    ],
+    "prompt": "We ___ leave when the phone rang, so we missed the start of the concert.",
+    "options": [
+      "were on the verge to",
+      "are about to",
+      "were about",
+      "were about to"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Was/were about to + infinitivo\" = \"estaba a punto de\" en el pasado.",
+      "wrong": {
+        "were on the verge to": "\"on the verge\" va con \"of + -ing\" (on the verge of leaving), no con \"to\".",
+        "are about to": "Presente; la acción ocurrió en el pasado (the phone rang).",
+        "were about": "Falta \"to\": were about to leave."
+      },
+      "examples": [
+        "I was about to call you.",
+        "The film was about to start when the power went off."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-future-in-the-past-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "future-in-the-past",
+    "tags": [
+      "grammar",
+      "future-in-the-past",
+      "passive"
+    ],
+    "prompt": "The ceremony ___ held in June, but the storm forced the organisers to cancel it.",
+    "options": [
+      "was going to have",
+      "was to have been",
+      "would be to",
+      "is to have been"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Was to have been + participio\" expresa un plan del pasado que no llegó a cumplirse.",
+      "wrong": {
+        "was going to have": "Necesita pasiva: \"was going to be held\"; con \"have held\" la ceremonia celebraría algo.",
+        "would be to": "\"would be to held\" es incorrecto: tras \"to\" iría la forma base y además no expresa un plan frustrado.",
+        "is to have been": "El presente no concuerda con un plan pasado que se canceló."
+      },
+      "examples": [
+        "She was to have started work on Monday, but she fell ill.",
+        "The bridge was to have been finished by 2020."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-future-in-the-past-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "future-in-the-past",
+    "tags": [
+      "grammar",
+      "future-in-the-past"
+    ],
+    "prompt": "The company was on the verge ___ bankrupt when a new investor stepped in.",
+    "options": [
+      "of going",
+      "to go",
+      "of go",
+      "going"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Be on the verge/brink of + -ing\" = \"estar al borde de\".",
+      "wrong": {
+        "to go": "Tras \"on the verge\" va \"of\", no \"to\".",
+        "of go": "Tras una preposición (of) el verbo va en -ing.",
+        "going": "Falta la preposición \"of\"."
+      },
+      "examples": [
+        "She was on the verge of tears.",
+        "They were on the verge of signing the contract."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-formal-connectors-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "formal-connectors",
+    "tags": [
+      "grammar",
+      "connectors",
+      "formal"
+    ],
+    "prompt": "___ the bad weather, the festival went ahead as planned.",
+    "options": [
+      "Albeit",
+      "Whereas",
+      "Notwithstanding",
+      "Insofar as"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Notwithstanding\" (formal) = \"a pesar de\"; va seguido de un sustantivo.",
+      "wrong": {
+        "Albeit": "\"albeit\" significa \"aunque\" y se coloca delante de un adjetivo o adverbio, no al inicio con un sustantivo.",
+        "Whereas": "\"whereas\" (mientras que) contrasta dos oraciones completas; aquí solo hay un sustantivo.",
+        "Insofar as": "\"insofar as\" significa \"en la medida en que\" y necesita una oración detrás."
+      },
+      "examples": [
+        "Notwithstanding the cost, they bought the house.",
+        "The plan was approved, notwithstanding some objections."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-formal-connectors-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "formal-connectors",
+    "tags": [
+      "grammar",
+      "connectors",
+      "formal"
+    ],
+    "prompt": "The results were encouraging, ___ based on a very small sample.",
+    "options": [
+      "albeit",
+      "although of",
+      "whereas",
+      "despite"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "\"Albeit\" = \"aunque, si bien\": introduce una concesión breve sin verbo conjugado.",
+      "wrong": {
+        "although of": "\"although\" no lleva \"of\"; \"although based on…\" sería posible, pero \"although of\" no.",
+        "whereas": "\"whereas\" contrasta dos hechos distintos y necesita una oración con verbo.",
+        "despite": "\"despite\" va con sustantivo o -ing; \"despite based\" es incorrecto."
+      },
+      "examples": [
+        "It was a success, albeit a limited one.",
+        "He agreed, albeit reluctantly."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-formal-connectors-003",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "formal-connectors",
+    "tags": [
+      "grammar",
+      "connectors",
+      "meaning"
+    ],
+    "prompt": "What does 'insofar as' mean in: 'The plan is fair insofar as everyone pays the same amount.'?",
+    "options": [
+      "a pesar de que",
+      "mientras que",
+      "siempre que",
+      "en la medida en que"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "\"Insofar as\" = \"en la medida en que, en tanto que\": limita hasta qué punto algo es cierto.",
+      "wrong": {
+        "a pesar de que": "Eso sería \"although\" o \"even though\".",
+        "mientras que": "Eso sería \"whereas\" o \"while\" (contraste).",
+        "siempre que": "Eso sería \"provided that\" o \"as long as\" (condición)."
+      },
+      "examples": [
+        "I agree with you insofar as the costs are concerned.",
+        "The report is useful insofar as it identifies the problems."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-verb-patterns-meaning-change-001",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "verb-patterns-meaning-change",
+    "tags": [
+      "grammar",
+      "gerund-infinitive",
+      "formal"
+    ],
+    "prompt": "We regret ___ you that your application has been unsuccessful on this occasion.",
+    "options": [
+      "informing",
+      "to inform",
+      "to have informed",
+      "inform"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Regret to + infinitivo\" = \"lamentar comunicar\" (fórmula formal); \"regret + -ing\" = arrepentirse de algo ya hecho.",
+      "wrong": {
+        "informing": "\"regret informing\" significaría arrepentirse de haberle informado, no lamentar comunicarle algo ahora.",
+        "to have informed": "Hablaría de una información pasada; la carta comunica la noticia en este momento.",
+        "inform": "\"regret\" no va seguido de la forma base sin \"to\"."
+      },
+      "examples": [
+        "I regret to say that the shop is closing.",
+        "I regret not studying harder at school."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-verb-patterns-meaning-change-002",
+    "mode": "quiz",
+    "level": "C1",
+    "topic": "verb-patterns-meaning-change",
+    "tags": [
+      "grammar",
+      "gerund-infinitive"
+    ],
+    "prompt": "After discussing the budget, the director went on ___ the plans for the new office.",
+    "options": [
+      "explaining",
+      "explain",
+      "to explain",
+      "to explaining"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "\"Go on to + infinitivo\" = pasar a hacer otra cosa; \"go on + -ing\" = seguir haciendo lo mismo.",
+      "wrong": {
+        "explaining": "\"went on explaining\" = siguió explicando lo mismo; aquí cambia de tema (del presupuesto a los planes).",
+        "explain": "\"go on\" no va seguido de la forma base.",
+        "to explaining": "\"to\" aquí es parte del infinitivo, así que va con la forma base: to explain."
+      },
+      "examples": [
+        "She went on to become a famous writer.",
+        "He went on talking even though nobody was listening."
+      ]
+    }
+  },
+  {
+    "id": "gram-c1-verb-patterns-meaning-change-003",
+    "mode": "fill",
+    "level": "C1",
+    "topic": "verb-patterns-meaning-change",
+    "tags": [
+      "grammar",
+      "gerund-infinitive"
+    ],
+    "prompt": "Taking the new job would mean ___ to another city, so I need some time to think about it.",
+    "options": [
+      "to move",
+      "moving",
+      "move",
+      "to moving"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "\"Mean + -ing\" = implicar, suponer; \"mean to + infinitivo\" = tener la intención de.",
+      "wrong": {
+        "to move": "\"mean to move\" significaría \"tener la intención de mudarme\"; el sujeto es \"taking the job\", que implica, no pretende.",
+        "move": "\"mean\" no va seguido de la forma base.",
+        "to moving": "\"mean\" no lleva \"to\" + -ing; es \"mean moving\"."
+      },
+      "examples": [
+        "Being a nurse means working at weekends.",
+        "I didn't mean to upset you."
+      ]
+    }
+  }
+]

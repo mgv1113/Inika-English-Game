@@ -1,0 +1,1508 @@
+[
+  {
+    "id": "gram-c2-locative-inversion-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "locative-inversion",
+    "tags": [
+      "grammar",
+      "inversion"
+    ],
+    "prompt": "The wind picked up, and down ___ the rain, so the match was abandoned.",
+    "options": [
+      "did come",
+      "came",
+      "did it come",
+      "coming"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Tras un adverbial de lugar o dirección al inicio (down, out, in, here), se invierte sujeto y verbo léxico sin auxiliar do: Down came the rain.",
+      "wrong": {
+        "did come": "Este tipo de inversión no usa el auxiliar do; el verbo principal va directamente antes del sujeto.",
+        "did it come": "Es una estructura de pregunta; además el sujeto real es 'the rain', no 'it'.",
+        "coming": "Hace falta un verbo conjugado en pasado; 'coming' solo no forma la oración."
+      },
+      "examples": [
+        "Up went the prices.",
+        "Here comes the bus."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-locative-inversion-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "locative-inversion",
+    "tags": [
+      "grammar",
+      "inversion"
+    ],
+    "prompt": "Which sentence is grammatically correct?",
+    "options": [
+      "Out jumped it.",
+      "Out did the cat jump.",
+      "Out the cat did jump.",
+      "Out jumped the cat."
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En la inversión locativa solo se invierte con un sujeto sustantivo; con pronombre no hay inversión (Out it jumped).",
+      "wrong": {
+        "Out jumped it.": "Con un pronombre (it, he, she) no se invierte: se dice 'Out it jumped'.",
+        "Out did the cat jump.": "La inversión locativa no usa do; ese patrón es de la inversión negativa (Never did I...).",
+        "Out the cat did jump.": "El 'did' enfático aquí suena forzado y no es inversión; lo natural es 'Out jumped the cat' u 'Out the cat jumped'."
+      },
+      "examples": [
+        "Off they went.",
+        "In walked the director."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-so-such-inversion-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "so-such-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "formal"
+    ],
+    "prompt": "___ his anger that he couldn't say a single word.",
+    "options": [
+      "Such was",
+      "Such did",
+      "So was",
+      "Such had"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Such + be + sustantivo + that' es una inversión enfática formal: Such was his anger that... (= su enfado era tan grande que...).",
+      "wrong": {
+        "Such did": "El verbo que se invierte es be (was), no do; 'anger' no es la acción de un verbo.",
+        "So was": "'So' necesita un adjetivo o adverbio detrás (So great was his anger); sola no funciona aquí.",
+        "Such had": "'had' no tiene sentido aquí: no hay participio; la estructura es Such + was."
+      },
+      "examples": [
+        "Such was the noise that nobody could sleep.",
+        "Such is the power of habit."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-so-such-inversion-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "so-such-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "formal"
+    ],
+    "prompt": "___ the demand for tickets that the band added a second concert.",
+    "options": [
+      "So greatly was",
+      "Such great was",
+      "So great was",
+      "So much was"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'So + adjetivo + be + sujeto + that' es inversión enfática: So great was the demand that...",
+      "wrong": {
+        "So greatly was": "Tras 'be' va un adjetivo (great), no un adverbio (greatly).",
+        "Such great was": "'Such' no va seguido de un adjetivo solo en esta estructura; se dice 'So great was' o 'Such was'.",
+        "So much was": "'So much was the demand' no es natural; 'much' no describe la intensidad de 'demand' aquí: se usa 'so great'."
+      },
+      "examples": [
+        "So strong was the wind that trees fell.",
+        "So rare is this bird that few have seen it."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-comparative-inversion-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "comparative-inversion",
+    "tags": [
+      "grammar",
+      "inversion",
+      "formal"
+    ],
+    "prompt": "City dwellers tend to vote more often than ___ people living in rural areas.",
+    "options": [
+      "are",
+      "does",
+      "do",
+      "make"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "En comparaciones formales puede invertirse el auxiliar tras 'than' o 'as': ...than do people in rural areas.",
+      "wrong": {
+        "are": "El verbo comparado es 'vote', que es léxico; se sustituye con do, no con be.",
+        "does": "El sujeto 'people' es plural, así que el auxiliar es 'do'.",
+        "make": "En español decimos 'que lo que lo hace la gente', pero en inglés el auxiliar sustituto es 'do', no 'make'."
+      },
+      "examples": [
+        "She earns more than does her manager.",
+        "He was as nervous as were the other candidates."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-as-is-often-the-case-001",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "as-is-often-the-case",
+    "tags": [
+      "grammar",
+      "formal"
+    ],
+    "prompt": "___ is often the case with start-ups, the company struggled in its second year.",
+    "options": [
+      "As",
+      "Like",
+      "What",
+      "Which"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'As is often the case (with)' significa 'como suele ocurrir'; 'as' sustituye a toda la oración siguiente.",
+      "wrong": {
+        "Like": "Traducción literal de 'como'; 'like' no puede introducir esta oración con verbo (is).",
+        "What": "'What is often the case' sería sujeto de una oración, pero aquí falta el verbo principal: no encaja.",
+        "Which": "'Which' para referirse a una oración entera va detrás de ella, no al principio de la frase."
+      },
+      "examples": [
+        "As is often the case, the simplest answer was correct.",
+        "As was expected, prices rose."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-formulaic-subjunctive-001",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "formulaic-subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive"
+    ],
+    "prompt": "The plan has some obvious flaws. ___, it's still the best option we have.",
+    "options": [
+      "Be it as it may",
+      "Being that as it may",
+      "Is that as it may",
+      "Be that as it may"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Be that as it may' es una fórmula fija con subjuntivo que significa 'sea como sea / aun así'.",
+      "wrong": {
+        "Be it as it may": "El orden de la fórmula es fijo: Be THAT as it may.",
+        "Being that as it may": "La fórmula usa el subjuntivo 'be', no el gerundio.",
+        "Is that as it may": "No es una pregunta ni presente simple: es subjuntivo fijo con 'be'."
+      },
+      "examples": [
+        "Be that as it may, we must decide today.",
+        "He's young; be that as it may, he's very capable."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-formulaic-subjunctive-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "formulaic-subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive"
+    ],
+    "prompt": "___, I'm going to finish this marathon.",
+    "options": [
+      "Comes what may",
+      "Come what may",
+      "What may come",
+      "Whatever may comes"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Come what may' (pase lo que pase) es una expresión fija con subjuntivo: el verbo va sin -s y al principio.",
+      "wrong": {
+        "Comes what may": "Es subjuntivo, así que el verbo no lleva -s.",
+        "What may come": "El orden está invertido; la fórmula fija es 'Come what may'.",
+        "Whatever may comes": "Tras el modal 'may' el verbo va sin -s; y la expresión fija es 'Come what may'."
+      },
+      "examples": [
+        "Come what may, I'll support you.",
+        "We'll stay together, come what may."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-formulaic-subjunctive-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "formulaic-subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive"
+    ],
+    "prompt": "___ to say, the negotiations did not end well.",
+    "options": [
+      "Suffices it",
+      "Suffice it",
+      "Sufficient it",
+      "Enough it"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Suffice it to say' (baste decir) es subjuntivo fijo: 'suffice' sin -s y con el sujeto 'it' detrás.",
+      "wrong": {
+        "Suffices it": "Es subjuntivo, no presente: el verbo no lleva -s.",
+        "Sufficient it": "'Sufficient' es adjetivo; la fórmula necesita el verbo 'suffice'.",
+        "Enough it": "Calco de 'basta'; en inglés la fórmula es 'Suffice it to say'."
+      },
+      "examples": [
+        "Suffice it to say that we won't go back.",
+        "Suffice it to say, she was not amused."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-formulaic-subjunctive-004",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "formulaic-subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive"
+    ],
+    "prompt": "Far be it from me ___ you how to run your business, but those prices seem too low.",
+    "options": [
+      "telling",
+      "tell",
+      "that I tell",
+      "to tell"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Far be it from me to + infinitivo' (lejos de mí...) introduce una crítica con falsa modestia.",
+      "wrong": {
+        "telling": "La fórmula exige el infinitivo con 'to', no el gerundio.",
+        "tell": "Falta 'to': la estructura es 'Far be it from me to do sth'.",
+        "that I tell": "Calco de 'lejos de mí que yo te diga'; en inglés va infinitivo: to tell."
+      },
+      "examples": [
+        "Far be it from me to criticise, but...",
+        "Far be it from me to interfere in your affairs."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-formulaic-subjunctive-005",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "formulaic-subjunctive",
+    "tags": [
+      "grammar",
+      "subjunctive"
+    ],
+    "prompt": "We can work over the weekend to meet the deadline, if need ___.",
+    "options": [
+      "be",
+      "is",
+      "be it",
+      "been"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'If need be' (si hace falta) es una fórmula fija con el subjuntivo 'be'.",
+      "wrong": {
+        "is": "La fórmula usa el subjuntivo 'be', no el presente 'is'.",
+        "be it": "No lleva 'it': la expresión es simplemente 'if need be'.",
+        "been": "El participio no forma ninguna expresión aquí."
+      },
+      "examples": [
+        "I'll drive you there myself if need be.",
+        "If need be, we can postpone the launch."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-advanced-concession-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "advanced-concession",
+    "tags": [
+      "grammar",
+      "concession"
+    ],
+    "prompt": "___ I admire her talent, I can't agree with the way she treats her team.",
+    "options": [
+      "Much though",
+      "Even much",
+      "Much as",
+      "Despite"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Much as + oración' equivale a 'aunque (mucho)...': Much as I admire her, ...",
+      "wrong": {
+        "Much though": "'Much though' no existe como conector; la forma es 'Much as'.",
+        "Even much": "No es una expresión inglesa; es una mezcla de 'even though' y 'much'.",
+        "Despite": "'Despite' va seguido de sustantivo o -ing, no de una oración con sujeto y verbo."
+      },
+      "examples": [
+        "Much as I'd like to help, I can't.",
+        "Much as he hates flying, he goes every month."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-advanced-concession-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "advanced-concession",
+    "tags": [
+      "grammar",
+      "concession"
+    ],
+    "prompt": "Try ___ he might, he couldn't get the lid off the jar.",
+    "options": [
+      "although",
+      "so",
+      "as",
+      "even"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Try as he might' es una concesiva fija: por mucho que lo intentara.",
+      "wrong": {
+        "although": "'Although' va al principio de la oración (Although he tried hard...), no en medio de esta fórmula.",
+        "so": "'Try so he might' no existe; la fórmula usa 'as'.",
+        "even": "Calco de 'aun intentándolo'; en inglés la fórmula fija es 'Try as he might'."
+      },
+      "examples": [
+        "Try as I might, I couldn't remember her name.",
+        "Try as they might, they lost the match."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-advanced-concession-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "advanced-concession",
+    "tags": [
+      "grammar",
+      "concession"
+    ],
+    "prompt": "___ it may seem, the old theory has now been proved correct.",
+    "options": [
+      "Strange as",
+      "As strange",
+      "How strange",
+      "So strange"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Adjetivo + as/though + sujeto + verbo = aunque: Strange as it may seem (por extraño que parezca).",
+      "wrong": {
+        "As strange": "Faltaría el segundo 'as' (As strange as it may seem); así incompleto es incorrecto.",
+        "How strange": "'How strange' introduce exclamaciones, no concesivas.",
+        "So strange": "'So strange it may seem' no es una estructura concesiva en inglés."
+      },
+      "examples": [
+        "Strange as it may seem, he's never seen the sea.",
+        "Tired though she was, she kept going."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-advanced-concession-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "advanced-concession",
+    "tags": [
+      "grammar",
+      "concession"
+    ],
+    "prompt": "___ hard you try, you'll never please everyone.",
+    "options": [
+      "Whatever",
+      "How much",
+      "Although",
+      "However"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'However + adjetivo/adverbio' = por muy... que: However hard you try...",
+      "wrong": {
+        "Whatever": "'Whatever' va con sustantivos (whatever you do), no con un adjetivo/adverbio como 'hard'.",
+        "How much": "'How much hard' no es correcto; para intensidad con adverbio se usa 'however'.",
+        "Although": "'Although hard you try' no es gramatical; 'although' necesita una oración completa."
+      },
+      "examples": [
+        "However tired you are, finish the task.",
+        "However much it costs, we'll buy it."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-nominalisation-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "nominalisation",
+    "tags": [
+      "grammar",
+      "formal"
+    ],
+    "prompt": "The company's rapid ___ led to serious cash-flow problems.",
+    "options": [
+      "expanding",
+      "expansion",
+      "expand",
+      "expanded"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En estilo formal se convierte el verbo en sustantivo (nominalización): expand → expansion.",
+      "wrong": {
+        "expanding": "Tras un posesivo y un adjetivo (the company's rapid) lo natural es el sustantivo, no el gerundio.",
+        "expand": "Es un verbo; aquí hace falta un sustantivo como sujeto.",
+        "expanded": "Es un pasado o participio; no puede ser el núcleo del sujeto."
+      },
+      "examples": [
+        "The introduction of the tax caused protests.",
+        "Their refusal to cooperate delayed the project."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-nominalisation-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "nominalisation",
+    "tags": [
+      "grammar",
+      "formal"
+    ],
+    "prompt": "Which is the most formal, nominalised version of 'Because prices rose, people bought less'?",
+    "options": [
+      "Prices rising made people to buy less.",
+      "The rise in prices led to a fall in consumption.",
+      "Because of prices rose, people bought less.",
+      "The rising of prices did people buy less."
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "La nominalización convierte verbos en sustantivos (rise, fall, consumption) para un estilo académico y compacto.",
+      "wrong": {
+        "Prices rising made people to buy less.": "Es informal y además 'make' va sin 'to' (made people buy).",
+        "Because of prices rose, people bought less.": "'Because of' va con un sustantivo, no con una oración.",
+        "The rising of prices did people buy less.": "'Did' no puede tener ese sentido causal; la frase es agramatical."
+      },
+      "examples": [
+        "The decline in sales caused concern.",
+        "Its failure resulted in a loss of confidence."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-fronting-emphasis-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "fronting-emphasis",
+    "tags": [
+      "grammar",
+      "emphasis"
+    ],
+    "prompt": "What with the traffic ___ the rain, we arrived two hours late.",
+    "options": [
+      "or",
+      "plus",
+      "also",
+      "and"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'What with X and Y' presenta varias causas (entre X e Y...): What with work and the kids, I'm exhausted.",
+      "wrong": {
+        "or": "La estructura suma causas; 'or' indicaría alternativa.",
+        "plus": "La fórmula fija es 'What with ... and ...'.",
+        "also": "'Also' es un adverbio, no puede unir dos sustantivos así."
+      },
+      "examples": [
+        "What with the noise and the heat, I couldn't sleep.",
+        "What with one thing and another, I forgot."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-fronting-emphasis-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "fronting-emphasis",
+    "tags": [
+      "grammar",
+      "emphasis"
+    ],
+    "prompt": "It's not that I don't like him; ___ we have nothing in common.",
+    "options": [
+      "it's just that",
+      "just it's that",
+      "it's just because of",
+      "it just is"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'It's not that..., it's just that...' corrige una suposición y da la razón real.",
+      "wrong": {
+        "just it's that": "El orden es incorrecto: it's just that.",
+        "it's just because of": "'Because of' va con sustantivo, no con una oración (we have...).",
+        "it just is": "No introduce una oración; falta 'that' y no tiene sentido aquí."
+      },
+      "examples": [
+        "It's not that I'm angry; it's just that I'm tired.",
+        "It's not that it's expensive, it's just that I don't need it."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-fronting-emphasis-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "fronting-emphasis",
+    "tags": [
+      "grammar",
+      "emphasis"
+    ],
+    "prompt": "Clever she ___ be, but she's not very practical.",
+    "options": [
+      "is being",
+      "will",
+      "may",
+      "does"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Fronting concesivo: adjetivo + sujeto + may + be, but... = puede que sea lista, pero...",
+      "wrong": {
+        "is being": "'Is being' indica comportamiento temporal y no forma esta estructura concesiva.",
+        "will": "'Will' es predicción; la concesión 'puede que' se expresa con 'may'.",
+        "does": "'Does be' no es gramatical."
+      },
+      "examples": [
+        "Rich he may be, but he isn't happy.",
+        "Talented they may be, but they lack discipline."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-fronting-emphasis-004",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "fronting-emphasis",
+    "tags": [
+      "grammar",
+      "emphasis"
+    ],
+    "prompt": "All I did ___ ask a simple question, and she got furious.",
+    "options": [
+      "it was",
+      "did",
+      "was",
+      "were"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Cleft con 'All' (lo único que...): All I did was + infinitivo sin to.",
+      "wrong": {
+        "it was": "Sobra 'it': la estructura es 'All I did was ask'.",
+        "did": "Calco del español 'lo único que hice hice'; en inglés el verbo de enlace es 'was'.",
+        "were": "El sujeto 'All I did' es singular: was."
+      },
+      "examples": [
+        "All she wanted was a quiet weekend.",
+        "All you need to do is sign here."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-implied-conditionals-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "implied-conditionals",
+    "tags": [
+      "grammar",
+      "conditionals",
+      "inversion"
+    ],
+    "prompt": "___ for the scholarship, she could never have studied abroad.",
+    "options": [
+      "Had it not been",
+      "Hadn't it been",
+      "Should it not be",
+      "Unless it had been"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Had it not been for' (de no haber sido por) es un tercer condicional invertido con referencia al pasado.",
+      "wrong": {
+        "Hadn't it been": "En la inversión condicional formal no se usa la contracción: Had it not been.",
+        "Should it not be": "'Should' en inversión se refiere al futuro, no al pasado (could have studied).",
+        "Unless it had been": "'Unless' no combina con 'for' en esta estructura y cambiaría el sentido."
+      },
+      "examples": [
+        "Had it not been for you, I'd have failed.",
+        "Had it not been for the storm, we'd have landed."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-implied-conditionals-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "implied-conditionals",
+    "tags": [
+      "grammar",
+      "conditionals",
+      "inversion"
+    ],
+    "prompt": "___ it not for his quick thinking, we would all be in serious trouble now.",
+    "options": [
+      "Had",
+      "Was",
+      "Should",
+      "Were"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Were it not for' (si no fuera por) es un segundo condicional invertido con resultado presente.",
+      "wrong": {
+        "Had": "'Had it not' necesitaría 'been' (Had it not been for) y se refiere al pasado.",
+        "Was": "En la inversión condicional se usa siempre 'were', nunca 'was'.",
+        "Should": "'Should it not for' no es gramatical."
+      },
+      "examples": [
+        "Were it not for the rain, we'd go out.",
+        "Were it not for her, the firm would collapse."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-implied-conditionals-003",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "implied-conditionals",
+    "tags": [
+      "grammar",
+      "conditionals"
+    ],
+    "prompt": "Had I but ___ the truth, I would never have signed that contract.",
+    "options": [
+      "know",
+      "known",
+      "knew",
+      "knowing"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Had I but + participio' es una forma literaria de 'si tan solo hubiera...'.",
+      "wrong": {
+        "know": "Tras 'had' va el participio, no la forma base.",
+        "knew": "'Knew' es pasado simple; tras 'had' necesitamos 'known'.",
+        "knowing": "El gerundio no forma tiempos perfectos con 'had'."
+      },
+      "examples": [
+        "Had I but listened, none of this would have happened.",
+        "Had we but known, we'd have come sooner."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-implied-conditionals-004",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "implied-conditionals",
+    "tags": [
+      "grammar",
+      "conditionals"
+    ],
+    "prompt": "___ your help, I'd never have finished the thesis on time.",
+    "options": [
+      "Unless",
+      "Without",
+      "Except",
+      "Despite"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Without + sustantivo' puede sustituir a la condición: Without your help = If you hadn't helped me.",
+      "wrong": {
+        "Unless": "'Unless' necesita una oración con verbo, no un sustantivo solo.",
+        "Except": "'Except' significa 'excepto', no expresa condición.",
+        "Despite": "'Despite' indica contraste (a pesar de), justo lo contrario."
+      },
+      "examples": [
+        "Without a map, we'd have got lost.",
+        "But for the rain, it would have been perfect."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-implied-conditionals-005",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "implied-conditionals",
+    "tags": [
+      "grammar",
+      "conditionals",
+      "inversion"
+    ],
+    "prompt": "___ resign, the board would have to appoint an interim CEO.",
+    "options": [
+      "Was he to",
+      "Did he",
+      "Should he to",
+      "Were he to"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Were + sujeto + to + infinitivo' es un condicional formal hipotético: Were he to resign = If he resigned.",
+      "wrong": {
+        "Was he to": "En la inversión condicional se usa 'were', no 'was'.",
+        "Did he": "'Did' no se usa para invertir condicionales.",
+        "Should he to": "Tras 'should' va el infinitivo sin 'to' (Should he resign)."
+      },
+      "examples": [
+        "Were you to accept, we'd be delighted.",
+        "Were prices to fall, sales would rise."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-implied-conditionals-006",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "implied-conditionals",
+    "tags": [
+      "grammar",
+      "conditionals"
+    ],
+    "prompt": "I set three alarms that morning; otherwise I ___ the flight.",
+    "options": [
+      "would have missed",
+      "would miss",
+      "had missed",
+      "will have missed"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Otherwise' implica una condición (si no lo hubiera hecho...); con pasado se usa would have + participio.",
+      "wrong": {
+        "would miss": "Se refiere al presente/futuro; la situación es pasada (that morning).",
+        "had missed": "Afirmaría que lo perdí antes; no expresa resultado hipotético.",
+        "will have missed": "Es futuro perfecto; no encaja con una situación pasada hipotética."
+      },
+      "examples": [
+        "I took a taxi; otherwise I'd have been late.",
+        "Thank you, otherwise I'd still be waiting."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-perception-passive-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "perception-passive",
+    "tags": [
+      "grammar",
+      "perception-verbs"
+    ],
+    "prompt": "The suspect was seen ___ the building shortly after midnight.",
+    "options": [
+      "leave",
+      "left",
+      "to leave",
+      "to leaving"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "En pasiva, los verbos de percepción recuperan el 'to': see sb leave → sb was seen to leave.",
+      "wrong": {
+        "leave": "En activa sería correcto (saw him leave), pero en pasiva hace falta 'to'.",
+        "left": "Con 'was seen left' la frase no tiene sentido; falta el infinitivo.",
+        "to leaving": "Tras 'to' de infinitivo va la forma base, no -ing."
+      },
+      "examples": [
+        "She was heard to say she'd quit.",
+        "He was made to apologise."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-causative-have-001",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "causative-have",
+    "tags": [
+      "grammar",
+      "causative"
+    ],
+    "prompt": "I won't have you ___ to your grandmother like that!",
+    "options": [
+      "to speak",
+      "spoken",
+      "speaking",
+      "speaks"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'I won't have sb doing sth' significa 'no voy a permitir que...'.",
+      "wrong": {
+        "to speak": "'Have' con este sentido no lleva 'to'.",
+        "spoken": "El participio sería causativo pasivo (have sth done), no tiene sentido con 'you'.",
+        "speaks": "Tras el objeto no puede ir un verbo conjugado."
+      },
+      "examples": [
+        "I won't have them shouting in my house.",
+        "We can't have customers waiting for hours."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-causative-have-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "causative-have",
+    "tags": [
+      "grammar",
+      "causative"
+    ],
+    "prompt": "What does 'We had our car broken into last night' mean?",
+    "options": [
+      "Nos forzaron el coche anoche (algo malo que nos pasó).",
+      "Pedimos que alguien forzara nuestro coche.",
+      "Nosotros forzamos nuestro coche anoche.",
+      "Nuestro coche se averió anoche."
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Have/get sth done' puede describir algo negativo que te ocurre, no algo que encargas.",
+      "wrong": {
+        "Pedimos que alguien forzara nuestro coche.": "Aunque es estructura causativa, aquí el contexto es negativo: nadie encarga un robo.",
+        "Nosotros forzamos nuestro coche anoche.": "La estructura indica que lo hizo otra persona, no nosotros.",
+        "Nuestro coche se averió anoche.": "'Break into' significa entrar a la fuerza, no averiarse (break down)."
+      },
+      "examples": [
+        "She had her bag stolen on the train.",
+        "He got his nose broken in a fight."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-distancing-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "distancing",
+    "tags": [
+      "grammar",
+      "formal"
+    ],
+    "prompt": "It would ___ that the files were deleted by mistake.",
+    "options": [
+      "look",
+      "be appearing",
+      "seemed",
+      "appear"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'It would appear/seem that...' suaviza una afirmación (parece ser que...).",
+      "wrong": {
+        "look": "'It would look that' no es correcto; 'look' necesita 'as if' o 'like'.",
+        "be appearing": "La forma continua no se usa con 'appear' en este sentido.",
+        "seemed": "Tras 'would' va el infinitivo sin to, no el pasado."
+      },
+      "examples": [
+        "It would appear that we've lost.",
+        "It would seem there's been an error."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-distancing-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "distancing",
+    "tags": [
+      "grammar",
+      "formal"
+    ],
+    "prompt": "There ___ to have been a misunderstanding about the delivery date.",
+    "options": [
+      "seem",
+      "seems",
+      "is seeming",
+      "is seemed"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'There seems to have been + sustantivo' distancia y suaviza la crítica; concuerda con el sustantivo (singular).",
+      "wrong": {
+        "seem": "El sustantivo 'a misunderstanding' es singular, así que 'seems'.",
+        "is seeming": "'Seem' es estativo y no se usa en continuo así.",
+        "is seemed": "'Seem' no tiene pasiva."
+      },
+      "examples": [
+        "There appears to have been an error.",
+        "There seem to be some problems."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-distancing-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "distancing",
+    "tags": [
+      "grammar",
+      "politeness"
+    ],
+    "prompt": "I ___ whether you might be able to help me with my application.",
+    "options": [
+      "am wondering about",
+      "was wondering",
+      "was wondered",
+      "would wonder"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'I was wondering whether/if...' es una petición muy cortés: el pasado continuo distancia.",
+      "wrong": {
+        "am wondering about": "'About whether' sobra aquí y el presente suena menos cortés.",
+        "was wondered": "Es una pasiva sin sentido: quien se pregunta soy yo (forma activa).",
+        "would wonder": "No se usa 'would wonder' para pedir algo."
+      },
+      "examples": [
+        "I was wondering if you were free.",
+        "We were hoping you could join us."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-subject-verb-agreement-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "subject-verb-agreement",
+    "tags": [
+      "grammar",
+      "agreement"
+    ],
+    "prompt": "The number of applicants ___ risen sharply this year.",
+    "options": [
+      "have",
+      "are",
+      "were",
+      "has"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'The number of + plural' es singular (el número); 'a number of' es plural (varios).",
+      "wrong": {
+        "have": "El sujeto es 'the number', singular, no 'applicants'.",
+        "are": "'Risen' necesita have/has; y el sujeto es singular.",
+        "were": "'Were risen' no existe; hace falta 'has risen'."
+      },
+      "examples": [
+        "The number of visitors is growing.",
+        "The number of cases has fallen."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-subject-verb-agreement-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "subject-verb-agreement",
+    "tags": [
+      "grammar",
+      "agreement"
+    ],
+    "prompt": "A number of employees ___ complained about the new schedule.",
+    "options": [
+      "have",
+      "has",
+      "is",
+      "was"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'A number of + plural' significa 'varios' y lleva verbo en plural.",
+      "wrong": {
+        "has": "'A number of employees' = varios empleados: plural.",
+        "is": "'Is complained' no tiene sentido; además el sujeto es plural.",
+        "was": "'Was complained' no tiene sentido; además el sujeto es plural."
+      },
+      "examples": [
+        "A number of problems have arisen.",
+        "A number of students were absent."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-subject-verb-agreement-003",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "subject-verb-agreement",
+    "tags": [
+      "grammar",
+      "agreement"
+    ],
+    "prompt": "Either the manager or her assistants ___ going to attend the conference.",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "be"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "Con 'either... or' el verbo concuerda con el sujeto más cercano: her assistants → are.",
+      "wrong": {
+        "is": "El sujeto más cercano es 'assistants' (plural).",
+        "was": "Además del número, 'was' rompe el sentido futuro de 'going to'; el sujeto cercano es plural.",
+        "be": "Hace falta un verbo conjugado."
+      },
+      "examples": [
+        "Either you or your sister has the key.",
+        "Neither the teacher nor the pupils were ready."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-subject-verb-agreement-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "subject-verb-agreement",
+    "tags": [
+      "grammar",
+      "agreement"
+    ],
+    "prompt": "The police ___ investigating the incident and expect to make an arrest soon.",
+    "options": [
+      "is",
+      "has",
+      "are",
+      "was"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Police' es un nombre colectivo que siempre va en plural en inglés.",
+      "wrong": {
+        "is": "En español 'la policía está', pero en inglés 'the police are'.",
+        "has": "'Has investigating' no es gramatical; además 'police' es plural.",
+        "was": "'Police' es plural y 'expect' indica presente."
+      },
+      "examples": [
+        "The police have arrived.",
+        "The cattle are in the field."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-ellipsis-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "ellipsis",
+    "tags": [
+      "grammar",
+      "ellipsis"
+    ],
+    "prompt": "I didn't really want to go to the wedding, but I felt I ___ to.",
+    "options": [
+      "ought",
+      "should",
+      "must",
+      "would"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "En la elipsis se puede dejar solo el 'to' del infinitivo; de los modales, solo 'ought' lleva 'to'.",
+      "wrong": {
+        "should": "'Should' no lleva 'to': se diría 'I felt I should'.",
+        "must": "'Must' no lleva 'to': 'I felt I must'.",
+        "would": "'Would to' no existe y no expresa obligación."
+      },
+      "examples": [
+        "I'd love to come, but I'm not allowed to.",
+        "You don't have to stay if you don't want to."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-ellipsis-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "ellipsis",
+    "tags": [
+      "grammar",
+      "ellipsis"
+    ],
+    "prompt": "\"You should have told me earlier.\" \"I know I ___.\"",
+    "options": [
+      "should",
+      "should have it",
+      "had",
+      "should have"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En la elipsis se repite el auxiliar completo, incluido 'have' para el pasado: I know I should have.",
+      "wrong": {
+        "should": "Faltaría 'have' para referirse al pasado.",
+        "should have it": "El auxiliar sustituye al verbo; no se añade 'it'.",
+        "had": "'I know I had' significaría 'sé que lo hice', lo contrario."
+      },
+      "examples": [
+        "\"Did you call him?\" \"No, but I should have.\"",
+        "She didn't win, but she could have."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-stranded-prepositions-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "stranded-prepositions",
+    "tags": [
+      "grammar",
+      "prepositions"
+    ],
+    "prompt": "This is the project I'm proudest ___ in my whole career.",
+    "options": [
+      "for",
+      "of",
+      "with",
+      "about"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En oraciones de relativo informales la preposición queda al final: the project (that) I'm proud of.",
+      "wrong": {
+        "for": "Calco de 'orgulloso por'; en inglés es 'proud of'.",
+        "with": "Calco de 'contento con'; 'proud' rige 'of'.",
+        "about": "'Proud about' no es la colocación estándar; es 'proud of'."
+      },
+      "examples": [
+        "That's the man I was telling you about.",
+        "It's a subject I know little about."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-stranded-prepositions-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "stranded-prepositions",
+    "tags": [
+      "grammar",
+      "prepositions"
+    ],
+    "prompt": "\"Has the meeting been cancelled?\" \"Not that I'm aware ___.\"",
+    "options": [
+      "about",
+      "of",
+      "for",
+      "with"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Not that I'm aware of' (que yo sepa, no) deja la preposición de 'aware of' al final.",
+      "wrong": {
+        "about": "'Aware' rige 'of', no 'about'.",
+        "for": "'Aware for' no existe.",
+        "with": "'Aware with' no existe."
+      },
+      "examples": [
+        "Not that I know of.",
+        "It's nothing to worry about."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-modal-nuances-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "modal-nuances",
+    "tags": [
+      "grammar",
+      "formal"
+    ],
+    "prompt": "Under this agreement, the tenant ___ pay the rent on the first day of each month.",
+    "options": [
+      "will to",
+      "must to",
+      "ought",
+      "shall"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "En contratos y textos legales 'shall' expresa obligación formal.",
+      "wrong": {
+        "will to": "'Will' no lleva 'to'.",
+        "must to": "'Must' no lleva 'to'.",
+        "ought": "'Ought' necesita 'to' (ought to pay)."
+      },
+      "examples": [
+        "The buyer shall notify the seller in writing.",
+        "Members shall pay an annual fee."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-modal-nuances-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "modal-nuances",
+    "tags": [
+      "grammar",
+      "habits"
+    ],
+    "prompt": "She ___ leave her dirty dishes in the sink, no matter how often I complain!",
+    "options": [
+      "will",
+      "would",
+      "shall",
+      "is used to"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Will' (acentuado) expresa un hábito presente molesto o una insistencia.",
+      "wrong": {
+        "would": "'Would' es para hábitos pasados; 'I complain' está en presente.",
+        "shall": "'Shall' no expresa hábito.",
+        "is used to": "'Be used to' significa 'estar acostumbrada a' y va con -ing."
+      },
+      "examples": [
+        "He will keep interrupting me!",
+        "Boys will be boys."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-modal-nuances-003",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "modal-nuances",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "Looking back, I'd rather ___ the train last weekend; the flight was a nightmare.",
+    "options": [
+      "took",
+      "take",
+      "have taken",
+      "had taken"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Would rather have + participio' expresa una preferencia sobre el pasado (habría preferido).",
+      "wrong": {
+        "took": "Tras 'would rather' (mismo sujeto) va infinitivo, no pasado simple.",
+        "take": "Se refiere al presente o futuro; 'last weekend' es pasado.",
+        "had taken": "Tras 'would rather' no va el pluscuamperfecto con el mismo sujeto."
+      },
+      "examples": [
+        "I'd rather have stayed at home.",
+        "She'd rather not have known."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-modal-nuances-004",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "modal-nuances",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "There's nothing good on TV, so we ___ go to bed early.",
+    "options": [
+      "might well as",
+      "had well",
+      "might as well",
+      "would as well"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Might/may as well' = ya que no hay nada mejor, también podemos...",
+      "wrong": {
+        "might well as": "El orden es incorrecto: might as well.",
+        "had well": "Mezcla de 'had better'; no existe 'had well'.",
+        "would as well": "La expresión fija es con 'might' o 'may'."
+      },
+      "examples": [
+        "We might as well walk; the bus isn't coming.",
+        "You may as well tell me now."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-modal-nuances-005",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "modal-nuances",
+    "tags": [
+      "grammar",
+      "modals"
+    ],
+    "prompt": "You ___ have warned me you were coming! I'd have tidied the flat.",
+    "options": [
+      "might",
+      "must",
+      "will",
+      "would"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'You might have + participio' expresa un reproche (podrías haber...).",
+      "wrong": {
+        "must": "'Must have' es deducción (seguro que...), no reproche.",
+        "will": "'Will have' es futuro perfecto o suposición, no reproche.",
+        "would": "'Would have warned' necesitaría una condición; no expresa reproche."
+      },
+      "examples": [
+        "You might have asked first!",
+        "He might have said thank you."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-articles-abstract-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "articles-abstract",
+    "tags": [
+      "grammar",
+      "articles"
+    ],
+    "prompt": "Governments around the world are trying to reduce ___ poverty.",
+    "options": [
+      "the",
+      "a",
+      "some",
+      "(sin artículo)"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Los nombres abstractos en sentido general no llevan artículo en inglés: reduce poverty.",
+      "wrong": {
+        "the": "En español decimos 'la pobreza', pero en inglés el sentido general no lleva 'the'.",
+        "a": "'Poverty' es incontable; no lleva 'a'.",
+        "some": "'Some poverty' limitaría la cantidad; aquí se habla en general."
+      },
+      "examples": [
+        "Education is the key to success.",
+        "Happiness can't be bought."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-articles-generic-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "articles-generic",
+    "tags": [
+      "grammar",
+      "articles"
+    ],
+    "prompt": "___ tiger is now an endangered species.",
+    "options": [
+      "A",
+      "The",
+      "(sin artículo)",
+      "Some"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'The + singular' puede referirse a toda una especie (uso genérico), sobre todo con predicados de especie.",
+      "wrong": {
+        "A": "'A tiger' es un ejemplar; un solo tigre no puede ser 'una especie en peligro'.",
+        "(sin artículo)": "'Tiger' es contable singular y necesita determinante.",
+        "Some": "'Some tiger' no es una especie; además no encaja con 'species'."
+      },
+      "examples": [
+        "The computer has changed our lives.",
+        "The whale is a mammal."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-articles-abstract-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "articles-abstract",
+    "tags": [
+      "grammar",
+      "articles"
+    ],
+    "prompt": "___ history of this region is closely linked to the sea.",
+    "options": [
+      "A",
+      "The",
+      "(sin artículo)",
+      "An"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "Un nombre abstracto especificado por 'of...' sí lleva 'the': the history of this region.",
+      "wrong": {
+        "A": "'A history' sería un libro o relato concreto, no la historia de la región.",
+        "(sin artículo)": "Sin artículo se habla de la historia en general; aquí está concretada por 'of this region'.",
+        "An": "'History' empieza por sonido consonante; y aquí necesita 'the'."
+      },
+      "examples": [
+        "The education of children matters.",
+        "History was my favourite subject."
+      ]
+    }
+  },
+  {
+    "id": "gram-c2-articles-generic-002",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "articles-generic",
+    "tags": [
+      "grammar",
+      "articles"
+    ],
+    "prompt": "___ unemployed are often hit hardest by rising prices.",
+    "options": [
+      "(sin artículo)",
+      "An",
+      "Some",
+      "The"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'The + adjetivo' se refiere a un grupo de personas en general y va con verbo plural: the unemployed, the rich.",
+      "wrong": {
+        "(sin artículo)": "Un adjetivo solo no puede ser sujeto; necesita 'the' (o 'unemployed people').",
+        "An": "'An unemployed' no se usa como sustantivo y el verbo es plural.",
+        "Some": "'Some unemployed' no funciona sin 'people'; el grupo general se expresa con 'the'."
+      },
+      "examples": [
+        "The elderly need better care.",
+        "The rich are getting richer."
+      ]
+    }
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "vocab-c2-high-collocations-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "high-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "With the president leading by thirty points in every poll, the result of the election was widely seen as a ___ conclusion.",
+    "options": [
+      "foregone",
+      "done",
+      "finished",
+      "decided"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'A foregone conclusion' = un resultado que se da por seguro antes de que ocurra.",
+      "wrong": {
+        "finished": "'Finished conclusion' no existe; la colocación fija es 'a foregone conclusion'.",
+        "decided": "Es un calco de 'decidido de antemano'; en inglés no se dice 'a decided conclusion'.",
+        "done": "Existe 'a done deal' (un trato cerrado), pero no 'a done conclusion'."
+      },
+      "examples": [
+        "Victory was never a foregone conclusion.",
+        "Many saw the merger as a foregone conclusion."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-high-collocations-002",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "high-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "The storm ___ havoc on the coastal villages, destroying roads and cutting off power for days.",
+    "options": [
+      "did",
+      "made",
+      "produced",
+      "wreaked"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Wreak havoc (on something)' = causar estragos, destrozos graves.",
+      "wrong": {
+        "made": "En español 'hacer estragos', pero en inglés no se dice 'make havoc'.",
+        "did": "'Do havoc' no es una colocación inglesa; el verbo fijo es 'wreak'.",
+        "produced": "'Produce' no combina con 'havoc'; suena a traducción literal de 'producir estragos'."
+      },
+      "examples": [
+        "The virus wreaked havoc on the company's computers.",
+        "Floods wreaked havoc across the region."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-high-collocations-003",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "high-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "As the owner of three petrol stations, he has a ___ interest in opposing subsidies for electric cars.",
+    "options": [
+      "created",
+      "invested",
+      "vested",
+      "implied"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'A vested interest (in something)' = un interés personal, normalmente económico, en que algo ocurra o no.",
+      "wrong": {
+        "invested": "Error muy común por parecido con 'invest', pero la colocación es 'vested interest', no 'invested interest'.",
+        "created": "Es un calco de 'intereses creados'; en inglés se dice 'vested interests'.",
+        "implied": "'Implied interest' significa 'interés implícito' y no expresa beneficio personal en un resultado."
+      },
+      "examples": [
+        "Tobacco companies have a vested interest in weak health laws.",
+        "Nobody here has a vested interest in the outcome."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-high-collocations-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "high-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "Low-income families will ___ the brunt of the new tax on basic foods.",
+    "options": [
+      "lift",
+      "hold",
+      "support",
+      "bear"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Bear the brunt of something' = llevarse la peor parte, sufrir lo más duro de algo.",
+      "wrong": {
+        "hold": "'Hold the brunt' no existe; con 'brunt' se usa 'bear'.",
+        "lift": "'Lift' significa 'levantar' y no forma colocación con 'brunt'.",
+        "support": "Calco de 'soportar'; en inglés 'support' es 'apoyar' y no va con 'brunt'."
+      },
+      "examples": [
+        "Coastal towns bore the brunt of the hurricane.",
+        "Young workers bear the brunt of the crisis."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-high-collocations-005",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "high-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "The government introduced emergency measures to ___ the tide of young people leaving rural areas.",
+    "options": [
+      "cut",
+      "break",
+      "stem",
+      "shut"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Stem the tide/flow of something' = frenar o contener algo que crece o avanza.",
+      "wrong": {
+        "cut": "'Cut the tide' no es idiomático; la colocación es 'stem the tide'.",
+        "shut": "'Shut' se usa con puertas o negocios, no con 'tide'.",
+        "break": "'Break the tide' no existe; se dice 'stem' (contener, frenar)."
+      },
+      "examples": [
+        "The new law failed to stem the tide of fake news.",
+        "They tried to stem the flow of refugees."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-high-collocations-006",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "high-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "What does 'curry favour' mean in: 'He's always bringing the boss coffee to curry favour with her.'?",
+    "options": [
+      "congraciarse con alguien, hacerle la pelota",
+      "hacerle un favor desinteresado",
+      "devolver un favor",
+      "pedir un favor a cambio de dinero"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Curry favour (with someone)' = intentar ganarse el favor de alguien con halagos o atenciones interesadas.",
+      "wrong": {
+        "hacerle un favor desinteresado": "Al contrario: 'curry favour' implica buscar un beneficio propio, no ayudar sin interés.",
+        "pedir un favor a cambio de dinero": "No tiene nada que ver con pagar; es ganarse la simpatía de alguien con halagos o atenciones.",
+        "devolver un favor": "'Devolver un favor' es 'return a favour'."
+      },
+      "examples": [
+        "Politicians curry favour with voters before elections.",
+        "She refused to curry favour with the directors."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-high-collocations-007",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "high-collocations",
+    "tags": [
+      "vocabulary",
+      "collocations"
+    ],
+    "prompt": "What does 'pay lip service to' mean in: 'The company pays lip service to sustainability, but its executives still fly everywhere in private jets.'?",
+    "options": [
+      "promover algo activamente",
+      "criticar algo en público",
+      "pagar por publicidad sobre algo",
+      "apoyar algo solo de palabra, sin hechos"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Pay lip service to something' = decir que se apoya algo sin hacer nada real por ello.",
+      "wrong": {
+        "promover algo activamente": "Es lo contrario: la frase critica que no actúan según lo que dicen.",
+        "criticar algo en público": "No es criticar; dicen apoyarlo, pero no lo cumplen.",
+        "pagar por publicidad sobre algo": "Aunque contiene 'pay', no habla de dinero; es una expresión fija."
+      },
+      "examples": [
+        "Many leaders pay lip service to equality.",
+        "Don't just pay lip service to safety rules: follow them."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "nuance"
+    ],
+    "prompt": "Normally ___ about her private life, the actress surprised everyone by discussing her divorce on live TV.",
+    "options": [
+      "reticent",
+      "reluctant",
+      "restrained",
+      "resistant"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Reticent (about something)' = reservado, poco dispuesto a hablar de algo; 'reluctant (to do)' = reacio a hacerlo.",
+      "wrong": {
+        "reluctant": "'Reluctant' significa 'reacio a hacer algo' y va con infinitivo (reluctant to talk); no describe a alguien reservado 'about' algo.",
+        "resistant": "'Resistant' es 'resistente' (a cambios, a un virus), no 'reservado'.",
+        "restrained": "'Restrained' es 'comedido, contenido' en su conducta; no se usa con 'about her private life'."
+      },
+      "examples": [
+        "He was reticent about his past.",
+        "She was reluctant to sign the contract."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "nuance"
+    ],
+    "prompt": "From the way he avoided my eyes, I ___ that he hadn't finished the report.",
+    "options": [
+      "inferred",
+      "insinuated",
+      "induced",
+      "implied"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Imply' = dar a entender (el hablante); 'infer' = deducir, sacar una conclusión (el oyente).",
+      "wrong": {
+        "implied": "'Imply' lo hace quien habla (sugerir); quien escucha y saca la conclusión 'infers'. Aquí 'I' es quien deduce.",
+        "insinuated": "'Insinuate' es sugerir algo negativo a otra persona; no es sacar una conclusión uno mismo.",
+        "induced": "'Induce' significa 'provocar, inducir a alguien a hacer algo', no 'deducir'."
+      },
+      "examples": [
+        "Are you implying that I lied?",
+        "What can we infer from these results?"
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "nuance"
+    ],
+    "prompt": "Several drivers were fined for openly ___ the new speed limits in the town centre.",
+    "options": [
+      "floating",
+      "flouting",
+      "flaunting",
+      "flattering"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Flout a rule/law' = saltarse una norma abiertamente; 'flaunt something' = presumir de algo.",
+      "wrong": {
+        "flaunting": "'Flaunt' es presumir, hacer ostentación (flaunt your wealth); saltarse una norma es 'flout'.",
+        "floating": "'Float' es flotar; no tiene relación con las normas.",
+        "flattering": "'Flatter' es halagar; no encaja con 'speed limits'."
+      },
+      "examples": [
+        "They flouted the ban on public gatherings.",
+        "He loves flaunting his new car."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "nuance"
+    ],
+    "prompt": "We need a ___ referee for the final: someone who gains nothing whichever team wins.",
+    "options": [
+      "desinterested",
+      "uninteresting",
+      "disinterested",
+      "uninterested"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Disinterested' = imparcial, sin interés personal; 'uninterested' = al que algo no le interesa.",
+      "wrong": {
+        "uninterested": "'Uninterested' significa 'sin interés, aburrido'. Un árbitro que no tiene nada que ganar es 'disinterested' (imparcial).",
+        "uninteresting": "'Uninteresting' describe algo aburrido, no a una persona imparcial.",
+        "desinterested": "No existe en inglés; es una ortografía influida por el español 'desinteresado'."
+      },
+      "examples": [
+        "A disinterested observer would agree with her.",
+        "The students looked completely uninterested."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-005",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "nuance"
+    ],
+    "prompt": "Before shipping them abroad, the gallery ___ the paintings against theft and damage for two million euros.",
+    "options": [
+      "ensured",
+      "assured",
+      "insured",
+      "reassured"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Insure something (against)' = asegurar con una póliza; 'ensure' = garantizar; 'assure someone' = asegurarle algo a alguien.",
+      "wrong": {
+        "ensured": "'Ensure' es 'garantizar que algo ocurra' (ensure that...); contratar un seguro es 'insure'.",
+        "assured": "'Assure' es 'asegurar a alguien' que algo es cierto (assure you that...), no contratar un seguro.",
+        "reassured": "'Reassure' es tranquilizar a alguien; no va con 'against theft'."
+      },
+      "examples": [
+        "Is your house insured against floods?",
+        "Please ensure that the door is locked."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-006",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "nuance"
+    ],
+    "prompt": "Several factors ___ against a quick agreement, including the upcoming elections in both countries.",
+    "options": [
+      "mitigate",
+      "meditate",
+      "militate",
+      "militarise"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Militate against something' = dificultar, jugar en contra de algo; 'mitigate something' = atenuarlo.",
+      "wrong": {
+        "mitigate": "'Mitigate' es 'atenuar, mitigar' (mitigate the effects) y no va con 'against'; 'militate against' = dificultar.",
+        "militarise": "'Militarise' es militarizar; no tiene sentido aquí.",
+        "meditate": "'Meditate' es meditar, reflexionar; no expresa que algo dificulte un resultado."
+      },
+      "examples": [
+        "His age militates against his chances.",
+        "Trees help mitigate the effects of heat."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-007",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "When asked directly whether he had received the payment, the minister began to prevaricate. What did he do?",
+    "options": [
+      "Respondió con evasivas para no decir la verdad",
+      "Confesó toda la verdad",
+      "Lo dejó para más tarde por pereza",
+      "Cometió prevaricación (dictó una resolución injusta)"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Prevaricate' = responder con evasivas, andarse con rodeos; 'procrastinate' = dejar las cosas para después.",
+      "wrong": {
+        "Lo dejó para más tarde por pereza": "Eso es 'procrastinate'; 'prevaricate' es andarse con rodeos para evitar la verdad.",
+        "Cometió prevaricación (dictó una resolución injusta)": "Falso amigo: en inglés 'prevaricate' no es el delito de prevaricación.",
+        "Confesó toda la verdad": "Es lo contrario: evitó responder con claridad."
+      },
+      "examples": [
+        "Stop prevaricating and give me a straight answer.",
+        "I always procrastinate when I have to write reports."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-008",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "nuance"
+    ],
+    "prompt": "In careful usage, what does 'fortuitous' mean in: 'Their meeting at the airport was entirely fortuitous: neither knew the other was travelling.'?",
+    "options": [
+      "que ocurre por casualidad, fortuito",
+      "lujoso, caro",
+      "peligroso, arriesgado",
+      "planeado con antelación"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Fortuitous' = que ocurre por casualidad; hoy se usa a veces como 'afortunado' (fortunate), pero su sentido estricto es 'fortuito'.",
+      "wrong": {
+        "planeado con antelación": "Es lo contrario: la frase dice que ninguno sabía que el otro viajaba.",
+        "peligroso, arriesgado": "No tiene relación con el riesgo.",
+        "lujoso, caro": "No tiene relación con el dinero ni el lujo."
+      },
+      "examples": [
+        "The discovery was fortuitous.",
+        "We were fortunate to find a table."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-confusable-words-009",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "confusable-words",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'complacent' mean in: 'After winning three titles in a row, the team became complacent and lost to a much weaker side.'?",
+    "options": [
+      "más exigente consigo mismo",
+      "muy agradecido",
+      "demasiado confiado, sin esforzarse",
+      "complaciente con los rivales"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Complacent' = satisfecho de sí mismo hasta el punto de dejar de esforzarse o de ver los peligros.",
+      "wrong": {
+        "complaciente con los rivales": "Falso amigo: 'complaciente' se dice 'obliging' o 'accommodating'.",
+        "muy agradecido": "'Agradecido' es 'grateful'; no tiene relación.",
+        "más exigente consigo mismo": "Es lo contrario: 'complacent' implica relajarse por exceso de confianza."
+      },
+      "examples": [
+        "We can't afford to be complacent about security.",
+        "Success made him complacent."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "Smartphones have become so ___ that it is hard to remember how people organised their lives before them.",
+    "options": [
+      "ominous",
+      "unanimous",
+      "omnipotent",
+      "ubiquitous"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Ubiquitous' = omnipresente, que está en todas partes.",
+      "wrong": {
+        "omnipotent": "'Omnipotent' es 'todopoderoso'; no describe algo que está en todas partes.",
+        "unanimous": "'Unanimous' se aplica a decisiones o votaciones, no a objetos.",
+        "ominous": "'Ominous' significa 'amenazador, de mal agüero'; no encaja con la idea de estar en todas partes."
+      },
+      "examples": [
+        "Coffee shops are ubiquitous in this city.",
+        "Plastic has become ubiquitous in the oceans."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "What does 'ephemeral' mean in: 'Fame on social media is often ephemeral: today's star is forgotten next week.'?",
+    "options": [
+      "efímera, pasajera",
+      "contagiosa",
+      "peligrosa",
+      "falsa"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Ephemeral' = efímero, que dura muy poco tiempo.",
+      "wrong": {
+        "peligrosa": "No tiene que ver con el peligro; la frase habla de lo poco que dura.",
+        "falsa": "No significa 'falsa' sino que dura muy poco.",
+        "contagiosa": "No tiene que ver con contagiar; el contexto habla de olvido rápido."
+      },
+      "examples": [
+        "Fashion trends are ephemeral.",
+        "The beauty of cherry blossom is ephemeral."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "Rather than insisting on the perfect solution, the mayor took a ___ approach and accepted a partial deal.",
+    "options": [
+      "problematic",
+      "pragmatic",
+      "dogmatic",
+      "dramatic"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Pragmatic' = práctico, realista, que busca soluciones posibles más que ideales.",
+      "wrong": {
+        "dogmatic": "'Dogmatic' es lo contrario: inflexible, que no cede. Aceptar un acuerdo parcial es ser práctico.",
+        "problematic": "'Problematic' significa 'que causa problemas'; no describe una actitud práctica.",
+        "dramatic": "'Dramatic' es 'espectacular, drástico'; no encaja con aceptar un acuerdo parcial."
+      },
+      "examples": [
+        "We need a pragmatic solution, not a perfect one.",
+        "She is pragmatic about money."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-004",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "She is ___ in her accounting: every receipt is filed and every cent is recorded.",
+    "options": [
+      "unscrupulous",
+      "scrumptious",
+      "suspicious",
+      "scrupulous"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Scrupulous' = escrupuloso, meticuloso y honrado hasta el último detalle.",
+      "wrong": {
+        "unscrupulous": "'Unscrupulous' es 'sin escrúpulos, deshonesto'; contradice la idea de registrar cada céntimo.",
+        "scrumptious": "'Scrumptious' significa 'delicioso' y se usa para comida.",
+        "suspicious": "'Suspicious' es 'sospechoso' o 'desconfiado'; no describe precisión."
+      },
+      "examples": [
+        "He was scrupulous about telling the truth.",
+        "The house was kept scrupulously clean."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-005",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'candid' mean in: 'To be candid, I don't think your proposal will be approved.'?",
+    "options": [
+      "cándido, ingenuo",
+      "pesimista",
+      "amable, educado",
+      "franco, sincero"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Candid' = franco, sincero, que dice las cosas claramente.",
+      "wrong": {
+        "cándido, ingenuo": "Falso amigo: 'cándido' se dice 'naive' o 'ingenuous'; 'candid' es 'franco'.",
+        "amable, educado": "No es 'amable'; anuncia una opinión directa, aunque sea desagradable.",
+        "pesimista": "La opinión es negativa, pero 'candid' describe la franqueza, no el pesimismo."
+      },
+      "examples": [
+        "She gave a candid interview about her illness.",
+        "Thank you for your candid feedback."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-006",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "Riot police were sent in to ___ the unrest after the disputed election.",
+    "options": [
+      "quench",
+      "quail",
+      "quell",
+      "quit"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Quell' = sofocar, reprimir (una revuelta, protestas) o calmar (miedos, dudas).",
+      "wrong": {
+        "quench": "'Quench' se usa con la sed o el fuego (quench your thirst), no con disturbios.",
+        "quail": "'Quail' es acobardarse (verbo intransitivo) o 'codorniz'; no puede llevar complemento aquí.",
+        "quit": "'Quit' es dejar o abandonar algo; la policía no 'abandona' los disturbios, los sofoca."
+      },
+      "examples": [
+        "The army quelled the rebellion.",
+        "The minister tried to quell fears of a recession."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-007",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "What does 'lament' mean in: 'Many critics lament the decline of local newspapers.'?",
+    "options": [
+      "celebrar",
+      "lamentar, deplorar",
+      "analizar",
+      "negar"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Lament' = lamentar, expresar pena o pesar por algo (registro formal o literario).",
+      "wrong": {
+        "celebrar": "Es lo contrario: 'lament' expresa pena o queja.",
+        "analizar": "No es un verbo neutro de análisis; expresa tristeza por la pérdida.",
+        "negar": "No se niega el declive; se lamenta."
+      },
+      "examples": [
+        "She lamented the loss of her old friends.",
+        "He lamented that nobody reads poetry any more."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-literary-journalistic-008",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "literary-journalistic",
+    "tags": [
+      "vocabulary",
+      "formal"
+    ],
+    "prompt": "Cutting the number of nurses will only ___ the problem of long waiting lists.",
+    "options": [
+      "exaggerate",
+      "alleviate",
+      "exasperate",
+      "exacerbate"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Exacerbate' = agravar, empeorar un problema o una situación.",
+      "wrong": {
+        "exasperate": "'Exasperate' es exasperar a una persona (irritarla), no empeorar un problema.",
+        "exaggerate": "'Exaggerate' es exagerar al hablar; no es que el problema empeore de verdad.",
+        "alleviate": "'Alleviate' es aliviar; contradice 'only' y el sentido de recortar enfermeros."
+      },
+      "examples": [
+        "Stress can exacerbate skin conditions.",
+        "The drought exacerbated food shortages."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-001",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'complexion' mean in: 'She has a pale complexion and burns easily in the sun.'?",
+    "options": [
+      "complexión física",
+      "peinado",
+      "carácter",
+      "cutis, tez"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Complexion' = tez, color y aspecto de la piel de la cara.",
+      "wrong": {
+        "complexión física": "Falso amigo: 'complexión' se dice 'build' (a slim build).",
+        "carácter": "'Carácter' es 'character' o 'temperament'.",
+        "peinado": "'Peinado' es 'hairstyle'."
+      },
+      "examples": [
+        "He has a dark complexion.",
+        "This cream is good for an oily complexion."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'ingenuous' mean in: 'It was rather ingenuous of him to believe every word the salesman said.'?",
+    "options": [
+      "malicioso",
+      "ingenioso",
+      "ingenuo, cándido",
+      "generoso"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Ingenuous' = ingenuo, inocente; 'ingenious' = ingenioso; 'ingenuity' = ingenio.",
+      "wrong": {
+        "ingenioso": "Falso amigo: 'ingenioso' es 'ingenious', con i.",
+        "malicioso": "Es lo contrario: 'ingenuous' describe a alguien sin malicia.",
+        "generoso": "'Generoso' es 'generous'; no tiene relación."
+      },
+      "examples": [
+        "Her ingenuous smile charmed everyone.",
+        "What an ingenious idea!"
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "It took real ___ to repair the engine with nothing but a paperclip and some tape.",
+    "options": [
+      "innocence",
+      "ingenuity",
+      "ingenious",
+      "ingenuousness"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Ingenuity' = ingenio, creatividad práctica (aunque se parezca a 'ingenuidad').",
+      "wrong": {
+        "ingenuousness": "'Ingenuousness' es 'ingenuidad, candidez'; para arreglar un motor hace falta ingenio: 'ingenuity'.",
+        "ingenious": "'Ingenious' es adjetivo; después de 'real' en esta frase hace falta un sustantivo.",
+        "innocence": "'Innocence' es 'inocencia'; no ayuda a reparar un motor."
+      },
+      "examples": [
+        "The escape plan showed remarkable ingenuity.",
+        "Human ingenuity has no limits."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "The losing candidate announced that he would ___ the result in court.",
+    "options": [
+      "answer",
+      "contest",
+      "reply",
+      "respond"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Contest' = impugnar, recurrir o disputar algo; 'contestar' = answer/reply.",
+      "wrong": {
+        "answer": "Calco de 'contestar'; 'answer the result' no tiene sentido. 'Contest' significa impugnar.",
+        "reply": "'Reply' es responder y necesita 'to' (reply to a letter); no significa impugnar.",
+        "respond": "'Respond' también necesita 'to' y significa responder, no recurrir un resultado."
+      },
+      "examples": [
+        "She plans to contest her father's will.",
+        "Please answer the question."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-005",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'recollect' mean in: 'I don't recollect signing that document, but it's my signature.'?",
+    "options": [
+      "recordar",
+      "recolectar",
+      "reconocer",
+      "firmar de nuevo"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Recollect' = recordar, acordarse (formal); 'recollection' = recuerdo.",
+      "wrong": {
+        "recolectar": "Falso amigo: 'recolectar' es 'harvest' o 'collect'.",
+        "firmar de nuevo": "No tiene que ver con firmar; 're-' aquí no significa 'otra vez'.",
+        "reconocer": "'Reconocer' es 'recognise' o 'admit'."
+      },
+      "examples": [
+        "I don't recollect his name.",
+        "She has no recollection of the accident."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-006",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "My sister is divorcing her husband, so she has hired a ___ to represent her in court.",
+    "options": [
+      "avocado",
+      "lawyer",
+      "judge",
+      "lawman"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Lawyer' = abogado; 'avocado' = aguacate.",
+      "wrong": {
+        "avocado": "Falso amigo muy común: 'avocado' es 'aguacate'. 'Abogado' es 'lawyer'.",
+        "judge": "'Judge' es el juez, que decide el caso; no representa a ninguna parte.",
+        "lawman": "'Lawman' es un agente de la ley (sheriff, policía), sobre todo en el Oeste americano."
+      },
+      "examples": [
+        "You should talk to a lawyer before signing.",
+        "I'd like some avocado on my toast."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-007",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'casualties' mean in: 'The earthquake caused hundreds of casualties.'?",
+    "options": [
+      "víctimas (muertos o heridos)",
+      "réplicas del terremoto",
+      "daños materiales",
+      "casualidades"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Casualty' = víctima (muerto o herido) de un accidente, guerra o desastre; en el Reino Unido también 'urgencias'.",
+      "wrong": {
+        "casualidades": "Falso amigo: 'casualidad' es 'chance' o 'coincidence'.",
+        "daños materiales": "Los daños materiales son 'damage'; 'casualties' son personas.",
+        "réplicas del terremoto": "Las réplicas son 'aftershocks'."
+      },
+      "examples": [
+        "There were no casualties in the fire.",
+        "He was taken to casualty with a broken arm."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-false-friends-advanced-008",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "false-friends-advanced",
+    "tags": [
+      "vocabulary",
+      "false-friends"
+    ],
+    "prompt": "What does 'notorious' mean in: 'This bridge is notorious for traffic jams at rush hour.'?",
+    "options": [
+      "evidente, obvio",
+      "notable, destacado",
+      "conocido por su belleza",
+      "tristemente célebre, con mala fama"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Notorious (for)' = famoso por algo negativo; 'famous' = famoso en sentido neutro o positivo.",
+      "wrong": {
+        "notable, destacado": "'Notorious' no es neutro ni positivo: se usa para algo conocido por algo malo.",
+        "conocido por su belleza": "Para algo positivo se usa 'famous' o 'renowned', no 'notorious'.",
+        "evidente, obvio": "Aunque en español 'notorio' puede ser 'evidente', en inglés 'notorious' es 'de mala fama'."
+      },
+      "examples": [
+        "He was a notorious liar.",
+        "The area is notorious for pickpockets."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "The court ruled that the decision was final and ___: it could not be changed or appealed.",
+    "options": [
+      "irrevocable",
+      "inrevocable",
+      "unrevocable",
+      "disrevocable"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "Prefijo negativo 'in-' se convierte en 'ir-' ante r, 'il-' ante l e 'im-' ante p/b/m: irrevocable, illegal, impossible.",
+      "wrong": {
+        "unrevocable": "No existe; ante palabras que empiezan por r- el prefijo negativo latino es 'ir-'.",
+        "inrevocable": "Calco de 'irrevocable' con 'in-'; delante de r- el prefijo se asimila a 'ir-'.",
+        "disrevocable": "'Dis-' no forma el contrario de 'revocable'."
+      },
+      "examples": [
+        "The damage may be irreversible.",
+        "His decision is irrevocable."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "The doctor's handwriting was so ___ that the pharmacist had to phone him to check the prescription.",
+    "options": [
+      "illegal",
+      "unlegible",
+      "illegible",
+      "inlegible"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Illegible' = ilegible (con doble l); ante l el prefijo negativo es 'il-'.",
+      "wrong": {
+        "unlegible": "No existe; el contrario de 'legible' se forma con 'il-'.",
+        "inlegible": "Error por influencia de 'ilegible'/'in-'; en inglés se dobla la l: 'illegible'.",
+        "illegal": "'Illegal' es 'ilegal', contrario a la ley; no describe una letra difícil de leer."
+      },
+      "examples": [
+        "The signature was illegible.",
+        "Some of the old letters are almost illegible."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "Her manners were ___: she never put a foot wrong at the formal dinner.",
+    "options": [
+      "impecable",
+      "inpeccable",
+      "unpeccable",
+      "impeccable"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Impeccable' = impecable, perfecto (se escribe con -cc-).",
+      "wrong": {
+        "unpeccable": "No existe; ante p el prefijo negativo latino es 'im-'.",
+        "inpeccable": "Ante p el prefijo 'in-' cambia a 'im-'.",
+        "impecable": "Es la ortografía española; en inglés se escribe con doble c: 'impeccable'."
+      },
+      "examples": [
+        "He speaks impeccable French.",
+        "The hotel service was impeccable."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "The new director gave jobs to his cousin and two nephews: a clear case of ___.",
+    "options": [
+      "nepotry",
+      "nepotism",
+      "familism",
+      "favourism"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Nepotism' = nepotismo, dar cargos o ventajas a familiares; el sufijo '-ism' forma sustantivos de prácticas o sistemas.",
+      "wrong": {
+        "favourism": "No existe; la palabra es 'favouritism' (favoritismo), no la opción dada.",
+        "nepotry": "No existe; el sufijo correcto es '-ism'.",
+        "familism": "'Familism' es un término de sociología (valorar la familia), no el enchufismo laboral."
+      },
+      "examples": [
+        "The company was accused of nepotism.",
+        "Ageism and sexism are still common."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-005",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "What does 'Kafkaesque' mean in: 'Getting a simple parking permit involved a Kafkaesque series of forms and offices.'?",
+    "options": [
+      "escrito con mucho talento",
+      "rápido y eficiente",
+      "absurdamente burocrático y opresivo",
+      "típico de la literatura alemana"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'-esque' = 'al estilo de': Kafkaesque (absurdo y burocrático), Dantesque, picturesque.",
+      "wrong": {
+        "escrito con mucho talento": "El sufijo '-esque' indica 'al estilo de', pero aquí describe el mundo absurdo de Kafka, no el talento literario.",
+        "típico de la literatura alemana": "No se refiere a la literatura alemana en general, sino a situaciones absurdas como las de Kafka.",
+        "rápido y eficiente": "Es lo contrario: describe un proceso absurdo y agotador."
+      },
+      "examples": [
+        "Dealing with the tax office was Kafkaesque.",
+        "The hotel had a Gothic-esque feel."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-006",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "The view from our hotel balcony was absolutely ___: green hills, a river and an old stone bridge.",
+    "options": [
+      "picturable",
+      "picturesque",
+      "pictorial",
+      "pictured"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Picturesque' = pintoresco, bonito como para pintarlo (sufijo '-esque').",
+      "wrong": {
+        "pictorial": "'Pictorial' significa 'con ilustraciones, pictórico' (a pictorial guide), no 'bonito como un cuadro'.",
+        "pictured": "'Pictured' es participio: 'que aparece en la foto'; no describe la belleza de una vista.",
+        "picturable": "'Picturable' (muy raro) significa 'que se puede representar', no 'bonito como un cuadro'."
+      },
+      "examples": [
+        "We stayed in a picturesque fishing village.",
+        "The old town is very picturesque."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-007",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "After long negotiations, the star player agreed to ___ with the club for another three years.",
+    "options": [
+      "re-sign",
+      "resing",
+      "re-assign",
+      "resign"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Re-sign' (con guion) = volver a firmar; 'resign' = dimitir. El guion evita confundir 're-' con palabras ya existentes.",
+      "wrong": {
+        "resign": "'Resign' (sin guion) significa 'dimitir'; renovar un contrato es 're-sign'.",
+        "re-assign": "'Re-assign' es asignar a otro puesto o tarea; no se usa con 'with the club'.",
+        "resing": "'Resing' sería 'cantar de nuevo'; no tiene que ver con contratos."
+      },
+      "examples": [
+        "The minister resigned after the scandal.",
+        "He re-signed for two more seasons."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-word-formation-advanced-008",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "word-formation-advanced",
+    "tags": [
+      "vocabulary",
+      "word-formation"
+    ],
+    "prompt": "What does 'immaterial' mean in: 'Whether he meant to break it is immaterial: the vase is broken and someone has to pay.'?",
+    "options": [
+      "inmaterial, sin cuerpo físico",
+      "irrelevante, que no importa",
+      "inmoral",
+      "imposible"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Immaterial' (formal) = irrelevante, que no afecta al resultado.",
+      "wrong": {
+        "inmaterial, sin cuerpo físico": "Aunque existe ese sentido técnico, aquí la frase dice que la intención no importa.",
+        "imposible": "'Imposible' es 'impossible'.",
+        "inmoral": "'Inmoral' es 'immoral'."
+      },
+      "examples": [
+        "Her age is immaterial to the job.",
+        "The cost is immaterial if it saves lives."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-binomials-001",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "binomials",
+    "tags": [
+      "vocabulary",
+      "fixed-expressions"
+    ],
+    "prompt": "I've packed the furniture; now I just have a few ___ and ends to put in boxes.",
+    "options": [
+      "evens",
+      "odds",
+      "pieces",
+      "bits"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Odds and ends' = cosas sueltas, cachivaches de poco valor.",
+      "wrong": {
+        "bits": "Existe 'bits and pieces', pero no 'bits and ends'.",
+        "pieces": "'Pieces' forma 'bits and pieces', no '___ and ends'.",
+        "evens": "Asociación con 'odds/evens' (impares/pares), pero el binomio es 'odds and ends'."
+      },
+      "examples": [
+        "The drawer is full of odds and ends.",
+        "I've got a few odds and ends to sort out at work."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-binomials-002",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "binomials",
+    "tags": [
+      "vocabulary",
+      "fixed-expressions"
+    ],
+    "prompt": "Which of these binomials has its words in the fixed, natural English order?",
+    "options": [
+      "tired and sick",
+      "sound and safe",
+      "void and null",
+      "pros and cons"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "Los binomios (pros and cons, safe and sound) tienen un orden fijo que no se puede invertir.",
+      "wrong": {
+        "tired and sick": "El orden fijo es 'sick and tired'; al invertirlo suena extraño a un nativo.",
+        "sound and safe": "El orden fijo es 'safe and sound'.",
+        "void and null": "El orden fijo es 'null and void'."
+      },
+      "examples": [
+        "Let's weigh up the pros and cons.",
+        "The kids got home safe and sound."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-binomials-003",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "binomials",
+    "tags": [
+      "vocabulary",
+      "fixed-expressions"
+    ],
+    "prompt": "The rental agreement covers normal ___ and tear, so you won't be charged for the faded carpet.",
+    "options": [
+      "use",
+      "rip",
+      "wear",
+      "worn"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Wear and tear' = desgaste normal por el uso.",
+      "wrong": {
+        "use": "'Use and tear' no existe; el binomio es 'wear and tear'.",
+        "rip": "'Rip' significa rasgar, pero no forma binomio con 'tear'.",
+        "worn": "'Worn' es participio/adjetivo; el binomio usa el sustantivo 'wear'."
+      },
+      "examples": [
+        "The insurance doesn't cover wear and tear.",
+        "My shoes show signs of wear and tear."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-binomials-004",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "binomials",
+    "tags": [
+      "vocabulary",
+      "fixed-expressions"
+    ],
+    "prompt": "Since the contract was signed under pressure, the judge declared it null and ___.",
+    "options": [
+      "empty",
+      "invalid",
+      "void",
+      "vain"
+    ],
+    "correct": 2,
+    "explanation": {
+      "rule": "'Null and void' = nulo y sin efecto (lenguaje jurídico).",
+      "wrong": {
+        "empty": "'Empty' es vacío físicamente; el binomio legal es 'null and void'.",
+        "vain": "'In vain' es en vano, pero no forma binomio con 'null'.",
+        "invalid": "Significa algo parecido, pero la expresión fija legal es 'null and void', no 'null and invalid'."
+      },
+      "examples": [
+        "The agreement is now null and void.",
+        "Any changes made without consent are null and void."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-binomials-005",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "binomials",
+    "tags": [
+      "vocabulary",
+      "fixed-expressions"
+    ],
+    "prompt": "After three days lost in the mountains, the hikers were found safe and ___.",
+    "options": [
+      "sound",
+      "secure",
+      "saved",
+      "healthy"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Safe and sound' = sano y salvo.",
+      "wrong": {
+        "healthy": "'Safe and healthy' no es el binomio fijo; se dice 'safe and sound'.",
+        "secure": "'Safe and secure' existe, pero describe un lugar o sistema protegido, no a personas que aparecen sanas tras un peligro.",
+        "saved": "'Saved' es participio de 'save'; no forma binomio con 'safe'."
+      },
+      "examples": [
+        "The missing child was found safe and sound.",
+        "We arrived home safe and sound."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-binomials-006",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "binomials",
+    "tags": [
+      "vocabulary",
+      "fixed-expressions"
+    ],
+    "prompt": "What does 'sick and tired' mean in: 'I'm sick and tired of your excuses!'?",
+    "options": [
+      "Me dan pena tus excusas",
+      "Estoy cansado, así que acepto tus excusas",
+      "Estoy enfermo y cansado por tus excusas",
+      "Estoy harto de tus excusas"
+    ],
+    "correct": 3,
+    "explanation": {
+      "rule": "'Be sick and tired of something' = estar harto de algo.",
+      "wrong": {
+        "Estoy enfermo y cansado por tus excusas": "Es una traducción literal; el binomio no habla de salud.",
+        "Me dan pena tus excusas": "No expresa pena sino hartazgo y enfado.",
+        "Estoy cansado, así que acepto tus excusas": "Es lo contrario: no las acepta, está harto."
+      },
+      "examples": [
+        "I'm sick and tired of this weather.",
+        "She was sick and tired of waiting."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-euphemisms-diplomatic-001",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "euphemisms-diplomatic",
+    "tags": [
+      "vocabulary",
+      "register"
+    ],
+    "prompt": "A company announces: 'Due to restructuring, 200 employees will be let go.' What will happen to them?",
+    "options": [
+      "Serán trasladados a otra oficina",
+      "Serán despedidos",
+      "Podrán elegir si se quedan o se van",
+      "Podrán irse de vacaciones"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Let someone go' = despedir (eufemismo de 'fire' o 'make redundant').",
+      "wrong": {
+        "Podrán irse de vacaciones": "'Let go' aquí no es 'dejar marchar' de vacaciones; es un eufemismo de despedir.",
+        "Serán trasladados a otra oficina": "Un traslado sería 'relocated' o 'transferred'.",
+        "Podrán elegir si se quedan o se van": "No eligen; la empresa decide. 'Let go' suaviza 'fired' o 'made redundant'."
+      },
+      "examples": [
+        "We had to let three people go.",
+        "She was let go after ten years."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-euphemisms-diplomatic-002",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "euphemisms-diplomatic",
+    "tags": [
+      "vocabulary",
+      "register"
+    ],
+    "prompt": "The spokesperson was accused of being ___ with the truth about the company's losses.",
+    "options": [
+      "cheap",
+      "economical",
+      "economic",
+      "saving"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "'Economical with the truth' = eufemismo de 'mentir u ocultar parte de la verdad'.",
+      "wrong": {
+        "economic": "'Economic' se refiere a la economía (economic growth); la expresión es 'economical with the truth'.",
+        "cheap": "'Cheap' es barato o tacaño; no forma esta expresión.",
+        "saving": "'Saving' no es adjetivo de esta expresión; suena a calco de 'ahorrador'."
+      },
+      "examples": [
+        "The minister was economical with the truth.",
+        "I suspect he's being economical with the truth."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-euphemisms-diplomatic-003",
+    "mode": "quiz",
+    "level": "C2",
+    "topic": "euphemisms-diplomatic",
+    "tags": [
+      "vocabulary",
+      "register"
+    ],
+    "prompt": "After a summit, a diplomat says the two leaders had 'a frank exchange of views'. What does this phrase usually mean?",
+    "options": [
+      "Hablaron de temas personales",
+      "Discutieron y no se pusieron de acuerdo",
+      "Intercambiaron regalos",
+      "Llegaron a un acuerdo total"
+    ],
+    "correct": 1,
+    "explanation": {
+      "rule": "En lenguaje diplomático, 'a frank exchange of views' suele ocultar un desacuerdo serio.",
+      "wrong": {
+        "Llegaron a un acuerdo total": "En lenguaje diplomático, si hubiera acuerdo dirían 'agreed' o 'constructive talks'.",
+        "Intercambiaron regalos": "'Exchange of views' es intercambio de opiniones, no de regalos.",
+        "Hablaron de temas personales": "'Frank' no significa 'personal'; es un eufemismo de discusión dura."
+      },
+      "examples": [
+        "Talks were described as 'frank and candid'.",
+        "There was a frank exchange of views on trade."
+      ]
+    }
+  },
+  {
+    "id": "vocab-c2-euphemisms-diplomatic-004",
+    "mode": "fill",
+    "level": "C2",
+    "topic": "euphemisms-diplomatic",
+    "tags": [
+      "vocabulary",
+      "register"
+    ],
+    "prompt": "When asked about his work, he said he was currently ___ jobs, which sounded better than 'unemployed'.",
+    "options": [
+      "between",
+      "without",
+      "among",
+      "out of"
+    ],
+    "correct": 0,
+    "explanation": {
+      "rule": "'Between jobs' = eufemismo de 'en paro', sin trabajo de momento.",
+      "wrong": {
+        "among": "'Among' se usa con grupos de más de dos; la expresión fija es 'between jobs'.",
+        "without": "'Without jobs' es gramatical pero no es el eufemismo fijo; además sería 'without a job'.",
+        "out of": "Existe 'out of work', pero no 'out of jobs'."
+      },
+      "examples": [
+        "I'm between jobs at the moment.",
+        "She's between jobs and doing some volunteering."
+      ]
+    }
+  }
+]

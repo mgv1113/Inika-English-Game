@@ -29,8 +29,8 @@ describe("contenido", () => {
     }
   });
 
-  it("cubre los niveles A1 a B2", () => {
-    for (const level of ["A1", "A2", "B1", "B2"]) {
+  it("cubre los niveles A1 a C2", () => {
+    for (const level of ["A1", "A2", "B1", "B2", "C1", "C2"]) {
       expect(questions.filter((q) => q.level === level).length, level).toBeGreaterThanOrEqual(100);
     }
   });
