@@ -1,6 +1,7 @@
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { buildApp } from "../src/app.js";
+import { createMemoryAuthStore } from "../src/auth/memory-store.js";
 import { loadQuestions } from "../src/content.js";
 
 const questions = loadQuestions(resolve(__dirname, "../../../content/questions"));
@@ -12,7 +13,11 @@ describe("contenido", () => {
 });
 
 describe("API", () => {
-  const app = buildApp({ questions, checks: { db: async () => false } });
+  const app = buildApp({
+    questions,
+    checks: { db: async () => false },
+    auth: { store: createMemoryAuthStore(), secureCookies: false },
+  });
 
   it("responde health con el estado de cada servicio", async () => {
     const res = await app.inject({ method: "GET", url: "/api/health" });

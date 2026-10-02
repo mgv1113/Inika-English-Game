@@ -30,6 +30,8 @@ npm test
 npm run build
 ```
 
+Sin `DATABASE_URL`, el servidor de desarrollo guarda las cuentas en memoria. Para probar también contra PostgreSQL, define `TEST_DATABASE_URL` (por ejemplo `postgres://inika:inika@localhost:5432/inika_test`) antes de `npm test`; CI lo hace siempre.
+
 ## Despliegue en el VPS
 
 Ver [docs/despliegue.md](docs/despliegue.md).

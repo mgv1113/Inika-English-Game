@@ -13,6 +13,11 @@ services:
       - default
       - proxy
 
+  server:
+    environment:
+      # nginx-proxy + Caddy delante de la API.
+      TRUST_PROXY_HOPS: "2"
+
 networks:
   proxy:
     external: true

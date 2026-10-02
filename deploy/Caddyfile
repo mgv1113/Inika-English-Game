@@ -1,3 +1,10 @@
+{
+	# Detrás de nginx-proxy: confiar en su X-Forwarded-For para que la API vea la IP real del jugador.
+	servers {
+		trusted_proxies static private_ranges
+	}
+}
+
 {$SITE_ADDRESS:localhost} {
 	encode zstd gzip
 

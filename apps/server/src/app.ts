@@ -1,5 +1,6 @@
 import Fastify from "fastify";
 import { z } from "zod";
+import { authRoutes, type AuthOptions } from "./auth/routes.js";
 import { LEVELS, toPublic, type Question } from "./content.js";
 
 export type HealthCheck = () => Promise<boolean>;
@@ -7,7 +8,10 @@ export type HealthCheck = () => Promise<boolean>;
 export interface AppOptions {
   questions: Question[];
   checks?: Record<string, HealthCheck>;
+  auth: AuthOptions;
   logger?: boolean;
+  /** Número de proxies delante del servidor (para saber la IP real del jugador). */
+  trustProxy?: number;
 }
 
 const sampleQuery = z.object({
@@ -20,8 +24,9 @@ const answerBody = z.object({
   choice: z.number().int().nonnegative(),
 });
 
-export function buildApp({ questions, checks = {}, logger = false }: AppOptions) {
-  const app = Fastify({ logger });
+export function buildApp({ questions, checks = {}, auth, logger = false, trustProxy = 0 }: AppOptions) {
+  const app = Fastify({ logger, trustProxy: (_address, hop) => hop < trustProxy });
+  app.register(authRoutes, auth);
   const byId = new Map(questions.map((q) => [q.id, q]));
 
   app.get("/api/health", async () => {

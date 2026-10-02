@@ -1,0 +1,82 @@
+import type pg from "pg";
+import type { AuthStore, User } from "./store.js";
+
+interface UserRow {
+  id: string;
+  email: string | null;
+  display_name: string;
+  created_at: Date;
+}
+
+const USER_COLUMNS = "u.id, u.email, u.display_name, u.created_at";
+
+function toUser(row: UserRow): User {
+  return { id: row.id, email: row.email, displayName: row.display_name, createdAt: row.created_at };
+}
+
+export function createPgAuthStore(pool: pg.Pool): AuthStore {
+  return {
+    async createPasswordUser({ email, displayName, passwordHash }) {
+      const client = await pool.connect();
+      try {
+        await client.query("begin");
+        const inserted = await client.query<UserRow>(
+          `insert into users (email, display_name) values ($1, $2)
+           on conflict (email) do nothing
+           returning id, email, display_name, created_at`,
+          [email, displayName],
+        );
+        if (inserted.rowCount === 0) {
+          await client.query("rollback");
+          return null;
+        }
+        const user = toUser(inserted.rows[0]);
+        await client.query(
+          `insert into auth_identities (user_id, provider, subject, password_hash)
+           values ($1, 'password', $2, $3)`,
+          [user.id, email, passwordHash],
+        );
+        await client.query("commit");
+        return user;
+      } catch (err) {
+        await client.query("rollback");
+        throw err;
+      } finally {
+        client.release();
+      }
+    },
+
+    async findPasswordIdentity(email) {
+      const { rows } = await pool.query<UserRow & { password_hash: string }>(
+        `select ${USER_COLUMNS}, i.password_hash
+         from auth_identities i join users u on u.id = i.user_id
+         where i.provider = 'password' and i.subject = $1`,
+        [email],
+      );
+      return rows[0] ? { user: toUser(rows[0]), passwordHash: rows[0].password_hash } : null;
+    },
+
+    async createSession({ tokenHash, userId, expiresAt }) {
+      await pool.query("delete from sessions where user_id = $1 and expires_at <= now()", [userId]);
+      await pool.query("insert into sessions (token_hash, user_id, expires_at) values ($1, $2, $3)", [
+        tokenHash,
+        userId,
+        expiresAt,
+      ]);
+    },
+
+    async findSessionUser(tokenHash) {
+      const { rows } = await pool.query<UserRow>(
+        `select ${USER_COLUMNS}
+         from sessions s join users u on u.id = s.user_id
+         where s.token_hash = $1 and s.expires_at > now()`,
+        [tokenHash],
+      );
+      return rows[0] ? toUser(rows[0]) : null;
+    },
+
+    async deleteSession(tokenHash) {
+      await pool.query("delete from sessions where token_hash = $1", [tokenHash]);
+    },
+  };
+}

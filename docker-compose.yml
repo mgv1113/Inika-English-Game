@@ -22,6 +22,8 @@ services:
     environment:
       DATABASE_URL: postgres://${POSTGRES_USER:-inika}:${POSTGRES_PASSWORD:?define POSTGRES_PASSWORD en .env}@db:5432/${POSTGRES_DB:-inika}
       REDIS_URL: redis://cache:6379
+      # Proxies delante de la API (Caddy) para leer la IP real en el límite de intentos.
+      TRUST_PROXY_HOPS: "1"
     depends_on:
       db:
         condition: service_healthy
