@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
+import { AccountCard } from "./Account";
 import { AuthForm } from "./Auth";
-import { deleteAccount, fetchMe, fetchQuestions, logout, sendAnswer, takeOAuthError, type AnswerResult, type PublicQuestion, type User } from "./api";
+import { deleteAccount, fetchMe, fetchQuestions, logout, sendAnswer, takeAuthResult, type AnswerResult, type PublicQuestion, type User } from "./api";
 
 type State =
   | { phase: "loading" }
@@ -9,13 +10,16 @@ type State =
   | { phase: "done"; score: number; total: number };
 
 // Si volvemos de Google o Facebook con un error, se muestra en el formulario.
-const oauthError = takeOAuthError();
+const authResult = takeAuthResult();
+// Los problemas al vincular se muestran en "Mi cuenta"; los de inicio de sesión, en el formulario.
+const accountNotice = authResult && (authResult.kind === "linked" || authResult.code === "in_use") ? authResult : undefined;
+const oauthError = authResult?.kind === "error" && !accountNotice ? authResult.message : undefined;
 
 export function App() {
   const [state, setState] = useState<State>({ phase: "loading" });
   const [user, setUser] = useState<User | null>(null);
   const [showAuth, setShowAuth] = useState(!!oauthError);
-  const [showAccount, setShowAccount] = useState(false);
+  const [showAccount, setShowAccount] = useState(!!accountNotice);
 
   const start = () => {
     setState({ phase: "loading" });
@@ -58,7 +62,14 @@ export function App() {
         <div className="account">
           {user ? (
             <>
-              <button className="link" onClick={() => setShowAccount(!showAccount)}>
+              <button
+                className="link"
+                onClick={() => {
+                  // Refresca las formas de entrar al abrir "Mi cuenta".
+                  if (!showAccount) fetchMe().then((u) => u && setUser(u));
+                  setShowAccount(!showAccount);
+                }}
+              >
                 {user.displayName}
               </button>
               <button className="link" onClick={signOut}>
@@ -75,18 +86,7 @@ export function App() {
         </div>
       </header>
       {showAccount && user && (
-        <section className="card account-card">
-          <p>
-            <strong>{user.displayName}</strong>
-            {user.email && <span className="muted"> · {user.email}</span>}
-          </p>
-          <button className="danger" onClick={removeAccount}>
-            Borrar mi cuenta
-          </button>
-          <button className="link" onClick={() => setShowAccount(false)}>
-            Volver al juego
-          </button>
-        </section>
+        <AccountCard user={user} notice={accountNotice} onDelete={removeAccount} onClose={() => setShowAccount(false)} />
       )}
       {showAuth && !user && (
         <AuthForm

@@ -121,6 +121,27 @@ export function createPgAuthStore(pool: pg.Pool): AuthStore {
       }
     },
 
+    async linkOAuthIdentity({ userId, provider, subject }) {
+      await pool.query(
+        `insert into auth_identities (user_id, provider, subject) values ($1, $2, $3)
+         on conflict (provider, subject) do nothing`,
+        [userId, provider, subject],
+      );
+      const { rows } = await pool.query<{ user_id: string }>(
+        "select user_id from auth_identities where provider = $1 and subject = $2",
+        [provider, subject],
+      );
+      return rows[0]?.user_id === userId;
+    },
+
+    async listProviders(userId) {
+      const { rows } = await pool.query<{ provider: string }>(
+        "select distinct provider from auth_identities where user_id = $1 order by provider",
+        [userId],
+      );
+      return rows.map((r) => r.provider);
+    },
+
     async createSession({ tokenHash, userId, expiresAt }) {
       await pool.query("delete from sessions where user_id = $1 and expires_at <= now()", [userId]);
       await pool.query("insert into sessions (token_hash, user_id, expires_at) values ($1, $2, $3)", [

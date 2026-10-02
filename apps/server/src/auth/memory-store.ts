@@ -41,6 +41,17 @@ export function createMemoryAuthStore(): AuthStore {
       oauth.set(oauthKey(provider, subject), user.id);
       return user;
     },
+    async linkOAuthIdentity({ userId, provider, subject }) {
+      const owner = oauth.get(oauthKey(provider, subject));
+      if (owner) return owner === userId;
+      oauth.set(oauthKey(provider, subject), userId);
+      return true;
+    },
+    async listProviders(userId) {
+      const providers = [...oauth].filter(([, id]) => id === userId).map(([key]) => key.split(":")[0]);
+      if ([...passwords.values()].some((p) => p.userId === userId)) providers.unshift("password");
+      return [...new Set(providers)];
+    },
     async createSession({ tokenHash, userId, expiresAt }) {
       sessions.set(tokenHash.toString("hex"), { userId, expiresAt });
     },
