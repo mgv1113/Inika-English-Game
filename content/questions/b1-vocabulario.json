@@ -24,8 +24,14 @@
         "take": "'take a mistake' no existe; 'take' va con photo, bus, exam, break…"
       },
       "examples": [
-        "Everybody makes mistakes when they learn a language.",
-        "Sorry, I made a mistake with your order."
+        {
+          "en": "Everybody makes mistakes when they learn a language.",
+          "es": "Todo el mundo comete errores cuando aprende un idioma."
+        },
+        {
+          "en": "Sorry, I made a mistake with your order.",
+          "es": "Perdón, me equivoqué con su pedido."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "have": "'have a photo' significa tener una foto, no sacarla."
       },
       "examples": [
-        "We took lots of photos in Rome.",
-        "Can I take a picture of your garden?"
+        {
+          "en": "We took lots of photos in Rome.",
+          "es": "Tomamos muchas fotos en Roma."
+        },
+        {
+          "en": "Can I take a picture of your garden?",
+          "es": "¿Puedo tomarle una foto a tu jardín?"
+        }
       ]
     }
   },
@@ -84,8 +96,14 @@
         "put": "'put a shower' significaría instalar o colocar una ducha, no ducharse."
       },
       "examples": [
-        "She has a shower every morning.",
-        "Let's have lunch together on Friday."
+        {
+          "en": "She has a shower every morning.",
+          "es": "Ella se ducha todas las mañanas."
+        },
+        {
+          "en": "Let's have lunch together on Friday.",
+          "es": "Almorcemos juntos el viernes."
+        }
       ]
     }
   },
@@ -114,8 +132,14 @@
         "taking": "'take' no se combina con adjetivos para indicar un cambio; 'it's taking dark' no tiene sentido."
       },
       "examples": [
-        "It gets dark early in winter.",
-        "I'm getting hungry. Shall we eat?"
+        {
+          "en": "It gets dark early in winter.",
+          "es": "En invierno oscurece temprano."
+        },
+        {
+          "en": "I'm getting hungry. Shall we eat?",
+          "es": "Me está dando hambre. ¿Comemos?"
+        }
       ]
     }
   },
@@ -144,8 +168,14 @@
         "works": "'works' significa obras (de construcción o de arte), no un empleo; además no encaja con 'a'."
       },
       "examples": [
-        "She got a job in a hotel.",
-        "He lost his job last year."
+        {
+          "en": "She got a job in a hotel.",
+          "es": "Ella consiguió trabajo en un hotel."
+        },
+        {
+          "en": "He lost his job last year.",
+          "es": "Él perdió su trabajo el año pasado."
+        }
       ]
     }
   },
@@ -174,8 +204,14 @@
         "works": "'works' son obras; 'a lot of works at the office' sonaría a obras de construcción."
       },
       "examples": [
-        "I have too much work today.",
-        "What time do you finish work?"
+        {
+          "en": "I have too much work today.",
+          "es": "Hoy tengo demasiado trabajo."
+        },
+        {
+          "en": "What time do you finish work?",
+          "es": "¿A qué hora sales del trabajo?"
+        }
       ]
     }
   },
@@ -204,8 +240,14 @@
         "succeeded": "'succeed' necesita 'in' (succeeded in the exams) y es menos natural; lo normal es 'pass'."
       },
       "examples": [
-        "Did you pass your driving test?",
-        "She passed her English exam with a high mark."
+        {
+          "en": "Did you pass your driving test?",
+          "es": "¿Aprobaste el examen de manejo?"
+        },
+        {
+          "en": "She passed her English exam with a high mark.",
+          "es": "Ella aprobó su examen de inglés con una nota alta."
+        }
       ]
     }
   },
@@ -234,8 +276,14 @@
         "does": "El profesor no 'does' los deberes; los hacen los alumnos (students do homework)."
       },
       "examples": [
-        "The teacher gave us an essay to write.",
-        "Our maths teacher never gives homework on Fridays."
+        {
+          "en": "The teacher gave us an essay to write.",
+          "es": "La maestra nos dejó escribir un ensayo."
+        },
+        {
+          "en": "Our maths teacher never gives homework on Fridays.",
+          "es": "Nuestro profesor de matemáticas nunca deja tarea los viernes."
+        }
       ]
     }
   },
@@ -264,8 +312,14 @@
         "carrera (competición deportiva)": "Una carrera para competir es 'a race' (a running race)."
       },
       "examples": [
-        "She had a long career as a nurse.",
-        "He wants a career in marketing."
+        {
+          "en": "She had a long career as a nurse.",
+          "es": "Ella tuvo una larga carrera como enfermera."
+        },
+        {
+          "en": "He wants a career in marketing.",
+          "es": "Él quiere hacer carrera en marketing."
+        }
       ]
     }
   },
@@ -294,8 +348,14 @@
         "ambience": "'ambience' es el ambiente o atmósfera de un lugar (a restaurant with a nice ambience)."
       },
       "examples": [
-        "Cars are bad for the environment.",
-        "This company cares about the environment."
+        {
+          "en": "Cars are bad for the environment.",
+          "es": "Los carros son malos para el medio ambiente."
+        },
+        {
+          "en": "This company cares about the environment.",
+          "es": "Esta empresa se preocupa por el medio ambiente."
+        }
       ]
     }
   },
@@ -324,8 +384,14 @@
         "safe": "'safe' es un adjetivo (seguro); se confunde con 'save' porque suenan parecido."
       },
       "examples": [
-        "We can save water by taking shorter showers.",
-        "LED bulbs help you save energy."
+        {
+          "en": "We can save water by taking shorter showers.",
+          "es": "Podemos ahorrar agua si nos duchamos menos tiempo."
+        },
+        {
+          "en": "LED bulbs help you save energy.",
+          "es": "Los focos LED te ayudan a ahorrar energía."
+        }
       ]
     }
   },
@@ -354,8 +420,14 @@
         "dangered": "'dangered' no existe en inglés; la palabra correcta lleva el prefijo en-: endangered."
       },
       "examples": [
-        "The tiger is an endangered species.",
-        "Many endangered birds live in this forest."
+        {
+          "en": "The tiger is an endangered species.",
+          "es": "El tigre es una especie en peligro de extinción."
+        },
+        {
+          "en": "Many endangered birds live in this forest.",
+          "es": "Muchas aves en peligro de extinción viven en este bosque."
+        }
       ]
     }
   },
@@ -384,8 +456,14 @@
         "attach": "'attach' significa adjuntar o sujetar algo, no conectarse a internet."
       },
       "examples": [
-        "My phone won't connect to the internet.",
-        "You can connect to the hotel Wi-Fi for free."
+        {
+          "en": "My phone won't connect to the internet.",
+          "es": "Mi teléfono no se conecta a internet."
+        },
+        {
+          "en": "You can connect to the hotel Wi-Fi for free.",
+          "es": "Puedes conectarte gratis al wifi del hotel."
+        }
       ]
     }
   },
@@ -414,8 +492,14 @@
         "lowered": "'lower' significa bajar o reducir algo (lower the price), no descargar archivos."
       },
       "examples": [
-        "You can download the song for free.",
-        "I downloaded the photos to my laptop."
+        {
+          "en": "You can download the song for free.",
+          "es": "Puedes descargar la canción gratis."
+        },
+        {
+          "en": "I downloaded the photos to my laptop.",
+          "es": "Descargué las fotos en mi laptop."
+        }
       ]
     }
   },
@@ -444,8 +528,14 @@
         "attached": "'attached' es un adjetivo/participio (the attached file); después de 'an' necesitamos un sustantivo."
       },
       "examples": [
-        "I can't open the attachment.",
-        "Please find the attached document."
+        {
+          "en": "I can't open the attachment.",
+          "es": "No puedo abrir el archivo adjunto."
+        },
+        {
+          "en": "Please find the attached document.",
+          "es": "Adjunto encontrará el documento."
+        }
       ]
     }
   },
@@ -474,8 +564,14 @@
         "bore": "'bore' es un verbo o un sustantivo (una persona pesada); no funciona como adjetivo aquí."
       },
       "examples": [
-        "The lesson was really boring.",
-        "I was bored, so I went for a walk."
+        {
+          "en": "The lesson was really boring.",
+          "es": "La clase estuvo muy aburrida."
+        },
+        {
+          "en": "I was bored, so I went for a walk.",
+          "es": "Estaba aburrido, así que salí a caminar."
+        }
       ]
     }
   },
@@ -504,8 +600,14 @@
         "surprisingly": "'surprisingly' es un adverbio (sorprendentemente); no puede ir después de 'was' para describir a una persona."
       },
       "examples": [
-        "She was surprised to see me.",
-        "The results were surprising."
+        {
+          "en": "She was surprised to see me.",
+          "es": "Ella se sorprendió al verme."
+        },
+        {
+          "en": "The results were surprising.",
+          "es": "Los resultados fueron sorprendentes."
+        }
       ]
     }
   },
@@ -534,8 +636,14 @@
         "inmediatamente": "Es casi lo contrario: 'eventually' indica que algo pasa tras una espera; inmediatamente es 'immediately'."
       },
       "examples": [
-        "He eventually found a job after six months.",
-        "Eventually, we decided to stay at home."
+        {
+          "en": "He eventually found a job after six months.",
+          "es": "Al final encontró trabajo después de seis meses."
+        },
+        {
+          "en": "Eventually, we decided to stay at home.",
+          "es": "Al final, decidimos quedarnos en casa."
+        }
       ]
     }
   },
@@ -564,8 +672,14 @@
         "sábana": "Sábana es 'sheet'."
       },
       "examples": [
-        "The cat is sleeping on the carpet.",
-        "I spilled coffee on the carpet."
+        {
+          "en": "The cat is sleeping on the carpet.",
+          "es": "El gato está durmiendo en la alfombra."
+        },
+        {
+          "en": "I spilled coffee on the carpet.",
+          "es": "Se me derramó café en la alfombra."
+        }
       ]
     }
   },
@@ -595,8 +709,14 @@
         "Está muy cansado": "Estar muy cansado es 'to be exhausted' o 'very tired'."
       },
       "examples": [
-        "I've got a cold and a sore throat.",
-        "Eating more fruit helps if you're constipated."
+        {
+          "en": "I've got a cold and a sore throat.",
+          "es": "Tengo un resfriado y dolor de garganta."
+        },
+        {
+          "en": "Eating more fruit helps if you're constipated.",
+          "es": "Comer más fruta ayuda si estás estreñido."
+        }
       ]
     }
   },
@@ -625,8 +745,14 @@
         "promise": "'promise' es una promesa; no se dice 'reach a promise'."
       },
       "examples": [
-        "After a long discussion, they found a compromise.",
-        "Marriage is all about compromise."
+        {
+          "en": "After a long discussion, they found a compromise.",
+          "es": "Después de una larga conversación, llegaron a un acuerdo."
+        },
+        {
+          "en": "Marriage is all about compromise.",
+          "es": "El matrimonio se trata de ceder."
+        }
       ]
     }
   },
@@ -655,8 +781,14 @@
         "conversation": "'conversation' es una charla normal; no explica que sigan enfadados."
       },
       "examples": [
-        "They had an argument about money.",
-        "We had a discussion about our holiday plans."
+        {
+          "en": "They had an argument about money.",
+          "es": "Tuvieron una discusión por dinero."
+        },
+        {
+          "en": "We had a discussion about our holiday plans.",
+          "es": "Conversamos sobre nuestros planes para las vacaciones."
+        }
       ]
     }
   },
@@ -685,8 +817,14 @@
         "expected": "'expected to be ill' significa que esperaba ponerse enfermo, no que lo fingía para no ir a clase."
       },
       "examples": [
-        "She pretended to be asleep.",
-        "Let's pretend we're pirates!"
+        {
+          "en": "She pretended to be asleep.",
+          "es": "Ella fingió estar dormida."
+        },
+        {
+          "en": "Let's pretend we're pirates!",
+          "es": "¡Juguemos a que somos piratas!"
+        }
       ]
     }
   },
@@ -716,8 +854,14 @@
         "fabrication": "'fabrication' significa invención o mentira (o fabricación técnica); no es una tela."
       },
       "examples": [
-        "I need some blue fabric for the curtains.",
-        "My father works in a car factory."
+        {
+          "en": "I need some blue fabric for the curtains.",
+          "es": "Necesito tela azul para las cortinas."
+        },
+        {
+          "en": "My father works in a car factory.",
+          "es": "Mi papá trabaja en una fábrica de carros."
+        }
       ]
     }
   },
@@ -746,8 +890,14 @@
         "advise": "'advise' significa aconsejar, no notar algo."
       },
       "examples": [
-        "I didn't notice the mistake.",
-        "Did you notice her new haircut?"
+        {
+          "en": "I didn't notice the mistake.",
+          "es": "No me di cuenta del error."
+        },
+        {
+          "en": "Did you notice her new haircut?",
+          "es": "¿Te fijaste en su nuevo corte de pelo?"
+        }
       ]
     }
   },
@@ -776,8 +926,14 @@
         "succeed": "'succeed' es un verbo (tener éxito); no puede ir después de 'a strange'."
       },
       "examples": [
-        "The concert was a big success.",
-        "The wedding was the most important event of the year."
+        {
+          "en": "The concert was a big success.",
+          "es": "El concierto fue todo un éxito."
+        },
+        {
+          "en": "The wedding was the most important event of the year.",
+          "es": "La boda fue el acontecimiento más importante del año."
+        }
       ]
     }
   },
@@ -806,8 +962,14 @@
         "happily": "'happily' es un adverbio (felizmente); no puede ser el objeto de 'buy'."
       },
       "examples": [
-        "I wish you lots of happiness.",
-        "Kindness is very important to me."
+        {
+          "en": "I wish you lots of happiness.",
+          "es": "Te deseo mucha felicidad."
+        },
+        {
+          "en": "Kindness is very important to me.",
+          "es": "La amabilidad es muy importante para mí."
+        }
       ]
     }
   },
@@ -836,8 +998,14 @@
         "helped": "'You've been really helped' no es natural y cambiaría el sentido: tú habrías recibido la ayuda."
       },
       "examples": [
-        "The staff at the hotel were very helpful.",
-        "Thanks, that's a really helpful idea."
+        {
+          "en": "The staff at the hotel were very helpful.",
+          "es": "El personal del hotel fue muy servicial."
+        },
+        {
+          "en": "Thanks, that's a really helpful idea.",
+          "es": "Gracias, es una idea muy útil."
+        }
       ]
     }
   },
@@ -866,8 +1034,14 @@
         "carelessness": "'carelessness' es un sustantivo (el descuido); después de 'very' necesitamos un adjetivo."
       },
       "examples": [
-        "It was careless of me to leave the door open.",
-        "Be careful, the floor is wet."
+        {
+          "en": "It was careless of me to leave the door open.",
+          "es": "Fue un descuido de mi parte dejar la puerta abierta."
+        },
+        {
+          "en": "Be careful, the floor is wet.",
+          "es": "Ten cuidado, el piso está mojado."
+        }
       ]
     }
   },
@@ -896,8 +1070,14 @@
         "grow": "'grow your hand' significaría hacer crecer la mano; levantarla es 'raise'."
       },
       "examples": [
-        "The company raised salaries last year.",
-        "Raise your glass for a toast!"
+        {
+          "en": "The company raised salaries last year.",
+          "es": "La empresa subió los sueldos el año pasado."
+        },
+        {
+          "en": "Raise your glass for a toast!",
+          "es": "¡Levanten sus copas para brindar!"
+        }
       ]
     }
   },
@@ -926,8 +1106,14 @@
         "rised": "'rised' no existe; 'rise' es irregular (rose, risen)."
       },
       "examples": [
-        "House prices have risen again.",
-        "The temperature rose to 40 degrees yesterday."
+        {
+          "en": "House prices have risen again.",
+          "es": "Los precios de las casas han vuelto a subir."
+        },
+        {
+          "en": "The temperature rose to 40 degrees yesterday.",
+          "es": "Ayer la temperatura subió a 40 grados."
+        }
       ]
     }
   },
@@ -956,8 +1142,14 @@
         "lost": "'lost' es pasado/participio; después de 'will' necesitamos la forma base, y además el verbo correcto es 'miss'."
       },
       "examples": [
-        "I missed the bus this morning.",
-        "Don't miss the beginning of the film!"
+        {
+          "en": "I missed the bus this morning.",
+          "es": "Perdí el autobús esta mañana."
+        },
+        {
+          "en": "Don't miss the beginning of the film!",
+          "es": "¡No te pierdas el comienzo de la película!"
+        }
       ]
     }
   },
@@ -986,8 +1178,14 @@
         "lose": "'lose' es presente; con 'yesterday' necesitamos el pasado 'lost'."
       },
       "examples": [
-        "She lost her phone on the train.",
-        "Our team lost the match 2–0."
+        {
+          "en": "She lost her phone on the train.",
+          "es": "Ella perdió su teléfono en el tren."
+        },
+        {
+          "en": "Our team lost the match 2–0.",
+          "es": "Nuestro equipo perdió el partido 2 a 0."
+        }
       ]
     }
   },
@@ -1016,8 +1214,14 @@
         "memorise": "'memorise' es aprender de memoria (memorise a poem), no avisar a alguien."
       },
       "examples": [
-        "Remind me to buy milk.",
-        "I remembered to lock the door."
+        {
+          "en": "Remind me to buy milk.",
+          "es": "Recuérdame comprar leche."
+        },
+        {
+          "en": "I remembered to lock the door.",
+          "es": "Me acordé de cerrar la puerta con llave."
+        }
       ]
     }
   },
@@ -1046,8 +1250,14 @@
         "records": "'records' significa graba; no tiene que ver con traer recuerdos."
       },
       "examples": [
-        "You remind me of your father.",
-        "This place reminds me of my childhood."
+        {
+          "en": "You remind me of your father.",
+          "es": "Me recuerdas a tu padre."
+        },
+        {
+          "en": "This place reminds me of my childhood.",
+          "es": "Este lugar me recuerda a mi infancia."
+        }
       ]
     }
   }

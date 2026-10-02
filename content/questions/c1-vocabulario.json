@@ -24,8 +24,14 @@
         "do": "'do a threat' no existe; en inglés 'threat' no va con 'do'."
       },
       "examples": [
-        "Air pollution poses a risk to public health.",
-        "The new virus poses no threat to humans."
+        {
+          "en": "Air pollution poses a risk to public health.",
+          "es": "La contaminación del aire representa un riesgo para la salud pública."
+        },
+        {
+          "en": "The new virus poses no threat to humans.",
+          "es": "El nuevo virus no representa ninguna amenaza para los humanos."
+        }
       ]
     }
   },
@@ -55,8 +61,14 @@
         "arrive": "'arrive' es intransitivo: no puede llevar objeto directo ('arrive the deadline' es incorrecto)."
       },
       "examples": [
-        "If we don't meet the deadline, we'll lose the contract.",
-        "She has never missed a deadline."
+        {
+          "en": "If we don't meet the deadline, we'll lose the contract.",
+          "es": "Si no cumplimos con el plazo, perderemos el contrato."
+        },
+        {
+          "en": "She has never missed a deadline.",
+          "es": "Ella nunca ha dejado de cumplir un plazo."
+        }
       ]
     }
   },
@@ -86,8 +98,14 @@
         "suffer": "'suffer' es sufrir (un dolor, una pérdida); no se 'sufre' una responsabilidad en inglés."
       },
       "examples": [
-        "Parents bear responsibility for their children's education.",
-        "Nobody wanted to bear the blame for the mistake."
+        {
+          "en": "Parents bear responsibility for their children's education.",
+          "es": "Los padres tienen la responsabilidad de la educación de sus hijos."
+        },
+        {
+          "en": "Nobody wanted to bear the blame for the mistake.",
+          "es": "Nadie quería cargar con la culpa del error."
+        }
       ]
     }
   },
@@ -117,8 +135,14 @@
         "pull": "'pull' es tirar de algo físicamente; no forma colocación con 'conclusion'."
       },
       "examples": [
-        "It's too early to draw any conclusions.",
-        "What conclusions can we draw from these figures?"
+        {
+          "en": "It's too early to draw any conclusions.",
+          "es": "Es demasiado pronto para sacar conclusiones."
+        },
+        {
+          "en": "What conclusions can we draw from these figures?",
+          "es": "¿Qué conclusiones podemos sacar de estas cifras?"
+        }
       ]
     }
   },
@@ -147,8 +171,14 @@
         "touched": "'touch' es tocar físicamente; no forma colocación con 'consensus'."
       },
       "examples": [
-        "The two parties failed to reach a consensus.",
-        "We reached an agreement after long negotiations."
+        {
+          "en": "The two parties failed to reach a consensus.",
+          "es": "Los dos partidos no lograron llegar a un consenso."
+        },
+        {
+          "en": "We reached an agreement after long negotiations.",
+          "es": "Llegamos a un acuerdo después de largas negociaciones."
+        }
       ]
     }
   },
@@ -178,8 +208,14 @@
         "an acute increase": "'acute' va con 'shortage', 'pain' o 'problem', no con 'increase'."
       },
       "examples": [
-        "There has been a sharp increase in house prices.",
-        "Sales fell sharply in March."
+        {
+          "en": "There has been a sharp increase in house prices.",
+          "es": "Ha habido un fuerte aumento en los precios de la vivienda."
+        },
+        {
+          "en": "Sales fell sharply in March.",
+          "es": "Las ventas cayeron drásticamente en marzo."
+        }
       ]
     }
   },
@@ -208,8 +244,14 @@
         "drops": "'drop' es dejar caer; no forma colocación con 'doubt'."
       },
       "examples": [
-        "The report casts doubt on the minister's claims.",
-        "Recent studies have cast doubt on this theory."
+        {
+          "en": "The report casts doubt on the minister's claims.",
+          "es": "El informe pone en duda las afirmaciones del ministro."
+        },
+        {
+          "en": "Recent studies have cast doubt on this theory.",
+          "es": "Estudios recientes han puesto en duda esta teoría."
+        }
       ]
     }
   },
@@ -239,8 +281,14 @@
         "given": "'give a contribution' se usa a veces para donaciones de dinero, pero no para aportaciones a la ciencia."
       },
       "examples": [
-        "Each member of the team made a valuable contribution.",
-        "Immigrants have made a huge contribution to the economy."
+        {
+          "en": "Each member of the team made a valuable contribution.",
+          "es": "Cada miembro del equipo hizo un aporte valioso."
+        },
+        {
+          "en": "Immigrants have made a huge contribution to the economy.",
+          "es": "Los inmigrantes han hecho un enorme aporte a la economía."
+        }
       ]
     }
   },
@@ -270,8 +318,14 @@
         "state": "'state' es declarar algo de forma clara y oficial; es neutro, no acusa a nadie."
       },
       "examples": [
-        "She alleged that her manager had stolen the money.",
-        "The alleged thief was arrested this morning."
+        {
+          "en": "She alleged that her manager had stolen the money.",
+          "es": "Ella afirmó que su jefe había robado el dinero."
+        },
+        {
+          "en": "The alleged thief was arrested this morning.",
+          "es": "El presunto ladrón fue arrestado esta mañana."
+        }
       ]
     }
   },
@@ -301,8 +355,14 @@
         "aceptar": "'aceptar' es 'accept'; 'assert her right' es reclamarlo, no aceptarlo."
       },
       "examples": [
-        "He asserted that he was innocent.",
-        "You need to assert yourself more in meetings."
+        {
+          "en": "He asserted that he was innocent.",
+          "es": "Afirmó que era inocente."
+        },
+        {
+          "en": "You need to assert yourself more in meetings.",
+          "es": "Tienes que imponerte más en las reuniones."
+        }
       ]
     }
   },
@@ -331,8 +391,14 @@
         "spoiled": "'spoil' es estropear (comida, planes) o mimar a un niño; no se refiere a heridas."
       },
       "examples": [
-        "She injured her back lifting boxes.",
-        "Two people were injured in the fire."
+        {
+          "en": "She injured her back lifting boxes.",
+          "es": "Se lastimó la espalda levantando cajas."
+        },
+        {
+          "en": "Two people were injured in the fire.",
+          "es": "Dos personas resultaron heridas en el incendio."
+        }
       ]
     }
   },
@@ -361,8 +427,14 @@
         "wounded": "'wound' es herir con un arma (bala, cuchillo); solo se usa con personas."
       },
       "examples": [
-        "The earthquake damaged hundreds of buildings.",
-        "Smoking can damage your lungs."
+        {
+          "en": "The earthquake damaged hundreds of buildings.",
+          "es": "El terremoto dañó cientos de edificios."
+        },
+        {
+          "en": "Smoking can damage your lungs.",
+          "es": "Fumar puede dañar tus pulmones."
+        }
       ]
     }
   },
@@ -392,8 +464,14 @@
         "hurt": "'hurt' como sustantivo significa dolor emocional; la expresión fija usa 'harm'."
       },
       "examples": [
-        "A little sunshine won't do you any harm.",
-        "Strict diets often do more harm than good."
+        {
+          "en": "A little sunshine won't do you any harm.",
+          "es": "Un poco de sol no te va a hacer daño."
+        },
+        {
+          "en": "Strict diets often do more harm than good.",
+          "es": "Las dietas estrictas suelen hacer más mal que bien."
+        }
       ]
     }
   },
@@ -423,8 +501,14 @@
         "advert": "Calco de 'advertir'; 'advert' en inglés es un anuncio publicitario (sustantivo)."
       },
       "examples": [
-        "I could just discern a figure in the distance.",
-        "It is difficult to discern any pattern in the data."
+        {
+          "en": "I could just discern a figure in the distance.",
+          "es": "Apenas alcanzaba a distinguir una figura a lo lejos."
+        },
+        {
+          "en": "It is difficult to discern any pattern in the data.",
+          "es": "Es difícil distinguir algún patrón en los datos."
+        }
       ]
     }
   },
@@ -454,8 +538,14 @@
         "discern": "'discern' es distinguir algo difícil de ver o entender; no se usa con 'as' para dar una interpretación."
       },
       "examples": [
-        "She is perceived as a strong leader.",
-        "How do you think others perceive you?"
+        {
+          "en": "She is perceived as a strong leader.",
+          "es": "Se la percibe como una líder fuerte."
+        },
+        {
+          "en": "How do you think others perceive you?",
+          "es": "¿Cómo crees que te perciben los demás?"
+        }
       ]
     }
   },
@@ -484,8 +574,14 @@
         "proof": "'proof' es una prueba que ya demuestra algo; no tiene sentido 'testear' una prueba antes de hacer el experimento."
       },
       "examples": [
-        "The results support our original hypothesis.",
-        "Scientists have proposed several hypotheses."
+        {
+          "en": "The results support our original hypothesis.",
+          "es": "Los resultados respaldan nuestra hipótesis original."
+        },
+        {
+          "en": "Scientists have proposed several hypotheses.",
+          "es": "Los científicos han propuesto varias hipótesis."
+        }
       ]
     }
   },
@@ -515,8 +611,14 @@
         "comprehending": "'comprehending' es el gerundio de 'comprehend' (entender); no funciona como adjetivo aquí."
       },
       "examples": [
-        "We offer comprehensive insurance for your car.",
-        "The book is a comprehensive guide to Spanish history."
+        {
+          "en": "We offer comprehensive insurance for your car.",
+          "es": "Ofrecemos un seguro con cobertura total para tu auto."
+        },
+        {
+          "en": "The book is a comprehensive guide to Spanish history.",
+          "es": "El libro es una guía completa de la historia de España."
+        }
       ]
     }
   },
@@ -545,8 +647,14 @@
         "underestimated": "'underestimate' es subestimar; la crítica no 'subestima' la confianza de nadie."
       },
       "examples": [
-        "These rumours could undermine the company's reputation.",
-        "Lack of sleep undermines your ability to concentrate."
+        {
+          "en": "These rumours could undermine the company's reputation.",
+          "es": "Estos rumores podrían perjudicar la reputación de la empresa."
+        },
+        {
+          "en": "Lack of sleep undermines your ability to concentrate.",
+          "es": "La falta de sueño afecta tu capacidad de concentración."
+        }
       ]
     }
   },
@@ -576,8 +684,14 @@
         "picture": "'picture' es una imagen o un cuadro; no expresa un conjunto de normas."
       },
       "examples": [
-        "The study uses a clear theoretical framework.",
-        "We need a framework for international cooperation."
+        {
+          "en": "The study uses a clear theoretical framework.",
+          "es": "El estudio utiliza un marco teórico claro."
+        },
+        {
+          "en": "We need a framework for international cooperation.",
+          "es": "Necesitamos un marco para la cooperación internacional."
+        }
       ]
     }
   },
@@ -607,8 +721,14 @@
         "signified": "'signified' es el participio de 'signify'; 'a signified link' no tiene sentido."
       },
       "examples": [
-        "There was a significant rise in prices.",
-        "The difference between the two groups was not significant."
+        {
+          "en": "There was a significant rise in prices.",
+          "es": "Hubo un aumento significativo de los precios."
+        },
+        {
+          "en": "The difference between the two groups was not significant.",
+          "es": "La diferencia entre los dos grupos no fue significativa."
+        }
       ]
     }
   },
@@ -637,8 +757,14 @@
         "pruebas falsas o inventadas": "'empirical' no implica falsedad; al contrario, se basa en datos reales."
       },
       "examples": [
-        "There is little empirical evidence to support this claim.",
-        "The theory was tested in an empirical study."
+        {
+          "en": "There is little empirical evidence to support this claim.",
+          "es": "Hay pocas pruebas empíricas que respalden esta afirmación."
+        },
+        {
+          "en": "The theory was tested in an empirical study.",
+          "es": "La teoría se puso a prueba en un estudio empírico."
+        }
       ]
     }
   },
@@ -667,8 +793,14 @@
         "causas": "'causas' es 'causes'; no tiene relación con 'casualties'."
       },
       "examples": [
-        "There were no casualties in the fire.",
-        "He was taken to the casualty department of the hospital."
+        {
+          "en": "There were no casualties in the fire.",
+          "es": "No hubo víctimas en el incendio."
+        },
+        {
+          "en": "He was taken to the casualty department of the hospital.",
+          "es": "Lo llevaron a la sala de urgencias del hospital."
+        }
       ]
     }
   },
@@ -697,8 +829,14 @@
         "temporal": "'temporal' es 'temporary'; 'eventual' no tiene ese significado."
       },
       "examples": [
-        "The eventual cost of the project was twice the original estimate.",
-        "After many delays, they eventually arrived at midnight."
+        {
+          "en": "The eventual cost of the project was twice the original estimate.",
+          "es": "El costo final del proyecto fue el doble del presupuesto original."
+        },
+        {
+          "en": "After many delays, they eventually arrived at midnight.",
+          "es": "Después de muchos retrasos, finalmente llegaron a medianoche."
+        }
       ]
     }
   },
@@ -728,8 +866,14 @@
         "confesar": "'confesar' es 'confess'; no se parece en significado."
       },
       "examples": [
-        "The opposition contested the election results.",
-        "She decided not to contest the fine."
+        {
+          "en": "The opposition contested the election results.",
+          "es": "La oposición impugnó los resultados de las elecciones."
+        },
+        {
+          "en": "She decided not to contest the fine.",
+          "es": "Ella decidió no apelar la multa."
+        }
       ]
     }
   },
@@ -759,8 +903,14 @@
         "indiscreet": "'indiscreet' es lo contrario: alguien que cuenta lo que debería callar."
       },
       "examples": [
-        "He was very discreet about his private life.",
-        "Can I count on your discretion?"
+        {
+          "en": "He was very discreet about his private life.",
+          "es": "Era muy reservado con su vida privada."
+        },
+        {
+          "en": "Can I count on your discretion?",
+          "es": "¿Puedo contar con tu discreción?"
+        }
       ]
     }
   },
@@ -790,8 +940,14 @@
         "modest": "'modest' es modesto o pequeño; no explica que se puedan estudiar en cualquier orden."
       },
       "examples": [
-        "The process can be broken down into discrete stages.",
-        "Light behaves like discrete particles."
+        {
+          "en": "The process can be broken down into discrete stages.",
+          "es": "El proceso se puede dividir en etapas bien diferenciadas."
+        },
+        {
+          "en": "Light behaves like discrete particles.",
+          "es": "La luz se comporta como partículas discretas."
+        }
       ]
     }
   },
@@ -821,8 +977,14 @@
         "el apéndice con datos": "El apéndice es 'appendix'."
       },
       "examples": [
-        "The abstract should be no longer than 250 words.",
-        "Read the abstract first to see if the paper is relevant."
+        {
+          "en": "The abstract should be no longer than 250 words.",
+          "es": "El resumen no debe superar las 250 palabras."
+        },
+        {
+          "en": "Read the abstract first to see if the paper is relevant.",
+          "es": "Lee primero el resumen para ver si el artículo es relevante."
+        }
       ]
     }
   },
@@ -851,8 +1013,14 @@
         "constante en el tiempo": "'consistent' puede significar regular (a consistent player), pero con 'with the evidence' significa que concuerda."
       },
       "examples": [
-        "The results are consistent with previous studies.",
-        "She has been a consistent performer all season."
+        {
+          "en": "The results are consistent with previous studies.",
+          "es": "Los resultados coinciden con estudios anteriores."
+        },
+        {
+          "en": "She has been a consistent performer all season.",
+          "es": "Ha tenido un rendimiento constante durante toda la temporada."
+        }
       ]
     }
   },
@@ -882,8 +1050,14 @@
         "celebrar algo": "'celebrar' es 'celebrate'; no tiene relación."
       },
       "examples": [
-        "I would never contemplate leaving my family.",
-        "She is contemplating a career change."
+        {
+          "en": "I would never contemplate leaving my family.",
+          "es": "Jamás consideraría abandonar a mi familia."
+        },
+        {
+          "en": "She is contemplating a career change.",
+          "es": "Está considerando un cambio de carrera."
+        }
       ]
     }
   },
@@ -913,8 +1087,14 @@
         "avoided": "'avoid' es evitar; 'avoided me that' es incorrecto."
       },
       "examples": [
-        "They warned us not to swim in the river.",
-        "Vaccines help prevent serious diseases."
+        {
+          "en": "They warned us not to swim in the river.",
+          "es": "Nos advirtieron que no nadáramos en el río."
+        },
+        {
+          "en": "Vaccines help prevent serious diseases.",
+          "es": "Las vacunas ayudan a prevenir enfermedades graves."
+        }
       ]
     }
   },
@@ -943,8 +1123,14 @@
         "strongly": "'strongly' es el adverbio; después de 'to' hace falta un verbo."
       },
       "examples": [
-        "The bridge needs to be strengthened.",
-        "They widened the road last year."
+        {
+          "en": "The bridge needs to be strengthened.",
+          "es": "Hay que reforzar el puente."
+        },
+        {
+          "en": "They widened the road last year.",
+          "es": "Ensancharon la calle el año pasado."
+        }
       ]
     }
   },
@@ -973,8 +1159,14 @@
         "minimally": "'minimally' es adverbio; no puede llevar 'the use' como objeto."
       },
       "examples": [
-        "We must minimise the risks.",
-        "The company wants to modernise its offices."
+        {
+          "en": "We must minimise the risks.",
+          "es": "Debemos reducir los riesgos al mínimo."
+        },
+        {
+          "en": "The company wants to modernise its offices.",
+          "es": "La empresa quiere modernizar sus oficinas."
+        }
       ]
     }
   },
@@ -1003,8 +1195,14 @@
         "clearance": "'clearance' es un sustantivo (autorización, liquidación); no es un verbo."
       },
       "examples": [
-        "Let me clarify the main points.",
-        "We need to simplify the application process."
+        {
+          "en": "Let me clarify the main points.",
+          "es": "Permítanme aclarar los puntos principales."
+        },
+        {
+          "en": "We need to simplify the application process.",
+          "es": "Tenemos que simplificar el proceso de solicitud."
+        }
       ]
     }
   },
@@ -1034,8 +1232,14 @@
         "effected": "'effected' es el participio de 'effect' (llevar a cabo, formal); no describe la vacuna."
       },
       "examples": [
-        "This is the most effective treatment available.",
-        "Exercise is an effective way to reduce stress."
+        {
+          "en": "This is the most effective treatment available.",
+          "es": "Este es el tratamiento más eficaz que existe."
+        },
+        {
+          "en": "Exercise is an effective way to reduce stress.",
+          "es": "El ejercicio es una forma eficaz de reducir el estrés."
+        }
       ]
     }
   },
@@ -1064,8 +1268,14 @@
         "unanimated": "'unanimated' no existe en inglés."
       },
       "examples": [
-        "The decision was unanimous.",
-        "The board voted unanimously in favour."
+        {
+          "en": "The decision was unanimous.",
+          "es": "La decisión fue unánime."
+        },
+        {
+          "en": "The board voted unanimously in favour.",
+          "es": "La junta directiva votó a favor por unanimidad."
+        }
       ]
     }
   },
@@ -1094,8 +1304,14 @@
         "incomprehension": "'incomprehension' es el sustantivo; después de 'were almost' hace falta un adjetivo."
       },
       "examples": [
-        "His accent was almost incomprehensible to me.",
-        "The handwriting was completely illegible."
+        {
+          "en": "His accent was almost incomprehensible to me.",
+          "es": "Su acento me resultaba casi incomprensible."
+        },
+        {
+          "en": "The handwriting was completely illegible.",
+          "es": "La letra era completamente ilegible."
+        }
       ]
     }
   },
@@ -1125,8 +1341,14 @@
         "at": "'at behalf of' no existe en inglés."
       },
       "examples": [
-        "On behalf of everyone here, thank you.",
-        "She accepted the award on behalf of her father."
+        {
+          "en": "On behalf of everyone here, thank you.",
+          "es": "En nombre de todos los presentes, gracias."
+        },
+        {
+          "en": "She accepted the award on behalf of her father.",
+          "es": "Ella recibió el premio en nombre de su padre."
+        }
       ]
     }
   },
@@ -1156,8 +1378,14 @@
         "about": "'about' sola ya significa 'sobre', pero 'with regard about' no existe."
       },
       "examples": [
-        "With regard to your complaint, we have refunded the full amount.",
-        "I have nothing to say with regard to that matter."
+        {
+          "en": "With regard to your complaint, we have refunded the full amount.",
+          "es": "Con respecto a su reclamo, le hemos reembolsado el monto total."
+        },
+        {
+          "en": "I have nothing to say with regard to that matter.",
+          "es": "No tengo nada que decir con respecto a ese asunto."
+        }
       ]
     }
   },
@@ -1187,8 +1415,14 @@
         "At": "Calco de 'a la luz de'; en inglés la preposición es 'in', no 'at'."
       },
       "examples": [
-        "In the light of recent events, the concert has been cancelled.",
-        "In light of the results, we will change our strategy."
+        {
+          "en": "In the light of recent events, the concert has been cancelled.",
+          "es": "A la luz de los acontecimientos recientes, se canceló el concierto."
+        },
+        {
+          "en": "In light of the results, we will change our strategy.",
+          "es": "A la luz de los resultados, cambiaremos nuestra estrategia."
+        }
       ]
     }
   },
@@ -1218,8 +1452,14 @@
         "on": "'on charge' no es la expresión; 'on a charge of' se usa para acusaciones (arrested on a charge of theft)."
       },
       "examples": [
-        "Who's in charge here?",
-        "She was put in charge of the new project."
+        {
+          "en": "Who's in charge here?",
+          "es": "¿Quién está a cargo aquí?"
+        },
+        {
+          "en": "She was put in charge of the new project.",
+          "es": "La pusieron a cargo del nuevo proyecto."
+        }
       ]
     }
   },
@@ -1249,8 +1489,14 @@
         "on": "'on accordance' no existe; la expresión fija empieza con 'in'."
       },
       "examples": [
-        "All waste must be disposed of in accordance with the law.",
-        "We acted in accordance with your instructions."
+        {
+          "en": "All waste must be disposed of in accordance with the law.",
+          "es": "Todos los residuos deben eliminarse de acuerdo con la ley."
+        },
+        {
+          "en": "We acted in accordance with your instructions.",
+          "es": "Actuamos de acuerdo con sus instrucciones."
+        }
       ]
     }
   },
@@ -1279,8 +1525,14 @@
         "comment": "'comment' es comentar; se parece en la forma pero no tiene que ver."
       },
       "examples": [
-        "The ceremony will commence at noon.",
-        "Work commenced on the new bridge in May."
+        {
+          "en": "The ceremony will commence at noon.",
+          "es": "La ceremonia comenzará al mediodía."
+        },
+        {
+          "en": "Work commenced on the new bridge in May.",
+          "es": "Las obras del nuevo puente comenzaron en mayo."
+        }
       ]
     }
   },
@@ -1310,8 +1562,14 @@
         "adquired": "Calco de 'adquirir'; la palabra inglesa es 'acquire' (y con c), y además no es lo habitual para entradas."
       },
       "examples": [
-        "Proof of purchase is required for all refunds.",
-        "The museum purchased the painting in 1998."
+        {
+          "en": "Proof of purchase is required for all refunds.",
+          "es": "Se requiere comprobante de compra para todos los reembolsos."
+        },
+        {
+          "en": "The museum purchased the painting in 1998.",
+          "es": "El museo compró el cuadro en 1998."
+        }
       ]
     }
   },
@@ -1341,8 +1599,14 @@
         "intent": "'intent' es un sustantivo o adjetivo; el verbo sería 'intend', y aun así cambiaría el sentido."
       },
       "examples": [
-        "We will endeavour to resolve the problem as soon as possible.",
-        "Every endeavour was made to find the missing child."
+        {
+          "en": "We will endeavour to resolve the problem as soon as possible.",
+          "es": "Haremos todo lo posible por resolver el problema cuanto antes."
+        },
+        {
+          "en": "Every endeavour was made to find the missing child.",
+          "es": "Se hizo todo lo posible por encontrar al niño desaparecido."
+        }
       ]
     }
   },
@@ -1372,8 +1636,14 @@
         "ascender": "'ascender' es 'ascend' o 'be promoted'."
       },
       "examples": [
-        "We need to ascertain whether the information is accurate.",
-        "It was difficult to ascertain the truth."
+        {
+          "en": "We need to ascertain whether the information is accurate.",
+          "es": "Tenemos que comprobar si la información es correcta."
+        },
+        {
+          "en": "It was difficult to ascertain the truth.",
+          "es": "Fue difícil averiguar la verdad."
+        }
       ]
     }
   },
@@ -1402,8 +1672,14 @@
         "slightly": "'slightly' (un poco) no combina con un adjetivo extremo como 'exhausted'."
       },
       "examples": [
-        "I'm utterly exhausted after that meeting.",
-        "She was very tired, but not exhausted."
+        {
+          "en": "I'm utterly exhausted after that meeting.",
+          "es": "Estoy completamente agotado después de esa reunión."
+        },
+        {
+          "en": "She was very tired, but not exhausted.",
+          "es": "Estaba muy cansada, pero no agotada."
+        }
       ]
     }
   },
@@ -1433,8 +1709,14 @@
         "fairly": "'fairly' solo va con adjetivos graduables (fairly cold)."
       },
       "examples": [
-        "It's absolutely freezing in this office.",
-        "The water was really freezing."
+        {
+          "en": "It's absolutely freezing in this office.",
+          "es": "Hace un frío terrible en esta oficina."
+        },
+        {
+          "en": "The water was really freezing.",
+          "es": "El agua estaba helada."
+        }
       ]
     }
   },
@@ -1463,8 +1745,14 @@
         "He was really furious.": "Es correcta: 'really' combina tanto con adjetivos graduables como con extremos."
       },
       "examples": [
-        "My boss was absolutely furious about the delay.",
-        "I was really angry with myself."
+        {
+          "en": "My boss was absolutely furious about the delay.",
+          "es": "Mi jefe estaba furioso por el retraso."
+        },
+        {
+          "en": "I was really angry with myself.",
+          "es": "Estaba muy enojado conmigo mismo."
+        }
       ]
     }
   },
@@ -1494,8 +1782,14 @@
         "interesting": "'interesting' es graduable; se dice 'very interesting', no 'absolutely interesting'."
       },
       "examples": [
-        "The scenery was absolutely stunning.",
-        "The food was absolutely delicious."
+        {
+          "en": "The scenery was absolutely stunning.",
+          "es": "El paisaje era impresionante."
+        },
+        {
+          "en": "The food was absolutely delicious.",
+          "es": "La comida estaba deliciosa."
+        }
       ]
     }
   },
@@ -1524,8 +1818,14 @@
         "appetising": "'appetising' describe comida que da hambre (apetitosa), no a una persona hambrienta."
       },
       "examples": [
-        "I'm absolutely starving: what's for dinner?",
-        "We were starving after the long walk."
+        {
+          "en": "I'm absolutely starving: what's for dinner?",
+          "es": "Me muero de hambre: ¿qué hay de cenar?"
+        },
+        {
+          "en": "We were starving after the long walk.",
+          "es": "Estábamos muertos de hambre después de la larga caminata."
+        }
       ]
     }
   }

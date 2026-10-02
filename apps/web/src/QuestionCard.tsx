@@ -43,7 +43,10 @@ export function QuestionCard({
           </p>
           <ul>
             {result.answer.examples.map((ex) => (
-              <li key={ex}>{ex}</li>
+              <li key={ex.en}>
+                {ex.en}
+                <span className="translation">{ex.es}</span>
+              </li>
             ))}
           </ul>
           <button onClick={onNext}>{nextLabel}</button>

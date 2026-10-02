@@ -24,8 +24,14 @@
         "done": "Existe 'a done deal' (un trato cerrado), pero no 'a done conclusion'."
       },
       "examples": [
-        "Victory was never a foregone conclusion.",
-        "Many saw the merger as a foregone conclusion."
+        {
+          "en": "Victory was never a foregone conclusion.",
+          "es": "La victoria nunca estuvo asegurada."
+        },
+        {
+          "en": "Many saw the merger as a foregone conclusion.",
+          "es": "Muchos veían la fusión como algo cantado."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "produced": "'Produce' no combina con 'havoc'; suena a traducción literal de 'producir estragos'."
       },
       "examples": [
-        "The virus wreaked havoc on the company's computers.",
-        "Floods wreaked havoc across the region."
+        {
+          "en": "The virus wreaked havoc on the company's computers.",
+          "es": "El virus causó estragos en las computadoras de la empresa."
+        },
+        {
+          "en": "Floods wreaked havoc across the region.",
+          "es": "Las inundaciones causaron estragos en toda la región."
+        }
       ]
     }
   },
@@ -84,8 +96,14 @@
         "implied": "'Implied interest' significa 'interés implícito' y no expresa beneficio personal en un resultado."
       },
       "examples": [
-        "Tobacco companies have a vested interest in weak health laws.",
-        "Nobody here has a vested interest in the outcome."
+        {
+          "en": "Tobacco companies have a vested interest in weak health laws.",
+          "es": "Las tabacaleras tienen intereses creados en que las leyes de salud sean débiles."
+        },
+        {
+          "en": "Nobody here has a vested interest in the outcome.",
+          "es": "Aquí nadie tiene un interés personal en el resultado."
+        }
       ]
     }
   },
@@ -114,8 +132,14 @@
         "support": "Calco de 'soportar'; en inglés 'support' es 'apoyar' y no va con 'brunt'."
       },
       "examples": [
-        "Coastal towns bore the brunt of the hurricane.",
-        "Young workers bear the brunt of the crisis."
+        {
+          "en": "Coastal towns bore the brunt of the hurricane.",
+          "es": "Los pueblos costeros se llevaron la peor parte del huracán."
+        },
+        {
+          "en": "Young workers bear the brunt of the crisis.",
+          "es": "Los trabajadores jóvenes sufren las peores consecuencias de la crisis."
+        }
       ]
     }
   },
@@ -144,8 +168,14 @@
         "break": "'Break the tide' no existe; se dice 'stem' (contener, frenar)."
       },
       "examples": [
-        "The new law failed to stem the tide of fake news.",
-        "They tried to stem the flow of refugees."
+        {
+          "en": "The new law failed to stem the tide of fake news.",
+          "es": "La nueva ley no logró frenar la ola de noticias falsas."
+        },
+        {
+          "en": "They tried to stem the flow of refugees.",
+          "es": "Intentaron frenar el flujo de refugiados."
+        }
       ]
     }
   },
@@ -174,8 +204,14 @@
         "devolver un favor": "'Devolver un favor' es 'return a favour'."
       },
       "examples": [
-        "Politicians curry favour with voters before elections.",
-        "She refused to curry favour with the directors."
+        {
+          "en": "Politicians curry favour with voters before elections.",
+          "es": "Los políticos buscan congraciarse con los votantes antes de las elecciones."
+        },
+        {
+          "en": "She refused to curry favour with the directors.",
+          "es": "Ella se negó a congraciarse con los directores."
+        }
       ]
     }
   },
@@ -204,8 +240,14 @@
         "pagar por publicidad sobre algo": "Aunque contiene 'pay', no habla de dinero; es una expresión fija."
       },
       "examples": [
-        "Many leaders pay lip service to equality.",
-        "Don't just pay lip service to safety rules: follow them."
+        {
+          "en": "Many leaders pay lip service to equality.",
+          "es": "Muchos líderes defienden la igualdad solo de palabra."
+        },
+        {
+          "en": "Don't just pay lip service to safety rules: follow them.",
+          "es": "No te limites a respetar las normas de seguridad de palabra: cúmplelas."
+        }
       ]
     }
   },
@@ -234,8 +276,14 @@
         "restrained": "'Restrained' es 'comedido, contenido' en su conducta; no se usa con 'about her private life'."
       },
       "examples": [
-        "He was reticent about his past.",
-        "She was reluctant to sign the contract."
+        {
+          "en": "He was reticent about his past.",
+          "es": "Era muy reservado sobre su pasado."
+        },
+        {
+          "en": "She was reluctant to sign the contract.",
+          "es": "Ella no estaba dispuesta a firmar el contrato."
+        }
       ]
     }
   },
@@ -264,8 +312,14 @@
         "induced": "'Induce' significa 'provocar, inducir a alguien a hacer algo', no 'deducir'."
       },
       "examples": [
-        "Are you implying that I lied?",
-        "What can we infer from these results?"
+        {
+          "en": "Are you implying that I lied?",
+          "es": "¿Estás insinuando que mentí?"
+        },
+        {
+          "en": "What can we infer from these results?",
+          "es": "¿Qué podemos deducir de estos resultados?"
+        }
       ]
     }
   },
@@ -294,8 +348,14 @@
         "flattering": "'Flatter' es halagar; no encaja con 'speed limits'."
       },
       "examples": [
-        "They flouted the ban on public gatherings.",
-        "He loves flaunting his new car."
+        {
+          "en": "They flouted the ban on public gatherings.",
+          "es": "Desafiaron abiertamente la prohibición de reuniones públicas."
+        },
+        {
+          "en": "He loves flaunting his new car.",
+          "es": "Le encanta presumir su auto nuevo."
+        }
       ]
     }
   },
@@ -324,8 +384,14 @@
         "desinterested": "No existe en inglés; es una ortografía influida por el español 'desinteresado'."
       },
       "examples": [
-        "A disinterested observer would agree with her.",
-        "The students looked completely uninterested."
+        {
+          "en": "A disinterested observer would agree with her.",
+          "es": "Un observador imparcial estaría de acuerdo con ella."
+        },
+        {
+          "en": "The students looked completely uninterested.",
+          "es": "Los estudiantes parecían totalmente desinteresados."
+        }
       ]
     }
   },
@@ -354,8 +420,14 @@
         "reassured": "'Reassure' es tranquilizar a alguien; no va con 'against theft'."
       },
       "examples": [
-        "Is your house insured against floods?",
-        "Please ensure that the door is locked."
+        {
+          "en": "Is your house insured against floods?",
+          "es": "¿Tu casa está asegurada contra inundaciones?"
+        },
+        {
+          "en": "Please ensure that the door is locked.",
+          "es": "Por favor, asegúrate de que la puerta esté cerrada con llave."
+        }
       ]
     }
   },
@@ -384,8 +456,14 @@
         "meditate": "'Meditate' es meditar, reflexionar; no expresa que algo dificulte un resultado."
       },
       "examples": [
-        "His age militates against his chances.",
-        "Trees help mitigate the effects of heat."
+        {
+          "en": "His age militates against his chances.",
+          "es": "Su edad juega en contra de sus posibilidades."
+        },
+        {
+          "en": "Trees help mitigate the effects of heat.",
+          "es": "Los árboles ayudan a mitigar los efectos del calor."
+        }
       ]
     }
   },
@@ -414,8 +492,14 @@
         "Confesó toda la verdad": "Es lo contrario: evitó responder con claridad."
       },
       "examples": [
-        "Stop prevaricating and give me a straight answer.",
-        "I always procrastinate when I have to write reports."
+        {
+          "en": "Stop prevaricating and give me a straight answer.",
+          "es": "Deja de andarte con rodeos y dame una respuesta directa."
+        },
+        {
+          "en": "I always procrastinate when I have to write reports.",
+          "es": "Siempre lo dejo todo para último momento cuando tengo que escribir informes."
+        }
       ]
     }
   },
@@ -444,8 +528,14 @@
         "lujoso, caro": "No tiene relación con el dinero ni el lujo."
       },
       "examples": [
-        "The discovery was fortuitous.",
-        "We were fortunate to find a table."
+        {
+          "en": "The discovery was fortuitous.",
+          "es": "El descubrimiento fue fortuito."
+        },
+        {
+          "en": "We were fortunate to find a table.",
+          "es": "Tuvimos suerte de encontrar una mesa."
+        }
       ]
     }
   },
@@ -474,8 +564,14 @@
         "más exigente consigo mismo": "Es lo contrario: 'complacent' implica relajarse por exceso de confianza."
       },
       "examples": [
-        "We can't afford to be complacent about security.",
-        "Success made him complacent."
+        {
+          "en": "We can't afford to be complacent about security.",
+          "es": "No podemos darnos el lujo de confiarnos en temas de seguridad."
+        },
+        {
+          "en": "Success made him complacent.",
+          "es": "El éxito lo volvió complaciente."
+        }
       ]
     }
   },
@@ -504,8 +600,14 @@
         "ominous": "'Ominous' significa 'amenazador, de mal agüero'; no encaja con la idea de estar en todas partes."
       },
       "examples": [
-        "Coffee shops are ubiquitous in this city.",
-        "Plastic has become ubiquitous in the oceans."
+        {
+          "en": "Coffee shops are ubiquitous in this city.",
+          "es": "Las cafeterías están por todas partes en esta ciudad."
+        },
+        {
+          "en": "Plastic has become ubiquitous in the oceans.",
+          "es": "El plástico se ha vuelto omnipresente en los océanos."
+        }
       ]
     }
   },
@@ -534,8 +636,14 @@
         "contagiosa": "No tiene que ver con contagiar; el contexto habla de olvido rápido."
       },
       "examples": [
-        "Fashion trends are ephemeral.",
-        "The beauty of cherry blossom is ephemeral."
+        {
+          "en": "Fashion trends are ephemeral.",
+          "es": "Las tendencias de la moda son efímeras."
+        },
+        {
+          "en": "The beauty of cherry blossom is ephemeral.",
+          "es": "La belleza de los cerezos en flor es efímera."
+        }
       ]
     }
   },
@@ -564,8 +672,14 @@
         "dramatic": "'Dramatic' es 'espectacular, drástico'; no encaja con aceptar un acuerdo parcial."
       },
       "examples": [
-        "We need a pragmatic solution, not a perfect one.",
-        "She is pragmatic about money."
+        {
+          "en": "We need a pragmatic solution, not a perfect one.",
+          "es": "Necesitamos una solución práctica, no una perfecta."
+        },
+        {
+          "en": "She is pragmatic about money.",
+          "es": "Ella es pragmática con el dinero."
+        }
       ]
     }
   },
@@ -594,8 +708,14 @@
         "suspicious": "'Suspicious' es 'sospechoso' o 'desconfiado'; no describe precisión."
       },
       "examples": [
-        "He was scrupulous about telling the truth.",
-        "The house was kept scrupulously clean."
+        {
+          "en": "He was scrupulous about telling the truth.",
+          "es": "Era escrupuloso en cuanto a decir la verdad."
+        },
+        {
+          "en": "The house was kept scrupulously clean.",
+          "es": "La casa se mantenía impecablemente limpia."
+        }
       ]
     }
   },
@@ -624,8 +744,14 @@
         "pesimista": "La opinión es negativa, pero 'candid' describe la franqueza, no el pesimismo."
       },
       "examples": [
-        "She gave a candid interview about her illness.",
-        "Thank you for your candid feedback."
+        {
+          "en": "She gave a candid interview about her illness.",
+          "es": "Ella dio una entrevista sincera sobre su enfermedad."
+        },
+        {
+          "en": "Thank you for your candid feedback.",
+          "es": "Gracias por tus comentarios sinceros."
+        }
       ]
     }
   },
@@ -654,8 +780,14 @@
         "quit": "'Quit' es dejar o abandonar algo; la policía no 'abandona' los disturbios, los sofoca."
       },
       "examples": [
-        "The army quelled the rebellion.",
-        "The minister tried to quell fears of a recession."
+        {
+          "en": "The army quelled the rebellion.",
+          "es": "El ejército sofocó la rebelión."
+        },
+        {
+          "en": "The minister tried to quell fears of a recession.",
+          "es": "El ministro intentó calmar los temores de una recesión."
+        }
       ]
     }
   },
@@ -684,8 +816,14 @@
         "negar": "No se niega el declive; se lamenta."
       },
       "examples": [
-        "She lamented the loss of her old friends.",
-        "He lamented that nobody reads poetry any more."
+        {
+          "en": "She lamented the loss of her old friends.",
+          "es": "Ella lamentó la pérdida de sus viejas amistades."
+        },
+        {
+          "en": "He lamented that nobody reads poetry any more.",
+          "es": "Se lamentó de que ya nadie lee poesía."
+        }
       ]
     }
   },
@@ -714,8 +852,14 @@
         "alleviate": "'Alleviate' es aliviar; contradice 'only' y el sentido de recortar enfermeros."
       },
       "examples": [
-        "Stress can exacerbate skin conditions.",
-        "The drought exacerbated food shortages."
+        {
+          "en": "Stress can exacerbate skin conditions.",
+          "es": "El estrés puede agravar los problemas de la piel."
+        },
+        {
+          "en": "The drought exacerbated food shortages.",
+          "es": "La sequía agravó la escasez de alimentos."
+        }
       ]
     }
   },
@@ -744,8 +888,14 @@
         "peinado": "'Peinado' es 'hairstyle'."
       },
       "examples": [
-        "He has a dark complexion.",
-        "This cream is good for an oily complexion."
+        {
+          "en": "He has a dark complexion.",
+          "es": "Él tiene la tez morena."
+        },
+        {
+          "en": "This cream is good for an oily complexion.",
+          "es": "Esta crema es buena para el cutis graso."
+        }
       ]
     }
   },
@@ -774,8 +924,14 @@
         "generoso": "'Generoso' es 'generous'; no tiene relación."
       },
       "examples": [
-        "Her ingenuous smile charmed everyone.",
-        "What an ingenious idea!"
+        {
+          "en": "Her ingenuous smile charmed everyone.",
+          "es": "Su sonrisa ingenua encantó a todos."
+        },
+        {
+          "en": "What an ingenious idea!",
+          "es": "¡Qué idea tan ingeniosa!"
+        }
       ]
     }
   },
@@ -804,8 +960,14 @@
         "innocence": "'Innocence' es 'inocencia'; no ayuda a reparar un motor."
       },
       "examples": [
-        "The escape plan showed remarkable ingenuity.",
-        "Human ingenuity has no limits."
+        {
+          "en": "The escape plan showed remarkable ingenuity.",
+          "es": "El plan de escape mostró un ingenio notable."
+        },
+        {
+          "en": "Human ingenuity has no limits.",
+          "es": "El ingenio humano no tiene límites."
+        }
       ]
     }
   },
@@ -834,8 +996,14 @@
         "respond": "'Respond' también necesita 'to' y significa responder, no recurrir un resultado."
       },
       "examples": [
-        "She plans to contest her father's will.",
-        "Please answer the question."
+        {
+          "en": "She plans to contest her father's will.",
+          "es": "Ella piensa impugnar el testamento de su padre."
+        },
+        {
+          "en": "Please answer the question.",
+          "es": "Por favor, responde la pregunta."
+        }
       ]
     }
   },
@@ -864,8 +1032,14 @@
         "reconocer": "'Reconocer' es 'recognise' o 'admit'."
       },
       "examples": [
-        "I don't recollect his name.",
-        "She has no recollection of the accident."
+        {
+          "en": "I don't recollect his name.",
+          "es": "No recuerdo su nombre."
+        },
+        {
+          "en": "She has no recollection of the accident.",
+          "es": "Ella no recuerda nada del accidente."
+        }
       ]
     }
   },
@@ -894,8 +1068,14 @@
         "lawman": "'Lawman' es un agente de la ley (sheriff, policía), sobre todo en el Oeste americano."
       },
       "examples": [
-        "You should talk to a lawyer before signing.",
-        "I'd like some avocado on my toast."
+        {
+          "en": "You should talk to a lawyer before signing.",
+          "es": "Deberías hablar con un abogado antes de firmar."
+        },
+        {
+          "en": "I'd like some avocado on my toast.",
+          "es": "Quiero un poco de aguacate en mi pan tostado."
+        }
       ]
     }
   },
@@ -924,8 +1104,14 @@
         "réplicas del terremoto": "Las réplicas son 'aftershocks'."
       },
       "examples": [
-        "There were no casualties in the fire.",
-        "He was taken to casualty with a broken arm."
+        {
+          "en": "There were no casualties in the fire.",
+          "es": "No hubo víctimas en el incendio."
+        },
+        {
+          "en": "He was taken to casualty with a broken arm.",
+          "es": "Lo llevaron a urgencias con un brazo roto."
+        }
       ]
     }
   },
@@ -954,8 +1140,14 @@
         "evidente, obvio": "Aunque en español 'notorio' puede ser 'evidente', en inglés 'notorious' es 'de mala fama'."
       },
       "examples": [
-        "He was a notorious liar.",
-        "The area is notorious for pickpockets."
+        {
+          "en": "He was a notorious liar.",
+          "es": "Era un mentiroso de lo más conocido."
+        },
+        {
+          "en": "The area is notorious for pickpockets.",
+          "es": "La zona es famosa por sus carteristas."
+        }
       ]
     }
   },
@@ -984,8 +1176,14 @@
         "disrevocable": "'Dis-' no forma el contrario de 'revocable'."
       },
       "examples": [
-        "The damage may be irreversible.",
-        "His decision is irrevocable."
+        {
+          "en": "The damage may be irreversible.",
+          "es": "El daño puede ser irreversible."
+        },
+        {
+          "en": "His decision is irrevocable.",
+          "es": "Su decisión es irrevocable."
+        }
       ]
     }
   },
@@ -1014,8 +1212,14 @@
         "illegal": "'Illegal' es 'ilegal', contrario a la ley; no describe una letra difícil de leer."
       },
       "examples": [
-        "The signature was illegible.",
-        "Some of the old letters are almost illegible."
+        {
+          "en": "The signature was illegible.",
+          "es": "La firma era ilegible."
+        },
+        {
+          "en": "Some of the old letters are almost illegible.",
+          "es": "Algunas de las cartas viejas son casi ilegibles."
+        }
       ]
     }
   },
@@ -1044,8 +1248,14 @@
         "impecable": "Es la ortografía española; en inglés se escribe con doble c: 'impeccable'."
       },
       "examples": [
-        "He speaks impeccable French.",
-        "The hotel service was impeccable."
+        {
+          "en": "He speaks impeccable French.",
+          "es": "Habla un francés impecable."
+        },
+        {
+          "en": "The hotel service was impeccable.",
+          "es": "El servicio del hotel fue impecable."
+        }
       ]
     }
   },
@@ -1074,8 +1284,14 @@
         "familism": "'Familism' es un término de sociología (valorar la familia), no el enchufismo laboral."
       },
       "examples": [
-        "The company was accused of nepotism.",
-        "Ageism and sexism are still common."
+        {
+          "en": "The company was accused of nepotism.",
+          "es": "Acusaron a la empresa de nepotismo."
+        },
+        {
+          "en": "Ageism and sexism are still common.",
+          "es": "La discriminación por edad y el sexismo todavía son comunes."
+        }
       ]
     }
   },
@@ -1104,8 +1320,14 @@
         "rápido y eficiente": "Es lo contrario: describe un proceso absurdo y agotador."
       },
       "examples": [
-        "Dealing with the tax office was Kafkaesque.",
-        "The hotel had a Gothic-esque feel."
+        {
+          "en": "Dealing with the tax office was Kafkaesque.",
+          "es": "Lidiar con la oficina de impuestos fue kafkiano."
+        },
+        {
+          "en": "The hotel had a Gothic-esque feel.",
+          "es": "El hotel tenía un aire gótico."
+        }
       ]
     }
   },
@@ -1134,8 +1356,14 @@
         "picturable": "'Picturable' (muy raro) significa 'que se puede representar', no 'bonito como un cuadro'."
       },
       "examples": [
-        "We stayed in a picturesque fishing village.",
-        "The old town is very picturesque."
+        {
+          "en": "We stayed in a picturesque fishing village.",
+          "es": "Nos alojamos en un pintoresco pueblo de pescadores."
+        },
+        {
+          "en": "The old town is very picturesque.",
+          "es": "El casco antiguo es muy pintoresco."
+        }
       ]
     }
   },
@@ -1164,8 +1392,14 @@
         "resing": "'Resing' sería 'cantar de nuevo'; no tiene que ver con contratos."
       },
       "examples": [
-        "The minister resigned after the scandal.",
-        "He re-signed for two more seasons."
+        {
+          "en": "The minister resigned after the scandal.",
+          "es": "El ministro renunció después del escándalo."
+        },
+        {
+          "en": "He re-signed for two more seasons.",
+          "es": "Renovó su contrato por dos temporadas más."
+        }
       ]
     }
   },
@@ -1194,8 +1428,14 @@
         "inmoral": "'Inmoral' es 'immoral'."
       },
       "examples": [
-        "Her age is immaterial to the job.",
-        "The cost is immaterial if it saves lives."
+        {
+          "en": "Her age is immaterial to the job.",
+          "es": "Su edad no tiene importancia para el trabajo."
+        },
+        {
+          "en": "The cost is immaterial if it saves lives.",
+          "es": "El costo no importa si salva vidas."
+        }
       ]
     }
   },
@@ -1224,8 +1464,14 @@
         "evens": "Asociación con 'odds/evens' (impares/pares), pero el binomio es 'odds and ends'."
       },
       "examples": [
-        "The drawer is full of odds and ends.",
-        "I've got a few odds and ends to sort out at work."
+        {
+          "en": "The drawer is full of odds and ends.",
+          "es": "El cajón está lleno de cosas sueltas."
+        },
+        {
+          "en": "I've got a few odds and ends to sort out at work.",
+          "es": "Tengo algunos pendientes que resolver en el trabajo."
+        }
       ]
     }
   },
@@ -1254,8 +1500,14 @@
         "void and null": "El orden fijo es 'null and void'."
       },
       "examples": [
-        "Let's weigh up the pros and cons.",
-        "The kids got home safe and sound."
+        {
+          "en": "Let's weigh up the pros and cons.",
+          "es": "Analicemos los pros y los contras."
+        },
+        {
+          "en": "The kids got home safe and sound.",
+          "es": "Los niños llegaron a casa sanos y salvos."
+        }
       ]
     }
   },
@@ -1284,8 +1536,14 @@
         "worn": "'Worn' es participio/adjetivo; el binomio usa el sustantivo 'wear'."
       },
       "examples": [
-        "The insurance doesn't cover wear and tear.",
-        "My shoes show signs of wear and tear."
+        {
+          "en": "The insurance doesn't cover wear and tear.",
+          "es": "El seguro no cubre el desgaste normal."
+        },
+        {
+          "en": "My shoes show signs of wear and tear.",
+          "es": "Mis zapatos muestran señales de desgaste."
+        }
       ]
     }
   },
@@ -1314,8 +1572,14 @@
         "invalid": "Significa algo parecido, pero la expresión fija legal es 'null and void', no 'null and invalid'."
       },
       "examples": [
-        "The agreement is now null and void.",
-        "Any changes made without consent are null and void."
+        {
+          "en": "The agreement is now null and void.",
+          "es": "El acuerdo ahora es nulo y sin efecto."
+        },
+        {
+          "en": "Any changes made without consent are null and void.",
+          "es": "Cualquier cambio hecho sin consentimiento es nulo."
+        }
       ]
     }
   },
@@ -1344,8 +1608,14 @@
         "saved": "'Saved' es participio de 'save'; no forma binomio con 'safe'."
       },
       "examples": [
-        "The missing child was found safe and sound.",
-        "We arrived home safe and sound."
+        {
+          "en": "The missing child was found safe and sound.",
+          "es": "Encontraron sano y salvo al niño desaparecido."
+        },
+        {
+          "en": "We arrived home safe and sound.",
+          "es": "Llegamos a casa sanos y salvos."
+        }
       ]
     }
   },
@@ -1374,8 +1644,14 @@
         "Estoy cansado, así que acepto tus excusas": "Es lo contrario: no las acepta, está harto."
       },
       "examples": [
-        "I'm sick and tired of this weather.",
-        "She was sick and tired of waiting."
+        {
+          "en": "I'm sick and tired of this weather.",
+          "es": "Estoy harto de este clima."
+        },
+        {
+          "en": "She was sick and tired of waiting.",
+          "es": "Ella estaba harta de esperar."
+        }
       ]
     }
   },
@@ -1404,8 +1680,14 @@
         "Podrán elegir si se quedan o se van": "No eligen; la empresa decide. 'Let go' suaviza 'fired' o 'made redundant'."
       },
       "examples": [
-        "We had to let three people go.",
-        "She was let go after ten years."
+        {
+          "en": "We had to let three people go.",
+          "es": "Tuvimos que despedir a tres personas."
+        },
+        {
+          "en": "She was let go after ten years.",
+          "es": "La despidieron después de diez años."
+        }
       ]
     }
   },
@@ -1434,8 +1716,14 @@
         "saving": "'Saving' no es adjetivo de esta expresión; suena a calco de 'ahorrador'."
       },
       "examples": [
-        "The minister was economical with the truth.",
-        "I suspect he's being economical with the truth."
+        {
+          "en": "The minister was economical with the truth.",
+          "es": "El ministro no dijo toda la verdad."
+        },
+        {
+          "en": "I suspect he's being economical with the truth.",
+          "es": "Sospecho que no está diciendo toda la verdad."
+        }
       ]
     }
   },
@@ -1464,8 +1752,14 @@
         "Hablaron de temas personales": "'Frank' no significa 'personal'; es un eufemismo de discusión dura."
       },
       "examples": [
-        "Talks were described as 'frank and candid'.",
-        "There was a frank exchange of views on trade."
+        {
+          "en": "Talks were described as 'frank and candid'.",
+          "es": "Las conversaciones se describieron como 'francas y sinceras'."
+        },
+        {
+          "en": "There was a frank exchange of views on trade.",
+          "es": "Hubo un franco intercambio de opiniones sobre comercio."
+        }
       ]
     }
   },
@@ -1494,8 +1788,14 @@
         "out of": "Existe 'out of work', pero no 'out of jobs'."
       },
       "examples": [
-        "I'm between jobs at the moment.",
-        "She's between jobs and doing some volunteering."
+        {
+          "en": "I'm between jobs at the moment.",
+          "es": "Ahora mismo estoy entre un trabajo y otro."
+        },
+        {
+          "en": "She's between jobs and doing some volunteering.",
+          "es": "Está buscando trabajo y mientras tanto hace voluntariado."
+        }
       ]
     }
   }

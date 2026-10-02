@@ -23,8 +23,14 @@
         "big": "\"big\" se refiere al tamaño; no se combina con 'rain' para hablar de intensidad."
       },
       "examples": [
-        "There was heavy rain all night.",
-        "Heavy snow closed the roads."
+        {
+          "en": "There was heavy rain all night.",
+          "es": "Llovió fuerte toda la noche."
+        },
+        {
+          "en": "Heavy snow closed the roads.",
+          "es": "Una fuerte nevada cerró las carreteras."
+        }
       ]
     }
   },
@@ -52,8 +58,14 @@
         "powerful": "\"powerful\" se usa para motores, personas o argumentos; con el café lo natural es 'strong'."
       },
       "examples": [
-        "I prefer my tea strong with a little milk.",
-        "This coffee is too weak for me."
+        {
+          "en": "I prefer my tea strong with a little milk.",
+          "es": "Prefiero el té cargado con un poco de leche."
+        },
+        {
+          "en": "This coffee is too weak for me.",
+          "es": "Este café está demasiado suave para mí."
+        }
       ]
     }
   },
@@ -81,8 +93,14 @@
         "upper": "\"upper\" significa 'superior' en posición ('upper floor'); no describe precios."
       },
       "examples": [
-        "Rents are very high in the city centre.",
-        "Petrol prices are lower this month."
+        {
+          "en": "Rents are very high in the city centre.",
+          "es": "Los alquileres son muy altos en el centro de la ciudad."
+        },
+        {
+          "en": "Petrol prices are lower this month.",
+          "es": "Los precios de la gasolina están más bajos este mes."
+        }
       ]
     }
   },
@@ -111,8 +129,14 @@
         "hardly": "\"hardly\" significa 'apenas'; cambiaría el sentido a 'casi no se decepcionó'."
       },
       "examples": [
-        "The fans were bitterly disappointed by the result.",
-        "He was bitterly disappointed with the decision."
+        {
+          "en": "The fans were bitterly disappointed by the result.",
+          "es": "Los aficionados quedaron profundamente decepcionados con el resultado."
+        },
+        {
+          "en": "He was bitterly disappointed with the decision.",
+          "es": "Quedó muy decepcionado con la decisión."
+        }
       ]
     }
   },
@@ -141,8 +165,14 @@
         "put": "\"put\" no se combina con 'investigation'."
       },
       "examples": [
-        "The company launched an inquiry into the complaints.",
-        "The government has launched a campaign against smoking."
+        {
+          "en": "The company launched an inquiry into the complaints.",
+          "es": "La empresa inició una investigación sobre las quejas."
+        },
+        {
+          "en": "The government has launched a campaign against smoking.",
+          "es": "El gobierno lanzó una campaña contra el tabaquismo."
+        }
       ]
     }
   },
@@ -171,8 +201,14 @@
         "strong": "\"strong asleep\" no existe; es una traducción de 'profundamente' que no funciona."
       },
       "examples": [
-        "The baby is fast asleep.",
-        "I was fast asleep when the phone rang."
+        {
+          "en": "The baby is fast asleep.",
+          "es": "El bebé está profundamente dormido."
+        },
+        {
+          "en": "I was fast asleep when the phone rang.",
+          "es": "Estaba profundamente dormido cuando sonó el teléfono."
+        }
       ]
     }
   },
@@ -201,8 +237,14 @@
         "inagree": "in- no se usa con 'agree'; 'inagree' no existe."
       },
       "examples": [
-        "I disagree with you on this point.",
-        "Many people dislike flying."
+        {
+          "en": "I disagree with you on this point.",
+          "es": "No estoy de acuerdo contigo en este punto."
+        },
+        {
+          "en": "Many people dislike flying.",
+          "es": "A mucha gente no le gusta volar."
+        }
       ]
     }
   },
@@ -231,8 +273,14 @@
         "overunderstood": "over- significa 'en exceso' y no tiene sentido con 'understand'."
       },
       "examples": [
-        "Sorry, I misread the address.",
-        "Many students misspell this word."
+        {
+          "en": "Sorry, I misread the address.",
+          "es": "Perdón, leí mal la dirección."
+        },
+        {
+          "en": "Many students misspell this word.",
+          "es": "Muchos estudiantes escriben mal esta palabra."
+        }
       ]
     }
   },
@@ -261,8 +309,14 @@
         "uncooked": "\"uncooked\" significa crudo, sin cocinar; contradice las tres horas en el horno."
       },
       "examples": [
-        "I overslept and missed the bus.",
-        "Don't overwork yourself before the exam."
+        {
+          "en": "I overslept and missed the bus.",
+          "es": "Me quedé dormido y perdí el autobús."
+        },
+        {
+          "en": "Don't overwork yourself before the exam.",
+          "es": "No te sobreexijas antes del examen."
+        }
       ]
     }
   },
@@ -291,8 +345,14 @@
         "constructness": "-ness se añade a adjetivos (happy → happiness); 'constructness' no existe."
       },
       "examples": [
-        "The construction of the bridge took two years.",
-        "There has been a reduction in costs."
+        {
+          "en": "The construction of the bridge took two years.",
+          "es": "La construcción del puente tomó dos años."
+        },
+        {
+          "en": "There has been a reduction in costs.",
+          "es": "Ha habido una reducción de costos."
+        }
       ]
     }
   },
@@ -322,8 +382,14 @@
         "committal": "\"committal\" existe, pero es un término formal (el ingreso en prisión o un hospital, o el entierro); no significa dedicación."
       },
       "examples": [
-        "The job requires a lot of commitment.",
-        "Thank you for your commitment to the team."
+        {
+          "en": "The job requires a lot of commitment.",
+          "es": "El trabajo exige mucho compromiso."
+        },
+        {
+          "en": "Thank you for your commitment to the team.",
+          "es": "Gracias por tu compromiso con el equipo."
+        }
       ]
     }
   },
@@ -352,8 +418,14 @@
         "diversion": "\"diversion\" significa desvío (de tráfico) o distracción; en español 'diversión' se parece, pero no es lo mismo."
       },
       "examples": [
-        "Cultural diversity makes the city interesting.",
-        "The band's popularity grew quickly."
+        {
+          "en": "Cultural diversity makes the city interesting.",
+          "es": "La diversidad cultural hace que la ciudad sea interesante."
+        },
+        {
+          "en": "The band's popularity grew quickly.",
+          "es": "La popularidad de la banda creció rápidamente."
+        }
       ]
     }
   },
@@ -382,8 +454,14 @@
         "responsibilition": "'responsibilition' no existe; -tion no se añade a adjetivos."
       },
       "examples": [
-        "Looking after the children is your responsibility.",
-        "She has the ability to stay calm."
+        {
+          "en": "Looking after the children is your responsibility.",
+          "es": "Cuidar a los niños es tu responsabilidad."
+        },
+        {
+          "en": "She has the ability to stay calm.",
+          "es": "Ella tiene la capacidad de mantener la calma."
+        }
       ]
     }
   },
@@ -412,8 +490,14 @@
         "effort": "\"effort\" es un sustantivo (esfuerzo); aquí hace falta un verbo."
       },
       "examples": [
-        "The strike affected all trains.",
-        "Stress can affect your sleep."
+        {
+          "en": "The strike affected all trains.",
+          "es": "La huelga afectó a todos los trenes."
+        },
+        {
+          "en": "Stress can affect your sleep.",
+          "es": "El estrés puede afectar tu sueño."
+        }
       ]
     }
   },
@@ -442,8 +526,14 @@
         "efficiency": "\"efficiency\" significa eficiencia; además, la colocación fija es 'have an effect on'."
       },
       "examples": [
-        "The music had a calming effect on the baby.",
-        "Climate change has serious effects on farming."
+        {
+          "en": "The music had a calming effect on the baby.",
+          "es": "La música tuvo un efecto calmante en el bebé."
+        },
+        {
+          "en": "Climate change has serious effects on farming.",
+          "es": "El cambio climático tiene efectos graves en la agricultura."
+        }
       ]
     }
   },
@@ -473,8 +563,14 @@
         "lain": "\"lain\" es el participio de 'lie'; necesitaría 'have': 'I have lain'. En pasado simple es 'lay'."
       },
       "examples": [
-        "She lay in bed all morning.",
-        "He laid his keys on the table."
+        {
+          "en": "She lay in bed all morning.",
+          "es": "Se quedó acostada en la cama toda la mañana."
+        },
+        {
+          "en": "He laid his keys on the table.",
+          "es": "Dejó sus llaves sobre la mesa."
+        }
       ]
     }
   },
@@ -504,8 +600,14 @@
         "beginning": "\"beginning\" significa comienzo; 'as a matter of beginning' no existe. En español 'principio' tiene los dos sentidos, en inglés no."
       },
       "examples": [
-        "It's not about the money, it's the principle.",
-        "The principal called my parents."
+        {
+          "en": "It's not about the money, it's the principle.",
+          "es": "No se trata del dinero, es una cuestión de principios."
+        },
+        {
+          "en": "The principal called my parents.",
+          "es": "El director llamó a mis padres."
+        }
       ]
     }
   },
@@ -534,8 +636,14 @@
         "economics": "\"economics\" es la ciencia económica; no describe un coche."
       },
       "examples": [
-        "Buying in bulk is more economical.",
-        "The country is in an economic crisis."
+        {
+          "en": "Buying in bulk is more economical.",
+          "es": "Comprar al por mayor es más económico."
+        },
+        {
+          "en": "The country is in an economic crisis.",
+          "es": "El país está en una crisis económica."
+        }
       ]
     }
   },
@@ -564,8 +672,14 @@
         "sentimental": "\"sentimental\" se refiere a emociones nostálgicas o románticas; no se usa 'sentimental about his weight'."
       },
       "examples": [
-        "My skin is very sensitive to the sun.",
-        "She's sensitive about her age."
+        {
+          "en": "My skin is very sensitive to the sun.",
+          "es": "Mi piel es muy sensible al sol."
+        },
+        {
+          "en": "She's sensitive about her age.",
+          "es": "Es muy susceptible con el tema de su edad."
+        }
       ]
     }
   },
@@ -595,8 +709,14 @@
         "perceptible, que se nota": "Ese significado corresponde a 'noticeable' o 'perceptible', no a 'sensible'."
       },
       "examples": [
-        "Wear sensible shoes for the hike.",
-        "That sounds like a sensible plan."
+        {
+          "en": "Wear sensible shoes for the hike.",
+          "es": "Usa zapatos cómodos y adecuados para la caminata."
+        },
+        {
+          "en": "That sounds like a sensible plan.",
+          "es": "Parece un plan sensato."
+        }
       ]
     }
   },
@@ -626,8 +746,14 @@
         "historian": "\"historian\" es la persona que estudia historia, no un adjetivo."
       },
       "examples": [
-        "He loves historical films.",
-        "It was a historic day for the country."
+        {
+          "en": "He loves historical films.",
+          "es": "Le encantan las películas históricas."
+        },
+        {
+          "en": "It was a historic day for the country.",
+          "es": "Fue un día histórico para el país."
+        }
       ]
     }
   },
@@ -657,8 +783,14 @@
         "afirmar con seguridad": "Afirmar es 'claim' o 'state'; 'assume' expresa una suposición, no una afirmación."
       },
       "examples": [
-        "Don't assume everyone agrees with you.",
-        "I assumed the shop would be open."
+        {
+          "en": "Don't assume everyone agrees with you.",
+          "es": "No des por sentado que todos están de acuerdo contigo."
+        },
+        {
+          "en": "I assumed the shop would be open.",
+          "es": "Supuse que la tienda estaría abierta."
+        }
       ]
     }
   },
@@ -687,8 +819,14 @@
         "attention": "\"attention\" significa atención; no encaja con 'to escape'."
       },
       "examples": [
-        "It was her third attempt at the driving test.",
-        "They attempted to climb the mountain in winter."
+        {
+          "en": "It was her third attempt at the driving test.",
+          "es": "Era su tercer intento en el examen de manejo."
+        },
+        {
+          "en": "They attempted to climb the mountain in winter.",
+          "es": "Intentaron escalar la montaña en invierno."
+        }
       ]
     }
   },
@@ -718,8 +856,14 @@
         "recepción": "'Recepción' en inglés es 'reception'."
       },
       "examples": [
-        "The scam was based on deception.",
-        "He deceived his customers for years."
+        {
+          "en": "The scam was based on deception.",
+          "es": "La estafa se basaba en el engaño."
+        },
+        {
+          "en": "He deceived his customers for years.",
+          "es": "Engañó a sus clientes durante años."
+        }
       ]
     }
   },
@@ -748,8 +892,14 @@
         "offence": "\"offence\" significa delito u ofensa; no describe una lesión."
       },
       "examples": [
-        "She suffered a back injury.",
-        "Nobody was injured in the accident."
+        {
+          "en": "She suffered a back injury.",
+          "es": "Sufrió una lesión en la espalda."
+        },
+        {
+          "en": "Nobody was injured in the accident.",
+          "es": "Nadie resultó herido en el accidente."
+        }
       ]
     }
   },
@@ -778,8 +928,14 @@
         "un examen escrito": "Un examen escrito es 'a written exam'."
       },
       "examples": [
-        "I have a lecture at nine tomorrow.",
-        "She is a lecturer in history."
+        {
+          "en": "I have a lecture at nine tomorrow.",
+          "es": "Mañana tengo una clase a las nueve."
+        },
+        {
+          "en": "She is a lecturer in history.",
+          "es": "Ella es profesora universitaria de historia."
+        }
       ]
     }
   },
@@ -809,8 +965,14 @@
         "amusing": "\"amusing\" significa divertido; no encaja con una mala noticia."
       },
       "examples": [
-        "The teacher was sympathetic to my problem.",
-        "Her new boss is really nice and friendly."
+        {
+          "en": "The teacher was sympathetic to my problem.",
+          "es": "El profesor fue comprensivo con mi problema."
+        },
+        {
+          "en": "Her new boss is really nice and friendly.",
+          "es": "Su nuevo jefe es muy simpático y amable."
+        }
       ]
     }
   },
@@ -839,8 +1001,14 @@
         "sin envase de plástico": "Eso sería 'plastic-free packaging'."
       },
       "examples": [
-        "This bread contains no preservatives.",
-        "Salt is a natural preservative."
+        {
+          "en": "This bread contains no preservatives.",
+          "es": "Este pan no contiene conservantes."
+        },
+        {
+          "en": "Salt is a natural preservative.",
+          "es": "La sal es un conservante natural."
+        }
       ]
     }
   },
@@ -870,8 +1038,14 @@
         "suciedad": "La suciedad es 'dirt'; 'misery' no tiene ese sentido."
       },
       "examples": [
-        "Losing his job caused him great misery.",
-        "She looked miserable in the rain."
+        {
+          "en": "Losing his job caused him great misery.",
+          "es": "Perder su trabajo le causó una gran desdicha."
+        },
+        {
+          "en": "She looked miserable in the rain.",
+          "es": "Se veía muy triste bajo la lluvia."
+        }
       ]
     }
   },
@@ -900,8 +1074,14 @@
         "in": "'Depend in' no existe."
       },
       "examples": [
-        "It depends on the price.",
-        "You can depend on me."
+        {
+          "en": "It depends on the price.",
+          "es": "Depende del precio."
+        },
+        {
+          "en": "You can depend on me.",
+          "es": "Puedes contar conmigo."
+        }
       ]
     }
   },
@@ -930,8 +1110,14 @@
         "with": "'Accuse with' no existe; en inglés británico existe 'charged with', pero no con 'accused'."
       },
       "examples": [
-        "They accused him of lying.",
-        "She was accused of fraud."
+        {
+          "en": "They accused him of lying.",
+          "es": "Lo acusaron de mentir."
+        },
+        {
+          "en": "She was accused of fraud.",
+          "es": "La acusaron de fraude."
+        }
       ]
     }
   },
@@ -960,8 +1146,14 @@
         "to": "'Insist to pay' no es correcto; 'insist' va con 'on + -ing' o 'that + oración'."
       },
       "examples": [
-        "He insisted on driving me home.",
-        "She insisted that I stay for lunch."
+        {
+          "en": "He insisted on driving me home.",
+          "es": "Insistió en llevarme a casa."
+        },
+        {
+          "en": "She insisted that I stay for lunch.",
+          "es": "Insistió en que me quedara a almorzar."
+        }
       ]
     }
   },
@@ -990,8 +1182,14 @@
         "to": "'Apologise to' se usa con la persona (apologise to your sister), no con el motivo."
       },
       "examples": [
-        "I apologised to her for the mistake.",
-        "We apologise for the delay."
+        {
+          "en": "I apologised to her for the mistake.",
+          "es": "Le pedí disculpas por el error."
+        },
+        {
+          "en": "We apologise for the delay.",
+          "es": "Pedimos disculpas por la demora."
+        }
       ]
     }
   },
@@ -1020,8 +1218,14 @@
         "say": "'Say' no lleva la persona como objeto directo: no se dice 'say you that'."
       },
       "examples": [
-        "We regret to inform you that the flight has been cancelled.",
-        "Please inform us of any changes."
+        {
+          "en": "We regret to inform you that the flight has been cancelled.",
+          "es": "Lamentamos informarle que el vuelo ha sido cancelado."
+        },
+        {
+          "en": "Please inform us of any changes.",
+          "es": "Por favor, infórmenos de cualquier cambio."
+        }
       ]
     }
   },
@@ -1051,8 +1255,14 @@
         "take": "'Take information' no es una combinación natural en este contexto."
       },
       "examples": [
-        "Tickets can be obtained online.",
-        "You must obtain permission before entering."
+        {
+          "en": "Tickets can be obtained online.",
+          "es": "Las entradas se pueden conseguir en línea."
+        },
+        {
+          "en": "You must obtain permission before entering.",
+          "es": "Debe obtener permiso antes de entrar."
+        }
       ]
     }
   }

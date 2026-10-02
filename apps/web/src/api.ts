@@ -12,7 +12,7 @@ export interface AnswerResult {
   correctIndex: number;
   rule: string;
   why: string | null;
-  examples: string[];
+  examples: { en: string; es: string }[];
 }
 
 export type LevelGroup = "basico" | "intermedio" | "avanzado" | "todos";

@@ -24,8 +24,14 @@
         "be": "\"be\" es el infinitivo; en presente hay que conjugarlo: I am."
       },
       "examples": [
-        "I am a student.",
-        "I'm from Colombia."
+        {
+          "en": "I am a student.",
+          "es": "Soy estudiante."
+        },
+        {
+          "en": "I'm from Colombia.",
+          "es": "Soy de Colombia."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "not": "Falta el verbo: en español decimos 'no están', pero en inglés necesitas are + not."
       },
       "examples": [
-        "We aren't hungry.",
-        "They're not at school today."
+        {
+          "en": "We aren't hungry.",
+          "es": "No tenemos hambre."
+        },
+        {
+          "en": "They're not at school today.",
+          "es": "Hoy no están en la escuela."
+        }
       ]
     }
   },
@@ -84,8 +96,14 @@
         "Do": "Con to be no se usa do, y además 'your brother' es tercera persona singular."
       },
       "examples": [
-        "Is she your teacher?",
-        "Is it cold today?"
+        {
+          "en": "Is she your teacher?",
+          "es": "¿Ella es tu maestra?"
+        },
+        {
+          "en": "Is it cold today?",
+          "es": "¿Hace frío hoy?"
+        }
       ]
     }
   },
@@ -114,8 +132,14 @@
         "is": "\"is\" es para he/she/it; con we se usa are."
       },
       "examples": [
-        "I'm thirsty.",
-        "Are you cold?"
+        {
+          "en": "I'm thirsty.",
+          "es": "Tengo sed."
+        },
+        {
+          "en": "Are you cold?",
+          "es": "¿Tienes frío?"
+        }
       ]
     }
   },
@@ -144,8 +168,14 @@
         "is": "\"is\" es para he/she/it; con you se usa are."
       },
       "examples": [
-        "She is ten years old.",
-        "How old is your dad?"
+        {
+          "en": "She is ten years old.",
+          "es": "Ella tiene diez años."
+        },
+        {
+          "en": "How old is your dad?",
+          "es": "¿Cuántos años tiene tu papá?"
+        }
       ]
     }
   },
@@ -175,8 +205,14 @@
         "doesn't drinks": "Después de doesn't el verbo va sin -s: doesn't drink, no 'doesn't drinks'."
       },
       "examples": [
-        "She doesn't like fish.",
-        "He doesn't work on Sundays."
+        {
+          "en": "She doesn't like fish.",
+          "es": "A ella no le gusta el pescado."
+        },
+        {
+          "en": "He doesn't work on Sundays.",
+          "es": "Él no trabaja los domingos."
+        }
       ]
     }
   },
@@ -205,8 +241,14 @@
         "Is": "\"Is\" es del verbo be y para he/she/it; aquí hace falta do."
       },
       "examples": [
-        "Do you like pizza?",
-        "Do they live near here?"
+        {
+          "en": "Do you like pizza?",
+          "es": "¿Te gusta la pizza?"
+        },
+        {
+          "en": "Do they live near here?",
+          "es": "¿Ellos viven cerca de aquí?"
+        }
       ]
     }
   },
@@ -236,8 +278,14 @@
         "lives": "La -s pasa al auxiliar: does your sister live, no 'lives your sister live'."
       },
       "examples": [
-        "What does he do?",
-        "Where does your friend work?"
+        {
+          "en": "What does he do?",
+          "es": "¿A qué se dedica él?"
+        },
+        {
+          "en": "Where does your friend work?",
+          "es": "¿Dónde trabaja tu amigo?"
+        }
       ]
     }
   },
@@ -267,8 +315,14 @@
         "brushing": "\"brushing\" necesita is antes (is brushing) y describe algo en progreso, no una rutina."
       },
       "examples": [
-        "She watches TV at night.",
-        "He fixes computers."
+        {
+          "en": "She watches TV at night.",
+          "es": "Ella ve televisión en la noche."
+        },
+        {
+          "en": "He fixes computers.",
+          "es": "Él arregla computadoras."
+        }
       ]
     }
   },
@@ -298,8 +352,14 @@
         "crying": "\"crying\" necesita is antes y no expresa una costumbre."
       },
       "examples": [
-        "She studies English.",
-        "He flies to London every month."
+        {
+          "en": "She studies English.",
+          "es": "Ella estudia inglés."
+        },
+        {
+          "en": "He flies to London every month.",
+          "es": "Él vuela a Londres todos los meses."
+        }
       ]
     }
   },
@@ -328,8 +388,14 @@
         "has": "\"has\" significa 'tiene'; para 'hay' se usa there is/there are."
       },
       "examples": [
-        "There are three bedrooms in the flat.",
-        "There is a park near my house."
+        {
+          "en": "There are three bedrooms in the flat.",
+          "es": "El departamento tiene tres habitaciones."
+        },
+        {
+          "en": "There is a park near my house.",
+          "es": "Hay un parque cerca de mi casa."
+        }
       ]
     }
   },
@@ -358,8 +424,14 @@
         "Are there": "\"Are there\" va con plural; 'a supermarket' es singular."
       },
       "examples": [
-        "Is there a bus to the airport?",
-        "Are there any good restaurants here?"
+        {
+          "en": "Is there a bus to the airport?",
+          "es": "¿Hay un autobús al aeropuerto?"
+        },
+        {
+          "en": "Are there any good restaurants here?",
+          "es": "¿Hay buenos restaurantes por aquí?"
+        }
       ]
     }
   },
@@ -388,8 +460,14 @@
         "haven't": "En español 'no hay' viene de haber, pero en inglés se dice there isn't, no 'there haven't'."
       },
       "examples": [
-        "There isn't any sugar.",
-        "There isn't a cinema in my town."
+        {
+          "en": "There isn't any sugar.",
+          "es": "No hay azúcar."
+        },
+        {
+          "en": "There isn't a cinema in my town.",
+          "es": "No hay cine en mi pueblo."
+        }
       ]
     }
   },
@@ -418,8 +496,14 @@
         "some": "\"some\" va con plurales o incontables, no con un sustantivo singular contable."
       },
       "examples": [
-        "He's an actor.",
-        "She's a nurse."
+        {
+          "en": "He's an actor.",
+          "es": "Él es actor."
+        },
+        {
+          "en": "She's a nurse.",
+          "es": "Ella es enfermera."
+        }
       ]
     }
   },
@@ -448,8 +532,14 @@
         "Some": "\"Some\" va con plurales o incontables; aquí hablamos de un perro concreto."
       },
       "examples": [
-        "I bought a book. The book is very good.",
-        "There's a café on the corner. The coffee there is great."
+        {
+          "en": "I bought a book. The book is very good.",
+          "es": "Compré un libro. El libro es muy bueno."
+        },
+        {
+          "en": "There's a café on the corner. The coffee there is great.",
+          "es": "Hay una cafetería en la esquina. El café de ahí es buenísimo."
+        }
       ]
     }
   },
@@ -478,8 +568,14 @@
         "one": "\"one\" se usa para contar; no queremos decir 'una puerta cualquiera'."
       },
       "examples": [
-        "Please turn off the light.",
-        "Where is the bathroom?"
+        {
+          "en": "Please turn off the light.",
+          "es": "Por favor, apaga la luz."
+        },
+        {
+          "en": "Where is the bathroom?",
+          "es": "¿Dónde está el baño?"
+        }
       ]
     }
   },
@@ -509,8 +605,14 @@
         "one": "\"one\" se usa para contar, no para describir a una persona."
       },
       "examples": [
-        "It takes an hour.",
-        "She's a happy girl."
+        {
+          "en": "It takes an hour.",
+          "es": "Toma una hora."
+        },
+        {
+          "en": "She's a happy girl.",
+          "es": "Ella es una niña feliz."
+        }
       ]
     }
   },
@@ -539,8 +641,14 @@
         "child": "\"child\" es singular y aquí hay dos."
       },
       "examples": [
-        "The children are in the park.",
-        "She has three children."
+        {
+          "en": "The children are in the park.",
+          "es": "Los niños están en el parque."
+        },
+        {
+          "en": "She has three children.",
+          "es": "Ella tiene tres hijos."
+        }
       ]
     }
   },
@@ -569,8 +677,14 @@
         "foot": "El verbo hurt sin -s indica plural; además caminamos con los dos pies: feet."
       },
       "examples": [
-        "My feet are cold.",
-        "Brush your teeth."
+        {
+          "en": "My feet are cold.",
+          "es": "Tengo los pies fríos."
+        },
+        {
+          "en": "Brush your teeth.",
+          "es": "Lávate los dientes."
+        }
       ]
     }
   },
@@ -599,8 +713,14 @@
         "tomatoe": "\"tomatoe\" no existe; el singular es tomato y el plural tomatoes."
       },
       "examples": [
-        "I like potatoes.",
-        "These tomatoes are very red."
+        {
+          "en": "I like potatoes.",
+          "es": "Me gustan las papas."
+        },
+        {
+          "en": "These tomatoes are very red.",
+          "es": "Estos tomates están muy rojos."
+        }
       ]
     }
   },
@@ -629,8 +749,14 @@
         "woman's": "\"woman's\" es el posesivo (de la mujer), no el plural."
       },
       "examples": [
-        "Two women are talking.",
-        "There are ten men in the team."
+        {
+          "en": "Two women are talking.",
+          "es": "Dos mujeres están hablando."
+        },
+        {
+          "en": "There are ten men in the team.",
+          "es": "Hay diez hombres en el equipo."
+        }
       ]
     }
   },
@@ -659,8 +785,14 @@
         "bus's": "\"bus's\" es el posesivo (del autobús), no el plural."
       },
       "examples": [
-        "I have two boxes.",
-        "These watches are expensive."
+        {
+          "en": "I have two boxes.",
+          "es": "Tengo dos cajas."
+        },
+        {
+          "en": "These watches are expensive.",
+          "es": "Estos relojes son caros."
+        }
       ]
     }
   },
@@ -689,8 +821,14 @@
         "He": "\"He\" es pronombre sujeto (él); delante de un sustantivo hace falta el posesivo his."
       },
       "examples": [
-        "Her name is Ana.",
-        "His car is blue."
+        {
+          "en": "Her name is Ana.",
+          "es": "Ella se llama Ana."
+        },
+        {
+          "en": "His car is blue.",
+          "es": "Su carro es azul."
+        }
       ]
     }
   },
@@ -719,8 +857,14 @@
         "there": "\"there\" suena igual pero significa 'allí'; no es posesivo."
       },
       "examples": [
-        "Their house is very big.",
-        "The students have their books."
+        {
+          "en": "Their house is very big.",
+          "es": "Su casa es muy grande."
+        },
+        {
+          "en": "The students have their books.",
+          "es": "Los estudiantes tienen sus libros."
+        }
       ]
     }
   },
@@ -749,8 +893,14 @@
         "Their": "\"Their\" es para plural; 'our school' es singular."
       },
       "examples": [
-        "The cat is eating its food.",
-        "This city is famous for its beaches."
+        {
+          "en": "The cat is eating its food.",
+          "es": "El gato está comiendo su comida."
+        },
+        {
+          "en": "This city is famous for its beaches.",
+          "es": "Esta ciudad es famosa por sus playas."
+        }
       ]
     }
   },
@@ -779,8 +929,14 @@
         "ours": "\"ours\" (el nuestro) va solo, sin sustantivo detrás: the teacher is ours."
       },
       "examples": [
-        "Our flat is small.",
-        "This is our dog."
+        {
+          "en": "Our flat is small.",
+          "es": "Nuestro departamento es pequeño."
+        },
+        {
+          "en": "This is our dog.",
+          "es": "Este es nuestro perro."
+        }
       ]
     }
   },
@@ -809,8 +965,14 @@
         "his": "\"his\" es 'de él'; Sara es mujer y aquí se necesita el pronombre objeto her."
       },
       "examples": [
-        "I talk to her every day.",
-        "Can you help me?"
+        {
+          "en": "I talk to her every day.",
+          "es": "Hablo con ella todos los días."
+        },
+        {
+          "en": "Can you help me?",
+          "es": "¿Me puedes ayudar?"
+        }
       ]
     }
   },
@@ -839,8 +1001,14 @@
         "Our": "\"Our\" es posesivo y necesita un sustantivo detrás (our team)."
       },
       "examples": [
-        "We are friends.",
-        "My sister and I live together. We share a flat."
+        {
+          "en": "We are friends.",
+          "es": "Somos amigos."
+        },
+        {
+          "en": "My sister and I live together. We share a flat.",
+          "es": "Mi hermana y yo vivimos juntas. Compartimos un departamento."
+        }
       ]
     }
   },
@@ -869,8 +1037,14 @@
         "mine": "\"mine\" significa 'el mío/la mía'; aquí se necesita me (a mí)."
       },
       "examples": [
-        "Tell me your name.",
-        "Please email me the photos."
+        {
+          "en": "Tell me your name.",
+          "es": "Dime tu nombre."
+        },
+        {
+          "en": "Please email me the photos.",
+          "es": "Por favor, envíame las fotos por correo."
+        }
       ]
     }
   },
@@ -899,8 +1073,14 @@
         "it": "\"it\" es para cosas o animales; Peter es una persona: him."
       },
       "examples": [
-        "I know him.",
-        "Do you like them?"
+        {
+          "en": "I know him.",
+          "es": "Lo conozco."
+        },
+        {
+          "en": "Do you like them?",
+          "es": "¿Te gustan?"
+        }
       ]
     }
   },
@@ -929,8 +1109,14 @@
         "those": "\"those\" es para cosas lejanas; los zapatos están en mis pies (cerca): these."
       },
       "examples": [
-        "These apples are sweet.",
-        "This bag is mine."
+        {
+          "en": "These apples are sweet.",
+          "es": "Estas manzanas son dulces."
+        },
+        {
+          "en": "This bag is mine.",
+          "es": "Esta bolsa es mía."
+        }
       ]
     }
   },
@@ -959,8 +1145,14 @@
         "those": "\"those\" es plural; man es singular."
       },
       "examples": [
-        "That car over there is mine.",
-        "Is that your house?"
+        {
+          "en": "That car over there is mine.",
+          "es": "Ese carro de allá es mío."
+        },
+        {
+          "en": "Is that your house?",
+          "es": "¿Esa es tu casa?"
+        }
       ]
     }
   },
@@ -989,8 +1181,14 @@
         "that": "\"that\" es singular; birds es plural."
       },
       "examples": [
-        "Those mountains are beautiful.",
-        "Who are those people?"
+        {
+          "en": "Those mountains are beautiful.",
+          "es": "Esas montañas son hermosas."
+        },
+        {
+          "en": "Who are those people?",
+          "es": "¿Quiénes son esas personas?"
+        }
       ]
     }
   },
@@ -1019,8 +1217,14 @@
         "It": "\"It\" es para cosas; para presentar a alguien decimos This is..."
       },
       "examples": [
-        "This is my brother, Tom.",
-        "Mum, this is my teacher."
+        {
+          "en": "This is my brother, Tom.",
+          "es": "Este es mi hermano, Tom."
+        },
+        {
+          "en": "Mum, this is my teacher.",
+          "es": "Mamá, ella es mi maestra."
+        }
       ]
     }
   },
@@ -1049,8 +1253,14 @@
         "is can": "Can no necesita el verbo be: she can, no 'she is can'."
       },
       "examples": [
-        "He can play the piano.",
-        "I can speak two languages."
+        {
+          "en": "He can play the piano.",
+          "es": "Él sabe tocar el piano."
+        },
+        {
+          "en": "I can speak two languages.",
+          "es": "Hablo dos idiomas."
+        }
       ]
     }
   },
@@ -1079,8 +1289,14 @@
         "not can": "En español decimos 'no puedo', pero en inglés el not va detrás: can't / cannot."
       },
       "examples": [
-        "She can't drive.",
-        "We can't find our keys."
+        {
+          "en": "She can't drive.",
+          "es": "Ella no sabe manejar."
+        },
+        {
+          "en": "We can't find our keys.",
+          "es": "No encontramos nuestras llaves."
+        }
       ]
     }
   },
@@ -1109,8 +1325,14 @@
         "Do can": "Can no necesita do: se dice Can you...?, no 'Do can you...?'."
       },
       "examples": [
-        "Can you swim?",
-        "Can he cook?"
+        {
+          "en": "Can you swim?",
+          "es": "¿Sabes nadar?"
+        },
+        {
+          "en": "Can he cook?",
+          "es": "¿Él sabe cocinar?"
+        }
       ]
     }
   },
@@ -1139,8 +1361,14 @@
         "the": "\"the\" es un artículo, no una preposición; con meses va in."
       },
       "examples": [
-        "We go on holiday in August.",
-        "She was born in 1998."
+        {
+          "en": "We go on holiday in August.",
+          "es": "Nos vamos de vacaciones en agosto."
+        },
+        {
+          "en": "She was born in 1998.",
+          "es": "Ella nació en 1998."
+        }
       ]
     }
   },
@@ -1169,8 +1397,14 @@
         "to": "En español decimos 'a las 9', pero en inglés no se usa to: at 9 o'clock."
       },
       "examples": [
-        "I get up at seven.",
-        "The shop closes at 8 p.m."
+        {
+          "en": "I get up at seven.",
+          "es": "Me levanto a las siete."
+        },
+        {
+          "en": "The shop closes at 8 p.m.",
+          "es": "La tienda cierra a las 8 p. m."
+        }
       ]
     }
   },
@@ -1199,8 +1433,14 @@
         "the": "En español decimos 'los sábados', pero en inglés se usa on: on Saturdays."
       },
       "examples": [
-        "See you on Friday.",
-        "I play football on Sundays."
+        {
+          "en": "See you on Friday.",
+          "es": "Nos vemos el viernes."
+        },
+        {
+          "en": "I play football on Sundays.",
+          "es": "Juego fútbol los domingos."
+        }
       ]
     }
   },
@@ -1229,8 +1469,14 @@
         "for": "En español decimos 'por la noche', pero en inglés no es for: at night."
       },
       "examples": [
-        "I work at night.",
-        "She studies in the morning."
+        {
+          "en": "I work at night.",
+          "es": "Trabajo de noche."
+        },
+        {
+          "en": "She studies in the morning.",
+          "es": "Ella estudia en la mañana."
+        }
       ]
     }
   },
@@ -1259,8 +1505,14 @@
         "at": "\"at\" indica un punto o lugar general, no 'encima de' una superficie."
       },
       "examples": [
-        "Your phone is on the sofa.",
-        "There's a picture on the wall."
+        {
+          "en": "Your phone is on the sofa.",
+          "es": "Tu teléfono está en el sofá."
+        },
+        {
+          "en": "There's a picture on the wall.",
+          "es": "Hay un cuadro en la pared."
+        }
       ]
     }
   },
@@ -1289,8 +1541,14 @@
         "in": "\"in\" significa 'dentro de'; no sirve para 'entre A y B'."
       },
       "examples": [
-        "Sit between Anna and me.",
-        "The pharmacy is between the bank and the school."
+        {
+          "en": "Sit between Anna and me.",
+          "es": "Siéntate entre Anna y yo."
+        },
+        {
+          "en": "The pharmacy is between the bank and the school.",
+          "es": "La farmacia está entre el banco y la escuela."
+        }
       ]
     }
   },
@@ -1319,8 +1577,14 @@
         "between": "\"between\" va con dos cosas (between A and B), no con to."
       },
       "examples": [
-        "The cat is next to the window.",
-        "I sit next to Maria in class."
+        {
+          "en": "The cat is next to the window.",
+          "es": "El gato está al lado de la ventana."
+        },
+        {
+          "en": "I sit next to Maria in class.",
+          "es": "En clase me siento al lado de Maria."
+        }
       ]
     }
   },
@@ -1349,8 +1613,14 @@
         "are sleeping": "\"are\" es para plural; 'the baby' es singular: is."
       },
       "examples": [
-        "She is talking on the phone.",
-        "They're playing in the garden."
+        {
+          "en": "She is talking on the phone.",
+          "es": "Ella está hablando por teléfono."
+        },
+        {
+          "en": "They're playing in the garden.",
+          "es": "Están jugando en el jardín."
+        }
       ]
     }
   },
@@ -1379,8 +1649,14 @@
         "rain": "\"rain\" en forma base no concuerda con it ni expresa algo en progreso."
       },
       "examples": [
-        "Look! The bus is coming.",
-        "It's snowing in the mountains now."
+        {
+          "en": "Look! The bus is coming.",
+          "es": "¡Mira! Ya viene el autobús."
+        },
+        {
+          "en": "It's snowing in the mountains now.",
+          "es": "Ahora está nevando en las montañas."
+        }
       ]
     }
   },
@@ -1409,8 +1685,14 @@
         "does": "\"does\" es del presente simple y para he/she/it."
       },
       "examples": [
-        "What is she reading?",
-        "Are they watching TV?"
+        {
+          "en": "What is she reading?",
+          "es": "¿Qué está leyendo ella?"
+        },
+        {
+          "en": "Are they watching TV?",
+          "es": "¿Están viendo televisión?"
+        }
       ]
     }
   },
@@ -1439,8 +1721,14 @@
         "am not watch": "En presente continuo el verbo necesita -ing: watching."
       },
       "examples": [
-        "She isn't working today.",
-        "We aren't listening."
+        {
+          "en": "She isn't working today.",
+          "es": "Ella no está trabajando hoy."
+        },
+        {
+          "en": "We aren't listening.",
+          "es": "No estamos escuchando."
+        }
       ]
     }
   },
@@ -1469,8 +1757,14 @@
         "To open": "El imperativo no lleva to: Open the window."
       },
       "examples": [
-        "Close the door, please.",
-        "Turn left at the bank."
+        {
+          "en": "Close the door, please.",
+          "es": "Cierra la puerta, por favor."
+        },
+        {
+          "en": "Turn left at the bank.",
+          "es": "Gira a la izquierda en el banco."
+        }
       ]
     }
   },
@@ -1499,8 +1793,14 @@
         "Don't": "Falta el verbo be: Don't be late."
       },
       "examples": [
-        "Don't be sad.",
-        "Don't be afraid."
+        {
+          "en": "Don't be sad.",
+          "es": "No estés triste."
+        },
+        {
+          "en": "Don't be afraid.",
+          "es": "No tengas miedo."
+        }
       ]
     }
   },
@@ -1529,8 +1829,14 @@
         "Doesn't": "El imperativo no tiene sujeto y siempre usa don't, nunca doesn't."
       },
       "examples": [
-        "Don't run in the corridor.",
-        "Don't forget your keys."
+        {
+          "en": "Don't run in the corridor.",
+          "es": "No corras en el pasillo."
+        },
+        {
+          "en": "Don't forget your keys.",
+          "es": "No olvides tus llaves."
+        }
       ]
     }
   },
@@ -1559,8 +1865,14 @@
         "got has": "El orden es has + got: she has got."
       },
       "examples": [
-        "He has got a new phone.",
-        "I've got two cousins."
+        {
+          "en": "He has got a new phone.",
+          "es": "Él tiene un teléfono nuevo."
+        },
+        {
+          "en": "I've got two cousins.",
+          "es": "Tengo dos primos."
+        }
       ]
     }
   },
@@ -1589,8 +1901,14 @@
         "Are": "\"Are\" es del verbo be; have got se pregunta con have."
       },
       "examples": [
-        "Have they got a car?",
-        "Has he got any pets?"
+        {
+          "en": "Have they got a car?",
+          "es": "¿Ellos tienen carro?"
+        },
+        {
+          "en": "Has he got any pets?",
+          "es": "¿Él tiene mascotas?"
+        }
       ]
     }
   },
@@ -1619,8 +1937,14 @@
         "not have got": "El not va después de have: haven't got (have not got)."
       },
       "examples": [
-        "I haven't got time.",
-        "She hasn't got a brother."
+        {
+          "en": "I haven't got time.",
+          "es": "No tengo tiempo."
+        },
+        {
+          "en": "She hasn't got a brother.",
+          "es": "Ella no tiene hermanos."
+        }
       ]
     }
   },
@@ -1649,8 +1973,14 @@
         "of my father": "En español decimos 'el coche de mi padre', pero en inglés no se dice 'car of my father': my father's car."
       },
       "examples": [
-        "This is Anna's bag.",
-        "My brother's name is Leo."
+        {
+          "en": "This is Anna's bag.",
+          "es": "Esta es la bolsa de Anna."
+        },
+        {
+          "en": "My brother's name is Leo.",
+          "es": "Mi hermano se llama Leo."
+        }
       ]
     }
   },
@@ -1679,8 +2009,14 @@
         "my sister room": "Falta 's para indicar que la habitación es de mi hermana."
       },
       "examples": [
-        "My mum's job is interesting.",
-        "Is this Pedro's phone?"
+        {
+          "en": "My mum's job is interesting.",
+          "es": "El trabajo de mi mamá es interesante."
+        },
+        {
+          "en": "Is this Pedro's phone?",
+          "es": "¿Este es el teléfono de Pedro?"
+        }
       ]
     }
   },
@@ -1709,8 +2045,14 @@
         "children": "Sin 's no se indica que los juguetes son de los niños."
       },
       "examples": [
-        "The women's team won.",
-        "This is the men's bathroom."
+        {
+          "en": "The women's team won.",
+          "es": "Ganó el equipo femenino."
+        },
+        {
+          "en": "This is the men's bathroom.",
+          "es": "Este es el baño de hombres."
+        }
       ]
     }
   },
@@ -1739,8 +2081,14 @@
         "Who": "\"Who\" pregunta por personas (quién); la respuesta es una ciudad."
       },
       "examples": [
-        "Where is the station?",
-        "Where are you from?"
+        {
+          "en": "Where is the station?",
+          "es": "¿Dónde está la estación?"
+        },
+        {
+          "en": "Where are you from?",
+          "es": "¿De dónde eres?"
+        }
       ]
     }
   },
@@ -1769,8 +2117,14 @@
         "When": "\"When\" pregunta por el tiempo; la respuesta es una persona."
       },
       "examples": [
-        "Who is that girl?",
-        "Who lives here?"
+        {
+          "en": "Who is that girl?",
+          "es": "¿Quién es esa chica?"
+        },
+        {
+          "en": "Who lives here?",
+          "es": "¿Quién vive aquí?"
+        }
       ]
     }
   },
@@ -1799,8 +2153,14 @@
         "Which": "\"Which\" pregunta cuál entre varios; la respuesta 'Two' indica cantidad."
       },
       "examples": [
-        "How many students are there?",
-        "How many cups do you need?"
+        {
+          "en": "How many students are there?",
+          "es": "¿Cuántos estudiantes hay?"
+        },
+        {
+          "en": "How many cups do you need?",
+          "es": "¿Cuántas tazas necesitas?"
+        }
       ]
     }
   },
@@ -1829,8 +2189,14 @@
         "How": "\"How\" solo pregunta cómo es; para el precio hace falta How much."
       },
       "examples": [
-        "How much is the ticket?",
-        "How much water do you drink?"
+        {
+          "en": "How much is the ticket?",
+          "es": "¿Cuánto cuesta el boleto?"
+        },
+        {
+          "en": "How much water do you drink?",
+          "es": "¿Cuánta agua tomas?"
+        }
       ]
     }
   },
@@ -1859,8 +2225,14 @@
         "How": "\"How\" pregunta cómo; para una fecha se usa When."
       },
       "examples": [
-        "When is the meeting?",
-        "When do you get up?"
+        {
+          "en": "When is the meeting?",
+          "es": "¿Cuándo es la reunión?"
+        },
+        {
+          "en": "When do you get up?",
+          "es": "¿A qué hora te levantas?"
+        }
       ]
     }
   },
@@ -1889,8 +2261,14 @@
         "much": "\"much\" va con incontables (much water); eggs es contable."
       },
       "examples": [
-        "I've got some friends in London.",
-        "There is some juice in the glass."
+        {
+          "en": "I've got some friends in London.",
+          "es": "Tengo algunos amigos en Londres."
+        },
+        {
+          "en": "There is some juice in the glass.",
+          "es": "Hay un poco de jugo en el vaso."
+        }
       ]
     }
   },
@@ -1919,8 +2297,14 @@
         "much": "\"much\" va con incontables; brothers se puede contar."
       },
       "examples": [
-        "Are there any shops near here?",
-        "Do you have any questions?"
+        {
+          "en": "Are there any shops near here?",
+          "es": "¿Hay tiendas cerca de aquí?"
+        },
+        {
+          "en": "Do you have any questions?",
+          "es": "¿Tienes alguna pregunta?"
+        }
       ]
     }
   },
@@ -1949,8 +2333,14 @@
         "many": "\"many\" va con contables en plural; bread es incontable."
       },
       "examples": [
-        "I don't have any money.",
-        "There aren't any chairs."
+        {
+          "en": "I don't have any money.",
+          "es": "No tengo nada de dinero."
+        },
+        {
+          "en": "There aren't any chairs.",
+          "es": "No hay sillas."
+        }
       ]
     }
   },
@@ -1980,8 +2370,14 @@
         "She is late always.": "\"always\" no va al final de la frase; con be va entre el verbo y el adjetivo: She is always late."
       },
       "examples": [
-        "He is never tired.",
-        "They are usually happy."
+        {
+          "en": "He is never tired.",
+          "es": "Él nunca está cansado."
+        },
+        {
+          "en": "They are usually happy.",
+          "es": "Ellos suelen estar contentos."
+        }
       ]
     }
   },
@@ -2010,8 +2406,14 @@
         "am never drink": "No hace falta be: el presente simple es I never drink."
       },
       "examples": [
-        "She usually walks to work.",
-        "We sometimes eat out."
+        {
+          "en": "She usually walks to work.",
+          "es": "Ella normalmente camina al trabajo."
+        },
+        {
+          "en": "We sometimes eat out.",
+          "es": "A veces comemos fuera."
+        }
       ]
     }
   },
@@ -2041,8 +2443,14 @@
         "isn't never": "En inglés no hay doble negación: \"never\" ya es negativo, así que el verbo va en afirmativa (is never). En español decimos \"no llega nunca\", en inglés no."
       },
       "examples": [
-        "I'm always hungry at 1 p.m.",
-        "The bus is often full."
+        {
+          "en": "I'm always hungry at 1 p.m.",
+          "es": "Siempre tengo hambre a la 1 p. m."
+        },
+        {
+          "en": "The bus is often full.",
+          "es": "El autobús suele ir lleno."
+        }
       ]
     }
   },
@@ -2071,8 +2479,14 @@
         "an red car": "Red empieza por consonante, así que va a, no an."
       },
       "examples": [
-        "She has a big house.",
-        "It's a beautiful day."
+        {
+          "en": "She has a big house.",
+          "es": "Ella tiene una casa grande."
+        },
+        {
+          "en": "It's a beautiful day.",
+          "es": "Hace un día hermoso."
+        }
       ]
     }
   },
@@ -2101,8 +2515,14 @@
         "eyes blues": "El orden está invertido y el adjetivo no lleva -s."
       },
       "examples": [
-        "He has got short black hair.",
-        "They are good students."
+        {
+          "en": "He has got short black hair.",
+          "es": "Él tiene el pelo corto y negro."
+        },
+        {
+          "en": "They are good students.",
+          "es": "Son buenos estudiantes."
+        }
       ]
     }
   }

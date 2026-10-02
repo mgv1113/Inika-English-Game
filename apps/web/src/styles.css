@@ -101,3 +101,4 @@ footer a { color: var(--muted); }
 }
 .manual input:focus { outline: none; border-color: var(--primary); }
 .manual + .actions { margin-top: 12px; }
+.translation { display: block; color: var(--muted); font-size: 0.9rem; font-style: italic; }

@@ -29,7 +29,8 @@ export const questionSchema = z
       rule: z.string().min(1),
       // Por qué cada opción incorrecta está mal, indexado por el texto de la opción.
       wrong: z.record(z.string(), z.string().min(1)),
-      examples: z.array(z.string()).min(1),
+      // Ejemplos correctos en inglés, cada uno con su traducción al español.
+      examples: z.array(z.object({ en: z.string().min(1), es: z.string().min(1) })).min(1),
     }),
   })
   .superRefine((q, ctx) => {

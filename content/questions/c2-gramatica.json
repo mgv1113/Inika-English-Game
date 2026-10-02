@@ -24,8 +24,14 @@
         "coming": "Hace falta un verbo conjugado en pasado; 'coming' solo no forma la oración."
       },
       "examples": [
-        "Up went the prices.",
-        "Here comes the bus."
+        {
+          "en": "Up went the prices.",
+          "es": "Los precios se dispararon."
+        },
+        {
+          "en": "Here comes the bus.",
+          "es": "Ahí viene el autobús."
+        }
       ]
     }
   },
@@ -54,8 +60,14 @@
         "Out the cat did jump.": "El 'did' enfático aquí suena forzado y no es inversión; lo natural es 'Out jumped the cat' u 'Out the cat jumped'."
       },
       "examples": [
-        "Off they went.",
-        "In walked the director."
+        {
+          "en": "Off they went.",
+          "es": "Y allá se fueron."
+        },
+        {
+          "en": "In walked the director.",
+          "es": "Entonces entró el director."
+        }
       ]
     }
   },
@@ -85,8 +97,14 @@
         "Such had": "'had' no tiene sentido aquí: no hay participio; la estructura es Such + was."
       },
       "examples": [
-        "Such was the noise that nobody could sleep.",
-        "Such is the power of habit."
+        {
+          "en": "Such was the noise that nobody could sleep.",
+          "es": "Era tal el ruido que nadie podía dormir."
+        },
+        {
+          "en": "Such is the power of habit.",
+          "es": "Así de poderoso es el hábito."
+        }
       ]
     }
   },
@@ -116,8 +134,14 @@
         "So much was": "'So much was the demand' no es natural; 'much' no describe la intensidad de 'demand' aquí: se usa 'so great'."
       },
       "examples": [
-        "So strong was the wind that trees fell.",
-        "So rare is this bird that few have seen it."
+        {
+          "en": "So strong was the wind that trees fell.",
+          "es": "Tan fuerte era el viento que se cayeron árboles."
+        },
+        {
+          "en": "So rare is this bird that few have seen it.",
+          "es": "Esta ave es tan rara que pocos la han visto."
+        }
       ]
     }
   },
@@ -147,8 +171,14 @@
         "make": "En español decimos 'que lo que lo hace la gente', pero en inglés el auxiliar sustituto es 'do', no 'make'."
       },
       "examples": [
-        "She earns more than does her manager.",
-        "He was as nervous as were the other candidates."
+        {
+          "en": "She earns more than does her manager.",
+          "es": "Ella gana más que su jefe."
+        },
+        {
+          "en": "He was as nervous as were the other candidates.",
+          "es": "Él estaba tan nervioso como los demás candidatos."
+        }
       ]
     }
   },
@@ -177,8 +207,14 @@
         "Which": "'Which' para referirse a una oración entera va detrás de ella, no al principio de la frase."
       },
       "examples": [
-        "As is often the case, the simplest answer was correct.",
-        "As was expected, prices rose."
+        {
+          "en": "As is often the case, the simplest answer was correct.",
+          "es": "Como suele ocurrir, la respuesta más sencilla era la correcta."
+        },
+        {
+          "en": "As was expected, prices rose.",
+          "es": "Como era de esperar, los precios subieron."
+        }
       ]
     }
   },
@@ -207,8 +243,14 @@
         "Is that as it may": "No es una pregunta ni presente simple: es subjuntivo fijo con 'be'."
       },
       "examples": [
-        "Be that as it may, we must decide today.",
-        "He's young; be that as it may, he's very capable."
+        {
+          "en": "Be that as it may, we must decide today.",
+          "es": "Sea como sea, tenemos que decidir hoy."
+        },
+        {
+          "en": "He's young; be that as it may, he's very capable.",
+          "es": "Es joven; aun así, es muy capaz."
+        }
       ]
     }
   },
@@ -237,8 +279,14 @@
         "Whatever may comes": "Tras el modal 'may' el verbo va sin -s; y la expresión fija es 'Come what may'."
       },
       "examples": [
-        "Come what may, I'll support you.",
-        "We'll stay together, come what may."
+        {
+          "en": "Come what may, I'll support you.",
+          "es": "Pase lo que pase, te voy a apoyar."
+        },
+        {
+          "en": "We'll stay together, come what may.",
+          "es": "Seguiremos juntos, pase lo que pase."
+        }
       ]
     }
   },
@@ -267,8 +315,14 @@
         "Enough it": "Calco de 'basta'; en inglés la fórmula es 'Suffice it to say'."
       },
       "examples": [
-        "Suffice it to say that we won't go back.",
-        "Suffice it to say, she was not amused."
+        {
+          "en": "Suffice it to say that we won't go back.",
+          "es": "Basta con decir que no vamos a volver."
+        },
+        {
+          "en": "Suffice it to say, she was not amused.",
+          "es": "Baste decir que no le hizo ninguna gracia."
+        }
       ]
     }
   },
@@ -297,8 +351,14 @@
         "that I tell": "Calco de 'lejos de mí que yo te diga'; en inglés va infinitivo: to tell."
       },
       "examples": [
-        "Far be it from me to criticise, but...",
-        "Far be it from me to interfere in your affairs."
+        {
+          "en": "Far be it from me to criticise, but...",
+          "es": "No es mi intención criticar, pero..."
+        },
+        {
+          "en": "Far be it from me to interfere in your affairs.",
+          "es": "Lejos de mí meterme en tus asuntos."
+        }
       ]
     }
   },
@@ -327,8 +387,14 @@
         "been": "El participio no forma ninguna expresión aquí."
       },
       "examples": [
-        "I'll drive you there myself if need be.",
-        "If need be, we can postpone the launch."
+        {
+          "en": "I'll drive you there myself if need be.",
+          "es": "Si hace falta, te llevo yo mismo."
+        },
+        {
+          "en": "If need be, we can postpone the launch.",
+          "es": "Si es necesario, podemos posponer el lanzamiento."
+        }
       ]
     }
   },
@@ -357,8 +423,14 @@
         "Despite": "'Despite' va seguido de sustantivo o -ing, no de una oración con sujeto y verbo."
       },
       "examples": [
-        "Much as I'd like to help, I can't.",
-        "Much as he hates flying, he goes every month."
+        {
+          "en": "Much as I'd like to help, I can't.",
+          "es": "Por mucho que me gustaría ayudar, no puedo."
+        },
+        {
+          "en": "Much as he hates flying, he goes every month.",
+          "es": "Aunque odia volar, viaja en avión todos los meses."
+        }
       ]
     }
   },
@@ -387,8 +459,14 @@
         "even": "Calco de 'aun intentándolo'; en inglés la fórmula fija es 'Try as he might'."
       },
       "examples": [
-        "Try as I might, I couldn't remember her name.",
-        "Try as they might, they lost the match."
+        {
+          "en": "Try as I might, I couldn't remember her name.",
+          "es": "Por más que lo intenté, no pude recordar su nombre."
+        },
+        {
+          "en": "Try as they might, they lost the match.",
+          "es": "Por más que se esforzaron, perdieron el partido."
+        }
       ]
     }
   },
@@ -417,8 +495,14 @@
         "So strange": "'So strange it may seem' no es una estructura concesiva en inglés."
       },
       "examples": [
-        "Strange as it may seem, he's never seen the sea.",
-        "Tired though she was, she kept going."
+        {
+          "en": "Strange as it may seem, he's never seen the sea.",
+          "es": "Aunque parezca extraño, nunca ha visto el mar."
+        },
+        {
+          "en": "Tired though she was, she kept going.",
+          "es": "Aunque estaba cansada, siguió adelante."
+        }
       ]
     }
   },
@@ -447,8 +531,14 @@
         "Although": "'Although hard you try' no es gramatical; 'although' necesita una oración completa."
       },
       "examples": [
-        "However tired you are, finish the task.",
-        "However much it costs, we'll buy it."
+        {
+          "en": "However tired you are, finish the task.",
+          "es": "Por muy cansado que estés, termina la tarea."
+        },
+        {
+          "en": "However much it costs, we'll buy it.",
+          "es": "Cueste lo que cueste, lo vamos a comprar."
+        }
       ]
     }
   },
@@ -477,8 +567,14 @@
         "expanded": "Es un pasado o participio; no puede ser el núcleo del sujeto."
       },
       "examples": [
-        "The introduction of the tax caused protests.",
-        "Their refusal to cooperate delayed the project."
+        {
+          "en": "The introduction of the tax caused protests.",
+          "es": "La introducción del impuesto provocó protestas."
+        },
+        {
+          "en": "Their refusal to cooperate delayed the project.",
+          "es": "Su negativa a cooperar retrasó el proyecto."
+        }
       ]
     }
   },
@@ -507,8 +603,14 @@
         "The rising of prices did people buy less.": "'Did' no puede tener ese sentido causal; la frase es agramatical."
       },
       "examples": [
-        "The decline in sales caused concern.",
-        "Its failure resulted in a loss of confidence."
+        {
+          "en": "The decline in sales caused concern.",
+          "es": "La caída de las ventas generó preocupación."
+        },
+        {
+          "en": "Its failure resulted in a loss of confidence.",
+          "es": "Su fracaso provocó una pérdida de confianza."
+        }
       ]
     }
   },
@@ -537,8 +639,14 @@
         "also": "'Also' es un adverbio, no puede unir dos sustantivos así."
       },
       "examples": [
-        "What with the noise and the heat, I couldn't sleep.",
-        "What with one thing and another, I forgot."
+        {
+          "en": "What with the noise and the heat, I couldn't sleep.",
+          "es": "Entre el ruido y el calor, no pude dormir."
+        },
+        {
+          "en": "What with one thing and another, I forgot.",
+          "es": "Entre una cosa y otra, se me olvidó."
+        }
       ]
     }
   },
@@ -567,8 +675,14 @@
         "it just is": "No introduce una oración; falta 'that' y no tiene sentido aquí."
       },
       "examples": [
-        "It's not that I'm angry; it's just that I'm tired.",
-        "It's not that it's expensive, it's just that I don't need it."
+        {
+          "en": "It's not that I'm angry; it's just that I'm tired.",
+          "es": "No es que esté enojado; es que estoy cansado."
+        },
+        {
+          "en": "It's not that it's expensive, it's just that I don't need it.",
+          "es": "No es que sea caro, es que no lo necesito."
+        }
       ]
     }
   },
@@ -597,8 +711,14 @@
         "does": "'Does be' no es gramatical."
       },
       "examples": [
-        "Rich he may be, but he isn't happy.",
-        "Talented they may be, but they lack discipline."
+        {
+          "en": "Rich he may be, but he isn't happy.",
+          "es": "Será rico, pero no es feliz."
+        },
+        {
+          "en": "Talented they may be, but they lack discipline.",
+          "es": "Tendrán talento, pero les falta disciplina."
+        }
       ]
     }
   },
@@ -627,8 +747,14 @@
         "were": "El sujeto 'All I did' es singular: was."
       },
       "examples": [
-        "All she wanted was a quiet weekend.",
-        "All you need to do is sign here."
+        {
+          "en": "All she wanted was a quiet weekend.",
+          "es": "Lo único que ella quería era un fin de semana tranquilo."
+        },
+        {
+          "en": "All you need to do is sign here.",
+          "es": "Lo único que tienes que hacer es firmar aquí."
+        }
       ]
     }
   },
@@ -658,8 +784,14 @@
         "Unless it had been": "'Unless' no combina con 'for' en esta estructura y cambiaría el sentido."
       },
       "examples": [
-        "Had it not been for you, I'd have failed.",
-        "Had it not been for the storm, we'd have landed."
+        {
+          "en": "Had it not been for you, I'd have failed.",
+          "es": "Si no hubiera sido por ti, habría fracasado."
+        },
+        {
+          "en": "Had it not been for the storm, we'd have landed.",
+          "es": "De no haber sido por la tormenta, habríamos aterrizado."
+        }
       ]
     }
   },
@@ -689,8 +821,14 @@
         "Should": "'Should it not for' no es gramatical."
       },
       "examples": [
-        "Were it not for the rain, we'd go out.",
-        "Were it not for her, the firm would collapse."
+        {
+          "en": "Were it not for the rain, we'd go out.",
+          "es": "Si no fuera por la lluvia, saldríamos."
+        },
+        {
+          "en": "Were it not for her, the firm would collapse.",
+          "es": "Si no fuera por ella, la empresa se vendría abajo."
+        }
       ]
     }
   },
@@ -719,8 +857,14 @@
         "knowing": "El gerundio no forma tiempos perfectos con 'had'."
       },
       "examples": [
-        "Had I but listened, none of this would have happened.",
-        "Had we but known, we'd have come sooner."
+        {
+          "en": "Had I but listened, none of this would have happened.",
+          "es": "Si tan solo hubiera escuchado, nada de esto habría pasado."
+        },
+        {
+          "en": "Had we but known, we'd have come sooner.",
+          "es": "De haberlo sabido, habríamos venido antes."
+        }
       ]
     }
   },
@@ -749,8 +893,14 @@
         "Despite": "'Despite' indica contraste (a pesar de), justo lo contrario."
       },
       "examples": [
-        "Without a map, we'd have got lost.",
-        "But for the rain, it would have been perfect."
+        {
+          "en": "Without a map, we'd have got lost.",
+          "es": "Sin un mapa, nos habríamos perdido."
+        },
+        {
+          "en": "But for the rain, it would have been perfect.",
+          "es": "De no ser por la lluvia, habría sido perfecto."
+        }
       ]
     }
   },
@@ -780,8 +930,14 @@
         "Should he to": "Tras 'should' va el infinitivo sin 'to' (Should he resign)."
       },
       "examples": [
-        "Were you to accept, we'd be delighted.",
-        "Were prices to fall, sales would rise."
+        {
+          "en": "Were you to accept, we'd be delighted.",
+          "es": "Si usted aceptara, estaríamos encantados."
+        },
+        {
+          "en": "Were prices to fall, sales would rise.",
+          "es": "Si los precios bajaran, las ventas subirían."
+        }
       ]
     }
   },
@@ -810,8 +966,14 @@
         "will have missed": "Es futuro perfecto; no encaja con una situación pasada hipotética."
       },
       "examples": [
-        "I took a taxi; otherwise I'd have been late.",
-        "Thank you, otherwise I'd still be waiting."
+        {
+          "en": "I took a taxi; otherwise I'd have been late.",
+          "es": "Tomé un taxi; si no, habría llegado tarde."
+        },
+        {
+          "en": "Thank you, otherwise I'd still be waiting.",
+          "es": "Gracias, si no, todavía estaría esperando."
+        }
       ]
     }
   },
@@ -840,8 +1002,14 @@
         "to leaving": "Tras 'to' de infinitivo va la forma base, no -ing."
       },
       "examples": [
-        "She was heard to say she'd quit.",
-        "He was made to apologise."
+        {
+          "en": "She was heard to say she'd quit.",
+          "es": "Se le oyó decir que iba a renunciar."
+        },
+        {
+          "en": "He was made to apologise.",
+          "es": "Lo obligaron a pedir disculpas."
+        }
       ]
     }
   },
@@ -870,8 +1038,14 @@
         "speaks": "Tras el objeto no puede ir un verbo conjugado."
       },
       "examples": [
-        "I won't have them shouting in my house.",
-        "We can't have customers waiting for hours."
+        {
+          "en": "I won't have them shouting in my house.",
+          "es": "No voy a permitir que griten en mi casa."
+        },
+        {
+          "en": "We can't have customers waiting for hours.",
+          "es": "No podemos tener a los clientes esperando durante horas."
+        }
       ]
     }
   },
@@ -900,8 +1074,14 @@
         "Nuestro coche se averió anoche.": "'Break into' significa entrar a la fuerza, no averiarse (break down)."
       },
       "examples": [
-        "She had her bag stolen on the train.",
-        "He got his nose broken in a fight."
+        {
+          "en": "She had her bag stolen on the train.",
+          "es": "Le robaron la bolsa en el tren."
+        },
+        {
+          "en": "He got his nose broken in a fight.",
+          "es": "Le rompieron la nariz en una pelea."
+        }
       ]
     }
   },
@@ -930,8 +1110,14 @@
         "seemed": "Tras 'would' va el infinitivo sin to, no el pasado."
       },
       "examples": [
-        "It would appear that we've lost.",
-        "It would seem there's been an error."
+        {
+          "en": "It would appear that we've lost.",
+          "es": "Todo parece indicar que hemos perdido."
+        },
+        {
+          "en": "It would seem there's been an error.",
+          "es": "Al parecer, ha habido un error."
+        }
       ]
     }
   },
@@ -960,8 +1146,14 @@
         "is seemed": "'Seem' no tiene pasiva."
       },
       "examples": [
-        "There appears to have been an error.",
-        "There seem to be some problems."
+        {
+          "en": "There appears to have been an error.",
+          "es": "Parece que ha habido un error."
+        },
+        {
+          "en": "There seem to be some problems.",
+          "es": "Parece que hay algunos problemas."
+        }
       ]
     }
   },
@@ -990,8 +1182,14 @@
         "would wonder": "No se usa 'would wonder' para pedir algo."
       },
       "examples": [
-        "I was wondering if you were free.",
-        "We were hoping you could join us."
+        {
+          "en": "I was wondering if you were free.",
+          "es": "Me preguntaba si estabas libre."
+        },
+        {
+          "en": "We were hoping you could join us.",
+          "es": "Esperábamos que pudieras acompañarnos."
+        }
       ]
     }
   },
@@ -1020,8 +1218,14 @@
         "were": "'Were risen' no existe; hace falta 'has risen'."
       },
       "examples": [
-        "The number of visitors is growing.",
-        "The number of cases has fallen."
+        {
+          "en": "The number of visitors is growing.",
+          "es": "El número de visitantes está aumentando."
+        },
+        {
+          "en": "The number of cases has fallen.",
+          "es": "El número de casos ha disminuido."
+        }
       ]
     }
   },
@@ -1050,8 +1254,14 @@
         "was": "'Was complained' no tiene sentido; además el sujeto es plural."
       },
       "examples": [
-        "A number of problems have arisen.",
-        "A number of students were absent."
+        {
+          "en": "A number of problems have arisen.",
+          "es": "Han surgido varios problemas."
+        },
+        {
+          "en": "A number of students were absent.",
+          "es": "Varios estudiantes estuvieron ausentes."
+        }
       ]
     }
   },
@@ -1080,8 +1290,14 @@
         "be": "Hace falta un verbo conjugado."
       },
       "examples": [
-        "Either you or your sister has the key.",
-        "Neither the teacher nor the pupils were ready."
+        {
+          "en": "Either you or your sister has the key.",
+          "es": "O tú o tu hermana tiene la llave."
+        },
+        {
+          "en": "Neither the teacher nor the pupils were ready.",
+          "es": "Ni el maestro ni los alumnos estaban listos."
+        }
       ]
     }
   },
@@ -1110,8 +1326,14 @@
         "was": "'Police' es plural y 'expect' indica presente."
       },
       "examples": [
-        "The police have arrived.",
-        "The cattle are in the field."
+        {
+          "en": "The police have arrived.",
+          "es": "La policía ha llegado."
+        },
+        {
+          "en": "The cattle are in the field.",
+          "es": "El ganado está en el campo."
+        }
       ]
     }
   },
@@ -1140,8 +1362,14 @@
         "would": "'Would to' no existe y no expresa obligación."
       },
       "examples": [
-        "I'd love to come, but I'm not allowed to.",
-        "You don't have to stay if you don't want to."
+        {
+          "en": "I'd love to come, but I'm not allowed to.",
+          "es": "Me encantaría ir, pero no me dejan."
+        },
+        {
+          "en": "You don't have to stay if you don't want to.",
+          "es": "No tienes que quedarte si no quieres."
+        }
       ]
     }
   },
@@ -1170,8 +1398,14 @@
         "had": "'I know I had' significaría 'sé que lo hice', lo contrario."
       },
       "examples": [
-        "\"Did you call him?\" \"No, but I should have.\"",
-        "She didn't win, but she could have."
+        {
+          "en": "\"Did you call him?\" \"No, but I should have.\"",
+          "es": "«¿Lo llamaste?» «No, pero debí haberlo hecho»."
+        },
+        {
+          "en": "She didn't win, but she could have.",
+          "es": "No ganó, pero pudo haber ganado."
+        }
       ]
     }
   },
@@ -1200,8 +1434,14 @@
         "about": "'Proud about' no es la colocación estándar; es 'proud of'."
       },
       "examples": [
-        "That's the man I was telling you about.",
-        "It's a subject I know little about."
+        {
+          "en": "That's the man I was telling you about.",
+          "es": "Ese es el hombre del que te estaba hablando."
+        },
+        {
+          "en": "It's a subject I know little about.",
+          "es": "Es un tema del que sé poco."
+        }
       ]
     }
   },
@@ -1230,8 +1470,14 @@
         "with": "'Aware with' no existe."
       },
       "examples": [
-        "Not that I know of.",
-        "It's nothing to worry about."
+        {
+          "en": "Not that I know of.",
+          "es": "No que yo sepa."
+        },
+        {
+          "en": "It's nothing to worry about.",
+          "es": "No hay de qué preocuparse."
+        }
       ]
     }
   },
@@ -1260,8 +1506,14 @@
         "ought": "'Ought' necesita 'to' (ought to pay)."
       },
       "examples": [
-        "The buyer shall notify the seller in writing.",
-        "Members shall pay an annual fee."
+        {
+          "en": "The buyer shall notify the seller in writing.",
+          "es": "El comprador deberá notificar al vendedor por escrito."
+        },
+        {
+          "en": "Members shall pay an annual fee.",
+          "es": "Los miembros deberán pagar una cuota anual."
+        }
       ]
     }
   },
@@ -1290,8 +1542,14 @@
         "is used to": "'Be used to' significa 'estar acostumbrada a' y va con -ing."
       },
       "examples": [
-        "He will keep interrupting me!",
-        "Boys will be boys."
+        {
+          "en": "He will keep interrupting me!",
+          "es": "¡No deja de interrumpirme!"
+        },
+        {
+          "en": "Boys will be boys.",
+          "es": "Los chicos son así."
+        }
       ]
     }
   },
@@ -1320,8 +1578,14 @@
         "had taken": "Tras 'would rather' no va el pluscuamperfecto con el mismo sujeto."
       },
       "examples": [
-        "I'd rather have stayed at home.",
-        "She'd rather not have known."
+        {
+          "en": "I'd rather have stayed at home.",
+          "es": "Habría preferido quedarme en casa."
+        },
+        {
+          "en": "She'd rather not have known.",
+          "es": "Ella habría preferido no saberlo."
+        }
       ]
     }
   },
@@ -1350,8 +1614,14 @@
         "would as well": "La expresión fija es con 'might' o 'may'."
       },
       "examples": [
-        "We might as well walk; the bus isn't coming.",
-        "You may as well tell me now."
+        {
+          "en": "We might as well walk; the bus isn't coming.",
+          "es": "Mejor vamos caminando; el autobús no viene."
+        },
+        {
+          "en": "You may as well tell me now.",
+          "es": "Más vale que me lo digas ahora."
+        }
       ]
     }
   },
@@ -1380,8 +1650,14 @@
         "would": "'Would have warned' necesitaría una condición; no expresa reproche."
       },
       "examples": [
-        "You might have asked first!",
-        "He might have said thank you."
+        {
+          "en": "You might have asked first!",
+          "es": "¡Podrías haber preguntado primero!"
+        },
+        {
+          "en": "He might have said thank you.",
+          "es": "Podría haber dado las gracias."
+        }
       ]
     }
   },
@@ -1410,8 +1686,14 @@
         "some": "'Some poverty' limitaría la cantidad; aquí se habla en general."
       },
       "examples": [
-        "Education is the key to success.",
-        "Happiness can't be bought."
+        {
+          "en": "Education is the key to success.",
+          "es": "La educación es la clave del éxito."
+        },
+        {
+          "en": "Happiness can't be bought.",
+          "es": "La felicidad no se puede comprar."
+        }
       ]
     }
   },
@@ -1440,8 +1722,14 @@
         "Some": "'Some tiger' no es una especie; además no encaja con 'species'."
       },
       "examples": [
-        "The computer has changed our lives.",
-        "The whale is a mammal."
+        {
+          "en": "The computer has changed our lives.",
+          "es": "La computadora ha cambiado nuestras vidas."
+        },
+        {
+          "en": "The whale is a mammal.",
+          "es": "La ballena es un mamífero."
+        }
       ]
     }
   },
@@ -1470,8 +1758,14 @@
         "An": "'History' empieza por sonido consonante; y aquí necesita 'the'."
       },
       "examples": [
-        "The education of children matters.",
-        "History was my favourite subject."
+        {
+          "en": "The education of children matters.",
+          "es": "La educación de los niños es importante."
+        },
+        {
+          "en": "History was my favourite subject.",
+          "es": "Historia era mi materia favorita."
+        }
       ]
     }
   },
@@ -1500,8 +1794,14 @@
         "Some": "'Some unemployed' no funciona sin 'people'; el grupo general se expresa con 'the'."
       },
       "examples": [
-        "The elderly need better care.",
-        "The rich are getting richer."
+        {
+          "en": "The elderly need better care.",
+          "es": "Los ancianos necesitan una mejor atención."
+        },
+        {
+          "en": "The rich are getting richer.",
+          "es": "Los ricos son cada vez más ricos."
+        }
       ]
     }
   }

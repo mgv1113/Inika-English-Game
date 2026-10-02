@@ -23,8 +23,14 @@
         "niece": "'niece' es la sobrina: la hija de tu hermano o hermana."
       },
       "examples": [
-        "My aunt lives in Madrid.",
-        "Her uncle is a doctor."
+        {
+          "en": "My aunt lives in Madrid.",
+          "es": "Mi tía vive en Madrid."
+        },
+        {
+          "en": "Her uncle is a doctor.",
+          "es": "Su tío es médico."
+        }
       ]
     }
   },
@@ -53,8 +59,14 @@
         "abuelos": "'abuelos' en inglés es 'grandparents'."
       },
       "examples": [
-        "My parents are teachers.",
-        "I visit my relatives at Christmas."
+        {
+          "en": "My parents are teachers.",
+          "es": "Mis padres son maestros."
+        },
+        {
+          "en": "I visit my relatives at Christmas.",
+          "es": "Visito a mis parientes en Navidad."
+        }
       ]
     }
   },
@@ -82,8 +94,14 @@
         "uncle": "'uncle' es tío. Tu abuelo es el padre de tu padre, no su tío."
       },
       "examples": [
-        "My grandfather is 80 years old.",
-        "My grandmother is my mother's mother."
+        {
+          "en": "My grandfather is 80 years old.",
+          "es": "Mi abuelo tiene 80 años."
+        },
+        {
+          "en": "My grandmother is my mother's mother.",
+          "es": "Mi abuela es la mamá de mi mamá."
+        }
       ]
     }
   },
@@ -112,8 +130,14 @@
         "are": "'are' es para you/we/they. Con 'my sister' (she) se usa 'is'."
       },
       "examples": [
-        "I am twenty years old.",
-        "How old are you?"
+        {
+          "en": "I am twenty years old.",
+          "es": "Tengo veinte años."
+        },
+        {
+          "en": "How old are you?",
+          "es": "¿Cuántos años tienes?"
+        }
       ]
     }
   },
@@ -142,8 +166,14 @@
         "fortieth": "'fortieth' es el ordinal (cuadragésimo), no el número 40."
       },
       "examples": [
-        "My dad is forty.",
-        "There are forty students in the class."
+        {
+          "en": "My dad is forty.",
+          "es": "Mi papá tiene cuarenta años."
+        },
+        {
+          "en": "There are forty students in the class.",
+          "es": "Hay cuarenta estudiantes en la clase."
+        }
       ]
     }
   },
@@ -172,8 +202,14 @@
         "three": "'three' es 3, pero 10 + 3 = 13: thirteen."
       },
       "examples": [
-        "I'm thirteen years old.",
-        "Thirty minus ten is twenty."
+        {
+          "en": "I'm thirteen years old.",
+          "es": "Tengo trece años."
+        },
+        {
+          "en": "Thirty minus ten is twenty.",
+          "es": "Treinta menos diez es veinte."
+        }
       ]
     }
   },
@@ -202,8 +238,14 @@
         "Monday": "'Monday' (lunes) llega tres días después del viernes, no mañana."
       },
       "examples": [
-        "We play football on Saturday.",
-        "My English class is on Monday."
+        {
+          "en": "We play football on Saturday.",
+          "es": "Jugamos fútbol el sábado."
+        },
+        {
+          "en": "My English class is on Monday.",
+          "es": "Mi clase de inglés es el lunes."
+        }
       ]
     }
   },
@@ -232,8 +274,14 @@
         "August": "'August' (agosto) es el octavo mes, mucho después de abril."
       },
       "examples": [
-        "My birthday is in May.",
-        "School starts in September."
+        {
+          "en": "My birthday is in May.",
+          "es": "Mi cumpleaños es en mayo."
+        },
+        {
+          "en": "School starts in September.",
+          "es": "Las clases empiezan en septiembre."
+        }
       ]
     }
   },
@@ -262,8 +310,14 @@
         "spring": "'spring' es primavera (marzo a mayo). Julio y agosto son verano."
       },
       "examples": [
-        "I love swimming in summer.",
-        "It snows in winter."
+        {
+          "en": "I love swimming in summer.",
+          "es": "Me encanta nadar en verano."
+        },
+        {
+          "en": "It snows in winter.",
+          "es": "En invierno nieva."
+        }
       ]
     }
   },
@@ -291,8 +345,14 @@
         "grey": "'grey' es gris: el cielo es gris cuando hay nubes, no en un día de sol."
       },
       "examples": [
-        "My bag is blue.",
-        "The sea is blue and green."
+        {
+          "en": "My bag is blue.",
+          "es": "Mi mochila es azul."
+        },
+        {
+          "en": "The sea is blue and green.",
+          "es": "El mar es azul y verde."
+        }
       ]
     }
   },
@@ -320,8 +380,14 @@
         "pink": "'pink' es rosa, no el color de un plátano maduro."
       },
       "examples": [
-        "The sun is yellow.",
-        "I have a yellow T-shirt."
+        {
+          "en": "The sun is yellow.",
+          "es": "El sol es amarillo."
+        },
+        {
+          "en": "I have a yellow T-shirt.",
+          "es": "Tengo una camiseta amarilla."
+        }
       ]
     }
   },
@@ -349,8 +415,14 @@
         "naranja": "'naranja' (el color) en inglés es 'orange'."
       },
       "examples": [
-        "My dog is brown.",
-        "She has brown eyes."
+        {
+          "en": "My dog is brown.",
+          "es": "Mi perro es café."
+        },
+        {
+          "en": "She has brown eyes.",
+          "es": "Ella tiene los ojos cafés."
+        }
       ]
     }
   },
@@ -378,8 +450,14 @@
         "coffee": "'coffee' es café: es marrón oscuro y no viene de las vacas."
       },
       "examples": [
-        "Do you want milk in your tea?",
-        "Children drink a lot of milk."
+        {
+          "en": "Do you want milk in your tea?",
+          "es": "¿Quieres leche en tu té?"
+        },
+        {
+          "en": "Children drink a lot of milk.",
+          "es": "Los niños toman mucha leche."
+        }
       ]
     }
   },
@@ -408,8 +486,14 @@
         "merienda": "'merienda' se puede decir 'snack', no 'dessert'."
       },
       "examples": [
-        "We have ice cream for dessert.",
-        "The Sahara is a big desert."
+        {
+          "en": "We have ice cream for dessert.",
+          "es": "De postre comemos helado."
+        },
+        {
+          "en": "The Sahara is a big desert.",
+          "es": "El Sahara es un desierto grande."
+        }
       ]
     }
   },
@@ -438,8 +522,14 @@
         "dessert": "'dessert' es el postre, y tostadas con café no es un postre."
       },
       "examples": [
-        "I have breakfast at home.",
-        "We have lunch at 2 p.m."
+        {
+          "en": "I have breakfast at home.",
+          "es": "Desayuno en casa."
+        },
+        {
+          "en": "We have lunch at 2 p.m.",
+          "es": "Almorzamos a las 2 p. m."
+        }
       ]
     }
   },
@@ -467,8 +557,14 @@
         "garden": "'garden' es el jardín, que está fuera de la casa."
       },
       "examples": [
-        "My bedroom is small.",
-        "There are three bedrooms in our flat."
+        {
+          "en": "My bedroom is small.",
+          "es": "Mi habitación es pequeña."
+        },
+        {
+          "en": "There are three bedrooms in our flat.",
+          "es": "Nuestro departamento tiene tres habitaciones."
+        }
       ]
     }
   },
@@ -496,8 +592,14 @@
         "garage": "'garage' es el garaje, para el coche."
       },
       "examples": [
-        "The kitchen is next to the living room.",
-        "My mum is in the kitchen."
+        {
+          "en": "The kitchen is next to the living room.",
+          "es": "La cocina está al lado de la sala."
+        },
+        {
+          "en": "My mum is in the kitchen.",
+          "es": "Mi mamá está en la cocina."
+        }
       ]
     }
   },
@@ -526,8 +628,14 @@
         "bath": "'bath' es la bañera, está en el baño."
       },
       "examples": [
-        "The cat is sleeping on the sofa.",
-        "Our sofa is very comfortable."
+        {
+          "en": "The cat is sleeping on the sofa.",
+          "es": "El gato está durmiendo en el sofá."
+        },
+        {
+          "en": "Our sofa is very comfortable.",
+          "es": "Nuestro sofá es muy cómodo."
+        }
       ]
     }
   },
@@ -555,8 +663,14 @@
         "hands": "'hands' son las manos: sirven para tocar (touch)."
       },
       "examples": [
-        "She has green eyes.",
-        "Close your eyes."
+        {
+          "en": "She has green eyes.",
+          "es": "Ella tiene los ojos verdes."
+        },
+        {
+          "en": "Close your eyes.",
+          "es": "Cierra los ojos."
+        }
       ]
     }
   },
@@ -585,8 +699,14 @@
         "legs": "'legs' son las piernas: los zapatos van en los pies, no en las piernas."
       },
       "examples": [
-        "My feet are cold.",
-        "He has big feet."
+        {
+          "en": "My feet are cold.",
+          "es": "Tengo los pies fríos."
+        },
+        {
+          "en": "He has big feet.",
+          "es": "Él tiene los pies grandes."
+        }
       ]
     }
   },
@@ -614,8 +734,14 @@
         "cuello": "'cuello' en inglés es 'neck'."
       },
       "examples": [
-        "I have a headache.",
-        "Put your hat on your head."
+        {
+          "en": "I have a headache.",
+          "es": "Me duele la cabeza."
+        },
+        {
+          "en": "Put your hat on your head.",
+          "es": "Ponte el sombrero en la cabeza."
+        }
       ]
     }
   },
@@ -643,8 +769,14 @@
         "swimsuit": "'swimsuit' es el bañador: es para la playa o la piscina."
       },
       "examples": [
-        "Take your coat, it's cold.",
-        "Her coat is black."
+        {
+          "en": "Take your coat, it's cold.",
+          "es": "Llévate el abrigo, hace frío."
+        },
+        {
+          "en": "Her coat is black.",
+          "es": "Su abrigo es negro."
+        }
       ]
     }
   },
@@ -672,8 +804,14 @@
         "zapatos": "'zapatos' en inglés es 'shoes'."
       },
       "examples": [
-        "These trousers are too long.",
-        "He's wearing blue trousers."
+        {
+          "en": "These trousers are too long.",
+          "es": "Estos pantalones son demasiado largos."
+        },
+        {
+          "en": "He's wearing blue trousers.",
+          "es": "Él lleva pantalones azules."
+        }
       ]
     }
   },
@@ -701,8 +839,14 @@
         "belt": "'belt' es un cinturón: va en la cintura."
       },
       "examples": [
-        "I wear a hat in summer.",
-        "That's a nice hat!"
+        {
+          "en": "I wear a hat in summer.",
+          "es": "En verano uso sombrero."
+        },
+        {
+          "en": "That's a nice hat!",
+          "es": "¡Qué lindo sombrero!"
+        }
       ]
     }
   },
@@ -730,8 +874,14 @@
         "farmer": "'farmer' es granjero: trabaja en el campo con animales y plantas."
       },
       "examples": [
-        "My mother is a nurse.",
-        "The nurse is very kind."
+        {
+          "en": "My mother is a nurse.",
+          "es": "Mi mamá es enfermera."
+        },
+        {
+          "en": "The nurse is very kind.",
+          "es": "La enfermera es muy amable."
+        }
       ]
     }
   },
@@ -759,8 +909,14 @@
         "conductor": "'conductor' (de coche o autobús) en inglés es 'driver'."
       },
       "examples": [
-        "The waiter brings the menu.",
-        "She works as a waitress in a café."
+        {
+          "en": "The waiter brings the menu.",
+          "es": "El mesero trae el menú."
+        },
+        {
+          "en": "She works as a waitress in a café.",
+          "es": "Ella trabaja de mesera en una cafetería."
+        }
       ]
     }
   },
@@ -788,8 +944,14 @@
         "chef": "'chef' es cocinero: trabaja en una cocina."
       },
       "examples": [
-        "The taxi driver is friendly.",
-        "My sister is a lorry driver."
+        {
+          "en": "The taxi driver is friendly.",
+          "es": "El taxista es amable."
+        },
+        {
+          "en": "My sister is a lorry driver.",
+          "es": "Mi hermana es camionera."
+        }
       ]
     }
   },
@@ -817,8 +979,14 @@
         "dry": "'dry' es seco: si está seco no llueve, no necesitas paraguas."
       },
       "examples": [
-        "It's raining again!",
-        "It rains a lot in London."
+        {
+          "en": "It's raining again!",
+          "es": "¡Está lloviendo otra vez!"
+        },
+        {
+          "en": "It rains a lot in London.",
+          "es": "En Londres llueve mucho."
+        }
       ]
     }
   },
@@ -846,8 +1014,14 @@
         "blows": "'blows' es soplar (el viento): el viento no deja todo blanco."
       },
       "examples": [
-        "It snows in the mountains.",
-        "The children play in the snow."
+        {
+          "en": "It snows in the mountains.",
+          "es": "En las montañas nieva."
+        },
+        {
+          "en": "The children play in the snow.",
+          "es": "Los niños juegan en la nieve."
+        }
       ]
     }
   },
@@ -876,8 +1050,14 @@
         "It does cold.": "'do' no se usa para el tiempo. Lo correcto es 'It's cold'."
       },
       "examples": [
-        "It's cold in January.",
-        "It's very hot today."
+        {
+          "en": "It's cold in January.",
+          "es": "En enero hace frío."
+        },
+        {
+          "en": "It's very hot today.",
+          "es": "Hoy hace mucho calor."
+        }
       ]
     }
   },
@@ -905,8 +1085,14 @@
         "cut": "'cut' es cortar: no tiene sentido con los dientes."
       },
       "examples": [
-        "Brush your teeth before bed.",
-        "I brush my teeth twice a day."
+        {
+          "en": "Brush your teeth before bed.",
+          "es": "Lávate los dientes antes de dormir."
+        },
+        {
+          "en": "I brush my teeth twice a day.",
+          "es": "Me lavo los dientes dos veces al día."
+        }
       ]
     }
   },
@@ -934,8 +1120,14 @@
         "take": "'take dressed' no existe. 'Vestirse' es 'get dressed'."
       },
       "examples": [
-        "I get dressed quickly in the morning.",
-        "She gets dressed after breakfast."
+        {
+          "en": "I get dressed quickly in the morning.",
+          "es": "En la mañana me visto rápido."
+        },
+        {
+          "en": "She gets dressed after breakfast.",
+          "es": "Ella se viste después del desayuno."
+        }
       ]
     }
   },
@@ -963,8 +1155,14 @@
         "ducharse": "'ducharse' es 'have a shower' o 'take a shower'."
       },
       "examples": [
-        "I go to bed at eleven.",
-        "The children go to bed early."
+        {
+          "en": "I go to bed at eleven.",
+          "es": "Me acuesto a las once."
+        },
+        {
+          "en": "The children go to bed early.",
+          "es": "Los niños se acuestan temprano."
+        }
       ]
     }
   },
@@ -992,8 +1190,14 @@
         "It's half to seven.": "En inglés no se usa 'half to'. Para las 7:30 se dice 'half past seven'."
       },
       "examples": [
-        "It's half past three.",
-        "The film starts at half past eight."
+        {
+          "en": "It's half past three.",
+          "es": "Son las tres y media."
+        },
+        {
+          "en": "The film starts at half past eight.",
+          "es": "La película empieza a las ocho y media."
+        }
       ]
     }
   },
@@ -1021,8 +1225,14 @@
         "and": "En español decimos 'las tres y cuarto', pero en inglés no se usa 'and': se dice 'a quarter past'."
       },
       "examples": [
-        "It's a quarter past ten.",
-        "We meet at a quarter to six."
+        {
+          "en": "It's a quarter past ten.",
+          "es": "Son las diez y cuarto."
+        },
+        {
+          "en": "We meet at a quarter to six.",
+          "es": "Nos vemos a las seis menos cuarto."
+        }
       ]
     }
   },
@@ -1051,8 +1261,14 @@
         "to": "'to' en las horas significa 'menos' (a quarter to nine); aquí necesitas 'at'."
       },
       "examples": [
-        "The bus leaves at 8 o'clock.",
-        "I have lunch at two."
+        {
+          "en": "The bus leaves at 8 o'clock.",
+          "es": "El autobús sale a las 8 en punto."
+        },
+        {
+          "en": "I have lunch at two.",
+          "es": "Almuerzo a las dos."
+        }
       ]
     }
   },
@@ -1080,8 +1296,14 @@
         "fat": "'fat' es gordo, no el opuesto de 'big'. El opuesto de 'fat' es 'thin'."
       },
       "examples": [
-        "Our house is big, but the garden is small.",
-        "I have a small dog."
+        {
+          "en": "Our house is big, but the garden is small.",
+          "es": "Nuestra casa es grande, pero el jardín es pequeño."
+        },
+        {
+          "en": "I have a small dog.",
+          "es": "Tengo un perro pequeño."
+        }
       ]
     }
   },
@@ -1109,8 +1331,14 @@
         "small": "'small' es pequeño: es el opuesto de 'big', no de 'young'."
       },
       "examples": [
-        "My car is old.",
-        "He is young, only 20."
+        {
+          "en": "My car is old.",
+          "es": "Mi carro es viejo."
+        },
+        {
+          "en": "He is young, only 20.",
+          "es": "Él es joven, tiene solo 20 años."
+        }
       ]
     }
   },
@@ -1138,8 +1366,14 @@
         "poor": "'poor' es pobre, lo opuesto de 'rich', no de 'cheap'."
       },
       "examples": [
-        "This phone is very expensive.",
-        "The bus is cheap."
+        {
+          "en": "This phone is very expensive.",
+          "es": "Este teléfono es muy caro."
+        },
+        {
+          "en": "The bus is cheap.",
+          "es": "El autobús es barato."
+        }
       ]
     }
   },
@@ -1167,8 +1401,14 @@
         "I'm a student.": "Eso responde a 'What do you do?' (¿a qué te dedicas?)."
       },
       "examples": [
-        "How are you? – I'm good, thanks.",
-        "I'm fine, thank you. And you?"
+        {
+          "en": "How are you? – I'm good, thanks.",
+          "es": "¿Cómo estás? – Bien, gracias."
+        },
+        {
+          "en": "I'm fine, thank you. And you?",
+          "es": "Estoy bien, gracias. ¿Y tú?"
+        }
       ]
     }
   },
@@ -1196,8 +1436,14 @@
         "find": "'find' es encontrar algo que buscas. Al conocer a alguien se dice 'meet'."
       },
       "examples": [
-        "Nice to meet you, too!",
-        "It's nice to meet you, Mr Brown."
+        {
+          "en": "Nice to meet you, too!",
+          "es": "¡Igualmente, mucho gusto!"
+        },
+        {
+          "en": "It's nice to meet you, Mr Brown.",
+          "es": "Mucho gusto, señor Brown."
+        }
       ]
     }
   },
@@ -1225,8 +1471,14 @@
         "night": "'Good night' no es un saludo: se usa para despedirse por la noche o antes de dormir."
       },
       "examples": [
-        "Good morning, Mrs Smith!",
-        "Good afternoon, how can I help you?"
+        {
+          "en": "Good morning, Mrs Smith!",
+          "es": "¡Buenos días, señora Smith!"
+        },
+        {
+          "en": "Good afternoon, how can I help you?",
+          "es": "Buenas tardes, ¿en qué le puedo ayudar?"
+        }
       ]
     }
   },
@@ -1254,8 +1506,14 @@
         "Is Mark.": "En inglés la frase necesita sujeto. Se dice 'This is Mark'."
       },
       "examples": [
-        "This is my sister, Ana.",
-        "Mum, this is my friend Leo."
+        {
+          "en": "This is my sister, Ana.",
+          "es": "Ella es mi hermana, Ana."
+        },
+        {
+          "en": "Mum, this is my friend Leo.",
+          "es": "Mamá, este es mi amigo Leo."
+        }
       ]
     }
   },
@@ -1283,8 +1541,14 @@
         "bank": "'bank' es el banco: allí guardas dinero, no compras pan."
       },
       "examples": [
-        "The bakery opens at 7 a.m.",
-        "I buy cakes at the bakery."
+        {
+          "en": "The bakery opens at 7 a.m.",
+          "es": "La panadería abre a las 7 a. m."
+        },
+        {
+          "en": "I buy cakes at the bakery.",
+          "es": "Compro pasteles en la panadería."
+        }
       ]
     }
   },
@@ -1312,8 +1576,14 @@
         "bakery": "'bakery' es la panadería."
       },
       "examples": [
-        "Let's go to the cinema!",
-        "The cinema is near the park."
+        {
+          "en": "Let's go to the cinema!",
+          "es": "¡Vamos al cine!"
+        },
+        {
+          "en": "The cinema is near the park.",
+          "es": "El cine está cerca del parque."
+        }
       ]
     }
   },
@@ -1341,8 +1611,14 @@
         "post office": "'post office' es la oficina de correos, para enviar cartas."
       },
       "examples": [
-        "The train station is very big.",
-        "Where is the bus station?"
+        {
+          "en": "The train station is very big.",
+          "es": "La estación de tren es muy grande."
+        },
+        {
+          "en": "Where is the bus station?",
+          "es": "¿Dónde está la terminal de autobuses?"
+        }
       ]
     }
   },
@@ -1371,8 +1647,14 @@
         "cartera": "'cartera' en inglés es 'wallet'."
       },
       "examples": [
-        "There's a red carpet in the living room.",
-        "Put your papers in a folder."
+        {
+          "en": "There's a red carpet in the living room.",
+          "es": "Hay una alfombra roja en la sala."
+        },
+        {
+          "en": "Put your papers in a folder.",
+          "es": "Pon tus papeles en una carpeta."
+        }
       ]
     }
   },
@@ -1401,8 +1683,14 @@
         "examen": "'examen' en inglés es 'exam' o 'test'."
       },
       "examples": [
-        "Where is the exit?",
-        "The exit is on the left."
+        {
+          "en": "Where is the exit?",
+          "es": "¿Dónde está la salida?"
+        },
+        {
+          "en": "The exit is on the left.",
+          "es": "La salida está a la izquierda."
+        }
       ]
     }
   },
@@ -1431,8 +1719,14 @@
         "little": "'little' es pequeño: lo contrario de la talla L."
       },
       "examples": [
-        "I need a large T-shirt.",
-        "Can I have a large coffee, please?"
+        {
+          "en": "I need a large T-shirt.",
+          "es": "Necesito una camiseta talla grande."
+        },
+        {
+          "en": "Can I have a large coffee, please?",
+          "es": "¿Me da un café grande, por favor?"
+        }
       ]
     }
   },
@@ -1461,8 +1755,14 @@
         "tall": "'tall' es alto y se usa para personas o edificios, no para el pelo."
       },
       "examples": [
-        "She has long black hair.",
-        "It's a long street."
+        {
+          "en": "She has long black hair.",
+          "es": "Ella tiene el pelo largo y negro."
+        },
+        {
+          "en": "It's a long street.",
+          "es": "Es una calle larga."
+        }
       ]
     }
   }
