@@ -59,6 +59,14 @@ describe("API", () => {
     }
   });
 
+  it("permite partidas de hasta 100 preguntas", async () => {
+    const res = await app.inject({ method: "GET", url: "/api/questions/sample?count=100&mode=quiz" });
+    expect(res.json()).toHaveLength(100);
+    expect(new Set(res.json().map((q: { id: string }) => q.id)).size).toBe(100);
+    const tooMany = await app.inject({ method: "GET", url: "/api/questions/sample?count=101" });
+    expect(tooMany.statusCode).toBe(400);
+  });
+
   it("filtra por grupo de niveles", async () => {
     const res = await app.inject({ method: "GET", url: "/api/questions/sample?count=20&group=basico" });
     const body = res.json();

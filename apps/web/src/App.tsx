@@ -23,11 +23,15 @@ import {
 type State =
   | { phase: "modes" }
   | { phase: "choose" }
+  | { phase: "amount" }
   | { phase: "rally" }
   | { phase: "loading" }
   | { phase: "error"; message: string }
   | { phase: "playing"; questions: PublicQuestion[]; index: number; score: number; result?: { choice: number; answer: AnswerResult } }
   | { phase: "done"; score: number; total: number };
+
+/** Máximo que acepta la API en una partida. */
+const MAX_QUESTIONS = 100;
 
 // Si volvemos de Google o Facebook con un error, se muestra en el formulario.
 const authResult = takeAuthResult();
@@ -39,6 +43,8 @@ export function App() {
   const [state, setState] = useState<State>({ phase: "modes" });
   const [mode, setMode] = useState<GameMode>("mezcla");
   const [group, setGroup] = useState<LevelGroup>("basico");
+  const [amount, setAmount] = useState(5);
+  const [manual, setManual] = useState("");
   const [counts, setCounts] = useState<Partial<Record<LevelGroup, number>>>({});
   const [user, setUser] = useState<User | null>(null);
   const [showAuth, setShowAuth] = useState(!!oauthError);
@@ -46,14 +52,15 @@ export function App() {
 
   const modeName = GAME_MODES.find((m) => m.id === mode)?.name;
 
-  const start = (chosen: LevelGroup = group) => {
+  const start = (chosen: LevelGroup = group, howMany = amount) => {
     setGroup(chosen);
+    setAmount(howMany);
     if (mode === "rally") {
       setState({ phase: "rally" });
       return;
     }
     setState({ phase: "loading" });
-    fetchQuestions(mode, chosen, 5)
+    fetchQuestions(mode, chosen, mode === "quiz" ? howMany : 5)
       .then((questions) => setState({ phase: "playing", questions, index: 0, score: 0 }))
       .catch((e: Error) => setState({ phase: "error", message: e.message }));
   };
@@ -160,7 +167,16 @@ export function App() {
             {LEVEL_GROUPS.map((g) => {
               const soon = counts[g.id] === 0;
               return (
-                <button key={g.id} className="option level" onClick={() => start(g.id)} disabled={soon}>
+                <button
+                  key={g.id}
+                  className="option level"
+                  onClick={() => {
+                    if (mode !== "quiz") return start(g.id);
+                    setGroup(g.id);
+                    setState({ phase: "amount" });
+                  }}
+                  disabled={soon}
+                >
                   <span>{g.name}</span>
                   <span className="muted">{soon ? "Próximamente" : g.levels}</span>
                 </button>
@@ -170,6 +186,49 @@ export function App() {
           <div className="actions">
             <button className="link" onClick={() => setState({ phase: "modes" })}>
               Volver a los modos de juego
+            </button>
+          </div>
+        </section>
+      )}
+      {!showAuth && state.phase === "amount" && (
+        <section className="card">
+          <p className="muted">
+            {modeName} · {LEVEL_GROUPS.find((g) => g.id === group)?.name}
+          </p>
+          <h2>¿Cuántas preguntas?</h2>
+          <div className="levels">
+            {[5, 10, 20].map((n) => (
+              <button key={n} className="option level" onClick={() => start(group, n)}>
+                <span>{n} preguntas</span>
+              </button>
+            ))}
+          </div>
+          <form
+            className="manual"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const n = Number(manual);
+              if (Number.isInteger(n) && n >= 1 && n <= MAX_QUESTIONS) start(group, n);
+            }}
+          >
+            <label>
+              Manual
+              <input
+                type="number"
+                inputMode="numeric"
+                min={1}
+                max={MAX_QUESTIONS}
+                placeholder={`1 a ${MAX_QUESTIONS}`}
+                value={manual}
+                onChange={(e) => setManual(e.target.value)}
+                required
+              />
+            </label>
+            <button type="submit">Empezar</button>
+          </form>
+          <div className="actions">
+            <button className="link" onClick={() => setState({ phase: "choose" })}>
+              Cambiar nivel
             </button>
           </div>
         </section>
